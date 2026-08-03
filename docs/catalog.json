@@ -1,9 +1,9 @@
 {
   "schema_version": "0.3.0",
   "generated_at": "2026-08-03",
-  "site_url": "https://naser.github.io/naser-publications/",
-  "schema_url": "https://naser.github.io/naser-publications/schemas/paper.schema.json",
-  "vocabulary_url": "https://naser.github.io/naser-publications/schemas/vocabularies.json",
+  "site_url": "https://naser.github.io/research-publications/",
+  "schema_url": "https://naser.github.io/research-publications/schemas/paper.schema.json",
+  "vocabulary_url": "https://naser.github.io/research-publications/schemas/vocabularies.json",
   "batch": "phase-1-initial-ten",
   "records": [
     {
@@ -13,7 +13,7 @@
       "page": "papers/depgraph/README.md",
       "json": "papers/depgraph/paper.json",
       "bibtex": "papers/depgraph/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/depgraph/",
+      "page_url": "https://naser.github.io/research-publications/papers/depgraph/",
       "canonical_url": "https://doi.org/10.1109/SCAM51674.2020.00022",
       "status": "public_preprint_and_published_record",
       "versions": [
@@ -49,7 +49,7 @@
       "page": "papers/automatic-cause-detection-web-applications/README.md",
       "json": "papers/automatic-cause-detection-web-applications/paper.json",
       "bibtex": "papers/automatic-cause-detection-web-applications/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/automatic-cause-detection-web-applications/",
+      "page_url": "https://naser.github.io/research-publications/papers/automatic-cause-detection-web-applications/",
       "canonical_url": "https://doi.org/10.1109/ISSREW.2019.00102",
       "status": "public_preprint_and_published_record",
       "versions": [
@@ -86,7 +86,7 @@
       "page": "papers/automated-cause-analysis-latency-outliers/README.md",
       "json": "papers/automated-cause-analysis-latency-outliers/paper.json",
       "bibtex": "papers/automated-cause-analysis-latency-outliers/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/automated-cause-analysis-latency-outliers/",
+      "page_url": "https://naser.github.io/research-publications/papers/automated-cause-analysis-latency-outliers/",
       "canonical_url": "https://doi.org/10.1109/QRS54544.2021.00054",
       "status": "public_preprint_and_published_record",
       "versions": [
@@ -123,7 +123,7 @@
       "page": "papers/picturing-ambiguity-winograd-schema/README.md",
       "json": "papers/picturing-ambiguity-winograd-schema/paper.json",
       "bibtex": "papers/picturing-ambiguity-winograd-schema/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/picturing-ambiguity-winograd-schema/",
+      "page_url": "https://naser.github.io/research-publications/papers/picturing-ambiguity-winograd-schema/",
       "canonical_url": "https://doi.org/10.18653/v1/2024.acl-long.22",
       "status": "public_preprint_and_published_record",
       "versions": [
@@ -160,7 +160,7 @@
       "page": "papers/gnn-link-prediction-microservices/README.md",
       "json": "papers/gnn-link-prediction-microservices/paper.json",
       "bibtex": "papers/gnn-link-prediction-microservices/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/gnn-link-prediction-microservices/",
+      "page_url": "https://naser.github.io/research-publications/papers/gnn-link-prediction-microservices/",
       "canonical_url": "https://doi.org/10.1145/3676151.3719362",
       "status": "public_preprint_and_published_record",
       "versions": [
@@ -197,7 +197,7 @@
       "page": "papers/optimization-transformers-llms/README.md",
       "json": "papers/optimization-transformers-llms/paper.json",
       "bibtex": "papers/optimization-transformers-llms/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/optimization-transformers-llms/",
+      "page_url": "https://naser.github.io/research-publications/papers/optimization-transformers-llms/",
       "canonical_url": "https://doi.org/10.1145/3676151.3719379",
       "status": "public_preprint_and_published_record",
       "versions": [
@@ -235,7 +235,7 @@
       "page": "papers/deba-adaptive-batch-scheduling/README.md",
       "json": "papers/deba-adaptive-batch-scheduling/paper.json",
       "bibtex": "papers/deba-adaptive-batch-scheduling/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/deba-adaptive-batch-scheduling/",
+      "page_url": "https://naser.github.io/research-publications/papers/deba-adaptive-batch-scheduling/",
       "canonical_url": "https://arxiv.org/abs/2511.03809",
       "status": "public_arxiv_preprint",
       "versions": [
@@ -269,7 +269,7 @@
       "page": "papers/taaf-trace-abstraction-analysis-framework/README.md",
       "json": "papers/taaf-trace-abstraction-analysis-framework/paper.json",
       "bibtex": "papers/taaf-trace-abstraction-analysis-framework/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/taaf-trace-abstraction-analysis-framework/",
+      "page_url": "https://naser.github.io/research-publications/papers/taaf-trace-abstraction-analysis-framework/",
       "canonical_url": "https://doi.org/10.1145/3744916.3787832",
       "status": "public_arxiv_preprint_with_publication_signal",
       "versions": [
@@ -307,7 +307,7 @@
       "page": "papers/automatic-reduction-execution-trace-data-volume/README.md",
       "json": "papers/automatic-reduction-execution-trace-data-volume/paper.json",
       "bibtex": "papers/automatic-reduction-execution-trace-data-volume/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/automatic-reduction-execution-trace-data-volume/",
+      "page_url": "https://naser.github.io/research-publications/papers/automatic-reduction-execution-trace-data-volume/",
       "canonical_url": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
       "status": "public_cc_by_article_page",
       "versions": [
@@ -345,7 +345,7 @@
       "page": "papers/enhanced-trace-abstraction-social-network-analysis/README.md",
       "json": "papers/enhanced-trace-abstraction-social-network-analysis/paper.json",
       "bibtex": "papers/enhanced-trace-abstraction-social-network-analysis/citation.bib",
-      "page_url": "https://naser.github.io/naser-publications/papers/enhanced-trace-abstraction-social-network-analysis/",
+      "page_url": "https://naser.github.io/research-publications/papers/enhanced-trace-abstraction-social-network-analysis/",
       "canonical_url": "https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf",
       "status": "public_direct_pdf",
       "versions": [
