@@ -1,0 +1,108 @@
+{
+  "slug": "taaf-trace-abstraction-analysis-framework",
+  "record_id": "taaf-a-trace-abstraction-and-analysis-framework-synergizing-knowledge-graphs-and-llms-00e7e01d64",
+  "linked_record_ids": [],
+  "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
+  "authors": [
+    "Alireza Ezaz",
+    "Ghazal Khodabandeh",
+    "Majid Babaei",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2026,
+    "venue": "arXiv / CoRR; arXiv page reports acceptance to ICSE 2026",
+    "type": "preprint with publication signal"
+  },
+  "identifiers": {
+    "doi": "10.1145/3744916.3787832",
+    "arxiv": "2601.02632",
+    "arxiv_doi": "10.48550/arXiv.2601.02632"
+  },
+  "abstract_source": "official arXiv:2601.02632 abstract",
+  "tags": [
+    "kernel-tracing",
+    "trace-analysis",
+    "knowledge-graphs",
+    "llm-assisted-analysis",
+    "observability"
+  ],
+  "keywords": [
+    "TAAF",
+    "TraceQA-100",
+    "time-indexed knowledge graph",
+    "natural-language trace queries",
+    "multi-hop reasoning",
+    "causal reasoning"
+  ],
+  "summary": {
+    "core_contribution": "TAAF combines time-indexed knowledge graphs with large language models to turn large execution traces into queryable, actionable explanations.",
+    "problem": "Kernel and application traces can be massive, while existing tools depend on predefined analyses or custom scripts. This makes ad hoc questions slow and error-prone for analysts without deep system expertise.",
+    "method": "TAAF builds a time-indexed knowledge graph from trace events and extracts query-specific subgraphs. An LLM interprets those subgraphs to answer natural-language questions. The paper introduces the TraceQA-100 benchmark grounded in real kernel traces.",
+    "findings": "Across three LLMs and multiple temporal settings, the reported results improve answer accuracy by up to 31.2%, especially for multi-hop and causal questions. The analysis also documents cases where graph grounding remains insufficient.",
+    "limitations_future_work": "The approach depends on trace representation quality, graph construction choices, LLM reliability, and benchmark coverage. Future work should evaluate more systems, cost and latency, robustness to incomplete traces, and safe integration into operational diagnosis."
+  },
+  "access": {
+    "status": "public_arxiv_preprint_with_publication_signal",
+    "primary_url": "https://doi.org/10.1145/3744916.3787832",
+    "pdf_url": "https://arxiv.org/pdf/2601.02632",
+    "note": "The arXiv page reports acceptance to ICSE 2026 and lists the ACM DOI; the publication record should be rechecked when the final proceedings metadata is available."
+  },
+  "versions": [
+    {
+      "label": "Publication DOI listed on arXiv page",
+      "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
+      "url": "https://doi.org/10.1145/3744916.3787832",
+      "status": "publication_signal"
+    },
+    {
+      "label": "Public preprint",
+      "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
+      "url": "https://arxiv.org/abs/2601.02632",
+      "pdf_url": "https://arxiv.org/pdf/2601.02632",
+      "status": "public_full_text"
+    }
+  ],
+  "evidence": [
+    "official arXiv abstract, metadata, and PDF page 2601.02632",
+    "arXiv page comment containing the ICSE 2026 acceptance and ACM DOI",
+    "local PDF hash verified in the working catalog"
+  ],
+  "schema_version": "0.2.0",
+  "paper_id": "taaf-trace-abstraction-analysis-framework",
+  "catalog_record_id": "taaf-a-trace-abstraction-and-analysis-framework-synergizing-knowledge-graphs-and-llms-00e7e01d64",
+  "title_variants": [],
+  "abstract": null,
+  "source_links": [
+    {
+      "label": "Publication DOI listed on arXiv page",
+      "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
+      "url": "https://doi.org/10.1145/3744916.3787832",
+      "status": "publication_signal"
+    },
+    {
+      "label": "Public preprint",
+      "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
+      "url": "https://arxiv.org/abs/2601.02632",
+      "pdf_url": "https://arxiv.org/pdf/2601.02632",
+      "status": "public_full_text"
+    }
+  ],
+  "provenance": {
+    "verified_at": "2026-08-03",
+    "evidence": [
+      "official arXiv abstract, metadata, and PDF page 2601.02632",
+      "arXiv page comment containing the ICSE 2026 acceptance and ACM DOI",
+      "local PDF hash verified in the working catalog"
+    ],
+    "source_record": "taaf-a-trace-abstraction-and-analysis-framework-synergizing-knowledge-graphs-and-llms-00e7e01d64",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "github_batch": {
+    "phase": 1,
+    "batch_label": "initial ten-paper release",
+    "status": "selected_for_initial_publication",
+    "selected_at": "2026-08-03"
+  }
+}

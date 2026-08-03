@@ -1,0 +1,111 @@
+{
+  "slug": "optimization-transformers-llms",
+  "record_id": "optimization-strategies-for-enhancing-resource-efficiency-in-transformers-large-language-models-7ca6f37154",
+  "linked_record_ids": [],
+  "title": "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models",
+  "authors": [
+    "Tom Wallace",
+    "Beatrice M. Ombuki-Berman",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2025,
+    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
+    "type": "short conference paper"
+  },
+  "identifiers": {
+    "doi": "10.1145/3676151.3719379",
+    "arxiv": "2502.00046"
+  },
+  "title_variants": [
+    "Optimization Strategies for Enhancing Resource Efficiency in Transformers and Large Language Models"
+  ],
+  "author_order_note": "The published-record metadata is used for citation order; the arXiv page presents a different author ordering, so the versions should remain distinguishable.",
+  "abstract_source": "arXiv:2502.00046 abstract; public preprint version",
+  "tags": [
+    "llm-efficiency",
+    "energy-efficiency",
+    "model-compression",
+    "performance-engineering"
+  ],
+  "keywords": [
+    "transformers",
+    "quantization",
+    "knowledge distillation",
+    "pruning",
+    "4-bit quantization",
+    "Minitron",
+    "sustainable AI"
+  ],
+  "summary": {
+    "core_contribution": "The paper compares compression and optimization strategies for reducing the resource cost of Transformer and large-language-model workloads while retaining useful accuracy.",
+    "problem": "Growing model size increases computational and energy demands. Researchers and practitioners need clearer trade-offs among quantization, distillation, pruning, model size, and retained task performance.",
+    "method": "The study examines quantization, knowledge distillation, and pruning, including hybrid approaches such as NVIDIA's Minitron strategy. It proposes an optimization equation for comparing resource and performance trade-offs.",
+    "findings": "The reported analysis identifies 4-bit quantization as a strong standalone efficiency option with limited accuracy loss. Hybrid distillation and structured-pruning approaches also show promising size and accuracy trade-offs.",
+    "limitations_future_work": "The comparison is not a complete hardware- and workload-independent characterization of every compression method. Future work should evaluate larger model families, realistic serving workloads, hardware effects, and standardized energy measurements."
+  },
+  "access": {
+    "status": "public_preprint_and_published_record",
+    "primary_url": "https://doi.org/10.1145/3676151.3719379",
+    "pdf_url": "https://arxiv.org/pdf/2502.00046",
+    "note": "The ACM DOI is the canonical citation target; the arXiv preprint provides public full text."
+  },
+  "versions": [
+    {
+      "label": "Published version",
+      "title": "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models",
+      "url": "https://doi.org/10.1145/3676151.3719379",
+      "status": "published"
+    },
+    {
+      "label": "Public preprint",
+      "title": "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models",
+      "url": "https://arxiv.org/abs/2502.00046",
+      "pdf_url": "https://arxiv.org/pdf/2502.00046",
+      "status": "public_full_text"
+    }
+  ],
+  "evidence": [
+    "DBLP and ACM DOI metadata",
+    "official arXiv abstract and PDF page 2502.00046",
+    "local PDF hash verified in the working catalog",
+    "author-order discrepancy explicitly retained"
+  ],
+  "schema_version": "0.2.0",
+  "paper_id": "optimization-transformers-llms",
+  "catalog_record_id": "optimization-strategies-for-enhancing-resource-efficiency-in-transformers-large-language-models-7ca6f37154",
+  "abstract": null,
+  "source_links": [
+    {
+      "label": "Published version",
+      "title": "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models",
+      "url": "https://doi.org/10.1145/3676151.3719379",
+      "status": "published"
+    },
+    {
+      "label": "Public preprint",
+      "title": "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models",
+      "url": "https://arxiv.org/abs/2502.00046",
+      "pdf_url": "https://arxiv.org/pdf/2502.00046",
+      "status": "public_full_text"
+    }
+  ],
+  "provenance": {
+    "verified_at": "2026-08-03",
+    "evidence": [
+      "DBLP and ACM DOI metadata",
+      "official arXiv abstract and PDF page 2502.00046",
+      "local PDF hash verified in the working catalog",
+      "author-order discrepancy explicitly retained"
+    ],
+    "source_record": "optimization-strategies-for-enhancing-resource-efficiency-in-transformers-large-language-models-7ca6f37154",
+    "linked_preprint_record": null,
+    "author_order_note": "The published-record metadata is used for citation order; the arXiv page presents a different author ordering, so the versions should remain distinguishable."
+  },
+  "github_batch": {
+    "phase": 1,
+    "batch_label": "initial ten-paper release",
+    "status": "selected_for_initial_publication",
+    "selected_at": "2026-08-03"
+  }
+}

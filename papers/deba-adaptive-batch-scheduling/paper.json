@@ -1,0 +1,95 @@
+{
+  "slug": "deba-adaptive-batch-scheduling",
+  "record_id": "one-size-does-not-fit-all-architecture-aware-adaptive-batch-scheduling-with-deba-0e6b5df3ab",
+  "linked_record_ids": [],
+  "title": "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA",
+  "authors": [
+    "FranÃ§ois Belias",
+    "Naser Ezzati-Jivan",
+    "Foutse Khomh"
+  ],
+  "publication": {
+    "year": 2025,
+    "venue": "arXiv / CoRR",
+    "type": "preprint"
+  },
+  "identifiers": {
+    "doi": "10.48550/arXiv.2511.03809",
+    "arxiv": "2511.03809"
+  },
+  "abstract_source": "official arXiv:2511.03809 abstract",
+  "tags": [
+    "deep-learning-systems",
+    "adaptive-scheduling",
+    "performance-optimization",
+    "architecture-aware-methods"
+  ],
+  "keywords": [
+    "DEBA",
+    "adaptive batch size",
+    "gradient variance",
+    "training speedup",
+    "ResNet",
+    "DenseNet",
+    "EfficientNet",
+    "ViT"
+  ],
+  "summary": {
+    "core_contribution": "DEBA is an architecture-aware adaptive batch scheduler that uses training-stability signals to decide when and how to change batch size.",
+    "problem": "Existing adaptive batch-size methods often assume that one adaptation policy works equally well across neural-network architectures, even though architectures differ in optimization stability and sensitivity.",
+    "method": "DEBA monitors gradient variance, gradient-norm variation, and loss variation. The study evaluates it across six architectures, two datasets, five random seeds, and ablations of sliding-window statistics and cooldown periods.",
+    "findings": "The reported gains are architecture-dependent: lightweight and medium-depth models obtain 45â€“62% training speedups with 1â€“7% accuracy improvements, while ResNet-50 and ViT-B16 show weaker or more variable benefits.",
+    "limitations_future_work": "The study focuses on CIFAR-10/CIFAR-100 and six image-classification architectures. Future work should test larger datasets, modern language and vision models, distributed training, and workload-level energy or cost outcomes."
+  },
+  "access": {
+    "status": "public_arxiv_preprint",
+    "primary_url": "https://arxiv.org/abs/2511.03809",
+    "pdf_url": "https://arxiv.org/pdf/2511.03809",
+    "note": "This record is currently represented as a public arXiv preprint; no separate published DOI was verified in the catalog."
+  },
+  "versions": [
+    {
+      "label": "Public preprint",
+      "title": "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA",
+      "url": "https://arxiv.org/abs/2511.03809",
+      "pdf_url": "https://arxiv.org/pdf/2511.03809",
+      "status": "public_full_text"
+    }
+  ],
+  "evidence": [
+    "official arXiv abstract and PDF page 2511.03809",
+    "DBLP/Scholar record matched by title and authors",
+    "local PDF hash verified in the working catalog"
+  ],
+  "schema_version": "0.2.0",
+  "paper_id": "deba-adaptive-batch-scheduling",
+  "catalog_record_id": "one-size-does-not-fit-all-architecture-aware-adaptive-batch-scheduling-with-deba-0e6b5df3ab",
+  "title_variants": [],
+  "abstract": null,
+  "source_links": [
+    {
+      "label": "Public preprint",
+      "title": "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA",
+      "url": "https://arxiv.org/abs/2511.03809",
+      "pdf_url": "https://arxiv.org/pdf/2511.03809",
+      "status": "public_full_text"
+    }
+  ],
+  "provenance": {
+    "verified_at": "2026-08-03",
+    "evidence": [
+      "official arXiv abstract and PDF page 2511.03809",
+      "DBLP/Scholar record matched by title and authors",
+      "local PDF hash verified in the working catalog"
+    ],
+    "source_record": "one-size-does-not-fit-all-architecture-aware-adaptive-batch-scheduling-with-deba-0e6b5df3ab",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "github_batch": {
+    "phase": 1,
+    "batch_label": "initial ten-paper release",
+    "status": "selected_for_initial_publication",
+    "selected_at": "2026-08-03"
+  }
+}

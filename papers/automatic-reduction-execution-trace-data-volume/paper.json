@@ -1,0 +1,105 @@
+{
+  "slug": "automatic-reduction-execution-trace-data-volume",
+  "record_id": "automatic-reduction-of-execution-trace-data-volume-using-gradient-boosting-in-large-scale-micros-bd85452d56",
+  "linked_record_ids": [],
+  "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
+  "authors": [
+    "Amir Haghshenas",
+    "Naser Ezzati-Jivan",
+    "Michel Dagenais"
+  ],
+  "publication": {
+    "year": 2024,
+    "venue": "The 37th Canadian Conference on Artificial Intelligence",
+    "type": "conference paper"
+  },
+  "identifiers": {
+    "doi": "10.21428/594757db.fe8b76cf"
+  },
+  "title_variants": [
+    "Automatic Reduction of Execution Trace Data Volume UsingGradient Boosting in Large-Scale Microservice Systems (source-page rendering variant)"
+  ],
+  "abstract": "In large microservice systems, collecting too little or too much trace data can make performance modeling unreliable. This work introduces a two-phase gradient-boosting method that identifies the most important trace features for predicting CPU and memory demand. Using a comprehensive Alibaba dataset, the study reports more than 69% reduction in data volume without compromising, and sometimes improving, model accuracy. The retained features emphasize inter-service communication and resource-access patterns.",
+  "abstract_source": "official Canadian AI Proceedings PubPub page observed 2026-08-03",
+  "tags": [
+    "microservices",
+    "trace-reduction",
+    "gradient-boosting",
+    "performance-modeling",
+    "resource-analysis"
+  ],
+  "keywords": [
+    "trace data volume",
+    "feature importance",
+    "CPU demand",
+    "memory demand",
+    "Alibaba microservices",
+    "inter-service communication"
+  ],
+  "summary": {
+    "core_contribution": "The paper uses gradient boosting and feature importance to reduce the amount of trace data needed for microservice performance modeling.",
+    "problem": "Large-scale microservice traces are expensive to collect, store, and analyze, but reducing them arbitrarily can remove features needed for accurate CPU and memory prediction.",
+    "method": "A two-phase method identifies influential trace features and evaluates whether reduced feature sets preserve predictive performance. The evaluation uses a large Alibaba microservice dataset and examines the architectural meaning of retained features.",
+    "findings": "The PubPub article reports more than 69% data-volume reduction without loss of predictive accuracy, with some models improving. The retained features concentrate on inter-service communication and resource access.",
+    "limitations_future_work": "The results depend on the Alibaba dataset, selected prediction targets, and gradient-boosting models. Future work should test other microservice platforms, trace formats, workloads, prediction tasks, and online reduction policies."
+  },
+  "access": {
+    "status": "public_cc_by_article_page",
+    "primary_url": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
+    "pdf_url": null,
+    "note": "The official PubPub page exposes the full article, a Download action, and a CC-BY 4.0 license. The repository links the source page rather than copying the PDF."
+  },
+  "versions": [
+    {
+      "label": "Public published article",
+      "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
+      "url": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
+      "status": "public_full_text_page"
+    },
+    {
+      "label": "PubPub DOI",
+      "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
+      "url": "https://doi.org/10.21428/594757db.fe8b76cf",
+      "status": "doi"
+    }
+  ],
+  "evidence": [
+    "official Canadian AI Proceedings PubPub page",
+    "PubPub page reports CC-BY 4.0 and a Download action",
+    "DBLP metadata matched by title, authors, and year"
+  ],
+  "schema_version": "0.2.0",
+  "paper_id": "automatic-reduction-execution-trace-data-volume",
+  "catalog_record_id": "automatic-reduction-of-execution-trace-data-volume-using-gradient-boosting-in-large-scale-micros-bd85452d56",
+  "source_links": [
+    {
+      "label": "Public published article",
+      "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
+      "url": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
+      "status": "public_full_text_page"
+    },
+    {
+      "label": "PubPub DOI",
+      "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
+      "url": "https://doi.org/10.21428/594757db.fe8b76cf",
+      "status": "doi"
+    }
+  ],
+  "provenance": {
+    "verified_at": "2026-08-03",
+    "evidence": [
+      "official Canadian AI Proceedings PubPub page",
+      "PubPub page reports CC-BY 4.0 and a Download action",
+      "DBLP metadata matched by title, authors, and year"
+    ],
+    "source_record": "automatic-reduction-of-execution-trace-data-volume-using-gradient-boosting-in-large-scale-micros-bd85452d56",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "github_batch": {
+    "phase": 1,
+    "batch_label": "initial ten-paper release",
+    "status": "selected_for_initial_publication",
+    "selected_at": "2026-08-03"
+  }
+}

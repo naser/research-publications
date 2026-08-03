@@ -1,0 +1,108 @@
+{
+  "slug": "automatic-cause-detection-web-applications",
+  "record_id": "automatic-cause-detection-of-performance-problems-in-web-applications-8e07f9a9d4",
+  "linked_record_ids": [
+    "automatic-cause-detection-of-performance-problems-in-web-applications-56869274f1"
+  ],
+  "title": "Automatic Cause Detection of Performance Problems in Web Applications",
+  "authors": [
+    "Quentin Fournier",
+    "Naser Ezzati-Jivan",
+    "Daniel Aloise",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2019,
+    "venue": "IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)",
+    "type": "workshop paper"
+  },
+  "identifiers": {
+    "doi": "10.1109/ISSREW.2019.00102",
+    "arxiv": "2103.04954"
+  },
+  "abstract_source": "arXiv:2103.04954 abstract; public preprint version",
+  "tags": [
+    "kernel-tracing",
+    "web-performance",
+    "anomaly-detection",
+    "root-cause-analysis"
+  ],
+  "keywords": [
+    "web requests",
+    "user-space tracing",
+    "kernel-space tracing",
+    "outlier detection",
+    "behavior clustering",
+    "PHP cache contention"
+  ],
+  "summary": {
+    "core_contribution": "The paper presents a tracing and analysis pipeline that detects slow web requests and groups them by internal execution behavior to expose likely causes.",
+    "problem": "Slow web requests can look similar at the application boundary while having different low-level causes. Developers need fine-grained evidence across user space and kernel space to distinguish those causes.",
+    "method": "The pipeline traces each request, extracts behavioral features, detects outliers, clusters requests by execution behavior, and analyzes each cluster for causal explanations.",
+    "findings": "The experiments detected slow requests and provided additional root-cause insight. One concrete result was the identification of PHP cache contention in a real web-application scenario.",
+    "limitations_future_work": "The evaluation emphasizes web-request behavior and a limited set of application conditions. Future work should assess more frameworks, workloads, deployment environments, and automated explanations that remain stable under changing application versions."
+  },
+  "access": {
+    "status": "public_preprint_and_published_record",
+    "primary_url": "https://doi.org/10.1109/ISSREW.2019.00102",
+    "pdf_url": "https://arxiv.org/pdf/2103.04954",
+    "note": "The published DOI is the canonical citation target; the arXiv preprint provides public full text."
+  },
+  "versions": [
+    {
+      "label": "Published version",
+      "title": "Automatic Cause Detection of Performance Problems in Web Applications",
+      "url": "https://doi.org/10.1109/ISSREW.2019.00102",
+      "status": "published"
+    },
+    {
+      "label": "Public preprint",
+      "title": "Automatic Cause Detection of Performance Problems in Web Applications",
+      "url": "https://arxiv.org/abs/2103.04954",
+      "pdf_url": "https://arxiv.org/pdf/2103.04954",
+      "status": "public_full_text"
+    }
+  ],
+  "evidence": [
+    "DBLP and IEEE metadata for the published paper",
+    "official arXiv abstract and PDF page 2103.04954",
+    "local PDF hash verified in the working catalog"
+  ],
+  "schema_version": "0.2.0",
+  "paper_id": "automatic-cause-detection-web-applications",
+  "catalog_record_id": "automatic-cause-detection-of-performance-problems-in-web-applications-8e07f9a9d4",
+  "title_variants": [],
+  "abstract": "The execution of similar units can be compared by their internal behaviors to determine the causes of their potential performance issues. For instance, by examining the internal behaviors of different fast or slow web requests more closely and by clustering and comparing their internal executions, one can determine what causes some requests to run slowly or behave in unexpected ways. In this paper, we propose a method of extracting the internal behavior of web requests as well as introduce a pipeline that detects performance issues in web requests and provides insights into their root causes. First, low-level and fine-grained information regarding each request is gathered by tracing both the user space and the kernel space. Second, further information is extracted and fed into an outlier detector. Finally, these outliers are then clustered by their behavior, and each group is analyzed separately. Experiments revealed that this pipeline is indeed able to detect slow web requests and provide additional insights into their true root causes. Notably, we were able to identify a real PHP cache contention using the proposed approach.",
+  "source_links": [
+    {
+      "label": "Published version",
+      "title": "Automatic Cause Detection of Performance Problems in Web Applications",
+      "url": "https://doi.org/10.1109/ISSREW.2019.00102",
+      "status": "published"
+    },
+    {
+      "label": "Public preprint",
+      "title": "Automatic Cause Detection of Performance Problems in Web Applications",
+      "url": "https://arxiv.org/abs/2103.04954",
+      "pdf_url": "https://arxiv.org/pdf/2103.04954",
+      "status": "public_full_text"
+    }
+  ],
+  "provenance": {
+    "verified_at": "2026-08-03",
+    "evidence": [
+      "DBLP and IEEE metadata for the published paper",
+      "official arXiv abstract and PDF page 2103.04954",
+      "local PDF hash verified in the working catalog"
+    ],
+    "source_record": "automatic-cause-detection-of-performance-problems-in-web-applications-8e07f9a9d4",
+    "linked_preprint_record": "automatic-cause-detection-of-performance-problems-in-web-applications-56869274f1",
+    "author_order_note": null
+  },
+  "github_batch": {
+    "phase": 1,
+    "batch_label": "initial ten-paper release",
+    "status": "selected_for_initial_publication",
+    "selected_at": "2026-08-03"
+  }
+}

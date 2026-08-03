@@ -1,0 +1,106 @@
+{
+  "slug": "gnn-link-prediction-microservices",
+  "record_id": "utilizing-graph-neural-networks-for-effective-link-prediction-in-microservice-architectures-a78a88205f",
+  "linked_record_ids": [],
+  "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
+  "authors": [
+    "Ghazal Khodabandeh",
+    "Alireza Ezaz",
+    "Majid Babaei",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2025,
+    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
+    "type": "conference paper"
+  },
+  "identifiers": {
+    "doi": "10.1145/3676151.3719362",
+    "arxiv": "2501.15019"
+  },
+  "abstract_source": "arXiv:2501.15019 abstract; public preprint version",
+  "tags": [
+    "microservices",
+    "graph-neural-networks",
+    "performance-engineering",
+    "predictive-monitoring"
+  ],
+  "keywords": [
+    "microservice call graphs",
+    "link prediction",
+    "graph attention networks",
+    "temporal segmentation",
+    "negative sampling",
+    "adaptive monitoring"
+  ],
+  "summary": {
+    "core_contribution": "The paper applies graph attention networks to predict future interactions in microservice call graphs, supporting proactive monitoring.",
+    "problem": "Microservice interactions are frequent, dynamic, and operationally important. Predicting likely future links could help systems detect or respond to emerging performance problems before they escalate.",
+    "method": "The approach uses temporal segmentation, advanced negative sampling, and graph attention mechanisms to model time-sensitive call-graph interactions. It is evaluated with AUC, precision, recall, and F1-score on real-world data.",
+    "findings": "The reported evaluation shows high accuracy and robustness for predicting microservice interactions, supporting possible use in adaptive resource management and performance optimization.",
+    "limitations_future_work": "The evidence is tied to the available real-world traces and offline link-prediction setup. Future work should evaluate online drift, operational cost, false-positive consequences, and integration with live monitoring controllers."
+  },
+  "access": {
+    "status": "public_preprint_and_published_record",
+    "primary_url": "https://doi.org/10.1145/3676151.3719362",
+    "pdf_url": "https://arxiv.org/pdf/2501.15019",
+    "note": "The ACM DOI is the canonical citation target; the arXiv preprint provides public full text."
+  },
+  "versions": [
+    {
+      "label": "Published version",
+      "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
+      "url": "https://doi.org/10.1145/3676151.3719362",
+      "status": "published"
+    },
+    {
+      "label": "Public preprint",
+      "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
+      "url": "https://arxiv.org/abs/2501.15019",
+      "pdf_url": "https://arxiv.org/pdf/2501.15019",
+      "status": "public_full_text"
+    }
+  ],
+  "evidence": [
+    "DBLP and ACM DOI metadata",
+    "official arXiv abstract and PDF page 2501.15019",
+    "local PDF hash verified in the working catalog"
+  ],
+  "schema_version": "0.2.0",
+  "paper_id": "gnn-link-prediction-microservices",
+  "catalog_record_id": "utilizing-graph-neural-networks-for-effective-link-prediction-in-microservice-architectures-a78a88205f",
+  "title_variants": [],
+  "abstract": null,
+  "source_links": [
+    {
+      "label": "Published version",
+      "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
+      "url": "https://doi.org/10.1145/3676151.3719362",
+      "status": "published"
+    },
+    {
+      "label": "Public preprint",
+      "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
+      "url": "https://arxiv.org/abs/2501.15019",
+      "pdf_url": "https://arxiv.org/pdf/2501.15019",
+      "status": "public_full_text"
+    }
+  ],
+  "provenance": {
+    "verified_at": "2026-08-03",
+    "evidence": [
+      "DBLP and ACM DOI metadata",
+      "official arXiv abstract and PDF page 2501.15019",
+      "local PDF hash verified in the working catalog"
+    ],
+    "source_record": "utilizing-graph-neural-networks-for-effective-link-prediction-in-microservice-architectures-a78a88205f",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "github_batch": {
+    "phase": 1,
+    "batch_label": "initial ten-paper release",
+    "status": "selected_for_initial_publication",
+    "selected_at": "2026-08-03"
+  }
+}

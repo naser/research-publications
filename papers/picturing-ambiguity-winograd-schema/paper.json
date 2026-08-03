@@ -1,0 +1,107 @@
+{
+  "slug": "picturing-ambiguity-winograd-schema",
+  "record_id": "picturing-ambiguity-a-visual-twist-on-the-winograd-schema-challenge-647b74a7c8",
+  "linked_record_ids": [],
+  "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
+  "authors": [
+    "Brendan Park",
+    "Madeline Janecek",
+    "Naser Ezzati-Jivan",
+    "Yifeng Li",
+    "Ali Emami"
+  ],
+  "publication": {
+    "year": 2024,
+    "venue": "ACL 2024 Main Conference",
+    "type": "conference paper"
+  },
+  "identifiers": {
+    "doi": "10.18653/v1/2024.acl-long.22",
+    "arxiv": "2405.16277"
+  },
+  "abstract_source": "arXiv:2405.16277 abstract; public preprint version",
+  "tags": [
+    "multimodal-ai",
+    "benchmark-datasets",
+    "common-sense-reasoning",
+    "machine-learning"
+  ],
+  "keywords": [
+    "Winograd Schema Challenge",
+    "WinoVis",
+    "text-to-image models",
+    "pronoun disambiguation",
+    "DAAM",
+    "Stable Diffusion"
+  ],
+  "summary": {
+    "core_contribution": "The paper introduces WinoVis, a multimodal benchmark and analysis framework for testing pronoun disambiguation in text-to-image models.",
+    "problem": "Language models can perform well on text-only common-sense reasoning, but it is harder to determine whether multimodal models correctly connect ambiguous language with visual content.",
+    "method": "WinoVis uses GPT-4 for prompt generation and Diffusion Attentive Attribution Maps for heatmap-based analysis. The evaluation is designed to isolate pronoun disambiguation from unrelated visual-processing difficulties.",
+    "findings": "Across successive model versions, Stable Diffusion 2.0 reached 56.7% precision on WinoVis, only slightly above random guessing. The error analysis identifies specific weaknesses in multimodal interpretation.",
+    "limitations_future_work": "The results depend on the benchmark design, model versions, and attribution analysis. Future work should expand the dataset, test more model families, and validate whether attribution patterns correspond to reliable reasoning."
+  },
+  "access": {
+    "status": "public_preprint_and_published_record",
+    "primary_url": "https://doi.org/10.18653/v1/2024.acl-long.22",
+    "pdf_url": "https://arxiv.org/pdf/2405.16277",
+    "note": "The ACL DOI is the canonical citation target; the arXiv preprint and ACL Anthology page provide public access paths."
+  },
+  "versions": [
+    {
+      "label": "Published version",
+      "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
+      "url": "https://aclanthology.org/2024.acl-long.22/",
+      "status": "published_public_page"
+    },
+    {
+      "label": "Public preprint",
+      "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
+      "url": "https://arxiv.org/abs/2405.16277",
+      "pdf_url": "https://arxiv.org/pdf/2405.16277",
+      "status": "public_full_text"
+    }
+  ],
+  "evidence": [
+    "ACL Anthology and DOI metadata",
+    "official arXiv abstract and PDF page 2405.16277",
+    "local PDF hash verified in the working catalog"
+  ],
+  "schema_version": "0.2.0",
+  "paper_id": "picturing-ambiguity-winograd-schema",
+  "catalog_record_id": "picturing-ambiguity-a-visual-twist-on-the-winograd-schema-challenge-647b74a7c8",
+  "title_variants": [],
+  "abstract": null,
+  "source_links": [
+    {
+      "label": "Published version",
+      "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
+      "url": "https://aclanthology.org/2024.acl-long.22/",
+      "status": "published_public_page"
+    },
+    {
+      "label": "Public preprint",
+      "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
+      "url": "https://arxiv.org/abs/2405.16277",
+      "pdf_url": "https://arxiv.org/pdf/2405.16277",
+      "status": "public_full_text"
+    }
+  ],
+  "provenance": {
+    "verified_at": "2026-08-03",
+    "evidence": [
+      "ACL Anthology and DOI metadata",
+      "official arXiv abstract and PDF page 2405.16277",
+      "local PDF hash verified in the working catalog"
+    ],
+    "source_record": "picturing-ambiguity-a-visual-twist-on-the-winograd-schema-challenge-647b74a7c8",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "github_batch": {
+    "phase": 1,
+    "batch_label": "initial ten-paper release",
+    "status": "selected_for_initial_publication",
+    "selected_at": "2026-08-03"
+  }
+}

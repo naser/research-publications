@@ -1,0 +1,64 @@
+# Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge
+
+**2024 Â· ACL 2024 Main Conference Â· conference paper**
+
+**Authors:** Brendan Park, Madeline Janecek, Naser Ezzati-Jivan, Yifeng Li, Ali Emami
+
+**Core contribution:** The paper introduces WinoVis, a multimodal benchmark and analysis framework for testing pronoun disambiguation in text-to-image models.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Language models can perform well on text-only common-sense reasoning, but it is harder to determine whether multimodal models correctly connect ambiguous language with visual content.
+
+### 2. Method and contribution
+
+WinoVis uses GPT-4 for prompt generation and Diffusion Attentive Attribution Maps for heatmap-based analysis. The evaluation is designed to isolate pronoun disambiguation from unrelated visual-processing difficulties.
+
+### 3. Findings and evidence
+
+Across successive model versions, Stable Diffusion 2.0 reached 56.7% precision on WinoVis, only slightly above random guessing. The error analysis identifies specific weaknesses in multimodal interpretation.
+
+### 4. Limitations and future directions
+
+The results depend on the benchmark design, model versions, and attribution analysis. Future work should expand the dataset, test more model families, and validate whether attribution patterns correspond to reliable reasoning.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [multimodal-ai](../../topics/multimodal-ai.md) Â· [benchmark-datasets](../../topics/benchmark-datasets.md) Â· [common-sense-reasoning](../../topics/common-sense-reasoning.md) Â· [machine-learning](../../topics/machine-learning.md)
+
+**Keywords:** [Winograd Schema Challenge](../../keywords/winograd-schema-challenge.md) Â· [WinoVis](../../keywords/winovis.md) Â· [text-to-image models](../../keywords/text-to-image-models.md) Â· [pronoun disambiguation](../../keywords/pronoun-disambiguation.md) Â· [DAAM](../../keywords/daam.md) Â· [Stable Diffusion](../../keywords/stable-diffusion.md)
+
+## Versions and source links
+
+- [Published version](https://aclanthology.org/2024.acl-long.22/) â€” published_public_page
+- [Public preprint](https://arxiv.org/abs/2405.16277) Â· [PDF](https://arxiv.org/pdf/2405.16277) â€” public_full_text
+
+**Primary source:** [https://doi.org/10.18653/v1/2024.acl-long.22](https://doi.org/10.18653/v1/2024.acl-long.22)
+
+**Access status:** public_preprint_and_published_record. The ACL DOI is the canonical citation target; the arXiv preprint and ACL Anthology page provide public access paths.
+
+
+## Citation
+
+```bibtex
+@inproceedings{ezzatiJivan2024picturingambiguity,
+  author = {Brendan Park and Madeline Janecek and Naser Ezzati-Jivan and Yifeng Li and Ali Emami},
+  title = {Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge},
+  year = {2024},
+  booktitle = {ACL 2024 Main Conference},
+  doi = {10.18653/v1/2024.acl-long.22},
+  url = {https://doi.org/10.18653/v1/2024.acl-long.22}
+}
+```
+
+## Record provenance
+
+- Verified: 2026-08-03
+- Evidence: ACL Anthology and DOI metadata; official arXiv abstract and PDF page 2405.16277; local PDF hash verified in the working catalog
+- Machine-readable record: [paper.json](./paper.json)
