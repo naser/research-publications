@@ -1,9 +1,12 @@
 cff-version: 1.2.0
 title: "Naser Ezzati-Jivan Publications"
 type: dataset
+message: "If you use this catalog or its original summaries, please cite the repository and the individual paper records."
 authors:
   - family-names: Ezzati-Jivan
     given-names: Naser
 repository-code: https://github.com/naser/naser-publications
+url: https://naser.github.io/naser-publications/
+license: CC-BY-4.0
 abstract: >-
-  Agent-friendly catalog of selected research papers, summaries, citations, topic links, and authoritative source URLs.
+  Agent-friendly catalog of selected research papers, summaries, citations, topic links, provenance, and authoritative source URLs.
