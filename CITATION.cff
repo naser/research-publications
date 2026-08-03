@@ -5,8 +5,8 @@ message: "If you use this catalog or its original summaries, please cite the rep
 authors:
   - family-names: Ezzati-Jivan
     given-names: Naser
-repository-code: https://github.com/naser/naser-publications
-url: https://naser.github.io/naser-publications/
+repository-code: https://github.com/naser/research-publications
+url: https://naser.github.io/research-publications/
 license: CC-BY-4.0
 abstract: >-
   Agent-friendly catalog of selected research papers, summaries, citations, topic links, provenance, and authoritative source URLs.

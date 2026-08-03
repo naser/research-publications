@@ -30,7 +30,10 @@ async function walk(dir, relative = "") {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
     const childRelative = relative ? path.join(relative, entry.name) : entry.name;
     const child = path.join(dir, entry.name);
-    if (entry.isDirectory()) result.push(...await walk(child, childRelative));
+    if (entry.isDirectory()) {
+      if (entry.name === ".git") continue;
+      result.push(...await walk(child, childRelative));
+    }
     else result.push({ path: child, relative: childRelative.replaceAll("\\", "/") });
   }
   return result;
@@ -135,7 +138,7 @@ for (const file of allFiles) {
 }
 
 const sitemap = await readFile(path.join(repoRoot, "docs", "sitemap.xml"), "utf8").catch(() => "");
-if (sitemap && !sitemap.includes("https://naser.github.io/naser-publications/")) failures.push("sitemap does not contain the site root");
+if (sitemap && !sitemap.includes("https://naser.github.io/research-publications/")) failures.push("sitemap does not contain the site root");
 if (catalog && catalog.records.some((record) => !record.page_url || !record.json || !record.bibtex)) failures.push("catalog has incomplete machine-readable paths");
 
 const result = {

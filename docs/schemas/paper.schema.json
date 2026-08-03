@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://naser.github.io/naser-publications/schemas/paper.schema.json",
+  "$id": "https://naser.github.io/research-publications/schemas/paper.schema.json",
   "title": "Naser Ezzati-Jivan publication record",
   "type": "object",
   "additionalProperties": false,
