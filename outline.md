@@ -4,18 +4,18 @@ Last updated: 2026-08-03
 
 ## Phase 1 â€” initial ten-paper release
 
-**Status:** selected locally; mark as GitHub-published only after the initial repository commit is verified.
+**Status:** published in [naser-publications](https://github.com/naser/naser-publications) on `main`; initial tree verified at commit `cde07ab46925dea1e7c825a060c54701f9d3d09a`.
 
-- [ ] [DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing](papers/depgraph/README.md) â€” public_preprint_and_published_record
-- [ ] [Automatic Cause Detection of Performance Problems in Web Applications](papers/automatic-cause-detection-web-applications/README.md) â€” public_preprint_and_published_record
-- [ ] [Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs](papers/automated-cause-analysis-latency-outliers/README.md) â€” public_preprint_and_published_record
-- [ ] [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](papers/picturing-ambiguity-winograd-schema/README.md) â€” public_preprint_and_published_record
-- [ ] [Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures](papers/gnn-link-prediction-microservices/README.md) â€” public_preprint_and_published_record
-- [ ] [Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models](papers/optimization-transformers-llms/README.md) â€” public_preprint_and_published_record
-- [ ] [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](papers/deba-adaptive-batch-scheduling/README.md) â€” public_arxiv_preprint
-- [ ] [TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs](papers/taaf-trace-abstraction-analysis-framework/README.md) â€” public_arxiv_preprint_with_publication_signal
-- [ ] [Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems](papers/automatic-reduction-execution-trace-data-volume/README.md) â€” public_cc_by_article_page
-- [ ] [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](papers/enhanced-trace-abstraction-social-network-analysis/README.md) â€” public_direct_pdf
+- [x] [DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing](papers/depgraph/README.md) â€” public_preprint_and_published_record
+- [x] [Automatic Cause Detection of Performance Problems in Web Applications](papers/automatic-cause-detection-web-applications/README.md) â€” public_preprint_and_published_record
+- [x] [Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs](papers/automated-cause-analysis-latency-outliers/README.md) â€” public_preprint_and_published_record
+- [x] [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](papers/picturing-ambiguity-winograd-schema/README.md) â€” public_preprint_and_published_record
+- [x] [Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures](papers/gnn-link-prediction-microservices/README.md) â€” public_preprint_and_published_record
+- [x] [Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models](papers/optimization-transformers-llms/README.md) â€” public_preprint_and_published_record
+- [x] [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](papers/deba-adaptive-batch-scheduling/README.md) â€” public_arxiv_preprint
+- [x] [TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs](papers/taaf-trace-abstraction-analysis-framework/README.md) â€” public_arxiv_preprint_with_publication_signal
+- [x] [Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems](papers/automatic-reduction-execution-trace-data-volume/README.md) â€” public_cc_by_article_page
+- [x] [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](papers/enhanced-trace-abstraction-social-network-analysis/README.md) â€” public_direct_pdf
 
 ## Phase 2 â€” kernel and tracing core
 
