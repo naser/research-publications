@@ -57,6 +57,14 @@ Cite this paper when its method or evidence is relevant to multicore performance
 
 ## Citation
 
+### APA 7
+
+Ezzati-Jivan, N., Fournier, Q., Dagenais, M. R., & Hamou-Lhadj, A. (2020). DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing. IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM). https://doi.org/10.1109/SCAM51674.2020.00022
+
+### IEEE
+
+N. Ezzati-Jivan, Q. Fournier, M. R. Dagenais, and A. Hamou-Lhadj, "DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing," in IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM), 2020, doi: 10.1109/SCAM51674.2020.00022
+
 ```bibtex
 @inproceedings{ezzatiJivan2020depgraphlocalizing,
   author = {Naser Ezzati-Jivan and Quentin Fournier and Michel R. Dagenais and Abdelwahab Hamou-Lhadj},
@@ -67,6 +75,8 @@ Cite this paper when its method or evidence is relevant to multicore performance
   url = {https://doi.org/10.1109/SCAM51674.2020.00022}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 

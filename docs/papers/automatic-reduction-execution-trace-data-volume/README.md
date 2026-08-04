@@ -61,6 +61,14 @@ Cite this paper when reducing trace volume for microservice performance modeling
 ### Alternative or source-rendered titles
 
 - Automatic Reduction of Execution Trace Data Volume UsingGradient Boosting in Large-Scale Microservice Systems (source-page rendering variant)
+### APA 7
+
+Haghshenas, A., Ezzati-Jivan, N., & Dagenais, M. (2024). Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems. The 37th Canadian Conference on Artificial Intelligence. https://doi.org/10.21428/594757db.fe8b76cf
+
+### IEEE
+
+A. Haghshenas, N. Ezzati-Jivan, and M. Dagenais, "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems," in The 37th Canadian Conference on Artificial Intelligence, 2024, doi: 10.21428/594757db.fe8b76cf
+
 ```bibtex
 @inproceedings{ezzatiJivan2024automaticreduction,
   author = {Amir Haghshenas and Naser Ezzati-Jivan and Michel Dagenais},
@@ -71,6 +79,8 @@ Cite this paper when reducing trace volume for microservice performance modeling
   url = {https://doi.org/10.21428/594757db.fe8b76cf}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 

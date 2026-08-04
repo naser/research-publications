@@ -57,6 +57,14 @@ Cite this paper when automating latency-outlier detection and diagnosis.
 
 ## Citation
 
+### APA 7
+
+Patel, S., Park, B., Ezzati-Jivan, N., & Fournier, Q. (2021). Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs. IEEE International Conference on Software Quality, Reliability and Security (QRS). https://doi.org/10.1109/QRS54544.2021.00054
+
+### IEEE
+
+S. Patel, B. Park, N. Ezzati-Jivan, and Q. Fournier, "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs," in IEEE International Conference on Software Quality, Reliability and Security (QRS), 2021, doi: 10.1109/QRS54544.2021.00054
+
 ```bibtex
 @inproceedings{ezzatiJivan2021automatedcause,
   author = {Sneh Patel and Brendan Park and Naser Ezzati-Jivan and Quentin Fournier},
@@ -67,6 +75,8 @@ Cite this paper when automating latency-outlier detection and diagnosis.
   url = {https://doi.org/10.1109/QRS54544.2021.00054}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 

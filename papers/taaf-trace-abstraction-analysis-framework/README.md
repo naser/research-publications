@@ -57,6 +57,14 @@ Cite this paper when combining trace abstraction, knowledge graphs, and LLM-supp
 
 ## Citation
 
+### APA 7
+
+Ezaz, A., Khodabandeh, G., Babaei, M., & Ezzati-Jivan, N. (2026). TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs. arXiv / CoRR; arXiv page reports acceptance to ICSE 2026. https://doi.org/10.1145/3744916.3787832
+
+### IEEE
+
+A. Ezaz, G. Khodabandeh, M. Babaei, and N. Ezzati-Jivan, "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs," in arXiv / CoRR; arXiv page reports acceptance to ICSE 2026, 2026, doi: 10.1145/3744916.3787832
+
 ```bibtex
 @misc{ezzatiJivan2026taafa,
   author = {Alireza Ezaz and Ghazal Khodabandeh and Majid Babaei and Naser Ezzati-Jivan},
@@ -67,6 +75,8 @@ Cite this paper when combining trace abstraction, knowledge graphs, and LLM-supp
   url = {https://doi.org/10.1145/3744916.3787832}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 

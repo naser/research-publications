@@ -57,6 +57,14 @@ Cite this paper when applying graph-analysis methods to execution-trace abstract
 
 ## Citation
 
+### APA 7
+
+Wang, J., & Ezzati-Jivan, N. (2020). Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods. Softwaretechnik-Trends. https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf
+
+### IEEE
+
+J. Wang and N. Ezzati-Jivan, "Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods," Softwaretechnik-Trends, 2020, [Online]. Available: https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf
+
 ```bibtex
 @article{ezzatiJivan2020enhancedexecution,
   author = {Ji Wang and Naser Ezzati-Jivan},
@@ -66,6 +74,8 @@ Cite this paper when applying graph-analysis methods to execution-trace abstract
   url = {https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 

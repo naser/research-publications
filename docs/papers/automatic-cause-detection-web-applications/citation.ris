@@ -1,0 +1,12 @@
+TY  - CONF
+AU  - Fournier, Quentin
+AU  - Ezzati-Jivan, Naser
+AU  - Aloise, Daniel
+AU  - Dagenais, Michel R.
+TI  - Automatic Cause Detection of Performance Problems in Web Applications
+PY  - 2019
+T2  - IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)
+AB  - The execution of similar units can be compared by their internal behaviors to determine the causes of their potential performance issues. For instance, by examining the internal behaviors of different fast or slow web requests more closely and by clustering and comparing their internal executions, one can determine what causes some requests to run slowly or behave in unexpected ways. In this paper, we propose a method of extracting the internal behavior of web requests as well as introduce a pipeline that detects performance issues in web requests and provides insights into their root causes. First, low-level and fine-grained information regarding each request is gathered by tracing both the user space and the kernel space. Second, further information is extracted and fed into an outlier detector. Finally, these outliers are then clustered by their behavior, and each group is analyzed separately. Experiments revealed that this pipeline is indeed able to detect slow web requests and provide additional insights into their true root causes. Notably, we were able to identify a real PHP cache contention using the proposed approach.
+DO  - 10.1109/ISSREW.2019.00102
+UR  - https://doi.org/10.1109/ISSREW.2019.00102
+ER  -

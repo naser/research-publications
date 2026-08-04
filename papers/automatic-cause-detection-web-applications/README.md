@@ -57,6 +57,14 @@ Cite this paper when diagnosing slow web requests with cross-layer tracing.
 
 ## Citation
 
+### APA 7
+
+Fournier, Q., Ezzati-Jivan, N., Aloise, D., & Dagenais, M. R. (2019). Automatic Cause Detection of Performance Problems in Web Applications. IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW). https://doi.org/10.1109/ISSREW.2019.00102
+
+### IEEE
+
+Q. Fournier, N. Ezzati-Jivan, D. Aloise, and M. R. Dagenais, "Automatic Cause Detection of Performance Problems in Web Applications," in IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), 2019, doi: 10.1109/ISSREW.2019.00102
+
 ```bibtex
 @inproceedings{ezzatiJivan2019automaticcause,
   author = {Quentin Fournier and Naser Ezzati-Jivan and Daniel Aloise and Michel R. Dagenais},
@@ -67,6 +75,8 @@ Cite this paper when diagnosing slow web requests with cross-layer tracing.
   url = {https://doi.org/10.1109/ISSREW.2019.00102}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 

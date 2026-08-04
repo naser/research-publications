@@ -21,7 +21,7 @@ See [the rollout outline](./outline.md) for the current phase and remaining port
 
 ## Record format
 
-Each paper has a Markdown record for readers, a JSON record for agents and scripts, a BibTeX citation, and a generated HTML landing page. The JSON summary separates problem, method, findings, limitations, and future work. Published versions and public preprints are represented explicitly.
+Each paper has a Markdown record for readers, a JSON record for agents and scripts, APA 7, IEEE, BibTeX, and RIS citation files, and a generated HTML landing page. The JSON summary separates problem, method, findings, limitations, and future work. Published versions and public preprints are represented explicitly.
 
 ## Canonical record contract
 

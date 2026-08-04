@@ -1,0 +1,1 @@
+G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2025, doi: 10.1145/3676151.3719362

@@ -57,6 +57,14 @@ Cite this paper when evaluating multimodal pronoun disambiguation in text-to-ima
 
 ## Citation
 
+### APA 7
+
+Park, B., Janecek, M., Ezzati-Jivan, N., Li, Y., & Emami, A. (2024). Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge. ACL 2024 Main Conference. https://doi.org/10.18653/v1/2024.acl-long.22
+
+### IEEE
+
+B. Park, M. Janecek, N. Ezzati-Jivan, Y. Li, and A. Emami, "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge," in ACL 2024 Main Conference, 2024, doi: 10.18653/v1/2024.acl-long.22
+
 ```bibtex
 @inproceedings{ezzatiJivan2024picturingambiguity,
   author = {Brendan Park and Madeline Janecek and Naser Ezzati-Jivan and Yifeng Li and Ali Emami},
@@ -67,6 +75,8 @@ Cite this paper when evaluating multimodal pronoun disambiguation in text-to-ima
   url = {https://aclanthology.org/2024.acl-long.22/}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 
