@@ -1,0 +1,12 @@
+TY  - CONF
+AU  - Patel, Sneh
+AU  - Park, Brendan
+AU  - Ezzati-Jivan, Naser
+AU  - Fournier, Quentin
+TI  - Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs
+PY  - 2021
+T2  - IEEE International Conference on Software Quality, Reliability and Security (QRS)
+AB  - Detecting performance issues and identifying their root causes in the runtime is a challenging task. Typically, developers use methods such as logging and tracing to identify bottlenecks. These solutions are, however, not ideal as they are time-consuming and require manual effort. In this paper, we propose a method to automate the task of detecting latency outliers using system-level traces and then comparing them to identify the root cause(s). Our method makes use of dependency graphs to show internal interactions between threads and system resources. With these graphs, one can pinpoint where performance issues occur. However, a single trace can be composed of a large number of requests, each generating one graph. To automate the task of identifying outliers within the dataset, we use machine learning density-based models and statistical calculations such as -score. Our evaluation shows an accuracy greater than 97 % on outlier detection, making them appropriate for in-production servers and industry-level use cases.
+DO  - 10.1109/QRS54544.2021.00054
+UR  - https://doi.org/10.1109/QRS54544.2021.00054
+ER  -

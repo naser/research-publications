@@ -1,0 +1,1 @@
+Belias, F., Ezzati-Jivan, N., & Khomh, F. (2025). One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA. arXiv / CoRR. https://doi.org/10.48550/arXiv.2511.03809

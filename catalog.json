@@ -13,6 +13,11 @@
       "page": "papers/depgraph/README.md",
       "json": "papers/depgraph/paper.json",
       "bibtex": "papers/depgraph/citation.bib",
+      "citation_files": {
+        "apa": "papers/depgraph/citation.apa.txt",
+        "ieee": "papers/depgraph/citation.ieee.txt",
+        "ris": "papers/depgraph/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/depgraph/",
       "canonical_source_url": "https://doi.org/10.1109/SCAM51674.2020.00022",
       "status": "public_preprint_and_published_record",
@@ -57,6 +62,11 @@
       "page": "papers/automatic-cause-detection-web-applications/README.md",
       "json": "papers/automatic-cause-detection-web-applications/paper.json",
       "bibtex": "papers/automatic-cause-detection-web-applications/citation.bib",
+      "citation_files": {
+        "apa": "papers/automatic-cause-detection-web-applications/citation.apa.txt",
+        "ieee": "papers/automatic-cause-detection-web-applications/citation.ieee.txt",
+        "ris": "papers/automatic-cause-detection-web-applications/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/automatic-cause-detection-web-applications/",
       "canonical_source_url": "https://doi.org/10.1109/ISSREW.2019.00102",
       "status": "public_preprint_and_published_record",
@@ -102,6 +112,11 @@
       "page": "papers/automated-cause-analysis-latency-outliers/README.md",
       "json": "papers/automated-cause-analysis-latency-outliers/paper.json",
       "bibtex": "papers/automated-cause-analysis-latency-outliers/citation.bib",
+      "citation_files": {
+        "apa": "papers/automated-cause-analysis-latency-outliers/citation.apa.txt",
+        "ieee": "papers/automated-cause-analysis-latency-outliers/citation.ieee.txt",
+        "ris": "papers/automated-cause-analysis-latency-outliers/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/automated-cause-analysis-latency-outliers/",
       "canonical_source_url": "https://doi.org/10.1109/QRS54544.2021.00054",
       "status": "public_preprint_and_published_record",
@@ -147,6 +162,11 @@
       "page": "papers/picturing-ambiguity-winograd-schema/README.md",
       "json": "papers/picturing-ambiguity-winograd-schema/paper.json",
       "bibtex": "papers/picturing-ambiguity-winograd-schema/citation.bib",
+      "citation_files": {
+        "apa": "papers/picturing-ambiguity-winograd-schema/citation.apa.txt",
+        "ieee": "papers/picturing-ambiguity-winograd-schema/citation.ieee.txt",
+        "ris": "papers/picturing-ambiguity-winograd-schema/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/picturing-ambiguity-winograd-schema/",
       "canonical_source_url": "https://aclanthology.org/2024.acl-long.22/",
       "status": "public_preprint_and_published_record",
@@ -192,6 +212,11 @@
       "page": "papers/gnn-link-prediction-microservices/README.md",
       "json": "papers/gnn-link-prediction-microservices/paper.json",
       "bibtex": "papers/gnn-link-prediction-microservices/citation.bib",
+      "citation_files": {
+        "apa": "papers/gnn-link-prediction-microservices/citation.apa.txt",
+        "ieee": "papers/gnn-link-prediction-microservices/citation.ieee.txt",
+        "ris": "papers/gnn-link-prediction-microservices/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/gnn-link-prediction-microservices/",
       "canonical_source_url": "https://doi.org/10.1145/3676151.3719362",
       "status": "public_preprint_and_published_record",
@@ -237,6 +262,11 @@
       "page": "papers/optimization-transformers-llms/README.md",
       "json": "papers/optimization-transformers-llms/paper.json",
       "bibtex": "papers/optimization-transformers-llms/citation.bib",
+      "citation_files": {
+        "apa": "papers/optimization-transformers-llms/citation.apa.txt",
+        "ieee": "papers/optimization-transformers-llms/citation.ieee.txt",
+        "ris": "papers/optimization-transformers-llms/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/optimization-transformers-llms/",
       "canonical_source_url": "https://doi.org/10.1145/3676151.3719379",
       "status": "public_preprint_and_published_record",
@@ -283,6 +313,11 @@
       "page": "papers/deba-adaptive-batch-scheduling/README.md",
       "json": "papers/deba-adaptive-batch-scheduling/paper.json",
       "bibtex": "papers/deba-adaptive-batch-scheduling/citation.bib",
+      "citation_files": {
+        "apa": "papers/deba-adaptive-batch-scheduling/citation.apa.txt",
+        "ieee": "papers/deba-adaptive-batch-scheduling/citation.ieee.txt",
+        "ris": "papers/deba-adaptive-batch-scheduling/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/deba-adaptive-batch-scheduling/",
       "canonical_source_url": "https://arxiv.org/abs/2511.03809",
       "status": "public_arxiv_preprint",
@@ -321,6 +356,11 @@
       "page": "papers/taaf-trace-abstraction-analysis-framework/README.md",
       "json": "papers/taaf-trace-abstraction-analysis-framework/paper.json",
       "bibtex": "papers/taaf-trace-abstraction-analysis-framework/citation.bib",
+      "citation_files": {
+        "apa": "papers/taaf-trace-abstraction-analysis-framework/citation.apa.txt",
+        "ieee": "papers/taaf-trace-abstraction-analysis-framework/citation.ieee.txt",
+        "ris": "papers/taaf-trace-abstraction-analysis-framework/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/taaf-trace-abstraction-analysis-framework/",
       "canonical_source_url": "https://doi.org/10.1145/3744916.3787832",
       "status": "public_arxiv_preprint_with_publication_signal",
@@ -367,6 +407,11 @@
       "page": "papers/automatic-reduction-execution-trace-data-volume/README.md",
       "json": "papers/automatic-reduction-execution-trace-data-volume/paper.json",
       "bibtex": "papers/automatic-reduction-execution-trace-data-volume/citation.bib",
+      "citation_files": {
+        "apa": "papers/automatic-reduction-execution-trace-data-volume/citation.apa.txt",
+        "ieee": "papers/automatic-reduction-execution-trace-data-volume/citation.ieee.txt",
+        "ris": "papers/automatic-reduction-execution-trace-data-volume/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/automatic-reduction-execution-trace-data-volume/",
       "canonical_source_url": "https://doi.org/10.21428/594757db.fe8b76cf",
       "status": "public_cc_by_article_page",
@@ -413,6 +458,11 @@
       "page": "papers/enhanced-trace-abstraction-social-network-analysis/README.md",
       "json": "papers/enhanced-trace-abstraction-social-network-analysis/paper.json",
       "bibtex": "papers/enhanced-trace-abstraction-social-network-analysis/citation.bib",
+      "citation_files": {
+        "apa": "papers/enhanced-trace-abstraction-social-network-analysis/citation.apa.txt",
+        "ieee": "papers/enhanced-trace-abstraction-social-network-analysis/citation.ieee.txt",
+        "ris": "papers/enhanced-trace-abstraction-social-network-analysis/citation.ris"
+      },
       "page_url": "https://naser.github.io/research-publications/papers/enhanced-trace-abstraction-social-network-analysis/",
       "canonical_source_url": "https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf",
       "status": "public_direct_pdf",

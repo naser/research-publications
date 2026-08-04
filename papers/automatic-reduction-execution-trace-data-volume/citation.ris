@@ -1,0 +1,11 @@
+TY  - CONF
+AU  - Haghshenas, Amir
+AU  - Ezzati-Jivan, Naser
+AU  - Dagenais, Michel
+TI  - Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems
+PY  - 2024
+T2  - The 37th Canadian Conference on Artificial Intelligence
+AB  - In large microservice systems, collecting too little or too much trace data can make performance modeling unreliable. This work introduces a two-phase gradient-boosting method that identifies the most important trace features for predicting CPU and memory demand. Using a comprehensive Alibaba dataset, the study reports more than 69% reduction in data volume without compromising, and sometimes improving, model accuracy. The retained features emphasize inter-service communication and resource-access patterns.
+DO  - 10.21428/594757db.fe8b76cf
+UR  - https://doi.org/10.21428/594757db.fe8b76cf
+ER  -

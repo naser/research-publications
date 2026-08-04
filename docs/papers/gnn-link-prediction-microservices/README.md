@@ -57,6 +57,14 @@ Cite this paper when predicting future interactions in evolving microservice cal
 
 ## Citation
 
+### APA 7
+
+Khodabandeh, G., Ezaz, A., Babaei, M., & Ezzati-Jivan, N. (2025). Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3676151.3719362
+
+### IEEE
+
+G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2025, doi: 10.1145/3676151.3719362
+
 ```bibtex
 @inproceedings{ezzatiJivan2025utilizinggraph,
   author = {Ghazal Khodabandeh and Alireza Ezaz and Majid Babaei and Naser Ezzati-Jivan},
@@ -67,6 +75,8 @@ Cite this paper when predicting future interactions in evolving microservice cal
   url = {https://doi.org/10.1145/3676151.3719362}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 

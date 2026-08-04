@@ -61,6 +61,14 @@ Cite this paper when comparing resource-efficiency methods for Transformer and L
 ### Alternative or source-rendered titles
 
 - Optimization Strategies for Enhancing Resource Efficiency in Transformers and Large Language Models
+### APA 7
+
+Wallace, T., Ombuki-Berman, B. M., & Ezzati-Jivan, N. (2025). Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3676151.3719379
+
+### IEEE
+
+T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2025, doi: 10.1145/3676151.3719379
+
 ```bibtex
 @inproceedings{ezzatiJivan2025optimizationstrategies,
   author = {Tom Wallace and Beatrice M. Ombuki-Berman and Naser Ezzati-Jivan},
@@ -71,6 +79,8 @@ Cite this paper when comparing resource-efficiency methods for Transformer and L
   url = {https://doi.org/10.1145/3676151.3719379}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 

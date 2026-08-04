@@ -56,6 +56,14 @@ Cite this paper when studying adaptive batch-size scheduling for neural-network 
 
 ## Citation
 
+### APA 7
+
+Belias, F., Ezzati-Jivan, N., & Khomh, F. (2025). One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA. arXiv / CoRR. https://doi.org/10.48550/arXiv.2511.03809
+
+### IEEE
+
+F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA," in arXiv / CoRR, 2025, doi: 10.48550/arXiv.2511.03809
+
 ```bibtex
 @misc{ezzatiJivan2025onesize,
   author = {François Belias and Naser Ezzati-Jivan and Foutse Khomh},
@@ -66,6 +74,8 @@ Cite this paper when studying adaptive batch-size scheduling for neural-network 
   url = {https://arxiv.org/abs/2511.03809}
 }
 ```
+
+**Reference-manager import:** [RIS file](./citation.ris)
 
 ## Record provenance
 

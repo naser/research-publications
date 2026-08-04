@@ -181,7 +181,7 @@ if (new Set(catalog?.records?.map((record) => record.paper_id) ?? []).size !== (
 for (const paperId of paperIds) {
   const dir = path.join(repoRoot, "papers", paperId);
   const docsDir = path.join(repoRoot, "docs", "papers", paperId);
-  for (const relative of ["paper.json", "README.md", "citation.bib"]) {
+  for (const relative of ["paper.json", "README.md", "citation.bib", "citation.apa.txt", "citation.ieee.txt", "citation.ris"]) {
     if (!await exists(path.join(dir, relative))) failures.push(paperId + ": missing " + relative);
     if (!await exists(path.join(docsDir, relative))) failures.push(paperId + ": missing generated docs/" + relative);
   }
@@ -269,9 +269,12 @@ for (const paperId of paperIds) {
       "citation_author",
       "og:title",
       "When to cite this paper",
+      "APA 7",
+      "IEEE",
       "href=\"paper.json\"",
       "href=\"README.md\"",
-      "href=\"citation.bib\""
+      "href=\"citation.bib\"",
+      "href=\"citation.ris\""
     ]) {
       if (!html.includes(required)) failures.push(paperId + ": HTML missing " + required);
     }
@@ -289,7 +292,7 @@ for (const paperId of paperIds) {
   if (!catalogRecord) {
     failures.push(paperId + ": missing catalog entry");
   } else {
-    for (const field of ["page", "json", "bibtex", "page_url", "canonical_source_url", "versions", "tags", "keywords"]) {
+    for (const field of ["page", "json", "bibtex", "citation_files", "page_url", "canonical_source_url", "versions", "tags", "keywords"]) {
       if (catalogRecord[field] == null) failures.push(paperId + ": catalog entry missing " + field);
     }
     if (catalogRecord.page_url !== paper.page_url) failures.push(paperId + ": catalog page_url mismatch");

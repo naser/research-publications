@@ -1,0 +1,1 @@
+Fournier, Q., Ezzati-Jivan, N., Aloise, D., & Dagenais, M. R. (2019). Automatic Cause Detection of Performance Problems in Web Applications. IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW). https://doi.org/10.1109/ISSREW.2019.00102

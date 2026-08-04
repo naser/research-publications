@@ -1,0 +1,1 @@
+A. Haghshenas, N. Ezzati-Jivan, and M. Dagenais, "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems," in The 37th Canadian Conference on Artificial Intelligence, 2024, doi: 10.21428/594757db.fe8b76cf
