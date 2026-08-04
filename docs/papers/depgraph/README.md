@@ -14,11 +14,11 @@ Performance debugging in multi-core systems is difficult when blocking dependenc
 
 ### 2. Method and contribution
 
-The method extracts a Waiting Dependency Graph from system-level traces, representing the interacting threads and resources involved in task execution. The graph is then used to localize and interpret bottlenecks in industry-level use cases.
+The method uses the Linux Tracing Toolkit: next generation (LTTng) tracer, including LTTng 2.11 in the evaluation, to collect kernel and system-call traces. It converts timestamped events into execution states such as running, runnable, blocked, and interrupted; constructs a Waiting Dependency Graph over threads and resources; and compares graphs from normal and slow executions to localize the blocking dependencies behind latency.
 
 ### 3. Findings and evidence
 
-Three performance anomalies were analyzed and explained with the graph representation. The reported tracing overhead never exceeded 10.1%, supporting the feasibility of production-oriented analysis.
+Three performance anomalies were analyzed: Apache/PHP lock contention, CPU contention in a real-time Cyclictest workload, and disk contention affecting Apache requests. The evaluation used Ubuntu 16.04.6 LTS with a 64-bit 4.15.0-62 kernel on a quad-core Intel Core i7-6700K workstation, with sysbench CPU, IO, and mixed profiles. In 50 executions, the dependency-tracing configuration - the paper's method - had worst-case overhead below 10.1%; full tracing was more expensive for IO-heavy workloads. Trace analysis used Babeltrace 3 to decode CTF data.
 
 ### 4. Limitations and future directions
 
@@ -66,5 +66,5 @@ Cite this paper when discussing waiting-dependency graphs or system-level tracin
 
 - Metadata verified: 2026-08-03
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2103.04933; local PDF hash verified in the working catalog
+- Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)
