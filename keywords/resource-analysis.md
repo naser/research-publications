@@ -1,1 +1,5 @@
-IyByZXNvdXJjZSBhbmFseXNpcwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnJlc291cmNlIGFuYWx5c2lzKiouCgotIFtBbHRPT006IEEgRGF0YS1kcml2ZW4gT3V0IG9mIE1lbW9yeSBSb290IENhdXNlIElkZW50aWZpY2F0aW9uIFN0cmF0ZWd5XSguLi9wYXBlcnMvYWx0b29tLW91dC1vZi1tZW1vcnktcm9vdC1jYXVzZS9SRUFETUUubWQpIC0gMjAyMwo=
+# resource analysis
+
+Papers indexed by keyword **resource analysis**.
+
+- [AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy](../papers/altoom-out-of-memory-root-cause/README.md) - 2023

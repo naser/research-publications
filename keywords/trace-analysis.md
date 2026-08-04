@@ -1,1 +1,5 @@
-IyB0cmFjZSBhbmFseXNpcwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnRyYWNlIGFuYWx5c2lzKiouCgotIFtFZmZpY2llbnQgTWV0aG9kcyBmb3IgVHJhY2UgQW5hbHlzaXMgUGFyYWxsZWxpemF0aW9uXSguLi9wYXBlcnMvZWZmaWNpZW50LXRyYWNlLWFuYWx5c2lzLXBhcmFsbGVsaXphdGlvbi9SRUFETUUubWQpIC0gMjAxOQo=
+# trace analysis
+
+Papers indexed by keyword **trace analysis**.
+
+- [Efficient Methods for Trace Analysis Parallelization](../papers/efficient-trace-analysis-parallelization/README.md) - 2019

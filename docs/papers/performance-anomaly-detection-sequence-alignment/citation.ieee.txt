@@ -1,1 +1,1 @@
-TS4gSmFuZWNlaywgTi4gRXp6YXRpLUppdmFuLCBhbmQgQS4gSGFtb3UtTGhhZGosICJQZXJmb3JtYW5jZSBhbm9tYWx5IGRldGVjdGlvbiB0aHJvdWdoIHNlcXVlbmNlIGFsaWdubWVudCBvZiBzeXN0ZW0tbGV2ZWwgdHJhY2VzLCIgaW4gQUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKSwgMjAyMiwgZG9pOiAxMC4xMTQ1LzM1MjQ2MTAuMzUyNzg5OAo=
+M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance anomaly detection through sequence alignment of system-level traces," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2022, doi: 10.1145/3524610.3527898

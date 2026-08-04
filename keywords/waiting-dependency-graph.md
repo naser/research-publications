@@ -1,1 +1,5 @@
-IyB3YWl0aW5nIGRlcGVuZGVuY3kgZ3JhcGgKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKip3YWl0aW5nIGRlcGVuZGVuY3kgZ3JhcGgqKi4KCi0gW0RlcEdyYXBoOiBMb2NhbGl6aW5nIFBlcmZvcm1hbmNlIEJvdHRsZW5lY2tzIGluIE11bHRpLUNvcmUgQXBwbGljYXRpb25zIFVzaW5nIFdhaXRpbmcgRGVwZW5kZW5jeSBHcmFwaHMgYW5kIFNvZnR3YXJlIFRyYWNpbmddKC4uL3BhcGVycy9kZXBncmFwaC9SRUFETUUubWQpIC0gMjAyMAo=
+# waiting dependency graph
+
+Papers indexed by keyword **waiting dependency graph**.
+
+- [DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing](../papers/depgraph/README.md) - 2020

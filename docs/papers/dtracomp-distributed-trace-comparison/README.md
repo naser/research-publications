@@ -1,1 +1,84 @@
-IyBEVHJhQ29tcDogQ29tcGFyaW5nIGRpc3RyaWJ1dGVkIGV4ZWN1dGlvbiB0cmFjZXMgZm9yIHVuZGVyc3RhbmRpbmcgaW50ZXJtaXR0ZW50IGxhdGVuY3kgc291cmNlcwoKKioyMDI2IHwgSm91cm5hbCBvZiBTeXN0ZW1zIGFuZCBTb2Z0d2FyZSB8IHJlc2VhcmNoIHBhcGVyKioKCioqQXV0aG9yczoqKiBNYXJ5YW0gRWtobGFzaSwgRmF0ZW1laCBGYXJhamkgRGFuZXNoZ2FyLCBNaWNoZWwgRGFnZW5haXMsIE1heGltZSBMYW1vdGhlLCBOYXNlciBFenphdGktSml2YW4sIE1hdHRoZXcgS2hvdXphbQoKKipDb3JlIGNvbnRyaWJ1dGlvbjoqKiBUaGlzIHdvcmsgc3R1ZGllcyBkdHJhY29tcDogY29tcGFyaW5nIGRpc3RyaWJ1dGVkIGV4ZWN1dGlvbiB0cmFjZXMgZm9yIHVuZGVyc3RhbmRpbmcgaW50ZXJtaXR0ZW50IGxhdGVuY3kgc291cmNlcyBpbiB0aGUgY29udGV4dCBvZiBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBhbmQgc3lzdGVtcyBhbmFseXNpcy4KCiMjIEZvdXItcGFydCByZXNlYXJjaCBzdW1tYXJ5CgojIyMgMS4gUHJvYmxlbSBhbmQgbW90aXZhdGlvbgoKSW50ZXJtaXR0ZW50IGxhdGVuY3kgc291cmNlcyBhcmUgZGlmZmljdWx0IHRvIGlzb2xhdGUgYmVjYXVzZSBub3JtYWwgYW5kIGFibm9ybWFsIGRpc3RyaWJ1dGVkIGV4ZWN1dGlvbnMgY2FuIGRpZmZlciBvbmx5IGluIHNtYWxsIHRyYWNlIHJlZ2lvbnMuCgojIyMgMi4gTWV0aG9kIGFuZCBjb250cmlidXRpb24KCkRUcmFDb21wIGNvbXBhcmVzIGRpc3RyaWJ1dGVkIGV4ZWN1dGlvbiB0cmFjZXMgdG8gZXhwb3NlIGRpZmZlcmVuY2VzIGFzc29jaWF0ZWQgd2l0aCBpbnRlcm1pdHRlbnQgbGF0ZW5jeS4KCiMjIyAzLiBGaW5kaW5ncyBhbmQgZXZpZGVuY2UKClRoZSBwYXBlciBwcm92aWRlcyBhIHRyYWNlLWNvbXBhcmlzb24gYXBwcm9hY2ggZm9yIGludGVybWl0dGVudC1sYXRlbmN5IGFuYWx5c2lzOyBleGFjdCBhbGdvcml0aG1zIGFuZCByZXN1bHRzIHJlcXVpcmUgZnVsbC10ZXh0IHJldmlldy4KCiMjIyA0LiBMaW1pdGF0aW9ucyBhbmQgZnV0dXJlIGRpcmVjdGlvbnMKCioqTGltaXRhdGlvbnM6KiogVGhlIGN1cnJlbnQgcHVibGljIHJlY29yZCBjYXB0dXJlcyBiaWJsaW9ncmFwaGljIG1ldGFkYXRhIGJ1dCBub3QgdGhlIHBhcGVyJ3MgZnVsbCB0ZXh0OyBxdWFudGl0YXRpdmUgY2xhaW1zIGFuZCBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzIHNob3VsZCBiZSBhZGRlZCBhZnRlciBQREYgb3IgYXV0aG9yLW1hbnVzY3JpcHQgcmV2aWV3LgoKKipGdXR1cmUgd29yazoqKiBFdmFsdWF0ZSBzdHJlYW1pbmcgY29tcGFyaXNvbiwgbGFyZ2UgdHJhY2Ugc2V0cywgbm9pc2UgdG9sZXJhbmNlLCBhbmQgY3Jvc3MtdmVyc2lvbiBkaWFnbm9zaXMuCgojIyBBYnN0cmFjdAoKQWJzdHJhY3Qgbm90IGF2YWlsYWJsZSBpbiB0aGUgY2FwdHVyZWQgc291cmNlcy4KCiMjIFRvcGljcyBhbmQga2V5d29yZHMKCioqVGFnczoqKiBbc3lzdGVtLXRyYWNpbmddKC4uLy4uL3RvcGljcy9zeXN0ZW0tdHJhY2luZy5tZCkgfCBbdHJhY2UtYW5hbHlzaXNdKC4uLy4uL3RvcGljcy90cmFjZS1hbmFseXNpcy5tZCkgfCBbbGF0ZW5jeS1hbmFseXNpc10oLi4vLi4vdG9waWNzL2xhdGVuY3ktYW5hbHlzaXMubWQpIHwgW3Jvb3QtY2F1c2UtYW5hbHlzaXNdKC4uLy4uL3RvcGljcy9yb290LWNhdXNlLWFuYWx5c2lzLm1kKQoKKipLZXl3b3JkczoqKiBbZGlzdHJpYnV0ZWQgZXhlY3V0aW9uIHRyYWNlc10oLi4vLi4va2V5d29yZHMvZGlzdHJpYnV0ZWQtZXhlY3V0aW9uLXRyYWNlcy5tZCkgfCBbdHJhY2UgY29tcGFyaXNvbl0oLi4vLi4va2V5d29yZHMvdHJhY2UtY29tcGFyaXNvbi5tZCkgfCBbaW50ZXJtaXR0ZW50IGxhdGVuY3ldKC4uLy4uL2tleXdvcmRzL2ludGVybWl0dGVudC1sYXRlbmN5Lm1kKSB8IFtsYXRlbmN5IHNvdXJjZXNdKC4uLy4uL2tleXdvcmRzL2xhdGVuY3ktc291cmNlcy5tZCkKCiMjIFZlcnNpb25zIGFuZCBzb3VyY2UgbGlua3MKCi0gW1B1Ymxpc2hlZCB2ZXJzaW9uXShodHRwczovL2RvaS5vcmcvMTAuMTAxNi9qLmpzcy4yMDI2LjExMjk5MCkgLSBwdWJsaXNoZWQKCioqQ2Fub25pY2FsIHNvdXJjZToqKiBbaHR0cHM6Ly9kb2kub3JnLzEwLjEwMTYvai5qc3MuMjAyNi4xMTI5OTBdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMDE2L2ouanNzLjIwMjYuMTEyOTkwKQoKIyMgSWRlbnRpZmllcnMKCltET0kgMTAuMTAxNi9qLmpzcy4yMDI2LjExMjk5MF0oaHR0cHM6Ly9kb2kub3JnLzEwLjEwMTYvai5qc3MuMjAyNi4xMTI5OTApCgojIyBXaGVuIHRvIGNpdGUgdGhpcyBwYXBlcgoKQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gaXRzIHNwZWNpZmljIG1ldGhvZCwgZXZpZGVuY2UsIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCi0gVGhlIHBhcGVyJ3MgbWV0aG9kIGlzIGRpcmVjdGx5IHJlbGV2YW50LgotIFRoZSBwYXBlcidzIGV2aWRlbmNlIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCiMjIENpdGF0aW9uCgojIyMgQVBBIDcKCkVraGxhc2ksIE0uLCBEYW5lc2hnYXIsIEYuIEYuLCBEYWdlbmFpcywgTS4sIExhbW90aGUsIE0uLCBFenphdGktSml2YW4sIE4uLCAmIEtob3V6YW0sIE0uICgyMDI2KS4gRFRyYUNvbXA6IENvbXBhcmluZyBkaXN0cmlidXRlZCBleGVjdXRpb24gdHJhY2VzIGZvciB1bmRlcnN0YW5kaW5nIGludGVybWl0dGVudCBsYXRlbmN5IHNvdXJjZXMuIEpvdXJuYWwgb2YgU3lzdGVtcyBhbmQgU29mdHdhcmUuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDE2L2ouanNzLjIwMjYuMTEyOTkwCgojIyMgSUVFRQoKTS4gRWtobGFzaSwgRi4gRi4gRGFuZXNoZ2FyLCBNLiBEYWdlbmFpcywgTS4gTGFtb3RoZSwgTi4gRXp6YXRpLUppdmFuLCBhbmQgTS4gS2hvdXphbSwgIkRUcmFDb21wOiBDb21wYXJpbmcgZGlzdHJpYnV0ZWQgZXhlY3V0aW9uIHRyYWNlcyBmb3IgdW5kZXJzdGFuZGluZyBpbnRlcm1pdHRlbnQgbGF0ZW5jeSBzb3VyY2VzLCIgaW4gSm91cm5hbCBvZiBTeXN0ZW1zIGFuZCBTb2Z0d2FyZSwgMjAyNiwgZG9pOiAxMC4xMDE2L2ouanNzLjIwMjYuMTEyOTkwCgpgYGBiaWJ0ZXgKQGlucHJvY2VlZGluZ3N7ZXp6YXRpSml2YW4yMDI2ZHRyYWNvbXBjb21wYXJpbmcsCiAgYXV0aG9yID0ge01hcnlhbSBFa2hsYXNpIGFuZCBGYXRlbWVoIEZhcmFqaSBEYW5lc2hnYXIgYW5kIE1pY2hlbCBEYWdlbmFpcyBhbmQgTWF4aW1lIExhbW90aGUgYW5kIE5hc2VyIEV6emF0aS1KaXZhbiBhbmQgTWF0dGhldyBLaG91emFtfSwKICB0aXRsZSA9IHtEVHJhQ29tcDogQ29tcGFyaW5nIGRpc3RyaWJ1dGVkIGV4ZWN1dGlvbiB0cmFjZXMgZm9yIHVuZGVyc3RhbmRpbmcgaW50ZXJtaXR0ZW50IGxhdGVuY3kgc291cmNlc30sCiAgeWVhciA9IHsyMDI2fSwKICBib29rdGl0bGUgPSB7Sm91cm5hbCBvZiBTeXN0ZW1zIGFuZCBTb2Z0d2FyZX0sCiAgZG9pID0gezEwLjEwMTYvai5qc3MuMjAyNi4xMTI5OTB9LAogIHVybCA9IHtodHRwczovL2RvaS5vcmcvMTAuMTAxNi9qLmpzcy4yMDI2LjExMjk5MH0KfQpgYGAKCioqUmVmZXJlbmNlLW1hbmFnZXIgaW1wb3J0OioqIFtSSVMgZmlsZV0oLi9jaXRhdGlvbi5yaXMpCgojIyBSZWNvcmQgcHJvdmVuYW5jZQoKLSBNZXRhZGF0YSB2ZXJpZmllZDogMjAyNi0wOC0wMwotIFN1bW1hcnkgc3RhdHVzOiBzb3VyY2UtZ3JvdW5kZWQgY2F0YWxvZyByZXZpZXc7IGF1dGhvciBhcHByb3ZhbCBwZW5kaW5nCi0gTWV0YWRhdGEgc291cmNlczogREJMUC9ET0kgYmlibGlvZ3JhcGhpYyByZWNvcmQgZm9yIDEwLjEwMTYvai5qc3MuMjAyNi4xMTI5OTA7IGF1dGhvciBpZGVudGl0eSBtYXRjaGVkIHRvIE5hc2VyIEV6emF0aS1KaXZhbiBpbiB0aGUgbG9jYWwgcmVzZWFyY2ggY2F0YWxvZzsgZnVsbC10ZXh0IHN1bW1hcnkgcGVuZGluZyBzb3VyY2UgcmV2aWV3Ci0gTWFjaGluZS1yZWFkYWJsZSByZWNvcmQ6IFtwYXBlci5qc29uXSguL3BhcGVyLmpzb24pCg==
+# DTraComp: Comparing distributed execution traces for understanding intermittent latency sources
+
+**2026 | Journal of Systems and Software | research paper**
+
+**Authors:** Maryam Ekhlasi, Fatemeh Faraji Daneshgar, Michel Dagenais, Maxime Lamothe, Naser Ezzati-Jivan, Matthew Khouzam
+
+**Core contribution:** This work studies dtracomp: comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Intermittent latency sources are difficult to isolate because normal and abnormal distributed executions can differ only in small trace regions.
+
+### 2. Method and contribution
+
+DTraComp compares distributed execution traces to expose differences associated with intermittent latency.
+
+### 3. Findings and evidence
+
+The paper provides a trace-comparison approach for intermittent-latency analysis; exact algorithms and results require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Evaluate streaming comparison, large trace sets, noise tolerance, and cross-version diagnosis.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [system-tracing](../../topics/system-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [latency-analysis](../../topics/latency-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
+
+**Keywords:** [distributed execution traces](../../keywords/distributed-execution-traces.md) | [trace comparison](../../keywords/trace-comparison.md) | [intermittent latency](../../keywords/intermittent-latency.md) | [latency sources](../../keywords/latency-sources.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1016/j.jss.2026.112990) - published
+
+**Canonical source:** [https://doi.org/10.1016/j.jss.2026.112990](https://doi.org/10.1016/j.jss.2026.112990)
+
+## Identifiers
+
+[DOI 10.1016/j.jss.2026.112990](https://doi.org/10.1016/j.jss.2026.112990)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Ekhlasi, M., Daneshgar, F. F., Dagenais, M., Lamothe, M., Ezzati-Jivan, N., & Khouzam, M. (2026). DTraComp: Comparing distributed execution traces for understanding intermittent latency sources. Journal of Systems and Software. https://doi.org/10.1016/j.jss.2026.112990
+
+### IEEE
+
+M. Ekhlasi, F. F. Daneshgar, M. Dagenais, M. Lamothe, N. Ezzati-Jivan, and M. Khouzam, "DTraComp: Comparing distributed execution traces for understanding intermittent latency sources," in Journal of Systems and Software, 2026, doi: 10.1016/j.jss.2026.112990
+
+```bibtex
+@inproceedings{ezzatiJivan2026dtracompcomparing,
+  author = {Maryam Ekhlasi and Fatemeh Faraji Daneshgar and Michel Dagenais and Maxime Lamothe and Naser Ezzati-Jivan and Matthew Khouzam},
+  title = {DTraComp: Comparing distributed execution traces for understanding intermittent latency sources},
+  year = {2026},
+  booktitle = {Journal of Systems and Software},
+  doi = {10.1016/j.jss.2026.112990},
+  url = {https://doi.org/10.1016/j.jss.2026.112990}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112990; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

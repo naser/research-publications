@@ -1,1 +1,5 @@
-IyBwcm9kdWN0aW9uIG1pY3Jvc2VydmljZXMKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipwcm9kdWN0aW9uIG1pY3Jvc2VydmljZXMqKi4KCi0gW0h5YnJpZFJDQTogTGlnaHR3ZWlnaHQgQ3JpdGljYWwtUGF0aC1Bd2FyZSBIeWJyaWQgVHJhY2luZyBmb3IgUm9vdC1DYXVzZSBBbmFseXNpcyBpbiBQcm9kdWN0aW9uIE1pY3Jvc2VydmljZXNdKC4uL3BhcGVycy9oeWJyaWRyY2EtY3JpdGljYWwtcGF0aC1hd2FyZS10cmFjaW5nL1JFQURNRS5tZCkgLSAyMDI1Cg==
+# production microservices
+
+Papers indexed by keyword **production microservices**.
+
+- [HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices](../papers/hybridrca-critical-path-aware-tracing/README.md) - 2025

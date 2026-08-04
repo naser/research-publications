@@ -1,1 +1,85 @@
-IyBPbmUgU2l6ZSBEb2VzIE5vdCBGaXQgQWxsOiBBcmNoaXRlY3R1cmUtQXdhcmUgQWRhcHRpdmUgQmF0Y2ggU2NoZWR1bGluZyB3aXRoIERFQkEKCioqMjAyNSB8IGFyWGl2IC8gQ29SUiB8IHByZXByaW50KioKCioqQXV0aG9yczoqKiBGcmFuw6dvaXMgQmVsaWFzLCBOYXNlciBFenphdGktSml2YW4sIEZvdXRzZSBLaG9taAoKKipDb3JlIGNvbnRyaWJ1dGlvbjoqKiBERUJBIGlzIGFuIGFyY2hpdGVjdHVyZS1hd2FyZSBhZGFwdGl2ZSBiYXRjaCBzY2hlZHVsZXIgdGhhdCB1c2VzIHRyYWluaW5nLXN0YWJpbGl0eSBzaWduYWxzIHRvIGRlY2lkZSB3aGVuIGFuZCBob3cgdG8gY2hhbmdlIGJhdGNoIHNpemUuCgojIyBGb3VyLXBhcnQgcmVzZWFyY2ggc3VtbWFyeQoKIyMjIDEuIFByb2JsZW0gYW5kIG1vdGl2YXRpb24KCkV4aXN0aW5nIGFkYXB0aXZlIGJhdGNoLXNpemUgbWV0aG9kcyBvZnRlbiBhc3N1bWUgdGhhdCBvbmUgYWRhcHRhdGlvbiBwb2xpY3kgd29ya3MgZXF1YWxseSB3ZWxsIGFjcm9zcyBuZXVyYWwtbmV0d29yayBhcmNoaXRlY3R1cmVzLCBldmVuIHRob3VnaCBhcmNoaXRlY3R1cmVzIGRpZmZlciBpbiBvcHRpbWl6YXRpb24gc3RhYmlsaXR5IGFuZCBzZW5zaXRpdml0eS4KCiMjIyAyLiBNZXRob2QgYW5kIGNvbnRyaWJ1dGlvbgoKREVCQSBtb25pdG9ycyBncmFkaWVudCB2YXJpYW5jZSwgZ3JhZGllbnQtbm9ybSB2YXJpYXRpb24sIGFuZCBsb3NzIHZhcmlhdGlvbi4gVGhlIHN0dWR5IGV2YWx1YXRlcyBpdCBhY3Jvc3Mgc2l4IGFyY2hpdGVjdHVyZXMsIHR3byBkYXRhc2V0cywgZml2ZSByYW5kb20gc2VlZHMsIGFuZCBhYmxhdGlvbnMgb2Ygc2xpZGluZy13aW5kb3cgc3RhdGlzdGljcyBhbmQgY29vbGRvd24gcGVyaW9kcy4KCiMjIyAzLiBGaW5kaW5ncyBhbmQgZXZpZGVuY2UKClRoZSByZXBvcnRlZCBnYWlucyBhcmUgYXJjaGl0ZWN0dXJlLWRlcGVuZGVudDogbGlnaHR3ZWlnaHQgYW5kIG1lZGl1bS1kZXB0aCBtb2RlbHMgb2J0YWluIDQ14oCTNjIlIHRyYWluaW5nIHNwZWVkdXBzIHdpdGggMeKAkzclIGFjY3VyYWN5IGltcHJvdmVtZW50cywgd2hpbGUgUmVzTmV0LTUwIGFuZCBWaVQtQjE2IHNob3cgd2Vha2VyIG9yIG1vcmUgdmFyaWFibGUgYmVuZWZpdHMuCgojIyMgNC4gTGltaXRhdGlvbnMgYW5kIGZ1dHVyZSBkaXJlY3Rpb25zCgoqKkxpbWl0YXRpb25zOioqIFRoZSBzdHVkeSBmb2N1c2VzIG9uIENJRkFSLTEwL0NJRkFSLTEwMCBhbmQgc2l4IGltYWdlLWNsYXNzaWZpY2F0aW9uIGFyY2hpdGVjdHVyZXMuCgoqKkZ1dHVyZSB3b3JrOioqIEZ1dHVyZSB3b3JrIHNob3VsZCB0ZXN0IGxhcmdlciBkYXRhc2V0cywgbW9kZXJuIGxhbmd1YWdlIGFuZCB2aXNpb24gbW9kZWxzLCBkaXN0cmlidXRlZCB0cmFpbmluZywgYW5kIHdvcmtsb2FkLWxldmVsIGVuZXJneSBvciBjb3N0IG91dGNvbWVzLgoKIyMgQWJzdHJhY3QKCkFic3RyYWN0IG5vdCBhdmFpbGFibGUgaW4gdGhlIGNhcHR1cmVkIHNvdXJjZXMuCgojIyBUb3BpY3MgYW5kIGtleXdvcmRzCgoqKlRhZ3M6KiogW2RlZXAtbGVhcm5pbmctc3lzdGVtc10oLi4vLi4vdG9waWNzL2RlZXAtbGVhcm5pbmctc3lzdGVtcy5tZCkgfCBbYWRhcHRpdmUtc2NoZWR1bGluZ10oLi4vLi4vdG9waWNzL2FkYXB0aXZlLXNjaGVkdWxpbmcubWQpIHwgW3BlcmZvcm1hbmNlLW9wdGltaXphdGlvbl0oLi4vLi4vdG9waWNzL3BlcmZvcm1hbmNlLW9wdGltaXphdGlvbi5tZCkgfCBbYXJjaGl0ZWN0dXJlLWF3YXJlLW1ldGhvZHNdKC4uLy4uL3RvcGljcy9hcmNoaXRlY3R1cmUtYXdhcmUtbWV0aG9kcy5tZCkKCioqS2V5d29yZHM6KiogW0RFQkFdKC4uLy4uL2tleXdvcmRzL2RlYmEubWQpIHwgW2FkYXB0aXZlIGJhdGNoIHNpemVdKC4uLy4uL2tleXdvcmRzL2FkYXB0aXZlLWJhdGNoLXNpemUubWQpIHwgW2dyYWRpZW50IHZhcmlhbmNlXSguLi8uLi9rZXl3b3Jkcy9ncmFkaWVudC12YXJpYW5jZS5tZCkgfCBbdHJhaW5pbmcgc3BlZWR1cF0oLi4vLi4va2V5d29yZHMvdHJhaW5pbmctc3BlZWR1cC5tZCkgfCBbUmVzTmV0XSguLi8uLi9rZXl3b3Jkcy9yZXNuZXQubWQpIHwgW0RlbnNlTmV0XSguLi8uLi9rZXl3b3Jkcy9kZW5zZW5ldC5tZCkgfCBbRWZmaWNpZW50TmV0XSguLi8uLi9rZXl3b3Jkcy9lZmZpY2llbnRuZXQubWQpIHwgW1ZpVF0oLi4vLi4va2V5d29yZHMvdml0Lm1kKQoKIyMgVmVyc2lvbnMgYW5kIHNvdXJjZSBsaW5rcwoKLSBbUHVibGljIHByZXByaW50XShodHRwczovL2FyeGl2Lm9yZy9hYnMvMjUxMS4wMzgwOSkgfCBbUERGXShodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUxMS4wMzgwOSkgLSBwdWJsaWNfZnVsbF90ZXh0CgoqKkNhbm9uaWNhbCBzb3VyY2U6KiogW2h0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNTExLjAzODA5XShodHRwczovL2FyeGl2Lm9yZy9hYnMvMjUxMS4wMzgwOSkKCiMjIElkZW50aWZpZXJzCgpbRE9JIDEwLjQ4NTUwL2FyWGl2LjI1MTEuMDM4MDldKGh0dHBzOi8vZG9pLm9yZy8xMC40ODU1MC9hclhpdi4yNTExLjAzODA5KSB8IFthclhpdiAyNTExLjAzODA5XShodHRwczovL2FyeGl2Lm9yZy9hYnMvMjUxMS4wMzgwOSkKCiMjIFdoZW4gdG8gY2l0ZSB0aGlzIHBhcGVyCgpDaXRlIHRoaXMgcGFwZXIgd2hlbiBzdHVkeWluZyBhZGFwdGl2ZSBiYXRjaC1zaXplIHNjaGVkdWxpbmcgZm9yIG5ldXJhbC1uZXR3b3JrIHRyYWluaW5nLgoKLSBBcmNoaXRlY3R1cmUtYXdhcmUgZGVjaXNpb25zIGFib3V0IHdoZW4gYW5kIGhvdyB0byBjaGFuZ2UgYmF0Y2ggc2l6ZS4KLSBUcmFpbmluZy1zdGFiaWxpdHkgb3IgZ3JhZGllbnQtdmFyaWFuY2Ugc2lnbmFscyBmb3Igc2NoZWR1bGluZy4KLSBCYXRjaC1zaXplIGVmZmVjdHMgYWNyb3NzIGhldGVyb2dlbmVvdXMgbmV1cmFsLW5ldHdvcmsgYXJjaGl0ZWN0dXJlcy4KCiMjIENpdGF0aW9uCgojIyMgQVBBIDcKCkJlbGlhcywgRi4sIEV6emF0aS1KaXZhbiwgTi4sICYgS2hvbWgsIEYuICgyMDI1KS4gT25lIFNpemUgRG9lcyBOb3QgRml0IEFsbDogQXJjaGl0ZWN0dXJlLUF3YXJlIEFkYXB0aXZlIEJhdGNoIFNjaGVkdWxpbmcgd2l0aCBERUJBLiBhclhpdiAvIENvUlIuIGh0dHBzOi8vZG9pLm9yZy8xMC40ODU1MC9hclhpdi4yNTExLjAzODA5CgojIyMgSUVFRQoKRi4gQmVsaWFzLCBOLiBFenphdGktSml2YW4sIGFuZCBGLiBLaG9taCwgIk9uZSBTaXplIERvZXMgTm90IEZpdCBBbGw6IEFyY2hpdGVjdHVyZS1Bd2FyZSBBZGFwdGl2ZSBCYXRjaCBTY2hlZHVsaW5nIHdpdGggREVCQSwiIGluIGFyWGl2IC8gQ29SUiwgMjAyNSwgZG9pOiAxMC40ODU1MC9hclhpdi4yNTExLjAzODA5CgpgYGBiaWJ0ZXgKQG1pc2N7ZXp6YXRpSml2YW4yMDI1b25lc2l6ZSwKICBhdXRob3IgPSB7RnJhbsOnb2lzIEJlbGlhcyBhbmQgTmFzZXIgRXp6YXRpLUppdmFuIGFuZCBGb3V0c2UgS2hvbWh9LAogIHRpdGxlID0ge09uZSBTaXplIERvZXMgTm90IEZpdCBBbGw6IEFyY2hpdGVjdHVyZS1Bd2FyZSBBZGFwdGl2ZSBCYXRjaCBTY2hlZHVsaW5nIHdpdGggREVCQX0sCiAgeWVhciA9IHsyMDI1fSwKICBob3dwdWJsaXNoZWQgPSB7YXJYaXYgLyBDb1JSfSwKICBkb2kgPSB7MTAuNDg1NTAvYXJYaXYuMjUxMS4wMzgwOX0sCiAgdXJsID0ge2h0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNTExLjAzODA5fQp9CmBgYAoKKipSZWZlcmVuY2UtbWFuYWdlciBpbXBvcnQ6KiogW1JJUyBmaWxlXSguL2NpdGF0aW9uLnJpcykKCiMjIFJlY29yZCBwcm92ZW5hbmNlCgotIE1ldGFkYXRhIHZlcmlmaWVkOiAyMDI2LTA4LTAzCi0gU3VtbWFyeSBzdGF0dXM6IHNvdXJjZS1ncm91bmRlZCBjYXRhbG9nIHJldmlldzsgYXV0aG9yIGFwcHJvdmFsIHBlbmRpbmcKLSBNZXRhZGF0YSBzb3VyY2VzOiBvZmZpY2lhbCBhclhpdiBhYnN0cmFjdCBhbmQgUERGIHBhZ2UgMjUxMS4wMzgwOTsgREJMUC9TY2hvbGFyIHJlY29yZCBtYXRjaGVkIGJ5IHRpdGxlIGFuZCBhdXRob3JzOyBsb2NhbCBQREYgaGFzaCB2ZXJpZmllZCBpbiB0aGUgd29ya2luZyBjYXRhbG9nCi0gTWFjaGluZS1yZWFkYWJsZSByZWNvcmQ6IFtwYXBlci5qc29uXSguL3BhcGVyLmpzb24pCg==
+# One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA
+
+**2025 | arXiv / CoRR | preprint**
+
+**Authors:** François Belias, Naser Ezzati-Jivan, Foutse Khomh
+
+**Core contribution:** DEBA is an architecture-aware adaptive batch scheduler that uses training-stability signals to decide when and how to change batch size.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Existing adaptive batch-size methods often assume that one adaptation policy works equally well across neural-network architectures, even though architectures differ in optimization stability and sensitivity.
+
+### 2. Method and contribution
+
+DEBA monitors gradient variance, gradient-norm variation, and loss variation. The study evaluates it across six architectures, two datasets, five random seeds, and ablations of sliding-window statistics and cooldown periods.
+
+### 3. Findings and evidence
+
+The reported gains are architecture-dependent: lightweight and medium-depth models obtain 45–62% training speedups with 1–7% accuracy improvements, while ResNet-50 and ViT-B16 show weaker or more variable benefits.
+
+### 4. Limitations and future directions
+
+**Limitations:** The study focuses on CIFAR-10/CIFAR-100 and six image-classification architectures.
+
+**Future work:** Future work should test larger datasets, modern language and vision models, distributed training, and workload-level energy or cost outcomes.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [deep-learning-systems](../../topics/deep-learning-systems.md) | [adaptive-scheduling](../../topics/adaptive-scheduling.md) | [performance-optimization](../../topics/performance-optimization.md) | [architecture-aware-methods](../../topics/architecture-aware-methods.md)
+
+**Keywords:** [DEBA](../../keywords/deba.md) | [adaptive batch size](../../keywords/adaptive-batch-size.md) | [gradient variance](../../keywords/gradient-variance.md) | [training speedup](../../keywords/training-speedup.md) | [ResNet](../../keywords/resnet.md) | [DenseNet](../../keywords/densenet.md) | [EfficientNet](../../keywords/efficientnet.md) | [ViT](../../keywords/vit.md)
+
+## Versions and source links
+
+- [Public preprint](https://arxiv.org/abs/2511.03809) | [PDF](https://arxiv.org/pdf/2511.03809) - public_full_text
+
+**Canonical source:** [https://arxiv.org/abs/2511.03809](https://arxiv.org/abs/2511.03809)
+
+## Identifiers
+
+[DOI 10.48550/arXiv.2511.03809](https://doi.org/10.48550/arXiv.2511.03809) | [arXiv 2511.03809](https://arxiv.org/abs/2511.03809)
+
+## When to cite this paper
+
+Cite this paper when studying adaptive batch-size scheduling for neural-network training.
+
+- Architecture-aware decisions about when and how to change batch size.
+- Training-stability or gradient-variance signals for scheduling.
+- Batch-size effects across heterogeneous neural-network architectures.
+
+## Citation
+
+### APA 7
+
+Belias, F., Ezzati-Jivan, N., & Khomh, F. (2025). One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA. arXiv / CoRR. https://doi.org/10.48550/arXiv.2511.03809
+
+### IEEE
+
+F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA," in arXiv / CoRR, 2025, doi: 10.48550/arXiv.2511.03809
+
+```bibtex
+@misc{ezzatiJivan2025onesize,
+  author = {François Belias and Naser Ezzati-Jivan and Foutse Khomh},
+  title = {One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA},
+  year = {2025},
+  howpublished = {arXiv / CoRR},
+  doi = {10.48550/arXiv.2511.03809},
+  url = {https://arxiv.org/abs/2511.03809}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: official arXiv abstract and PDF page 2511.03809; DBLP/Scholar record matched by title and authors; local PDF hash verified in the working catalog
+- Machine-readable record: [paper.json](./paper.json)

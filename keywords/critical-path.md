@@ -1,1 +1,6 @@
-IyBjcml0aWNhbCBwYXRoCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqY3JpdGljYWwgcGF0aCoqLgoKLSBbRWZmaWNpZW50IFVuc3VwZXJ2aXNlZCBMYXRlbmN5IEN1bHByaXQgUmFua2luZyBpbiBEaXN0cmlidXRlZCBUcmFjZXMgd2l0aCBHTk4gYW5kIENyaXRpY2FsIFBhdGggQW5hbHlzaXNdKC4uL3BhcGVycy9lZmZpY2llbnQtdW5zdXBlcnZpc2VkLWxhdGVuY3ktY3VscHJpdC1yYW5raW5nL1JFQURNRS5tZCkgLSAyMDI0Ci0gW0h5YnJpZFJDQTogTGlnaHR3ZWlnaHQgQ3JpdGljYWwtUGF0aC1Bd2FyZSBIeWJyaWQgVHJhY2luZyBmb3IgUm9vdC1DYXVzZSBBbmFseXNpcyBpbiBQcm9kdWN0aW9uIE1pY3Jvc2VydmljZXNdKC4uL3BhcGVycy9oeWJyaWRyY2EtY3JpdGljYWwtcGF0aC1hd2FyZS10cmFjaW5nL1JFQURNRS5tZCkgLSAyMDI1Cg==
+# critical path
+
+Papers indexed by keyword **critical path**.
+
+- [Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis](../papers/efficient-unsupervised-latency-culprit-ranking/README.md) - 2024
+- [HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices](../papers/hybridrca-critical-path-aware-tracing/README.md) - 2025

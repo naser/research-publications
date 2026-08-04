@@ -1,1 +1,7 @@
-IyBtdWx0aWNvcmUtc3lzdGVtcwoKUGFwZXJzIHRhZ2dlZCAqKm11bHRpY29yZS1zeXN0ZW1zKiouCgotIFtEZXBHcmFwaDogTG9jYWxpemluZyBQZXJmb3JtYW5jZSBCb3R0bGVuZWNrcyBpbiBNdWx0aS1Db3JlIEFwcGxpY2F0aW9ucyBVc2luZyBXYWl0aW5nIERlcGVuZGVuY3kgR3JhcGhzIGFuZCBTb2Z0d2FyZSBUcmFjaW5nXSguLi9wYXBlcnMvZGVwZ3JhcGgvUkVBRE1FLm1kKSAtIDIwMjAKLSBbRWZmaWNpZW50IE1ldGhvZHMgZm9yIFRyYWNlIEFuYWx5c2lzIFBhcmFsbGVsaXphdGlvbl0oLi4vcGFwZXJzL2VmZmljaWVudC10cmFjZS1hbmFseXNpcy1wYXJhbGxlbGl6YXRpb24vUkVBRE1FLm1kKSAtIDIwMTkKLSBbRXhlY3V0aW9uIHRyYWNlLWJhc2VkIG1vZGVsIHZlcmlmaWNhdGlvbiB0byBhbmFseXplIG11bHRpY29yZSBhbmQgcmVhbC10aW1lIHN5c3RlbXNdKC4uL3BhcGVycy9leGVjdXRpb24tdHJhY2UtbW9kZWwtdmVyaWZpY2F0aW9uLW11bHRpY29yZS9SRUFETUUubWQpIC0gMjAyMgo=
+# multicore-systems
+
+Papers tagged **multicore-systems**.
+
+- [DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing](../papers/depgraph/README.md) - 2020
+- [Efficient Methods for Trace Analysis Parallelization](../papers/efficient-trace-analysis-parallelization/README.md) - 2019
+- [Execution trace-based model verification to analyze multicore and real-time systems](../papers/execution-trace-model-verification-multicore/README.md) - 2022

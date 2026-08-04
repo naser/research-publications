@@ -1,1 +1,5 @@
-IyBkYXRhLWRyaXZlbiBSQ0EKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipkYXRhLWRyaXZlbiBSQ0EqKi4KCi0gW0FsdE9PTTogQSBEYXRhLWRyaXZlbiBPdXQgb2YgTWVtb3J5IFJvb3QgQ2F1c2UgSWRlbnRpZmljYXRpb24gU3RyYXRlZ3ldKC4uL3BhcGVycy9hbHRvb20tb3V0LW9mLW1lbW9yeS1yb290LWNhdXNlL1JFQURNRS5tZCkgLSAyMDIzCg==
+# data-driven RCA
+
+Papers indexed by keyword **data-driven RCA**.
+
+- [AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy](../papers/altoom-out-of-memory-root-cause/README.md) - 2023

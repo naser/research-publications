@@ -1,1 +1,1 @@
-Ui4gQmVhbW9udGUsIE4uIEV6emF0aS1KaXZhbiwgYW5kIE0uIFIuIERhZ2VuYWlzLCAiRXhlY3V0aW9uIHRyYWNlLWJhc2VkIG1vZGVsIHZlcmlmaWNhdGlvbiB0byBhbmFseXplIG11bHRpY29yZSBhbmQgcmVhbC10aW1lIHN5c3RlbXMsIiBpbiBDb25jdXJyZW5jeSBhbmQgQ29tcHV0YXRpb246IFByYWN0aWNlIGFuZCBFeHBlcmllbmNlLCAyMDIyLCBkb2k6IDEwLjEwMDIvY3BlLjY5NzQK
+R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Execution trace-based model verification to analyze multicore and real-time systems," in Concurrency and Computation: Practice and Experience, 2022, doi: 10.1002/cpe.6974

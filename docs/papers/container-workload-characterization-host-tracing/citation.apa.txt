@@ -1,1 +1,1 @@
-SmFuZWNlaywgTS4sIEV6emF0aS1KaXZhbiwgTi4sICYgQXpoYXJpLCBTLiBWLiAoMjAyMSkuIENvbnRhaW5lciBXb3JrbG9hZCBDaGFyYWN0ZXJpemF0aW9uIFRocm91Z2ggSG9zdCBTeXN0ZW0gVHJhY2luZy4gSUVFRSBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gQ2xvdWQgQ29tcHV0aW5nIFRlY2hub2xvZ3kgYW5kIFNjaWVuY2UgKENsb3VkQ29tKS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvaWMyZTUyMjIxLjIwMjEuMDAwMTUK
+Janecek, M., Ezzati-Jivan, N., & Azhari, S. V. (2021). Container Workload Characterization Through Host System Tracing. IEEE International Conference on Cloud Computing Technology and Science (CloudCom). https://doi.org/10.1109/ic2e52221.2021.00015

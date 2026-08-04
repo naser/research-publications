@@ -1,1 +1,5 @@
-IyBtdWx0aWNvcmUgcHJvY2Vzc2luZwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKm11bHRpY29yZSBwcm9jZXNzaW5nKiouCgotIFtFZmZpY2llbnQgTWV0aG9kcyBmb3IgVHJhY2UgQW5hbHlzaXMgUGFyYWxsZWxpemF0aW9uXSguLi9wYXBlcnMvZWZmaWNpZW50LXRyYWNlLWFuYWx5c2lzLXBhcmFsbGVsaXphdGlvbi9SRUFETUUubWQpIC0gMjAxOQo=
+# multicore processing
+
+Papers indexed by keyword **multicore processing**.
+
+- [Efficient Methods for Trace Analysis Parallelization](../papers/efficient-trace-analysis-parallelization/README.md) - 2019

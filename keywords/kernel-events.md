@@ -1,1 +1,5 @@
-IyBrZXJuZWwgZXZlbnRzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqa2VybmVsIGV2ZW50cyoqLgoKLSBbUEFTRDogQSBQZXJmb3JtYW5jZSBBbmFseXNpcyBBcHByb2FjaCBUaHJvdWdoIHRoZSBTdGF0aXN0aWNhbCBEZWJ1Z2dpbmcgb2YgS2VybmVsIEV2ZW50c10oLi4vcGFwZXJzL3Bhc2Qtc3RhdGlzdGljYWwtZGVidWdnaW5nLWtlcm5lbC1ldmVudHMvUkVBRE1FLm1kKSAtIDIwMjMK
+# kernel events
+
+Papers indexed by keyword **kernel events**.
+
+- [PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events](../papers/pasd-statistical-debugging-kernel-events/README.md) - 2023

@@ -1,1 +1,5 @@
-IyBwZXJmb3JtYW5jZSBhbmFseXNpcwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnBlcmZvcm1hbmNlIGFuYWx5c2lzKiouCgotIFtQQVNEOiBBIFBlcmZvcm1hbmNlIEFuYWx5c2lzIEFwcHJvYWNoIFRocm91Z2ggdGhlIFN0YXRpc3RpY2FsIERlYnVnZ2luZyBvZiBLZXJuZWwgRXZlbnRzXSguLi9wYXBlcnMvcGFzZC1zdGF0aXN0aWNhbC1kZWJ1Z2dpbmcta2VybmVsLWV2ZW50cy9SRUFETUUubWQpIC0gMjAyMwo=
+# performance analysis
+
+Papers indexed by keyword **performance analysis**.
+
+- [PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events](../papers/pasd-statistical-debugging-kernel-events/README.md) - 2023

@@ -1,1 +1,84 @@
-IyBIaWdoIGxhdGVuY3kgY2F1c2UgZGV0ZWN0aW9uIHVzaW5nIG11bHRpbGV2ZWwgZHluYW1pYyBhbmFseXNpcwoKKioyMDE4IHwgSUVFRSBTeXN0ZW1zIENvbmZlcmVuY2UgfCByZXNlYXJjaCBwYXBlcioqCgoqKkF1dGhvcnM6KiogTmFzZXIgRXp6YXRpLUppdmFuLCBHZW5ldmlldmUgQmFzdGllbiwgTWljaGVsIFIuIERhZ2VuYWlzCgoqKkNvcmUgY29udHJpYnV0aW9uOioqIFRoaXMgd29yayBzdHVkaWVzIGhpZ2ggbGF0ZW5jeSBjYXVzZSBkZXRlY3Rpb24gdXNpbmcgbXVsdGlsZXZlbCBkeW5hbWljIGFuYWx5c2lzIGluIHRoZSBjb250ZXh0IG9mIHNvZnR3YXJlIHBlcmZvcm1hbmNlIGFuZCBzeXN0ZW1zIGFuYWx5c2lzLgoKIyMgRm91ci1wYXJ0IHJlc2VhcmNoIHN1bW1hcnkKCiMjIyAxLiBQcm9ibGVtIGFuZCBtb3RpdmF0aW9uCgpIaWdoLWxhdGVuY3kgcmVxdWVzdHMgcmVxdWlyZSBjYXVzYWwgZXZpZGVuY2UgYWNyb3NzIGFwcGxpY2F0aW9uIGFuZCBzeXN0ZW0gbGF5ZXJzLgoKIyMjIDIuIE1ldGhvZCBhbmQgY29udHJpYnV0aW9uCgpUaGUgd29yayBhcHBsaWVzIG11bHRpbGV2ZWwgZHluYW1pYyBhbmFseXNpcyB0byBkZXRlY3QgY2F1c2VzIGFzc29jaWF0ZWQgd2l0aCBoaWdoIGxhdGVuY3kuCgojIyMgMy4gRmluZGluZ3MgYW5kIGV2aWRlbmNlCgpJdCBlc3RhYmxpc2hlcyBhbiBlYXJseSBtdWx0aWxldmVsIGxhdGVuY3ktZGlhZ25vc2lzIGFwcHJvYWNoOyBleGFjdCBleHBlcmltZW50cyByZXF1aXJlIGZ1bGwtdGV4dCByZXZpZXcuCgojIyMgNC4gTGltaXRhdGlvbnMgYW5kIGZ1dHVyZSBkaXJlY3Rpb25zCgoqKkxpbWl0YXRpb25zOioqIFRoZSBjdXJyZW50IHB1YmxpYyByZWNvcmQgY2FwdHVyZXMgYmlibGlvZ3JhcGhpYyBtZXRhZGF0YSBidXQgbm90IHRoZSBwYXBlcidzIGZ1bGwgdGV4dDsgcXVhbnRpdGF0aXZlIGNsYWltcyBhbmQgaW1wbGVtZW50YXRpb24gZGV0YWlscyBzaG91bGQgYmUgYWRkZWQgYWZ0ZXIgUERGIG9yIGF1dGhvci1tYW51c2NyaXB0IHJldmlldy4KCioqRnV0dXJlIHdvcms6KiogUmV2aXNpdCB0aGUgbWV0aG9kIGZvciBkaXN0cmlidXRlZCBhbmQgY2xvdWQtbmF0aXZlIHdvcmtsb2FkcyB3aXRoIG1vZGVybiB0cmFjaW5nIHN0YW5kYXJkcy4KCiMjIEFic3RyYWN0CgpBYnN0cmFjdCBub3QgYXZhaWxhYmxlIGluIHRoZSBjYXB0dXJlZCBzb3VyY2VzLgoKIyMgVG9waWNzIGFuZCBrZXl3b3JkcwoKKipUYWdzOioqIFtzeXN0ZW0tdHJhY2luZ10oLi4vLi4vdG9waWNzL3N5c3RlbS10cmFjaW5nLm1kKSB8IFtsYXRlbmN5LWFuYWx5c2lzXSguLi8uLi90b3BpY3MvbGF0ZW5jeS1hbmFseXNpcy5tZCkgfCBbcm9vdC1jYXVzZS1hbmFseXNpc10oLi4vLi4vdG9waWNzL3Jvb3QtY2F1c2UtYW5hbHlzaXMubWQpIHwgW3BlcmZvcm1hbmNlLWFuYWx5c2lzXSguLi8uLi90b3BpY3MvcGVyZm9ybWFuY2UtYW5hbHlzaXMubWQpCgoqKktleXdvcmRzOioqIFtoaWdoIGxhdGVuY3ldKC4uLy4uL2tleXdvcmRzL2hpZ2gtbGF0ZW5jeS5tZCkgfCBbZHluYW1pYyBhbmFseXNpc10oLi4vLi4va2V5d29yZHMvZHluYW1pYy1hbmFseXNpcy5tZCkgfCBbbXVsdGlsZXZlbCBhbmFseXNpc10oLi4vLi4va2V5d29yZHMvbXVsdGlsZXZlbC1hbmFseXNpcy5tZCkgfCBbbGF0ZW5jeSBjYXVzZXNdKC4uLy4uL2tleXdvcmRzL2xhdGVuY3ktY2F1c2VzLm1kKQoKIyMgVmVyc2lvbnMgYW5kIHNvdXJjZSBsaW5rcwoKLSBbUHVibGlzaGVkIHZlcnNpb25dKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L3N5c2Nvbi4yMDE4LjgzNjk2MTMpIC0gcHVibGlzaGVkCgoqKkNhbm9uaWNhbCBzb3VyY2U6KiogW2h0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L3N5c2Nvbi4yMDE4LjgzNjk2MTNdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L3N5c2Nvbi4yMDE4LjgzNjk2MTMpCgojIyBJZGVudGlmaWVycwoKW0RPSSAxMC4xMTA5L3N5c2Nvbi4yMDE4LjgzNjk2MTNdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L3N5c2Nvbi4yMDE4LjgzNjk2MTMpCgojIyBXaGVuIHRvIGNpdGUgdGhpcyBwYXBlcgoKQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gaXRzIHNwZWNpZmljIG1ldGhvZCwgZXZpZGVuY2UsIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCi0gVGhlIHBhcGVyJ3MgbWV0aG9kIGlzIGRpcmVjdGx5IHJlbGV2YW50LgotIFRoZSBwYXBlcidzIGV2aWRlbmNlIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCiMjIENpdGF0aW9uCgojIyMgQVBBIDcKCkV6emF0aS1KaXZhbiwgTi4sIEJhc3RpZW4sIEcuLCAmIERhZ2VuYWlzLCBNLiBSLiAoMjAxOCkuIEhpZ2ggbGF0ZW5jeSBjYXVzZSBkZXRlY3Rpb24gdXNpbmcgbXVsdGlsZXZlbCBkeW5hbWljIGFuYWx5c2lzLiBJRUVFIFN5c3RlbXMgQ29uZmVyZW5jZS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvc3lzY29uLjIwMTguODM2OTYxMwoKIyMjIElFRUUKCk4uIEV6emF0aS1KaXZhbiwgRy4gQmFzdGllbiwgYW5kIE0uIFIuIERhZ2VuYWlzLCAiSGlnaCBsYXRlbmN5IGNhdXNlIGRldGVjdGlvbiB1c2luZyBtdWx0aWxldmVsIGR5bmFtaWMgYW5hbHlzaXMsIiBpbiBJRUVFIFN5c3RlbXMgQ29uZmVyZW5jZSwgMjAxOCwgZG9pOiAxMC4xMTA5L3N5c2Nvbi4yMDE4LjgzNjk2MTMKCmBgYGJpYnRleApAaW5wcm9jZWVkaW5nc3tlenphdGlKaXZhbjIwMThoaWdobGF0ZW5jeSwKICBhdXRob3IgPSB7TmFzZXIgRXp6YXRpLUppdmFuIGFuZCBHZW5ldmlldmUgQmFzdGllbiBhbmQgTWljaGVsIFIuIERhZ2VuYWlzfSwKICB0aXRsZSA9IHtIaWdoIGxhdGVuY3kgY2F1c2UgZGV0ZWN0aW9uIHVzaW5nIG11bHRpbGV2ZWwgZHluYW1pYyBhbmFseXNpc30sCiAgeWVhciA9IHsyMDE4fSwKICBib29rdGl0bGUgPSB7SUVFRSBTeXN0ZW1zIENvbmZlcmVuY2V9LAogIGRvaSA9IHsxMC4xMTA5L3N5c2Nvbi4yMDE4LjgzNjk2MTN9LAogIHVybCA9IHtodHRwczovL2RvaS5vcmcvMTAuMTEwOS9zeXNjb24uMjAxOC44MzY5NjEzfQp9CmBgYAoKKipSZWZlcmVuY2UtbWFuYWdlciBpbXBvcnQ6KiogW1JJUyBmaWxlXSguL2NpdGF0aW9uLnJpcykKCiMjIFJlY29yZCBwcm92ZW5hbmNlCgotIE1ldGFkYXRhIHZlcmlmaWVkOiAyMDI2LTA4LTAzCi0gU3VtbWFyeSBzdGF0dXM6IHNvdXJjZS1ncm91bmRlZCBjYXRhbG9nIHJldmlldzsgYXV0aG9yIGFwcHJvdmFsIHBlbmRpbmcKLSBNZXRhZGF0YSBzb3VyY2VzOiBEQkxQL0RPSSBiaWJsaW9ncmFwaGljIHJlY29yZCBmb3IgMTAuMTEwOS9zeXNjb24uMjAxOC44MzY5NjEzOyBhdXRob3IgaWRlbnRpdHkgbWF0Y2hlZCB0byBOYXNlciBFenphdGktSml2YW4gaW4gdGhlIGxvY2FsIHJlc2VhcmNoIGNhdGFsb2c7IGZ1bGwtdGV4dCBzdW1tYXJ5IHBlbmRpbmcgc291cmNlIHJldmlldwotIE1hY2hpbmUtcmVhZGFibGUgcmVjb3JkOiBbcGFwZXIuanNvbl0oLi9wYXBlci5qc29uKQo=
+# High latency cause detection using multilevel dynamic analysis
+
+**2018 | IEEE Systems Conference | research paper**
+
+**Authors:** Naser Ezzati-Jivan, Genevieve Bastien, Michel R. Dagenais
+
+**Core contribution:** This work studies high latency cause detection using multilevel dynamic analysis in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+High-latency requests require causal evidence across application and system layers.
+
+### 2. Method and contribution
+
+The work applies multilevel dynamic analysis to detect causes associated with high latency.
+
+### 3. Findings and evidence
+
+It establishes an early multilevel latency-diagnosis approach; exact experiments require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Revisit the method for distributed and cloud-native workloads with modern tracing standards.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [system-tracing](../../topics/system-tracing.md) | [latency-analysis](../../topics/latency-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
+
+**Keywords:** [high latency](../../keywords/high-latency.md) | [dynamic analysis](../../keywords/dynamic-analysis.md) | [multilevel analysis](../../keywords/multilevel-analysis.md) | [latency causes](../../keywords/latency-causes.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1109/syscon.2018.8369613) - published
+
+**Canonical source:** [https://doi.org/10.1109/syscon.2018.8369613](https://doi.org/10.1109/syscon.2018.8369613)
+
+## Identifiers
+
+[DOI 10.1109/syscon.2018.8369613](https://doi.org/10.1109/syscon.2018.8369613)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Ezzati-Jivan, N., Bastien, G., & Dagenais, M. R. (2018). High latency cause detection using multilevel dynamic analysis. IEEE Systems Conference. https://doi.org/10.1109/syscon.2018.8369613
+
+### IEEE
+
+N. Ezzati-Jivan, G. Bastien, and M. R. Dagenais, "High latency cause detection using multilevel dynamic analysis," in IEEE Systems Conference, 2018, doi: 10.1109/syscon.2018.8369613
+
+```bibtex
+@inproceedings{ezzatiJivan2018highlatency,
+  author = {Naser Ezzati-Jivan and Genevieve Bastien and Michel R. Dagenais},
+  title = {High latency cause detection using multilevel dynamic analysis},
+  year = {2018},
+  booktitle = {IEEE Systems Conference},
+  doi = {10.1109/syscon.2018.8369613},
+  url = {https://doi.org/10.1109/syscon.2018.8369613}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

@@ -1,1 +1,5 @@
-IyBsYXRlbmN5IG91dGxpZXJzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqbGF0ZW5jeSBvdXRsaWVycyoqLgoKLSBbQXV0b21hdGVkIENhdXNlIEFuYWx5c2lzIG9mIExhdGVuY3kgT3V0bGllcnMgVXNpbmcgU3lzdGVtLUxldmVsIERlcGVuZGVuY3kgR3JhcGhzXSguLi9wYXBlcnMvYXV0b21hdGVkLWNhdXNlLWFuYWx5c2lzLWxhdGVuY3ktb3V0bGllcnMvUkVBRE1FLm1kKSAtIDIwMjEK
+# latency outliers
+
+Papers indexed by keyword **latency outliers**.
+
+- [Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs](../papers/automated-cause-analysis-latency-outliers/README.md) - 2021

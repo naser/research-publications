@@ -1,1 +1,98 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImR0cmFjb21wLWRpc3RyaWJ1dGVkLXRyYWNlLWNvbXBhcmlzb24iLAogICJwYWdlX3VybCI6ICJodHRwczovL25hc2VyLmdpdGh1Yi5pby9yZXNlYXJjaC1wdWJsaWNhdGlvbnMvcGFwZXJzL2R0cmFjb21wLWRpc3RyaWJ1dGVkLXRyYWNlLWNvbXBhcmlzb24vIiwKICAidGl0bGUiOiAiRFRyYUNvbXA6IENvbXBhcmluZyBkaXN0cmlidXRlZCBleGVjdXRpb24gdHJhY2VzIGZvciB1bmRlcnN0YW5kaW5nIGludGVybWl0dGVudCBsYXRlbmN5IHNvdXJjZXMiLAogICJ0aXRsZV92YXJpYW50cyI6IFtdLAogICJhdXRob3JzIjogWwogICAgIk1hcnlhbSBFa2hsYXNpIiwKICAgICJGYXRlbWVoIEZhcmFqaSBEYW5lc2hnYXIiLAogICAgIk1pY2hlbCBEYWdlbmFpcyIsCiAgICAiTWF4aW1lIExhbW90aGUiLAogICAgIk5hc2VyIEV6emF0aS1KaXZhbiIsCiAgICAiTWF0dGhldyBLaG91emFtIgogIF0sCiAgInB1YmxpY2F0aW9uIjogewogICAgInllYXIiOiAyMDI2LAogICAgInZlbnVlIjogIkpvdXJuYWwgb2YgU3lzdGVtcyBhbmQgU29mdHdhcmUiLAogICAgInR5cGUiOiAicmVzZWFyY2ggcGFwZXIiCiAgfSwKICAicHVibGljYXRpb25fdHlwZSI6ICJyZXNlYXJjaCBwYXBlciIsCiAgInN0YXR1cyI6ICJwdWJsaXNoZWRfbWV0YWRhdGFfcmVjb3JkIiwKICAiY2Fub25pY2FsX3NvdXJjZV91cmwiOiAiaHR0cHM6Ly9kb2kub3JnLzEwLjEwMTYvai5qc3MuMjAyNi4xMTI5OTAiLAogICJzb3VyY2VfcmVjb3JkX2lkIjogImR0cmFjb21wLWNvbXBhcmluZy1kaXN0cmlidXRlZC1leGVjdXRpb24tdHJhY2VzLWZvci11bmRlcnN0YW5kaW5nLWludGVybWl0dGVudC1sYXRlbmN5LXNvdXJjZXMtMWE3NzJmYmI1MyIsCiAgImlkZW50aWZpZXJzIjogewogICAgImRvaSI6ICIxMC4xMDE2L2ouanNzLjIwMjYuMTEyOTkwIgogIH0sCiAgImFic3RyYWN0IjogbnVsbCwKICAiYWJzdHJhY3Rfc291cmNlIjogIk5vIHB1YmxpYyBhYnN0cmFjdCBjYXB0dXJlZCBpbiB0aGUgY3VycmVudCBjYXRhbG9nOyBzdW1tYXJ5IGxpbWl0ZWQgdG8gdmVyaWZpZWQgYmlibGlvZ3JhcGhpYyBtZXRhZGF0YSBhbmQgdGhlIHBhcGVyIHRpdGxlLiIsCiAgInN1bW1hcnkiOiB7CiAgICAiY29yZV9jb250cmlidXRpb24iOiAiVGhpcyB3b3JrIHN0dWRpZXMgZHRyYWNvbXA6IGNvbXBhcmluZyBkaXN0cmlidXRlZCBleGVjdXRpb24gdHJhY2VzIGZvciB1bmRlcnN0YW5kaW5nIGludGVybWl0dGVudCBsYXRlbmN5IHNvdXJjZXMgaW4gdGhlIGNvbnRleHQgb2Ygc29mdHdhcmUgcGVyZm9ybWFuY2UgYW5kIHN5c3RlbXMgYW5hbHlzaXMuIiwKICAgICJwcm9ibGVtIjogIkludGVybWl0dGVudCBsYXRlbmN5IHNvdXJjZXMgYXJlIGRpZmZpY3VsdCB0byBpc29sYXRlIGJlY2F1c2Ugbm9ybWFsIGFuZCBhYm5vcm1hbCBkaXN0cmlidXRlZCBleGVjdXRpb25zIGNhbiBkaWZmZXIgb25seSBpbiBzbWFsbCB0cmFjZSByZWdpb25zLiIsCiAgICAibWV0aG9kIjogIkRUcmFDb21wIGNvbXBhcmVzIGRpc3RyaWJ1dGVkIGV4ZWN1dGlvbiB0cmFjZXMgdG8gZXhwb3NlIGRpZmZlcmVuY2VzIGFzc29jaWF0ZWQgd2l0aCBpbnRlcm1pdHRlbnQgbGF0ZW5jeS4iLAogICAgImZpbmRpbmdzIjogIlRoZSBwYXBlciBwcm92aWRlcyBhIHRyYWNlLWNvbXBhcmlzb24gYXBwcm9hY2ggZm9yIGludGVybWl0dGVudC1sYXRlbmN5IGFuYWx5c2lzOyBleGFjdCBhbGdvcml0aG1zIGFuZCByZXN1bHRzIHJlcXVpcmUgZnVsbC10ZXh0IHJldmlldy4iLAogICAgImxpbWl0YXRpb25zIjogIlRoZSBjdXJyZW50IHB1YmxpYyByZWNvcmQgY2FwdHVyZXMgYmlibGlvZ3JhcGhpYyBtZXRhZGF0YSBidXQgbm90IHRoZSBwYXBlcidzIGZ1bGwgdGV4dDsgcXVhbnRpdGF0aXZlIGNsYWltcyBhbmQgaW1wbGVtZW50YXRpb24gZGV0YWlscyBzaG91bGQgYmUgYWRkZWQgYWZ0ZXIgUERGIG9yIGF1dGhvci1tYW51c2NyaXB0IHJldmlldy4iLAogICAgImZ1dHVyZV93b3JrIjogIkV2YWx1YXRlIHN0cmVhbWluZyBjb21wYXJpc29uLCBsYXJnZSB0cmFjZSBzZXRzLCBub2lzZSB0b2xlcmFuY2UsIGFuZCBjcm9zcy12ZXJzaW9uIGRpYWdub3Npcy4iCiAgfSwKICAidGFncyI6IFsKICAgICJzeXN0ZW0tdHJhY2luZyIsCiAgICAidHJhY2UtYW5hbHlzaXMiLAogICAgImxhdGVuY3ktYW5hbHlzaXMiLAogICAgInJvb3QtY2F1c2UtYW5hbHlzaXMiCiAgXSwKICAia2V5d29yZHMiOiBbCiAgICAiZGlzdHJpYnV0ZWQgZXhlY3V0aW9uIHRyYWNlcyIsCiAgICAidHJhY2UgY29tcGFyaXNvbiIsCiAgICAiaW50ZXJtaXR0ZW50IGxhdGVuY3kiLAogICAgImxhdGVuY3kgc291cmNlcyIKICBdLAogICJ2ZXJzaW9ucyI6IFsKICAgIHsKICAgICAgImlkIjogInB1Ymxpc2hlZC12ZXJzaW9uIiwKICAgICAgImxhYmVsIjogIlB1Ymxpc2hlZCB2ZXJzaW9uIiwKICAgICAgInJlbGF0aW9uIjogInZlcnNpb24tb2YtcmVjb3JkIiwKICAgICAgInRpdGxlIjogIkRUcmFDb21wOiBDb21wYXJpbmcgZGlzdHJpYnV0ZWQgZXhlY3V0aW9uIHRyYWNlcyBmb3IgdW5kZXJzdGFuZGluZyBpbnRlcm1pdHRlbnQgbGF0ZW5jeSBzb3VyY2VzIiwKICAgICAgInVybCI6ICJodHRwczovL2RvaS5vcmcvMTAuMTAxNi9qLmpzcy4yMDI2LjExMjk5MCIsCiAgICAgICJwZGZfdXJsIjogbnVsbCwKICAgICAgInN0YXR1cyI6ICJwdWJsaXNoZWQiLAogICAgICAiY2Fub25pY2FsX2Zvcl9jaXRhdGlvbiI6IHRydWUKICAgIH0KICBdLAogICJhY2Nlc3MiOiB7CiAgICAic3RhdHVzIjogInB1Ymxpc2hlZF9tZXRhZGF0YV9yZWNvcmQiLAogICAgIm5vdGUiOiAiVGhlIERPSSBpcyB0aGUgY2Fub25pY2FsIGNpdGF0aW9uIHRhcmdldDsgdGhpcyBjYXRhbG9nIGRvZXMgbm90IHJlZGlzdHJpYnV0ZSB0aGUgcHVibGlzaGVyIFBERi4iLAogICAgImxpY2Vuc2UiOiBudWxsCiAgfSwKICAicmVzb3VyY2VzIjogewogICAgImNvZGUiOiBudWxsLAogICAgImRhdGEiOiBudWxsLAogICAgInNsaWRlcyI6IG51bGwsCiAgICAiZGVtbyI6IG51bGwKICB9LAogICJjaXRhdGlvbl9ndWlkYW5jZSI6IHsKICAgICJ3aGVuX3RvX2NpdGUiOiAiQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gaXRzIHNwZWNpZmljIG1ldGhvZCwgZXZpZGVuY2UsIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4iLAogICAgInBvaW50cyI6IFsKICAgICAgIlRoZSBwYXBlcidzIG1ldGhvZCBpcyBkaXJlY3RseSByZWxldmFudC4iLAogICAgICAiVGhlIHBhcGVyJ3MgZXZpZGVuY2Ugb3IgYmVuY2htYXJrIGlzIGRpcmVjdGx5IHJlbGV2YW50LiIKICAgIF0sCiAgICAiY2Fub25pY2FsX3ZlcnNpb25faWQiOiAicHVibGlzaGVkLXZlcnNpb24iCiAgfSwKICAicHJvdmVuYW5jZSI6IHsKICAgICJtZXRhZGF0YV92ZXJpZmllZF9vbiI6ICIyMDI2LTA4LTAzIiwKICAgICJtZXRhZGF0YV9zb3VyY2UiOiBbCiAgICAgICJEQkxQL0RPSSBiaWJsaW9ncmFwaGljIHJlY29yZCBmb3IgMTAuMTAxNi9qLmpzcy4yMDI2LjExMjk5MCIsCiAgICAgICJhdXRob3IgaWRlbnRpdHkgbWF0Y2hlZCB0byBOYXNlciBFenphdGktSml2YW4gaW4gdGhlIGxvY2FsIHJlc2VhcmNoIGNhdGFsb2ciLAogICAgICAiZnVsbC10ZXh0IHN1bW1hcnkgcGVuZGluZyBzb3VyY2UgcmV2aWV3IgogICAgXSwKICAgICJzdW1tYXJ5X3dyaXR0ZW5fYnkiOiAiQUktYXNzaXN0ZWQiLAogICAgInN1bW1hcnlfdmVyaWZpZWRfYnkiOiAic291cmNlLWdyb3VuZGVkIGNhdGFsb2cgcmV2aWV3OyBhdXRob3IgYXBwcm92YWwgcGVuZGluZyIsCiAgICAibGlua2VkX3ByZXByaW50X3JlY29yZCI6IG51bGwsCiAgICAiYXV0aG9yX29yZGVyX25vdGUiOiBudWxsCiAgfSwKICAiYmF0Y2giOiB7CiAgICAicGhhc2UiOiAyLAogICAgImJhdGNoX2xhYmVsIjogImV4cGFuZGVkIHRoaXJ0eS1wYXBlciByZWxlYXNlIiwKICAgICJzdGF0dXMiOiAiaW5jbHVkZWRfaW5fZXhwYW5kZWRfY2F0YWxvZyIsCiAgICAic2VsZWN0ZWRfYXQiOiAiMjAyNi0wOC0wMyIKICB9Cn0K
+{
+  "schema_version": "0.4.0",
+  "paper_id": "dtracomp-distributed-trace-comparison",
+  "page_url": "https://naser.github.io/research-publications/papers/dtracomp-distributed-trace-comparison/",
+  "title": "DTraComp: Comparing distributed execution traces for understanding intermittent latency sources",
+  "title_variants": [],
+  "authors": [
+    "Maryam Ekhlasi",
+    "Fatemeh Faraji Daneshgar",
+    "Michel Dagenais",
+    "Maxime Lamothe",
+    "Naser Ezzati-Jivan",
+    "Matthew Khouzam"
+  ],
+  "publication": {
+    "year": 2026,
+    "venue": "Journal of Systems and Software",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1016/j.jss.2026.112990",
+  "source_record_id": "dtracomp-comparing-distributed-execution-traces-for-understanding-intermittent-latency-sources-1a772fbb53",
+  "identifiers": {
+    "doi": "10.1016/j.jss.2026.112990"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "This work studies dtracomp: comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.",
+    "problem": "Intermittent latency sources are difficult to isolate because normal and abnormal distributed executions can differ only in small trace regions.",
+    "method": "DTraComp compares distributed execution traces to expose differences associated with intermittent latency.",
+    "findings": "The paper provides a trace-comparison approach for intermittent-latency analysis; exact algorithms and results require full-text review.",
+    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
+    "future_work": "Evaluate streaming comparison, large trace sets, noise tolerance, and cross-version diagnosis."
+  },
+  "tags": [
+    "system-tracing",
+    "trace-analysis",
+    "latency-analysis",
+    "root-cause-analysis"
+  ],
+  "keywords": [
+    "distributed execution traces",
+    "trace comparison",
+    "intermittent latency",
+    "latency sources"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "DTraComp: Comparing distributed execution traces for understanding intermittent latency sources",
+      "url": "https://doi.org/10.1016/j.jss.2026.112990",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112990",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

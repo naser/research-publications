@@ -1,1 +1,5 @@
-IyBzdGF0aXN0aWNhbCBkZWJ1Z2dpbmcKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipzdGF0aXN0aWNhbCBkZWJ1Z2dpbmcqKi4KCi0gW1BBU0Q6IEEgUGVyZm9ybWFuY2UgQW5hbHlzaXMgQXBwcm9hY2ggVGhyb3VnaCB0aGUgU3RhdGlzdGljYWwgRGVidWdnaW5nIG9mIEtlcm5lbCBFdmVudHNdKC4uL3BhcGVycy9wYXNkLXN0YXRpc3RpY2FsLWRlYnVnZ2luZy1rZXJuZWwtZXZlbnRzL1JFQURNRS5tZCkgLSAyMDIzCg==
+# statistical debugging
+
+Papers indexed by keyword **statistical debugging**.
+
+- [PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events](../papers/pasd-statistical-debugging-kernel-events/README.md) - 2023

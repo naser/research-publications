@@ -1,1 +1,1 @@
-TS4gUGFuYWhhbmRlaCwgTi4gRXp6YXRpLUppdmFuLCBBLiBIYW1vdS1MaGFkaiwgYW5kIEouIE1pbGxlciwgIkNBUkU6IENvbnRleHQgQXdhcmUgUm9vdCBDYXVzZSBJZGVudGlmaWNhdGlvbiBVc2luZyBEaXN0cmlidXRlZCBUcmFjZXMgYW5kIFByb2ZpbGluZyBNZXRyaWNzLCIgaW4gSUVFRSBUcmFuc2FjdGlvbnMgb24gU29mdHdhcmUgRW5naW5lZXJpbmcsIDIwMjYsIGRvaTogMTAuMTEwOS90c2UuMjAyNS4zNjQ1MTQzCg==
+M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics," in IEEE Transactions on Software Engineering, 2026, doi: 10.1109/tse.2025.3645143

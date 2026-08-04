@@ -1,1 +1,5 @@
-IyBjb250ZXh0LWF3YXJlIFJDQQoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKmNvbnRleHQtYXdhcmUgUkNBKiouCgotIFtDQVJFOiBDb250ZXh0IEF3YXJlIFJvb3QgQ2F1c2UgSWRlbnRpZmljYXRpb24gVXNpbmcgRGlzdHJpYnV0ZWQgVHJhY2VzIGFuZCBQcm9maWxpbmcgTWV0cmljc10oLi4vcGFwZXJzL2NhcmUtY29udGV4dC1hd2FyZS1yb290LWNhdXNlLWlkZW50aWZpY2F0aW9uL1JFQURNRS5tZCkgLSAyMDI2Cg==
+# context-aware RCA
+
+Papers indexed by keyword **context-aware RCA**.
+
+- [CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics](../papers/care-context-aware-root-cause-identification/README.md) - 2026

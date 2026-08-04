@@ -1,1 +1,1 @@
-TS4gTm9mZXJlc3RpIGFuZCBOLiBFenphdGktSml2YW4sICJFbmhhbmNpbmcgZW1waXJpY2FsIHNvZnR3YXJlIHBlcmZvcm1hbmNlIGVuZ2luZWVyaW5nIHJlc2VhcmNoIHdpdGgga2VybmVsLWxldmVsIGV2ZW50czogQSBjb21wcmVoZW5zaXZlIHN5c3RlbSB0cmFjaW5nIGFwcHJvYWNoLCIgaW4gSm91cm5hbCBvZiBTeXN0ZW1zIGFuZCBTb2Z0d2FyZSwgMjAyNCwgZG9pOiAxMC4xMDE2L2ouanNzLjIwMjQuMTEyMTE3Cg==
+M. Noferesti and N. Ezzati-Jivan, "Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach," in Journal of Systems and Software, 2024, doi: 10.1016/j.jss.2024.112117

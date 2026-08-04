@@ -1,1 +1,5 @@
-IyBncmFkaWVudC1ib29zdGluZwoKUGFwZXJzIHRhZ2dlZCAqKmdyYWRpZW50LWJvb3N0aW5nKiouCgotIFtBdXRvbWF0aWMgUmVkdWN0aW9uIG9mIEV4ZWN1dGlvbiBUcmFjZSBEYXRhIFZvbHVtZSBVc2luZyBHcmFkaWVudCBCb29zdGluZyBpbiBMYXJnZS1TY2FsZSBNaWNyb3NlcnZpY2UgU3lzdGVtc10oLi4vcGFwZXJzL2F1dG9tYXRpYy1yZWR1Y3Rpb24tZXhlY3V0aW9uLXRyYWNlLWRhdGEtdm9sdW1lL1JFQURNRS5tZCkgLSAyMDI0Cg==
+# gradient-boosting
+
+Papers tagged **gradient-boosting**.
+
+- [Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems](../papers/automatic-reduction-execution-trace-data-volume/README.md) - 2024

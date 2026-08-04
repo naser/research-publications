@@ -1,1 +1,5 @@
-IyBwcm9ub3VuIGRpc2FtYmlndWF0aW9uCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqcHJvbm91biBkaXNhbWJpZ3VhdGlvbioqLgoKLSBbUGljdHVyaW5nIEFtYmlndWl0eTogQSBWaXN1YWwgVHdpc3Qgb24gdGhlIFdpbm9ncmFkIFNjaGVtYSBDaGFsbGVuZ2VdKC4uL3BhcGVycy9waWN0dXJpbmctYW1iaWd1aXR5LXdpbm9ncmFkLXNjaGVtYS9SRUFETUUubWQpIC0gMjAyNAo=
+# pronoun disambiguation
+
+Papers indexed by keyword **pronoun disambiguation**.
+
+- [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](../papers/picturing-ambiguity-winograd-schema/README.md) - 2024

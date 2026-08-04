@@ -1,1 +1,1 @@
-S2hvZGFiYW5kZWgsIEcuLCBFemF6LCBBLiwgJiBFenphdGktSml2YW4sIE4uICgyMDI0KS4gTmV0d29yayBBbmFseXNpcyBvZiBNaWNyb3NlcnZpY2VzOiBBIENhc2UgU3R1ZHkgb24gQWxpYmFiYSBQcm9kdWN0aW9uIENsdXN0ZXJzLiBBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpLiBodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjI5NTI3LjM2NTE4NDIK
+Khodabandeh, G., Ezaz, A., & Ezzati-Jivan, N. (2024). Network Analysis of Microservices: A Case Study on Alibaba Production Clusters. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3629527.3651842

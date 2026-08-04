@@ -1,1 +1,5 @@
-IyBtaWNyb3NlcnZpY2UgZGlhZ25vc2lzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqbWljcm9zZXJ2aWNlIGRpYWdub3NpcyoqLgoKLSBbQ0FSRTogQ29udGV4dCBBd2FyZSBSb290IENhdXNlIElkZW50aWZpY2F0aW9uIFVzaW5nIERpc3RyaWJ1dGVkIFRyYWNlcyBhbmQgUHJvZmlsaW5nIE1ldHJpY3NdKC4uL3BhcGVycy9jYXJlLWNvbnRleHQtYXdhcmUtcm9vdC1jYXVzZS1pZGVudGlmaWNhdGlvbi9SRUFETUUubWQpIC0gMjAyNgo=
+# microservice diagnosis
+
+Papers indexed by keyword **microservice diagnosis**.
+
+- [CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics](../papers/care-context-aware-root-cause-identification/README.md) - 2026

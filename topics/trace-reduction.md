@@ -1,1 +1,6 @@
-IyB0cmFjZS1yZWR1Y3Rpb24KClBhcGVycyB0YWdnZWQgKip0cmFjZS1yZWR1Y3Rpb24qKi4KCi0gW0F1dG9tYXRpYyBSZWR1Y3Rpb24gb2YgRXhlY3V0aW9uIFRyYWNlIERhdGEgVm9sdW1lIFVzaW5nIEdyYWRpZW50IEJvb3N0aW5nIGluIExhcmdlLVNjYWxlIE1pY3Jvc2VydmljZSBTeXN0ZW1zXSguLi9wYXBlcnMvYXV0b21hdGljLXJlZHVjdGlvbi1leGVjdXRpb24tdHJhY2UtZGF0YS12b2x1bWUvUkVBRE1FLm1kKSAtIDIwMjQKLSBbRHluYW1pYyB0cmFjZS1iYXNlZCBzYW1wbGluZyBhbGdvcml0aG0gZm9yIG1lbW9yeSB1c2FnZSB0cmFja2luZyBvZiBlbnRlcnByaXNlIGFwcGxpY2F0aW9uc10oLi4vcGFwZXJzL2R5bmFtaWMtdHJhY2Utc2FtcGxpbmctbWVtb3J5LXVzYWdlL1JFQURNRS5tZCkgLSAyMDE3Cg==
+# trace-reduction
+
+Papers tagged **trace-reduction**.
+
+- [Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems](../papers/automatic-reduction-execution-trace-data-volume/README.md) - 2024
+- [Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications](../papers/dynamic-trace-sampling-memory-usage/README.md) - 2017

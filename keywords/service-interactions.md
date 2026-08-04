@@ -1,1 +1,5 @@
-IyBzZXJ2aWNlIGludGVyYWN0aW9ucwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnNlcnZpY2UgaW50ZXJhY3Rpb25zKiouCgotIFtOZXR3b3JrIEFuYWx5c2lzIG9mIE1pY3Jvc2VydmljZXM6IEEgQ2FzZSBTdHVkeSBvbiBBbGliYWJhIFByb2R1Y3Rpb24gQ2x1c3RlcnNdKC4uL3BhcGVycy9uZXR3b3JrLWFuYWx5c2lzLW1pY3Jvc2VydmljZXMtYWxpYmFiYS9SRUFETUUubWQpIC0gMjAyNAo=
+# service interactions
+
+Papers indexed by keyword **service interactions**.
+
+- [Network Analysis of Microservices: A Case Study on Alibaba Production Clusters](../papers/network-analysis-microservices-alibaba/README.md) - 2024

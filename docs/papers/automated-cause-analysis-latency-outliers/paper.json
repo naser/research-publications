@@ -1,1 +1,110 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImF1dG9tYXRlZC1jYXVzZS1hbmFseXNpcy1sYXRlbmN5LW91dGxpZXJzIiwKICAicGFnZV91cmwiOiAiaHR0cHM6Ly9uYXNlci5naXRodWIuaW8vcmVzZWFyY2gtcHVibGljYXRpb25zL3BhcGVycy9hdXRvbWF0ZWQtY2F1c2UtYW5hbHlzaXMtbGF0ZW5jeS1vdXRsaWVycy8iLAogICJ0aXRsZSI6ICJBdXRvbWF0ZWQgQ2F1c2UgQW5hbHlzaXMgb2YgTGF0ZW5jeSBPdXRsaWVycyBVc2luZyBTeXN0ZW0tTGV2ZWwgRGVwZW5kZW5jeSBHcmFwaHMiLAogICJ0aXRsZV92YXJpYW50cyI6IFtdLAogICJhdXRob3JzIjogWwogICAgIlNuZWggUGF0ZWwiLAogICAgIkJyZW5kYW4gUGFyayIsCiAgICAiTmFzZXIgRXp6YXRpLUppdmFuIiwKICAgICJRdWVudGluIEZvdXJuaWVyIgogIF0sCiAgInB1YmxpY2F0aW9uIjogewogICAgInllYXIiOiAyMDIxLAogICAgInZlbnVlIjogIklFRUUgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFNvZnR3YXJlIFF1YWxpdHksIFJlbGlhYmlsaXR5IGFuZCBTZWN1cml0eSAoUVJTKSIsCiAgICAidHlwZSI6ICJjb25mZXJlbmNlIHBhcGVyIgogIH0sCiAgInB1YmxpY2F0aW9uX3R5cGUiOiAiY29uZmVyZW5jZSBwYXBlciIsCiAgInN0YXR1cyI6ICJwdWJsaWNfcHJlcHJpbnRfYW5kX3B1Ymxpc2hlZF9yZWNvcmQiLAogICJjYW5vbmljYWxfc291cmNlX3VybCI6ICJodHRwczovL2RvaS5vcmcvMTAuMTEwOS9RUlM1NDU0NC4yMDIxLjAwMDU0IiwKICAic291cmNlX3JlY29yZF9pZCI6ICJhdXRvbWF0ZWQtY2F1c2UtYW5hbHlzaXMtb2YtbGF0ZW5jeS1vdXRsaWVycy11c2luZy1zeXN0ZW0tbGV2ZWwtZGVwZW5kZW5jeS1ncmFwaHMtZjAyMmE0YWZlZSIsCiAgImlkZW50aWZpZXJzIjogewogICAgImRvaSI6ICIxMC4xMTA5L1FSUzU0NTQ0LjIwMjEuMDAwNTQiLAogICAgImFyeGl2IjogIjIyMDcuMDY1MTUiCiAgfSwKICAiYWJzdHJhY3QiOiAiRGV0ZWN0aW5nIHBlcmZvcm1hbmNlIGlzc3VlcyBhbmQgaWRlbnRpZnlpbmcgdGhlaXIgcm9vdCBjYXVzZXMgaW4gdGhlIHJ1bnRpbWUgaXMgYSBjaGFsbGVuZ2luZyB0YXNrLiBUeXBpY2FsbHksIGRldmVsb3BlcnMgdXNlIG1ldGhvZHMgc3VjaCBhcyBsb2dnaW5nIGFuZCB0cmFjaW5nIHRvIGlkZW50aWZ5IGJvdHRsZW5lY2tzLiBUaGVzZSBzb2x1dGlvbnMgYXJlLCBob3dldmVyLCBub3QgaWRlYWwgYXMgdGhleSBhcmUgdGltZS1jb25zdW1pbmcgYW5kIHJlcXVpcmUgbWFudWFsIGVmZm9ydC4gSW4gdGhpcyBwYXBlciwgd2UgcHJvcG9zZSBhIG1ldGhvZCB0byBhdXRvbWF0ZSB0aGUgdGFzayBvZiBkZXRlY3RpbmcgbGF0ZW5jeSBvdXRsaWVycyB1c2luZyBzeXN0ZW0tbGV2ZWwgdHJhY2VzIGFuZCB0aGVuIGNvbXBhcmluZyB0aGVtIHRvIGlkZW50aWZ5IHRoZSByb290IGNhdXNlKHMpLiBPdXIgbWV0aG9kIG1ha2VzIHVzZSBvZiBkZXBlbmRlbmN5IGdyYXBocyB0byBzaG93IGludGVybmFsIGludGVyYWN0aW9ucyBiZXR3ZWVuIHRocmVhZHMgYW5kIHN5c3RlbSByZXNvdXJjZXMuIFdpdGggdGhlc2UgZ3JhcGhzLCBvbmUgY2FuIHBpbnBvaW50IHdoZXJlIHBlcmZvcm1hbmNlIGlzc3VlcyBvY2N1ci4gSG93ZXZlciwgYSBzaW5nbGUgdHJhY2UgY2FuIGJlIGNvbXBvc2VkIG9mIGEgbGFyZ2UgbnVtYmVyIG9mIHJlcXVlc3RzLCBlYWNoIGdlbmVyYXRpbmcgb25lIGdyYXBoLiBUbyBhdXRvbWF0ZSB0aGUgdGFzayBvZiBpZGVudGlmeWluZyBvdXRsaWVycyB3aXRoaW4gdGhlIGRhdGFzZXQsIHdlIHVzZSBtYWNoaW5lIGxlYXJuaW5nIGRlbnNpdHktYmFzZWQgbW9kZWxzIGFuZCBzdGF0aXN0aWNhbCBjYWxjdWxhdGlvbnMgc3VjaCBhcyAtc2NvcmUuIE91ciBldmFsdWF0aW9uIHNob3dzIGFuIGFjY3VyYWN5IGdyZWF0ZXIgdGhhbiA5NyAlIG9uIG91dGxpZXIgZGV0ZWN0aW9uLCBtYWtpbmcgdGhlbSBhcHByb3ByaWF0ZSBmb3IgaW4tcHJvZHVjdGlvbiBzZXJ2ZXJzIGFuZCBpbmR1c3RyeS1sZXZlbCB1c2UgY2FzZXMuIiwKICAiYWJzdHJhY3Rfc291cmNlIjogImFyWGl2OjIyMDcuMDY1MTUgYWJzdHJhY3Q7IHB1YmxpYyBwcmVwcmludCB2ZXJzaW9uIiwKICAic3VtbWFyeSI6IHsKICAgICJjb3JlX2NvbnRyaWJ1dGlvbiI6ICJUaGUgcGFwZXIgY29tYmluZXMgc3lzdGVtLWxldmVsIGRlcGVuZGVuY3kgZ3JhcGhzIHdpdGggYXV0b21hdGVkIG91dGxpZXIgZGV0ZWN0aW9uIHRvIGxvY2FsaXplIGxpa2VseSBjYXVzZXMgb2YgbGF0ZW5jeSBhbm9tYWxpZXMuIiwKICAgICJwcm9ibGVtIjogIkxhdGVuY3kgcHJvYmxlbXMgaW4gcnVudGltZSBzeXN0ZW1zIGFyZSBkaWZmaWN1bHQgdG8gZGlhZ25vc2UgYmVjYXVzZSBsb2dnaW5nIGFuZCB0cmFjaW5nIG9mdGVuIHJlcXVpcmUgbWFudWFsIGluc3BlY3Rpb24gb2YgbWFueSByZXF1ZXN0cyBhbmQgdGhlaXIgaW50ZXJuYWwgaW50ZXJhY3Rpb25zLiIsCiAgICAibWV0aG9kIjogIkVhY2ggcmVxdWVzdCBpcyByZXByZXNlbnRlZCB0aHJvdWdoIGEgZGVwZW5kZW5jeSBncmFwaCBkZXNjcmliaW5nIGludGVyYWN0aW9ucyBhbW9uZyB0aHJlYWRzIGFuZCBzeXN0ZW0gcmVzb3VyY2VzLiBEZW5zaXR5LWJhc2VkIG1vZGVscyBhbmQgc3RhdGlzdGljYWwgY2FsY3VsYXRpb25zIGFyZSB0aGVuIHVzZWQgdG8gaWRlbnRpZnkgb3V0bGllcnMgYmVmb3JlIGNvbXBhcmluZyB0aGVpciBncmFwaCBzdHJ1Y3R1cmVzIHRvIGxvY2F0ZSBzdXNwaWNpb3VzIGRlcGVuZGVuY2llcy4iLAogICAgImZpbmRpbmdzIjogIlRoZSBldmFsdWF0aW9uIHJlcG9ydHMgb3V0bGllci1kZXRlY3Rpb24gYWNjdXJhY3kgYWJvdmUgOTclLCBzdWdnZXN0aW5nIHRoYXQgdGhlIGFwcHJvYWNoIGNhbiBpZGVudGlmeSBsYXRlbmN5IGFub21hbGllcyB3aXRoIGxpbWl0ZWQgbWFudWFsIHNjcmVlbmluZyBpbiBpbmR1c3RyeS1vcmllbnRlZCBzZXR0aW5ncy4iLAogICAgImxpbWl0YXRpb25zIjogIlRoZSByZXBvcnRlZCBldmlkZW5jZSBpcyB0aWVkIHRvIHRoZSBldmFsdWF0ZWQgdHJhY2VzLCBtb2RlbHMsIGFuZCBkZXBsb3ltZW50IGNvbmRpdGlvbnMuIiwKICAgICJmdXR1cmVfd29yayI6ICJGdXR1cmUgd29yayBzaG91bGQgdGVzdCBicm9hZGVyIGRpc3RyaWJ1dGVkIHdvcmtsb2FkcywgcXVhbnRpZnkgZXhwbGFuYXRpb24gcXVhbGl0eSBzZXBhcmF0ZWx5IGZyb20gZGV0ZWN0aW9uIGFjY3VyYWN5LCBhbmQgZXZhbHVhdGUgY29udGludW91cyBvbmxpbmUgb3BlcmF0aW9uLiIKICB9LAogICJ0YWdzIjogWwogICAgInN5c3RlbS10cmFjaW5nIiwKICAgICJsYXRlbmN5LWFuYWx5c2lzIiwKICAgICJyb290LWNhdXNlLWFuYWx5c2lzIiwKICAgICJkZXBlbmRlbmN5LWdyYXBocyIKICBdLAogICJrZXl3b3JkcyI6IFsKICAgICJsYXRlbmN5IG91dGxpZXJzIiwKICAgICJzeXN0ZW0tbGV2ZWwgdHJhY2VzIiwKICAgICJkZXBlbmRlbmN5IGdyYXBocyIsCiAgICAiZGVuc2l0eS1iYXNlZCBtb2RlbHMiLAogICAgInotc2NvcmUiLAogICAgInByb2R1Y3Rpb24gZGlhZ25vc2lzIgogIF0sCiAgInZlcnNpb25zIjogWwogICAgewogICAgICAiaWQiOiAicHVibGlzaGVkLXZlcnNpb24iLAogICAgICAibGFiZWwiOiAiUHVibGlzaGVkIHZlcnNpb24iLAogICAgICAicmVsYXRpb24iOiAidmVyc2lvbi1vZi1yZWNvcmQiLAogICAgICAidGl0bGUiOiAiQXV0b21hdGVkIENhdXNlIEFuYWx5c2lzIG9mIExhdGVuY3kgT3V0bGllcnMgVXNpbmcgU3lzdGVtLUxldmVsIERlcGVuZGVuY3kgR3JhcGhzIiwKICAgICAgInVybCI6ICJodHRwczovL2RvaS5vcmcvMTAuMTEwOS9RUlM1NDU0NC4yMDIxLjAwMDU0IiwKICAgICAgInBkZl91cmwiOiBudWxsLAogICAgICAic3RhdHVzIjogInB1Ymxpc2hlZCIsCiAgICAgICJjYW5vbmljYWxfZm9yX2NpdGF0aW9uIjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgImlkIjogInB1YmxpYy1wcmVwcmludCIsCiAgICAgICJsYWJlbCI6ICJQdWJsaWMgcHJlcHJpbnQiLAogICAgICAicmVsYXRpb24iOiAicHJlcHJpbnQiLAogICAgICAidGl0bGUiOiAiQXV0b21hdGVkIENhdXNlIEFuYWx5c2lzIG9mIExhdGVuY3kgT3V0bGllcnMgVXNpbmcgU3lzdGVtLUxldmVsIERlcGVuZGVuY3kgR3JhcGhzIiwKICAgICAgInVybCI6ICJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjIwNy4wNjUxNSIsCiAgICAgICJwZGZfdXJsIjogImh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjA3LjA2NTE1IiwKICAgICAgInN0YXR1cyI6ICJwdWJsaWNfZnVsbF90ZXh0IiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiBmYWxzZQogICAgfQogIF0sCiAgImFjY2VzcyI6IHsKICAgICJzdGF0dXMiOiAicHVibGljX3ByZXByaW50X2FuZF9wdWJsaXNoZWRfcmVjb3JkIiwKICAgICJub3RlIjogIlRoZSBwdWJsaXNoZWQgRE9JIGlzIHRoZSBjYW5vbmljYWwgY2l0YXRpb24gdGFyZ2V0OyB0aGUgYXJYaXYgcHJlcHJpbnQgcHJvdmlkZXMgcHVibGljIGZ1bGwgdGV4dC4iLAogICAgImxpY2Vuc2UiOiBudWxsCiAgfSwKICAicmVzb3VyY2VzIjogewogICAgImNvZGUiOiBudWxsLAogICAgImRhdGEiOiBudWxsLAogICAgInNsaWRlcyI6IG51bGwsCiAgICAiZGVtbyI6IG51bGwKICB9LAogICJjaXRhdGlvbl9ndWlkYW5jZSI6IHsKICAgICJ3aGVuX3RvX2NpdGUiOiAiQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gYXV0b21hdGluZyBsYXRlbmN5LW91dGxpZXIgZGV0ZWN0aW9uIGFuZCBkaWFnbm9zaXMuIiwKICAgICJwb2ludHMiOiBbCiAgICAgICJTeXN0ZW0tbGV2ZWwgZGVwZW5kZW5jeSBncmFwaHMgZm9yIGxhdGVuY3ktb3V0bGllciBhbmFseXNpcy4iLAogICAgICAiRGVuc2l0eS1iYXNlZCBtb2RlbHMgYW5kIHN0YXRpc3RpY2FsIHNjcmVlbmluZyBvZiBhYm5vcm1hbCByZXF1ZXN0cy4iLAogICAgICAiQXV0b21hdGVkIGxvY2FsaXphdGlvbiBvZiBkZXBlbmRlbmNpZXMgYXNzb2NpYXRlZCB3aXRoIGxhdGVuY3kgYW5vbWFsaWVzLiIKICAgIF0sCiAgICAiY2Fub25pY2FsX3ZlcnNpb25faWQiOiAicHVibGlzaGVkLXZlcnNpb24iCiAgfSwKICAicHJvdmVuYW5jZSI6IHsKICAgICJtZXRhZGF0YV92ZXJpZmllZF9vbiI6ICIyMDI2LTA4LTAzIiwKICAgICJtZXRhZGF0YV9zb3VyY2UiOiBbCiAgICAgICJEQkxQIGFuZCBJRUVFIG1ldGFkYXRhIGZvciB0aGUgcHVibGlzaGVkIHBhcGVyIiwKICAgICAgIm9mZmljaWFsIGFyWGl2IGFic3RyYWN0IGFuZCBQREYgcGFnZSAyMjA3LjA2NTE1IiwKICAgICAgImxvY2FsIFBERiBoYXNoIHZlcmlmaWVkIGluIHRoZSB3b3JraW5nIGNhdGFsb2ciCiAgICBdLAogICAgInN1bW1hcnlfd3JpdHRlbl9ieSI6ICJBSS1hc3Npc3RlZCIsCiAgICAic3VtbWFyeV92ZXJpZmllZF9ieSI6ICJzb3VyY2UtZ3JvdW5kZWQgY2F0YWxvZyByZXZpZXc7IGF1dGhvciBhcHByb3ZhbCBwZW5kaW5nIiwKICAgICJsaW5rZWRfcHJlcHJpbnRfcmVjb3JkIjogImF1dG9tYXRlZC1jYXVzZS1hbmFseXNpcy1vZi1sYXRlbmN5LW91dGxpZXJzLXVzaW5nLXN5c3RlbS1sZXZlbC1kZXBlbmRlbmN5LWdyYXBocy1hNDBiOTIwNmEyIiwKICAgICJhdXRob3Jfb3JkZXJfbm90ZSI6IG51bGwKICB9LAogICJiYXRjaCI6IHsKICAgICJwaGFzZSI6IDIsCiAgICAiYmF0Y2hfbGFiZWwiOiAiZXhwYW5kZWQgdGhpcnR5LXBhcGVyIHJlbGVhc2UiLAogICAgInN0YXR1cyI6ICJpbmNsdWRlZF9pbl9leHBhbmRlZF9jYXRhbG9nIiwKICAgICJzZWxlY3RlZF9hdCI6ICIyMDI2LTA4LTAzIgogIH0KfQo=
+{
+  "schema_version": "0.4.0",
+  "paper_id": "automated-cause-analysis-latency-outliers",
+  "page_url": "https://naser.github.io/research-publications/papers/automated-cause-analysis-latency-outliers/",
+  "title": "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs",
+  "title_variants": [],
+  "authors": [
+    "Sneh Patel",
+    "Brendan Park",
+    "Naser Ezzati-Jivan",
+    "Quentin Fournier"
+  ],
+  "publication": {
+    "year": 2021,
+    "venue": "IEEE International Conference on Software Quality, Reliability and Security (QRS)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "public_preprint_and_published_record",
+  "canonical_source_url": "https://doi.org/10.1109/QRS54544.2021.00054",
+  "source_record_id": "automated-cause-analysis-of-latency-outliers-using-system-level-dependency-graphs-f022a4afee",
+  "identifiers": {
+    "doi": "10.1109/QRS54544.2021.00054",
+    "arxiv": "2207.06515"
+  },
+  "abstract": "Detecting performance issues and identifying their root causes in the runtime is a challenging task. Typically, developers use methods such as logging and tracing to identify bottlenecks. These solutions are, however, not ideal as they are time-consuming and require manual effort. In this paper, we propose a method to automate the task of detecting latency outliers using system-level traces and then comparing them to identify the root cause(s). Our method makes use of dependency graphs to show internal interactions between threads and system resources. With these graphs, one can pinpoint where performance issues occur. However, a single trace can be composed of a large number of requests, each generating one graph. To automate the task of identifying outliers within the dataset, we use machine learning density-based models and statistical calculations such as -score. Our evaluation shows an accuracy greater than 97 % on outlier detection, making them appropriate for in-production servers and industry-level use cases.",
+  "abstract_source": "arXiv:2207.06515 abstract; public preprint version",
+  "summary": {
+    "core_contribution": "The paper combines system-level dependency graphs with automated outlier detection to localize likely causes of latency anomalies.",
+    "problem": "Latency problems in runtime systems are difficult to diagnose because logging and tracing often require manual inspection of many requests and their internal interactions.",
+    "method": "Each request is represented through a dependency graph describing interactions among threads and system resources. Density-based models and statistical calculations are then used to identify outliers before comparing their graph structures to locate suspicious dependencies.",
+    "findings": "The evaluation reports outlier-detection accuracy above 97%, suggesting that the approach can identify latency anomalies with limited manual screening in industry-oriented settings.",
+    "limitations": "The reported evidence is tied to the evaluated traces, models, and deployment conditions.",
+    "future_work": "Future work should test broader distributed workloads, quantify explanation quality separately from detection accuracy, and evaluate continuous online operation."
+  },
+  "tags": [
+    "system-tracing",
+    "latency-analysis",
+    "root-cause-analysis",
+    "dependency-graphs"
+  ],
+  "keywords": [
+    "latency outliers",
+    "system-level traces",
+    "dependency graphs",
+    "density-based models",
+    "z-score",
+    "production diagnosis"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs",
+      "url": "https://doi.org/10.1109/QRS54544.2021.00054",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-preprint",
+      "label": "Public preprint",
+      "relation": "preprint",
+      "title": "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs",
+      "url": "https://arxiv.org/abs/2207.06515",
+      "pdf_url": "https://arxiv.org/pdf/2207.06515",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "public_preprint_and_published_record",
+    "note": "The published DOI is the canonical citation target; the arXiv preprint provides public full text.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when automating latency-outlier detection and diagnosis.",
+    "points": [
+      "System-level dependency graphs for latency-outlier analysis.",
+      "Density-based models and statistical screening of abnormal requests.",
+      "Automated localization of dependencies associated with latency anomalies."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "DBLP and IEEE metadata for the published paper",
+      "official arXiv abstract and PDF page 2207.06515",
+      "local PDF hash verified in the working catalog"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": "automated-cause-analysis-of-latency-outliers-using-system-level-dependency-graphs-a40b9206a2",
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

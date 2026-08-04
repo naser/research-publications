@@ -1,1 +1,95 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogIm5ldHdvcmstYW5hbHlzaXMtbWljcm9zZXJ2aWNlcy1hbGliYWJhIiwKICAicGFnZV91cmwiOiAiaHR0cHM6Ly9uYXNlci5naXRodWIuaW8vcmVzZWFyY2gtcHVibGljYXRpb25zL3BhcGVycy9uZXR3b3JrLWFuYWx5c2lzLW1pY3Jvc2VydmljZXMtYWxpYmFiYS8iLAogICJ0aXRsZSI6ICJOZXR3b3JrIEFuYWx5c2lzIG9mIE1pY3Jvc2VydmljZXM6IEEgQ2FzZSBTdHVkeSBvbiBBbGliYWJhIFByb2R1Y3Rpb24gQ2x1c3RlcnMiLAogICJ0aXRsZV92YXJpYW50cyI6IFtdLAogICJhdXRob3JzIjogWwogICAgIkdoYXphbCBLaG9kYWJhbmRlaCIsCiAgICAiQWxpcmV6YSBFemF6IiwKICAgICJOYXNlciBFenphdGktSml2YW4iCiAgXSwKICAicHVibGljYXRpb24iOiB7CiAgICAieWVhciI6IDIwMjQsCiAgICAidmVudWUiOiAiQUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKSIsCiAgICAidHlwZSI6ICJyZXNlYXJjaCBwYXBlciIKICB9LAogICJwdWJsaWNhdGlvbl90eXBlIjogInJlc2VhcmNoIHBhcGVyIiwKICAic3RhdHVzIjogInB1Ymxpc2hlZF9tZXRhZGF0YV9yZWNvcmQiLAogICJjYW5vbmljYWxfc291cmNlX3VybCI6ICJodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjI5NTI3LjM2NTE4NDIiLAogICJzb3VyY2VfcmVjb3JkX2lkIjogIm5ldHdvcmstYW5hbHlzaXMtb2YtbWljcm9zZXJ2aWNlcy1hLWNhc2Utc3R1ZHktb24tYWxpYmFiYS1wcm9kdWN0aW9uLWNsdXN0ZXJzLTA4MTdjMmFlOWEiLAogICJpZGVudGlmaWVycyI6IHsKICAgICJkb2kiOiAiMTAuMTE0NS8zNjI5NTI3LjM2NTE4NDIiCiAgfSwKICAiYWJzdHJhY3QiOiBudWxsLAogICJhYnN0cmFjdF9zb3VyY2UiOiAiTm8gcHVibGljIGFic3RyYWN0IGNhcHR1cmVkIGluIHRoZSBjdXJyZW50IGNhdGFsb2c7IHN1bW1hcnkgbGltaXRlZCB0byB2ZXJpZmllZCBiaWJsaW9ncmFwaGljIG1ldGFkYXRhIGFuZCB0aGUgcGFwZXIgdGl0bGUuIiwKICAic3VtbWFyeSI6IHsKICAgICJjb3JlX2NvbnRyaWJ1dGlvbiI6ICJUaGlzIHdvcmsgc3R1ZGllcyBuZXR3b3JrIGFuYWx5c2lzIG9mIG1pY3Jvc2VydmljZXM6IGEgY2FzZSBzdHVkeSBvbiBhbGliYWJhIHByb2R1Y3Rpb24gY2x1c3RlcnMgaW4gdGhlIGNvbnRleHQgb2Ygc29mdHdhcmUgcGVyZm9ybWFuY2UgYW5kIHN5c3RlbXMgYW5hbHlzaXMuIiwKICAgICJwcm9ibGVtIjogIkxhcmdlIG1pY3Jvc2VydmljZSBkZXBsb3ltZW50cyBjcmVhdGUgY29tcGxleCBpbnRlcmFjdGlvbiBuZXR3b3JrcyB0aGF0IGFyZSBkaWZmaWN1bHQgdG8gdW5kZXJzdGFuZCBmcm9tIGlzb2xhdGVkIHNlcnZpY2UgbWV0cmljcy4iLAogICAgIm1ldGhvZCI6ICJUaGUgcGFwZXIgYXBwbGllcyBuZXR3b3JrIGFuYWx5c2lzIHRvIG1pY3Jvc2VydmljZSBpbnRlcmFjdGlvbnMgaW4gQWxpYmFiYSBwcm9kdWN0aW9uIGNsdXN0ZXJzLiIsCiAgICAiZmluZGluZ3MiOiAiSXQgcHJvdmlkZXMgYSBwcm9kdWN0aW9uLWNsdXN0ZXIgY2FzZS1zdHVkeSBwZXJzcGVjdGl2ZTsgbmV0d29yayBjb25zdHJ1Y3Rpb24gYW5kIHJlc3VsdHMgcmVxdWlyZSBmdWxsLXRleHQgcmV2aWV3LiIsCiAgICAibGltaXRhdGlvbnMiOiAiVGhlIGN1cnJlbnQgcHVibGljIHJlY29yZCBjYXB0dXJlcyBiaWJsaW9ncmFwaGljIG1ldGFkYXRhIGJ1dCBub3QgdGhlIHBhcGVyJ3MgZnVsbCB0ZXh0OyBxdWFudGl0YXRpdmUgY2xhaW1zIGFuZCBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzIHNob3VsZCBiZSBhZGRlZCBhZnRlciBQREYgb3IgYXV0aG9yLW1hbnVzY3JpcHQgcmV2aWV3LiIsCiAgICAiZnV0dXJlX3dvcmsiOiAiU3R1ZHkgdGVtcG9yYWwgZXZvbHV0aW9uLCBjYXVzYWwgZGlhZ25vc2lzLCBhbmQgb3BlcmF0aW9uYWwgdXNlIG9mIG5ldHdvcmstZGVyaXZlZCBzaWduYWxzLiIKICB9LAogICJ0YWdzIjogWwogICAgIm1pY3Jvc2VydmljZXMiLAogICAgInBlcmZvcm1hbmNlLWFuYWx5c2lzIiwKICAgICJvYnNlcnZhYmlsaXR5IiwKICAgICJncmFwaC1uZXVyYWwtbmV0d29ya3MiCiAgXSwKICAia2V5d29yZHMiOiBbCiAgICAibWljcm9zZXJ2aWNlIG5ldHdvcmtzIiwKICAgICJBbGliYWJhIHByb2R1Y3Rpb24gY2x1c3RlcnMiLAogICAgIm5ldHdvcmsgYW5hbHlzaXMiLAogICAgInNlcnZpY2UgaW50ZXJhY3Rpb25zIgogIF0sCiAgInZlcnNpb25zIjogWwogICAgewogICAgICAiaWQiOiAicHVibGlzaGVkLXZlcnNpb24iLAogICAgICAibGFiZWwiOiAiUHVibGlzaGVkIHZlcnNpb24iLAogICAgICAicmVsYXRpb24iOiAidmVyc2lvbi1vZi1yZWNvcmQiLAogICAgICAidGl0bGUiOiAiTmV0d29yayBBbmFseXNpcyBvZiBNaWNyb3NlcnZpY2VzOiBBIENhc2UgU3R1ZHkgb24gQWxpYmFiYSBQcm9kdWN0aW9uIENsdXN0ZXJzIiwKICAgICAgInVybCI6ICJodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjI5NTI3LjM2NTE4NDIiLAogICAgICAicGRmX3VybCI6IG51bGwsCiAgICAgICJzdGF0dXMiOiAicHVibGlzaGVkIiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiB0cnVlCiAgICB9CiAgXSwKICAiYWNjZXNzIjogewogICAgInN0YXR1cyI6ICJwdWJsaXNoZWRfbWV0YWRhdGFfcmVjb3JkIiwKICAgICJub3RlIjogIlRoZSBET0kgaXMgdGhlIGNhbm9uaWNhbCBjaXRhdGlvbiB0YXJnZXQ7IHRoaXMgY2F0YWxvZyBkb2VzIG5vdCByZWRpc3RyaWJ1dGUgdGhlIHB1Ymxpc2hlciBQREYuIiwKICAgICJsaWNlbnNlIjogbnVsbAogIH0sCiAgInJlc291cmNlcyI6IHsKICAgICJjb2RlIjogbnVsbCwKICAgICJkYXRhIjogbnVsbCwKICAgICJzbGlkZXMiOiBudWxsLAogICAgImRlbW8iOiBudWxsCiAgfSwKICAiY2l0YXRpb25fZ3VpZGFuY2UiOiB7CiAgICAid2hlbl90b19jaXRlIjogIkNpdGUgdGhpcyBwYXBlciB3aGVuIGl0cyBzcGVjaWZpYyBtZXRob2QsIGV2aWRlbmNlLCBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuIiwKICAgICJwb2ludHMiOiBbCiAgICAgICJUaGUgcGFwZXIncyBtZXRob2QgaXMgZGlyZWN0bHkgcmVsZXZhbnQuIiwKICAgICAgIlRoZSBwYXBlcidzIGV2aWRlbmNlIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4iCiAgICBdLAogICAgImNhbm9uaWNhbF92ZXJzaW9uX2lkIjogInB1Ymxpc2hlZC12ZXJzaW9uIgogIH0sCiAgInByb3ZlbmFuY2UiOiB7CiAgICAibWV0YWRhdGFfdmVyaWZpZWRfb24iOiAiMjAyNi0wOC0wMyIsCiAgICAibWV0YWRhdGFfc291cmNlIjogWwogICAgICAiREJMUC9ET0kgYmlibGlvZ3JhcGhpYyByZWNvcmQgZm9yIDEwLjExNDUvMzYyOTUyNy4zNjUxODQyIiwKICAgICAgImF1dGhvciBpZGVudGl0eSBtYXRjaGVkIHRvIE5hc2VyIEV6emF0aS1KaXZhbiBpbiB0aGUgbG9jYWwgcmVzZWFyY2ggY2F0YWxvZyIsCiAgICAgICJmdWxsLXRleHQgc3VtbWFyeSBwZW5kaW5nIHNvdXJjZSByZXZpZXciCiAgICBdLAogICAgInN1bW1hcnlfd3JpdHRlbl9ieSI6ICJBSS1hc3Npc3RlZCIsCiAgICAic3VtbWFyeV92ZXJpZmllZF9ieSI6ICJzb3VyY2UtZ3JvdW5kZWQgY2F0YWxvZyByZXZpZXc7IGF1dGhvciBhcHByb3ZhbCBwZW5kaW5nIiwKICAgICJsaW5rZWRfcHJlcHJpbnRfcmVjb3JkIjogbnVsbCwKICAgICJhdXRob3Jfb3JkZXJfbm90ZSI6IG51bGwKICB9LAogICJiYXRjaCI6IHsKICAgICJwaGFzZSI6IDIsCiAgICAiYmF0Y2hfbGFiZWwiOiAiZXhwYW5kZWQgdGhpcnR5LXBhcGVyIHJlbGVhc2UiLAogICAgInN0YXR1cyI6ICJpbmNsdWRlZF9pbl9leHBhbmRlZF9jYXRhbG9nIiwKICAgICJzZWxlY3RlZF9hdCI6ICIyMDI2LTA4LTAzIgogIH0KfQo=
+{
+  "schema_version": "0.4.0",
+  "paper_id": "network-analysis-microservices-alibaba",
+  "page_url": "https://naser.github.io/research-publications/papers/network-analysis-microservices-alibaba/",
+  "title": "Network Analysis of Microservices: A Case Study on Alibaba Production Clusters",
+  "title_variants": [],
+  "authors": [
+    "Ghazal Khodabandeh",
+    "Alireza Ezaz",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2024,
+    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1145/3629527.3651842",
+  "source_record_id": "network-analysis-of-microservices-a-case-study-on-alibaba-production-clusters-0817c2ae9a",
+  "identifiers": {
+    "doi": "10.1145/3629527.3651842"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "This work studies network analysis of microservices: a case study on alibaba production clusters in the context of software performance and systems analysis.",
+    "problem": "Large microservice deployments create complex interaction networks that are difficult to understand from isolated service metrics.",
+    "method": "The paper applies network analysis to microservice interactions in Alibaba production clusters.",
+    "findings": "It provides a production-cluster case-study perspective; network construction and results require full-text review.",
+    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
+    "future_work": "Study temporal evolution, causal diagnosis, and operational use of network-derived signals."
+  },
+  "tags": [
+    "microservices",
+    "performance-analysis",
+    "observability",
+    "graph-neural-networks"
+  ],
+  "keywords": [
+    "microservice networks",
+    "Alibaba production clusters",
+    "network analysis",
+    "service interactions"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Network Analysis of Microservices: A Case Study on Alibaba Production Clusters",
+      "url": "https://doi.org/10.1145/3629527.3651842",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "DBLP/DOI bibliographic record for 10.1145/3629527.3651842",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

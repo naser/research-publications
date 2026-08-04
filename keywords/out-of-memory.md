@@ -1,1 +1,5 @@
-IyBvdXQtb2YtbWVtb3J5CgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqb3V0LW9mLW1lbW9yeSoqLgoKLSBbQWx0T09NOiBBIERhdGEtZHJpdmVuIE91dCBvZiBNZW1vcnkgUm9vdCBDYXVzZSBJZGVudGlmaWNhdGlvbiBTdHJhdGVneV0oLi4vcGFwZXJzL2FsdG9vbS1vdXQtb2YtbWVtb3J5LXJvb3QtY2F1c2UvUkVBRE1FLm1kKSAtIDIwMjMK
+# out-of-memory
+
+Papers indexed by keyword **out-of-memory**.
+
+- [AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy](../papers/altoom-out-of-memory-root-cause/README.md) - 2023

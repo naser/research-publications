@@ -1,1 +1,5 @@
-IyBkZWNsYXJhdGl2ZSB0cmFjZSBhbmFseXNpcwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKmRlY2xhcmF0aXZlIHRyYWNlIGFuYWx5c2lzKiouCgotIFtBIGRlY2xhcmF0aXZlIGZyYW1ld29yayBmb3Igc3RhdGVmdWwgYW5hbHlzaXMgb2YgZXhlY3V0aW9uIHRyYWNlc10oLi4vcGFwZXJzL2RlY2xhcmF0aXZlLWZyYW1ld29yay1zdGF0ZWZ1bC10cmFjZS1hbmFseXNpcy9SRUFETUUubWQpIC0gMjAxNwo=
+# declarative trace analysis
+
+Papers indexed by keyword **declarative trace analysis**.
+
+- [A declarative framework for stateful analysis of execution traces](../papers/declarative-framework-stateful-trace-analysis/README.md) - 2017

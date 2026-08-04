@@ -1,1 +1,5 @@
-IyBhbmFseXNpcyBzY2FsYWJpbGl0eQoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKmFuYWx5c2lzIHNjYWxhYmlsaXR5KiouCgotIFtFZmZpY2llbnQgTWV0aG9kcyBmb3IgVHJhY2UgQW5hbHlzaXMgUGFyYWxsZWxpemF0aW9uXSguLi9wYXBlcnMvZWZmaWNpZW50LXRyYWNlLWFuYWx5c2lzLXBhcmFsbGVsaXphdGlvbi9SRUFETUUubWQpIC0gMjAxOQo=
+# analysis scalability
+
+Papers indexed by keyword **analysis scalability**.
+
+- [Efficient Methods for Trace Analysis Parallelization](../papers/efficient-trace-analysis-parallelization/README.md) - 2019

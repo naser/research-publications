@@ -1,1 +1,84 @@
-IyBQQVNEOiBBIFBlcmZvcm1hbmNlIEFuYWx5c2lzIEFwcHJvYWNoIFRocm91Z2ggdGhlIFN0YXRpc3RpY2FsIERlYnVnZ2luZyBvZiBLZXJuZWwgRXZlbnRzCgoqKjIwMjMgfCBJRUVFIFdvcmtpbmcgQ29uZmVyZW5jZSBvbiBTb3VyY2UgQ29kZSBBbmFseXNpcyBhbmQgTWFuaXB1bGF0aW9uIChTQ0FNKSB8IHJlc2VhcmNoIHBhcGVyKioKCioqQXV0aG9yczoqKiBNb2hhbW1lZCBBZGliIEtoYW4sIE1vcnRlemEgTm9mZXJlc3RpLCBOYXNlciBFenphdGktSml2YW4KCioqQ29yZSBjb250cmlidXRpb246KiogVGhpcyB3b3JrIHN0dWRpZXMgcGFzZDogYSBwZXJmb3JtYW5jZSBhbmFseXNpcyBhcHByb2FjaCB0aHJvdWdoIHRoZSBzdGF0aXN0aWNhbCBkZWJ1Z2dpbmcgb2Yga2VybmVsIGV2ZW50cyBpbiB0aGUgY29udGV4dCBvZiBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBhbmQgc3lzdGVtcyBhbmFseXNpcy4KCiMjIEZvdXItcGFydCByZXNlYXJjaCBzdW1tYXJ5CgojIyMgMS4gUHJvYmxlbSBhbmQgbW90aXZhdGlvbgoKS2VybmVsIGV2ZW50IHN0cmVhbXMgYXJlIHJpY2ggYnV0IGRpZmZpY3VsdCB0byBpbnRlcnByZXQgd2hlbiBkaWFnbm9zaW5nIHBlcmZvcm1hbmNlIHByb2JsZW1zLgoKIyMjIDIuIE1ldGhvZCBhbmQgY29udHJpYnV0aW9uCgpQQVNEIGFwcGxpZXMgc3RhdGlzdGljYWwgZGVidWdnaW5nIHRvIGtlcm5lbCBldmVudHMgdG8gZGlzdGluZ3Vpc2ggYmVoYXZpb3IgYXNzb2NpYXRlZCB3aXRoIHBlcmZvcm1hbmNlIG91dGNvbWVzLgoKIyMjIDMuIEZpbmRpbmdzIGFuZCBldmlkZW5jZQoKVGhlIHBhcGVyIHByb3Bvc2VzIGEga2VybmVsLWV2ZW50IHN0YXRpc3RpY2FsLWRlYnVnZ2luZyB3b3JrZmxvdzsgZXhhY3QgZGF0YXNldHMgYW5kIGV2YWx1YXRpb24gcmVzdWx0cyByZXF1aXJlIGZ1bGwtdGV4dCByZXZpZXcuCgojIyMgNC4gTGltaXRhdGlvbnMgYW5kIGZ1dHVyZSBkaXJlY3Rpb25zCgoqKkxpbWl0YXRpb25zOioqIFRoZSBjdXJyZW50IHB1YmxpYyByZWNvcmQgY2FwdHVyZXMgYmlibGlvZ3JhcGhpYyBtZXRhZGF0YSBidXQgbm90IHRoZSBwYXBlcidzIGZ1bGwgdGV4dDsgcXVhbnRpdGF0aXZlIGNsYWltcyBhbmQgaW1wbGVtZW50YXRpb24gZGV0YWlscyBzaG91bGQgYmUgYWRkZWQgYWZ0ZXIgUERGIG9yIGF1dGhvci1tYW51c2NyaXB0IHJldmlldy4KCioqRnV0dXJlIHdvcms6KiogRXZhbHVhdGUgcm9idXN0bmVzcyB0byBldmVudCBub2lzZSwgd29ya2xvYWQgZHJpZnQsIGtlcm5lbCB2ZXJzaW9ucywgYW5kIG9ubGluZSBkaWFnbm9zaXMuCgojIyBBYnN0cmFjdAoKQWJzdHJhY3Qgbm90IGF2YWlsYWJsZSBpbiB0aGUgY2FwdHVyZWQgc291cmNlcy4KCiMjIFRvcGljcyBhbmQga2V5d29yZHMKCioqVGFnczoqKiBba2VybmVsLXRyYWNpbmddKC4uLy4uL3RvcGljcy9rZXJuZWwtdHJhY2luZy5tZCkgfCBbcGVyZm9ybWFuY2UtYW5hbHlzaXNdKC4uLy4uL3RvcGljcy9wZXJmb3JtYW5jZS1hbmFseXNpcy5tZCkgfCBbcm9vdC1jYXVzZS1hbmFseXNpc10oLi4vLi4vdG9waWNzL3Jvb3QtY2F1c2UtYW5hbHlzaXMubWQpIHwgW2Fub21hbHktZGV0ZWN0aW9uXSguLi8uLi90b3BpY3MvYW5vbWFseS1kZXRlY3Rpb24ubWQpCgoqKktleXdvcmRzOioqIFtzdGF0aXN0aWNhbCBkZWJ1Z2dpbmddKC4uLy4uL2tleXdvcmRzL3N0YXRpc3RpY2FsLWRlYnVnZ2luZy5tZCkgfCBba2VybmVsIGV2ZW50c10oLi4vLi4va2V5d29yZHMva2VybmVsLWV2ZW50cy5tZCkgfCBbcGVyZm9ybWFuY2UgYW5hbHlzaXNdKC4uLy4uL2tleXdvcmRzL3BlcmZvcm1hbmNlLWFuYWx5c2lzLm1kKSB8IFtwZXJmb3JtYW5jZSBhbm9tYWxpZXNdKC4uLy4uL2tleXdvcmRzL3BlcmZvcm1hbmNlLWFub21hbGllcy5tZCkKCiMjIFZlcnNpb25zIGFuZCBzb3VyY2UgbGlua3MKCi0gW1B1Ymxpc2hlZCB2ZXJzaW9uXShodHRwczovL2RvaS5vcmcvMTAuMTEwOS9zY2FtNTk2ODcuMjAyMy4wMDAyNSkgLSBwdWJsaXNoZWQKCioqQ2Fub25pY2FsIHNvdXJjZToqKiBbaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvc2NhbTU5Njg3LjIwMjMuMDAwMjVdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L3NjYW01OTY4Ny4yMDIzLjAwMDI1KQoKIyMgSWRlbnRpZmllcnMKCltET0kgMTAuMTEwOS9zY2FtNTk2ODcuMjAyMy4wMDAyNV0oaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvc2NhbTU5Njg3LjIwMjMuMDAwMjUpCgojIyBXaGVuIHRvIGNpdGUgdGhpcyBwYXBlcgoKQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gaXRzIHNwZWNpZmljIG1ldGhvZCwgZXZpZGVuY2UsIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCi0gVGhlIHBhcGVyJ3MgbWV0aG9kIGlzIGRpcmVjdGx5IHJlbGV2YW50LgotIFRoZSBwYXBlcidzIGV2aWRlbmNlIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCiMjIENpdGF0aW9uCgojIyMgQVBBIDcKCktoYW4sIE0uIEEuLCBOb2ZlcmVzdGksIE0uLCAmIEV6emF0aS1KaXZhbiwgTi4gKDIwMjMpLiBQQVNEOiBBIFBlcmZvcm1hbmNlIEFuYWx5c2lzIEFwcHJvYWNoIFRocm91Z2ggdGhlIFN0YXRpc3RpY2FsIERlYnVnZ2luZyBvZiBLZXJuZWwgRXZlbnRzLiBJRUVFIFdvcmtpbmcgQ29uZmVyZW5jZSBvbiBTb3VyY2UgQ29kZSBBbmFseXNpcyBhbmQgTWFuaXB1bGF0aW9uIChTQ0FNKS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvc2NhbTU5Njg3LjIwMjMuMDAwMjUKCiMjIyBJRUVFCgpNLiBBLiBLaGFuLCBNLiBOb2ZlcmVzdGksIGFuZCBOLiBFenphdGktSml2YW4sICJQQVNEOiBBIFBlcmZvcm1hbmNlIEFuYWx5c2lzIEFwcHJvYWNoIFRocm91Z2ggdGhlIFN0YXRpc3RpY2FsIERlYnVnZ2luZyBvZiBLZXJuZWwgRXZlbnRzLCIgaW4gSUVFRSBXb3JraW5nIENvbmZlcmVuY2Ugb24gU291cmNlIENvZGUgQW5hbHlzaXMgYW5kIE1hbmlwdWxhdGlvbiAoU0NBTSksIDIwMjMsIGRvaTogMTAuMTEwOS9zY2FtNTk2ODcuMjAyMy4wMDAyNQoKYGBgYmlidGV4CkBpbnByb2NlZWRpbmdze2V6emF0aUppdmFuMjAyM3Bhc2RhLAogIGF1dGhvciA9IHtNb2hhbW1lZCBBZGliIEtoYW4gYW5kIE1vcnRlemEgTm9mZXJlc3RpIGFuZCBOYXNlciBFenphdGktSml2YW59LAogIHRpdGxlID0ge1BBU0Q6IEEgUGVyZm9ybWFuY2UgQW5hbHlzaXMgQXBwcm9hY2ggVGhyb3VnaCB0aGUgU3RhdGlzdGljYWwgRGVidWdnaW5nIG9mIEtlcm5lbCBFdmVudHN9LAogIHllYXIgPSB7MjAyM30sCiAgYm9va3RpdGxlID0ge0lFRUUgV29ya2luZyBDb25mZXJlbmNlIG9uIFNvdXJjZSBDb2RlIEFuYWx5c2lzIGFuZCBNYW5pcHVsYXRpb24gKFNDQU0pfSwKICBkb2kgPSB7MTAuMTEwOS9zY2FtNTk2ODcuMjAyMy4wMDAyNX0sCiAgdXJsID0ge2h0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L3NjYW01OTY4Ny4yMDIzLjAwMDI1fQp9CmBgYAoKKipSZWZlcmVuY2UtbWFuYWdlciBpbXBvcnQ6KiogW1JJUyBmaWxlXSguL2NpdGF0aW9uLnJpcykKCiMjIFJlY29yZCBwcm92ZW5hbmNlCgotIE1ldGFkYXRhIHZlcmlmaWVkOiAyMDI2LTA4LTAzCi0gU3VtbWFyeSBzdGF0dXM6IHNvdXJjZS1ncm91bmRlZCBjYXRhbG9nIHJldmlldzsgYXV0aG9yIGFwcHJvdmFsIHBlbmRpbmcKLSBNZXRhZGF0YSBzb3VyY2VzOiBEQkxQL0RPSSBiaWJsaW9ncmFwaGljIHJlY29yZCBmb3IgMTAuMTEwOS9zY2FtNTk2ODcuMjAyMy4wMDAyNTsgYXV0aG9yIGlkZW50aXR5IG1hdGNoZWQgdG8gTmFzZXIgRXp6YXRpLUppdmFuIGluIHRoZSBsb2NhbCByZXNlYXJjaCBjYXRhbG9nOyBmdWxsLXRleHQgc3VtbWFyeSBwZW5kaW5nIHNvdXJjZSByZXZpZXcKLSBNYWNoaW5lLXJlYWRhYmxlIHJlY29yZDogW3BhcGVyLmpzb25dKC4vcGFwZXIuanNvbikK
+# PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events
+
+**2023 | IEEE Working Conference on Source Code Analysis and Manipulation (SCAM) | research paper**
+
+**Authors:** Mohammed Adib Khan, Morteza Noferesti, Naser Ezzati-Jivan
+
+**Core contribution:** This work studies pasd: a performance analysis approach through the statistical debugging of kernel events in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Kernel event streams are rich but difficult to interpret when diagnosing performance problems.
+
+### 2. Method and contribution
+
+PASD applies statistical debugging to kernel events to distinguish behavior associated with performance outcomes.
+
+### 3. Findings and evidence
+
+The paper proposes a kernel-event statistical-debugging workflow; exact datasets and evaluation results require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Evaluate robustness to event noise, workload drift, kernel versions, and online diagnosis.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md)
+
+**Keywords:** [statistical debugging](../../keywords/statistical-debugging.md) | [kernel events](../../keywords/kernel-events.md) | [performance analysis](../../keywords/performance-analysis.md) | [performance anomalies](../../keywords/performance-anomalies.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1109/scam59687.2023.00025) - published
+
+**Canonical source:** [https://doi.org/10.1109/scam59687.2023.00025](https://doi.org/10.1109/scam59687.2023.00025)
+
+## Identifiers
+
+[DOI 10.1109/scam59687.2023.00025](https://doi.org/10.1109/scam59687.2023.00025)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Khan, M. A., Noferesti, M., & Ezzati-Jivan, N. (2023). PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events. IEEE Working Conference on Source Code Analysis and Manipulation (SCAM). https://doi.org/10.1109/scam59687.2023.00025
+
+### IEEE
+
+M. A. Khan, M. Noferesti, and N. Ezzati-Jivan, "PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events," in IEEE Working Conference on Source Code Analysis and Manipulation (SCAM), 2023, doi: 10.1109/scam59687.2023.00025
+
+```bibtex
+@inproceedings{ezzatiJivan2023pasda,
+  author = {Mohammed Adib Khan and Morteza Noferesti and Naser Ezzati-Jivan},
+  title = {PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events},
+  year = {2023},
+  booktitle = {IEEE Working Conference on Source Code Analysis and Manipulation (SCAM)},
+  doi = {10.1109/scam59687.2023.00025},
+  url = {https://doi.org/10.1109/scam59687.2023.00025}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1109/scam59687.2023.00025; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

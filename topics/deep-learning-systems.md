@@ -1,1 +1,5 @@
-IyBkZWVwLWxlYXJuaW5nLXN5c3RlbXMKClBhcGVycyB0YWdnZWQgKipkZWVwLWxlYXJuaW5nLXN5c3RlbXMqKi4KCi0gW09uZSBTaXplIERvZXMgTm90IEZpdCBBbGw6IEFyY2hpdGVjdHVyZS1Bd2FyZSBBZGFwdGl2ZSBCYXRjaCBTY2hlZHVsaW5nIHdpdGggREVCQV0oLi4vcGFwZXJzL2RlYmEtYWRhcHRpdmUtYmF0Y2gtc2NoZWR1bGluZy9SRUFETUUubWQpIC0gMjAyNQo=
+# deep-learning-systems
+
+Papers tagged **deep-learning-systems**.
+
+- [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](../papers/deba-adaptive-batch-scheduling/README.md) - 2025

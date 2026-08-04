@@ -1,1 +1,96 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImxtYXQtYWRhcHRpdmUtdHJhY2luZy1sYW5ndWFnZS1tb2RlbHMiLAogICJwYWdlX3VybCI6ICJodHRwczovL25hc2VyLmdpdGh1Yi5pby9yZXNlYXJjaC1wdWJsaWNhdGlvbnMvcGFwZXJzL2xtYXQtYWRhcHRpdmUtdHJhY2luZy1sYW5ndWFnZS1tb2RlbHMvIiwKICAidGl0bGUiOiAiTE1BVDogQW4gYWRhcHRpdmUgdHJhY2luZyBhcHByb2FjaCBiYXNlZCBvbiBlZmZpY2llbnQgc3lzdGVtIGJlaGF2aW9yIGFuYWx5c2lzIHVzaW5nIGxhbmd1YWdlIG1vZGVscyIsCiAgInRpdGxlX3ZhcmlhbnRzIjogW10sCiAgImF1dGhvcnMiOiBbCiAgICAiS2FzcmEgRGFydmlzaGkiLAogICAgIk1vcnRlemEgTm9mZXJlc3RpIiwKICAgICJZdXZyYWogU2VoZ2FsIiwKICAgICJOYXNlciBFenphdGktSml2YW4iCiAgXSwKICAicHVibGljYXRpb24iOiB7CiAgICAieWVhciI6IDIwMjYsCiAgICAidmVudWUiOiAiSm91cm5hbCBvZiBTeXN0ZW1zIGFuZCBTb2Z0d2FyZSIsCiAgICAidHlwZSI6ICJyZXNlYXJjaCBwYXBlciIKICB9LAogICJwdWJsaWNhdGlvbl90eXBlIjogInJlc2VhcmNoIHBhcGVyIiwKICAic3RhdHVzIjogInB1Ymxpc2hlZF9tZXRhZGF0YV9yZWNvcmQiLAogICJjYW5vbmljYWxfc291cmNlX3VybCI6ICJodHRwczovL2RvaS5vcmcvMTAuMTAxNi9qLmpzcy4yMDI2LjExMjg5MCIsCiAgInNvdXJjZV9yZWNvcmRfaWQiOiAibG1hdC1hbi1hZGFwdGl2ZS10cmFjaW5nLWFwcHJvYWNoLWJhc2VkLW9uLWVmZmljaWVudC1zeXN0ZW0tYmVoYXZpb3ItYW5hbHlzaXMtdXNpbmctbGFuZ3VhZ2UtbW9kLTk4ZGNiMDMzNDgiLAogICJpZGVudGlmaWVycyI6IHsKICAgICJkb2kiOiAiMTAuMTAxNi9qLmpzcy4yMDI2LjExMjg5MCIKICB9LAogICJhYnN0cmFjdCI6IG51bGwsCiAgImFic3RyYWN0X3NvdXJjZSI6ICJObyBwdWJsaWMgYWJzdHJhY3QgY2FwdHVyZWQgaW4gdGhlIGN1cnJlbnQgY2F0YWxvZzsgc3VtbWFyeSBsaW1pdGVkIHRvIHZlcmlmaWVkIGJpYmxpb2dyYXBoaWMgbWV0YWRhdGEgYW5kIHRoZSBwYXBlciB0aXRsZS4iLAogICJzdW1tYXJ5IjogewogICAgImNvcmVfY29udHJpYnV0aW9uIjogIlRoaXMgd29yayBzdHVkaWVzIGxtYXQ6IGFuIGFkYXB0aXZlIHRyYWNpbmcgYXBwcm9hY2ggYmFzZWQgb24gZWZmaWNpZW50IHN5c3RlbSBiZWhhdmlvciBhbmFseXNpcyB1c2luZyBsYW5ndWFnZSBtb2RlbHMgaW4gdGhlIGNvbnRleHQgb2Ygc29mdHdhcmUgcGVyZm9ybWFuY2UgYW5kIHN5c3RlbXMgYW5hbHlzaXMuIiwKICAgICJwcm9ibGVtIjogIkFsd2F5cy1vbiB0cmFjaW5nIGNhbiBpbXBvc2UgY29zdCwgd2hpbGUgc3BhcnNlIHRyYWNpbmcgY2FuIG1pc3MgZGlhZ25vc3RpY2FsbHkgaW1wb3J0YW50IGJlaGF2aW9yLiIsCiAgICAibWV0aG9kIjogIkxNQVQgdXNlcyBzeXN0ZW0tYmVoYXZpb3IgYW5hbHlzaXMgYW5kIGxhbmd1YWdlLW1vZGVsIGFzc2lzdGFuY2UgdG8gYWRhcHQgdHJhY2luZyBkZWNpc2lvbnMuIiwKICAgICJmaW5kaW5ncyI6ICJUaGUgd29yayBpbnZlc3RpZ2F0ZXMgYWRhcHRpdmUgdHJhY2UgY29sbGVjdGlvbiBmb3IgZWZmaWNpZW50IG9ic2VydmFiaWxpdHk7IHF1YW50aXRhdGl2ZSBjbGFpbXMgcmVxdWlyZSBmdWxsLXRleHQgcmV2aWV3LiIsCiAgICAibGltaXRhdGlvbnMiOiAiVGhlIGN1cnJlbnQgcHVibGljIHJlY29yZCBjYXB0dXJlcyBiaWJsaW9ncmFwaGljIG1ldGFkYXRhIGJ1dCBub3QgdGhlIHBhcGVyJ3MgZnVsbCB0ZXh0OyBxdWFudGl0YXRpdmUgY2xhaW1zIGFuZCBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzIHNob3VsZCBiZSBhZGRlZCBhZnRlciBQREYgb3IgYXV0aG9yLW1hbnVzY3JpcHQgcmV2aWV3LiIsCiAgICAiZnV0dXJlX3dvcmsiOiAiTWVhc3VyZSBkZWNpc2lvbiByZWxpYWJpbGl0eSwgb3ZlcmhlYWQsIHNhZmV0eSwgYW5kIGdlbmVyYWxpemF0aW9uIGFjcm9zcyBrZXJuZWxzIGFuZCB3b3JrbG9hZHMuIgogIH0sCiAgInRhZ3MiOiBbCiAgICAia2VybmVsLXRyYWNpbmciLAogICAgInN5c3RlbS10cmFjaW5nIiwKICAgICJsbG0tYXNzaXN0ZWQtYW5hbHlzaXMiLAogICAgIm9ic2VydmFiaWxpdHkiCiAgXSwKICAia2V5d29yZHMiOiBbCiAgICAiYWRhcHRpdmUgdHJhY2luZyIsCiAgICAibGFuZ3VhZ2UgbW9kZWxzIiwKICAgICJzeXN0ZW0gYmVoYXZpb3IiLAogICAgInRyYWNlIG92ZXJoZWFkIgogIF0sCiAgInZlcnNpb25zIjogWwogICAgewogICAgICAiaWQiOiAicHVibGlzaGVkLXZlcnNpb24iLAogICAgICAibGFiZWwiOiAiUHVibGlzaGVkIHZlcnNpb24iLAogICAgICAicmVsYXRpb24iOiAidmVyc2lvbi1vZi1yZWNvcmQiLAogICAgICAidGl0bGUiOiAiTE1BVDogQW4gYWRhcHRpdmUgdHJhY2luZyBhcHByb2FjaCBiYXNlZCBvbiBlZmZpY2llbnQgc3lzdGVtIGJlaGF2aW9yIGFuYWx5c2lzIHVzaW5nIGxhbmd1YWdlIG1vZGVscyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9kb2kub3JnLzEwLjEwMTYvai5qc3MuMjAyNi4xMTI4OTAiLAogICAgICAicGRmX3VybCI6IG51bGwsCiAgICAgICJzdGF0dXMiOiAicHVibGlzaGVkIiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiB0cnVlCiAgICB9CiAgXSwKICAiYWNjZXNzIjogewogICAgInN0YXR1cyI6ICJwdWJsaXNoZWRfbWV0YWRhdGFfcmVjb3JkIiwKICAgICJub3RlIjogIlRoZSBET0kgaXMgdGhlIGNhbm9uaWNhbCBjaXRhdGlvbiB0YXJnZXQ7IHRoaXMgY2F0YWxvZyBkb2VzIG5vdCByZWRpc3RyaWJ1dGUgdGhlIHB1Ymxpc2hlciBQREYuIiwKICAgICJsaWNlbnNlIjogbnVsbAogIH0sCiAgInJlc291cmNlcyI6IHsKICAgICJjb2RlIjogbnVsbCwKICAgICJkYXRhIjogbnVsbCwKICAgICJzbGlkZXMiOiBudWxsLAogICAgImRlbW8iOiBudWxsCiAgfSwKICAiY2l0YXRpb25fZ3VpZGFuY2UiOiB7CiAgICAid2hlbl90b19jaXRlIjogIkNpdGUgdGhpcyBwYXBlciB3aGVuIGl0cyBzcGVjaWZpYyBtZXRob2QsIGV2aWRlbmNlLCBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuIiwKICAgICJwb2ludHMiOiBbCiAgICAgICJUaGUgcGFwZXIncyBtZXRob2QgaXMgZGlyZWN0bHkgcmVsZXZhbnQuIiwKICAgICAgIlRoZSBwYXBlcidzIGV2aWRlbmNlIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4iCiAgICBdLAogICAgImNhbm9uaWNhbF92ZXJzaW9uX2lkIjogInB1Ymxpc2hlZC12ZXJzaW9uIgogIH0sCiAgInByb3ZlbmFuY2UiOiB7CiAgICAibWV0YWRhdGFfdmVyaWZpZWRfb24iOiAiMjAyNi0wOC0wMyIsCiAgICAibWV0YWRhdGFfc291cmNlIjogWwogICAgICAiREJMUC9ET0kgYmlibGlvZ3JhcGhpYyByZWNvcmQgZm9yIDEwLjEwMTYvai5qc3MuMjAyNi4xMTI4OTAiLAogICAgICAiYXV0aG9yIGlkZW50aXR5IG1hdGNoZWQgdG8gTmFzZXIgRXp6YXRpLUppdmFuIGluIHRoZSBsb2NhbCByZXNlYXJjaCBjYXRhbG9nIiwKICAgICAgImZ1bGwtdGV4dCBzdW1tYXJ5IHBlbmRpbmcgc291cmNlIHJldmlldyIKICAgIF0sCiAgICAic3VtbWFyeV93cml0dGVuX2J5IjogIkFJLWFzc2lzdGVkIiwKICAgICJzdW1tYXJ5X3ZlcmlmaWVkX2J5IjogInNvdXJjZS1ncm91bmRlZCBjYXRhbG9nIHJldmlldzsgYXV0aG9yIGFwcHJvdmFsIHBlbmRpbmciLAogICAgImxpbmtlZF9wcmVwcmludF9yZWNvcmQiOiBudWxsLAogICAgImF1dGhvcl9vcmRlcl9ub3RlIjogbnVsbAogIH0sCiAgImJhdGNoIjogewogICAgInBoYXNlIjogMiwKICAgICJiYXRjaF9sYWJlbCI6ICJleHBhbmRlZCB0aGlydHktcGFwZXIgcmVsZWFzZSIsCiAgICAic3RhdHVzIjogImluY2x1ZGVkX2luX2V4cGFuZGVkX2NhdGFsb2ciLAogICAgInNlbGVjdGVkX2F0IjogIjIwMjYtMDgtMDMiCiAgfQp9Cg==
+{
+  "schema_version": "0.4.0",
+  "paper_id": "lmat-adaptive-tracing-language-models",
+  "page_url": "https://naser.github.io/research-publications/papers/lmat-adaptive-tracing-language-models/",
+  "title": "LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models",
+  "title_variants": [],
+  "authors": [
+    "Kasra Darvishi",
+    "Morteza Noferesti",
+    "Yuvraj Sehgal",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2026,
+    "venue": "Journal of Systems and Software",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1016/j.jss.2026.112890",
+  "source_record_id": "lmat-an-adaptive-tracing-approach-based-on-efficient-system-behavior-analysis-using-language-mod-98dcb03348",
+  "identifiers": {
+    "doi": "10.1016/j.jss.2026.112890"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "This work studies lmat: an adaptive tracing approach based on efficient system behavior analysis using language models in the context of software performance and systems analysis.",
+    "problem": "Always-on tracing can impose cost, while sparse tracing can miss diagnostically important behavior.",
+    "method": "LMAT uses system-behavior analysis and language-model assistance to adapt tracing decisions.",
+    "findings": "The work investigates adaptive trace collection for efficient observability; quantitative claims require full-text review.",
+    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
+    "future_work": "Measure decision reliability, overhead, safety, and generalization across kernels and workloads."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "llm-assisted-analysis",
+    "observability"
+  ],
+  "keywords": [
+    "adaptive tracing",
+    "language models",
+    "system behavior",
+    "trace overhead"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models",
+      "url": "https://doi.org/10.1016/j.jss.2026.112890",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112890",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

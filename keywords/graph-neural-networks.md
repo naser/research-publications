@@ -1,1 +1,5 @@
-IyBncmFwaCBuZXVyYWwgbmV0d29ya3MKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipncmFwaCBuZXVyYWwgbmV0d29ya3MqKi4KCi0gW0VmZmljaWVudCBVbnN1cGVydmlzZWQgTGF0ZW5jeSBDdWxwcml0IFJhbmtpbmcgaW4gRGlzdHJpYnV0ZWQgVHJhY2VzIHdpdGggR05OIGFuZCBDcml0aWNhbCBQYXRoIEFuYWx5c2lzXSguLi9wYXBlcnMvZWZmaWNpZW50LXVuc3VwZXJ2aXNlZC1sYXRlbmN5LWN1bHByaXQtcmFua2luZy9SRUFETUUubWQpIC0gMjAyNAo=
+# graph neural networks
+
+Papers indexed by keyword **graph neural networks**.
+
+- [Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis](../papers/efficient-unsupervised-latency-culprit-ranking/README.md) - 2024

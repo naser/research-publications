@@ -1,1 +1,6 @@
-IyB0cmFjZS1hYnN0cmFjdGlvbgoKUGFwZXJzIHRhZ2dlZCAqKnRyYWNlLWFic3RyYWN0aW9uKiouCgotIFtBIGRlY2xhcmF0aXZlIGZyYW1ld29yayBmb3Igc3RhdGVmdWwgYW5hbHlzaXMgb2YgZXhlY3V0aW9uIHRyYWNlc10oLi4vcGFwZXJzL2RlY2xhcmF0aXZlLWZyYW1ld29yay1zdGF0ZWZ1bC10cmFjZS1hbmFseXNpcy9SRUFETUUubWQpIC0gMjAxNwotIFtFbmhhbmNlZCBFeGVjdXRpb24gVHJhY2UgQWJzdHJhY3Rpb24gQXBwcm9hY2ggVXNpbmcgU29jaWFsIE5ldHdvcmsgQW5hbHlzaXMgTWV0aG9kc10oLi4vcGFwZXJzL2VuaGFuY2VkLXRyYWNlLWFic3RyYWN0aW9uLXNvY2lhbC1uZXR3b3JrLWFuYWx5c2lzL1JFQURNRS5tZCkgLSAyMDIwCg==
+# trace-abstraction
+
+Papers tagged **trace-abstraction**.
+
+- [A declarative framework for stateful analysis of execution traces](../papers/declarative-framework-stateful-trace-analysis/README.md) - 2017
+- [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](../papers/enhanced-trace-abstraction-social-network-analysis/README.md) - 2020

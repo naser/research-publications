@@ -1,1 +1,110 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImdubi1saW5rLXByZWRpY3Rpb24tbWljcm9zZXJ2aWNlcyIsCiAgInBhZ2VfdXJsIjogImh0dHBzOi8vbmFzZXIuZ2l0aHViLmlvL3Jlc2VhcmNoLXB1YmxpY2F0aW9ucy9wYXBlcnMvZ25uLWxpbmstcHJlZGljdGlvbi1taWNyb3NlcnZpY2VzLyIsCiAgInRpdGxlIjogIlV0aWxpemluZyBHcmFwaCBOZXVyYWwgTmV0d29ya3MgZm9yIEVmZmVjdGl2ZSBMaW5rIFByZWRpY3Rpb24gaW4gTWljcm9zZXJ2aWNlIEFyY2hpdGVjdHVyZXMiLAogICJ0aXRsZV92YXJpYW50cyI6IFtdLAogICJhdXRob3JzIjogWwogICAgIkdoYXphbCBLaG9kYWJhbmRlaCIsCiAgICAiQWxpcmV6YSBFemF6IiwKICAgICJNYWppZCBCYWJhZWkiLAogICAgIk5hc2VyIEV6emF0aS1KaXZhbiIKICBdLAogICJwdWJsaWNhdGlvbiI6IHsKICAgICJ5ZWFyIjogMjAyNSwKICAgICJ2ZW51ZSI6ICJBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpIiwKICAgICJ0eXBlIjogImNvbmZlcmVuY2UgcGFwZXIiCiAgfSwKICAicHVibGljYXRpb25fdHlwZSI6ICJjb25mZXJlbmNlIHBhcGVyIiwKICAic3RhdHVzIjogInB1YmxpY19wcmVwcmludF9hbmRfcHVibGlzaGVkX3JlY29yZCIsCiAgImNhbm9uaWNhbF9zb3VyY2VfdXJsIjogImh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM2NzYxNTEuMzcxOTM2MiIsCiAgInNvdXJjZV9yZWNvcmRfaWQiOiAidXRpbGl6aW5nLWdyYXBoLW5ldXJhbC1uZXR3b3Jrcy1mb3ItZWZmZWN0aXZlLWxpbmstcHJlZGljdGlvbi1pbi1taWNyb3NlcnZpY2UtYXJjaGl0ZWN0dXJlcy1hNzhhODgyMDVmIiwKICAiaWRlbnRpZmllcnMiOiB7CiAgICAiZG9pIjogIjEwLjExNDUvMzY3NjE1MS4zNzE5MzYyIiwKICAgICJhcnhpdiI6ICIyNTAxLjE1MDE5IgogIH0sCiAgImFic3RyYWN0IjogbnVsbCwKICAiYWJzdHJhY3Rfc291cmNlIjogImFyWGl2OjI1MDEuMTUwMTkgYWJzdHJhY3Q7IHB1YmxpYyBwcmVwcmludCB2ZXJzaW9uIiwKICAic3VtbWFyeSI6IHsKICAgICJjb3JlX2NvbnRyaWJ1dGlvbiI6ICJUaGUgcGFwZXIgYXBwbGllcyBncmFwaCBhdHRlbnRpb24gbmV0d29ya3MgdG8gcHJlZGljdCBmdXR1cmUgaW50ZXJhY3Rpb25zIGluIG1pY3Jvc2VydmljZSBjYWxsIGdyYXBocywgc3VwcG9ydGluZyBwcm9hY3RpdmUgbW9uaXRvcmluZy4iLAogICAgInByb2JsZW0iOiAiTWljcm9zZXJ2aWNlIGludGVyYWN0aW9ucyBhcmUgZnJlcXVlbnQsIGR5bmFtaWMsIGFuZCBvcGVyYXRpb25hbGx5IGltcG9ydGFudC4gUHJlZGljdGluZyBsaWtlbHkgZnV0dXJlIGxpbmtzIGNvdWxkIGhlbHAgc3lzdGVtcyBkZXRlY3Qgb3IgcmVzcG9uZCB0byBlbWVyZ2luZyBwZXJmb3JtYW5jZSBwcm9ibGVtcyBiZWZvcmUgdGhleSBlc2NhbGF0ZS4iLAogICAgIm1ldGhvZCI6ICJUaGUgYXBwcm9hY2ggdXNlcyB0ZW1wb3JhbCBzZWdtZW50YXRpb24sIGFkdmFuY2VkIG5lZ2F0aXZlIHNhbXBsaW5nLCBhbmQgZ3JhcGggYXR0ZW50aW9uIG1lY2hhbmlzbXMgdG8gbW9kZWwgdGltZS1zZW5zaXRpdmUgY2FsbC1ncmFwaCBpbnRlcmFjdGlvbnMuIEl0IGlzIGV2YWx1YXRlZCB3aXRoIEFVQywgcHJlY2lzaW9uLCByZWNhbGwsIGFuZCBGMS1zY29yZSBvbiByZWFsLXdvcmxkIGRhdGEuIiwKICAgICJmaW5kaW5ncyI6ICJUaGUgcmVwb3J0ZWQgZXZhbHVhdGlvbiBzaG93cyBoaWdoIGFjY3VyYWN5IGFuZCByb2J1c3RuZXNzIGZvciBwcmVkaWN0aW5nIG1pY3Jvc2VydmljZSBpbnRlcmFjdGlvbnMsIHN1cHBvcnRpbmcgcG9zc2libGUgdXNlIGluIGFkYXB0aXZlIHJlc291cmNlIG1hbmFnZW1lbnQgYW5kIHBlcmZvcm1hbmNlIG9wdGltaXphdGlvbi4iLAogICAgImxpbWl0YXRpb25zIjogIlRoZSBldmlkZW5jZSBpcyB0aWVkIHRvIHRoZSBhdmFpbGFibGUgcmVhbC13b3JsZCB0cmFjZXMgYW5kIG9mZmxpbmUgbGluay1wcmVkaWN0aW9uIHNldHVwLiIsCiAgICAiZnV0dXJlX3dvcmsiOiAiRnV0dXJlIHdvcmsgc2hvdWxkIGV2YWx1YXRlIG9ubGluZSBkcmlmdCwgb3BlcmF0aW9uYWwgY29zdCwgZmFsc2UtcG9zaXRpdmUgY29uc2VxdWVuY2VzLCBhbmQgaW50ZWdyYXRpb24gd2l0aCBsaXZlIG1vbml0b3JpbmcgY29udHJvbGxlcnMuIgogIH0sCiAgInRhZ3MiOiBbCiAgICAibWljcm9zZXJ2aWNlcyIsCiAgICAiZ3JhcGgtbmV1cmFsLW5ldHdvcmtzIiwKICAgICJwZXJmb3JtYW5jZS1lbmdpbmVlcmluZyIsCiAgICAicHJlZGljdGl2ZS1tb25pdG9yaW5nIgogIF0sCiAgImtleXdvcmRzIjogWwogICAgIm1pY3Jvc2VydmljZSBjYWxsIGdyYXBocyIsCiAgICAibGluayBwcmVkaWN0aW9uIiwKICAgICJncmFwaCBhdHRlbnRpb24gbmV0d29ya3MiLAogICAgInRlbXBvcmFsIHNlZ21lbnRhdGlvbiIsCiAgICAibmVnYXRpdmUgc2FtcGxpbmciLAogICAgImFkYXB0aXZlIG1vbml0b3JpbmciCiAgXSwKICAidmVyc2lvbnMiOiBbCiAgICB7CiAgICAgICJpZCI6ICJwdWJsaXNoZWQtdmVyc2lvbiIsCiAgICAgICJsYWJlbCI6ICJQdWJsaXNoZWQgdmVyc2lvbiIsCiAgICAgICJyZWxhdGlvbiI6ICJ2ZXJzaW9uLW9mLXJlY29yZCIsCiAgICAgICJ0aXRsZSI6ICJVdGlsaXppbmcgR3JhcGggTmV1cmFsIE5ldHdvcmtzIGZvciBFZmZlY3RpdmUgTGluayBQcmVkaWN0aW9uIGluIE1pY3Jvc2VydmljZSBBcmNoaXRlY3R1cmVzIiwKICAgICAgInVybCI6ICJodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjc2MTUxLjM3MTkzNjIiLAogICAgICAicGRmX3VybCI6IG51bGwsCiAgICAgICJzdGF0dXMiOiAicHVibGlzaGVkIiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiB0cnVlCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVibGljLXByZXByaW50IiwKICAgICAgImxhYmVsIjogIlB1YmxpYyBwcmVwcmludCIsCiAgICAgICJyZWxhdGlvbiI6ICJwcmVwcmludCIsCiAgICAgICJ0aXRsZSI6ICJVdGlsaXppbmcgR3JhcGggTmV1cmFsIE5ldHdvcmtzIGZvciBFZmZlY3RpdmUgTGluayBQcmVkaWN0aW9uIGluIE1pY3Jvc2VydmljZSBBcmNoaXRlY3R1cmVzIiwKICAgICAgInVybCI6ICJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjUwMS4xNTAxOSIsCiAgICAgICJwZGZfdXJsIjogImh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTAxLjE1MDE5IiwKICAgICAgInN0YXR1cyI6ICJwdWJsaWNfZnVsbF90ZXh0IiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiBmYWxzZQogICAgfQogIF0sCiAgImFjY2VzcyI6IHsKICAgICJzdGF0dXMiOiAicHVibGljX3ByZXByaW50X2FuZF9wdWJsaXNoZWRfcmVjb3JkIiwKICAgICJub3RlIjogIlRoZSBBQ00gRE9JIGlzIHRoZSBjYW5vbmljYWwgY2l0YXRpb24gdGFyZ2V0OyB0aGUgYXJYaXYgcHJlcHJpbnQgcHJvdmlkZXMgcHVibGljIGZ1bGwgdGV4dC4iLAogICAgImxpY2Vuc2UiOiBudWxsCiAgfSwKICAicmVzb3VyY2VzIjogewogICAgImNvZGUiOiBudWxsLAogICAgImRhdGEiOiBudWxsLAogICAgInNsaWRlcyI6IG51bGwsCiAgICAiZGVtbyI6IG51bGwKICB9LAogICJjaXRhdGlvbl9ndWlkYW5jZSI6IHsKICAgICJ3aGVuX3RvX2NpdGUiOiAiQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gcHJlZGljdGluZyBmdXR1cmUgaW50ZXJhY3Rpb25zIGluIGV2b2x2aW5nIG1pY3Jvc2VydmljZSBjYWxsIGdyYXBocy4iLAogICAgInBvaW50cyI6IFsKICAgICAgIkdyYXBoLW5ldXJhbC1uZXR3b3JrIGxpbmsgcHJlZGljdGlvbiBmb3IgbWljcm9zZXJ2aWNlIGFyY2hpdGVjdHVyZXMuIiwKICAgICAgIlRlbXBvcmFsIHNlZ21lbnRhdGlvbiBvZiBjaGFuZ2luZyBzZXJ2aWNlLWludGVyYWN0aW9uIGdyYXBocy4iLAogICAgICAiUHJlZGljdGl2ZSBtb25pdG9yaW5nIG9mIGxpa2VseSBmdXR1cmUgbWljcm9zZXJ2aWNlIGNhbGxzLiIKICAgIF0sCiAgICAiY2Fub25pY2FsX3ZlcnNpb25faWQiOiAicHVibGlzaGVkLXZlcnNpb24iCiAgfSwKICAicHJvdmVuYW5jZSI6IHsKICAgICJtZXRhZGF0YV92ZXJpZmllZF9vbiI6ICIyMDI2LTA4LTAzIiwKICAgICJtZXRhZGF0YV9zb3VyY2UiOiBbCiAgICAgICJEQkxQIGFuZCBBQ00gRE9JIG1ldGFkYXRhIiwKICAgICAgIm9mZmljaWFsIGFyWGl2IGFic3RyYWN0IGFuZCBQREYgcGFnZSAyNTAxLjE1MDE5IiwKICAgICAgImxvY2FsIFBERiBoYXNoIHZlcmlmaWVkIGluIHRoZSB3b3JraW5nIGNhdGFsb2ciCiAgICBdLAogICAgInN1bW1hcnlfd3JpdHRlbl9ieSI6ICJBSS1hc3Npc3RlZCIsCiAgICAic3VtbWFyeV92ZXJpZmllZF9ieSI6ICJzb3VyY2UtZ3JvdW5kZWQgY2F0YWxvZyByZXZpZXc7IGF1dGhvciBhcHByb3ZhbCBwZW5kaW5nIiwKICAgICJsaW5rZWRfcHJlcHJpbnRfcmVjb3JkIjogbnVsbCwKICAgICJhdXRob3Jfb3JkZXJfbm90ZSI6IG51bGwKICB9LAogICJiYXRjaCI6IHsKICAgICJwaGFzZSI6IDIsCiAgICAiYmF0Y2hfbGFiZWwiOiAiZXhwYW5kZWQgdGhpcnR5LXBhcGVyIHJlbGVhc2UiLAogICAgInN0YXR1cyI6ICJpbmNsdWRlZF9pbl9leHBhbmRlZF9jYXRhbG9nIiwKICAgICJzZWxlY3RlZF9hdCI6ICIyMDI2LTA4LTAzIgogIH0KfQo=
+{
+  "schema_version": "0.4.0",
+  "paper_id": "gnn-link-prediction-microservices",
+  "page_url": "https://naser.github.io/research-publications/papers/gnn-link-prediction-microservices/",
+  "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
+  "title_variants": [],
+  "authors": [
+    "Ghazal Khodabandeh",
+    "Alireza Ezaz",
+    "Majid Babaei",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2025,
+    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "public_preprint_and_published_record",
+  "canonical_source_url": "https://doi.org/10.1145/3676151.3719362",
+  "source_record_id": "utilizing-graph-neural-networks-for-effective-link-prediction-in-microservice-architectures-a78a88205f",
+  "identifiers": {
+    "doi": "10.1145/3676151.3719362",
+    "arxiv": "2501.15019"
+  },
+  "abstract": null,
+  "abstract_source": "arXiv:2501.15019 abstract; public preprint version",
+  "summary": {
+    "core_contribution": "The paper applies graph attention networks to predict future interactions in microservice call graphs, supporting proactive monitoring.",
+    "problem": "Microservice interactions are frequent, dynamic, and operationally important. Predicting likely future links could help systems detect or respond to emerging performance problems before they escalate.",
+    "method": "The approach uses temporal segmentation, advanced negative sampling, and graph attention mechanisms to model time-sensitive call-graph interactions. It is evaluated with AUC, precision, recall, and F1-score on real-world data.",
+    "findings": "The reported evaluation shows high accuracy and robustness for predicting microservice interactions, supporting possible use in adaptive resource management and performance optimization.",
+    "limitations": "The evidence is tied to the available real-world traces and offline link-prediction setup.",
+    "future_work": "Future work should evaluate online drift, operational cost, false-positive consequences, and integration with live monitoring controllers."
+  },
+  "tags": [
+    "microservices",
+    "graph-neural-networks",
+    "performance-engineering",
+    "predictive-monitoring"
+  ],
+  "keywords": [
+    "microservice call graphs",
+    "link prediction",
+    "graph attention networks",
+    "temporal segmentation",
+    "negative sampling",
+    "adaptive monitoring"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
+      "url": "https://doi.org/10.1145/3676151.3719362",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-preprint",
+      "label": "Public preprint",
+      "relation": "preprint",
+      "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
+      "url": "https://arxiv.org/abs/2501.15019",
+      "pdf_url": "https://arxiv.org/pdf/2501.15019",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "public_preprint_and_published_record",
+    "note": "The ACM DOI is the canonical citation target; the arXiv preprint provides public full text.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when predicting future interactions in evolving microservice call graphs.",
+    "points": [
+      "Graph-neural-network link prediction for microservice architectures.",
+      "Temporal segmentation of changing service-interaction graphs.",
+      "Predictive monitoring of likely future microservice calls."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "DBLP and ACM DOI metadata",
+      "official arXiv abstract and PDF page 2501.15019",
+      "local PDF hash verified in the working catalog"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

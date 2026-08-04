@@ -1,1 +1,5 @@
-IyBuYXR1cmFsLWxhbmd1YWdlIHRyYWNlIHF1ZXJpZXMKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipuYXR1cmFsLWxhbmd1YWdlIHRyYWNlIHF1ZXJpZXMqKi4KCi0gW1RBQUY6IEEgVHJhY2UgQWJzdHJhY3Rpb24gYW5kIEFuYWx5c2lzIEZyYW1ld29yayBTeW5lcmdpemluZyBLbm93bGVkZ2UgR3JhcGhzIGFuZCBMTE1zXSguLi9wYXBlcnMvdGFhZi10cmFjZS1hYnN0cmFjdGlvbi1hbmFseXNpcy1mcmFtZXdvcmsvUkVBRE1FLm1kKSAtIDIwMjYK
+# natural-language trace queries
+
+Papers indexed by keyword **natural-language trace queries**.
+
+- [TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs](../papers/taaf-trace-abstraction-analysis-framework/README.md) - 2026

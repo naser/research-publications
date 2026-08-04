@@ -1,1 +1,6 @@
-IyBleGVjdXRpb24gdHJhY2VzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqZXhlY3V0aW9uIHRyYWNlcyoqLgoKLSBbQSBkZWNsYXJhdGl2ZSBmcmFtZXdvcmsgZm9yIHN0YXRlZnVsIGFuYWx5c2lzIG9mIGV4ZWN1dGlvbiB0cmFjZXNdKC4uL3BhcGVycy9kZWNsYXJhdGl2ZS1mcmFtZXdvcmstc3RhdGVmdWwtdHJhY2UtYW5hbHlzaXMvUkVBRE1FLm1kKSAtIDIwMTcKLSBbRXhlY3V0aW9uIHRyYWNlLWJhc2VkIG1vZGVsIHZlcmlmaWNhdGlvbiB0byBhbmFseXplIG11bHRpY29yZSBhbmQgcmVhbC10aW1lIHN5c3RlbXNdKC4uL3BhcGVycy9leGVjdXRpb24tdHJhY2UtbW9kZWwtdmVyaWZpY2F0aW9uLW11bHRpY29yZS9SRUFETUUubWQpIC0gMjAyMgo=
+# execution traces
+
+Papers indexed by keyword **execution traces**.
+
+- [A declarative framework for stateful analysis of execution traces](../papers/declarative-framework-stateful-trace-analysis/README.md) - 2017
+- [Execution trace-based model verification to analyze multicore and real-time systems](../papers/execution-trace-model-verification-multicore/README.md) - 2022

@@ -1,1 +1,5 @@
-IyB0cmFjZSBjb2xsZWN0aW9uCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqdHJhY2UgY29sbGVjdGlvbioqLgoKLSBbVG93YXJkIEFkYXB0aXZlIFRyYWNpbmc6IEVmZmljaWVudCBTeXN0ZW0gQmVoYXZpb3IgQW5hbHlzaXMgdXNpbmcgTGFuZ3VhZ2UgTW9kZWxzXSguLi9wYXBlcnMvdG93YXJkLWFkYXB0aXZlLXRyYWNpbmctbGFuZ3VhZ2UtbW9kZWxzL1JFQURNRS5tZCkgLSAyMDI0Cg==
+# trace collection
+
+Papers indexed by keyword **trace collection**.
+
+- [Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models](../papers/toward-adaptive-tracing-language-models/README.md) - 2024

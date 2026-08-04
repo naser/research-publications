@@ -1,1 +1,5 @@
-IyBrZXJuZWwtbGV2ZWwgZXZlbnRzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqa2VybmVsLWxldmVsIGV2ZW50cyoqLgoKLSBbRW5oYW5jaW5nIGVtcGlyaWNhbCBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBlbmdpbmVlcmluZyByZXNlYXJjaCB3aXRoIGtlcm5lbC1sZXZlbCBldmVudHM6IEEgY29tcHJlaGVuc2l2ZSBzeXN0ZW0gdHJhY2luZyBhcHByb2FjaF0oLi4vcGFwZXJzL2VuaGFuY2luZy1wZXJmb3JtYW5jZS1lbmdpbmVlcmluZy13aXRoLWtlcm5lbC1ldmVudHMvUkVBRE1FLm1kKSAtIDIwMjQK
+# kernel-level events
+
+Papers indexed by keyword **kernel-level events**.
+
+- [Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach](../papers/enhancing-performance-engineering-with-kernel-events/README.md) - 2024

@@ -1,1 +1,5 @@
-IyB0cmFjZSBxdWVyaWVzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqdHJhY2UgcXVlcmllcyoqLgoKLSBbQSBkZWNsYXJhdGl2ZSBmcmFtZXdvcmsgZm9yIHN0YXRlZnVsIGFuYWx5c2lzIG9mIGV4ZWN1dGlvbiB0cmFjZXNdKC4uL3BhcGVycy9kZWNsYXJhdGl2ZS1mcmFtZXdvcmstc3RhdGVmdWwtdHJhY2UtYW5hbHlzaXMvUkVBRE1FLm1kKSAtIDIwMTcK
+# trace queries
+
+Papers indexed by keyword **trace queries**.
+
+- [A declarative framework for stateful analysis of execution traces](../papers/declarative-framework-stateful-trace-analysis/README.md) - 2017

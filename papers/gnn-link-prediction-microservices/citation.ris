@@ -1,1 +1,11 @@
-VFkgIC0gQ09ORgpBVSAgLSBLaG9kYWJhbmRlaCwgR2hhemFsCkFVICAtIEV6YXosIEFsaXJlemEKQVUgIC0gQmFiYWVpLCBNYWppZApBVSAgLSBFenphdGktSml2YW4sIE5hc2VyClRJICAtIFV0aWxpemluZyBHcmFwaCBOZXVyYWwgTmV0d29ya3MgZm9yIEVmZmVjdGl2ZSBMaW5rIFByZWRpY3Rpb24gaW4gTWljcm9zZXJ2aWNlIEFyY2hpdGVjdHVyZXMKUFkgIC0gMjAyNQpUMiAgLSBBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpCkRPICAtIDEwLjExNDUvMzY3NjE1MS4zNzE5MzYyClVSICAtIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM2NzYxNTEuMzcxOTM2MgpFUiAgLQo=
+TY  - CONF
+AU  - Khodabandeh, Ghazal
+AU  - Ezaz, Alireza
+AU  - Babaei, Majid
+AU  - Ezzati-Jivan, Naser
+TI  - Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures
+PY  - 2025
+T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+DO  - 10.1145/3676151.3719362
+UR  - https://doi.org/10.1145/3676151.3719362
+ER  -

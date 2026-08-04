@@ -1,1 +1,96 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImNhcmUtY29udGV4dC1hd2FyZS1yb290LWNhdXNlLWlkZW50aWZpY2F0aW9uIiwKICAicGFnZV91cmwiOiAiaHR0cHM6Ly9uYXNlci5naXRodWIuaW8vcmVzZWFyY2gtcHVibGljYXRpb25zL3BhcGVycy9jYXJlLWNvbnRleHQtYXdhcmUtcm9vdC1jYXVzZS1pZGVudGlmaWNhdGlvbi8iLAogICJ0aXRsZSI6ICJDQVJFOiBDb250ZXh0IEF3YXJlIFJvb3QgQ2F1c2UgSWRlbnRpZmljYXRpb24gVXNpbmcgRGlzdHJpYnV0ZWQgVHJhY2VzIGFuZCBQcm9maWxpbmcgTWV0cmljcyIsCiAgInRpdGxlX3ZhcmlhbnRzIjogW10sCiAgImF1dGhvcnMiOiBbCiAgICAiTWFoc2EgUGFuYWhhbmRlaCIsCiAgICAiTmFzZXIgRXp6YXRpLUppdmFuIiwKICAgICJBYmRlbHdhaGFiIEhhbW91LUxoYWRqIiwKICAgICJKYW1lcyBNaWxsZXIiCiAgXSwKICAicHVibGljYXRpb24iOiB7CiAgICAieWVhciI6IDIwMjYsCiAgICAidmVudWUiOiAiSUVFRSBUcmFuc2FjdGlvbnMgb24gU29mdHdhcmUgRW5naW5lZXJpbmciLAogICAgInR5cGUiOiAicmVzZWFyY2ggcGFwZXIiCiAgfSwKICAicHVibGljYXRpb25fdHlwZSI6ICJyZXNlYXJjaCBwYXBlciIsCiAgInN0YXR1cyI6ICJwdWJsaXNoZWRfbWV0YWRhdGFfcmVjb3JkIiwKICAiY2Fub25pY2FsX3NvdXJjZV91cmwiOiAiaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvdHNlLjIwMjUuMzY0NTE0MyIsCiAgInNvdXJjZV9yZWNvcmRfaWQiOiAiY2FyZS1jb250ZXh0LWF3YXJlLXJvb3QtY2F1c2UtaWRlbnRpZmljYXRpb24tdXNpbmctZGlzdHJpYnV0ZWQtdHJhY2VzLWFuZC1wcm9maWxpbmctbWV0cmljcy1mZjlhMTgzODQ2IiwKICAiaWRlbnRpZmllcnMiOiB7CiAgICAiZG9pIjogIjEwLjExMDkvdHNlLjIwMjUuMzY0NTE0MyIKICB9LAogICJhYnN0cmFjdCI6IG51bGwsCiAgImFic3RyYWN0X3NvdXJjZSI6ICJObyBwdWJsaWMgYWJzdHJhY3QgY2FwdHVyZWQgaW4gdGhlIGN1cnJlbnQgY2F0YWxvZzsgc3VtbWFyeSBsaW1pdGVkIHRvIHZlcmlmaWVkIGJpYmxpb2dyYXBoaWMgbWV0YWRhdGEgYW5kIHRoZSBwYXBlciB0aXRsZS4iLAogICJzdW1tYXJ5IjogewogICAgImNvcmVfY29udHJpYnV0aW9uIjogIlRoaXMgd29yayBzdHVkaWVzIGNhcmU6IGNvbnRleHQgYXdhcmUgcm9vdCBjYXVzZSBpZGVudGlmaWNhdGlvbiB1c2luZyBkaXN0cmlidXRlZCB0cmFjZXMgYW5kIHByb2ZpbGluZyBtZXRyaWNzIGluIHRoZSBjb250ZXh0IG9mIHNvZnR3YXJlIHBlcmZvcm1hbmNlIGFuZCBzeXN0ZW1zIGFuYWx5c2lzLiIsCiAgICAicHJvYmxlbSI6ICJSb290LWNhdXNlIGFuYWx5c2lzIGluIGRpc3RyaWJ1dGVkIHN5c3RlbXMgbXVzdCBjb21iaW5lIHJlcXVlc3QgcGF0aHMgd2l0aCBjaGFuZ2luZyBleGVjdXRpb24gY29udGV4dCBhbmQgcmVzb3VyY2UgYmVoYXZpb3IuIiwKICAgICJtZXRob2QiOiAiQ0FSRSBjb21iaW5lcyBkaXN0cmlidXRlZC10cmFjZSBldmlkZW5jZSB3aXRoIHByb2ZpbGluZyBtZXRyaWNzIHRvIGlkZW50aWZ5IGNvbnRleHQtZGVwZW5kZW50IHJvb3QgY2F1c2VzLiIsCiAgICAiZmluZGluZ3MiOiAiVGhlIHdvcmsgY29udHJpYnV0ZXMgYSBjb250ZXh0LWF3YXJlIFJDQSBkaXJlY3Rpb24gZm9yIGRpc3RyaWJ1dGVkIHN5c3RlbXM7IHF1YW50aXRhdGl2ZSByZXN1bHRzIHJlcXVpcmUgZnVsbC10ZXh0IHJldmlldy4iLAogICAgImxpbWl0YXRpb25zIjogIlRoZSBjdXJyZW50IHB1YmxpYyByZWNvcmQgY2FwdHVyZXMgYmlibGlvZ3JhcGhpYyBtZXRhZGF0YSBidXQgbm90IHRoZSBwYXBlcidzIGZ1bGwgdGV4dDsgcXVhbnRpdGF0aXZlIGNsYWltcyBhbmQgaW1wbGVtZW50YXRpb24gZGV0YWlscyBzaG91bGQgYmUgYWRkZWQgYWZ0ZXIgUERGIG9yIGF1dGhvci1tYW51c2NyaXB0IHJldmlldy4iLAogICAgImZ1dHVyZV93b3JrIjogIkFzc2VzcyBvbmxpbmUgZGlhZ25vc2lzLCB0cmFuc2ZlciBhY3Jvc3MgZGVwbG95bWVudHMsIGV4cGxhbmF0aW9uIHF1YWxpdHksIGFuZCByb2J1c3RuZXNzIHVuZGVyIHRyYWNlIHNhbXBsaW5nLiIKICB9LAogICJ0YWdzIjogWwogICAgInN5c3RlbS10cmFjaW5nIiwKICAgICJtaWNyb3NlcnZpY2VzIiwKICAgICJyb290LWNhdXNlLWFuYWx5c2lzIiwKICAgICJsYXRlbmN5LWFuYWx5c2lzIgogIF0sCiAgImtleXdvcmRzIjogWwogICAgImRpc3RyaWJ1dGVkIHRyYWNlcyIsCiAgICAicHJvZmlsaW5nIG1ldHJpY3MiLAogICAgImNvbnRleHQtYXdhcmUgUkNBIiwKICAgICJtaWNyb3NlcnZpY2UgZGlhZ25vc2lzIgogIF0sCiAgInZlcnNpb25zIjogWwogICAgewogICAgICAiaWQiOiAicHVibGlzaGVkLXZlcnNpb24iLAogICAgICAibGFiZWwiOiAiUHVibGlzaGVkIHZlcnNpb24iLAogICAgICAicmVsYXRpb24iOiAidmVyc2lvbi1vZi1yZWNvcmQiLAogICAgICAidGl0bGUiOiAiQ0FSRTogQ29udGV4dCBBd2FyZSBSb290IENhdXNlIElkZW50aWZpY2F0aW9uIFVzaW5nIERpc3RyaWJ1dGVkIFRyYWNlcyBhbmQgUHJvZmlsaW5nIE1ldHJpY3MiLAogICAgICAidXJsIjogImh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L3RzZS4yMDI1LjM2NDUxNDMiLAogICAgICAicGRmX3VybCI6IG51bGwsCiAgICAgICJzdGF0dXMiOiAicHVibGlzaGVkIiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiB0cnVlCiAgICB9CiAgXSwKICAiYWNjZXNzIjogewogICAgInN0YXR1cyI6ICJwdWJsaXNoZWRfbWV0YWRhdGFfcmVjb3JkIiwKICAgICJub3RlIjogIlRoZSBET0kgaXMgdGhlIGNhbm9uaWNhbCBjaXRhdGlvbiB0YXJnZXQ7IHRoaXMgY2F0YWxvZyBkb2VzIG5vdCByZWRpc3RyaWJ1dGUgdGhlIHB1Ymxpc2hlciBQREYuIiwKICAgICJsaWNlbnNlIjogbnVsbAogIH0sCiAgInJlc291cmNlcyI6IHsKICAgICJjb2RlIjogbnVsbCwKICAgICJkYXRhIjogbnVsbCwKICAgICJzbGlkZXMiOiBudWxsLAogICAgImRlbW8iOiBudWxsCiAgfSwKICAiY2l0YXRpb25fZ3VpZGFuY2UiOiB7CiAgICAid2hlbl90b19jaXRlIjogIkNpdGUgdGhpcyBwYXBlciB3aGVuIGl0cyBzcGVjaWZpYyBtZXRob2QsIGV2aWRlbmNlLCBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuIiwKICAgICJwb2ludHMiOiBbCiAgICAgICJUaGUgcGFwZXIncyBtZXRob2QgaXMgZGlyZWN0bHkgcmVsZXZhbnQuIiwKICAgICAgIlRoZSBwYXBlcidzIGV2aWRlbmNlIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4iCiAgICBdLAogICAgImNhbm9uaWNhbF92ZXJzaW9uX2lkIjogInB1Ymxpc2hlZC12ZXJzaW9uIgogIH0sCiAgInByb3ZlbmFuY2UiOiB7CiAgICAibWV0YWRhdGFfdmVyaWZpZWRfb24iOiAiMjAyNi0wOC0wMyIsCiAgICAibWV0YWRhdGFfc291cmNlIjogWwogICAgICAiREJMUC9ET0kgYmlibGlvZ3JhcGhpYyByZWNvcmQgZm9yIDEwLjExMDkvdHNlLjIwMjUuMzY0NTE0MyIsCiAgICAgICJhdXRob3IgaWRlbnRpdHkgbWF0Y2hlZCB0byBOYXNlciBFenphdGktSml2YW4gaW4gdGhlIGxvY2FsIHJlc2VhcmNoIGNhdGFsb2ciLAogICAgICAiZnVsbC10ZXh0IHN1bW1hcnkgcGVuZGluZyBzb3VyY2UgcmV2aWV3IgogICAgXSwKICAgICJzdW1tYXJ5X3dyaXR0ZW5fYnkiOiAiQUktYXNzaXN0ZWQiLAogICAgInN1bW1hcnlfdmVyaWZpZWRfYnkiOiAic291cmNlLWdyb3VuZGVkIGNhdGFsb2cgcmV2aWV3OyBhdXRob3IgYXBwcm92YWwgcGVuZGluZyIsCiAgICAibGlua2VkX3ByZXByaW50X3JlY29yZCI6IG51bGwsCiAgICAiYXV0aG9yX29yZGVyX25vdGUiOiBudWxsCiAgfSwKICAiYmF0Y2giOiB7CiAgICAicGhhc2UiOiAyLAogICAgImJhdGNoX2xhYmVsIjogImV4cGFuZGVkIHRoaXJ0eS1wYXBlciByZWxlYXNlIiwKICAgICJzdGF0dXMiOiAiaW5jbHVkZWRfaW5fZXhwYW5kZWRfY2F0YWxvZyIsCiAgICAic2VsZWN0ZWRfYXQiOiAiMjAyNi0wOC0wMyIKICB9Cn0K
+{
+  "schema_version": "0.4.0",
+  "paper_id": "care-context-aware-root-cause-identification",
+  "page_url": "https://naser.github.io/research-publications/papers/care-context-aware-root-cause-identification/",
+  "title": "CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics",
+  "title_variants": [],
+  "authors": [
+    "Mahsa Panahandeh",
+    "Naser Ezzati-Jivan",
+    "Abdelwahab Hamou-Lhadj",
+    "James Miller"
+  ],
+  "publication": {
+    "year": 2026,
+    "venue": "IEEE Transactions on Software Engineering",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/tse.2025.3645143",
+  "source_record_id": "care-context-aware-root-cause-identification-using-distributed-traces-and-profiling-metrics-ff9a183846",
+  "identifiers": {
+    "doi": "10.1109/tse.2025.3645143"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "This work studies care: context aware root cause identification using distributed traces and profiling metrics in the context of software performance and systems analysis.",
+    "problem": "Root-cause analysis in distributed systems must combine request paths with changing execution context and resource behavior.",
+    "method": "CARE combines distributed-trace evidence with profiling metrics to identify context-dependent root causes.",
+    "findings": "The work contributes a context-aware RCA direction for distributed systems; quantitative results require full-text review.",
+    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
+    "future_work": "Assess online diagnosis, transfer across deployments, explanation quality, and robustness under trace sampling."
+  },
+  "tags": [
+    "system-tracing",
+    "microservices",
+    "root-cause-analysis",
+    "latency-analysis"
+  ],
+  "keywords": [
+    "distributed traces",
+    "profiling metrics",
+    "context-aware RCA",
+    "microservice diagnosis"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics",
+      "url": "https://doi.org/10.1109/tse.2025.3645143",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "DBLP/DOI bibliographic record for 10.1109/tse.2025.3645143",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

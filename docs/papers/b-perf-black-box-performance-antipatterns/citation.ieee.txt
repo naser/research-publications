@@ -1,1 +1,1 @@
-TS4gTm9mZXJlc3RpLCBNLiBQYW5haGFuZGVoLCBhbmQgTi4gRXp6YXRpLUppdmFuLCAiQi1QZXJmOiBCbGFjay1ib3ggUGVyZm9ybWFuY2UgQW50aXBhdHRlcm4gRGV0ZWN0aW9uIFVzaW5nIFN5c3RlbS1sZXZlbCBFeGVjdXRpb24gVHJhY2luZywiIGluIEFDTS9TUEVDIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBQZXJmb3JtYW5jZSBFbmdpbmVlcmluZyAoSUNQRSksIDIwMjYsIGRvaTogMTAuMTE0NS8zNzc3ODg0LjM3OTcwMTQK
+M. Noferesti, M. Panahandeh, and N. Ezzati-Jivan, "B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2026, doi: 10.1145/3777884.3797014

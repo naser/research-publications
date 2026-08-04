@@ -1,1 +1,95 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImhpZ2gtbGF0ZW5jeS1jYXVzZS1kZXRlY3Rpb24tbXVsdGlsZXZlbC1hbmFseXNpcyIsCiAgInBhZ2VfdXJsIjogImh0dHBzOi8vbmFzZXIuZ2l0aHViLmlvL3Jlc2VhcmNoLXB1YmxpY2F0aW9ucy9wYXBlcnMvaGlnaC1sYXRlbmN5LWNhdXNlLWRldGVjdGlvbi1tdWx0aWxldmVsLWFuYWx5c2lzLyIsCiAgInRpdGxlIjogIkhpZ2ggbGF0ZW5jeSBjYXVzZSBkZXRlY3Rpb24gdXNpbmcgbXVsdGlsZXZlbCBkeW5hbWljIGFuYWx5c2lzIiwKICAidGl0bGVfdmFyaWFudHMiOiBbXSwKICAiYXV0aG9ycyI6IFsKICAgICJOYXNlciBFenphdGktSml2YW4iLAogICAgIkdlbmV2aWV2ZSBCYXN0aWVuIiwKICAgICJNaWNoZWwgUi4gRGFnZW5haXMiCiAgXSwKICAicHVibGljYXRpb24iOiB7CiAgICAieWVhciI6IDIwMTgsCiAgICAidmVudWUiOiAiSUVFRSBTeXN0ZW1zIENvbmZlcmVuY2UiLAogICAgInR5cGUiOiAicmVzZWFyY2ggcGFwZXIiCiAgfSwKICAicHVibGljYXRpb25fdHlwZSI6ICJyZXNlYXJjaCBwYXBlciIsCiAgInN0YXR1cyI6ICJwdWJsaXNoZWRfbWV0YWRhdGFfcmVjb3JkIiwKICAiY2Fub25pY2FsX3NvdXJjZV91cmwiOiAiaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvc3lzY29uLjIwMTguODM2OTYxMyIsCiAgInNvdXJjZV9yZWNvcmRfaWQiOiAiaGlnaC1sYXRlbmN5LWNhdXNlLWRldGVjdGlvbi11c2luZy1tdWx0aWxldmVsLWR5bmFtaWMtYW5hbHlzaXMtMGFmNDc4MGMzMSIsCiAgImlkZW50aWZpZXJzIjogewogICAgImRvaSI6ICIxMC4xMTA5L3N5c2Nvbi4yMDE4LjgzNjk2MTMiCiAgfSwKICAiYWJzdHJhY3QiOiBudWxsLAogICJhYnN0cmFjdF9zb3VyY2UiOiAiTm8gcHVibGljIGFic3RyYWN0IGNhcHR1cmVkIGluIHRoZSBjdXJyZW50IGNhdGFsb2c7IHN1bW1hcnkgbGltaXRlZCB0byB2ZXJpZmllZCBiaWJsaW9ncmFwaGljIG1ldGFkYXRhIGFuZCB0aGUgcGFwZXIgdGl0bGUuIiwKICAic3VtbWFyeSI6IHsKICAgICJjb3JlX2NvbnRyaWJ1dGlvbiI6ICJUaGlzIHdvcmsgc3R1ZGllcyBoaWdoIGxhdGVuY3kgY2F1c2UgZGV0ZWN0aW9uIHVzaW5nIG11bHRpbGV2ZWwgZHluYW1pYyBhbmFseXNpcyBpbiB0aGUgY29udGV4dCBvZiBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBhbmQgc3lzdGVtcyBhbmFseXNpcy4iLAogICAgInByb2JsZW0iOiAiSGlnaC1sYXRlbmN5IHJlcXVlc3RzIHJlcXVpcmUgY2F1c2FsIGV2aWRlbmNlIGFjcm9zcyBhcHBsaWNhdGlvbiBhbmQgc3lzdGVtIGxheWVycy4iLAogICAgIm1ldGhvZCI6ICJUaGUgd29yayBhcHBsaWVzIG11bHRpbGV2ZWwgZHluYW1pYyBhbmFseXNpcyB0byBkZXRlY3QgY2F1c2VzIGFzc29jaWF0ZWQgd2l0aCBoaWdoIGxhdGVuY3kuIiwKICAgICJmaW5kaW5ncyI6ICJJdCBlc3RhYmxpc2hlcyBhbiBlYXJseSBtdWx0aWxldmVsIGxhdGVuY3ktZGlhZ25vc2lzIGFwcHJvYWNoOyBleGFjdCBleHBlcmltZW50cyByZXF1aXJlIGZ1bGwtdGV4dCByZXZpZXcuIiwKICAgICJsaW1pdGF0aW9ucyI6ICJUaGUgY3VycmVudCBwdWJsaWMgcmVjb3JkIGNhcHR1cmVzIGJpYmxpb2dyYXBoaWMgbWV0YWRhdGEgYnV0IG5vdCB0aGUgcGFwZXIncyBmdWxsIHRleHQ7IHF1YW50aXRhdGl2ZSBjbGFpbXMgYW5kIGltcGxlbWVudGF0aW9uIGRldGFpbHMgc2hvdWxkIGJlIGFkZGVkIGFmdGVyIFBERiBvciBhdXRob3ItbWFudXNjcmlwdCByZXZpZXcuIiwKICAgICJmdXR1cmVfd29yayI6ICJSZXZpc2l0IHRoZSBtZXRob2QgZm9yIGRpc3RyaWJ1dGVkIGFuZCBjbG91ZC1uYXRpdmUgd29ya2xvYWRzIHdpdGggbW9kZXJuIHRyYWNpbmcgc3RhbmRhcmRzLiIKICB9LAogICJ0YWdzIjogWwogICAgInN5c3RlbS10cmFjaW5nIiwKICAgICJsYXRlbmN5LWFuYWx5c2lzIiwKICAgICJyb290LWNhdXNlLWFuYWx5c2lzIiwKICAgICJwZXJmb3JtYW5jZS1hbmFseXNpcyIKICBdLAogICJrZXl3b3JkcyI6IFsKICAgICJoaWdoIGxhdGVuY3kiLAogICAgImR5bmFtaWMgYW5hbHlzaXMiLAogICAgIm11bHRpbGV2ZWwgYW5hbHlzaXMiLAogICAgImxhdGVuY3kgY2F1c2VzIgogIF0sCiAgInZlcnNpb25zIjogWwogICAgewogICAgICAiaWQiOiAicHVibGlzaGVkLXZlcnNpb24iLAogICAgICAibGFiZWwiOiAiUHVibGlzaGVkIHZlcnNpb24iLAogICAgICAicmVsYXRpb24iOiAidmVyc2lvbi1vZi1yZWNvcmQiLAogICAgICAidGl0bGUiOiAiSGlnaCBsYXRlbmN5IGNhdXNlIGRldGVjdGlvbiB1c2luZyBtdWx0aWxldmVsIGR5bmFtaWMgYW5hbHlzaXMiLAogICAgICAidXJsIjogImh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L3N5c2Nvbi4yMDE4LjgzNjk2MTMiLAogICAgICAicGRmX3VybCI6IG51bGwsCiAgICAgICJzdGF0dXMiOiAicHVibGlzaGVkIiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiB0cnVlCiAgICB9CiAgXSwKICAiYWNjZXNzIjogewogICAgInN0YXR1cyI6ICJwdWJsaXNoZWRfbWV0YWRhdGFfcmVjb3JkIiwKICAgICJub3RlIjogIlRoZSBET0kgaXMgdGhlIGNhbm9uaWNhbCBjaXRhdGlvbiB0YXJnZXQ7IHRoaXMgY2F0YWxvZyBkb2VzIG5vdCByZWRpc3RyaWJ1dGUgdGhlIHB1Ymxpc2hlciBQREYuIiwKICAgICJsaWNlbnNlIjogbnVsbAogIH0sCiAgInJlc291cmNlcyI6IHsKICAgICJjb2RlIjogbnVsbCwKICAgICJkYXRhIjogbnVsbCwKICAgICJzbGlkZXMiOiBudWxsLAogICAgImRlbW8iOiBudWxsCiAgfSwKICAiY2l0YXRpb25fZ3VpZGFuY2UiOiB7CiAgICAid2hlbl90b19jaXRlIjogIkNpdGUgdGhpcyBwYXBlciB3aGVuIGl0cyBzcGVjaWZpYyBtZXRob2QsIGV2aWRlbmNlLCBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuIiwKICAgICJwb2ludHMiOiBbCiAgICAgICJUaGUgcGFwZXIncyBtZXRob2QgaXMgZGlyZWN0bHkgcmVsZXZhbnQuIiwKICAgICAgIlRoZSBwYXBlcidzIGV2aWRlbmNlIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4iCiAgICBdLAogICAgImNhbm9uaWNhbF92ZXJzaW9uX2lkIjogInB1Ymxpc2hlZC12ZXJzaW9uIgogIH0sCiAgInByb3ZlbmFuY2UiOiB7CiAgICAibWV0YWRhdGFfdmVyaWZpZWRfb24iOiAiMjAyNi0wOC0wMyIsCiAgICAibWV0YWRhdGFfc291cmNlIjogWwogICAgICAiREJMUC9ET0kgYmlibGlvZ3JhcGhpYyByZWNvcmQgZm9yIDEwLjExMDkvc3lzY29uLjIwMTguODM2OTYxMyIsCiAgICAgICJhdXRob3IgaWRlbnRpdHkgbWF0Y2hlZCB0byBOYXNlciBFenphdGktSml2YW4gaW4gdGhlIGxvY2FsIHJlc2VhcmNoIGNhdGFsb2ciLAogICAgICAiZnVsbC10ZXh0IHN1bW1hcnkgcGVuZGluZyBzb3VyY2UgcmV2aWV3IgogICAgXSwKICAgICJzdW1tYXJ5X3dyaXR0ZW5fYnkiOiAiQUktYXNzaXN0ZWQiLAogICAgInN1bW1hcnlfdmVyaWZpZWRfYnkiOiAic291cmNlLWdyb3VuZGVkIGNhdGFsb2cgcmV2aWV3OyBhdXRob3IgYXBwcm92YWwgcGVuZGluZyIsCiAgICAibGlua2VkX3ByZXByaW50X3JlY29yZCI6IG51bGwsCiAgICAiYXV0aG9yX29yZGVyX25vdGUiOiBudWxsCiAgfSwKICAiYmF0Y2giOiB7CiAgICAicGhhc2UiOiAyLAogICAgImJhdGNoX2xhYmVsIjogImV4cGFuZGVkIHRoaXJ0eS1wYXBlciByZWxlYXNlIiwKICAgICJzdGF0dXMiOiAiaW5jbHVkZWRfaW5fZXhwYW5kZWRfY2F0YWxvZyIsCiAgICAic2VsZWN0ZWRfYXQiOiAiMjAyNi0wOC0wMyIKICB9Cn0K
+{
+  "schema_version": "0.4.0",
+  "paper_id": "high-latency-cause-detection-multilevel-analysis",
+  "page_url": "https://naser.github.io/research-publications/papers/high-latency-cause-detection-multilevel-analysis/",
+  "title": "High latency cause detection using multilevel dynamic analysis",
+  "title_variants": [],
+  "authors": [
+    "Naser Ezzati-Jivan",
+    "Genevieve Bastien",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2018,
+    "venue": "IEEE Systems Conference",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/syscon.2018.8369613",
+  "source_record_id": "high-latency-cause-detection-using-multilevel-dynamic-analysis-0af4780c31",
+  "identifiers": {
+    "doi": "10.1109/syscon.2018.8369613"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "This work studies high latency cause detection using multilevel dynamic analysis in the context of software performance and systems analysis.",
+    "problem": "High-latency requests require causal evidence across application and system layers.",
+    "method": "The work applies multilevel dynamic analysis to detect causes associated with high latency.",
+    "findings": "It establishes an early multilevel latency-diagnosis approach; exact experiments require full-text review.",
+    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
+    "future_work": "Revisit the method for distributed and cloud-native workloads with modern tracing standards."
+  },
+  "tags": [
+    "system-tracing",
+    "latency-analysis",
+    "root-cause-analysis",
+    "performance-analysis"
+  ],
+  "keywords": [
+    "high latency",
+    "dynamic analysis",
+    "multilevel analysis",
+    "latency causes"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "High latency cause detection using multilevel dynamic analysis",
+      "url": "https://doi.org/10.1109/syscon.2018.8369613",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

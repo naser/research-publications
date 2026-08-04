@@ -1,1 +1,5 @@
-IyBncmFkaWVudCB2YXJpYW5jZQoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKmdyYWRpZW50IHZhcmlhbmNlKiouCgotIFtPbmUgU2l6ZSBEb2VzIE5vdCBGaXQgQWxsOiBBcmNoaXRlY3R1cmUtQXdhcmUgQWRhcHRpdmUgQmF0Y2ggU2NoZWR1bGluZyB3aXRoIERFQkFdKC4uL3BhcGVycy9kZWJhLWFkYXB0aXZlLWJhdGNoLXNjaGVkdWxpbmcvUkVBRE1FLm1kKSAtIDIwMjUK
+# gradient variance
+
+Papers indexed by keyword **gradient variance**.
+
+- [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](../papers/deba-adaptive-batch-scheduling/README.md) - 2025

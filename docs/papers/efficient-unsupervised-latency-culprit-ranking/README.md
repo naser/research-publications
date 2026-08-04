@@ -1,1 +1,84 @@
-IyBFZmZpY2llbnQgVW5zdXBlcnZpc2VkIExhdGVuY3kgQ3VscHJpdCBSYW5raW5nIGluIERpc3RyaWJ1dGVkIFRyYWNlcyB3aXRoIEdOTiBhbmQgQ3JpdGljYWwgUGF0aCBBbmFseXNpcwoKKioyMDI0IHwgQUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKSB8IHJlc2VhcmNoIHBhcGVyKioKCioqQXV0aG9yczoqKiBNYWhzYSBQYW5haGFuZGVoLCBOYXNlciBFenphdGktSml2YW4sIEFiZGVsd2FoYWIgSGFtb3UtTGhhZGosIEphbWVzIE1pbGxlcgoKKipDb3JlIGNvbnRyaWJ1dGlvbjoqKiBUaGlzIHdvcmsgc3R1ZGllcyBlZmZpY2llbnQgdW5zdXBlcnZpc2VkIGxhdGVuY3kgY3VscHJpdCByYW5raW5nIGluIGRpc3RyaWJ1dGVkIHRyYWNlcyB3aXRoIGdubiBhbmQgY3JpdGljYWwgcGF0aCBhbmFseXNpcyBpbiB0aGUgY29udGV4dCBvZiBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBhbmQgc3lzdGVtcyBhbmFseXNpcy4KCiMjIEZvdXItcGFydCByZXNlYXJjaCBzdW1tYXJ5CgojIyMgMS4gUHJvYmxlbSBhbmQgbW90aXZhdGlvbgoKRGlzdHJpYnV0ZWQgdHJhY2VzIGNvbnRhaW4gbWFueSBjYW5kaWRhdGUgc3BhbnMsIGJ1dCBkaWFnbm9zaW5nIGxhdGVuY3kgcmVxdWlyZXMgcmFua2luZyB0aGUgbW9zdCBpbmZsdWVudGlhbCBjdWxwcml0cy4KCiMjIyAyLiBNZXRob2QgYW5kIGNvbnRyaWJ1dGlvbgoKVGhlIGFwcHJvYWNoIGNvbWJpbmVzIGdyYXBoIG5ldXJhbCBuZXR3b3JrcyB3aXRoIGNyaXRpY2FsLXBhdGggYW5hbHlzaXMgaW4gYW4gdW5zdXBlcnZpc2VkIHJhbmtpbmcgd29ya2Zsb3cuCgojIyMgMy4gRmluZGluZ3MgYW5kIGV2aWRlbmNlCgpUaGUgcGFwZXIgdGFyZ2V0cyBlZmZpY2llbnQgY3VscHJpdCByYW5raW5nIHdpdGhvdXQgcmVxdWlyaW5nIGxhYmVsZWQgZmFpbHVyZSBkYXRhOyBxdWFudGl0YXRpdmUgcmVzdWx0cyByZXF1aXJlIGZ1bGwtdGV4dCByZXZpZXcuCgojIyMgNC4gTGltaXRhdGlvbnMgYW5kIGZ1dHVyZSBkaXJlY3Rpb25zCgoqKkxpbWl0YXRpb25zOioqIFRoZSBjdXJyZW50IHB1YmxpYyByZWNvcmQgY2FwdHVyZXMgYmlibGlvZ3JhcGhpYyBtZXRhZGF0YSBidXQgbm90IHRoZSBwYXBlcidzIGZ1bGwgdGV4dDsgcXVhbnRpdGF0aXZlIGNsYWltcyBhbmQgaW1wbGVtZW50YXRpb24gZGV0YWlscyBzaG91bGQgYmUgYWRkZWQgYWZ0ZXIgUERGIG9yIGF1dGhvci1tYW51c2NyaXB0IHJldmlldy4KCioqRnV0dXJlIHdvcms6KiogU3R1ZHkgbGFiZWwtZnJlZSBkcmlmdCBoYW5kbGluZywgZXhwbGFuYXRpb24gZmlkZWxpdHksIHNhbXBsaW5nIGVmZmVjdHMsIGFuZCBvbmxpbmUgZGVwbG95bWVudC4KCiMjIEFic3RyYWN0CgpBYnN0cmFjdCBub3QgYXZhaWxhYmxlIGluIHRoZSBjYXB0dXJlZCBzb3VyY2VzLgoKIyMgVG9waWNzIGFuZCBrZXl3b3JkcwoKKipUYWdzOioqIFtzeXN0ZW0tdHJhY2luZ10oLi4vLi4vdG9waWNzL3N5c3RlbS10cmFjaW5nLm1kKSB8IFttaWNyb3NlcnZpY2VzXSguLi8uLi90b3BpY3MvbWljcm9zZXJ2aWNlcy5tZCkgfCBbZ3JhcGgtbmV1cmFsLW5ldHdvcmtzXSguLi8uLi90b3BpY3MvZ3JhcGgtbmV1cmFsLW5ldHdvcmtzLm1kKSB8IFtyb290LWNhdXNlLWFuYWx5c2lzXSguLi8uLi90b3BpY3Mvcm9vdC1jYXVzZS1hbmFseXNpcy5tZCkKCioqS2V5d29yZHM6KiogW2xhdGVuY3kgY3VscHJpdCByYW5raW5nXSguLi8uLi9rZXl3b3Jkcy9sYXRlbmN5LWN1bHByaXQtcmFua2luZy5tZCkgfCBbZGlzdHJpYnV0ZWQgdHJhY2VzXSguLi8uLi9rZXl3b3Jkcy9kaXN0cmlidXRlZC10cmFjZXMubWQpIHwgW2dyYXBoIG5ldXJhbCBuZXR3b3Jrc10oLi4vLi4va2V5d29yZHMvZ3JhcGgtbmV1cmFsLW5ldHdvcmtzLm1kKSB8IFtjcml0aWNhbCBwYXRoXSguLi8uLi9rZXl3b3Jkcy9jcml0aWNhbC1wYXRoLm1kKQoKIyMgVmVyc2lvbnMgYW5kIHNvdXJjZSBsaW5rcwoKLSBbUHVibGlzaGVkIHZlcnNpb25dKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM2Mjk1MjcuMzY1MTg0MSkgLSBwdWJsaXNoZWQKCioqQ2Fub25pY2FsIHNvdXJjZToqKiBbaHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzYyOTUyNy4zNjUxODQxXShodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjI5NTI3LjM2NTE4NDEpCgojIyBJZGVudGlmaWVycwoKW0RPSSAxMC4xMTQ1LzM2Mjk1MjcuMzY1MTg0MV0oaHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzYyOTUyNy4zNjUxODQxKQoKIyMgV2hlbiB0byBjaXRlIHRoaXMgcGFwZXIKCkNpdGUgdGhpcyBwYXBlciB3aGVuIGl0cyBzcGVjaWZpYyBtZXRob2QsIGV2aWRlbmNlLCBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuCgotIFRoZSBwYXBlcidzIG1ldGhvZCBpcyBkaXJlY3RseSByZWxldmFudC4KLSBUaGUgcGFwZXIncyBldmlkZW5jZSBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuCgojIyBDaXRhdGlvbgoKIyMjIEFQQSA3CgpQYW5haGFuZGVoLCBNLiwgRXp6YXRpLUppdmFuLCBOLiwgSGFtb3UtTGhhZGosIEEuLCAmIE1pbGxlciwgSi4gKDIwMjQpLiBFZmZpY2llbnQgVW5zdXBlcnZpc2VkIExhdGVuY3kgQ3VscHJpdCBSYW5raW5nIGluIERpc3RyaWJ1dGVkIFRyYWNlcyB3aXRoIEdOTiBhbmQgQ3JpdGljYWwgUGF0aCBBbmFseXNpcy4gQUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzYyOTUyNy4zNjUxODQxCgojIyMgSUVFRQoKTS4gUGFuYWhhbmRlaCwgTi4gRXp6YXRpLUppdmFuLCBBLiBIYW1vdS1MaGFkaiwgYW5kIEouIE1pbGxlciwgIkVmZmljaWVudCBVbnN1cGVydmlzZWQgTGF0ZW5jeSBDdWxwcml0IFJhbmtpbmcgaW4gRGlzdHJpYnV0ZWQgVHJhY2VzIHdpdGggR05OIGFuZCBDcml0aWNhbCBQYXRoIEFuYWx5c2lzLCIgaW4gQUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKSwgMjAyNCwgZG9pOiAxMC4xMTQ1LzM2Mjk1MjcuMzY1MTg0MQoKYGBgYmlidGV4CkBpbnByb2NlZWRpbmdze2V6emF0aUppdmFuMjAyNGVmZmljaWVudHVuc3VwZXJ2aXNlZCwKICBhdXRob3IgPSB7TWFoc2EgUGFuYWhhbmRlaCBhbmQgTmFzZXIgRXp6YXRpLUppdmFuIGFuZCBBYmRlbHdhaGFiIEhhbW91LUxoYWRqIGFuZCBKYW1lcyBNaWxsZXJ9LAogIHRpdGxlID0ge0VmZmljaWVudCBVbnN1cGVydmlzZWQgTGF0ZW5jeSBDdWxwcml0IFJhbmtpbmcgaW4gRGlzdHJpYnV0ZWQgVHJhY2VzIHdpdGggR05OIGFuZCBDcml0aWNhbCBQYXRoIEFuYWx5c2lzfSwKICB5ZWFyID0gezIwMjR9LAogIGJvb2t0aXRsZSA9IHtBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpfSwKICBkb2kgPSB7MTAuMTE0NS8zNjI5NTI3LjM2NTE4NDF9LAogIHVybCA9IHtodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjI5NTI3LjM2NTE4NDF9Cn0KYGBgCgoqKlJlZmVyZW5jZS1tYW5hZ2VyIGltcG9ydDoqKiBbUklTIGZpbGVdKC4vY2l0YXRpb24ucmlzKQoKIyMgUmVjb3JkIHByb3ZlbmFuY2UKCi0gTWV0YWRhdGEgdmVyaWZpZWQ6IDIwMjYtMDgtMDMKLSBTdW1tYXJ5IHN0YXR1czogc291cmNlLWdyb3VuZGVkIGNhdGFsb2cgcmV2aWV3OyBhdXRob3IgYXBwcm92YWwgcGVuZGluZwotIE1ldGFkYXRhIHNvdXJjZXM6IERCTFAvRE9JIGJpYmxpb2dyYXBoaWMgcmVjb3JkIGZvciAxMC4xMTQ1LzM2Mjk1MjcuMzY1MTg0MTsgYXV0aG9yIGlkZW50aXR5IG1hdGNoZWQgdG8gTmFzZXIgRXp6YXRpLUppdmFuIGluIHRoZSBsb2NhbCByZXNlYXJjaCBjYXRhbG9nOyBmdWxsLXRleHQgc3VtbWFyeSBwZW5kaW5nIHNvdXJjZSByZXZpZXcKLSBNYWNoaW5lLXJlYWRhYmxlIHJlY29yZDogW3BhcGVyLmpzb25dKC4vcGFwZXIuanNvbikK
+# Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis
+
+**2024 | ACM/SPEC International Conference on Performance Engineering (ICPE) | research paper**
+
+**Authors:** Mahsa Panahandeh, Naser Ezzati-Jivan, Abdelwahab Hamou-Lhadj, James Miller
+
+**Core contribution:** This work studies efficient unsupervised latency culprit ranking in distributed traces with gnn and critical path analysis in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Distributed traces contain many candidate spans, but diagnosing latency requires ranking the most influential culprits.
+
+### 2. Method and contribution
+
+The approach combines graph neural networks with critical-path analysis in an unsupervised ranking workflow.
+
+### 3. Findings and evidence
+
+The paper targets efficient culprit ranking without requiring labeled failure data; quantitative results require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Study label-free drift handling, explanation fidelity, sampling effects, and online deployment.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [system-tracing](../../topics/system-tracing.md) | [microservices](../../topics/microservices.md) | [graph-neural-networks](../../topics/graph-neural-networks.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
+
+**Keywords:** [latency culprit ranking](../../keywords/latency-culprit-ranking.md) | [distributed traces](../../keywords/distributed-traces.md) | [graph neural networks](../../keywords/graph-neural-networks.md) | [critical path](../../keywords/critical-path.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1145/3629527.3651841) - published
+
+**Canonical source:** [https://doi.org/10.1145/3629527.3651841](https://doi.org/10.1145/3629527.3651841)
+
+## Identifiers
+
+[DOI 10.1145/3629527.3651841](https://doi.org/10.1145/3629527.3651841)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Panahandeh, M., Ezzati-Jivan, N., Hamou-Lhadj, A., & Miller, J. (2024). Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3629527.3651841
+
+### IEEE
+
+M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2024, doi: 10.1145/3629527.3651841
+
+```bibtex
+@inproceedings{ezzatiJivan2024efficientunsupervised,
+  author = {Mahsa Panahandeh and Naser Ezzati-Jivan and Abdelwahab Hamou-Lhadj and James Miller},
+  title = {Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis},
+  year = {2024},
+  booktitle = {ACM/SPEC International Conference on Performance Engineering (ICPE)},
+  doi = {10.1145/3629527.3651841},
+  url = {https://doi.org/10.1145/3629527.3651841}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1145/3629527.3651841; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

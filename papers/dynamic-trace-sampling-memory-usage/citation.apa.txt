@@ -1,1 +1,1 @@
-RGFvdWQsIEguLCBFenphdGktSml2YW4sIE4uLCAmIERhZ2VuYWlzLCBNLiBSLiAoMjAxNykuIER5bmFtaWMgdHJhY2UtYmFzZWQgc2FtcGxpbmcgYWxnb3JpdGhtIGZvciBtZW1vcnkgdXNhZ2UgdHJhY2tpbmcgb2YgZW50ZXJwcmlzZSBhcHBsaWNhdGlvbnMuIElFRUUgSGlnaCBQZXJmb3JtYW5jZSBFeHRyZW1lIENvbXB1dGluZyBDb25mZXJlbmNlIChIUEVDKS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvaHBlYy4yMDE3LjgwOTEwNjEK
+Daoud, H., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications. IEEE High Performance Extreme Computing Conference (HPEC). https://doi.org/10.1109/hpec.2017.8091061

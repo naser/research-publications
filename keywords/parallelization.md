@@ -1,1 +1,5 @@
-IyBwYXJhbGxlbGl6YXRpb24KClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipwYXJhbGxlbGl6YXRpb24qKi4KCi0gW0VmZmljaWVudCBNZXRob2RzIGZvciBUcmFjZSBBbmFseXNpcyBQYXJhbGxlbGl6YXRpb25dKC4uL3BhcGVycy9lZmZpY2llbnQtdHJhY2UtYW5hbHlzaXMtcGFyYWxsZWxpemF0aW9uL1JFQURNRS5tZCkgLSAyMDE5Cg==
+# parallelization
+
+Papers indexed by keyword **parallelization**.
+
+- [Efficient Methods for Trace Analysis Parallelization](../papers/efficient-trace-analysis-parallelization/README.md) - 2019

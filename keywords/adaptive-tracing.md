@@ -1,1 +1,6 @@
-IyBhZGFwdGl2ZSB0cmFjaW5nCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqYWRhcHRpdmUgdHJhY2luZyoqLgoKLSBbTE1BVDogQW4gYWRhcHRpdmUgdHJhY2luZyBhcHByb2FjaCBiYXNlZCBvbiBlZmZpY2llbnQgc3lzdGVtIGJlaGF2aW9yIGFuYWx5c2lzIHVzaW5nIGxhbmd1YWdlIG1vZGVsc10oLi4vcGFwZXJzL2xtYXQtYWRhcHRpdmUtdHJhY2luZy1sYW5ndWFnZS1tb2RlbHMvUkVBRE1FLm1kKSAtIDIwMjYKLSBbVG93YXJkIEFkYXB0aXZlIFRyYWNpbmc6IEVmZmljaWVudCBTeXN0ZW0gQmVoYXZpb3IgQW5hbHlzaXMgdXNpbmcgTGFuZ3VhZ2UgTW9kZWxzXSguLi9wYXBlcnMvdG93YXJkLWFkYXB0aXZlLXRyYWNpbmctbGFuZ3VhZ2UtbW9kZWxzL1JFQURNRS5tZCkgLSAyMDI0Cg==
+# adaptive tracing
+
+Papers indexed by keyword **adaptive tracing**.
+
+- [LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models](../papers/lmat-adaptive-tracing-language-models/README.md) - 2026
+- [Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models](../papers/toward-adaptive-tracing-language-models/README.md) - 2024

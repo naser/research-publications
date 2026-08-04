@@ -1,1 +1,84 @@
-IyBCLVBlcmY6IEJsYWNrLWJveCBQZXJmb3JtYW5jZSBBbnRpcGF0dGVybiBEZXRlY3Rpb24gVXNpbmcgU3lzdGVtLWxldmVsIEV4ZWN1dGlvbiBUcmFjaW5nCgoqKjIwMjYgfCBBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpIHwgcmVzZWFyY2ggcGFwZXIqKgoKKipBdXRob3JzOioqIE1vcnRlemEgTm9mZXJlc3RpLCBNYWhzYSBQYW5haGFuZGVoLCBOYXNlciBFenphdGktSml2YW4KCioqQ29yZSBjb250cmlidXRpb246KiogQi1QZXJmIGZyYW1lcyBzeXN0ZW0tbGV2ZWwgZXhlY3V0aW9uIHRyYWNlcyBhcyBhIGJhc2lzIGZvciBibGFjay1ib3ggcGVyZm9ybWFuY2UtYW50aXBhdHRlcm4gZGV0ZWN0aW9uLgoKIyMgRm91ci1wYXJ0IHJlc2VhcmNoIHN1bW1hcnkKCiMjIyAxLiBQcm9ibGVtIGFuZCBtb3RpdmF0aW9uCgpCbGFjay1ib3ggc3lzdGVtcyBleHBvc2UgcGVyZm9ybWFuY2Ugc3ltcHRvbXMgd2l0aG91dCByZXZlYWxpbmcgYXBwbGljYXRpb24gaW50ZXJuYWxzLCBtYWtpbmcgYW50aXBhdHRlcm4gZGV0ZWN0aW9uIGRpZmZpY3VsdC4KCiMjIyAyLiBNZXRob2QgYW5kIGNvbnRyaWJ1dGlvbgoKVGhlIHdvcmsgdXNlcyBzeXN0ZW0tbGV2ZWwgZXhlY3V0aW9uIHRyYWNpbmcgYXMgdGhlIG9ic2VydmFibGUgc2lnbmFsIGZvciBkZXRlY3RpbmcgcGVyZm9ybWFuY2UgYW50aXBhdHRlcm5zIHdpdGhvdXQgcmVxdWlyaW5nIGFwcGxpY2F0aW9uIGluc3RydW1lbnRhdGlvbi4KCiMjIyAzLiBGaW5kaW5ncyBhbmQgZXZpZGVuY2UKClRoZSBwYXBlciBwcmVzZW50cyBhIHRyYWNlLWJhc2VkIGFwcHJvYWNoIGFuZCBldmFsdWF0aW9uIGZvciBpZGVudGlmeWluZyBwZXJmb3JtYW5jZSBhbnRpcGF0dGVybnM7IGV4YWN0IHJhdGVzIGFuZCB3b3JrbG9hZCBkZXRhaWxzIHJlcXVpcmUgZnVsbC10ZXh0IHJldmlldy4KCiMjIyA0LiBMaW1pdGF0aW9ucyBhbmQgZnV0dXJlIGRpcmVjdGlvbnMKCioqTGltaXRhdGlvbnM6KiogVGhlIGN1cnJlbnQgcHVibGljIHJlY29yZCBjYXB0dXJlcyBiaWJsaW9ncmFwaGljIG1ldGFkYXRhIGJ1dCBub3QgdGhlIHBhcGVyJ3MgZnVsbCB0ZXh0OyBxdWFudGl0YXRpdmUgY2xhaW1zIGFuZCBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzIHNob3VsZCBiZSBhZGRlZCBhZnRlciBQREYgb3IgYXV0aG9yLW1hbnVzY3JpcHQgcmV2aWV3LgoKKipGdXR1cmUgd29yazoqKiBWYWxpZGF0ZSB0aGUgZGV0ZWN0b3IgYWNyb3NzIG1vcmUgb3BlcmF0aW5nIHN5c3RlbXMsIHdvcmtsb2FkcywgYW50aXBhdHRlcm4gY2xhc3NlcywgYW5kIHByb2R1Y3Rpb24gZW52aXJvbm1lbnRzLgoKIyMgQWJzdHJhY3QKCkFic3RyYWN0IG5vdCBhdmFpbGFibGUgaW4gdGhlIGNhcHR1cmVkIHNvdXJjZXMuCgojIyBUb3BpY3MgYW5kIGtleXdvcmRzCgoqKlRhZ3M6KiogW2tlcm5lbC10cmFjaW5nXSguLi8uLi90b3BpY3Mva2VybmVsLXRyYWNpbmcubWQpIHwgW3N5c3RlbS10cmFjaW5nXSguLi8uLi90b3BpY3Mvc3lzdGVtLXRyYWNpbmcubWQpIHwgW3BlcmZvcm1hbmNlLWFuYWx5c2lzXSguLi8uLi90b3BpY3MvcGVyZm9ybWFuY2UtYW5hbHlzaXMubWQpIHwgW2Fub21hbHktZGV0ZWN0aW9uXSguLi8uLi90b3BpY3MvYW5vbWFseS1kZXRlY3Rpb24ubWQpCgoqKktleXdvcmRzOioqIFtwZXJmb3JtYW5jZSBhbnRpcGF0dGVybnNdKC4uLy4uL2tleXdvcmRzL3BlcmZvcm1hbmNlLWFudGlwYXR0ZXJucy5tZCkgfCBbYmxhY2stYm94IGRldGVjdGlvbl0oLi4vLi4va2V5d29yZHMvYmxhY2stYm94LWRldGVjdGlvbi5tZCkgfCBbc3lzdGVtLWxldmVsIGV4ZWN1dGlvbiB0cmFjZXNdKC4uLy4uL2tleXdvcmRzL3N5c3RlbS1sZXZlbC1leGVjdXRpb24tdHJhY2VzLm1kKSB8IFtwZXJmb3JtYW5jZSBkaWFnbm9zaXNdKC4uLy4uL2tleXdvcmRzL3BlcmZvcm1hbmNlLWRpYWdub3Npcy5tZCkKCiMjIFZlcnNpb25zIGFuZCBzb3VyY2UgbGlua3MKCi0gW1B1Ymxpc2hlZCB2ZXJzaW9uXShodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNzc3ODg0LjM3OTcwMTQpIC0gcHVibGlzaGVkCgoqKkNhbm9uaWNhbCBzb3VyY2U6KiogW2h0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM3Nzc4ODQuMzc5NzAxNF0oaHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzc3Nzg4NC4zNzk3MDE0KQoKIyMgSWRlbnRpZmllcnMKCltET0kgMTAuMTE0NS8zNzc3ODg0LjM3OTcwMTRdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM3Nzc4ODQuMzc5NzAxNCkKCiMjIFdoZW4gdG8gY2l0ZSB0aGlzIHBhcGVyCgpDaXRlIHRoaXMgcGFwZXIgd2hlbiBpdHMgc3BlY2lmaWMgbWV0aG9kLCBldmlkZW5jZSwgb3IgYmVuY2htYXJrIGlzIGRpcmVjdGx5IHJlbGV2YW50LgoKLSBUaGUgcGFwZXIncyBtZXRob2QgaXMgZGlyZWN0bHkgcmVsZXZhbnQuCi0gVGhlIHBhcGVyJ3MgZXZpZGVuY2Ugb3IgYmVuY2htYXJrIGlzIGRpcmVjdGx5IHJlbGV2YW50LgoKIyMgQ2l0YXRpb24KCiMjIyBBUEEgNwoKTm9mZXJlc3RpLCBNLiwgUGFuYWhhbmRlaCwgTS4sICYgRXp6YXRpLUppdmFuLCBOLiAoMjAyNikuIEItUGVyZjogQmxhY2stYm94IFBlcmZvcm1hbmNlIEFudGlwYXR0ZXJuIERldGVjdGlvbiBVc2luZyBTeXN0ZW0tbGV2ZWwgRXhlY3V0aW9uIFRyYWNpbmcuIEFDTS9TUEVDIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBQZXJmb3JtYW5jZSBFbmdpbmVlcmluZyAoSUNQRSkuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM3Nzc4ODQuMzc5NzAxNAoKIyMjIElFRUUKCk0uIE5vZmVyZXN0aSwgTS4gUGFuYWhhbmRlaCwgYW5kIE4uIEV6emF0aS1KaXZhbiwgIkItUGVyZjogQmxhY2stYm94IFBlcmZvcm1hbmNlIEFudGlwYXR0ZXJuIERldGVjdGlvbiBVc2luZyBTeXN0ZW0tbGV2ZWwgRXhlY3V0aW9uIFRyYWNpbmcsIiBpbiBBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpLCAyMDI2LCBkb2k6IDEwLjExNDUvMzc3Nzg4NC4zNzk3MDE0CgpgYGBiaWJ0ZXgKQGlucHJvY2VlZGluZ3N7ZXp6YXRpSml2YW4yMDI2YnBlcmYsCiAgYXV0aG9yID0ge01vcnRlemEgTm9mZXJlc3RpIGFuZCBNYWhzYSBQYW5haGFuZGVoIGFuZCBOYXNlciBFenphdGktSml2YW59LAogIHRpdGxlID0ge0ItUGVyZjogQmxhY2stYm94IFBlcmZvcm1hbmNlIEFudGlwYXR0ZXJuIERldGVjdGlvbiBVc2luZyBTeXN0ZW0tbGV2ZWwgRXhlY3V0aW9uIFRyYWNpbmd9LAogIHllYXIgPSB7MjAyNn0sCiAgYm9va3RpdGxlID0ge0FDTS9TUEVDIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBQZXJmb3JtYW5jZSBFbmdpbmVlcmluZyAoSUNQRSl9LAogIGRvaSA9IHsxMC4xMTQ1LzM3Nzc4ODQuMzc5NzAxNH0sCiAgdXJsID0ge2h0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM3Nzc4ODQuMzc5NzAxNH0KfQpgYGAKCioqUmVmZXJlbmNlLW1hbmFnZXIgaW1wb3J0OioqIFtSSVMgZmlsZV0oLi9jaXRhdGlvbi5yaXMpCgojIyBSZWNvcmQgcHJvdmVuYW5jZQoKLSBNZXRhZGF0YSB2ZXJpZmllZDogMjAyNi0wOC0wMwotIFN1bW1hcnkgc3RhdHVzOiBzb3VyY2UtZ3JvdW5kZWQgY2F0YWxvZyByZXZpZXc7IGF1dGhvciBhcHByb3ZhbCBwZW5kaW5nCi0gTWV0YWRhdGEgc291cmNlczogREJMUC9ET0kgYmlibGlvZ3JhcGhpYyByZWNvcmQgZm9yIDEwLjExNDUvMzc3Nzg4NC4zNzk3MDE0OyBhdXRob3IgaWRlbnRpdHkgbWF0Y2hlZCB0byBOYXNlciBFenphdGktSml2YW4gaW4gdGhlIGxvY2FsIHJlc2VhcmNoIGNhdGFsb2c7IGZ1bGwtdGV4dCBzdW1tYXJ5IHBlbmRpbmcgc291cmNlIHJldmlldwotIE1hY2hpbmUtcmVhZGFibGUgcmVjb3JkOiBbcGFwZXIuanNvbl0oLi9wYXBlci5qc29uKQo=
+# B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing
+
+**2026 | ACM/SPEC International Conference on Performance Engineering (ICPE) | research paper**
+
+**Authors:** Morteza Noferesti, Mahsa Panahandeh, Naser Ezzati-Jivan
+
+**Core contribution:** B-Perf frames system-level execution traces as a basis for black-box performance-antipattern detection.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Black-box systems expose performance symptoms without revealing application internals, making antipattern detection difficult.
+
+### 2. Method and contribution
+
+The work uses system-level execution tracing as the observable signal for detecting performance antipatterns without requiring application instrumentation.
+
+### 3. Findings and evidence
+
+The paper presents a trace-based approach and evaluation for identifying performance antipatterns; exact rates and workload details require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Validate the detector across more operating systems, workloads, antipattern classes, and production environments.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md)
+
+**Keywords:** [performance antipatterns](../../keywords/performance-antipatterns.md) | [black-box detection](../../keywords/black-box-detection.md) | [system-level execution traces](../../keywords/system-level-execution-traces.md) | [performance diagnosis](../../keywords/performance-diagnosis.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1145/3777884.3797014) - published
+
+**Canonical source:** [https://doi.org/10.1145/3777884.3797014](https://doi.org/10.1145/3777884.3797014)
+
+## Identifiers
+
+[DOI 10.1145/3777884.3797014](https://doi.org/10.1145/3777884.3797014)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Noferesti, M., Panahandeh, M., & Ezzati-Jivan, N. (2026). B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3777884.3797014
+
+### IEEE
+
+M. Noferesti, M. Panahandeh, and N. Ezzati-Jivan, "B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2026, doi: 10.1145/3777884.3797014
+
+```bibtex
+@inproceedings{ezzatiJivan2026bperf,
+  author = {Morteza Noferesti and Mahsa Panahandeh and Naser Ezzati-Jivan},
+  title = {B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing},
+  year = {2026},
+  booktitle = {ACM/SPEC International Conference on Performance Engineering (ICPE)},
+  doi = {10.1145/3777884.3797014},
+  url = {https://doi.org/10.1145/3777884.3797014}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1145/3777884.3797014; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

@@ -1,1 +1,5 @@
-IyBtdWx0aWNvcmUgc3lzdGVtcwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKm11bHRpY29yZSBzeXN0ZW1zKiouCgotIFtFeGVjdXRpb24gdHJhY2UtYmFzZWQgbW9kZWwgdmVyaWZpY2F0aW9uIHRvIGFuYWx5emUgbXVsdGljb3JlIGFuZCByZWFsLXRpbWUgc3lzdGVtc10oLi4vcGFwZXJzL2V4ZWN1dGlvbi10cmFjZS1tb2RlbC12ZXJpZmljYXRpb24tbXVsdGljb3JlL1JFQURNRS5tZCkgLSAyMDIyCg==
+# multicore systems
+
+Papers indexed by keyword **multicore systems**.
+
+- [Execution trace-based model verification to analyze multicore and real-time systems](../papers/execution-trace-model-verification-multicore/README.md) - 2022

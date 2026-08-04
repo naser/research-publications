@@ -1,1 +1,5 @@
-IyBwZXJmb3JtYW5jZSBib3R0bGVuZWNrcwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnBlcmZvcm1hbmNlIGJvdHRsZW5lY2tzKiouCgotIFtEZXBHcmFwaDogTG9jYWxpemluZyBQZXJmb3JtYW5jZSBCb3R0bGVuZWNrcyBpbiBNdWx0aS1Db3JlIEFwcGxpY2F0aW9ucyBVc2luZyBXYWl0aW5nIERlcGVuZGVuY3kgR3JhcGhzIGFuZCBTb2Z0d2FyZSBUcmFjaW5nXSguLi9wYXBlcnMvZGVwZ3JhcGgvUkVBRE1FLm1kKSAtIDIwMjAK
+# performance bottlenecks
+
+Papers indexed by keyword **performance bottlenecks**.
+
+- [DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing](../papers/depgraph/README.md) - 2020

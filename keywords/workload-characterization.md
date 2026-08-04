@@ -1,1 +1,5 @@
-IyB3b3JrbG9hZCBjaGFyYWN0ZXJpemF0aW9uCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqd29ya2xvYWQgY2hhcmFjdGVyaXphdGlvbioqLgoKLSBbQ29udGFpbmVyIFdvcmtsb2FkIENoYXJhY3Rlcml6YXRpb24gVGhyb3VnaCBIb3N0IFN5c3RlbSBUcmFjaW5nXSguLi9wYXBlcnMvY29udGFpbmVyLXdvcmtsb2FkLWNoYXJhY3Rlcml6YXRpb24taG9zdC10cmFjaW5nL1JFQURNRS5tZCkgLSAyMDIxCg==
+# workload characterization
+
+Papers indexed by keyword **workload characterization**.
+
+- [Container Workload Characterization Through Host System Tracing](../papers/container-workload-characterization-host-tracing/README.md) - 2021

@@ -1,1 +1,5 @@
-IyBEZW5zZU5ldAoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKkRlbnNlTmV0KiouCgotIFtPbmUgU2l6ZSBEb2VzIE5vdCBGaXQgQWxsOiBBcmNoaXRlY3R1cmUtQXdhcmUgQWRhcHRpdmUgQmF0Y2ggU2NoZWR1bGluZyB3aXRoIERFQkFdKC4uL3BhcGVycy9kZWJhLWFkYXB0aXZlLWJhdGNoLXNjaGVkdWxpbmcvUkVBRE1FLm1kKSAtIDIwMjUK
+# DenseNet
+
+Papers indexed by keyword **DenseNet**.
+
+- [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](../papers/deba-adaptive-batch-scheduling/README.md) - 2025

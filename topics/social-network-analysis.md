@@ -1,1 +1,5 @@
-IyBzb2NpYWwtbmV0d29yay1hbmFseXNpcwoKUGFwZXJzIHRhZ2dlZCAqKnNvY2lhbC1uZXR3b3JrLWFuYWx5c2lzKiouCgotIFtFbmhhbmNlZCBFeGVjdXRpb24gVHJhY2UgQWJzdHJhY3Rpb24gQXBwcm9hY2ggVXNpbmcgU29jaWFsIE5ldHdvcmsgQW5hbHlzaXMgTWV0aG9kc10oLi4vcGFwZXJzL2VuaGFuY2VkLXRyYWNlLWFic3RyYWN0aW9uLXNvY2lhbC1uZXR3b3JrLWFuYWx5c2lzL1JFQURNRS5tZCkgLSAyMDIwCg==
+# social-network-analysis
+
+Papers tagged **social-network-analysis**.
+
+- [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](../papers/enhanced-trace-abstraction-social-network-analysis/README.md) - 2020
