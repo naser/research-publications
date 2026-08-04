@@ -1,1 +1,5 @@
-IyB6LXNjb3JlCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqei1zY29yZSoqLgoKLSBbQXV0b21hdGVkIENhdXNlIEFuYWx5c2lzIG9mIExhdGVuY3kgT3V0bGllcnMgVXNpbmcgU3lzdGVtLUxldmVsIERlcGVuZGVuY3kgR3JhcGhzXSguLi9wYXBlcnMvYXV0b21hdGVkLWNhdXNlLWFuYWx5c2lzLWxhdGVuY3ktb3V0bGllcnMvUkVBRE1FLm1kKSAtIDIwMjEK
+# z-score
+
+Papers indexed by keyword **z-score**.
+
+- [Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs](../papers/automated-cause-analysis-latency-outliers/README.md) - 2021

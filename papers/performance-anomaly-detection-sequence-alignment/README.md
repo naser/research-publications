@@ -1,1 +1,84 @@
-IyBQZXJmb3JtYW5jZSBhbm9tYWx5IGRldGVjdGlvbiB0aHJvdWdoIHNlcXVlbmNlIGFsaWdubWVudCBvZiBzeXN0ZW0tbGV2ZWwgdHJhY2VzCgoqKjIwMjIgfCBBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpIHwgcmVzZWFyY2ggcGFwZXIqKgoKKipBdXRob3JzOioqIE1hZGVsaW5lIEphbmVjZWssIE5hc2VyIEV6emF0aS1KaXZhbiwgQWJkZWx3YWhhYiBIYW1vdS1MaGFkagoKKipDb3JlIGNvbnRyaWJ1dGlvbjoqKiBUaGlzIHdvcmsgc3R1ZGllcyBwZXJmb3JtYW5jZSBhbm9tYWx5IGRldGVjdGlvbiB0aHJvdWdoIHNlcXVlbmNlIGFsaWdubWVudCBvZiBzeXN0ZW0tbGV2ZWwgdHJhY2VzIGluIHRoZSBjb250ZXh0IG9mIHNvZnR3YXJlIHBlcmZvcm1hbmNlIGFuZCBzeXN0ZW1zIGFuYWx5c2lzLgoKIyMgRm91ci1wYXJ0IHJlc2VhcmNoIHN1bW1hcnkKCiMjIyAxLiBQcm9ibGVtIGFuZCBtb3RpdmF0aW9uCgpBbm9tYWxvdXMgZXhlY3V0aW9ucyBtYXkgZGlmZmVyIGZyb20gbm9ybWFsIGV4ZWN1dGlvbnMgaW4gdGltaW5nIGFuZCBldmVudCBvcmRlciwgbWFraW5nIHNpbXBsZSB0aHJlc2hvbGQgZGV0ZWN0aW9uIGluc3VmZmljaWVudC4KCiMjIyAyLiBNZXRob2QgYW5kIGNvbnRyaWJ1dGlvbgoKVGhlIGFwcHJvYWNoIHVzZXMgc2VxdWVuY2UgYWxpZ25tZW50IG92ZXIgc3lzdGVtLWxldmVsIHRyYWNlcyB0byBjb21wYXJlIGV4ZWN1dGlvbnMgYW5kIGRldGVjdCBhbm9tYWxvdXMgYmVoYXZpb3IuCgojIyMgMy4gRmluZGluZ3MgYW5kIGV2aWRlbmNlCgpUaGUgcGFwZXIgZGV2ZWxvcHMgYSB0cmFjZS1zZXF1ZW5jZS1hbGlnbm1lbnQgZGlyZWN0aW9uIGZvciBwZXJmb3JtYW5jZSBhbm9tYWx5IGRldGVjdGlvbjsgcXVhbnRpdGF0aXZlIGZpbmRpbmdzIHJlcXVpcmUgZnVsbC10ZXh0IHJldmlldy4KCiMjIyA0LiBMaW1pdGF0aW9ucyBhbmQgZnV0dXJlIGRpcmVjdGlvbnMKCioqTGltaXRhdGlvbnM6KiogVGhlIGN1cnJlbnQgcHVibGljIHJlY29yZCBjYXB0dXJlcyBiaWJsaW9ncmFwaGljIG1ldGFkYXRhIGJ1dCBub3QgdGhlIHBhcGVyJ3MgZnVsbCB0ZXh0OyBxdWFudGl0YXRpdmUgY2xhaW1zIGFuZCBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzIHNob3VsZCBiZSBhZGRlZCBhZnRlciBQREYgb3IgYXV0aG9yLW1hbnVzY3JpcHQgcmV2aWV3LgoKKipGdXR1cmUgd29yazoqKiBTY2FsZSBhbGlnbm1lbnQsIGhhbmRsZSBjb25jdXJyZW5jeSBhbmQgc2FtcGxpbmcsIGFuZCBzZXBhcmF0ZSBhbm9tYWx5IGRldGVjdGlvbiBmcm9tIHJvb3QtY2F1c2UgZXhwbGFuYXRpb24uCgojIyBBYnN0cmFjdAoKQWJzdHJhY3Qgbm90IGF2YWlsYWJsZSBpbiB0aGUgY2FwdHVyZWQgc291cmNlcy4KCiMjIFRvcGljcyBhbmQga2V5d29yZHMKCioqVGFnczoqKiBbc3lzdGVtLXRyYWNpbmddKC4uLy4uL3RvcGljcy9zeXN0ZW0tdHJhY2luZy5tZCkgfCBbYW5vbWFseS1kZXRlY3Rpb25dKC4uLy4uL3RvcGljcy9hbm9tYWx5LWRldGVjdGlvbi5tZCkgfCBbcGVyZm9ybWFuY2UtYW5hbHlzaXNdKC4uLy4uL3RvcGljcy9wZXJmb3JtYW5jZS1hbmFseXNpcy5tZCkgfCBbdHJhY2UtYW5hbHlzaXNdKC4uLy4uL3RvcGljcy90cmFjZS1hbmFseXNpcy5tZCkKCioqS2V5d29yZHM6KiogW3NlcXVlbmNlIGFsaWdubWVudF0oLi4vLi4va2V5d29yZHMvc2VxdWVuY2UtYWxpZ25tZW50Lm1kKSB8IFtzeXN0ZW0tbGV2ZWwgdHJhY2VzXSguLi8uLi9rZXl3b3Jkcy9zeXN0ZW0tbGV2ZWwtdHJhY2VzLm1kKSB8IFtwZXJmb3JtYW5jZSBhbm9tYWxpZXNdKC4uLy4uL2tleXdvcmRzL3BlcmZvcm1hbmNlLWFub21hbGllcy5tZCkgfCBbdHJhY2UgY29tcGFyaXNvbl0oLi4vLi4va2V5d29yZHMvdHJhY2UtY29tcGFyaXNvbi5tZCkKCiMjIFZlcnNpb25zIGFuZCBzb3VyY2UgbGlua3MKCi0gW1B1Ymxpc2hlZCB2ZXJzaW9uXShodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNTI0NjEwLjM1Mjc4OTgpIC0gcHVibGlzaGVkCgoqKkNhbm9uaWNhbCBzb3VyY2U6KiogW2h0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM1MjQ2MTAuMzUyNzg5OF0oaHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzUyNDYxMC4zNTI3ODk4KQoKIyMgSWRlbnRpZmllcnMKCltET0kgMTAuMTE0NS8zNTI0NjEwLjM1Mjc4OThdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM1MjQ2MTAuMzUyNzg5OCkKCiMjIFdoZW4gdG8gY2l0ZSB0aGlzIHBhcGVyCgpDaXRlIHRoaXMgcGFwZXIgd2hlbiBpdHMgc3BlY2lmaWMgbWV0aG9kLCBldmlkZW5jZSwgb3IgYmVuY2htYXJrIGlzIGRpcmVjdGx5IHJlbGV2YW50LgoKLSBUaGUgcGFwZXIncyBtZXRob2QgaXMgZGlyZWN0bHkgcmVsZXZhbnQuCi0gVGhlIHBhcGVyJ3MgZXZpZGVuY2Ugb3IgYmVuY2htYXJrIGlzIGRpcmVjdGx5IHJlbGV2YW50LgoKIyMgQ2l0YXRpb24KCiMjIyBBUEEgNwoKSmFuZWNlaywgTS4sIEV6emF0aS1KaXZhbiwgTi4sICYgSGFtb3UtTGhhZGosIEEuICgyMDIyKS4gUGVyZm9ybWFuY2UgYW5vbWFseSBkZXRlY3Rpb24gdGhyb3VnaCBzZXF1ZW5jZSBhbGlnbm1lbnQgb2Ygc3lzdGVtLWxldmVsIHRyYWNlcy4gQUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzUyNDYxMC4zNTI3ODk4CgojIyMgSUVFRQoKTS4gSmFuZWNlaywgTi4gRXp6YXRpLUppdmFuLCBhbmQgQS4gSGFtb3UtTGhhZGosICJQZXJmb3JtYW5jZSBhbm9tYWx5IGRldGVjdGlvbiB0aHJvdWdoIHNlcXVlbmNlIGFsaWdubWVudCBvZiBzeXN0ZW0tbGV2ZWwgdHJhY2VzLCIgaW4gQUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKSwgMjAyMiwgZG9pOiAxMC4xMTQ1LzM1MjQ2MTAuMzUyNzg5OAoKYGBgYmlidGV4CkBpbnByb2NlZWRpbmdze2V6emF0aUppdmFuMjAyMnBlcmZvcm1hbmNlYW5vbWFseSwKICBhdXRob3IgPSB7TWFkZWxpbmUgSmFuZWNlayBhbmQgTmFzZXIgRXp6YXRpLUppdmFuIGFuZCBBYmRlbHdhaGFiIEhhbW91LUxoYWRqfSwKICB0aXRsZSA9IHtQZXJmb3JtYW5jZSBhbm9tYWx5IGRldGVjdGlvbiB0aHJvdWdoIHNlcXVlbmNlIGFsaWdubWVudCBvZiBzeXN0ZW0tbGV2ZWwgdHJhY2VzfSwKICB5ZWFyID0gezIwMjJ9LAogIGJvb2t0aXRsZSA9IHtBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpfSwKICBkb2kgPSB7MTAuMTE0NS8zNTI0NjEwLjM1Mjc4OTh9LAogIHVybCA9IHtodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNTI0NjEwLjM1Mjc4OTh9Cn0KYGBgCgoqKlJlZmVyZW5jZS1tYW5hZ2VyIGltcG9ydDoqKiBbUklTIGZpbGVdKC4vY2l0YXRpb24ucmlzKQoKIyMgUmVjb3JkIHByb3ZlbmFuY2UKCi0gTWV0YWRhdGEgdmVyaWZpZWQ6IDIwMjYtMDgtMDMKLSBTdW1tYXJ5IHN0YXR1czogc291cmNlLWdyb3VuZGVkIGNhdGFsb2cgcmV2aWV3OyBhdXRob3IgYXBwcm92YWwgcGVuZGluZwotIE1ldGFkYXRhIHNvdXJjZXM6IERCTFAvRE9JIGJpYmxpb2dyYXBoaWMgcmVjb3JkIGZvciAxMC4xMTQ1LzM1MjQ2MTAuMzUyNzg5ODsgYXV0aG9yIGlkZW50aXR5IG1hdGNoZWQgdG8gTmFzZXIgRXp6YXRpLUppdmFuIGluIHRoZSBsb2NhbCByZXNlYXJjaCBjYXRhbG9nOyBmdWxsLXRleHQgc3VtbWFyeSBwZW5kaW5nIHNvdXJjZSByZXZpZXcKLSBNYWNoaW5lLXJlYWRhYmxlIHJlY29yZDogW3BhcGVyLmpzb25dKC4vcGFwZXIuanNvbikK
+# Performance anomaly detection through sequence alignment of system-level traces
+
+**2022 | ACM/SPEC International Conference on Performance Engineering (ICPE) | research paper**
+
+**Authors:** Madeline Janecek, Naser Ezzati-Jivan, Abdelwahab Hamou-Lhadj
+
+**Core contribution:** This work studies performance anomaly detection through sequence alignment of system-level traces in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Anomalous executions may differ from normal executions in timing and event order, making simple threshold detection insufficient.
+
+### 2. Method and contribution
+
+The approach uses sequence alignment over system-level traces to compare executions and detect anomalous behavior.
+
+### 3. Findings and evidence
+
+The paper develops a trace-sequence-alignment direction for performance anomaly detection; quantitative findings require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Scale alignment, handle concurrency and sampling, and separate anomaly detection from root-cause explanation.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [system-tracing](../../topics/system-tracing.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [performance-analysis](../../topics/performance-analysis.md) | [trace-analysis](../../topics/trace-analysis.md)
+
+**Keywords:** [sequence alignment](../../keywords/sequence-alignment.md) | [system-level traces](../../keywords/system-level-traces.md) | [performance anomalies](../../keywords/performance-anomalies.md) | [trace comparison](../../keywords/trace-comparison.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1145/3524610.3527898) - published
+
+**Canonical source:** [https://doi.org/10.1145/3524610.3527898](https://doi.org/10.1145/3524610.3527898)
+
+## Identifiers
+
+[DOI 10.1145/3524610.3527898](https://doi.org/10.1145/3524610.3527898)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Janecek, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2022). Performance anomaly detection through sequence alignment of system-level traces. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3524610.3527898
+
+### IEEE
+
+M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance anomaly detection through sequence alignment of system-level traces," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2022, doi: 10.1145/3524610.3527898
+
+```bibtex
+@inproceedings{ezzatiJivan2022performanceanomaly,
+  author = {Madeline Janecek and Naser Ezzati-Jivan and Abdelwahab Hamou-Lhadj},
+  title = {Performance anomaly detection through sequence alignment of system-level traces},
+  year = {2022},
+  booktitle = {ACM/SPEC International Conference on Performance Engineering (ICPE)},
+  doi = {10.1145/3524610.3527898},
+  url = {https://doi.org/10.1145/3524610.3527898}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1145/3524610.3527898; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

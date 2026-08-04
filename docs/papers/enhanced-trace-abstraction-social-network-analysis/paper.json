@@ -1,1 +1,107 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImVuaGFuY2VkLXRyYWNlLWFic3RyYWN0aW9uLXNvY2lhbC1uZXR3b3JrLWFuYWx5c2lzIiwKICAicGFnZV91cmwiOiAiaHR0cHM6Ly9uYXNlci5naXRodWIuaW8vcmVzZWFyY2gtcHVibGljYXRpb25zL3BhcGVycy9lbmhhbmNlZC10cmFjZS1hYnN0cmFjdGlvbi1zb2NpYWwtbmV0d29yay1hbmFseXNpcy8iLAogICJ0aXRsZSI6ICJFbmhhbmNlZCBFeGVjdXRpb24gVHJhY2UgQWJzdHJhY3Rpb24gQXBwcm9hY2ggVXNpbmcgU29jaWFsIE5ldHdvcmsgQW5hbHlzaXMgTWV0aG9kcyIsCiAgInRpdGxlX3ZhcmlhbnRzIjogW10sCiAgImF1dGhvcnMiOiBbCiAgICAiSmkgV2FuZyIsCiAgICAiTmFzZXIgRXp6YXRpLUppdmFuIgogIF0sCiAgInB1YmxpY2F0aW9uIjogewogICAgInllYXIiOiAyMDIwLAogICAgInZlbnVlIjogIlNvZnR3YXJldGVjaG5pay1UcmVuZHMiLAogICAgInR5cGUiOiAiYXJ0aWNsZSIKICB9LAogICJwdWJsaWNhdGlvbl90eXBlIjogImFydGljbGUiLAogICJzdGF0dXMiOiAicHVibGljX2RpcmVjdF9wZGYiLAogICJjYW5vbmljYWxfc291cmNlX3VybCI6ICJodHRwczovL2ZiLXN3dC5naS5kZS9maWxlYWRtaW4vRkIvU1dUL1NvZnR3YXJldGVjaG5pay1UcmVuZHMvVmVyemVpY2huaXMvQmFuZF80MF9IZWZ0XzMvU1NQMjAyMF9XYW5nLnBkZiIsCiAgInNvdXJjZV9yZWNvcmRfaWQiOiAiZW5oYW5jZWQtZXhlY3V0aW9uLXRyYWNlLWFic3RyYWN0aW9uLWFwcHJvYWNoLXVzaW5nLXNvY2lhbC1uZXR3b3JrLWFuYWx5c2lzLW1ldGhvZHMtYjY1ZjUyOWM0OCIsCiAgImlkZW50aWZpZXJzIjoge30sCiAgImFic3RyYWN0IjogIlRoaXMgcGFwZXIgYXBwbGllcyBzb2NpYWwtbmV0d29yay1hbmFseXNpcyB0ZWNobmlxdWVzIHRvIHN5c3RlbSBleGVjdXRpb24gdHJhY2VzLiBUaGUgd29ya2Zsb3cgY29sbGVjdHMgTGludXgga2VybmVsIGFuZCB1c2VyLXNwYWNlIHRyYWNlcyB3aXRoIExUVG5nLCBjb25zdHJ1Y3RzIGEgZGlyZWN0ZWQgd2VpZ2h0ZWQgZ3JhcGggb2YgdGhyZWFkIGludGVyYWN0aW9ucywgZGV0ZWN0cyBjb21tdW5pdGllcyB3aXRoIHRoZSBMb3V2YWluIG1ldGhvZCwgYW5kIHJhbmtzIGltcG9ydGFudCB0aHJlYWRzIHdpdGggUGFnZVJhbmsuIFR3byB1c2UgY2FzZXMgYWRkcmVzcyB0cmFjZSBmaWx0ZXJpbmcgYW5kIHZpcnR1YWwtbWFjaGluZSBjbHVzdGVyaW5nLiBJbiB0aGUgcmVwb3J0ZWQgZXZhbHVhdGlvbiwgdGhlIGFuYWx5c2lzIGFkZHMgYSA1LjMlIHNsb3dkb3duIHRvIHRoZSB0cmFjZWQgcHJvZ3JhbSwgZXh0cmFjdHMgNTA5IHRocmVhZHMgYW5kIDYsMDE1IGludGVyYWN0aW9ucyBmcm9tIGEgMzE2IE1CIHRyYWNlLCBhbmQgY29tcHV0ZXMgZ3JhcGggbWV0cmljcyBpbiAxLDU5OSBtcy4iLAogICJhYnN0cmFjdF9zb3VyY2UiOiAicHVibGljIFBERiBhdCBmYi1zd3QuZ2kuZGUsIGRvd25sb2FkZWQgYW5kIFBERi1zaWduYXR1cmUgdmVyaWZpZWQgMjAyNi0wOC0wMyIsCiAgInN1bW1hcnkiOiB7CiAgICAiY29yZV9jb250cmlidXRpb24iOiAiVGhlIHBhcGVyIGFkYXB0cyBjb21tdW5pdHkgZGV0ZWN0aW9uIGFuZCBQYWdlUmFuayBmcm9tIHNvY2lhbC1uZXR3b3JrIGFuYWx5c2lzIHRvIHJlZHVjZSBhbmQgcHJpb3JpdGl6ZSBzeXN0ZW0gZXhlY3V0aW9uIHRyYWNlcy4iLAogICAgInByb2JsZW0iOiAiS2VybmVsLWxldmVsIHRyYWNpbmcgcHJvdmlkZXMgZGV0YWlsZWQgZXhlY3V0aW9uIGV2aWRlbmNlIGJ1dCBhbHNvIHByb2R1Y2VzIHZlcnkgbGFyZ2UsIG5vaXN5IGRhdGFzZXRzIHRoYXQgYXJlIGRpZmZpY3VsdCB0byBpbnNwZWN0IGRpcmVjdGx5LiIsCiAgICAibWV0aG9kIjogIkxUVG5nIGNvbGxlY3RzIHRyYWNlIGRhdGEsIFRyYWNlIENvbXBhc3MgYW5kIHNjcmlwdGluZyBleHRyYWN0IHRocmVhZCBpbnRlcmFjdGlvbnMsIHRoZSBpbnRlcmFjdGlvbnMgZm9ybSBhIGRpcmVjdGVkIHdlaWdodGVkIGdyYXBoLCBMb3V2YWluIHBhcnRpdGlvbnMgdGhlIGdyYXBoIGludG8gY29tbXVuaXRpZXMsIGFuZCBQYWdlUmFuayByYW5rcyBpbXBvcnRhbnQgdGhyZWFkcyB3aXRoaW4gZWFjaCBjb21tdW5pdHkuIiwKICAgICJmaW5kaW5ncyI6ICJUaGUgcmVwb3J0ZWQgdXNlIGNhc2VzIHN1cHBvcnQgdHJhY2UgZmlsdGVyaW5nIGFuZCB2aXJ0dWFsLW1hY2hpbmUgY2x1c3RlcmluZy4gVGhlIGV2YWx1YXRpb24gcmVwb3J0cyAxNCBucyBwZXIgZW5hYmxlZCBldmVudCwgYSA1LjMlIHNsb3dkb3duLCA1MDkgdGhyZWFkcywgNiwwMTUgaW50ZXJhY3Rpb25zLCBhIDMxNiBNQiB0cmFjZSwgYW5kIDEsNTk5IG1zIGZvciBtZXRyaWMgZXh0cmFjdGlvbi4iLAogICAgImxpbWl0YXRpb25zIjogIlRoZSBldmFsdWF0aW9uIHVzZXMgYSBzbWFsbCBudW1iZXIgb2YgdXNlIGNhc2VzIGFuZCBhIHBhcnRpY3VsYXIgTFRUbmcvVHJhY2UgQ29tcGFzcyB3b3JrZmxvdy4iLAogICAgImZ1dHVyZV93b3JrIjogIkZ1dHVyZSB3b3JrIHNob3VsZCBldmFsdWF0ZSBtb3JlIHdvcmtsb2FkcywgbGFyZ2VyIHRyYWNlcywgYXV0b21hdGljIHBhcmFtZXRlciBzZWxlY3Rpb24sIGFuZCBtb3JlIHN5c3RlbWF0aWMgY29tcGFyaXNvbnMgd2l0aCB0cmFjZS1hYnN0cmFjdGlvbiBiYXNlbGluZXMuIgogIH0sCiAgInRhZ3MiOiBbCiAgICAia2VybmVsLXRyYWNpbmciLAogICAgInRyYWNlLWFic3RyYWN0aW9uIiwKICAgICJzb2NpYWwtbmV0d29yay1hbmFseXNpcyIsCiAgICAidHJhY2UtZmlsdGVyaW5nIiwKICAgICJsdHRuZyIKICBdLAogICJrZXl3b3JkcyI6IFsKICAgICJMVFRuZyIsCiAgICAiVHJhY2UgQ29tcGFzcyIsCiAgICAiTG91dmFpbiBjb21tdW5pdHkgZGV0ZWN0aW9uIiwKICAgICJQYWdlUmFuayIsCiAgICAidGhyZWFkIGludGVyYWN0aW9uIGdyYXBoIiwKICAgICJ0cmFjZSBmaWx0ZXJpbmciLAogICAgInZpcnR1YWwtbWFjaGluZSBjbHVzdGVyaW5nIgogIF0sCiAgInZlcnNpb25zIjogWwogICAgewogICAgICAiaWQiOiAicHVibGljLXBkZiIsCiAgICAgICJsYWJlbCI6ICJQdWJsaWMgUERGIiwKICAgICAgInJlbGF0aW9uIjogInNvdXJjZS1yZWNvcmQiLAogICAgICAidGl0bGUiOiAiRW5oYW5jZWQgZXhlY3V0aW9uIHRyYWNlIGFic3RyYWN0aW9uIGFwcHJvYWNoIHVzaW5nIHNvY2lhbCBuZXR3b3JrIGFuYWx5c2lzIG1ldGhvZHMiLAogICAgICAidXJsIjogImh0dHBzOi8vZmItc3d0LmdpLmRlL2ZpbGVhZG1pbi9GQi9TV1QvU29mdHdhcmV0ZWNobmlrLVRyZW5kcy9WZXJ6ZWljaG5pcy9CYW5kXzQwX0hlZnRfMy9TU1AyMDIwX1dhbmcucGRmIiwKICAgICAgInBkZl91cmwiOiBudWxsLAogICAgICAic3RhdHVzIjogInB1YmxpY19mdWxsX3RleHQiLAogICAgICAiY2Fub25pY2FsX2Zvcl9jaXRhdGlvbiI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJkYmxwLXJlY29yZCIsCiAgICAgICJsYWJlbCI6ICJEQkxQIHJlY29yZCIsCiAgICAgICJyZWxhdGlvbiI6ICJzb3VyY2UtcmVjb3JkIiwKICAgICAgInRpdGxlIjogIkVuaGFuY2VkIGV4ZWN1dGlvbiB0cmFjZSBhYnN0cmFjdGlvbiBhcHByb2FjaCB1c2luZyBzb2NpYWwgbmV0d29yayBhbmFseXNpcyBtZXRob2RzIiwKICAgICAgInVybCI6ICJodHRwczovL2RibHAub3JnL3JlYy9qb3VybmFscy9zdHQvV2FuZ0UyMCIsCiAgICAgICJwZGZfdXJsIjogbnVsbCwKICAgICAgInN0YXR1cyI6ICJtZXRhZGF0YV9yZWNvcmQiLAogICAgICAiY2Fub25pY2FsX2Zvcl9jaXRhdGlvbiI6IGZhbHNlCiAgICB9CiAgXSwKICAiYWNjZXNzIjogewogICAgInN0YXR1cyI6ICJwdWJsaWNfZGlyZWN0X3BkZiIsCiAgICAibm90ZSI6ICJBIHB1YmxpYyBkaXJlY3QgUERGIHdhcyBvYnNlcnZlZCBhbmQgZG93bmxvYWRlZCBmb3IgbG9jYWwgdmVyaWZpY2F0aW9uLiBUaGUgcmVwb3NpdG9yeSBsaW5rcyB0aGUgc291cmNlIFBERiBhbmQgREJMUCByZWNvcmQ7IG5vIGNvcHkgaXMgaW5jbHVkZWQgaW4gdGhlIHB1YmxpYyByZXBvc2l0b3J5LiIsCiAgICAibGljZW5zZSI6IG51bGwKICB9LAogICJyZXNvdXJjZXMiOiB7CiAgICAiY29kZSI6IG51bGwsCiAgICAiZGF0YSI6IG51bGwsCiAgICAic2xpZGVzIjogbnVsbCwKICAgICJkZW1vIjogbnVsbAogIH0sCiAgImNpdGF0aW9uX2d1aWRhbmNlIjogewogICAgIndoZW5fdG9fY2l0ZSI6ICJDaXRlIHRoaXMgcGFwZXIgd2hlbiBhcHBseWluZyBncmFwaC1hbmFseXNpcyBtZXRob2RzIHRvIGV4ZWN1dGlvbi10cmFjZSBhYnN0cmFjdGlvbi4iLAogICAgInBvaW50cyI6IFsKICAgICAgIkNvbW11bml0eSBkZXRlY3Rpb24gZm9yIGdyb3VwaW5nIGludGVyYWN0aW5nIGV4ZWN1dGlvbiBlbnRpdGllcy4iLAogICAgICAiUGFnZVJhbmstc3R5bGUgcHJpb3JpdGl6YXRpb24gb2YgaW1wb3J0YW50IHRyYWNlIGludGVyYWN0aW9ucy4iLAogICAgICAiVHJhY2UgZmlsdGVyaW5nIGFuZCBhYnN0cmFjdGlvbiBmb3Igc3lzdGVtLXBlcmZvcm1hbmNlIGFuYWx5c2lzLiIKICAgIF0sCiAgICAiY2Fub25pY2FsX3ZlcnNpb25faWQiOiAicHVibGljLXBkZiIKICB9LAogICJwcm92ZW5hbmNlIjogewogICAgIm1ldGFkYXRhX3ZlcmlmaWVkX29uIjogIjIwMjYtMDgtMDMiLAogICAgIm1ldGFkYXRhX3NvdXJjZSI6IFsKICAgICAgInB1YmxpYyBQREYgVVJMIG9ic2VydmVkIGZyb20gREJMUC1saW5rZWQgc291cmNlIiwKICAgICAgIlBERiBkb3dubG9hZGVkIGxvY2FsbHkgYW5kIHZlcmlmaWVkIHdpdGggJVBERi0gc2lnbmF0dXJlIiwKICAgICAgImZpcnN0IHRocmVlIHBhZ2VzIGV4dHJhY3RlZCBmb3Igc3VtbWFyeSB2ZXJpZmljYXRpb24iCiAgICBdLAogICAgInN1bW1hcnlfd3JpdHRlbl9ieSI6ICJBSS1hc3Npc3RlZCIsCiAgICAic3VtbWFyeV92ZXJpZmllZF9ieSI6ICJzb3VyY2UtZ3JvdW5kZWQgY2F0YWxvZyByZXZpZXc7IGF1dGhvciBhcHByb3ZhbCBwZW5kaW5nIiwKICAgICJsaW5rZWRfcHJlcHJpbnRfcmVjb3JkIjogbnVsbCwKICAgICJhdXRob3Jfb3JkZXJfbm90ZSI6IG51bGwKICB9LAogICJiYXRjaCI6IHsKICAgICJwaGFzZSI6IDIsCiAgICAiYmF0Y2hfbGFiZWwiOiAiZXhwYW5kZWQgdGhpcnR5LXBhcGVyIHJlbGVhc2UiLAogICAgInN0YXR1cyI6ICJpbmNsdWRlZF9pbl9leHBhbmRlZF9jYXRhbG9nIiwKICAgICJzZWxlY3RlZF9hdCI6ICIyMDI2LTA4LTAzIgogIH0KfQo=
+{
+  "schema_version": "0.4.0",
+  "paper_id": "enhanced-trace-abstraction-social-network-analysis",
+  "page_url": "https://naser.github.io/research-publications/papers/enhanced-trace-abstraction-social-network-analysis/",
+  "title": "Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods",
+  "title_variants": [],
+  "authors": [
+    "Ji Wang",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2020,
+    "venue": "Softwaretechnik-Trends",
+    "type": "article"
+  },
+  "publication_type": "article",
+  "status": "public_direct_pdf",
+  "canonical_source_url": "https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf",
+  "source_record_id": "enhanced-execution-trace-abstraction-approach-using-social-network-analysis-methods-b65f529c48",
+  "identifiers": {},
+  "abstract": "This paper applies social-network-analysis techniques to system execution traces. The workflow collects Linux kernel and user-space traces with LTTng, constructs a directed weighted graph of thread interactions, detects communities with the Louvain method, and ranks important threads with PageRank. Two use cases address trace filtering and virtual-machine clustering. In the reported evaluation, the analysis adds a 5.3% slowdown to the traced program, extracts 509 threads and 6,015 interactions from a 316 MB trace, and computes graph metrics in 1,599 ms.",
+  "abstract_source": "public PDF at fb-swt.gi.de, downloaded and PDF-signature verified 2026-08-03",
+  "summary": {
+    "core_contribution": "The paper adapts community detection and PageRank from social-network analysis to reduce and prioritize system execution traces.",
+    "problem": "Kernel-level tracing provides detailed execution evidence but also produces very large, noisy datasets that are difficult to inspect directly.",
+    "method": "LTTng collects trace data, Trace Compass and scripting extract thread interactions, the interactions form a directed weighted graph, Louvain partitions the graph into communities, and PageRank ranks important threads within each community.",
+    "findings": "The reported use cases support trace filtering and virtual-machine clustering. The evaluation reports 14 ns per enabled event, a 5.3% slowdown, 509 threads, 6,015 interactions, a 316 MB trace, and 1,599 ms for metric extraction.",
+    "limitations": "The evaluation uses a small number of use cases and a particular LTTng/Trace Compass workflow.",
+    "future_work": "Future work should evaluate more workloads, larger traces, automatic parameter selection, and more systematic comparisons with trace-abstraction baselines."
+  },
+  "tags": [
+    "kernel-tracing",
+    "trace-abstraction",
+    "social-network-analysis",
+    "trace-filtering",
+    "lttng"
+  ],
+  "keywords": [
+    "LTTng",
+    "Trace Compass",
+    "Louvain community detection",
+    "PageRank",
+    "thread interaction graph",
+    "trace filtering",
+    "virtual-machine clustering"
+  ],
+  "versions": [
+    {
+      "id": "public-pdf",
+      "label": "Public PDF",
+      "relation": "source-record",
+      "title": "Enhanced execution trace abstraction approach using social network analysis methods",
+      "url": "https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf",
+      "pdf_url": null,
+      "status": "public_full_text",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "dblp-record",
+      "label": "DBLP record",
+      "relation": "source-record",
+      "title": "Enhanced execution trace abstraction approach using social network analysis methods",
+      "url": "https://dblp.org/rec/journals/stt/WangE20",
+      "pdf_url": null,
+      "status": "metadata_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "public_direct_pdf",
+    "note": "A public direct PDF was observed and downloaded for local verification. The repository links the source PDF and DBLP record; no copy is included in the public repository.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when applying graph-analysis methods to execution-trace abstraction.",
+    "points": [
+      "Community detection for grouping interacting execution entities.",
+      "PageRank-style prioritization of important trace interactions.",
+      "Trace filtering and abstraction for system-performance analysis."
+    ],
+    "canonical_version_id": "public-pdf"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "public PDF URL observed from DBLP-linked source",
+      "PDF downloaded locally and verified with %PDF- signature",
+      "first three pages extracted for summary verification"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

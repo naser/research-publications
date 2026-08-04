@@ -1,1 +1,10 @@
-VFkgIC0gR0VOCkFVICAtIEphbmVjZWssIE1hZGVsaW5lCkFVICAtIEV6emF0aS1KaXZhbiwgTmFzZXIKQVUgIC0gSGFtb3UtTGhhZGosIEFiZGVsd2FoYWIKVEkgIC0gUGVyZm9ybWFuY2UgYW5vbWFseSBkZXRlY3Rpb24gdGhyb3VnaCBzZXF1ZW5jZSBhbGlnbm1lbnQgb2Ygc3lzdGVtLWxldmVsIHRyYWNlcwpQWSAgLSAyMDIyClQyICAtIEFDTS9TUEVDIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBQZXJmb3JtYW5jZSBFbmdpbmVlcmluZyAoSUNQRSkKRE8gIC0gMTAuMTE0NS8zNTI0NjEwLjM1Mjc4OTgKVVIgIC0gaHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzUyNDYxMC4zNTI3ODk4CkVSICAtCg==
+TY  - GEN
+AU  - Janecek, Madeline
+AU  - Ezzati-Jivan, Naser
+AU  - Hamou-Lhadj, Abdelwahab
+TI  - Performance anomaly detection through sequence alignment of system-level traces
+PY  - 2022
+T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+DO  - 10.1145/3524610.3527898
+UR  - https://doi.org/10.1145/3524610.3527898
+ER  -

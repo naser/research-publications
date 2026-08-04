@@ -1,1 +1,5 @@
-IyBwZXJmb3JtYW5jZSBldmlkZW5jZQoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnBlcmZvcm1hbmNlIGV2aWRlbmNlKiouCgotIFtFbmhhbmNpbmcgZW1waXJpY2FsIHNvZnR3YXJlIHBlcmZvcm1hbmNlIGVuZ2luZWVyaW5nIHJlc2VhcmNoIHdpdGgga2VybmVsLWxldmVsIGV2ZW50czogQSBjb21wcmVoZW5zaXZlIHN5c3RlbSB0cmFjaW5nIGFwcHJvYWNoXSguLi9wYXBlcnMvZW5oYW5jaW5nLXBlcmZvcm1hbmNlLWVuZ2luZWVyaW5nLXdpdGgta2VybmVsLWV2ZW50cy9SRUFETUUubWQpIC0gMjAyNAo=
+# performance evidence
+
+Papers indexed by keyword **performance evidence**.
+
+- [Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach](../papers/enhancing-performance-engineering-with-kernel-events/README.md) - 2024

@@ -1,1 +1,5 @@
-IyBwcm9maWxpbmcgbWV0cmljcwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnByb2ZpbGluZyBtZXRyaWNzKiouCgotIFtDQVJFOiBDb250ZXh0IEF3YXJlIFJvb3QgQ2F1c2UgSWRlbnRpZmljYXRpb24gVXNpbmcgRGlzdHJpYnV0ZWQgVHJhY2VzIGFuZCBQcm9maWxpbmcgTWV0cmljc10oLi4vcGFwZXJzL2NhcmUtY29udGV4dC1hd2FyZS1yb290LWNhdXNlLWlkZW50aWZpY2F0aW9uL1JFQURNRS5tZCkgLSAyMDI2Cg==
+# profiling metrics
+
+Papers indexed by keyword **profiling metrics**.
+
+- [CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics](../papers/care-context-aware-root-cause-identification/README.md) - 2026

@@ -1,1 +1,1 @@
-RGFydmlzaGksIEsuLCBOb2ZlcmVzdGksIE0uLCBTZWhnYWwsIFkuLCAmIEV6emF0aS1KaXZhbiwgTi4gKDIwMjYpLiBMTUFUOiBBbiBhZGFwdGl2ZSB0cmFjaW5nIGFwcHJvYWNoIGJhc2VkIG9uIGVmZmljaWVudCBzeXN0ZW0gYmVoYXZpb3IgYW5hbHlzaXMgdXNpbmcgbGFuZ3VhZ2UgbW9kZWxzLiBKb3VybmFsIG9mIFN5c3RlbXMgYW5kIFNvZnR3YXJlLiBodHRwczovL2RvaS5vcmcvMTAuMTAxNi9qLmpzcy4yMDI2LjExMjg5MAo=
+Darvishi, K., Noferesti, M., Sehgal, Y., & Ezzati-Jivan, N. (2026). LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models. Journal of Systems and Software. https://doi.org/10.1016/j.jss.2026.112890

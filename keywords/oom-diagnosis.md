@@ -1,1 +1,5 @@
-IyBPT00gZGlhZ25vc2lzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqT09NIGRpYWdub3NpcyoqLgoKLSBbQWx0T09NOiBBIERhdGEtZHJpdmVuIE91dCBvZiBNZW1vcnkgUm9vdCBDYXVzZSBJZGVudGlmaWNhdGlvbiBTdHJhdGVneV0oLi4vcGFwZXJzL2FsdG9vbS1vdXQtb2YtbWVtb3J5LXJvb3QtY2F1c2UvUkVBRE1FLm1kKSAtIDIwMjMK
+# OOM diagnosis
+
+Papers indexed by keyword **OOM diagnosis**.
+
+- [AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy](../papers/altoom-out-of-memory-root-cause/README.md) - 2023

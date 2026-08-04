@@ -1,1 +1,5 @@
-IyBXaW5vZ3JhZCBTY2hlbWEgQ2hhbGxlbmdlCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqV2lub2dyYWQgU2NoZW1hIENoYWxsZW5nZSoqLgoKLSBbUGljdHVyaW5nIEFtYmlndWl0eTogQSBWaXN1YWwgVHdpc3Qgb24gdGhlIFdpbm9ncmFkIFNjaGVtYSBDaGFsbGVuZ2VdKC4uL3BhcGVycy9waWN0dXJpbmctYW1iaWd1aXR5LXdpbm9ncmFkLXNjaGVtYS9SRUFETUUubWQpIC0gMjAyNAo=
+# Winograd Schema Challenge
+
+Papers indexed by keyword **Winograd Schema Challenge**.
+
+- [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](../papers/picturing-ambiguity-winograd-schema/README.md) - 2024

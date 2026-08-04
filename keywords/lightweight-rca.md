@@ -1,1 +1,5 @@
-IyBsaWdodHdlaWdodCBSQ0EKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipsaWdodHdlaWdodCBSQ0EqKi4KCi0gW0h5YnJpZFJDQTogTGlnaHR3ZWlnaHQgQ3JpdGljYWwtUGF0aC1Bd2FyZSBIeWJyaWQgVHJhY2luZyBmb3IgUm9vdC1DYXVzZSBBbmFseXNpcyBpbiBQcm9kdWN0aW9uIE1pY3Jvc2VydmljZXNdKC4uL3BhcGVycy9oeWJyaWRyY2EtY3JpdGljYWwtcGF0aC1hd2FyZS10cmFjaW5nL1JFQURNRS5tZCkgLSAyMDI1Cg==
+# lightweight RCA
+
+Papers indexed by keyword **lightweight RCA**.
+
+- [HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices](../papers/hybridrca-critical-path-aware-tracing/README.md) - 2025

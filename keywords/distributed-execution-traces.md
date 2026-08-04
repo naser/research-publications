@@ -1,1 +1,5 @@
-IyBkaXN0cmlidXRlZCBleGVjdXRpb24gdHJhY2VzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqZGlzdHJpYnV0ZWQgZXhlY3V0aW9uIHRyYWNlcyoqLgoKLSBbRFRyYUNvbXA6IENvbXBhcmluZyBkaXN0cmlidXRlZCBleGVjdXRpb24gdHJhY2VzIGZvciB1bmRlcnN0YW5kaW5nIGludGVybWl0dGVudCBsYXRlbmN5IHNvdXJjZXNdKC4uL3BhcGVycy9kdHJhY29tcC1kaXN0cmlidXRlZC10cmFjZS1jb21wYXJpc29uL1JFQURNRS5tZCkgLSAyMDI2Cg==
+# distributed execution traces
+
+Papers indexed by keyword **distributed execution traces**.
+
+- [DTraComp: Comparing distributed execution traces for understanding intermittent latency sources](../papers/dtracomp-distributed-trace-comparison/README.md) - 2026

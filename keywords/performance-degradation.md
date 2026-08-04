@@ -1,1 +1,5 @@
-IyBwZXJmb3JtYW5jZSBkZWdyYWRhdGlvbgoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnBlcmZvcm1hbmNlIGRlZ3JhZGF0aW9uKiouCgotIFtEZWJ1Z2dpbmcgb2YgUGVyZm9ybWFuY2UgRGVncmFkYXRpb24gaW4gRGlzdHJpYnV0ZWQgUmVxdWVzdHMgSGFuZGxpbmcgVXNpbmcgTXVsdGlsZXZlbCBUcmFjZSBBbmFseXNpc10oLi4vcGFwZXJzL2RlYnVnZ2luZy1wZXJmb3JtYW5jZS1kZWdyYWRhdGlvbi1kaXN0cmlidXRlZC1yZXF1ZXN0cy9SRUFETUUubWQpIC0gMjAyMQo=
+# performance degradation
+
+Papers indexed by keyword **performance degradation**.
+
+- [Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis](../papers/debugging-performance-degradation-distributed-requests/README.md) - 2021

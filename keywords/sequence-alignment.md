@@ -1,1 +1,5 @@
-IyBzZXF1ZW5jZSBhbGlnbm1lbnQKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipzZXF1ZW5jZSBhbGlnbm1lbnQqKi4KCi0gW1BlcmZvcm1hbmNlIGFub21hbHkgZGV0ZWN0aW9uIHRocm91Z2ggc2VxdWVuY2UgYWxpZ25tZW50IG9mIHN5c3RlbS1sZXZlbCB0cmFjZXNdKC4uL3BhcGVycy9wZXJmb3JtYW5jZS1hbm9tYWx5LWRldGVjdGlvbi1zZXF1ZW5jZS1hbGlnbm1lbnQvUkVBRE1FLm1kKSAtIDIwMjIK
+# sequence alignment
+
+Papers indexed by keyword **sequence alignment**.
+
+- [Performance anomaly detection through sequence alignment of system-level traces](../papers/performance-anomaly-detection-sequence-alignment/README.md) - 2022

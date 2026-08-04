@@ -1,1 +1,84 @@
-IyBBbHRPT006IEEgRGF0YS1kcml2ZW4gT3V0IG9mIE1lbW9yeSBSb290IENhdXNlIElkZW50aWZpY2F0aW9uIFN0cmF0ZWd5CgoqKjIwMjMgfCBJRUVFIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBCaWcgRGF0YSB8IHJlc2VhcmNoIHBhcGVyKioKCioqQXV0aG9yczoqKiBQcmFuamFsIENoYWtyYWJvcnR5LCBOYXNlciBFenphdGktSml2YW4sIFNheWVkIFZhaGlkIEF6aGFyaSwgRnJhbsOnb2lzIFRldHJlYXVsdAoKKipDb3JlIGNvbnRyaWJ1dGlvbjoqKiBUaGlzIHdvcmsgc3R1ZGllcyBhbHRvb206IGEgZGF0YS1kcml2ZW4gb3V0IG9mIG1lbW9yeSByb290IGNhdXNlIGlkZW50aWZpY2F0aW9uIHN0cmF0ZWd5IGluIHRoZSBjb250ZXh0IG9mIHNvZnR3YXJlIHBlcmZvcm1hbmNlIGFuZCBzeXN0ZW1zIGFuYWx5c2lzLgoKIyMgRm91ci1wYXJ0IHJlc2VhcmNoIHN1bW1hcnkKCiMjIyAxLiBQcm9ibGVtIGFuZCBtb3RpdmF0aW9uCgpPdXQtb2YtbWVtb3J5IGZhaWx1cmVzIGhhdmUgbXVsdGlwbGUgaW50ZXJhY3RpbmcgY2F1c2VzIGFuZCBhcmUgZGlmZmljdWx0IHRvIGRpYWdub3NlIGFmdGVyIHRoZSBmYWlsdXJlIG9jY3Vycy4KCiMjIyAyLiBNZXRob2QgYW5kIGNvbnRyaWJ1dGlvbgoKQWx0T09NIHVzZXMgZGF0YS1kcml2ZW4gZXZpZGVuY2UgdG8gaWRlbnRpZnkgbGlrZWx5IHJvb3QgY2F1c2VzIG9mIG91dC1vZi1tZW1vcnkgZXZlbnRzLgoKIyMjIDMuIEZpbmRpbmdzIGFuZCBldmlkZW5jZQoKVGhlIHBhcGVyIHByZXNlbnRzIGFuIE9PTS1zcGVjaWZpYyBSQ0Egc3RyYXRlZ3k7IGRhdGFzZXRzLCBmZWF0dXJlcywgYW5kIGFjY3VyYWN5IHJlcXVpcmUgZnVsbC10ZXh0IHJldmlldy4KCiMjIyA0LiBMaW1pdGF0aW9ucyBhbmQgZnV0dXJlIGRpcmVjdGlvbnMKCioqTGltaXRhdGlvbnM6KiogVGhlIGN1cnJlbnQgcHVibGljIHJlY29yZCBjYXB0dXJlcyBiaWJsaW9ncmFwaGljIG1ldGFkYXRhIGJ1dCBub3QgdGhlIHBhcGVyJ3MgZnVsbCB0ZXh0OyBxdWFudGl0YXRpdmUgY2xhaW1zIGFuZCBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzIHNob3VsZCBiZSBhZGRlZCBhZnRlciBQREYgb3IgYXV0aG9yLW1hbnVzY3JpcHQgcmV2aWV3LgoKKipGdXR1cmUgd29yazoqKiBUZXN0IGNyb3NzLWFwcGxpY2F0aW9uIHRyYW5zZmVyLCBlYXJseSB3YXJuaW5nLCBtZW1vcnkgcHJlc3N1cmUgc2lnbmFscywgYW5kIGFjdGlvbmFibGUgZXhwbGFuYXRpb25zLgoKIyMgQWJzdHJhY3QKCkFic3RyYWN0IG5vdCBhdmFpbGFibGUgaW4gdGhlIGNhcHR1cmVkIHNvdXJjZXMuCgojIyBUb3BpY3MgYW5kIGtleXdvcmRzCgoqKlRhZ3M6KiogW3Jlc291cmNlLWFuYWx5c2lzXSguLi8uLi90b3BpY3MvcmVzb3VyY2UtYW5hbHlzaXMubWQpIHwgW3Jvb3QtY2F1c2UtYW5hbHlzaXNdKC4uLy4uL3RvcGljcy9yb290LWNhdXNlLWFuYWx5c2lzLm1kKSB8IFtzeXN0ZW0tdHJhY2luZ10oLi4vLi4vdG9waWNzL3N5c3RlbS10cmFjaW5nLm1kKSB8IFtwcmVkaWN0aXZlLW1vbml0b3JpbmddKC4uLy4uL3RvcGljcy9wcmVkaWN0aXZlLW1vbml0b3JpbmcubWQpCgoqKktleXdvcmRzOioqIFtvdXQtb2YtbWVtb3J5XSguLi8uLi9rZXl3b3Jkcy9vdXQtb2YtbWVtb3J5Lm1kKSB8IFtPT00gZGlhZ25vc2lzXSguLi8uLi9rZXl3b3Jkcy9vb20tZGlhZ25vc2lzLm1kKSB8IFtkYXRhLWRyaXZlbiBSQ0FdKC4uLy4uL2tleXdvcmRzL2RhdGEtZHJpdmVuLXJjYS5tZCkgfCBbcmVzb3VyY2UgYW5hbHlzaXNdKC4uLy4uL2tleXdvcmRzL3Jlc291cmNlLWFuYWx5c2lzLm1kKQoKIyMgVmVyc2lvbnMgYW5kIHNvdXJjZSBsaW5rcwoKLSBbUHVibGlzaGVkIHZlcnNpb25dKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L2JpZ2RhdGE1OTA0NC4yMDIzLjEwMzg2OTM3KSAtIHB1Ymxpc2hlZAoKKipDYW5vbmljYWwgc291cmNlOioqIFtodHRwczovL2RvaS5vcmcvMTAuMTEwOS9iaWdkYXRhNTkwNDQuMjAyMy4xMDM4NjkzN10oaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvYmlnZGF0YTU5MDQ0LjIwMjMuMTAzODY5MzcpCgojIyBJZGVudGlmaWVycwoKW0RPSSAxMC4xMTA5L2JpZ2RhdGE1OTA0NC4yMDIzLjEwMzg2OTM3XShodHRwczovL2RvaS5vcmcvMTAuMTEwOS9iaWdkYXRhNTkwNDQuMjAyMy4xMDM4NjkzNykKCiMjIFdoZW4gdG8gY2l0ZSB0aGlzIHBhcGVyCgpDaXRlIHRoaXMgcGFwZXIgd2hlbiBpdHMgc3BlY2lmaWMgbWV0aG9kLCBldmlkZW5jZSwgb3IgYmVuY2htYXJrIGlzIGRpcmVjdGx5IHJlbGV2YW50LgoKLSBUaGUgcGFwZXIncyBtZXRob2QgaXMgZGlyZWN0bHkgcmVsZXZhbnQuCi0gVGhlIHBhcGVyJ3MgZXZpZGVuY2Ugb3IgYmVuY2htYXJrIGlzIGRpcmVjdGx5IHJlbGV2YW50LgoKIyMgQ2l0YXRpb24KCiMjIyBBUEEgNwoKQ2hha3JhYm9ydHksIFAuLCBFenphdGktSml2YW4sIE4uLCBBemhhcmksIFMuIFYuLCAmIFRldHJlYXVsdCwgRi4gKDIwMjMpLiBBbHRPT006IEEgRGF0YS1kcml2ZW4gT3V0IG9mIE1lbW9yeSBSb290IENhdXNlIElkZW50aWZpY2F0aW9uIFN0cmF0ZWd5LiBJRUVFIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBCaWcgRGF0YS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvYmlnZGF0YTU5MDQ0LjIwMjMuMTAzODY5MzcKCiMjIyBJRUVFCgpQLiBDaGFrcmFib3J0eSwgTi4gRXp6YXRpLUppdmFuLCBTLiBWLiBBemhhcmksIGFuZCBGLiBUZXRyZWF1bHQsICJBbHRPT006IEEgRGF0YS1kcml2ZW4gT3V0IG9mIE1lbW9yeSBSb290IENhdXNlIElkZW50aWZpY2F0aW9uIFN0cmF0ZWd5LCIgaW4gSUVFRSBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gQmlnIERhdGEsIDIwMjMsIGRvaTogMTAuMTEwOS9iaWdkYXRhNTkwNDQuMjAyMy4xMDM4NjkzNwoKYGBgYmlidGV4CkBpbnByb2NlZWRpbmdze2V6emF0aUppdmFuMjAyM2FsdG9vbWEsCiAgYXV0aG9yID0ge1ByYW5qYWwgQ2hha3JhYm9ydHkgYW5kIE5hc2VyIEV6emF0aS1KaXZhbiBhbmQgU2F5ZWQgVmFoaWQgQXpoYXJpIGFuZCBGcmFuw6dvaXMgVGV0cmVhdWx0fSwKICB0aXRsZSA9IHtBbHRPT006IEEgRGF0YS1kcml2ZW4gT3V0IG9mIE1lbW9yeSBSb290IENhdXNlIElkZW50aWZpY2F0aW9uIFN0cmF0ZWd5fSwKICB5ZWFyID0gezIwMjN9LAogIGJvb2t0aXRsZSA9IHtJRUVFIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBCaWcgRGF0YX0sCiAgZG9pID0gezEwLjExMDkvYmlnZGF0YTU5MDQ0LjIwMjMuMTAzODY5Mzd9LAogIHVybCA9IHtodHRwczovL2RvaS5vcmcvMTAuMTEwOS9iaWdkYXRhNTkwNDQuMjAyMy4xMDM4NjkzN30KfQpgYGAKCioqUmVmZXJlbmNlLW1hbmFnZXIgaW1wb3J0OioqIFtSSVMgZmlsZV0oLi9jaXRhdGlvbi5yaXMpCgojIyBSZWNvcmQgcHJvdmVuYW5jZQoKLSBNZXRhZGF0YSB2ZXJpZmllZDogMjAyNi0wOC0wMwotIFN1bW1hcnkgc3RhdHVzOiBzb3VyY2UtZ3JvdW5kZWQgY2F0YWxvZyByZXZpZXc7IGF1dGhvciBhcHByb3ZhbCBwZW5kaW5nCi0gTWV0YWRhdGEgc291cmNlczogREJMUC9ET0kgYmlibGlvZ3JhcGhpYyByZWNvcmQgZm9yIDEwLjExMDkvYmlnZGF0YTU5MDQ0LjIwMjMuMTAzODY5Mzc7IGF1dGhvciBpZGVudGl0eSBtYXRjaGVkIHRvIE5hc2VyIEV6emF0aS1KaXZhbiBpbiB0aGUgbG9jYWwgcmVzZWFyY2ggY2F0YWxvZzsgZnVsbC10ZXh0IHN1bW1hcnkgcGVuZGluZyBzb3VyY2UgcmV2aWV3Ci0gTWFjaGluZS1yZWFkYWJsZSByZWNvcmQ6IFtwYXBlci5qc29uXSguL3BhcGVyLmpzb24pCg==
+# AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy
+
+**2023 | IEEE International Conference on Big Data | research paper**
+
+**Authors:** Pranjal Chakraborty, Naser Ezzati-Jivan, Sayed Vahid Azhari, François Tetreault
+
+**Core contribution:** This work studies altoom: a data-driven out of memory root cause identification strategy in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Out-of-memory failures have multiple interacting causes and are difficult to diagnose after the failure occurs.
+
+### 2. Method and contribution
+
+AltOOM uses data-driven evidence to identify likely root causes of out-of-memory events.
+
+### 3. Findings and evidence
+
+The paper presents an OOM-specific RCA strategy; datasets, features, and accuracy require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Test cross-application transfer, early warning, memory pressure signals, and actionable explanations.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [resource-analysis](../../topics/resource-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [system-tracing](../../topics/system-tracing.md) | [predictive-monitoring](../../topics/predictive-monitoring.md)
+
+**Keywords:** [out-of-memory](../../keywords/out-of-memory.md) | [OOM diagnosis](../../keywords/oom-diagnosis.md) | [data-driven RCA](../../keywords/data-driven-rca.md) | [resource analysis](../../keywords/resource-analysis.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1109/bigdata59044.2023.10386937) - published
+
+**Canonical source:** [https://doi.org/10.1109/bigdata59044.2023.10386937](https://doi.org/10.1109/bigdata59044.2023.10386937)
+
+## Identifiers
+
+[DOI 10.1109/bigdata59044.2023.10386937](https://doi.org/10.1109/bigdata59044.2023.10386937)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Chakraborty, P., Ezzati-Jivan, N., Azhari, S. V., & Tetreault, F. (2023). AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy. IEEE International Conference on Big Data. https://doi.org/10.1109/bigdata59044.2023.10386937
+
+### IEEE
+
+P. Chakraborty, N. Ezzati-Jivan, S. V. Azhari, and F. Tetreault, "AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy," in IEEE International Conference on Big Data, 2023, doi: 10.1109/bigdata59044.2023.10386937
+
+```bibtex
+@inproceedings{ezzatiJivan2023altooma,
+  author = {Pranjal Chakraborty and Naser Ezzati-Jivan and Sayed Vahid Azhari and François Tetreault},
+  title = {AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy},
+  year = {2023},
+  booktitle = {IEEE International Conference on Big Data},
+  doi = {10.1109/bigdata59044.2023.10386937},
+  url = {https://doi.org/10.1109/bigdata59044.2023.10386937}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

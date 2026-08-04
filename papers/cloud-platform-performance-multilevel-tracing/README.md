@@ -1,1 +1,84 @@
-IyBDbG91ZCBQbGF0Zm9ybSBQZXJmb3JtYW5jZSBFdmFsdWF0aW9uIFVzaW5nIE11bHRpLWxldmVsIEV4ZWN1dGlvbiBUcmFjaW5nCgoqKjIwMjAgfCBJRUVFIEludGVybmV0IG9mIFRoaW5ncywgR3JlZW5Db20sIENQU0NvbSBhbmQgU21hcnREYXRhIHwgcmVzZWFyY2ggcGFwZXIqKgoKKipBdXRob3JzOioqIFl2ZXMgSi4gQmF0aW9ubywgTmFzZXIgRXp6YXRpLUppdmFuLCBFdmFuIEdhbGVhLCBNaWNoZWwgUi4gRGFnZW5haXMKCioqQ29yZSBjb250cmlidXRpb246KiogVGhpcyB3b3JrIHN0dWRpZXMgY2xvdWQgcGxhdGZvcm0gcGVyZm9ybWFuY2UgZXZhbHVhdGlvbiB1c2luZyBtdWx0aS1sZXZlbCBleGVjdXRpb24gdHJhY2luZyBpbiB0aGUgY29udGV4dCBvZiBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBhbmQgc3lzdGVtcyBhbmFseXNpcy4KCiMjIEZvdXItcGFydCByZXNlYXJjaCBzdW1tYXJ5CgojIyMgMS4gUHJvYmxlbSBhbmQgbW90aXZhdGlvbgoKQ2xvdWQtcGxhdGZvcm0gcGVyZm9ybWFuY2UgZGVwZW5kcyBvbiBpbnRlcmFjdGlvbnMgYWNyb3NzIGFwcGxpY2F0aW9uLCBydW50aW1lLCBhbmQgb3BlcmF0aW5nLXN5c3RlbSBsYXllcnMuCgojIyMgMi4gTWV0aG9kIGFuZCBjb250cmlidXRpb24KClRoZSBwYXBlciB1c2VzIG11bHRpLWxldmVsIGV4ZWN1dGlvbiB0cmFjaW5nIHRvIGV2YWx1YXRlIGNsb3VkLXBsYXRmb3JtIHBlcmZvcm1hbmNlLgoKIyMjIDMuIEZpbmRpbmdzIGFuZCBldmlkZW5jZQoKSXQgY29udHJpYnV0ZXMgYSBjcm9zcy1sZXZlbCBtZWFzdXJlbWVudCBwZXJzcGVjdGl2ZTsgcGxhdGZvcm0gYW5kIHdvcmtsb2FkIHJlc3VsdHMgcmVxdWlyZSBmdWxsLXRleHQgcmV2aWV3LgoKIyMjIDQuIExpbWl0YXRpb25zIGFuZCBmdXR1cmUgZGlyZWN0aW9ucwoKKipMaW1pdGF0aW9uczoqKiBUaGUgY3VycmVudCBwdWJsaWMgcmVjb3JkIGNhcHR1cmVzIGJpYmxpb2dyYXBoaWMgbWV0YWRhdGEgYnV0IG5vdCB0aGUgcGFwZXIncyBmdWxsIHRleHQ7IHF1YW50aXRhdGl2ZSBjbGFpbXMgYW5kIGltcGxlbWVudGF0aW9uIGRldGFpbHMgc2hvdWxkIGJlIGFkZGVkIGFmdGVyIFBERiBvciBhdXRob3ItbWFudXNjcmlwdCByZXZpZXcuCgoqKkZ1dHVyZSB3b3JrOioqIE1lYXN1cmUgY2xvdWQgaGV0ZXJvZ2VuZWl0eSwgdmlydHVhbGl6YXRpb24gZWZmZWN0cywgYW5kIG9ic2VydmFiaWxpdHkgY29zdCBhdCBzY2FsZS4KCiMjIEFic3RyYWN0CgpBYnN0cmFjdCBub3QgYXZhaWxhYmxlIGluIHRoZSBjYXB0dXJlZCBzb3VyY2VzLgoKIyMgVG9waWNzIGFuZCBrZXl3b3JkcwoKKipUYWdzOioqIFtzeXN0ZW0tdHJhY2luZ10oLi4vLi4vdG9waWNzL3N5c3RlbS10cmFjaW5nLm1kKSB8IFtwZXJmb3JtYW5jZS1hbmFseXNpc10oLi4vLi4vdG9waWNzL3BlcmZvcm1hbmNlLWFuYWx5c2lzLm1kKSB8IFtwZXJmb3JtYW5jZS1lbmdpbmVlcmluZ10oLi4vLi4vdG9waWNzL3BlcmZvcm1hbmNlLWVuZ2luZWVyaW5nLm1kKSB8IFtyZXNvdXJjZS1hbmFseXNpc10oLi4vLi4vdG9waWNzL3Jlc291cmNlLWFuYWx5c2lzLm1kKQoKKipLZXl3b3JkczoqKiBbY2xvdWQgcGxhdGZvcm1zXSguLi8uLi9rZXl3b3Jkcy9jbG91ZC1wbGF0Zm9ybXMubWQpIHwgW211bHRpbGV2ZWwgZXhlY3V0aW9uIHRyYWNpbmddKC4uLy4uL2tleXdvcmRzL211bHRpbGV2ZWwtZXhlY3V0aW9uLXRyYWNpbmcubWQpIHwgW2Nsb3VkIHBlcmZvcm1hbmNlXSguLi8uLi9rZXl3b3Jkcy9jbG91ZC1wZXJmb3JtYW5jZS5tZCkgfCBbcmVzb3VyY2UgYmVoYXZpb3JdKC4uLy4uL2tleXdvcmRzL3Jlc291cmNlLWJlaGF2aW9yLm1kKQoKIyMgVmVyc2lvbnMgYW5kIHNvdXJjZSBsaW5rcwoKLSBbUHVibGlzaGVkIHZlcnNpb25dKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L2l0aGluZ3MtZ3JlZW5jb20tY3BzY29tLXNtYXJ0ZGF0YS1jeWJlcm1hdGljczUwMzg5LjIwMjAuMDAwNjMpIC0gcHVibGlzaGVkCgoqKkNhbm9uaWNhbCBzb3VyY2U6KiogW2h0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L2l0aGluZ3MtZ3JlZW5jb20tY3BzY29tLXNtYXJ0ZGF0YS1jeWJlcm1hdGljczUwMzg5LjIwMjAuMDAwNjNdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L2l0aGluZ3MtZ3JlZW5jb20tY3BzY29tLXNtYXJ0ZGF0YS1jeWJlcm1hdGljczUwMzg5LjIwMjAuMDAwNjMpCgojIyBJZGVudGlmaWVycwoKW0RPSSAxMC4xMTA5L2l0aGluZ3MtZ3JlZW5jb20tY3BzY29tLXNtYXJ0ZGF0YS1jeWJlcm1hdGljczUwMzg5LjIwMjAuMDAwNjNdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L2l0aGluZ3MtZ3JlZW5jb20tY3BzY29tLXNtYXJ0ZGF0YS1jeWJlcm1hdGljczUwMzg5LjIwMjAuMDAwNjMpCgojIyBXaGVuIHRvIGNpdGUgdGhpcyBwYXBlcgoKQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gaXRzIHNwZWNpZmljIG1ldGhvZCwgZXZpZGVuY2UsIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCi0gVGhlIHBhcGVyJ3MgbWV0aG9kIGlzIGRpcmVjdGx5IHJlbGV2YW50LgotIFRoZSBwYXBlcidzIGV2aWRlbmNlIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCiMjIENpdGF0aW9uCgojIyMgQVBBIDcKCkJhdGlvbm8sIFkuIEouLCBFenphdGktSml2YW4sIE4uLCBHYWxlYSwgRS4sICYgRGFnZW5haXMsIE0uIFIuICgyMDIwKS4gQ2xvdWQgUGxhdGZvcm0gUGVyZm9ybWFuY2UgRXZhbHVhdGlvbiBVc2luZyBNdWx0aS1sZXZlbCBFeGVjdXRpb24gVHJhY2luZy4gSUVFRSBJbnRlcm5ldCBvZiBUaGluZ3MsIEdyZWVuQ29tLCBDUFNDb20gYW5kIFNtYXJ0RGF0YS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvaXRoaW5ncy1ncmVlbmNvbS1jcHNjb20tc21hcnRkYXRhLWN5YmVybWF0aWNzNTAzODkuMjAyMC4wMDA2MwoKIyMjIElFRUUKClkuIEouIEJhdGlvbm8sIE4uIEV6emF0aS1KaXZhbiwgRS4gR2FsZWEsIGFuZCBNLiBSLiBEYWdlbmFpcywgIkNsb3VkIFBsYXRmb3JtIFBlcmZvcm1hbmNlIEV2YWx1YXRpb24gVXNpbmcgTXVsdGktbGV2ZWwgRXhlY3V0aW9uIFRyYWNpbmcsIiBpbiBJRUVFIEludGVybmV0IG9mIFRoaW5ncywgR3JlZW5Db20sIENQU0NvbSBhbmQgU21hcnREYXRhLCAyMDIwLCBkb2k6IDEwLjExMDkvaXRoaW5ncy1ncmVlbmNvbS1jcHNjb20tc21hcnRkYXRhLWN5YmVybWF0aWNzNTAzODkuMjAyMC4wMDA2MwoKYGBgYmlidGV4CkBpbnByb2NlZWRpbmdze2V6emF0aUppdmFuMjAyMGNsb3VkcGxhdGZvcm0sCiAgYXV0aG9yID0ge1l2ZXMgSi4gQmF0aW9ubyBhbmQgTmFzZXIgRXp6YXRpLUppdmFuIGFuZCBFdmFuIEdhbGVhIGFuZCBNaWNoZWwgUi4gRGFnZW5haXN9LAogIHRpdGxlID0ge0Nsb3VkIFBsYXRmb3JtIFBlcmZvcm1hbmNlIEV2YWx1YXRpb24gVXNpbmcgTXVsdGktbGV2ZWwgRXhlY3V0aW9uIFRyYWNpbmd9LAogIHllYXIgPSB7MjAyMH0sCiAgYm9va3RpdGxlID0ge0lFRUUgSW50ZXJuZXQgb2YgVGhpbmdzLCBHcmVlbkNvbSwgQ1BTQ29tIGFuZCBTbWFydERhdGF9LAogIGRvaSA9IHsxMC4xMTA5L2l0aGluZ3MtZ3JlZW5jb20tY3BzY29tLXNtYXJ0ZGF0YS1jeWJlcm1hdGljczUwMzg5LjIwMjAuMDAwNjN9LAogIHVybCA9IHtodHRwczovL2RvaS5vcmcvMTAuMTEwOS9pdGhpbmdzLWdyZWVuY29tLWNwc2NvbS1zbWFydGRhdGEtY3liZXJtYXRpY3M1MDM4OS4yMDIwLjAwMDYzfQp9CmBgYAoKKipSZWZlcmVuY2UtbWFuYWdlciBpbXBvcnQ6KiogW1JJUyBmaWxlXSguL2NpdGF0aW9uLnJpcykKCiMjIFJlY29yZCBwcm92ZW5hbmNlCgotIE1ldGFkYXRhIHZlcmlmaWVkOiAyMDI2LTA4LTAzCi0gU3VtbWFyeSBzdGF0dXM6IHNvdXJjZS1ncm91bmRlZCBjYXRhbG9nIHJldmlldzsgYXV0aG9yIGFwcHJvdmFsIHBlbmRpbmcKLSBNZXRhZGF0YSBzb3VyY2VzOiBEQkxQL0RPSSBiaWJsaW9ncmFwaGljIHJlY29yZCBmb3IgMTAuMTEwOS9pdGhpbmdzLWdyZWVuY29tLWNwc2NvbS1zbWFydGRhdGEtY3liZXJtYXRpY3M1MDM4OS4yMDIwLjAwMDYzOyBhdXRob3IgaWRlbnRpdHkgbWF0Y2hlZCB0byBOYXNlciBFenphdGktSml2YW4gaW4gdGhlIGxvY2FsIHJlc2VhcmNoIGNhdGFsb2c7IGZ1bGwtdGV4dCBzdW1tYXJ5IHBlbmRpbmcgc291cmNlIHJldmlldwotIE1hY2hpbmUtcmVhZGFibGUgcmVjb3JkOiBbcGFwZXIuanNvbl0oLi9wYXBlci5qc29uKQo=
+# Cloud Platform Performance Evaluation Using Multi-level Execution Tracing
+
+**2020 | IEEE Internet of Things, GreenCom, CPSCom and SmartData | research paper**
+
+**Authors:** Yves J. Bationo, Naser Ezzati-Jivan, Evan Galea, Michel R. Dagenais
+
+**Core contribution:** This work studies cloud platform performance evaluation using multi-level execution tracing in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Cloud-platform performance depends on interactions across application, runtime, and operating-system layers.
+
+### 2. Method and contribution
+
+The paper uses multi-level execution tracing to evaluate cloud-platform performance.
+
+### 3. Findings and evidence
+
+It contributes a cross-level measurement perspective; platform and workload results require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Measure cloud heterogeneity, virtualization effects, and observability cost at scale.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [performance-engineering](../../topics/performance-engineering.md) | [resource-analysis](../../topics/resource-analysis.md)
+
+**Keywords:** [cloud platforms](../../keywords/cloud-platforms.md) | [multilevel execution tracing](../../keywords/multilevel-execution-tracing.md) | [cloud performance](../../keywords/cloud-performance.md) | [resource behavior](../../keywords/resource-behavior.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063) - published
+
+**Canonical source:** [https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063](https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063)
+
+## Identifiers
+
+[DOI 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063](https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Bationo, Y. J., Ezzati-Jivan, N., Galea, E., & Dagenais, M. R. (2020). Cloud Platform Performance Evaluation Using Multi-level Execution Tracing. IEEE Internet of Things, GreenCom, CPSCom and SmartData. https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063
+
+### IEEE
+
+Y. J. Bationo, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Cloud Platform Performance Evaluation Using Multi-level Execution Tracing," in IEEE Internet of Things, GreenCom, CPSCom and SmartData, 2020, doi: 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063
+
+```bibtex
+@inproceedings{ezzatiJivan2020cloudplatform,
+  author = {Yves J. Bationo and Naser Ezzati-Jivan and Evan Galea and Michel R. Dagenais},
+  title = {Cloud Platform Performance Evaluation Using Multi-level Execution Tracing},
+  year = {2020},
+  booktitle = {IEEE Internet of Things, GreenCom, CPSCom and SmartData},
+  doi = {10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063},
+  url = {https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

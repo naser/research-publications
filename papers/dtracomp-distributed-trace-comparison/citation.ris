@@ -1,1 +1,13 @@
-VFkgIC0gR0VOCkFVICAtIEVraGxhc2ksIE1hcnlhbQpBVSAgLSBEYW5lc2hnYXIsIEZhdGVtZWggRmFyYWppCkFVICAtIERhZ2VuYWlzLCBNaWNoZWwKQVUgIC0gTGFtb3RoZSwgTWF4aW1lCkFVICAtIEV6emF0aS1KaXZhbiwgTmFzZXIKQVUgIC0gS2hvdXphbSwgTWF0dGhldwpUSSAgLSBEVHJhQ29tcDogQ29tcGFyaW5nIGRpc3RyaWJ1dGVkIGV4ZWN1dGlvbiB0cmFjZXMgZm9yIHVuZGVyc3RhbmRpbmcgaW50ZXJtaXR0ZW50IGxhdGVuY3kgc291cmNlcwpQWSAgLSAyMDI2ClQyICAtIEpvdXJuYWwgb2YgU3lzdGVtcyBhbmQgU29mdHdhcmUKRE8gIC0gMTAuMTAxNi9qLmpzcy4yMDI2LjExMjk5MApVUiAgLSBodHRwczovL2RvaS5vcmcvMTAuMTAxNi9qLmpzcy4yMDI2LjExMjk5MApFUiAgLQo=
+TY  - GEN
+AU  - Ekhlasi, Maryam
+AU  - Daneshgar, Fatemeh Faraji
+AU  - Dagenais, Michel
+AU  - Lamothe, Maxime
+AU  - Ezzati-Jivan, Naser
+AU  - Khouzam, Matthew
+TI  - DTraComp: Comparing distributed execution traces for understanding intermittent latency sources
+PY  - 2026
+T2  - Journal of Systems and Software
+DO  - 10.1016/j.jss.2026.112990
+UR  - https://doi.org/10.1016/j.jss.2026.112990
+ER  -

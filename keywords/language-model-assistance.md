@@ -1,1 +1,5 @@
-IyBsYW5ndWFnZS1tb2RlbCBhc3Npc3RhbmNlCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqbGFuZ3VhZ2UtbW9kZWwgYXNzaXN0YW5jZSoqLgoKLSBbVG93YXJkIEFkYXB0aXZlIFRyYWNpbmc6IEVmZmljaWVudCBTeXN0ZW0gQmVoYXZpb3IgQW5hbHlzaXMgdXNpbmcgTGFuZ3VhZ2UgTW9kZWxzXSguLi9wYXBlcnMvdG93YXJkLWFkYXB0aXZlLXRyYWNpbmctbGFuZ3VhZ2UtbW9kZWxzL1JFQURNRS5tZCkgLSAyMDI0Cg==
+# language-model assistance
+
+Papers indexed by keyword **language-model assistance**.
+
+- [Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models](../papers/toward-adaptive-tracing-language-models/README.md) - 2024

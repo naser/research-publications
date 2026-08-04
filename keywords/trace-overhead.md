@@ -1,1 +1,6 @@
-IyB0cmFjZSBvdmVyaGVhZAoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnRyYWNlIG92ZXJoZWFkKiouCgotIFtEeW5hbWljIHRyYWNlLWJhc2VkIHNhbXBsaW5nIGFsZ29yaXRobSBmb3IgbWVtb3J5IHVzYWdlIHRyYWNraW5nIG9mIGVudGVycHJpc2UgYXBwbGljYXRpb25zXSguLi9wYXBlcnMvZHluYW1pYy10cmFjZS1zYW1wbGluZy1tZW1vcnktdXNhZ2UvUkVBRE1FLm1kKSAtIDIwMTcKLSBbTE1BVDogQW4gYWRhcHRpdmUgdHJhY2luZyBhcHByb2FjaCBiYXNlZCBvbiBlZmZpY2llbnQgc3lzdGVtIGJlaGF2aW9yIGFuYWx5c2lzIHVzaW5nIGxhbmd1YWdlIG1vZGVsc10oLi4vcGFwZXJzL2xtYXQtYWRhcHRpdmUtdHJhY2luZy1sYW5ndWFnZS1tb2RlbHMvUkVBRE1FLm1kKSAtIDIwMjYK
+# trace overhead
+
+Papers indexed by keyword **trace overhead**.
+
+- [Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications](../papers/dynamic-trace-sampling-memory-usage/README.md) - 2017
+- [LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models](../papers/lmat-adaptive-tracing-language-models/README.md) - 2026

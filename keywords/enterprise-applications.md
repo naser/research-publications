@@ -1,1 +1,5 @@
-IyBlbnRlcnByaXNlIGFwcGxpY2F0aW9ucwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKmVudGVycHJpc2UgYXBwbGljYXRpb25zKiouCgotIFtEeW5hbWljIHRyYWNlLWJhc2VkIHNhbXBsaW5nIGFsZ29yaXRobSBmb3IgbWVtb3J5IHVzYWdlIHRyYWNraW5nIG9mIGVudGVycHJpc2UgYXBwbGljYXRpb25zXSguLi9wYXBlcnMvZHluYW1pYy10cmFjZS1zYW1wbGluZy1tZW1vcnktdXNhZ2UvUkVBRE1FLm1kKSAtIDIwMTcK
+# enterprise applications
+
+Papers indexed by keyword **enterprise applications**.
+
+- [Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications](../papers/dynamic-trace-sampling-memory-usage/README.md) - 2017

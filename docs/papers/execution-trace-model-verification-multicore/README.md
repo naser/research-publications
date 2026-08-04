@@ -1,1 +1,84 @@
-IyBFeGVjdXRpb24gdHJhY2UtYmFzZWQgbW9kZWwgdmVyaWZpY2F0aW9uIHRvIGFuYWx5emUgbXVsdGljb3JlIGFuZCByZWFsLXRpbWUgc3lzdGVtcwoKKioyMDIyIHwgQ29uY3VycmVuY3kgYW5kIENvbXB1dGF0aW9uOiBQcmFjdGljZSBhbmQgRXhwZXJpZW5jZSB8IHJlc2VhcmNoIHBhcGVyKioKCioqQXV0aG9yczoqKiBSYXBoYcOrbCBCZWFtb250ZSwgTmFzZXIgRXp6YXRpLUppdmFuLCBNaWNoZWwgUi4gRGFnZW5haXMKCioqQ29yZSBjb250cmlidXRpb246KiogVGhpcyB3b3JrIHN0dWRpZXMgZXhlY3V0aW9uIHRyYWNlLWJhc2VkIG1vZGVsIHZlcmlmaWNhdGlvbiB0byBhbmFseXplIG11bHRpY29yZSBhbmQgcmVhbC10aW1lIHN5c3RlbXMgaW4gdGhlIGNvbnRleHQgb2Ygc29mdHdhcmUgcGVyZm9ybWFuY2UgYW5kIHN5c3RlbXMgYW5hbHlzaXMuCgojIyBGb3VyLXBhcnQgcmVzZWFyY2ggc3VtbWFyeQoKIyMjIDEuIFByb2JsZW0gYW5kIG1vdGl2YXRpb24KCk11bHRpY29yZSBhbmQgcmVhbC10aW1lIGJlaGF2aW9yIG11c3QgYmUgY2hlY2tlZCBhZ2FpbnN0IG1vZGVscyBkZXNwaXRlIHRpbWluZyBhbmQgc2NoZWR1bGluZyBjb21wbGV4aXR5LgoKIyMjIDIuIE1ldGhvZCBhbmQgY29udHJpYnV0aW9uCgpUaGUgcGFwZXIgdXNlcyBleGVjdXRpb24gdHJhY2VzIGFzIGV2aWRlbmNlIGZvciBtb2RlbCB2ZXJpZmljYXRpb24gYW5kIGFuYWx5c2lzIG9mIG11bHRpY29yZSBhbmQgcmVhbC10aW1lIHN5c3RlbXMuCgojIyMgMy4gRmluZGluZ3MgYW5kIGV2aWRlbmNlCgpJdCBjb25uZWN0cyBydW50aW1lIHRyYWNlcyB3aXRoIG1vZGVsLWJhc2VkIHZlcmlmaWNhdGlvbjsgdmVyaWZpY2F0aW9uIHByb2NlZHVyZSBhbmQgcmVzdWx0cyByZXF1aXJlIGZ1bGwtdGV4dCByZXZpZXcuCgojIyMgNC4gTGltaXRhdGlvbnMgYW5kIGZ1dHVyZSBkaXJlY3Rpb25zCgoqKkxpbWl0YXRpb25zOioqIFRoZSBjdXJyZW50IHB1YmxpYyByZWNvcmQgY2FwdHVyZXMgYmlibGlvZ3JhcGhpYyBtZXRhZGF0YSBidXQgbm90IHRoZSBwYXBlcidzIGZ1bGwgdGV4dDsgcXVhbnRpdGF0aXZlIGNsYWltcyBhbmQgaW1wbGVtZW50YXRpb24gZGV0YWlscyBzaG91bGQgYmUgYWRkZWQgYWZ0ZXIgUERGIG9yIGF1dGhvci1tYW51c2NyaXB0IHJldmlldy4KCioqRnV0dXJlIHdvcms6KiogRXh0ZW5kIHRvIGR5bmFtaWMgc2NoZWR1bGluZywgbGFyZ2VyIHN5c3RlbXMsIGFuZCBjb250aW51b3VzIHJ1bnRpbWUgdmVyaWZpY2F0aW9uLgoKIyMgQWJzdHJhY3QKCkFic3RyYWN0IG5vdCBhdmFpbGFibGUgaW4gdGhlIGNhcHR1cmVkIHNvdXJjZXMuCgojIyBUb3BpY3MgYW5kIGtleXdvcmRzCgoqKlRhZ3M6KiogW3N5c3RlbS10cmFjaW5nXSguLi8uLi90b3BpY3Mvc3lzdGVtLXRyYWNpbmcubWQpIHwgW211bHRpY29yZS1zeXN0ZW1zXSguLi8uLi90b3BpY3MvbXVsdGljb3JlLXN5c3RlbXMubWQpIHwgW3BlcmZvcm1hbmNlLWFuYWx5c2lzXSguLi8uLi90b3BpY3MvcGVyZm9ybWFuY2UtYW5hbHlzaXMubWQpIHwgW3RyYWNlLWFuYWx5c2lzXSguLi8uLi90b3BpY3MvdHJhY2UtYW5hbHlzaXMubWQpCgoqKktleXdvcmRzOioqIFtleGVjdXRpb24gdHJhY2VzXSguLi8uLi9rZXl3b3Jkcy9leGVjdXRpb24tdHJhY2VzLm1kKSB8IFttb2RlbCB2ZXJpZmljYXRpb25dKC4uLy4uL2tleXdvcmRzL21vZGVsLXZlcmlmaWNhdGlvbi5tZCkgfCBbbXVsdGljb3JlIHN5c3RlbXNdKC4uLy4uL2tleXdvcmRzL211bHRpY29yZS1zeXN0ZW1zLm1kKSB8IFtyZWFsLXRpbWUgc3lzdGVtc10oLi4vLi4va2V5d29yZHMvcmVhbC10aW1lLXN5c3RlbXMubWQpCgojIyBWZXJzaW9ucyBhbmQgc291cmNlIGxpbmtzCgotIFtQdWJsaXNoZWQgdmVyc2lvbl0oaHR0cHM6Ly9kb2kub3JnLzEwLjEwMDIvY3BlLjY5NzQpIC0gcHVibGlzaGVkCgoqKkNhbm9uaWNhbCBzb3VyY2U6KiogW2h0dHBzOi8vZG9pLm9yZy8xMC4xMDAyL2NwZS42OTc0XShodHRwczovL2RvaS5vcmcvMTAuMTAwMi9jcGUuNjk3NCkKCiMjIElkZW50aWZpZXJzCgpbRE9JIDEwLjEwMDIvY3BlLjY5NzRdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMDAyL2NwZS42OTc0KQoKIyMgV2hlbiB0byBjaXRlIHRoaXMgcGFwZXIKCkNpdGUgdGhpcyBwYXBlciB3aGVuIGl0cyBzcGVjaWZpYyBtZXRob2QsIGV2aWRlbmNlLCBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuCgotIFRoZSBwYXBlcidzIG1ldGhvZCBpcyBkaXJlY3RseSByZWxldmFudC4KLSBUaGUgcGFwZXIncyBldmlkZW5jZSBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuCgojIyBDaXRhdGlvbgoKIyMjIEFQQSA3CgpCZWFtb250ZSwgUi4sIEV6emF0aS1KaXZhbiwgTi4sICYgRGFnZW5haXMsIE0uIFIuICgyMDIyKS4gRXhlY3V0aW9uIHRyYWNlLWJhc2VkIG1vZGVsIHZlcmlmaWNhdGlvbiB0byBhbmFseXplIG11bHRpY29yZSBhbmQgcmVhbC10aW1lIHN5c3RlbXMuIENvbmN1cnJlbmN5IGFuZCBDb21wdXRhdGlvbjogUHJhY3RpY2UgYW5kIEV4cGVyaWVuY2UuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDAyL2NwZS42OTc0CgojIyMgSUVFRQoKUi4gQmVhbW9udGUsIE4uIEV6emF0aS1KaXZhbiwgYW5kIE0uIFIuIERhZ2VuYWlzLCAiRXhlY3V0aW9uIHRyYWNlLWJhc2VkIG1vZGVsIHZlcmlmaWNhdGlvbiB0byBhbmFseXplIG11bHRpY29yZSBhbmQgcmVhbC10aW1lIHN5c3RlbXMsIiBpbiBDb25jdXJyZW5jeSBhbmQgQ29tcHV0YXRpb246IFByYWN0aWNlIGFuZCBFeHBlcmllbmNlLCAyMDIyLCBkb2k6IDEwLjEwMDIvY3BlLjY5NzQKCmBgYGJpYnRleApAaW5wcm9jZWVkaW5nc3tlenphdGlKaXZhbjIwMjJleGVjdXRpb250cmFjZSwKICBhdXRob3IgPSB7UmFwaGHDq2wgQmVhbW9udGUgYW5kIE5hc2VyIEV6emF0aS1KaXZhbiBhbmQgTWljaGVsIFIuIERhZ2VuYWlzfSwKICB0aXRsZSA9IHtFeGVjdXRpb24gdHJhY2UtYmFzZWQgbW9kZWwgdmVyaWZpY2F0aW9uIHRvIGFuYWx5emUgbXVsdGljb3JlIGFuZCByZWFsLXRpbWUgc3lzdGVtc30sCiAgeWVhciA9IHsyMDIyfSwKICBib29rdGl0bGUgPSB7Q29uY3VycmVuY3kgYW5kIENvbXB1dGF0aW9uOiBQcmFjdGljZSBhbmQgRXhwZXJpZW5jZX0sCiAgZG9pID0gezEwLjEwMDIvY3BlLjY5NzR9LAogIHVybCA9IHtodHRwczovL2RvaS5vcmcvMTAuMTAwMi9jcGUuNjk3NH0KfQpgYGAKCioqUmVmZXJlbmNlLW1hbmFnZXIgaW1wb3J0OioqIFtSSVMgZmlsZV0oLi9jaXRhdGlvbi5yaXMpCgojIyBSZWNvcmQgcHJvdmVuYW5jZQoKLSBNZXRhZGF0YSB2ZXJpZmllZDogMjAyNi0wOC0wMwotIFN1bW1hcnkgc3RhdHVzOiBzb3VyY2UtZ3JvdW5kZWQgY2F0YWxvZyByZXZpZXc7IGF1dGhvciBhcHByb3ZhbCBwZW5kaW5nCi0gTWV0YWRhdGEgc291cmNlczogREJMUC9ET0kgYmlibGlvZ3JhcGhpYyByZWNvcmQgZm9yIDEwLjEwMDIvY3BlLjY5NzQ7IGF1dGhvciBpZGVudGl0eSBtYXRjaGVkIHRvIE5hc2VyIEV6emF0aS1KaXZhbiBpbiB0aGUgbG9jYWwgcmVzZWFyY2ggY2F0YWxvZzsgZnVsbC10ZXh0IHN1bW1hcnkgcGVuZGluZyBzb3VyY2UgcmV2aWV3Ci0gTWFjaGluZS1yZWFkYWJsZSByZWNvcmQ6IFtwYXBlci5qc29uXSguL3BhcGVyLmpzb24pCg==
+# Execution trace-based model verification to analyze multicore and real-time systems
+
+**2022 | Concurrency and Computation: Practice and Experience | research paper**
+
+**Authors:** Raphaël Beamonte, Naser Ezzati-Jivan, Michel R. Dagenais
+
+**Core contribution:** This work studies execution trace-based model verification to analyze multicore and real-time systems in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Multicore and real-time behavior must be checked against models despite timing and scheduling complexity.
+
+### 2. Method and contribution
+
+The paper uses execution traces as evidence for model verification and analysis of multicore and real-time systems.
+
+### 3. Findings and evidence
+
+It connects runtime traces with model-based verification; verification procedure and results require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Extend to dynamic scheduling, larger systems, and continuous runtime verification.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [system-tracing](../../topics/system-tracing.md) | [multicore-systems](../../topics/multicore-systems.md) | [performance-analysis](../../topics/performance-analysis.md) | [trace-analysis](../../topics/trace-analysis.md)
+
+**Keywords:** [execution traces](../../keywords/execution-traces.md) | [model verification](../../keywords/model-verification.md) | [multicore systems](../../keywords/multicore-systems.md) | [real-time systems](../../keywords/real-time-systems.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1002/cpe.6974) - published
+
+**Canonical source:** [https://doi.org/10.1002/cpe.6974](https://doi.org/10.1002/cpe.6974)
+
+## Identifiers
+
+[DOI 10.1002/cpe.6974](https://doi.org/10.1002/cpe.6974)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2022). Execution trace-based model verification to analyze multicore and real-time systems. Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.6974
+
+### IEEE
+
+R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Execution trace-based model verification to analyze multicore and real-time systems," in Concurrency and Computation: Practice and Experience, 2022, doi: 10.1002/cpe.6974
+
+```bibtex
+@inproceedings{ezzatiJivan2022executiontrace,
+  author = {Raphaël Beamonte and Naser Ezzati-Jivan and Michel R. Dagenais},
+  title = {Execution trace-based model verification to analyze multicore and real-time systems},
+  year = {2022},
+  booktitle = {Concurrency and Computation: Practice and Experience},
+  doi = {10.1002/cpe.6974},
+  url = {https://doi.org/10.1002/cpe.6974}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1002/cpe.6974; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

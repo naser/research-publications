@@ -1,1 +1,12 @@
-Y2ZmLXZlcnNpb246IDEuMi4wCnRpdGxlOiAiTmFzZXIgRXp6YXRpLUppdmFuIFB1YmxpY2F0aW9ucyIKdHlwZTogZGF0YXNldAptZXNzYWdlOiAiSWYgeW91IHVzZSB0aGlzIGNhdGFsb2cgb3IgaXRzIG9yaWdpbmFsIHN1bW1hcmllcywgcGxlYXNlIGNpdGUgdGhlIHJlcG9zaXRvcnkgYW5kIHRoZSBpbmRpdmlkdWFsIHBhcGVyIHJlY29yZHMuIgphdXRob3JzOgogIC0gZmFtaWx5LW5hbWVzOiBFenphdGktSml2YW4KICAgIGdpdmVuLW5hbWVzOiBOYXNlcgpyZXBvc2l0b3J5LWNvZGU6IGh0dHBzOi8vZ2l0aHViLmNvbS9uYXNlci9yZXNlYXJjaC1wdWJsaWNhdGlvbnMKdXJsOiBodHRwczovL25hc2VyLmdpdGh1Yi5pby9yZXNlYXJjaC1wdWJsaWNhdGlvbnMvCmxpY2Vuc2U6IENDLUJZLTQuMAphYnN0cmFjdDogPi0KICBBZ2VudC1mcmllbmRseSBjYXRhbG9nIG9mIHNlbGVjdGVkIHJlc2VhcmNoIHBhcGVycywgc3VtbWFyaWVzLCBjaXRhdGlvbnMsIHRvcGljIGxpbmtzLCBwcm92ZW5hbmNlLCBhbmQgYXV0aG9yaXRhdGl2ZSBzb3VyY2UgVVJMcy4K
+cff-version: 1.2.0
+title: "Naser Ezzati-Jivan Publications"
+type: dataset
+message: "If you use this catalog or its original summaries, please cite the repository and the individual paper records."
+authors:
+  - family-names: Ezzati-Jivan
+    given-names: Naser
+repository-code: https://github.com/naser/research-publications
+url: https://naser.github.io/research-publications/
+license: CC-BY-4.0
+abstract: >-
+  Agent-friendly catalog of selected research papers, summaries, citations, topic links, provenance, and authoritative source URLs.

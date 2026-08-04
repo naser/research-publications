@@ -1,1 +1,111 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImF1dG9tYXRpYy1yZWR1Y3Rpb24tZXhlY3V0aW9uLXRyYWNlLWRhdGEtdm9sdW1lIiwKICAicGFnZV91cmwiOiAiaHR0cHM6Ly9uYXNlci5naXRodWIuaW8vcmVzZWFyY2gtcHVibGljYXRpb25zL3BhcGVycy9hdXRvbWF0aWMtcmVkdWN0aW9uLWV4ZWN1dGlvbi10cmFjZS1kYXRhLXZvbHVtZS8iLAogICJ0aXRsZSI6ICJBdXRvbWF0aWMgUmVkdWN0aW9uIG9mIEV4ZWN1dGlvbiBUcmFjZSBEYXRhIFZvbHVtZSBVc2luZyBHcmFkaWVudCBCb29zdGluZyBpbiBMYXJnZS1TY2FsZSBNaWNyb3NlcnZpY2UgU3lzdGVtcyIsCiAgInRpdGxlX3ZhcmlhbnRzIjogWwogICAgIkF1dG9tYXRpYyBSZWR1Y3Rpb24gb2YgRXhlY3V0aW9uIFRyYWNlIERhdGEgVm9sdW1lIFVzaW5nR3JhZGllbnQgQm9vc3RpbmcgaW4gTGFyZ2UtU2NhbGUgTWljcm9zZXJ2aWNlIFN5c3RlbXMgKHNvdXJjZS1wYWdlIHJlbmRlcmluZyB2YXJpYW50KSIKICBdLAogICJhdXRob3JzIjogWwogICAgIkFtaXIgSGFnaHNoZW5hcyIsCiAgICAiTmFzZXIgRXp6YXRpLUppdmFuIiwKICAgICJNaWNoZWwgRGFnZW5haXMiCiAgXSwKICAicHVibGljYXRpb24iOiB7CiAgICAieWVhciI6IDIwMjQsCiAgICAidmVudWUiOiAiVGhlIDM3dGggQ2FuYWRpYW4gQ29uZmVyZW5jZSBvbiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSIsCiAgICAidHlwZSI6ICJjb25mZXJlbmNlIHBhcGVyIgogIH0sCiAgInB1YmxpY2F0aW9uX3R5cGUiOiAiY29uZmVyZW5jZSBwYXBlciIsCiAgInN0YXR1cyI6ICJwdWJsaWNfY2NfYnlfYXJ0aWNsZV9wYWdlIiwKICAiY2Fub25pY2FsX3NvdXJjZV91cmwiOiAiaHR0cHM6Ly9kb2kub3JnLzEwLjIxNDI4LzU5NDc1N2RiLmZlOGI3NmNmIiwKICAic291cmNlX3JlY29yZF9pZCI6ICJhdXRvbWF0aWMtcmVkdWN0aW9uLW9mLWV4ZWN1dGlvbi10cmFjZS1kYXRhLXZvbHVtZS11c2luZy1ncmFkaWVudC1ib29zdGluZy1pbi1sYXJnZS1zY2FsZS1taWNyb3MtYmQ4NTQ1MmQ1NiIsCiAgImlkZW50aWZpZXJzIjogewogICAgImRvaSI6ICIxMC4yMTQyOC81OTQ3NTdkYi5mZThiNzZjZiIKICB9LAogICJhYnN0cmFjdCI6ICJJbiBsYXJnZSBtaWNyb3NlcnZpY2Ugc3lzdGVtcywgY29sbGVjdGluZyB0b28gbGl0dGxlIG9yIHRvbyBtdWNoIHRyYWNlIGRhdGEgY2FuIG1ha2UgcGVyZm9ybWFuY2UgbW9kZWxpbmcgdW5yZWxpYWJsZS4gVGhpcyB3b3JrIGludHJvZHVjZXMgYSB0d28tcGhhc2UgZ3JhZGllbnQtYm9vc3RpbmcgbWV0aG9kIHRoYXQgaWRlbnRpZmllcyB0aGUgbW9zdCBpbXBvcnRhbnQgdHJhY2UgZmVhdHVyZXMgZm9yIHByZWRpY3RpbmcgQ1BVIGFuZCBtZW1vcnkgZGVtYW5kLiBVc2luZyBhIGNvbXByZWhlbnNpdmUgQWxpYmFiYSBkYXRhc2V0LCB0aGUgc3R1ZHkgcmVwb3J0cyBtb3JlIHRoYW4gNjklIHJlZHVjdGlvbiBpbiBkYXRhIHZvbHVtZSB3aXRob3V0IGNvbXByb21pc2luZywgYW5kIHNvbWV0aW1lcyBpbXByb3ZpbmcsIG1vZGVsIGFjY3VyYWN5LiBUaGUgcmV0YWluZWQgZmVhdHVyZXMgZW1waGFzaXplIGludGVyLXNlcnZpY2UgY29tbXVuaWNhdGlvbiBhbmQgcmVzb3VyY2UtYWNjZXNzIHBhdHRlcm5zLiIsCiAgImFic3RyYWN0X3NvdXJjZSI6ICJvZmZpY2lhbCBDYW5hZGlhbiBBSSBQcm9jZWVkaW5ncyBQdWJQdWIgcGFnZSBvYnNlcnZlZCAyMDI2LTA4LTAzIiwKICAic3VtbWFyeSI6IHsKICAgICJjb3JlX2NvbnRyaWJ1dGlvbiI6ICJUaGUgcGFwZXIgdXNlcyBncmFkaWVudCBib29zdGluZyBhbmQgZmVhdHVyZSBpbXBvcnRhbmNlIHRvIHJlZHVjZSB0aGUgYW1vdW50IG9mIHRyYWNlIGRhdGEgbmVlZGVkIGZvciBtaWNyb3NlcnZpY2UgcGVyZm9ybWFuY2UgbW9kZWxpbmcuIiwKICAgICJwcm9ibGVtIjogIkxhcmdlLXNjYWxlIG1pY3Jvc2VydmljZSB0cmFjZXMgYXJlIGV4cGVuc2l2ZSB0byBjb2xsZWN0LCBzdG9yZSwgYW5kIGFuYWx5emUsIGJ1dCByZWR1Y2luZyB0aGVtIGFyYml0cmFyaWx5IGNhbiByZW1vdmUgZmVhdHVyZXMgbmVlZGVkIGZvciBhY2N1cmF0ZSBDUFUgYW5kIG1lbW9yeSBwcmVkaWN0aW9uLiIsCiAgICAibWV0aG9kIjogIkEgdHdvLXBoYXNlIG1ldGhvZCBpZGVudGlmaWVzIGluZmx1ZW50aWFsIHRyYWNlIGZlYXR1cmVzIGFuZCBldmFsdWF0ZXMgd2hldGhlciByZWR1Y2VkIGZlYXR1cmUgc2V0cyBwcmVzZXJ2ZSBwcmVkaWN0aXZlIHBlcmZvcm1hbmNlLiBUaGUgZXZhbHVhdGlvbiB1c2VzIGEgbGFyZ2UgQWxpYmFiYSBtaWNyb3NlcnZpY2UgZGF0YXNldCBhbmQgZXhhbWluZXMgdGhlIGFyY2hpdGVjdHVyYWwgbWVhbmluZyBvZiByZXRhaW5lZCBmZWF0dXJlcy4iLAogICAgImZpbmRpbmdzIjogIlRoZSBQdWJQdWIgYXJ0aWNsZSByZXBvcnRzIG1vcmUgdGhhbiA2OSUgZGF0YS12b2x1bWUgcmVkdWN0aW9uIHdpdGhvdXQgbG9zcyBvZiBwcmVkaWN0aXZlIGFjY3VyYWN5LCB3aXRoIHNvbWUgbW9kZWxzIGltcHJvdmluZy4gVGhlIHJldGFpbmVkIGZlYXR1cmVzIGNvbmNlbnRyYXRlIG9uIGludGVyLXNlcnZpY2UgY29tbXVuaWNhdGlvbiBhbmQgcmVzb3VyY2UgYWNjZXNzLiIsCiAgICAibGltaXRhdGlvbnMiOiAiVGhlIHJlc3VsdHMgZGVwZW5kIG9uIHRoZSBBbGliYWJhIGRhdGFzZXQsIHNlbGVjdGVkIHByZWRpY3Rpb24gdGFyZ2V0cywgYW5kIGdyYWRpZW50LWJvb3N0aW5nIG1vZGVscy4iLAogICAgImZ1dHVyZV93b3JrIjogIkZ1dHVyZSB3b3JrIHNob3VsZCB0ZXN0IG90aGVyIG1pY3Jvc2VydmljZSBwbGF0Zm9ybXMsIHRyYWNlIGZvcm1hdHMsIHdvcmtsb2FkcywgcHJlZGljdGlvbiB0YXNrcywgYW5kIG9ubGluZSByZWR1Y3Rpb24gcG9saWNpZXMuIgogIH0sCiAgInRhZ3MiOiBbCiAgICAibWljcm9zZXJ2aWNlcyIsCiAgICAidHJhY2UtcmVkdWN0aW9uIiwKICAgICJncmFkaWVudC1ib29zdGluZyIsCiAgICAicGVyZm9ybWFuY2UtbW9kZWxpbmciLAogICAgInJlc291cmNlLWFuYWx5c2lzIgogIF0sCiAgImtleXdvcmRzIjogWwogICAgInRyYWNlIGRhdGEgdm9sdW1lIiwKICAgICJmZWF0dXJlIGltcG9ydGFuY2UiLAogICAgIkNQVSBkZW1hbmQiLAogICAgIm1lbW9yeSBkZW1hbmQiLAogICAgIkFsaWJhYmEgbWljcm9zZXJ2aWNlcyIsCiAgICAiaW50ZXItc2VydmljZSBjb21tdW5pY2F0aW9uIgogIF0sCiAgInZlcnNpb25zIjogWwogICAgewogICAgICAiaWQiOiAicHVibGljLXB1Ymxpc2hlZC1hcnRpY2xlIiwKICAgICAgImxhYmVsIjogIlB1YmxpYyBwdWJsaXNoZWQgYXJ0aWNsZSIsCiAgICAgICJyZWxhdGlvbiI6ICJ2ZXJzaW9uLW9mLXJlY29yZCIsCiAgICAgICJ0aXRsZSI6ICJBdXRvbWF0aWMgUmVkdWN0aW9uIG9mIEV4ZWN1dGlvbiBUcmFjZSBEYXRhIFZvbHVtZSBVc2luZyBHcmFkaWVudCBCb29zdGluZyBpbiBMYXJnZS1TY2FsZSBNaWNyb3NlcnZpY2UgU3lzdGVtcyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9jYWlhYy5wdWJwdWIub3JnL3B1Yi9kaDN6eHF1ai9yZWxlYXNlLzEiLAogICAgICAicGRmX3VybCI6IG51bGwsCiAgICAgICJzdGF0dXMiOiAicHVibGljX2Z1bGxfdGV4dF9wYWdlIiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgImlkIjogInB1YnB1Yi1kb2kiLAogICAgICAibGFiZWwiOiAiUHViUHViIERPSSIsCiAgICAgICJyZWxhdGlvbiI6ICJ2ZXJzaW9uLW9mLXJlY29yZCIsCiAgICAgICJ0aXRsZSI6ICJBdXRvbWF0aWMgUmVkdWN0aW9uIG9mIEV4ZWN1dGlvbiBUcmFjZSBEYXRhIFZvbHVtZSBVc2luZyBHcmFkaWVudCBCb29zdGluZyBpbiBMYXJnZS1TY2FsZSBNaWNyb3NlcnZpY2UgU3lzdGVtcyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9kb2kub3JnLzEwLjIxNDI4LzU5NDc1N2RiLmZlOGI3NmNmIiwKICAgICAgInBkZl91cmwiOiBudWxsLAogICAgICAic3RhdHVzIjogImRvaSIsCiAgICAgICJjYW5vbmljYWxfZm9yX2NpdGF0aW9uIjogdHJ1ZQogICAgfQogIF0sCiAgImFjY2VzcyI6IHsKICAgICJzdGF0dXMiOiAicHVibGljX2NjX2J5X2FydGljbGVfcGFnZSIsCiAgICAibm90ZSI6ICJUaGUgb2ZmaWNpYWwgUHViUHViIHBhZ2UgZXhwb3NlcyB0aGUgZnVsbCBhcnRpY2xlLCBhIERvd25sb2FkIGFjdGlvbiwgYW5kIGEgQ0MtQlkgNC4wIGxpY2Vuc2UuIFRoZSByZXBvc2l0b3J5IGxpbmtzIHRoZSBzb3VyY2UgcGFnZSByYXRoZXIgdGhhbiBjb3B5aW5nIHRoZSBQREYuIiwKICAgICJsaWNlbnNlIjogIkNDLUJZLTQuMCIKICB9LAogICJyZXNvdXJjZXMiOiB7CiAgICAiY29kZSI6IG51bGwsCiAgICAiZGF0YSI6IG51bGwsCiAgICAic2xpZGVzIjogbnVsbCwKICAgICJkZW1vIjogbnVsbAogIH0sCiAgImNpdGF0aW9uX2d1aWRhbmNlIjogewogICAgIndoZW5fdG9fY2l0ZSI6ICJDaXRlIHRoaXMgcGFwZXIgd2hlbiByZWR1Y2luZyB0cmFjZSB2b2x1bWUgZm9yIG1pY3Jvc2VydmljZSBwZXJmb3JtYW5jZSBtb2RlbGluZy4iLAogICAgInBvaW50cyI6IFsKICAgICAgIkdyYWRpZW50LWJvb3N0aW5nIGZlYXR1cmUgaW1wb3J0YW5jZSBmb3IgdHJhY2UtZGF0YSByZWR1Y3Rpb24uIiwKICAgICAgIlRyYWNlLXZvbHVtZSB0cmFkZS1vZmZzIGZvciBDUFUsIG1lbW9yeSwgYW5kIGNvbW11bmljYXRpb24gc2lnbmFscy4iLAogICAgICAiTGFyZ2Utc2NhbGUgbWljcm9zZXJ2aWNlIHBlcmZvcm1hbmNlIGFuYWx5c2lzIHdpdGggbGVzcyByZXRhaW5lZCB0cmFjZSBkYXRhLiIKICAgIF0sCiAgICAiY2Fub25pY2FsX3ZlcnNpb25faWQiOiAicHVicHViLWRvaSIKICB9LAogICJwcm92ZW5hbmNlIjogewogICAgIm1ldGFkYXRhX3ZlcmlmaWVkX29uIjogIjIwMjYtMDgtMDMiLAogICAgIm1ldGFkYXRhX3NvdXJjZSI6IFsKICAgICAgIm9mZmljaWFsIENhbmFkaWFuIEFJIFByb2NlZWRpbmdzIFB1YlB1YiBwYWdlIiwKICAgICAgIlB1YlB1YiBwYWdlIHJlcG9ydHMgQ0MtQlkgNC4wIGFuZCBhIERvd25sb2FkIGFjdGlvbiIsCiAgICAgICJEQkxQIG1ldGFkYXRhIG1hdGNoZWQgYnkgdGl0bGUsIGF1dGhvcnMsIGFuZCB5ZWFyIgogICAgXSwKICAgICJzdW1tYXJ5X3dyaXR0ZW5fYnkiOiAiQUktYXNzaXN0ZWQiLAogICAgInN1bW1hcnlfdmVyaWZpZWRfYnkiOiAic291cmNlLWdyb3VuZGVkIGNhdGFsb2cgcmV2aWV3OyBhdXRob3IgYXBwcm92YWwgcGVuZGluZyIsCiAgICAibGlua2VkX3ByZXByaW50X3JlY29yZCI6IG51bGwsCiAgICAiYXV0aG9yX29yZGVyX25vdGUiOiBudWxsCiAgfSwKICAiYmF0Y2giOiB7CiAgICAicGhhc2UiOiAyLAogICAgImJhdGNoX2xhYmVsIjogImV4cGFuZGVkIHRoaXJ0eS1wYXBlciByZWxlYXNlIiwKICAgICJzdGF0dXMiOiAiaW5jbHVkZWRfaW5fZXhwYW5kZWRfY2F0YWxvZyIsCiAgICAic2VsZWN0ZWRfYXQiOiAiMjAyNi0wOC0wMyIKICB9Cn0K
+{
+  "schema_version": "0.4.0",
+  "paper_id": "automatic-reduction-execution-trace-data-volume",
+  "page_url": "https://naser.github.io/research-publications/papers/automatic-reduction-execution-trace-data-volume/",
+  "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
+  "title_variants": [
+    "Automatic Reduction of Execution Trace Data Volume UsingGradient Boosting in Large-Scale Microservice Systems (source-page rendering variant)"
+  ],
+  "authors": [
+    "Amir Haghshenas",
+    "Naser Ezzati-Jivan",
+    "Michel Dagenais"
+  ],
+  "publication": {
+    "year": 2024,
+    "venue": "The 37th Canadian Conference on Artificial Intelligence",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "public_cc_by_article_page",
+  "canonical_source_url": "https://doi.org/10.21428/594757db.fe8b76cf",
+  "source_record_id": "automatic-reduction-of-execution-trace-data-volume-using-gradient-boosting-in-large-scale-micros-bd85452d56",
+  "identifiers": {
+    "doi": "10.21428/594757db.fe8b76cf"
+  },
+  "abstract": "In large microservice systems, collecting too little or too much trace data can make performance modeling unreliable. This work introduces a two-phase gradient-boosting method that identifies the most important trace features for predicting CPU and memory demand. Using a comprehensive Alibaba dataset, the study reports more than 69% reduction in data volume without compromising, and sometimes improving, model accuracy. The retained features emphasize inter-service communication and resource-access patterns.",
+  "abstract_source": "official Canadian AI Proceedings PubPub page observed 2026-08-03",
+  "summary": {
+    "core_contribution": "The paper uses gradient boosting and feature importance to reduce the amount of trace data needed for microservice performance modeling.",
+    "problem": "Large-scale microservice traces are expensive to collect, store, and analyze, but reducing them arbitrarily can remove features needed for accurate CPU and memory prediction.",
+    "method": "A two-phase method identifies influential trace features and evaluates whether reduced feature sets preserve predictive performance. The evaluation uses a large Alibaba microservice dataset and examines the architectural meaning of retained features.",
+    "findings": "The PubPub article reports more than 69% data-volume reduction without loss of predictive accuracy, with some models improving. The retained features concentrate on inter-service communication and resource access.",
+    "limitations": "The results depend on the Alibaba dataset, selected prediction targets, and gradient-boosting models.",
+    "future_work": "Future work should test other microservice platforms, trace formats, workloads, prediction tasks, and online reduction policies."
+  },
+  "tags": [
+    "microservices",
+    "trace-reduction",
+    "gradient-boosting",
+    "performance-modeling",
+    "resource-analysis"
+  ],
+  "keywords": [
+    "trace data volume",
+    "feature importance",
+    "CPU demand",
+    "memory demand",
+    "Alibaba microservices",
+    "inter-service communication"
+  ],
+  "versions": [
+    {
+      "id": "public-published-article",
+      "label": "Public published article",
+      "relation": "version-of-record",
+      "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
+      "url": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
+      "pdf_url": null,
+      "status": "public_full_text_page",
+      "canonical_for_citation": false
+    },
+    {
+      "id": "pubpub-doi",
+      "label": "PubPub DOI",
+      "relation": "version-of-record",
+      "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
+      "url": "https://doi.org/10.21428/594757db.fe8b76cf",
+      "pdf_url": null,
+      "status": "doi",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "public_cc_by_article_page",
+    "note": "The official PubPub page exposes the full article, a Download action, and a CC-BY 4.0 license. The repository links the source page rather than copying the PDF.",
+    "license": "CC-BY-4.0"
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when reducing trace volume for microservice performance modeling.",
+    "points": [
+      "Gradient-boosting feature importance for trace-data reduction.",
+      "Trace-volume trade-offs for CPU, memory, and communication signals.",
+      "Large-scale microservice performance analysis with less retained trace data."
+    ],
+    "canonical_version_id": "pubpub-doi"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "official Canadian AI Proceedings PubPub page",
+      "PubPub page reports CC-BY 4.0 and a Download action",
+      "DBLP metadata matched by title, authors, and year"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

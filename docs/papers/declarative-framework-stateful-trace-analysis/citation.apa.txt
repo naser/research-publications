@@ -1,1 +1,1 @@
-V2luaW5nZXIsIEYuLCBFenphdGktSml2YW4sIE4uLCAmIERhZ2VuYWlzLCBNLiBSLiAoMjAxNykuIEEgZGVjbGFyYXRpdmUgZnJhbWV3b3JrIGZvciBzdGF0ZWZ1bCBhbmFseXNpcyBvZiBleGVjdXRpb24gdHJhY2VzLiBTb2Z0d2FyZSBRdWFsaXR5IEpvdXJuYWwuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMDA3L3MxMTIxOS0wMTYtOTMxMS0wCg==
+Wininger, F., Ezzati-Jivan, N., & Dagenais, M. R. (2017). A declarative framework for stateful analysis of execution traces. Software Quality Journal. https://doi.org/10.1007/s11219-016-9311-0

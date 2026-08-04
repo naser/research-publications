@@ -1,1 +1,10 @@
-VFkgIC0gQ09ORgpBVSAgLSBXYWxsYWNlLCBUb20KQVUgIC0gT21idWtpLUJlcm1hbiwgQmVhdHJpY2UgTS4KQVUgIC0gRXp6YXRpLUppdmFuLCBOYXNlcgpUSSAgLSBPcHRpbWl6YXRpb24gU3RyYXRlZ2llcyBmb3IgRW5oYW5jaW5nIFJlc291cmNlIEVmZmljaWVuY3kgaW4gVHJhbnNmb3JtZXJzICYgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzClBZICAtIDIwMjUKVDIgIC0gQUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKQpETyAgLSAxMC4xMTQ1LzM2NzYxNTEuMzcxOTM3OQpVUiAgLSBodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjc2MTUxLjM3MTkzNzkKRVIgIC0K
+TY  - CONF
+AU  - Wallace, Tom
+AU  - Ombuki-Berman, Beatrice M.
+AU  - Ezzati-Jivan, Naser
+TI  - Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models
+PY  - 2025
+T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+DO  - 10.1145/3676151.3719379
+UR  - https://doi.org/10.1145/3676151.3719379
+ER  -

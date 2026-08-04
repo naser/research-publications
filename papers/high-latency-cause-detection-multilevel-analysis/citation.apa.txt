@@ -1,1 +1,1 @@
-RXp6YXRpLUppdmFuLCBOLiwgQmFzdGllbiwgRy4sICYgRGFnZW5haXMsIE0uIFIuICgyMDE4KS4gSGlnaCBsYXRlbmN5IGNhdXNlIGRldGVjdGlvbiB1c2luZyBtdWx0aWxldmVsIGR5bmFtaWMgYW5hbHlzaXMuIElFRUUgU3lzdGVtcyBDb25mZXJlbmNlLiBodHRwczovL2RvaS5vcmcvMTAuMTEwOS9zeXNjb24uMjAxOC44MzY5NjEzCg==
+Ezzati-Jivan, N., Bastien, G., & Dagenais, M. R. (2018). High latency cause detection using multilevel dynamic analysis. IEEE Systems Conference. https://doi.org/10.1109/syscon.2018.8369613

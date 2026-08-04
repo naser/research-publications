@@ -1,1 +1,5 @@
-IyBsYW5ndWFnZSBtb2RlbHMKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipsYW5ndWFnZSBtb2RlbHMqKi4KCi0gW0xNQVQ6IEFuIGFkYXB0aXZlIHRyYWNpbmcgYXBwcm9hY2ggYmFzZWQgb24gZWZmaWNpZW50IHN5c3RlbSBiZWhhdmlvciBhbmFseXNpcyB1c2luZyBsYW5ndWFnZSBtb2RlbHNdKC4uL3BhcGVycy9sbWF0LWFkYXB0aXZlLXRyYWNpbmctbGFuZ3VhZ2UtbW9kZWxzL1JFQURNRS5tZCkgLSAyMDI2Cg==
+# language models
+
+Papers indexed by keyword **language models**.
+
+- [LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models](../papers/lmat-adaptive-tracing-language-models/README.md) - 2026

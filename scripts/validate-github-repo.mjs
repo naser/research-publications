@@ -1,1 +1,330 @@
-aW1wb3J0IHsgcmVhZEZpbGUsIHJlYWRkaXIsIHN0YXQgfSBmcm9tICJub2RlOmZzL3Byb21pc2VzIjsKaW1wb3J0IHBhdGggZnJvbSAibm9kZTpwYXRoIjsKCmNvbnN0IHdvcmtzcGFjZSA9IHByb2Nlc3MuY3dkKCk7CmNvbnN0IHJlcG9Sb290ID0gcGF0aC5qb2luKHdvcmtzcGFjZSwgImdpdGh1Yi1yZXBvIik7CmNvbnN0IGZhaWx1cmVzID0gW107CmNvbnN0IHdhcm5pbmdzID0gW107CmNvbnN0IGV4cGVjdGVkU2NoZW1hVmVyc2lvbiA9ICIwLjQuMCI7CmNvbnN0IHNpdGVCYXNlID0gImh0dHBzOi8vbmFzZXIuZ2l0aHViLmlvL3Jlc2VhcmNoLXB1YmxpY2F0aW9ucyI7CmNvbnN0IGJhZEVuY29kaW5nID0gLyg/OltcdTAwYzJcdTAwYzNdLnxcdTAwZTJbXHUwMDgwLVx1MDBiZl18XHVmZmZkKS91OwoKY29uc3QgZXhpc3RzID0gYXN5bmMgKGZpbGUpID0+IHsKICB0cnkgewogICAgYXdhaXQgc3RhdChmaWxlKTsKICAgIHJldHVybiB0cnVlOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbHNlOwogIH0KfTsKCmNvbnN0IHJlYWRUZXh0ID0gYXN5bmMgKGZpbGUpID0+IHJlYWRGaWxlKGZpbGUsICJ1dGY4Iik7CmNvbnN0IHJlYWRKc29uID0gYXN5bmMgKGZpbGUpID0+IEpTT04ucGFyc2UoYXdhaXQgcmVhZFRleHQoZmlsZSkpOwoKY29uc3QgdmFsaWRVcmwgPSAodmFsdWUpID0+IHsKICBpZiAodHlwZW9mIHZhbHVlICE9PSAic3RyaW5nIiB8fCAhdmFsdWUudHJpbSgpIHx8IC9ccy91LnRlc3QodmFsdWUpKSByZXR1cm4gZmFsc2U7CiAgdHJ5IHsKICAgIHJldHVybiAvXmh0dHBzPzokL3UudGVzdChuZXcgVVJMKHZhbHVlKS5wcm90b2NvbCk7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9OwoKY29uc3QgdmFsaWREYXRlID0gKHZhbHVlKSA9PiB7CiAgaWYgKHR5cGVvZiB2YWx1ZSAhPT0gInN0cmluZyIgfHwgIS9eXGR7NH0tXGR7Mn0tXGR7Mn0kL3UudGVzdCh2YWx1ZSkpIHJldHVybiBmYWxzZTsKICBjb25zdCBkYXRlID0gbmV3IERhdGUodmFsdWUgKyAiVDAwOjAwOjAwWiIpOwogIHJldHVybiAhTnVtYmVyLmlzTmFOKGRhdGUuZ2V0VGltZSgpKSAmJiBkYXRlLnRvSVNPU3RyaW5nKCkuc3RhcnRzV2l0aCh2YWx1ZSk7Cn07Cgpjb25zdCB0eXBlTWF0Y2hlcyA9ICh2YWx1ZSwgdHlwZSkgPT4gewogIGlmICh0eXBlID09PSAibnVsbCIpIHJldHVybiB2YWx1ZSA9PT0gbnVsbDsKICBpZiAodHlwZSA9PT0gIm9iamVjdCIpIHJldHVybiB2YWx1ZSAhPT0gbnVsbCAmJiB0eXBlb2YgdmFsdWUgPT09ICJvYmplY3QiICYmICFBcnJheS5pc0FycmF5KHZhbHVlKTsKICBpZiAodHlwZSA9PT0gImFycmF5IikgcmV0dXJuIEFycmF5LmlzQXJyYXkodmFsdWUpOwogIGlmICh0eXBlID09PSAiaW50ZWdlciIpIHJldHVybiBOdW1iZXIuaXNJbnRlZ2VyKHZhbHVlKTsKICBpZiAodHlwZSA9PT0gIm51bWJlciIpIHJldHVybiB0eXBlb2YgdmFsdWUgPT09ICJudW1iZXIiICYmIE51bWJlci5pc0Zpbml0ZSh2YWx1ZSk7CiAgcmV0dXJuIHR5cGVvZiB2YWx1ZSA9PT0gdHlwZTsKfTsKCmZ1bmN0aW9uIHZhbGlkYXRlQWdhaW5zdFNjaGVtYSh2YWx1ZSwgcnVsZSwgbG9jYXRpb24sIGVycm9ycykgewogIGlmIChydWxlLmNvbnN0ICE9PSB1bmRlZmluZWQgJiYgdmFsdWUgIT09IHJ1bGUuY29uc3QpIGVycm9ycy5wdXNoKGxvY2F0aW9uICsgIiBtdXN0IGVxdWFsICIgKyBKU09OLnN0cmluZ2lmeShydWxlLmNvbnN0KSk7CiAgaWYgKHJ1bGUuZW51bSAmJiAhcnVsZS5lbnVtLmluY2x1ZGVzKHZhbHVlKSkgZXJyb3JzLnB1c2gobG9jYXRpb24gKyAiIGlzIG5vdCBvbmUgb2YgdGhlIGFsbG93ZWQgdmFsdWVzIik7CgogIGlmIChydWxlLnR5cGUpIHsKICAgIGNvbnN0IHR5cGVzID0gQXJyYXkuaXNBcnJheShydWxlLnR5cGUpID8gcnVsZS50eXBlIDogW3J1bGUudHlwZV07CiAgICBpZiAoIXR5cGVzLnNvbWUoKHR5cGUpID0+IHR5cGVNYXRjaGVzKHZhbHVlLCB0eXBlKSkpIHsKICAgICAgZXJyb3JzLnB1c2gobG9jYXRpb24gKyAiIGhhcyBpbnZhbGlkIHR5cGUiKTsKICAgICAgcmV0dXJuOwogICAgfQogIH0KCiAgaWYgKHR5cGVvZiB2YWx1ZSA9PT0gInN0cmluZyIpIHsKICAgIGlmIChydWxlLm1pbkxlbmd0aCAhPT0gdW5kZWZpbmVkICYmIHZhbHVlLmxlbmd0aCA8IHJ1bGUubWluTGVuZ3RoKSBlcnJvcnMucHVzaChsb2NhdGlvbiArICIgaXMgZW1wdHkgb3IgdG9vIHNob3J0Iik7CiAgICBpZiAocnVsZS5wYXR0ZXJuICYmICEobmV3IFJlZ0V4cChydWxlLnBhdHRlcm4sICJ1IikpLnRlc3QodmFsdWUpKSBlcnJvcnMucHVzaChsb2NhdGlvbiArICIgZG9lcyBub3QgbWF0Y2ggaXRzIHBhdHRlcm4iKTsKICAgIGlmIChydWxlLmZvcm1hdCA9PT0gInVyaSIgJiYgIXZhbGlkVXJsKHZhbHVlKSkgZXJyb3JzLnB1c2gobG9jYXRpb24gKyAiIGlzIG5vdCBhIHZhbGlkIEhUVFAoUykgVVJMIik7CiAgICBpZiAocnVsZS5mb3JtYXQgPT09ICJkYXRlIiAmJiAhdmFsaWREYXRlKHZhbHVlKSkgZXJyb3JzLnB1c2gobG9jYXRpb24gKyAiIGlzIG5vdCBhbiBJU08gZGF0ZSIpOwogIH0KCiAgaWYgKEFycmF5LmlzQXJyYXkodmFsdWUpKSB7CiAgICBpZiAocnVsZS5taW5JdGVtcyAhPT0gdW5kZWZpbmVkICYmIHZhbHVlLmxlbmd0aCA8IHJ1bGUubWluSXRlbXMpIGVycm9ycy5wdXNoKGxvY2F0aW9uICsgIiBoYXMgdG9vIGZldyBpdGVtcyIpOwogICAgaWYgKHJ1bGUudW5pcXVlSXRlbXMpIHsKICAgICAgY29uc3Qgc2VyaWFsaXplZCA9IHZhbHVlLm1hcCgoaXRlbSkgPT4gSlNPTi5zdHJpbmdpZnkoaXRlbSkpOwogICAgICBpZiAobmV3IFNldChzZXJpYWxpemVkKS5zaXplICE9PSBzZXJpYWxpemVkLmxlbmd0aCkgZXJyb3JzLnB1c2gobG9jYXRpb24gKyAiIGNvbnRhaW5zIGR1cGxpY2F0ZSBpdGVtcyIpOwogICAgfQogICAgaWYgKHJ1bGUuaXRlbXMpIHZhbHVlLmZvckVhY2goKGl0ZW0sIGluZGV4KSA9PiB2YWxpZGF0ZUFnYWluc3RTY2hlbWEoaXRlbSwgcnVsZS5pdGVtcywgbG9jYXRpb24gKyAiWyIgKyBpbmRleCArICJdIiwgZXJyb3JzKSk7CiAgfQoKICBpZiAodmFsdWUgIT09IG51bGwgJiYgdHlwZW9mIHZhbHVlID09PSAib2JqZWN0IiAmJiAhQXJyYXkuaXNBcnJheSh2YWx1ZSkpIHsKICAgIGlmIChydWxlLnJlcXVpcmVkKSB7CiAgICAgIGZvciAoY29uc3Qga2V5IG9mIHJ1bGUucmVxdWlyZWQpIHsKICAgICAgICBpZiAoIU9iamVjdC5wcm90b3R5cGUuaGFzT3duUHJvcGVydHkuY2FsbCh2YWx1ZSwga2V5KSkgZXJyb3JzLnB1c2gobG9jYXRpb24gKyAiIGlzIG1pc3NpbmcgIiArIGtleSk7CiAgICAgIH0KICAgIH0KICAgIGlmIChydWxlLmFkZGl0aW9uYWxQcm9wZXJ0aWVzID09PSBmYWxzZSAmJiBydWxlLnByb3BlcnRpZXMpIHsKICAgICAgZm9yIChjb25zdCBrZXkgb2YgT2JqZWN0LmtleXModmFsdWUpKSB7CiAgICAgICAgaWYgKCFPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwocnVsZS5wcm9wZXJ0aWVzLCBrZXkpKSBlcnJvcnMucHVzaChsb2NhdGlvbiArICIgaGFzIHVuZXhwZWN0ZWQgZmllbGQgIiArIGtleSk7CiAgICAgIH0KICAgIH0KICAgIGZvciAoY29uc3QgW2tleSwgY2hpbGRSdWxlXSBvZiBPYmplY3QuZW50cmllcyhydWxlLnByb3BlcnRpZXMgPz8ge30pKSB7CiAgICAgIGlmIChPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwodmFsdWUsIGtleSkpIHZhbGlkYXRlQWdhaW5zdFNjaGVtYSh2YWx1ZVtrZXldLCBjaGlsZFJ1bGUsIGxvY2F0aW9uICsgIi4iICsga2V5LCBlcnJvcnMpOwogICAgfQogIH0KfQoKY29uc3Qgbm9ybWFsaXplS2V5d29yZCA9ICh2YWx1ZSkgPT4gU3RyaW5nKHZhbHVlKS5ub3JtYWxpemUoIk5GS0QiKS5yZXBsYWNlKC9bXHUwMzAwLVx1MDM2Zl0vZ3UsICIiKS50b0xvd2VyQ2FzZSgpLnRyaW0oKS5yZXBsYWNlKC9ccysvZ3UsICIgIik7CmNvbnN0IGtleXdvcmRTbHVnID0gKHZhbHVlKSA9PiBub3JtYWxpemVLZXl3b3JkKHZhbHVlKS5yZXBsYWNlKC9bXmEtejAtOV0rL2d1LCAiLSIpLnJlcGxhY2UoL14tfC0kL2d1LCAiIik7CmNvbnN0IG5vcm1hbGl6ZURvaSA9ICh2YWx1ZSkgPT4gU3RyaW5nKHZhbHVlKS50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoL15odHRwcz86XC9cLyhkeFwuKT9kb2lcLm9yZ1wvL3UsICIiKS5yZXBsYWNlKC9eZG9pOlxzKi91LCAiIikudHJpbSgpOwoKYXN5bmMgZnVuY3Rpb24gd2FsayhkaXIsIHJlbGF0aXZlID0gIiIpIHsKICBjb25zdCByZXN1bHQgPSBbXTsKICBmb3IgKGNvbnN0IGVudHJ5IG9mIGF3YWl0IHJlYWRkaXIoZGlyLCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSkpIHsKICAgIGNvbnN0IGNoaWxkUmVsYXRpdmUgPSByZWxhdGl2ZSA/IHBhdGguam9pbihyZWxhdGl2ZSwgZW50cnkubmFtZSkgOiBlbnRyeS5uYW1lOwogICAgY29uc3QgY2hpbGQgPSBwYXRoLmpvaW4oZGlyLCBlbnRyeS5uYW1lKTsKICAgIGlmIChlbnRyeS5pc0RpcmVjdG9yeSgpKSB7CiAgICAgIGlmIChlbnRyeS5uYW1lID09PSAiLmdpdCIpIGNvbnRpbnVlOwogICAgICByZXN1bHQucHVzaCguLi5hd2FpdCB3YWxrKGNoaWxkLCBjaGlsZFJlbGF0aXZlKSk7CiAgICB9IGVsc2UgewogICAgICByZXN1bHQucHVzaCh7IHBhdGg6IGNoaWxkLCByZWxhdGl2ZTogY2hpbGRSZWxhdGl2ZS5yZXBsYWNlQWxsKCJcXCIsICIvIikgfSk7CiAgICB9CiAgfQogIHJldHVybiByZXN1bHQ7Cn0KCmNvbnN0IHJlcXVpcmVkUm9vdCA9IFsKICAiUkVBRE1FLm1kIiwKICAib3V0bGluZS5tZCIsCiAgImNhdGFsb2cuanNvbiIsCiAgIkNJVEFUSU9OLmNmZiIsCiAgInNjaGVtYXMvcGFwZXIuc2NoZW1hLmpzb24iLAogICJzY2hlbWFzL3ZvY2FidWxhcmllcy5qc29uIiwKICAic2NyaXB0cy92YWxpZGF0ZS1naXRodWItcmVwby5tanMiLAogICJkb2NzL2luZGV4Lmh0bWwiLAogICJkb2NzL2NhdGFsb2cuanNvbiIsCiAgImRvY3Mvb3V0bGluZS5tZCIsCiAgImRvY3Mvcm9ib3RzLnR4dCIsCiAgImRvY3Mvc2l0ZW1hcC54bWwiLAogICJkb2NzLy5ub2pla3lsbCIsCiAgImRvY3Mvc2NoZW1hcy9wYXBlci5zY2hlbWEuanNvbiIsCiAgImRvY3Mvc2NoZW1hcy92b2NhYnVsYXJpZXMuanNvbiIsCiAgImRvY3MvdG9waWNzL2luZGV4Lmh0bWwiLAogICJkb2NzL2tleXdvcmRzL2luZGV4Lmh0bWwiCl07Cgpmb3IgKGNvbnN0IHJlbGF0aXZlIG9mIHJlcXVpcmVkUm9vdCkgewogIGlmICghYXdhaXQgZXhpc3RzKHBhdGguam9pbihyZXBvUm9vdCwgcmVsYXRpdmUpKSkgZmFpbHVyZXMucHVzaCgibWlzc2luZyByZXF1aXJlZCBhcnRpZmFjdDogIiArIHJlbGF0aXZlKTsKfQoKbGV0IGNhdGFsb2c7CmxldCBzY2hlbWE7CmxldCB2b2NhYnVsYXJ5Owpmb3IgKGNvbnN0IFtsYWJlbCwgcmVsYXRpdmVdIG9mIFsKICBbImNhdGFsb2cuanNvbiIsICJjYXRhbG9nLmpzb24iXSwKICBbInNjaGVtYXMvcGFwZXIuc2NoZW1hLmpzb24iLCAic2NoZW1hcy9wYXBlci5zY2hlbWEuanNvbiJdLAogIFsic2NoZW1hcy92b2NhYnVsYXJpZXMuanNvbiIsICJzY2hlbWFzL3ZvY2FidWxhcmllcy5qc29uIl0KXSkgewogIHRyeSB7CiAgICBjb25zdCB2YWx1ZSA9IGF3YWl0IHJlYWRKc29uKHBhdGguam9pbihyZXBvUm9vdCwgcmVsYXRpdmUpKTsKICAgIGlmIChsYWJlbCA9PT0gImNhdGFsb2cuanNvbiIpIGNhdGFsb2cgPSB2YWx1ZTsKICAgIGlmIChsYWJlbCA9PT0gInNjaGVtYXMvcGFwZXIuc2NoZW1hLmpzb24iKSBzY2hlbWEgPSB2YWx1ZTsKICAgIGlmIChsYWJlbCA9PT0gInNjaGVtYXMvdm9jYWJ1bGFyaWVzLmpzb24iKSB2b2NhYnVsYXJ5ID0gdmFsdWU7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGZhaWx1cmVzLnB1c2gobGFiZWwgKyAiIGlzIGludmFsaWQ6ICIgKyBlcnJvci5tZXNzYWdlKTsKICB9Cn0KCmlmIChzY2hlbWEpIHsKICBpZiAoc2NoZW1hLiRzY2hlbWEgIT09ICJodHRwczovL2pzb24tc2NoZW1hLm9yZy9kcmFmdC8yMDIwLTEyL3NjaGVtYSIpIGZhaWx1cmVzLnB1c2goInBhcGVyIHNjaGVtYSBoYXMgYW4gdW5leHBlY3RlZCAkc2NoZW1hIik7CiAgaWYgKHNjaGVtYS5wcm9wZXJ0aWVzPy5zY2hlbWFfdmVyc2lvbj8uY29uc3QgIT09IGV4cGVjdGVkU2NoZW1hVmVyc2lvbikgZmFpbHVyZXMucHVzaCgicGFwZXIgc2NoZW1hIGRvZXMgbm90IGZyZWV6ZSBzY2hlbWEgdmVyc2lvbiAiICsgZXhwZWN0ZWRTY2hlbWFWZXJzaW9uKTsKfQppZiAoY2F0YWxvZz8uc2NoZW1hX3ZlcnNpb24gIT09IGV4cGVjdGVkU2NoZW1hVmVyc2lvbikgZmFpbHVyZXMucHVzaCgiY2F0YWxvZyBzY2hlbWFfdmVyc2lvbiBpcyBub3QgIiArIGV4cGVjdGVkU2NoZW1hVmVyc2lvbik7CmlmICghQXJyYXkuaXNBcnJheShjYXRhbG9nPy5yZWNvcmRzKSB8fCAhY2F0YWxvZy5yZWNvcmRzLmxlbmd0aCkgZmFpbHVyZXMucHVzaCgiY2F0YWxvZyBoYXMgbm8gcmVjb3JkcyIpOwoKZm9yIChjb25zdCByZWxhdGl2ZSBvZiBbInNjaGVtYXMvcGFwZXIuc2NoZW1hLmpzb24iLCAic2NoZW1hcy92b2NhYnVsYXJpZXMuanNvbiIsICJjYXRhbG9nLmpzb24iXSkgewogIGNvbnN0IHNvdXJjZSA9IHBhdGguam9pbihyZXBvUm9vdCwgcmVsYXRpdmUpOwogIGNvbnN0IG1pcnJvciA9IHBhdGguam9pbihyZXBvUm9vdCwgImRvY3MiLCByZWxhdGl2ZSk7CiAgaWYgKGF3YWl0IGV4aXN0cyhzb3VyY2UpICYmIGF3YWl0IGV4aXN0cyhtaXJyb3IpICYmIChhd2FpdCByZWFkVGV4dChzb3VyY2UpKSAhPT0gKGF3YWl0IHJlYWRUZXh0KG1pcnJvcikpKSB7CiAgICBmYWlsdXJlcy5wdXNoKCJkb2NzIG1pcnJvciBkaWZmZXJzIGZyb20gIiArIHJlbGF0aXZlKTsKICB9Cn0KCmNvbnN0IHRvcGljSWRzID0gbmV3IFNldCh2b2NhYnVsYXJ5Py50b3BpY3M/Lm1hcCgodG9waWMpID0+IHRvcGljLmlkKSA/PyBbXSk7CmNvbnN0IGtleXdvcmRBbGlhc2VzID0gdm9jYWJ1bGFyeT8ua2V5d29yZF9wb2xpY3k/LmFsaWFzZXMgPz8ge307CmNvbnN0IHBhcGVyRW50cmllcyA9IChhd2FpdCByZWFkZGlyKHBhdGguam9pbihyZXBvUm9vdCwgInBhcGVycyIpLCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSkuY2F0Y2goKCkgPT4gW10pKTsKY29uc3QgcGFwZXJJZHMgPSBwYXBlckVudHJpZXMuZmlsdGVyKChlbnRyeSkgPT4gZW50cnkuaXNEaXJlY3RvcnkoKSkubWFwKChlbnRyeSkgPT4gZW50cnkubmFtZSkuc29ydCgpOwpjb25zdCBjYXRhbG9nQnlJZCA9IG5ldyBNYXAoKGNhdGFsb2c/LnJlY29yZHMgPz8gW10pLm1hcCgocmVjb3JkKSA9PiBbcmVjb3JkLnBhcGVyX2lkLCByZWNvcmRdKSk7CmNvbnN0IHNlZW5Eb2lzID0gbmV3IE1hcCgpOwpjb25zdCBzZWVuU291cmNlUmVjb3JkcyA9IG5ldyBNYXAoKTsKY29uc3Qgc2VlbktleXdvcmRzID0gbmV3IE1hcCgpOwoKaWYgKGNhdGFsb2cgJiYgY2F0YWxvZy5yZWNvcmRzLmxlbmd0aCAhPT0gcGFwZXJJZHMubGVuZ3RoKSBmYWlsdXJlcy5wdXNoKCJjYXRhbG9nIHJlY29yZCBjb3VudCBkb2VzIG5vdCBtYXRjaCBwYXBlciBkaXJlY3RvcnkgY291bnQiKTsKaWYgKG5ldyBTZXQoY2F0YWxvZz8ucmVjb3Jkcz8ubWFwKChyZWNvcmQpID0+IHJlY29yZC5wYXBlcl9pZCkgPz8gW10pLnNpemUgIT09IChjYXRhbG9nPy5yZWNvcmRzPy5sZW5ndGggPz8gMCkpIGZhaWx1cmVzLnB1c2goImNhdGFsb2cgY29udGFpbnMgZHVwbGljYXRlIHBhcGVyX2lkIHZhbHVlcyIpOwoKZm9yIChjb25zdCBwYXBlcklkIG9mIHBhcGVySWRzKSB7CiAgY29uc3QgZGlyID0gcGF0aC5qb2luKHJlcG9Sb290LCAicGFwZXJzIiwgcGFwZXJJZCk7CiAgY29uc3QgZG9jc0RpciA9IHBhdGguam9pbihyZXBvUm9vdCwgImRvY3MiLCAicGFwZXJzIiwgcGFwZXJJZCk7CiAgZm9yIChjb25zdCByZWxhdGl2ZSBvZiBbInBhcGVyLmpzb24iLCAiUkVBRE1FLm1kIiwgImNpdGF0aW9uLmJpYiIsICJjaXRhdGlvbi5hcGEudHh0IiwgImNpdGF0aW9uLmllZWUudHh0IiwgImNpdGF0aW9uLnJpcyJdKSB7CiAgICBpZiAoIWF3YWl0IGV4aXN0cyhwYXRoLmpvaW4oZGlyLCByZWxhdGl2ZSkpKSBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBtaXNzaW5nICIgKyByZWxhdGl2ZSk7CiAgICBpZiAoIWF3YWl0IGV4aXN0cyhwYXRoLmpvaW4oZG9jc0RpciwgcmVsYXRpdmUpKSkgZmFpbHVyZXMucHVzaChwYXBlcklkICsgIjogbWlzc2luZyBnZW5lcmF0ZWQgZG9jcy8iICsgcmVsYXRpdmUpOwogIH0KCiAgbGV0IHBhcGVyOwogIHRyeSB7CiAgICBwYXBlciA9IGF3YWl0IHJlYWRKc29uKHBhdGguam9pbihkaXIsICJwYXBlci5qc29uIikpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBpbnZhbGlkIHBhcGVyLmpzb246ICIgKyBlcnJvci5tZXNzYWdlKTsKICAgIGNvbnRpbnVlOwogIH0KCiAgY29uc3Qgc2NoZW1hRXJyb3JzID0gW107CiAgaWYgKHNjaGVtYSkgdmFsaWRhdGVBZ2FpbnN0U2NoZW1hKHBhcGVyLCBzY2hlbWEsIHBhcGVySWQsIHNjaGVtYUVycm9ycyk7CiAgZmFpbHVyZXMucHVzaCguLi5zY2hlbWFFcnJvcnMpOwogIGlmIChwYXBlci5wYXBlcl9pZCAhPT0gcGFwZXJJZCkgZmFpbHVyZXMucHVzaChwYXBlcklkICsgIjogcGFwZXJfaWQgZG9lcyBub3QgbWF0Y2ggZGlyZWN0b3J5Iik7CiAgaWYgKHBhcGVyLnBhZ2VfdXJsICE9PSBzaXRlQmFzZSArICIvcGFwZXJzLyIgKyBwYXBlcklkICsgIi8iKSBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBwYWdlX3VybCBpcyBub3QgdGhlIHN0YWJsZSBsYW5kaW5nLXBhZ2UgVVJMIik7CiAgaWYgKHBhcGVyLnNvdXJjZV9yZWNvcmRfaWQgJiYgc2VlblNvdXJjZVJlY29yZHMuaGFzKHBhcGVyLnNvdXJjZV9yZWNvcmRfaWQpKSB7CiAgICBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBzb3VyY2VfcmVjb3JkX2lkIGR1cGxpY2F0ZXMgIiArIHNlZW5Tb3VyY2VSZWNvcmRzLmdldChwYXBlci5zb3VyY2VfcmVjb3JkX2lkKSk7CiAgfSBlbHNlIGlmIChwYXBlci5zb3VyY2VfcmVjb3JkX2lkKSB7CiAgICBzZWVuU291cmNlUmVjb3Jkcy5zZXQocGFwZXIuc291cmNlX3JlY29yZF9pZCwgcGFwZXJJZCk7CiAgfQoKICBjb25zdCBkb2kgPSBwYXBlci5pZGVudGlmaWVycz8uZG9pOwogIGlmIChkb2kpIHsKICAgIGNvbnN0IG5vcm1hbGl6ZWQgPSBub3JtYWxpemVEb2koZG9pKTsKICAgIGlmIChzZWVuRG9pcy5oYXMobm9ybWFsaXplZCkpIGZhaWx1cmVzLnB1c2gocGFwZXJJZCArICI6IGR1cGxpY2F0ZSBET0kgd2l0aCAiICsgc2VlbkRvaXMuZ2V0KG5vcm1hbGl6ZWQpICsgIjogIiArIGRvaSk7CiAgICBlbHNlIHNlZW5Eb2lzLnNldChub3JtYWxpemVkLCBwYXBlcklkKTsKICB9CgogIGNvbnN0IGNhbm9uaWNhbFZlcnNpb25zID0gKHBhcGVyLnZlcnNpb25zID8/IFtdKS5maWx0ZXIoKHZlcnNpb24pID0+IHZlcnNpb24uY2Fub25pY2FsX2Zvcl9jaXRhdGlvbik7CiAgaWYgKGNhbm9uaWNhbFZlcnNpb25zLmxlbmd0aCAhPT0gMSkgZmFpbHVyZXMucHVzaChwYXBlcklkICsgIjogZXhwZWN0ZWQgZXhhY3RseSBvbmUgY2Fub25pY2FsIGNpdGF0aW9uIHZlcnNpb24iKTsKICBpZiAocGFwZXIuY2l0YXRpb25fZ3VpZGFuY2U/LmNhbm9uaWNhbF92ZXJzaW9uX2lkICYmICFwYXBlci52ZXJzaW9ucz8uc29tZSgodmVyc2lvbikgPT4gdmVyc2lvbi5pZCA9PT0gcGFwZXIuY2l0YXRpb25fZ3VpZGFuY2UuY2Fub25pY2FsX3ZlcnNpb25faWQgJiYgdmVyc2lvbi5jYW5vbmljYWxfZm9yX2NpdGF0aW9uKSkgewogICAgZmFpbHVyZXMucHVzaChwYXBlcklkICsgIjogY2Fub25pY2FsX3ZlcnNpb25faWQgZG9lcyBub3QgaWRlbnRpZnkgdGhlIGNhbm9uaWNhbCB2ZXJzaW9uIik7CiAgfQogIGlmIChwYXBlci5jYW5vbmljYWxfc291cmNlX3VybCAmJiAhcGFwZXIudmVyc2lvbnM/LnNvbWUoKHZlcnNpb24pID0+IHZlcnNpb24udXJsID09PSBwYXBlci5jYW5vbmljYWxfc291cmNlX3VybCAmJiB2ZXJzaW9uLmNhbm9uaWNhbF9mb3JfY2l0YXRpb24pKSB7CiAgICBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBjYW5vbmljYWxfc291cmNlX3VybCBpcyBub3QgdGhlIGNhbm9uaWNhbCB2ZXJzaW9uIFVSTCIpOwogIH0KCiAgY29uc3Qgbm9ybWFsaXplZEtleXdvcmRzID0gbmV3IE1hcCgpOwogIGZvciAoY29uc3Qga2V5d29yZCBvZiBwYXBlci5rZXl3b3JkcyA/PyBbXSkgewogICAgY29uc3Qga2V5ID0ga2V5d29yZFNsdWcoa2V5d29yZCk7CiAgICBjb25zdCBhbGlhc1RhcmdldCA9IGtleXdvcmRBbGlhc2VzW2tleV0gPz8ga2V5OwogICAgaWYgKG5vcm1hbGl6ZWRLZXl3b3Jkcy5oYXMoYWxpYXNUYXJnZXQpKSBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBkdXBsaWNhdGUvaW5jb25zaXN0ZW50IGtleXdvcmQ6ICIgKyBrZXl3b3JkKTsKICAgIG5vcm1hbGl6ZWRLZXl3b3Jkcy5zZXQoYWxpYXNUYXJnZXQsIGtleXdvcmQpOwogICAgaWYgKHNlZW5LZXl3b3Jkcy5oYXMoYWxpYXNUYXJnZXQpICYmIHNlZW5LZXl3b3Jkcy5nZXQoYWxpYXNUYXJnZXQpICE9PSBrZXl3b3JkKSB7CiAgICAgIHdhcm5pbmdzLnB1c2goImtleXdvcmQgc3BlbGxpbmcgZGlmZmVycyBhY3Jvc3MgcmVjb3JkczogIiArIHNlZW5LZXl3b3Jkcy5nZXQoYWxpYXNUYXJnZXQpICsgIiAvICIgKyBrZXl3b3JkKTsKICAgIH0gZWxzZSB7CiAgICAgIHNlZW5LZXl3b3Jkcy5zZXQoYWxpYXNUYXJnZXQsIGtleXdvcmQpOwogICAgfQogICAgY29uc3Qga2V5d29yZEZpbGUgPSBwYXRoLmpvaW4ocmVwb1Jvb3QsICJrZXl3b3JkcyIsIGtleSArICIubWQiKTsKICAgIGNvbnN0IGtleXdvcmRIdG1sID0gcGF0aC5qb2luKHJlcG9Sb290LCAiZG9jcyIsICJrZXl3b3JkcyIsIGtleSArICIuaHRtbCIpOwogICAgaWYgKCFhd2FpdCBleGlzdHMoa2V5d29yZEZpbGUpIHx8ICFhd2FpdCBleGlzdHMoa2V5d29yZEh0bWwpKSBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBrZXl3b3JkIGluZGV4IG1pc3NpbmcgZm9yICIgKyBrZXl3b3JkKTsKICB9CgogIGZvciAoY29uc3QgdGFnIG9mIHBhcGVyLnRhZ3MgPz8gW10pIHsKICAgIGlmICghdG9waWNJZHMuaGFzKHRhZykpIGZhaWx1cmVzLnB1c2gocGFwZXJJZCArICI6IHRhZyBpcyBhYnNlbnQgZnJvbSBjb250cm9sbGVkIHZvY2FidWxhcnk6ICIgKyB0YWcpOwogICAgaWYgKCFhd2FpdCBleGlzdHMocGF0aC5qb2luKHJlcG9Sb290LCAidG9waWNzIiwgdGFnICsgIi5tZCIpKSB8fCAhYXdhaXQgZXhpc3RzKHBhdGguam9pbihyZXBvUm9vdCwgImRvY3MiLCAidG9waWNzIiwgdGFnICsgIi5odG1sIikpKSB7CiAgICAgIGZhaWx1cmVzLnB1c2gocGFwZXJJZCArICI6IHRvcGljIGluZGV4IG1pc3NpbmcgZm9yICIgKyB0YWcpOwogICAgfQogIH0KCiAgY29uc3QgaW5zcGVjdFVybHMgPSAodmFsdWUsIGtleSwgbG9jYXRpb24pID0+IHsKICAgIGlmIChBcnJheS5pc0FycmF5KHZhbHVlKSkgewogICAgICB2YWx1ZS5mb3JFYWNoKChpdGVtLCBpbmRleCkgPT4gaW5zcGVjdFVybHMoaXRlbSwga2V5LCBsb2NhdGlvbiArICJbIiArIGluZGV4ICsgIl0iKSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmICh2YWx1ZSAhPT0gbnVsbCAmJiB0eXBlb2YgdmFsdWUgPT09ICJvYmplY3QiKSB7CiAgICAgIGZvciAoY29uc3QgW2NoaWxkS2V5LCBjaGlsZFZhbHVlXSBvZiBPYmplY3QuZW50cmllcyh2YWx1ZSkpIGluc3BlY3RVcmxzKGNoaWxkVmFsdWUsIGNoaWxkS2V5LCBsb2NhdGlvbiArICIuIiArIGNoaWxkS2V5KTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKGtleSA9PT0gInVybCIgfHwga2V5ID09PSAicGFnZV91cmwiIHx8IGtleSA9PT0gImNhbm9uaWNhbF9zb3VyY2VfdXJsIiB8fCBrZXkuZW5kc1dpdGgoIl91cmwiKSkgewogICAgICBpZiAodmFsdWUgIT09IG51bGwgJiYgIXZhbGlkVXJsKHZhbHVlKSkgZmFpbHVyZXMucHVzaChsb2NhdGlvbiArICIgaXMgbm90IGEgdmFsaWQgSFRUUChTKSBVUkwiKTsKICAgIH0KICB9OwogIGluc3BlY3RVcmxzKHBhcGVyLCAiIiwgcGFwZXJJZCk7CgogIGNvbnN0IGh0bWxQYXRoID0gcGF0aC5qb2luKGRvY3NEaXIsICJpbmRleC5odG1sIik7CiAgaWYgKGF3YWl0IGV4aXN0cyhodG1sUGF0aCkpIHsKICAgIGNvbnN0IGh0bWwgPSBhd2FpdCByZWFkVGV4dChodG1sUGF0aCk7CiAgICBmb3IgKGNvbnN0IHJlcXVpcmVkIG9mIFsKICAgICAgIjxsaW5rIHJlbD1cImNhbm9uaWNhbFwiIiwKICAgICAgImFwcGxpY2F0aW9uL2xkK2pzb24iLAogICAgICAiY2l0YXRpb25fdGl0bGUiLAogICAgICAiY2l0YXRpb25fYXV0aG9yIiwKICAgICAgIm9nOnRpdGxlIiwKICAgICAgIldoZW4gdG8gY2l0ZSB0aGlzIHBhcGVyIiwKICAgICAgIkFQQSA3IiwKICAgICAgIklFRUUiLAogICAgICAiaHJlZj1cInBhcGVyLmpzb25cIiIsCiAgICAgICJocmVmPVwiUkVBRE1FLm1kXCIiLAogICAgICAiaHJlZj1cImNpdGF0aW9uLmJpYlwiIiwKICAgICAgImhyZWY9XCJjaXRhdGlvbi5yaXNcIiIKICAgIF0pIHsKICAgICAgaWYgKCFodG1sLmluY2x1ZGVzKHJlcXVpcmVkKSkgZmFpbHVyZXMucHVzaChwYXBlcklkICsgIjogSFRNTCBtaXNzaW5nICIgKyByZXF1aXJlZCk7CiAgICB9CiAgICBpZiAocGFwZXIuaWRlbnRpZmllcnM/LmRvaSAmJiAhaHRtbC5pbmNsdWRlcygiY2l0YXRpb25fZG9pIikpIGZhaWx1cmVzLnB1c2gocGFwZXJJZCArICI6IEhUTUwgbWlzc2luZyBjaXRhdGlvbl9kb2kiKTsKICAgIGlmICgocGFwZXIudmVyc2lvbnMgPz8gW10pLnNvbWUoKHZlcnNpb24pID0+IHZlcnNpb24ucGRmX3VybCkgJiYgIWh0bWwuaW5jbHVkZXMoImNpdGF0aW9uX3BkZl91cmwiKSkgZmFpbHVyZXMucHVzaChwYXBlcklkICsgIjogSFRNTCBtaXNzaW5nIGNpdGF0aW9uX3BkZl91cmwiKTsKICAgIGlmIChodG1sLmluY2x1ZGVzKCImYW1wO21pZGRvdDsiKSB8fCBodG1sLmluY2x1ZGVzKCImYW1wO21kYXNoOyIpIHx8IGh0bWwuaW5jbHVkZXMoIiZhbXA7bGFycjsiKSkgZmFpbHVyZXMucHVzaChwYXBlcklkICsgIjogSFRNTCBjb250YWlucyBlc2NhcGVkIGVudGl0eSB0ZXh0Iik7CiAgICBpZiAoYmFkRW5jb2RpbmcudGVzdChodG1sKSkgZmFpbHVyZXMucHVzaChwYXBlcklkICsgIjogSFRNTCBjb250YWlucyBtb2ppYmFrZSIpOwogIH0KCiAgY29uc3Qgcm9vdEpzb25UZXh0ID0gYXdhaXQgcmVhZFRleHQocGF0aC5qb2luKGRpciwgInBhcGVyLmpzb24iKSkuY2F0Y2goKCkgPT4gbnVsbCk7CiAgY29uc3QgZG9jc0pzb25UZXh0ID0gYXdhaXQgcmVhZFRleHQocGF0aC5qb2luKGRvY3NEaXIsICJwYXBlci5qc29uIikpLmNhdGNoKCgpID0+IG51bGwpOwogIGlmIChyb290SnNvblRleHQgIT09IG51bGwgJiYgZG9jc0pzb25UZXh0ICE9PSBudWxsICYmIHJvb3RKc29uVGV4dCAhPT0gZG9jc0pzb25UZXh0KSBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiByb290IGFuZCBkb2NzIHBhcGVyLmpzb24gZGlmZmVyIik7CgogIGNvbnN0IGNhdGFsb2dSZWNvcmQgPSBjYXRhbG9nQnlJZC5nZXQocGFwZXJJZCk7CiAgaWYgKCFjYXRhbG9nUmVjb3JkKSB7CiAgICBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBtaXNzaW5nIGNhdGFsb2cgZW50cnkiKTsKICB9IGVsc2UgewogICAgZm9yIChjb25zdCBmaWVsZCBvZiBbInBhZ2UiLCAianNvbiIsICJiaWJ0ZXgiLCAiY2l0YXRpb25fZmlsZXMiLCAicGFnZV91cmwiLCAiY2Fub25pY2FsX3NvdXJjZV91cmwiLCAidmVyc2lvbnMiLCAidGFncyIsICJrZXl3b3JkcyJdKSB7CiAgICAgIGlmIChjYXRhbG9nUmVjb3JkW2ZpZWxkXSA9PSBudWxsKSBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBjYXRhbG9nIGVudHJ5IG1pc3NpbmcgIiArIGZpZWxkKTsKICAgIH0KICAgIGlmIChjYXRhbG9nUmVjb3JkLnBhZ2VfdXJsICE9PSBwYXBlci5wYWdlX3VybCkgZmFpbHVyZXMucHVzaChwYXBlcklkICsgIjogY2F0YWxvZyBwYWdlX3VybCBtaXNtYXRjaCIpOwogICAgaWYgKGNhdGFsb2dSZWNvcmQuY2Fub25pY2FsX3NvdXJjZV91cmwgIT09IHBhcGVyLmNhbm9uaWNhbF9zb3VyY2VfdXJsKSBmYWlsdXJlcy5wdXNoKHBhcGVySWQgKyAiOiBjYXRhbG9nIGNhbm9uaWNhbF9zb3VyY2VfdXJsIG1pc21hdGNoIik7CiAgICBpZiAoSlNPTi5zdHJpbmdpZnkoY2F0YWxvZ1JlY29yZC50YWdzKSAhPT0gSlNPTi5zdHJpbmdpZnkocGFwZXIudGFncykpIGZhaWx1cmVzLnB1c2gocGFwZXJJZCArICI6IGNhdGFsb2cgdGFncyBtaXNtYXRjaCIpOwogICAgaWYgKEpTT04uc3RyaW5naWZ5KGNhdGFsb2dSZWNvcmQua2V5d29yZHMpICE9PSBKU09OLnN0cmluZ2lmeShwYXBlci5rZXl3b3JkcykpIGZhaWx1cmVzLnB1c2gocGFwZXJJZCArICI6IGNhdGFsb2cga2V5d29yZHMgbWlzbWF0Y2giKTsKICB9Cn0KCmNvbnN0IGFsbEZpbGVzID0gYXdhaXQgd2FsayhyZXBvUm9vdCk7CmZvciAoY29uc3QgZmlsZSBvZiBhbGxGaWxlcykgewogIGlmIChmaWxlLnJlbGF0aXZlLnRvTG93ZXJDYXNlKCkuZW5kc1dpdGgoIi5wZGYiKSkgZmFpbHVyZXMucHVzaCgicHVibGljIHJlcG9zaXRvcnkgY29udGFpbnMgUERGOiAiICsgZmlsZS5yZWxhdGl2ZSk7CiAgY29uc3QgY29udGVudCA9IGF3YWl0IHJlYWRUZXh0KGZpbGUucGF0aCk7CiAgaWYgKGJhZEVuY29kaW5nLnRlc3QoY29udGVudCkpIGZhaWx1cmVzLnB1c2goIm1vamliYWtlIGluICIgKyBmaWxlLnJlbGF0aXZlKTsKICBpZiAoY29udGVudC5pbmNsdWRlcyhbIm5hc2VyIiwgInB1YmxpY2F0aW9ucyJdLmpvaW4oIi0iKSkpIGZhaWx1cmVzLnB1c2goIm9sZCByZXBvc2l0b3J5IG5hbWUgcmVtYWlucyBpbiAiICsgZmlsZS5yZWxhdGl2ZSk7Cn0KCmNvbnN0IHNpdGVtYXAgPSBhd2FpdCByZWFkVGV4dChwYXRoLmpvaW4ocmVwb1Jvb3QsICJkb2NzIiwgInNpdGVtYXAueG1sIikpLmNhdGNoKCgpID0+ICIiKTsKaWYgKHNpdGVtYXAgJiYgIXNpdGVtYXAuaW5jbHVkZXMoc2l0ZUJhc2UgKyAiLyIpKSBmYWlsdXJlcy5wdXNoKCJzaXRlbWFwIGRvZXMgbm90IGNvbnRhaW4gdGhlIHNpdGUgcm9vdCIpOwppZiAoc2l0ZW1hcC5pbmNsdWRlcyhbIm5hc2VyIiwgInB1YmxpY2F0aW9ucyJdLmpvaW4oIi0iKSkpIGZhaWx1cmVzLnB1c2goInNpdGVtYXAgY29udGFpbnMgdGhlIG9sZCByZXBvc2l0b3J5IG5hbWUiKTsKCmNvbnN0IHJlc3VsdCA9IHsKICBzY2hlbWFfdmVyc2lvbjogZXhwZWN0ZWRTY2hlbWFWZXJzaW9uLAogIHBhcGVyczogcGFwZXJJZHMubGVuZ3RoLAogIGNhdGFsb2dfcmVjb3JkczogY2F0YWxvZz8ucmVjb3Jkcz8ubGVuZ3RoID8/IDAsCiAgY29udHJvbGxlZF90b3BpY3M6IHRvcGljSWRzLnNpemUsCiAgdW5pcXVlX2RvaXM6IHNlZW5Eb2lzLnNpemUsCiAgdW5pcXVlX2tleXdvcmRzOiBzZWVuS2V5d29yZHMuc2l6ZSwKICBodG1sX2xhbmRpbmdfcGFnZXM6IHBhcGVySWRzLmxlbmd0aCwKICBwZGZfZmlsZXNfaW5fcHVibGljX3JlcG86IGFsbEZpbGVzLmZpbHRlcigoZmlsZSkgPT4gZmlsZS5yZWxhdGl2ZS50b0xvd2VyQ2FzZSgpLmVuZHNXaXRoKCIucGRmIikpLmxlbmd0aCwKICB3YXJuaW5ncywKICBmYWlsdXJlcwp9Owpjb25zb2xlLmxvZyhKU09OLnN0cmluZ2lmeShyZXN1bHQsIG51bGwsIDIpKTsKaWYgKGZhaWx1cmVzLmxlbmd0aCkgcHJvY2Vzcy5leGl0Q29kZSA9IDE7Cg==
+import { readFile, readdir, stat } from "node:fs/promises";
+import path from "node:path";
+
+const workspace = process.cwd();
+const repoRoot = path.join(workspace, "github-repo");
+const failures = [];
+const warnings = [];
+const expectedSchemaVersion = "0.4.0";
+const siteBase = "https://naser.github.io/research-publications";
+const badEncoding = /(?:[\u00c2\u00c3].|\u00e2[\u0080-\u00bf]|\ufffd)/u;
+
+const exists = async (file) => {
+  try {
+    await stat(file);
+    return true;
+  } catch {
+    return false;
+  }
+};
+
+const readText = async (file) => readFile(file, "utf8");
+const readJson = async (file) => JSON.parse(await readText(file));
+
+const validUrl = (value) => {
+  if (typeof value !== "string" || !value.trim() || /\s/u.test(value)) return false;
+  try {
+    return /^https?:$/u.test(new URL(value).protocol);
+  } catch {
+    return false;
+  }
+};
+
+const validDate = (value) => {
+  if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/u.test(value)) return false;
+  const date = new Date(value + "T00:00:00Z");
+  return !Number.isNaN(date.getTime()) && date.toISOString().startsWith(value);
+};
+
+const typeMatches = (value, type) => {
+  if (type === "null") return value === null;
+  if (type === "object") return value !== null && typeof value === "object" && !Array.isArray(value);
+  if (type === "array") return Array.isArray(value);
+  if (type === "integer") return Number.isInteger(value);
+  if (type === "number") return typeof value === "number" && Number.isFinite(value);
+  return typeof value === type;
+};
+
+function validateAgainstSchema(value, rule, location, errors) {
+  if (rule.const !== undefined && value !== rule.const) errors.push(location + " must equal " + JSON.stringify(rule.const));
+  if (rule.enum && !rule.enum.includes(value)) errors.push(location + " is not one of the allowed values");
+
+  if (rule.type) {
+    const types = Array.isArray(rule.type) ? rule.type : [rule.type];
+    if (!types.some((type) => typeMatches(value, type))) {
+      errors.push(location + " has invalid type");
+      return;
+    }
+  }
+
+  if (typeof value === "string") {
+    if (rule.minLength !== undefined && value.length < rule.minLength) errors.push(location + " is empty or too short");
+    if (rule.pattern && !(new RegExp(rule.pattern, "u")).test(value)) errors.push(location + " does not match its pattern");
+    if (rule.format === "uri" && !validUrl(value)) errors.push(location + " is not a valid HTTP(S) URL");
+    if (rule.format === "date" && !validDate(value)) errors.push(location + " is not an ISO date");
+  }
+
+  if (Array.isArray(value)) {
+    if (rule.minItems !== undefined && value.length < rule.minItems) errors.push(location + " has too few items");
+    if (rule.uniqueItems) {
+      const serialized = value.map((item) => JSON.stringify(item));
+      if (new Set(serialized).size !== serialized.length) errors.push(location + " contains duplicate items");
+    }
+    if (rule.items) value.forEach((item, index) => validateAgainstSchema(item, rule.items, location + "[" + index + "]", errors));
+  }
+
+  if (value !== null && typeof value === "object" && !Array.isArray(value)) {
+    if (rule.required) {
+      for (const key of rule.required) {
+        if (!Object.prototype.hasOwnProperty.call(value, key)) errors.push(location + " is missing " + key);
+      }
+    }
+    if (rule.additionalProperties === false && rule.properties) {
+      for (const key of Object.keys(value)) {
+        if (!Object.prototype.hasOwnProperty.call(rule.properties, key)) errors.push(location + " has unexpected field " + key);
+      }
+    }
+    for (const [key, childRule] of Object.entries(rule.properties ?? {})) {
+      if (Object.prototype.hasOwnProperty.call(value, key)) validateAgainstSchema(value[key], childRule, location + "." + key, errors);
+    }
+  }
+}
+
+const normalizeKeyword = (value) => String(value).normalize("NFKD").replace(/[\u0300-\u036f]/gu, "").toLowerCase().trim().replace(/\s+/gu, " ");
+const keywordSlug = (value) => normalizeKeyword(value).replace(/[^a-z0-9]+/gu, "-").replace(/^-|-$/gu, "");
+const normalizeDoi = (value) => String(value).toLowerCase().replace(/^https?:\/\/(dx\.)?doi\.org\//u, "").replace(/^doi:\s*/u, "").trim();
+
+async function walk(dir, relative = "") {
+  const result = [];
+  for (const entry of await readdir(dir, { withFileTypes: true })) {
+    const childRelative = relative ? path.join(relative, entry.name) : entry.name;
+    const child = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      if (entry.name === ".git") continue;
+      result.push(...await walk(child, childRelative));
+    } else {
+      result.push({ path: child, relative: childRelative.replaceAll("\\", "/") });
+    }
+  }
+  return result;
+}
+
+const requiredRoot = [
+  "README.md",
+  "outline.md",
+  "catalog.json",
+  "CITATION.cff",
+  "schemas/paper.schema.json",
+  "schemas/vocabularies.json",
+  "scripts/validate-github-repo.mjs",
+  "docs/index.html",
+  "docs/catalog.json",
+  "docs/outline.md",
+  "docs/robots.txt",
+  "docs/sitemap.xml",
+  "docs/.nojekyll",
+  "docs/schemas/paper.schema.json",
+  "docs/schemas/vocabularies.json",
+  "docs/topics/index.html",
+  "docs/keywords/index.html"
+];
+
+for (const relative of requiredRoot) {
+  if (!await exists(path.join(repoRoot, relative))) failures.push("missing required artifact: " + relative);
+}
+
+let catalog;
+let schema;
+let vocabulary;
+for (const [label, relative] of [
+  ["catalog.json", "catalog.json"],
+  ["schemas/paper.schema.json", "schemas/paper.schema.json"],
+  ["schemas/vocabularies.json", "schemas/vocabularies.json"]
+]) {
+  try {
+    const value = await readJson(path.join(repoRoot, relative));
+    if (label === "catalog.json") catalog = value;
+    if (label === "schemas/paper.schema.json") schema = value;
+    if (label === "schemas/vocabularies.json") vocabulary = value;
+  } catch (error) {
+    failures.push(label + " is invalid: " + error.message);
+  }
+}
+
+if (schema) {
+  if (schema.$schema !== "https://json-schema.org/draft/2020-12/schema") failures.push("paper schema has an unexpected $schema");
+  if (schema.properties?.schema_version?.const !== expectedSchemaVersion) failures.push("paper schema does not freeze schema version " + expectedSchemaVersion);
+}
+if (catalog?.schema_version !== expectedSchemaVersion) failures.push("catalog schema_version is not " + expectedSchemaVersion);
+if (!Array.isArray(catalog?.records) || !catalog.records.length) failures.push("catalog has no records");
+
+for (const relative of ["schemas/paper.schema.json", "schemas/vocabularies.json", "catalog.json"]) {
+  const source = path.join(repoRoot, relative);
+  const mirror = path.join(repoRoot, "docs", relative);
+  if (await exists(source) && await exists(mirror) && (await readText(source)) !== (await readText(mirror))) {
+    failures.push("docs mirror differs from " + relative);
+  }
+}
+
+const topicIds = new Set(vocabulary?.topics?.map((topic) => topic.id) ?? []);
+const keywordAliases = vocabulary?.keyword_policy?.aliases ?? {};
+const paperEntries = (await readdir(path.join(repoRoot, "papers"), { withFileTypes: true }).catch(() => []));
+const paperIds = paperEntries.filter((entry) => entry.isDirectory()).map((entry) => entry.name).sort();
+const catalogById = new Map((catalog?.records ?? []).map((record) => [record.paper_id, record]));
+const seenDois = new Map();
+const seenSourceRecords = new Map();
+const seenKeywords = new Map();
+
+if (catalog && catalog.records.length !== paperIds.length) failures.push("catalog record count does not match paper directory count");
+if (new Set(catalog?.records?.map((record) => record.paper_id) ?? []).size !== (catalog?.records?.length ?? 0)) failures.push("catalog contains duplicate paper_id values");
+
+for (const paperId of paperIds) {
+  const dir = path.join(repoRoot, "papers", paperId);
+  const docsDir = path.join(repoRoot, "docs", "papers", paperId);
+  for (const relative of ["paper.json", "README.md", "citation.bib", "citation.apa.txt", "citation.ieee.txt", "citation.ris"]) {
+    if (!await exists(path.join(dir, relative))) failures.push(paperId + ": missing " + relative);
+    if (!await exists(path.join(docsDir, relative))) failures.push(paperId + ": missing generated docs/" + relative);
+  }
+
+  let paper;
+  try {
+    paper = await readJson(path.join(dir, "paper.json"));
+  } catch (error) {
+    failures.push(paperId + ": invalid paper.json: " + error.message);
+    continue;
+  }
+
+  const schemaErrors = [];
+  if (schema) validateAgainstSchema(paper, schema, paperId, schemaErrors);
+  failures.push(...schemaErrors);
+  if (paper.paper_id !== paperId) failures.push(paperId + ": paper_id does not match directory");
+  if (paper.page_url !== siteBase + "/papers/" + paperId + "/") failures.push(paperId + ": page_url is not the stable landing-page URL");
+  if (paper.source_record_id && seenSourceRecords.has(paper.source_record_id)) {
+    failures.push(paperId + ": source_record_id duplicates " + seenSourceRecords.get(paper.source_record_id));
+  } else if (paper.source_record_id) {
+    seenSourceRecords.set(paper.source_record_id, paperId);
+  }
+
+  const doi = paper.identifiers?.doi;
+  if (doi) {
+    const normalized = normalizeDoi(doi);
+    if (seenDois.has(normalized)) failures.push(paperId + ": duplicate DOI with " + seenDois.get(normalized) + ": " + doi);
+    else seenDois.set(normalized, paperId);
+  }
+
+  const canonicalVersions = (paper.versions ?? []).filter((version) => version.canonical_for_citation);
+  if (canonicalVersions.length !== 1) failures.push(paperId + ": expected exactly one canonical citation version");
+  if (paper.citation_guidance?.canonical_version_id && !paper.versions?.some((version) => version.id === paper.citation_guidance.canonical_version_id && version.canonical_for_citation)) {
+    failures.push(paperId + ": canonical_version_id does not identify the canonical version");
+  }
+  if (paper.canonical_source_url && !paper.versions?.some((version) => version.url === paper.canonical_source_url && version.canonical_for_citation)) {
+    failures.push(paperId + ": canonical_source_url is not the canonical version URL");
+  }
+
+  const normalizedKeywords = new Map();
+  for (const keyword of paper.keywords ?? []) {
+    const key = keywordSlug(keyword);
+    const aliasTarget = keywordAliases[key] ?? key;
+    if (normalizedKeywords.has(aliasTarget)) failures.push(paperId + ": duplicate/inconsistent keyword: " + keyword);
+    normalizedKeywords.set(aliasTarget, keyword);
+    if (seenKeywords.has(aliasTarget) && seenKeywords.get(aliasTarget) !== keyword) {
+      warnings.push("keyword spelling differs across records: " + seenKeywords.get(aliasTarget) + " / " + keyword);
+    } else {
+      seenKeywords.set(aliasTarget, keyword);
+    }
+    const keywordFile = path.join(repoRoot, "keywords", key + ".md");
+    const keywordHtml = path.join(repoRoot, "docs", "keywords", key + ".html");
+    if (!await exists(keywordFile) || !await exists(keywordHtml)) failures.push(paperId + ": keyword index missing for " + keyword);
+  }
+
+  for (const tag of paper.tags ?? []) {
+    if (!topicIds.has(tag)) failures.push(paperId + ": tag is absent from controlled vocabulary: " + tag);
+    if (!await exists(path.join(repoRoot, "topics", tag + ".md")) || !await exists(path.join(repoRoot, "docs", "topics", tag + ".html"))) {
+      failures.push(paperId + ": topic index missing for " + tag);
+    }
+  }
+
+  const inspectUrls = (value, key, location) => {
+    if (Array.isArray(value)) {
+      value.forEach((item, index) => inspectUrls(item, key, location + "[" + index + "]"));
+      return;
+    }
+    if (value !== null && typeof value === "object") {
+      for (const [childKey, childValue] of Object.entries(value)) inspectUrls(childValue, childKey, location + "." + childKey);
+      return;
+    }
+    if (key === "url" || key === "page_url" || key === "canonical_source_url" || key.endsWith("_url")) {
+      if (value !== null && !validUrl(value)) failures.push(location + " is not a valid HTTP(S) URL");
+    }
+  };
+  inspectUrls(paper, "", paperId);
+
+  const htmlPath = path.join(docsDir, "index.html");
+  if (await exists(htmlPath)) {
+    const html = await readText(htmlPath);
+    for (const required of [
+      "<link rel=\"canonical\"",
+      "application/ld+json",
+      "citation_title",
+      "citation_author",
+      "og:title",
+      "When to cite this paper",
+      "APA 7",
+      "IEEE",
+      "href=\"paper.json\"",
+      "href=\"README.md\"",
+      "href=\"citation.bib\"",
+      "href=\"citation.ris\""
+    ]) {
+      if (!html.includes(required)) failures.push(paperId + ": HTML missing " + required);
+    }
+    if (paper.identifiers?.doi && !html.includes("citation_doi")) failures.push(paperId + ": HTML missing citation_doi");
+    if ((paper.versions ?? []).some((version) => version.pdf_url) && !html.includes("citation_pdf_url")) failures.push(paperId + ": HTML missing citation_pdf_url");
+    if (html.includes("&amp;middot;") || html.includes("&amp;mdash;") || html.includes("&amp;larr;")) failures.push(paperId + ": HTML contains escaped entity text");
+    if (badEncoding.test(html)) failures.push(paperId + ": HTML contains mojibake");
+  }
+
+  const rootJsonText = await readText(path.join(dir, "paper.json")).catch(() => null);
+  const docsJsonText = await readText(path.join(docsDir, "paper.json")).catch(() => null);
+  if (rootJsonText !== null && docsJsonText !== null && rootJsonText !== docsJsonText) failures.push(paperId + ": root and docs paper.json differ");
+
+  const catalogRecord = catalogById.get(paperId);
+  if (!catalogRecord) {
+    failures.push(paperId + ": missing catalog entry");
+  } else {
+    for (const field of ["page", "json", "bibtex", "citation_files", "page_url", "canonical_source_url", "versions", "tags", "keywords"]) {
+      if (catalogRecord[field] == null) failures.push(paperId + ": catalog entry missing " + field);
+    }
+    if (catalogRecord.page_url !== paper.page_url) failures.push(paperId + ": catalog page_url mismatch");
+    if (catalogRecord.canonical_source_url !== paper.canonical_source_url) failures.push(paperId + ": catalog canonical_source_url mismatch");
+    if (JSON.stringify(catalogRecord.tags) !== JSON.stringify(paper.tags)) failures.push(paperId + ": catalog tags mismatch");
+    if (JSON.stringify(catalogRecord.keywords) !== JSON.stringify(paper.keywords)) failures.push(paperId + ": catalog keywords mismatch");
+  }
+}
+
+const allFiles = await walk(repoRoot);
+for (const file of allFiles) {
+  if (file.relative.toLowerCase().endsWith(".pdf")) failures.push("public repository contains PDF: " + file.relative);
+  const content = await readText(file.path);
+  if (badEncoding.test(content)) failures.push("mojibake in " + file.relative);
+  if (content.includes(["naser", "publications"].join("-"))) failures.push("old repository name remains in " + file.relative);
+}
+
+const sitemap = await readText(path.join(repoRoot, "docs", "sitemap.xml")).catch(() => "");
+if (sitemap && !sitemap.includes(siteBase + "/")) failures.push("sitemap does not contain the site root");
+if (sitemap.includes(["naser", "publications"].join("-"))) failures.push("sitemap contains the old repository name");
+
+const result = {
+  schema_version: expectedSchemaVersion,
+  papers: paperIds.length,
+  catalog_records: catalog?.records?.length ?? 0,
+  controlled_topics: topicIds.size,
+  unique_dois: seenDois.size,
+  unique_keywords: seenKeywords.size,
+  html_landing_pages: paperIds.length,
+  pdf_files_in_public_repo: allFiles.filter((file) => file.relative.toLowerCase().endsWith(".pdf")).length,
+  warnings,
+  failures
+};
+console.log(JSON.stringify(result, null, 2));
+if (failures.length) process.exitCode = 1;

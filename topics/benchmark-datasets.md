@@ -1,1 +1,5 @@
-IyBiZW5jaG1hcmstZGF0YXNldHMKClBhcGVycyB0YWdnZWQgKipiZW5jaG1hcmstZGF0YXNldHMqKi4KCi0gW1BpY3R1cmluZyBBbWJpZ3VpdHk6IEEgVmlzdWFsIFR3aXN0IG9uIHRoZSBXaW5vZ3JhZCBTY2hlbWEgQ2hhbGxlbmdlXSguLi9wYXBlcnMvcGljdHVyaW5nLWFtYmlndWl0eS13aW5vZ3JhZC1zY2hlbWEvUkVBRE1FLm1kKSAtIDIwMjQK
+# benchmark-datasets
+
+Papers tagged **benchmark-datasets**.
+
+- [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](../papers/picturing-ambiguity-winograd-schema/README.md) - 2024

@@ -1,1 +1,5 @@
-IyBkZWJ1Z2dpbmcKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipkZWJ1Z2dpbmcqKi4KCi0gW0RlYnVnZ2luZyBvZiBQZXJmb3JtYW5jZSBEZWdyYWRhdGlvbiBpbiBEaXN0cmlidXRlZCBSZXF1ZXN0cyBIYW5kbGluZyBVc2luZyBNdWx0aWxldmVsIFRyYWNlIEFuYWx5c2lzXSguLi9wYXBlcnMvZGVidWdnaW5nLXBlcmZvcm1hbmNlLWRlZ3JhZGF0aW9uLWRpc3RyaWJ1dGVkLXJlcXVlc3RzL1JFQURNRS5tZCkgLSAyMDIxCg==
+# debugging
+
+Papers indexed by keyword **debugging**.
+
+- [Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis](../papers/debugging-performance-degradation-distributed-requests/README.md) - 2021

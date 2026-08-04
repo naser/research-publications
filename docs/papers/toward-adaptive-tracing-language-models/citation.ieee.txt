@@ -1,1 +1,1 @@
-Sy4gRGFydmlzaGksIE0uIE5vZmVyZXN0aSwgYW5kIE4uIEV6emF0aS1KaXZhbiwgIlRvd2FyZCBBZGFwdGl2ZSBUcmFjaW5nOiBFZmZpY2llbnQgU3lzdGVtIEJlaGF2aW9yIEFuYWx5c2lzIHVzaW5nIExhbmd1YWdlIE1vZGVscywiIGluIEFDTS9TUEVDIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBQZXJmb3JtYW5jZSBFbmdpbmVlcmluZyAoSUNQRSksIDIwMjQsIGRvaTogMTAuMTE0NS8zNjM5NDc2LjM2Mzk3NzgK
+K. Darvishi, M. Noferesti, and N. Ezzati-Jivan, "Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2024, doi: 10.1145/3639476.3639778

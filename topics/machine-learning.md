@@ -1,1 +1,5 @@
-IyBtYWNoaW5lLWxlYXJuaW5nCgpQYXBlcnMgdGFnZ2VkICoqbWFjaGluZS1sZWFybmluZyoqLgoKLSBbUGljdHVyaW5nIEFtYmlndWl0eTogQSBWaXN1YWwgVHdpc3Qgb24gdGhlIFdpbm9ncmFkIFNjaGVtYSBDaGFsbGVuZ2VdKC4uL3BhcGVycy9waWN0dXJpbmctYW1iaWd1aXR5LXdpbm9ncmFkLXNjaGVtYS9SRUFETUUubWQpIC0gMjAyNAo=
+# machine-learning
+
+Papers tagged **machine-learning**.
+
+- [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](../papers/picturing-ambiguity-winograd-schema/README.md) - 2024

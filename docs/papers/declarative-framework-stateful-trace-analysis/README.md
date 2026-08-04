@@ -1,1 +1,84 @@
-IyBBIGRlY2xhcmF0aXZlIGZyYW1ld29yayBmb3Igc3RhdGVmdWwgYW5hbHlzaXMgb2YgZXhlY3V0aW9uIHRyYWNlcwoKKioyMDE3IHwgU29mdHdhcmUgUXVhbGl0eSBKb3VybmFsIHwgcmVzZWFyY2ggcGFwZXIqKgoKKipBdXRob3JzOioqIEZsb3JpYW4gV2luaW5nZXIsIE5hc2VyIEV6emF0aS1KaXZhbiwgTWljaGVsIFIuIERhZ2VuYWlzCgoqKkNvcmUgY29udHJpYnV0aW9uOioqIFRoaXMgd29yayBzdHVkaWVzIGEgZGVjbGFyYXRpdmUgZnJhbWV3b3JrIGZvciBzdGF0ZWZ1bCBhbmFseXNpcyBvZiBleGVjdXRpb24gdHJhY2VzIGluIHRoZSBjb250ZXh0IG9mIHNvZnR3YXJlIHBlcmZvcm1hbmNlIGFuZCBzeXN0ZW1zIGFuYWx5c2lzLgoKIyMgRm91ci1wYXJ0IHJlc2VhcmNoIHN1bW1hcnkKCiMjIyAxLiBQcm9ibGVtIGFuZCBtb3RpdmF0aW9uCgpTdGF0ZWZ1bCB0cmFjZSBhbmFseXNlcyBhcmUgZGlmZmljdWx0IHRvIGltcGxlbWVudCBhbmQgcmV1c2Ugd2hlbiBhbmFseXNpcyBsb2dpYyBpcyBlbWJlZGRlZCBpbiBwcm9jZWR1cmFsIGNvZGUuCgojIyMgMi4gTWV0aG9kIGFuZCBjb250cmlidXRpb24KClRoZSBwYXBlciBpbnRyb2R1Y2VzIGEgZGVjbGFyYXRpdmUgZnJhbWV3b3JrIGZvciBleHByZXNzaW5nIHN0YXRlZnVsIGFuYWx5c2VzIG92ZXIgZXhlY3V0aW9uIHRyYWNlcy4KCiMjIyAzLiBGaW5kaW5ncyBhbmQgZXZpZGVuY2UKCkl0IGNvbnRyaWJ1dGVzIGEgcmV1c2FibGUgYWJzdHJhY3Rpb24gZm9yIHRyYWNlIGFuYWx5c2lzOyBsYW5ndWFnZSBhbmQgZXZhbHVhdGlvbiBkZXRhaWxzIHJlcXVpcmUgZnVsbC10ZXh0IHJldmlldy4KCiMjIyA0LiBMaW1pdGF0aW9ucyBhbmQgZnV0dXJlIGRpcmVjdGlvbnMKCioqTGltaXRhdGlvbnM6KiogVGhlIGN1cnJlbnQgcHVibGljIHJlY29yZCBjYXB0dXJlcyBiaWJsaW9ncmFwaGljIG1ldGFkYXRhIGJ1dCBub3QgdGhlIHBhcGVyJ3MgZnVsbCB0ZXh0OyBxdWFudGl0YXRpdmUgY2xhaW1zIGFuZCBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzIHNob3VsZCBiZSBhZGRlZCBhZnRlciBQREYgb3IgYXV0aG9yLW1hbnVzY3JpcHQgcmV2aWV3LgoKKipGdXR1cmUgd29yazoqKiBFeHRlbmQgdGhlIGZyYW1ld29yayBmb3IgZGlzdHJpYnV0ZWQgdHJhY2VzLCBzdHJlYW1pbmcgZXhlY3V0aW9uLCBhbmQgaW50ZXJvcGVyYWJsZSB0cmFjZSBzY2hlbWFzLgoKIyMgQWJzdHJhY3QKCkFic3RyYWN0IG5vdCBhdmFpbGFibGUgaW4gdGhlIGNhcHR1cmVkIHNvdXJjZXMuCgojIyBUb3BpY3MgYW5kIGtleXdvcmRzCgoqKlRhZ3M6KiogW3RyYWNlLWFuYWx5c2lzXSguLi8uLi90b3BpY3MvdHJhY2UtYW5hbHlzaXMubWQpIHwgW3RyYWNlLWFic3RyYWN0aW9uXSguLi8uLi90b3BpY3MvdHJhY2UtYWJzdHJhY3Rpb24ubWQpIHwgW3BlcmZvcm1hbmNlLWFuYWx5c2lzXSguLi8uLi90b3BpY3MvcGVyZm9ybWFuY2UtYW5hbHlzaXMubWQpIHwgW3N5c3RlbS10cmFjaW5nXSguLi8uLi90b3BpY3Mvc3lzdGVtLXRyYWNpbmcubWQpCgoqKktleXdvcmRzOioqIFtkZWNsYXJhdGl2ZSB0cmFjZSBhbmFseXNpc10oLi4vLi4va2V5d29yZHMvZGVjbGFyYXRpdmUtdHJhY2UtYW5hbHlzaXMubWQpIHwgW3N0YXRlZnVsIGFuYWx5c2lzXSguLi8uLi9rZXl3b3Jkcy9zdGF0ZWZ1bC1hbmFseXNpcy5tZCkgfCBbZXhlY3V0aW9uIHRyYWNlc10oLi4vLi4va2V5d29yZHMvZXhlY3V0aW9uLXRyYWNlcy5tZCkgfCBbdHJhY2UgcXVlcmllc10oLi4vLi4va2V5d29yZHMvdHJhY2UtcXVlcmllcy5tZCkKCiMjIFZlcnNpb25zIGFuZCBzb3VyY2UgbGlua3MKCi0gW1B1Ymxpc2hlZCB2ZXJzaW9uXShodHRwczovL2RvaS5vcmcvMTAuMTAwNy9zMTEyMTktMDE2LTkzMTEtMCkgLSBwdWJsaXNoZWQKCioqQ2Fub25pY2FsIHNvdXJjZToqKiBbaHR0cHM6Ly9kb2kub3JnLzEwLjEwMDcvczExMjE5LTAxNi05MzExLTBdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMDA3L3MxMTIxOS0wMTYtOTMxMS0wKQoKIyMgSWRlbnRpZmllcnMKCltET0kgMTAuMTAwNy9zMTEyMTktMDE2LTkzMTEtMF0oaHR0cHM6Ly9kb2kub3JnLzEwLjEwMDcvczExMjE5LTAxNi05MzExLTApCgojIyBXaGVuIHRvIGNpdGUgdGhpcyBwYXBlcgoKQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gaXRzIHNwZWNpZmljIG1ldGhvZCwgZXZpZGVuY2UsIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCi0gVGhlIHBhcGVyJ3MgbWV0aG9kIGlzIGRpcmVjdGx5IHJlbGV2YW50LgotIFRoZSBwYXBlcidzIGV2aWRlbmNlIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4KCiMjIENpdGF0aW9uCgojIyMgQVBBIDcKCldpbmluZ2VyLCBGLiwgRXp6YXRpLUppdmFuLCBOLiwgJiBEYWdlbmFpcywgTS4gUi4gKDIwMTcpLiBBIGRlY2xhcmF0aXZlIGZyYW1ld29yayBmb3Igc3RhdGVmdWwgYW5hbHlzaXMgb2YgZXhlY3V0aW9uIHRyYWNlcy4gU29mdHdhcmUgUXVhbGl0eSBKb3VybmFsLiBodHRwczovL2RvaS5vcmcvMTAuMTAwNy9zMTEyMTktMDE2LTkzMTEtMAoKIyMjIElFRUUKCkYuIFdpbmluZ2VyLCBOLiBFenphdGktSml2YW4sIGFuZCBNLiBSLiBEYWdlbmFpcywgIkEgZGVjbGFyYXRpdmUgZnJhbWV3b3JrIGZvciBzdGF0ZWZ1bCBhbmFseXNpcyBvZiBleGVjdXRpb24gdHJhY2VzLCIgaW4gU29mdHdhcmUgUXVhbGl0eSBKb3VybmFsLCAyMDE3LCBkb2k6IDEwLjEwMDcvczExMjE5LTAxNi05MzExLTAKCmBgYGJpYnRleApAaW5wcm9jZWVkaW5nc3tlenphdGlKaXZhbjIwMTdhZGVjbGFyYXRpdmUsCiAgYXV0aG9yID0ge0Zsb3JpYW4gV2luaW5nZXIgYW5kIE5hc2VyIEV6emF0aS1KaXZhbiBhbmQgTWljaGVsIFIuIERhZ2VuYWlzfSwKICB0aXRsZSA9IHtBIGRlY2xhcmF0aXZlIGZyYW1ld29yayBmb3Igc3RhdGVmdWwgYW5hbHlzaXMgb2YgZXhlY3V0aW9uIHRyYWNlc30sCiAgeWVhciA9IHsyMDE3fSwKICBib29rdGl0bGUgPSB7U29mdHdhcmUgUXVhbGl0eSBKb3VybmFsfSwKICBkb2kgPSB7MTAuMTAwNy9zMTEyMTktMDE2LTkzMTEtMH0sCiAgdXJsID0ge2h0dHBzOi8vZG9pLm9yZy8xMC4xMDA3L3MxMTIxOS0wMTYtOTMxMS0wfQp9CmBgYAoKKipSZWZlcmVuY2UtbWFuYWdlciBpbXBvcnQ6KiogW1JJUyBmaWxlXSguL2NpdGF0aW9uLnJpcykKCiMjIFJlY29yZCBwcm92ZW5hbmNlCgotIE1ldGFkYXRhIHZlcmlmaWVkOiAyMDI2LTA4LTAzCi0gU3VtbWFyeSBzdGF0dXM6IHNvdXJjZS1ncm91bmRlZCBjYXRhbG9nIHJldmlldzsgYXV0aG9yIGFwcHJvdmFsIHBlbmRpbmcKLSBNZXRhZGF0YSBzb3VyY2VzOiBEQkxQL0RPSSBiaWJsaW9ncmFwaGljIHJlY29yZCBmb3IgMTAuMTAwNy9zMTEyMTktMDE2LTkzMTEtMDsgYXV0aG9yIGlkZW50aXR5IG1hdGNoZWQgdG8gTmFzZXIgRXp6YXRpLUppdmFuIGluIHRoZSBsb2NhbCByZXNlYXJjaCBjYXRhbG9nOyBmdWxsLXRleHQgc3VtbWFyeSBwZW5kaW5nIHNvdXJjZSByZXZpZXcKLSBNYWNoaW5lLXJlYWRhYmxlIHJlY29yZDogW3BhcGVyLmpzb25dKC4vcGFwZXIuanNvbikK
+# A declarative framework for stateful analysis of execution traces
+
+**2017 | Software Quality Journal | research paper**
+
+**Authors:** Florian Wininger, Naser Ezzati-Jivan, Michel R. Dagenais
+
+**Core contribution:** This work studies a declarative framework for stateful analysis of execution traces in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Stateful trace analyses are difficult to implement and reuse when analysis logic is embedded in procedural code.
+
+### 2. Method and contribution
+
+The paper introduces a declarative framework for expressing stateful analyses over execution traces.
+
+### 3. Findings and evidence
+
+It contributes a reusable abstraction for trace analysis; language and evaluation details require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Extend the framework for distributed traces, streaming execution, and interoperable trace schemas.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [trace-analysis](../../topics/trace-analysis.md) | [trace-abstraction](../../topics/trace-abstraction.md) | [performance-analysis](../../topics/performance-analysis.md) | [system-tracing](../../topics/system-tracing.md)
+
+**Keywords:** [declarative trace analysis](../../keywords/declarative-trace-analysis.md) | [stateful analysis](../../keywords/stateful-analysis.md) | [execution traces](../../keywords/execution-traces.md) | [trace queries](../../keywords/trace-queries.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1007/s11219-016-9311-0) - published
+
+**Canonical source:** [https://doi.org/10.1007/s11219-016-9311-0](https://doi.org/10.1007/s11219-016-9311-0)
+
+## Identifiers
+
+[DOI 10.1007/s11219-016-9311-0](https://doi.org/10.1007/s11219-016-9311-0)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Wininger, F., Ezzati-Jivan, N., & Dagenais, M. R. (2017). A declarative framework for stateful analysis of execution traces. Software Quality Journal. https://doi.org/10.1007/s11219-016-9311-0
+
+### IEEE
+
+F. Wininger, N. Ezzati-Jivan, and M. R. Dagenais, "A declarative framework for stateful analysis of execution traces," in Software Quality Journal, 2017, doi: 10.1007/s11219-016-9311-0
+
+```bibtex
+@inproceedings{ezzatiJivan2017adeclarative,
+  author = {Florian Wininger and Naser Ezzati-Jivan and Michel R. Dagenais},
+  title = {A declarative framework for stateful analysis of execution traces},
+  year = {2017},
+  booktitle = {Software Quality Journal},
+  doi = {10.1007/s11219-016-9311-0},
+  url = {https://doi.org/10.1007/s11219-016-9311-0}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1007/s11219-016-9311-0; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

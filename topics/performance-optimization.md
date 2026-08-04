@@ -1,1 +1,6 @@
-IyBwZXJmb3JtYW5jZS1vcHRpbWl6YXRpb24KClBhcGVycyB0YWdnZWQgKipwZXJmb3JtYW5jZS1vcHRpbWl6YXRpb24qKi4KCi0gW0VmZmljaWVudCBNZXRob2RzIGZvciBUcmFjZSBBbmFseXNpcyBQYXJhbGxlbGl6YXRpb25dKC4uL3BhcGVycy9lZmZpY2llbnQtdHJhY2UtYW5hbHlzaXMtcGFyYWxsZWxpemF0aW9uL1JFQURNRS5tZCkgLSAyMDE5Ci0gW09uZSBTaXplIERvZXMgTm90IEZpdCBBbGw6IEFyY2hpdGVjdHVyZS1Bd2FyZSBBZGFwdGl2ZSBCYXRjaCBTY2hlZHVsaW5nIHdpdGggREVCQV0oLi4vcGFwZXJzL2RlYmEtYWRhcHRpdmUtYmF0Y2gtc2NoZWR1bGluZy9SRUFETUUubWQpIC0gMjAyNQo=
+# performance-optimization
+
+Papers tagged **performance-optimization**.
+
+- [Efficient Methods for Trace Analysis Parallelization](../papers/efficient-trace-analysis-parallelization/README.md) - 2019
+- [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](../papers/deba-adaptive-batch-scheduling/README.md) - 2025

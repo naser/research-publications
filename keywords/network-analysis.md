@@ -1,1 +1,5 @@
-IyBuZXR3b3JrIGFuYWx5c2lzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqbmV0d29yayBhbmFseXNpcyoqLgoKLSBbTmV0d29yayBBbmFseXNpcyBvZiBNaWNyb3NlcnZpY2VzOiBBIENhc2UgU3R1ZHkgb24gQWxpYmFiYSBQcm9kdWN0aW9uIENsdXN0ZXJzXSguLi9wYXBlcnMvbmV0d29yay1hbmFseXNpcy1taWNyb3NlcnZpY2VzLWFsaWJhYmEvUkVBRE1FLm1kKSAtIDIwMjQK
+# network analysis
+
+Papers indexed by keyword **network analysis**.
+
+- [Network Analysis of Microservices: A Case Study on Alibaba Production Clusters](../papers/network-analysis-microservices-alibaba/README.md) - 2024

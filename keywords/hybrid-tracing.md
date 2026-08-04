@@ -1,1 +1,5 @@
-IyBoeWJyaWQgdHJhY2luZwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKmh5YnJpZCB0cmFjaW5nKiouCgotIFtIeWJyaWRSQ0E6IExpZ2h0d2VpZ2h0IENyaXRpY2FsLVBhdGgtQXdhcmUgSHlicmlkIFRyYWNpbmcgZm9yIFJvb3QtQ2F1c2UgQW5hbHlzaXMgaW4gUHJvZHVjdGlvbiBNaWNyb3NlcnZpY2VzXSguLi9wYXBlcnMvaHlicmlkcmNhLWNyaXRpY2FsLXBhdGgtYXdhcmUtdHJhY2luZy9SRUFETUUubWQpIC0gMjAyNQo=
+# hybrid tracing
+
+Papers indexed by keyword **hybrid tracing**.
+
+- [HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices](../papers/hybridrca-critical-path-aware-tracing/README.md) - 2025

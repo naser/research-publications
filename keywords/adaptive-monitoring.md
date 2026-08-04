@@ -1,1 +1,5 @@
-IyBhZGFwdGl2ZSBtb25pdG9yaW5nCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqYWRhcHRpdmUgbW9uaXRvcmluZyoqLgoKLSBbVXRpbGl6aW5nIEdyYXBoIE5ldXJhbCBOZXR3b3JrcyBmb3IgRWZmZWN0aXZlIExpbmsgUHJlZGljdGlvbiBpbiBNaWNyb3NlcnZpY2UgQXJjaGl0ZWN0dXJlc10oLi4vcGFwZXJzL2dubi1saW5rLXByZWRpY3Rpb24tbWljcm9zZXJ2aWNlcy9SRUFETUUubWQpIC0gMjAyNQo=
+# adaptive monitoring
+
+Papers indexed by keyword **adaptive monitoring**.
+
+- [Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures](../papers/gnn-link-prediction-microservices/README.md) - 2025

@@ -1,1 +1,5 @@
-IyBkeW5hbWljIHNhbXBsaW5nCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqZHluYW1pYyBzYW1wbGluZyoqLgoKLSBbRHluYW1pYyB0cmFjZS1iYXNlZCBzYW1wbGluZyBhbGdvcml0aG0gZm9yIG1lbW9yeSB1c2FnZSB0cmFja2luZyBvZiBlbnRlcnByaXNlIGFwcGxpY2F0aW9uc10oLi4vcGFwZXJzL2R5bmFtaWMtdHJhY2Utc2FtcGxpbmctbWVtb3J5LXVzYWdlL1JFQURNRS5tZCkgLSAyMDE3Cg==
+# dynamic sampling
+
+Papers indexed by keyword **dynamic sampling**.
+
+- [Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications](../papers/dynamic-trace-sampling-memory-usage/README.md) - 2017

@@ -1,1 +1,5 @@
-IyBwZXJmb3JtYW5jZSBhbnRpcGF0dGVybnMKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipwZXJmb3JtYW5jZSBhbnRpcGF0dGVybnMqKi4KCi0gW0ItUGVyZjogQmxhY2stYm94IFBlcmZvcm1hbmNlIEFudGlwYXR0ZXJuIERldGVjdGlvbiBVc2luZyBTeXN0ZW0tbGV2ZWwgRXhlY3V0aW9uIFRyYWNpbmddKC4uL3BhcGVycy9iLXBlcmYtYmxhY2stYm94LXBlcmZvcm1hbmNlLWFudGlwYXR0ZXJucy9SRUFETUUubWQpIC0gMjAyNgo=
+# performance antipatterns
+
+Papers indexed by keyword **performance antipatterns**.
+
+- [B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing](../papers/b-perf-black-box-performance-antipatterns/README.md) - 2026

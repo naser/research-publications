@@ -1,1 +1,109 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImRlcGdyYXBoIiwKICAicGFnZV91cmwiOiAiaHR0cHM6Ly9uYXNlci5naXRodWIuaW8vcmVzZWFyY2gtcHVibGljYXRpb25zL3BhcGVycy9kZXBncmFwaC8iLAogICJ0aXRsZSI6ICJEZXBHcmFwaDogTG9jYWxpemluZyBQZXJmb3JtYW5jZSBCb3R0bGVuZWNrcyBpbiBNdWx0aS1Db3JlIEFwcGxpY2F0aW9ucyBVc2luZyBXYWl0aW5nIERlcGVuZGVuY3kgR3JhcGhzIGFuZCBTb2Z0d2FyZSBUcmFjaW5nIiwKICAidGl0bGVfdmFyaWFudHMiOiBbXSwKICAiYXV0aG9ycyI6IFsKICAgICJOYXNlciBFenphdGktSml2YW4iLAogICAgIlF1ZW50aW4gRm91cm5pZXIiLAogICAgIk1pY2hlbCBSLiBEYWdlbmFpcyIsCiAgICAiQWJkZWx3YWhhYiBIYW1vdS1MaGFkaiIKICBdLAogICJwdWJsaWNhdGlvbiI6IHsKICAgICJ5ZWFyIjogMjAyMCwKICAgICJ2ZW51ZSI6ICJJRUVFIDIwdGggSW50ZXJuYXRpb25hbCBXb3JraW5nIENvbmZlcmVuY2Ugb24gU291cmNlIENvZGUgQW5hbHlzaXMgYW5kIE1hbmlwdWxhdGlvbiAoU0NBTSkiLAogICAgInR5cGUiOiAiY29uZmVyZW5jZSBwYXBlciIKICB9LAogICJwdWJsaWNhdGlvbl90eXBlIjogImNvbmZlcmVuY2UgcGFwZXIiLAogICJzdGF0dXMiOiAicHVibGljX3ByZXByaW50X2FuZF9wdWJsaXNoZWRfcmVjb3JkIiwKICAiY2Fub25pY2FsX3NvdXJjZV91cmwiOiAiaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvU0NBTTUxNjc0LjIwMjAuMDAwMjIiLAogICJzb3VyY2VfcmVjb3JkX2lkIjogImRlcGdyYXBoLWxvY2FsaXppbmctcGVyZm9ybWFuY2UtYm90dGxlbmVja3MtaW4tbXVsdGktY29yZS1hcHBsaWNhdGlvbnMtdXNpbmctd2FpdGluZy1kZXBlbmRlbmN5LS00YWJhMWUxM2IxIiwKICAiaWRlbnRpZmllcnMiOiB7CiAgICAiZG9pIjogIjEwLjExMDkvU0NBTTUxNjc0LjIwMjAuMDAwMjIiLAogICAgImFyeGl2IjogIjIxMDMuMDQ5MzMiCiAgfSwKICAiYWJzdHJhY3QiOiAiVGhpcyBwYXBlciBhZGRyZXNzZXMgdGhlIGNoYWxsZW5nZSBvZiB1bmRlcnN0YW5kaW5nIHRoZSB3YWl0aW5nIGRlcGVuZGVuY2llcyBiZXR3ZWVuIHRoZSB0aHJlYWRzIGFuZCBoYXJkd2FyZSByZXNvdXJjZXMgcmVxdWlyZWQgdG8gY29tcGxldGUgYSB0YXNrLiBUaGUgb2JqZWN0aXZlIGlzIHRvIGltcHJvdmUgc29mdHdhcmUgcGVyZm9ybWFuY2UgYnkgZGV0ZWN0aW5nIHRoZSB1bmRlcmx5aW5nIGJvdHRsZW5lY2tzIGNhdXNlZCBieSBzeXN0ZW0tbGV2ZWwgYmxvY2tpbmcgZGVwZW5kZW5jaWVzLiBJbiB0aGlzIHBhcGVyLCB3ZSB1c2UgYSBzeXN0ZW0gbGV2ZWwgdHJhY2luZyBhcHByb2FjaCB0byBleHRyYWN0IGEgV2FpdGluZyBEZXBlbmRlbmN5IEdyYXBoIHRoYXQgc2hvd3MgdGhlIGJyZWFrZG93biBvZiBhIHRhc2sgZXhlY3V0aW9uIGFtb25nIGFsbCB0aGUgaW50ZXJsZWF2aW5nIHRocmVhZHMgYW5kIHJlc291cmNlcy4gVGhlIG1ldGhvZCBhbGxvd3MgZGV2ZWxvcGVycyBhbmQgc3lzdGVtIGFkbWluaXN0cmF0b3JzIHRvIHF1aWNrbHkgZGlzY292ZXIgaG93IHRoZSB0b3RhbCBleGVjdXRpb24gdGltZSBpcyBkaXZpZGVkIGFtb25nIGl0cyBpbnRlcmFjdGluZyB0aHJlYWRzIGFuZCByZXNvdXJjZXMuIFVsdGltYXRlbHksIHRoZSBtZXRob2QgaGVscHMgZGV0ZWN0aW5nIGJvdHRsZW5lY2tzIGFuZCBoaWdobGlnaHRpbmcgdGhlaXIgcG9zc2libGUgY2F1c2VzLiBPdXIgZXhwZXJpbWVudHMgc2hvdyB0aGUgZWZmZWN0aXZlbmVzcyBvZiB0aGUgcHJvcG9zZWQgYXBwcm9hY2ggaW4gc2V2ZXJhbCBpbmR1c3RyeS1sZXZlbCB1c2UgY2FzZXMuIFRocmVlIHBlcmZvcm1hbmNlIGFub21hbGllcyBhcmUgYW5hbHlzZWQgYW5kIGV4cGxhaW5lZCB1c2luZyB0aGUgcHJvcG9zZWQgYXBwcm9hY2guIEV2YWx1YXRpbmcgdGhlIG1ldGhvZCBlZmZpY2llbmN5IHJldmVhbHMgdGhhdCB0aGUgaW1wb3NlZCBvdmVyaGVhZCBuZXZlciBleGNlZWRzIDEwLjElLCB0aGVyZWZvcmUgbWFraW5nIGl0IHN1aXRhYmxlIGZvciBpbi1wcm9kdWN0aW9uIGVudmlyb25tZW50cy4iLAogICJhYnN0cmFjdF9zb3VyY2UiOiAiYXJYaXY6MjEwMy4wNDkzMyBhYnN0cmFjdDsgcHVibGljIHByZXByaW50IHZlcnNpb24iLAogICJzdW1tYXJ5IjogewogICAgImNvcmVfY29udHJpYnV0aW9uIjogIkRlcEdyYXBoIHVzZXMgc3lzdGVtLWxldmVsIHRyYWNpbmcgdG8gZXhwb3NlIHRoZSB3YWl0aW5nIGRlcGVuZGVuY2llcyB0aGF0IGRpdmlkZSBhIHRhc2sncyBleGVjdXRpb24gdGltZSBhY3Jvc3MgdGhyZWFkcyBhbmQgaGFyZHdhcmUgcmVzb3VyY2VzLiIsCiAgICAicHJvYmxlbSI6ICJQZXJmb3JtYW5jZSBkZWJ1Z2dpbmcgaW4gbXVsdGktY29yZSBzeXN0ZW1zIGlzIGRpZmZpY3VsdCB3aGVuIGJsb2NraW5nIGRlcGVuZGVuY2llcyBjcm9zcyB0aHJlYWQgYW5kIHJlc291cmNlIGJvdW5kYXJpZXMuIENvbnZlbnRpb25hbCB0cmFjZXMgY29udGFpbiB0aGUgZXZpZGVuY2UgYnV0IGRvIG5vdCBkaXJlY3RseSBzaG93IHdoaWNoIGRlcGVuZGVuY2llcyBhY2NvdW50IGZvciB0aGUgZGVsYXkuIiwKICAgICJtZXRob2QiOiAiVGhlIG1ldGhvZCB1c2VzIHRoZSBMaW51eCBUcmFjaW5nIFRvb2xraXQ6IG5leHQgZ2VuZXJhdGlvbiAoTFRUbmcpIHRyYWNlciwgaW5jbHVkaW5nIExUVG5nIDIuMTEgaW4gdGhlIGV2YWx1YXRpb24sIHRvIGNvbGxlY3Qga2VybmVsIGFuZCBzeXN0ZW0tY2FsbCB0cmFjZXMuIEl0IGNvbnZlcnRzIHRpbWVzdGFtcGVkIGV2ZW50cyBpbnRvIGV4ZWN1dGlvbiBzdGF0ZXMgc3VjaCBhcyBydW5uaW5nLCBydW5uYWJsZSwgYmxvY2tlZCwgYW5kIGludGVycnVwdGVkOyBjb25zdHJ1Y3RzIGEgV2FpdGluZyBEZXBlbmRlbmN5IEdyYXBoIG92ZXIgdGhyZWFkcyBhbmQgcmVzb3VyY2VzOyBhbmQgY29tcGFyZXMgZ3JhcGhzIGZyb20gbm9ybWFsIGFuZCBzbG93IGV4ZWN1dGlvbnMgdG8gbG9jYWxpemUgdGhlIGJsb2NraW5nIGRlcGVuZGVuY2llcyBiZWhpbmQgbGF0ZW5jeS4iLAogICAgImZpbmRpbmdzIjogIlRocmVlIHBlcmZvcm1hbmNlIGFub21hbGllcyB3ZXJlIGFuYWx5emVkOiBBcGFjaGUvUEhQIGxvY2sgY29udGVudGlvbiwgQ1BVIGNvbnRlbnRpb24gaW4gYSByZWFsLXRpbWUgQ3ljbGljdGVzdCB3b3JrbG9hZCwgYW5kIGRpc2sgY29udGVudGlvbiBhZmZlY3RpbmcgQXBhY2hlIHJlcXVlc3RzLiBUaGUgZXZhbHVhdGlvbiB1c2VkIFVidW50dSAxNi4wNC42IExUUyB3aXRoIGEgNjQtYml0IDQuMTUuMC02MiBrZXJuZWwgb24gYSBxdWFkLWNvcmUgSW50ZWwgQ29yZSBpNy02NzAwSyB3b3Jrc3RhdGlvbiwgd2l0aCBzeXNiZW5jaCBDUFUsIElPLCBhbmQgbWl4ZWQgcHJvZmlsZXMuIEluIDUwIGV4ZWN1dGlvbnMsIHRoZSBkZXBlbmRlbmN5LXRyYWNpbmcgY29uZmlndXJhdGlvbiAtIHRoZSBwYXBlcidzIG1ldGhvZCAtIGhhZCB3b3JzdC1jYXNlIG92ZXJoZWFkIGJlbG93IDEwLjElOyBmdWxsIHRyYWNpbmcgd2FzIG1vcmUgZXhwZW5zaXZlIGZvciBJTy1oZWF2eSB3b3JrbG9hZHMuIFRyYWNlIGFuYWx5c2lzIHVzZWQgQmFiZWx0cmFjZSAzIHRvIGRlY29kZSBDVEYgZGF0YS4iLAogICAgImxpbWl0YXRpb25zIjogIlRoZSBldmlkZW5jZSBpcyBiYXNlZCBvbiBzZWxlY3RlZCB1c2UgY2FzZXMgYW5kIGEgcGFydGljdWxhciB0cmFjaW5nIHBpcGVsaW5lLiIsCiAgICAiZnV0dXJlX3dvcmsiOiAiRnV0dXJlIHdvcmsgc2hvdWxkIHRlc3QgYnJvYWRlciB3b3JrbG9hZHMsIGF1dG9tYXRlIG1vcmUgb2YgdGhlIGNhdXNhbCBleHBsYW5hdGlvbiwgYW5kIGV2YWx1YXRlIHBvcnRhYmlsaXR5IGFjcm9zcyBvcGVyYXRpbmcgc3lzdGVtcyBhbmQgaGFyZHdhcmUgY29uZmlndXJhdGlvbnMuIgogIH0sCiAgInRhZ3MiOiBbCiAgICAia2VybmVsLXRyYWNpbmciLAogICAgInBlcmZvcm1hbmNlLWFuYWx5c2lzIiwKICAgICJyb290LWNhdXNlLWFuYWx5c2lzIiwKICAgICJtdWx0aWNvcmUtc3lzdGVtcyIKICBdLAogICJrZXl3b3JkcyI6IFsKICAgICJ3YWl0aW5nIGRlcGVuZGVuY3kgZ3JhcGgiLAogICAgInN5c3RlbS1sZXZlbCB0cmFjaW5nIiwKICAgICJibG9ja2luZyBkZXBlbmRlbmNpZXMiLAogICAgInBlcmZvcm1hbmNlIGJvdHRsZW5lY2tzIiwKICAgICJ0aHJlYWQtcmVzb3VyY2UgaW50ZXJhY3Rpb25zIgogIF0sCiAgInZlcnNpb25zIjogWwogICAgewogICAgICAiaWQiOiAicHVibGlzaGVkLXZlcnNpb24iLAogICAgICAibGFiZWwiOiAiUHVibGlzaGVkIHZlcnNpb24iLAogICAgICAicmVsYXRpb24iOiAidmVyc2lvbi1vZi1yZWNvcmQiLAogICAgICAidGl0bGUiOiAiRGVwR3JhcGg6IExvY2FsaXppbmcgUGVyZm9ybWFuY2UgQm90dGxlbmVja3MgaW4gTXVsdGktQ29yZSBBcHBsaWNhdGlvbnMgVXNpbmcgV2FpdGluZyBEZXBlbmRlbmN5IEdyYXBocyBhbmQgU29mdHdhcmUgVHJhY2luZyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvU0NBTTUxNjc0LjIwMjAuMDAwMjIiLAogICAgICAicGRmX3VybCI6IG51bGwsCiAgICAgICJzdGF0dXMiOiAicHVibGlzaGVkIiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiB0cnVlCiAgICB9LAogICAgewogICAgICAiaWQiOiAicHVibGljLXByZXByaW50IiwKICAgICAgImxhYmVsIjogIlB1YmxpYyBwcmVwcmludCIsCiAgICAgICJyZWxhdGlvbiI6ICJwcmVwcmludCIsCiAgICAgICJ0aXRsZSI6ICJEZXBHcmFwaDogTG9jYWxpemluZyBQZXJmb3JtYW5jZSBCb3R0bGVuZWNrcyBpbiBNdWx0aS1Db3JlIEFwcGxpY2F0aW9ucyBVc2luZyBXYWl0aW5nIERlcGVuZGVuY3kgR3JhcGhzIGFuZCBTb2Z0d2FyZSBUcmFjaW5nIiwKICAgICAgInVybCI6ICJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjEwMy4wNDkzMyIsCiAgICAgICJwZGZfdXJsIjogImh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMTAzLjA0OTMzIiwKICAgICAgInN0YXR1cyI6ICJwdWJsaWNfZnVsbF90ZXh0IiwKICAgICAgImNhbm9uaWNhbF9mb3JfY2l0YXRpb24iOiBmYWxzZQogICAgfQogIF0sCiAgImFjY2VzcyI6IHsKICAgICJzdGF0dXMiOiAicHVibGljX3ByZXByaW50X2FuZF9wdWJsaXNoZWRfcmVjb3JkIiwKICAgICJub3RlIjogIlRoZSBwdWJsaXNoZWQgRE9JIGlzIHRoZSBjYW5vbmljYWwgY2l0YXRpb24gdGFyZ2V0OyB0aGUgYXJYaXYgcHJlcHJpbnQgcHJvdmlkZXMgcHVibGljIGZ1bGwgdGV4dC4iLAogICAgImxpY2Vuc2UiOiBudWxsCiAgfSwKICAicmVzb3VyY2VzIjogewogICAgImNvZGUiOiBudWxsLAogICAgImRhdGEiOiBudWxsLAogICAgInNsaWRlcyI6IG51bGwsCiAgICAiZGVtbyI6IG51bGwKICB9LAogICJjaXRhdGlvbl9ndWlkYW5jZSI6IHsKICAgICJ3aGVuX3RvX2NpdGUiOiAiQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gaXRzIG1ldGhvZCBvciBldmlkZW5jZSBpcyByZWxldmFudCB0byBtdWx0aWNvcmUgcGVyZm9ybWFuY2UgZGlhZ25vc2lzLiIsCiAgICAicG9pbnRzIjogWwogICAgICAiV2FpdGluZy1kZXBlbmRlbmN5IGdyYXBocyBmb3IgbG9jYWxpemluZyBib3R0bGVuZWNrcyBhY3Jvc3MgdGhyZWFkcyBhbmQgcmVzb3VyY2VzLiIsCiAgICAgICJMVFRuZy1iYXNlZCBrZXJuZWwgYW5kIHN5c3RlbS1jYWxsIHRyYWNpbmcgZm9yIGV4cGxhaW5pbmcgYmxvY2tpbmcgZGVwZW5kZW5jaWVzLiIsCiAgICAgICJQcm9kdWN0aW9uLW9yaWVudGVkIHRyYWNpbmcgYW5kIGFuYWx5c2lzIG92ZXJoZWFkIGZvciBwZXJmb3JtYW5jZSBkaWFnbm9zaXMuIgogICAgXSwKICAgICJjYW5vbmljYWxfdmVyc2lvbl9pZCI6ICJwdWJsaXNoZWQtdmVyc2lvbiIKICB9LAogICJwcm92ZW5hbmNlIjogewogICAgIm1ldGFkYXRhX3ZlcmlmaWVkX29uIjogIjIwMjYtMDgtMDMiLAogICAgIm1ldGFkYXRhX3NvdXJjZSI6IFsKICAgICAgIkRCTFAgYW5kIElFRUUgbWV0YWRhdGEgZm9yIHRoZSBwdWJsaXNoZWQgcGFwZXIiLAogICAgICAib2ZmaWNpYWwgYXJYaXYgYWJzdHJhY3QgYW5kIERlcEdyYXBoIFBERiBwcC4gMywgOC0xMDogTFRUbmcsIGV2ZW50L3N0YXRlIGV4dHJhY3Rpb24sIGV2YWx1YXRpb24gc2V0dXAsIHRyYWNpbmcgY29zdCwgYW5kIEJhYmVsdHJhY2UgMyIsCiAgICAgICJsb2NhbCBQREYgaGFzaCB2ZXJpZmllZCBpbiB0aGUgd29ya2luZyBjYXRhbG9nIgogICAgXSwKICAgICJzdW1tYXJ5X3dyaXR0ZW5fYnkiOiAiQUktYXNzaXN0ZWQiLAogICAgInN1bW1hcnlfdmVyaWZpZWRfYnkiOiAic291cmNlLWdyb3VuZGVkIGNhdGFsb2cgcmV2aWV3OyBhdXRob3IgYXBwcm92YWwgcGVuZGluZyIsCiAgICAibGlua2VkX3ByZXByaW50X3JlY29yZCI6ICJkZXBncmFwaC1sb2NhbGl6aW5nLXBlcmZvcm1hbmNlLWJvdHRsZW5lY2tzLWluLW11bHRpLWNvcmUtYXBwbGljYXRpb25zLXVzaW5nLXdhaXRpbmctZGVwZW5kZW5jeS0tZjM2NTQxYzFmMiIsCiAgICAiYXV0aG9yX29yZGVyX25vdGUiOiBudWxsCiAgfSwKICAiYmF0Y2giOiB7CiAgICAicGhhc2UiOiAyLAogICAgImJhdGNoX2xhYmVsIjogImV4cGFuZGVkIHRoaXJ0eS1wYXBlciByZWxlYXNlIiwKICAgICJzdGF0dXMiOiAiaW5jbHVkZWRfaW5fZXhwYW5kZWRfY2F0YWxvZyIsCiAgICAic2VsZWN0ZWRfYXQiOiAiMjAyNi0wOC0wMyIKICB9Cn0K
+{
+  "schema_version": "0.4.0",
+  "paper_id": "depgraph",
+  "page_url": "https://naser.github.io/research-publications/papers/depgraph/",
+  "title": "DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing",
+  "title_variants": [],
+  "authors": [
+    "Naser Ezzati-Jivan",
+    "Quentin Fournier",
+    "Michel R. Dagenais",
+    "Abdelwahab Hamou-Lhadj"
+  ],
+  "publication": {
+    "year": 2020,
+    "venue": "IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "public_preprint_and_published_record",
+  "canonical_source_url": "https://doi.org/10.1109/SCAM51674.2020.00022",
+  "source_record_id": "depgraph-localizing-performance-bottlenecks-in-multi-core-applications-using-waiting-dependency--4aba1e13b1",
+  "identifiers": {
+    "doi": "10.1109/SCAM51674.2020.00022",
+    "arxiv": "2103.04933"
+  },
+  "abstract": "This paper addresses the challenge of understanding the waiting dependencies between the threads and hardware resources required to complete a task. The objective is to improve software performance by detecting the underlying bottlenecks caused by system-level blocking dependencies. In this paper, we use a system level tracing approach to extract a Waiting Dependency Graph that shows the breakdown of a task execution among all the interleaving threads and resources. The method allows developers and system administrators to quickly discover how the total execution time is divided among its interacting threads and resources. Ultimately, the method helps detecting bottlenecks and highlighting their possible causes. Our experiments show the effectiveness of the proposed approach in several industry-level use cases. Three performance anomalies are analysed and explained using the proposed approach. Evaluating the method efficiency reveals that the imposed overhead never exceeds 10.1%, therefore making it suitable for in-production environments.",
+  "abstract_source": "arXiv:2103.04933 abstract; public preprint version",
+  "summary": {
+    "core_contribution": "DepGraph uses system-level tracing to expose the waiting dependencies that divide a task's execution time across threads and hardware resources.",
+    "problem": "Performance debugging in multi-core systems is difficult when blocking dependencies cross thread and resource boundaries. Conventional traces contain the evidence but do not directly show which dependencies account for the delay.",
+    "method": "The method uses the Linux Tracing Toolkit: next generation (LTTng) tracer, including LTTng 2.11 in the evaluation, to collect kernel and system-call traces. It converts timestamped events into execution states such as running, runnable, blocked, and interrupted; constructs a Waiting Dependency Graph over threads and resources; and compares graphs from normal and slow executions to localize the blocking dependencies behind latency.",
+    "findings": "Three performance anomalies were analyzed: Apache/PHP lock contention, CPU contention in a real-time Cyclictest workload, and disk contention affecting Apache requests. The evaluation used Ubuntu 16.04.6 LTS with a 64-bit 4.15.0-62 kernel on a quad-core Intel Core i7-6700K workstation, with sysbench CPU, IO, and mixed profiles. In 50 executions, the dependency-tracing configuration - the paper's method - had worst-case overhead below 10.1%; full tracing was more expensive for IO-heavy workloads. Trace analysis used Babeltrace 3 to decode CTF data.",
+    "limitations": "The evidence is based on selected use cases and a particular tracing pipeline.",
+    "future_work": "Future work should test broader workloads, automate more of the causal explanation, and evaluate portability across operating systems and hardware configurations."
+  },
+  "tags": [
+    "kernel-tracing",
+    "performance-analysis",
+    "root-cause-analysis",
+    "multicore-systems"
+  ],
+  "keywords": [
+    "waiting dependency graph",
+    "system-level tracing",
+    "blocking dependencies",
+    "performance bottlenecks",
+    "thread-resource interactions"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing",
+      "url": "https://doi.org/10.1109/SCAM51674.2020.00022",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-preprint",
+      "label": "Public preprint",
+      "relation": "preprint",
+      "title": "DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing",
+      "url": "https://arxiv.org/abs/2103.04933",
+      "pdf_url": "https://arxiv.org/pdf/2103.04933",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "public_preprint_and_published_record",
+    "note": "The published DOI is the canonical citation target; the arXiv preprint provides public full text.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its method or evidence is relevant to multicore performance diagnosis.",
+    "points": [
+      "Waiting-dependency graphs for localizing bottlenecks across threads and resources.",
+      "LTTng-based kernel and system-call tracing for explaining blocking dependencies.",
+      "Production-oriented tracing and analysis overhead for performance diagnosis."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "DBLP and IEEE metadata for the published paper",
+      "official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3",
+      "local PDF hash verified in the working catalog"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": "depgraph-localizing-performance-bottlenecks-in-multi-core-applications-using-waiting-dependency--f36541c1f2",
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

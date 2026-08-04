@@ -1,1 +1,5 @@
-IyB0cmFuc2Zvcm1lcnMKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKip0cmFuc2Zvcm1lcnMqKi4KCi0gW09wdGltaXphdGlvbiBTdHJhdGVnaWVzIGZvciBFbmhhbmNpbmcgUmVzb3VyY2UgRWZmaWNpZW5jeSBpbiBUcmFuc2Zvcm1lcnMgJiBMYXJnZSBMYW5ndWFnZSBNb2RlbHNdKC4uL3BhcGVycy9vcHRpbWl6YXRpb24tdHJhbnNmb3JtZXJzLWxsbXMvUkVBRE1FLm1kKSAtIDIwMjUK
+# transformers
+
+Papers indexed by keyword **transformers**.
+
+- [Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models](../papers/optimization-transformers-llms/README.md) - 2025

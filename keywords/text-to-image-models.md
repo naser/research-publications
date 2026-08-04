@@ -1,1 +1,5 @@
-IyB0ZXh0LXRvLWltYWdlIG1vZGVscwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnRleHQtdG8taW1hZ2UgbW9kZWxzKiouCgotIFtQaWN0dXJpbmcgQW1iaWd1aXR5OiBBIFZpc3VhbCBUd2lzdCBvbiB0aGUgV2lub2dyYWQgU2NoZW1hIENoYWxsZW5nZV0oLi4vcGFwZXJzL3BpY3R1cmluZy1hbWJpZ3VpdHktd2lub2dyYWQtc2NoZW1hL1JFQURNRS5tZCkgLSAyMDI0Cg==
+# text-to-image models
+
+Papers indexed by keyword **text-to-image models**.
+
+- [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](../papers/picturing-ambiguity-winograd-schema/README.md) - 2024

@@ -1,1 +1,7 @@
-IyBsbG0tYXNzaXN0ZWQtYW5hbHlzaXMKClBhcGVycyB0YWdnZWQgKipsbG0tYXNzaXN0ZWQtYW5hbHlzaXMqKi4KCi0gW0xNQVQ6IEFuIGFkYXB0aXZlIHRyYWNpbmcgYXBwcm9hY2ggYmFzZWQgb24gZWZmaWNpZW50IHN5c3RlbSBiZWhhdmlvciBhbmFseXNpcyB1c2luZyBsYW5ndWFnZSBtb2RlbHNdKC4uL3BhcGVycy9sbWF0LWFkYXB0aXZlLXRyYWNpbmctbGFuZ3VhZ2UtbW9kZWxzL1JFQURNRS5tZCkgLSAyMDI2Ci0gW1RBQUY6IEEgVHJhY2UgQWJzdHJhY3Rpb24gYW5kIEFuYWx5c2lzIEZyYW1ld29yayBTeW5lcmdpemluZyBLbm93bGVkZ2UgR3JhcGhzIGFuZCBMTE1zXSguLi9wYXBlcnMvdGFhZi10cmFjZS1hYnN0cmFjdGlvbi1hbmFseXNpcy1mcmFtZXdvcmsvUkVBRE1FLm1kKSAtIDIwMjYKLSBbVG93YXJkIEFkYXB0aXZlIFRyYWNpbmc6IEVmZmljaWVudCBTeXN0ZW0gQmVoYXZpb3IgQW5hbHlzaXMgdXNpbmcgTGFuZ3VhZ2UgTW9kZWxzXSguLi9wYXBlcnMvdG93YXJkLWFkYXB0aXZlLXRyYWNpbmctbGFuZ3VhZ2UtbW9kZWxzL1JFQURNRS5tZCkgLSAyMDI0Cg==
+# llm-assisted-analysis
+
+Papers tagged **llm-assisted-analysis**.
+
+- [LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models](../papers/lmat-adaptive-tracing-language-models/README.md) - 2026
+- [TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs](../papers/taaf-trace-abstraction-analysis-framework/README.md) - 2026
+- [Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models](../papers/toward-adaptive-tracing-language-models/README.md) - 2024

@@ -1,1 +1,5 @@
-IyBjYXVzYWwgcmVhc29uaW5nCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqY2F1c2FsIHJlYXNvbmluZyoqLgoKLSBbVEFBRjogQSBUcmFjZSBBYnN0cmFjdGlvbiBhbmQgQW5hbHlzaXMgRnJhbWV3b3JrIFN5bmVyZ2l6aW5nIEtub3dsZWRnZSBHcmFwaHMgYW5kIExMTXNdKC4uL3BhcGVycy90YWFmLXRyYWNlLWFic3RyYWN0aW9uLWFuYWx5c2lzLWZyYW1ld29yay9SRUFETUUubWQpIC0gMjAyNgo=
+# causal reasoning
+
+Papers indexed by keyword **causal reasoning**.
+
+- [TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs](../papers/taaf-trace-abstraction-analysis-framework/README.md) - 2026

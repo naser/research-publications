@@ -1,1 +1,5 @@
-IyBibG9ja2luZyBkZXBlbmRlbmNpZXMKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipibG9ja2luZyBkZXBlbmRlbmNpZXMqKi4KCi0gW0RlcEdyYXBoOiBMb2NhbGl6aW5nIFBlcmZvcm1hbmNlIEJvdHRsZW5lY2tzIGluIE11bHRpLUNvcmUgQXBwbGljYXRpb25zIFVzaW5nIFdhaXRpbmcgRGVwZW5kZW5jeSBHcmFwaHMgYW5kIFNvZnR3YXJlIFRyYWNpbmddKC4uL3BhcGVycy9kZXBncmFwaC9SRUFETUUubWQpIC0gMjAyMAo=
+# blocking dependencies
+
+Papers indexed by keyword **blocking dependencies**.
+
+- [DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing](../papers/depgraph/README.md) - 2020

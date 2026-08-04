@@ -1,1 +1,5 @@
-IyBzeXN0ZW0gdHJhY2luZwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKnN5c3RlbSB0cmFjaW5nKiouCgotIFtFbmhhbmNpbmcgZW1waXJpY2FsIHNvZnR3YXJlIHBlcmZvcm1hbmNlIGVuZ2luZWVyaW5nIHJlc2VhcmNoIHdpdGgga2VybmVsLWxldmVsIGV2ZW50czogQSBjb21wcmVoZW5zaXZlIHN5c3RlbSB0cmFjaW5nIGFwcHJvYWNoXSguLi9wYXBlcnMvZW5oYW5jaW5nLXBlcmZvcm1hbmNlLWVuZ2luZWVyaW5nLXdpdGgta2VybmVsLWV2ZW50cy9SRUFETUUubWQpIC0gMjAyNAo=
+# system tracing
+
+Papers indexed by keyword **system tracing**.
+
+- [Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach](../papers/enhancing-performance-engineering-with-kernel-events/README.md) - 2024

@@ -1,1 +1,84 @@
-IyBEZWJ1Z2dpbmcgb2YgUGVyZm9ybWFuY2UgRGVncmFkYXRpb24gaW4gRGlzdHJpYnV0ZWQgUmVxdWVzdHMgSGFuZGxpbmcgVXNpbmcgTXVsdGlsZXZlbCBUcmFjZSBBbmFseXNpcwoKKioyMDIxIHwgSW50ZXJuYXRpb25hbCBKb3VybmFsIG9mIENvbXB1dGVyIGFuZCBJbmZvcm1hdGlvbiBTY2llbmNlcyB8IHJlc2VhcmNoIHBhcGVyKioKCioqQXV0aG9yczoqKiBOYXNlciBFenphdGktSml2YW4sIEhvdXNzZW0gRGFvdWQsIE1pY2hlbCBSLiBEYWdlbmFpcywgWW9uZyBaaGFuZwoKKipDb3JlIGNvbnRyaWJ1dGlvbjoqKiBUaGlzIHdvcmsgc3R1ZGllcyBkZWJ1Z2dpbmcgb2YgcGVyZm9ybWFuY2UgZGVncmFkYXRpb24gaW4gZGlzdHJpYnV0ZWQgcmVxdWVzdHMgaGFuZGxpbmcgdXNpbmcgbXVsdGlsZXZlbCB0cmFjZSBhbmFseXNpcyBpbiB0aGUgY29udGV4dCBvZiBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBhbmQgc3lzdGVtcyBhbmFseXNpcy4KCiMjIEZvdXItcGFydCByZXNlYXJjaCBzdW1tYXJ5CgojIyMgMS4gUHJvYmxlbSBhbmQgbW90aXZhdGlvbgoKUGVyZm9ybWFuY2UgZGVncmFkYXRpb24gaW4gZGlzdHJpYnV0ZWQgcmVxdWVzdCBoYW5kbGluZyBjYW4gb3JpZ2luYXRlIGF0IG11bHRpcGxlIHNvZnR3YXJlIGFuZCBzeXN0ZW0gbGV2ZWxzLgoKIyMjIDIuIE1ldGhvZCBhbmQgY29udHJpYnV0aW9uCgpUaGUgcGFwZXIgdXNlcyBtdWx0aWxldmVsIHRyYWNlIGFuYWx5c2lzIHRvIGNvbm5lY3QgZGlzdHJpYnV0ZWQgcmVxdWVzdCBiZWhhdmlvciB3aXRoIGxvd2VyLWxldmVsIGV4ZWN1dGlvbiBldmlkZW5jZS4KCiMjIyAzLiBGaW5kaW5ncyBhbmQgZXZpZGVuY2UKCkl0IHByZXNlbnRzIGEgbXVsdGlsZXZlbCBkZWJ1Z2dpbmcgYXBwcm9hY2g7IGRldGFpbGVkIGV2YWx1YXRpb24gcmVzdWx0cyByZXF1aXJlIGZ1bGwtdGV4dCByZXZpZXcuCgojIyMgNC4gTGltaXRhdGlvbnMgYW5kIGZ1dHVyZSBkaXJlY3Rpb25zCgoqKkxpbWl0YXRpb25zOioqIFRoZSBjdXJyZW50IHB1YmxpYyByZWNvcmQgY2FwdHVyZXMgYmlibGlvZ3JhcGhpYyBtZXRhZGF0YSBidXQgbm90IHRoZSBwYXBlcidzIGZ1bGwgdGV4dDsgcXVhbnRpdGF0aXZlIGNsYWltcyBhbmQgaW1wbGVtZW50YXRpb24gZGV0YWlscyBzaG91bGQgYmUgYWRkZWQgYWZ0ZXIgUERGIG9yIGF1dGhvci1tYW51c2NyaXB0IHJldmlldy4KCioqRnV0dXJlIHdvcms6KiogQXV0b21hdGUgY3Jvc3MtbGV2ZWwgY29ycmVsYXRpb24sIHRlc3QgbW9kZXJuIHNlcnZpY2UgbWVzaGVzLCBhbmQgcXVhbnRpZnkgdHJhY2luZyBvdmVyaGVhZC4KCiMjIEFic3RyYWN0CgpBYnN0cmFjdCBub3QgYXZhaWxhYmxlIGluIHRoZSBjYXB0dXJlZCBzb3VyY2VzLgoKIyMgVG9waWNzIGFuZCBrZXl3b3JkcwoKKipUYWdzOioqIFtzeXN0ZW0tdHJhY2luZ10oLi4vLi4vdG9waWNzL3N5c3RlbS10cmFjaW5nLm1kKSB8IFttaWNyb3NlcnZpY2VzXSguLi8uLi90b3BpY3MvbWljcm9zZXJ2aWNlcy5tZCkgfCBbcGVyZm9ybWFuY2UtYW5hbHlzaXNdKC4uLy4uL3RvcGljcy9wZXJmb3JtYW5jZS1hbmFseXNpcy5tZCkgfCBbcm9vdC1jYXVzZS1hbmFseXNpc10oLi4vLi4vdG9waWNzL3Jvb3QtY2F1c2UtYW5hbHlzaXMubWQpCgoqKktleXdvcmRzOioqIFtkaXN0cmlidXRlZCByZXF1ZXN0c10oLi4vLi4va2V5d29yZHMvZGlzdHJpYnV0ZWQtcmVxdWVzdHMubWQpIHwgW211bHRpbGV2ZWwgdHJhY2luZ10oLi4vLi4va2V5d29yZHMvbXVsdGlsZXZlbC10cmFjaW5nLm1kKSB8IFtwZXJmb3JtYW5jZSBkZWdyYWRhdGlvbl0oLi4vLi4va2V5d29yZHMvcGVyZm9ybWFuY2UtZGVncmFkYXRpb24ubWQpIHwgW2RlYnVnZ2luZ10oLi4vLi4va2V5d29yZHMvZGVidWdnaW5nLm1kKQoKIyMgVmVyc2lvbnMgYW5kIHNvdXJjZSBsaW5rcwoKLSBbUHVibGlzaGVkIHZlcnNpb25dKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTU1LzIwMjEvODQ3ODA3NikgLSBwdWJsaXNoZWQKCioqQ2Fub25pY2FsIHNvdXJjZToqKiBbaHR0cHM6Ly9kb2kub3JnLzEwLjExNTUvMjAyMS84NDc4MDc2XShodHRwczovL2RvaS5vcmcvMTAuMTE1NS8yMDIxLzg0NzgwNzYpCgojIyBJZGVudGlmaWVycwoKW0RPSSAxMC4xMTU1LzIwMjEvODQ3ODA3Nl0oaHR0cHM6Ly9kb2kub3JnLzEwLjExNTUvMjAyMS84NDc4MDc2KQoKIyMgV2hlbiB0byBjaXRlIHRoaXMgcGFwZXIKCkNpdGUgdGhpcyBwYXBlciB3aGVuIGl0cyBzcGVjaWZpYyBtZXRob2QsIGV2aWRlbmNlLCBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuCgotIFRoZSBwYXBlcidzIG1ldGhvZCBpcyBkaXJlY3RseSByZWxldmFudC4KLSBUaGUgcGFwZXIncyBldmlkZW5jZSBvciBiZW5jaG1hcmsgaXMgZGlyZWN0bHkgcmVsZXZhbnQuCgojIyBDaXRhdGlvbgoKIyMjIEFQQSA3CgpFenphdGktSml2YW4sIE4uLCBEYW91ZCwgSC4sIERhZ2VuYWlzLCBNLiBSLiwgJiBaaGFuZywgWS4gKDIwMjEpLiBEZWJ1Z2dpbmcgb2YgUGVyZm9ybWFuY2UgRGVncmFkYXRpb24gaW4gRGlzdHJpYnV0ZWQgUmVxdWVzdHMgSGFuZGxpbmcgVXNpbmcgTXVsdGlsZXZlbCBUcmFjZSBBbmFseXNpcy4gSW50ZXJuYXRpb25hbCBKb3VybmFsIG9mIENvbXB1dGVyIGFuZCBJbmZvcm1hdGlvbiBTY2llbmNlcy4gaHR0cHM6Ly9kb2kub3JnLzEwLjExNTUvMjAyMS84NDc4MDc2CgojIyMgSUVFRQoKTi4gRXp6YXRpLUppdmFuLCBILiBEYW91ZCwgTS4gUi4gRGFnZW5haXMsIGFuZCBZLiBaaGFuZywgIkRlYnVnZ2luZyBvZiBQZXJmb3JtYW5jZSBEZWdyYWRhdGlvbiBpbiBEaXN0cmlidXRlZCBSZXF1ZXN0cyBIYW5kbGluZyBVc2luZyBNdWx0aWxldmVsIFRyYWNlIEFuYWx5c2lzLCIgaW4gSW50ZXJuYXRpb25hbCBKb3VybmFsIG9mIENvbXB1dGVyIGFuZCBJbmZvcm1hdGlvbiBTY2llbmNlcywgMjAyMSwgZG9pOiAxMC4xMTU1LzIwMjEvODQ3ODA3NgoKYGBgYmlidGV4CkBpbnByb2NlZWRpbmdze2V6emF0aUppdmFuMjAyMWRlYnVnZ2luZ29mLAogIGF1dGhvciA9IHtOYXNlciBFenphdGktSml2YW4gYW5kIEhvdXNzZW0gRGFvdWQgYW5kIE1pY2hlbCBSLiBEYWdlbmFpcyBhbmQgWW9uZyBaaGFuZ30sCiAgdGl0bGUgPSB7RGVidWdnaW5nIG9mIFBlcmZvcm1hbmNlIERlZ3JhZGF0aW9uIGluIERpc3RyaWJ1dGVkIFJlcXVlc3RzIEhhbmRsaW5nIFVzaW5nIE11bHRpbGV2ZWwgVHJhY2UgQW5hbHlzaXN9LAogIHllYXIgPSB7MjAyMX0sCiAgYm9va3RpdGxlID0ge0ludGVybmF0aW9uYWwgSm91cm5hbCBvZiBDb21wdXRlciBhbmQgSW5mb3JtYXRpb24gU2NpZW5jZXN9LAogIGRvaSA9IHsxMC4xMTU1LzIwMjEvODQ3ODA3Nn0sCiAgdXJsID0ge2h0dHBzOi8vZG9pLm9yZy8xMC4xMTU1LzIwMjEvODQ3ODA3Nn0KfQpgYGAKCioqUmVmZXJlbmNlLW1hbmFnZXIgaW1wb3J0OioqIFtSSVMgZmlsZV0oLi9jaXRhdGlvbi5yaXMpCgojIyBSZWNvcmQgcHJvdmVuYW5jZQoKLSBNZXRhZGF0YSB2ZXJpZmllZDogMjAyNi0wOC0wMwotIFN1bW1hcnkgc3RhdHVzOiBzb3VyY2UtZ3JvdW5kZWQgY2F0YWxvZyByZXZpZXc7IGF1dGhvciBhcHByb3ZhbCBwZW5kaW5nCi0gTWV0YWRhdGEgc291cmNlczogREJMUC9ET0kgYmlibGlvZ3JhcGhpYyByZWNvcmQgZm9yIDEwLjExNTUvMjAyMS84NDc4MDc2OyBhdXRob3IgaWRlbnRpdHkgbWF0Y2hlZCB0byBOYXNlciBFenphdGktSml2YW4gaW4gdGhlIGxvY2FsIHJlc2VhcmNoIGNhdGFsb2c7IGZ1bGwtdGV4dCBzdW1tYXJ5IHBlbmRpbmcgc291cmNlIHJldmlldwotIE1hY2hpbmUtcmVhZGFibGUgcmVjb3JkOiBbcGFwZXIuanNvbl0oLi9wYXBlci5qc29uKQo=
+# Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis
+
+**2021 | International Journal of Computer and Information Sciences | research paper**
+
+**Authors:** Naser Ezzati-Jivan, Houssem Daoud, Michel R. Dagenais, Yong Zhang
+
+**Core contribution:** This work studies debugging of performance degradation in distributed requests handling using multilevel trace analysis in the context of software performance and systems analysis.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Performance degradation in distributed request handling can originate at multiple software and system levels.
+
+### 2. Method and contribution
+
+The paper uses multilevel trace analysis to connect distributed request behavior with lower-level execution evidence.
+
+### 3. Findings and evidence
+
+It presents a multilevel debugging approach; detailed evaluation results require full-text review.
+
+### 4. Limitations and future directions
+
+**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+
+**Future work:** Automate cross-level correlation, test modern service meshes, and quantify tracing overhead.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [system-tracing](../../topics/system-tracing.md) | [microservices](../../topics/microservices.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
+
+**Keywords:** [distributed requests](../../keywords/distributed-requests.md) | [multilevel tracing](../../keywords/multilevel-tracing.md) | [performance degradation](../../keywords/performance-degradation.md) | [debugging](../../keywords/debugging.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1155/2021/8478076) - published
+
+**Canonical source:** [https://doi.org/10.1155/2021/8478076](https://doi.org/10.1155/2021/8478076)
+
+## Identifiers
+
+[DOI 10.1155/2021/8478076](https://doi.org/10.1155/2021/8478076)
+
+## When to cite this paper
+
+Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+
+- The paper's method is directly relevant.
+- The paper's evidence or benchmark is directly relevant.
+
+## Citation
+
+### APA 7
+
+Ezzati-Jivan, N., Daoud, H., Dagenais, M. R., & Zhang, Y. (2021). Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis. International Journal of Computer and Information Sciences. https://doi.org/10.1155/2021/8478076
+
+### IEEE
+
+N. Ezzati-Jivan, H. Daoud, M. R. Dagenais, and Y. Zhang, "Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis," in International Journal of Computer and Information Sciences, 2021, doi: 10.1155/2021/8478076
+
+```bibtex
+@inproceedings{ezzatiJivan2021debuggingof,
+  author = {Naser Ezzati-Jivan and Houssem Daoud and Michel R. Dagenais and Yong Zhang},
+  title = {Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis},
+  year = {2021},
+  booktitle = {International Journal of Computer and Information Sciences},
+  doi = {10.1155/2021/8478076},
+  url = {https://doi.org/10.1155/2021/8478076}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1155/2021/8478076; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Machine-readable record: [paper.json](./paper.json)

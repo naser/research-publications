@@ -1,1 +1,92 @@
-IyBPcHRpbWl6YXRpb24gU3RyYXRlZ2llcyBmb3IgRW5oYW5jaW5nIFJlc291cmNlIEVmZmljaWVuY3kgaW4gVHJhbnNmb3JtZXJzICYgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzCgoqKjIwMjUgfCBBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpIHwgc2hvcnQgY29uZmVyZW5jZSBwYXBlcioqCgoqKkF1dGhvcnM6KiogVG9tIFdhbGxhY2UsIEJlYXRyaWNlIE0uIE9tYnVraS1CZXJtYW4sIE5hc2VyIEV6emF0aS1KaXZhbgoKKipDb3JlIGNvbnRyaWJ1dGlvbjoqKiBUaGUgcGFwZXIgY29tcGFyZXMgY29tcHJlc3Npb24gYW5kIG9wdGltaXphdGlvbiBzdHJhdGVnaWVzIGZvciByZWR1Y2luZyB0aGUgcmVzb3VyY2UgY29zdCBvZiBUcmFuc2Zvcm1lciBhbmQgbGFyZ2UtbGFuZ3VhZ2UtbW9kZWwgd29ya2xvYWRzIHdoaWxlIHJldGFpbmluZyB1c2VmdWwgYWNjdXJhY3kuCgojIyBGb3VyLXBhcnQgcmVzZWFyY2ggc3VtbWFyeQoKIyMjIDEuIFByb2JsZW0gYW5kIG1vdGl2YXRpb24KCkdyb3dpbmcgbW9kZWwgc2l6ZSBpbmNyZWFzZXMgY29tcHV0YXRpb25hbCBhbmQgZW5lcmd5IGRlbWFuZHMuIFJlc2VhcmNoZXJzIGFuZCBwcmFjdGl0aW9uZXJzIG5lZWQgY2xlYXJlciB0cmFkZS1vZmZzIGFtb25nIHF1YW50aXphdGlvbiwgZGlzdGlsbGF0aW9uLCBwcnVuaW5nLCBtb2RlbCBzaXplLCBhbmQgcmV0YWluZWQgdGFzayBwZXJmb3JtYW5jZS4KCiMjIyAyLiBNZXRob2QgYW5kIGNvbnRyaWJ1dGlvbgoKVGhlIHN0dWR5IGV4YW1pbmVzIHF1YW50aXphdGlvbiwga25vd2xlZGdlIGRpc3RpbGxhdGlvbiwgYW5kIHBydW5pbmcsIGluY2x1ZGluZyBoeWJyaWQgYXBwcm9hY2hlcyBzdWNoIGFzIE5WSURJQSdzIE1pbml0cm9uIHN0cmF0ZWd5LiBJdCBwcm9wb3NlcyBhbiBvcHRpbWl6YXRpb24gZXF1YXRpb24gZm9yIGNvbXBhcmluZyByZXNvdXJjZSBhbmQgcGVyZm9ybWFuY2UgdHJhZGUtb2Zmcy4KCiMjIyAzLiBGaW5kaW5ncyBhbmQgZXZpZGVuY2UKClRoZSByZXBvcnRlZCBhbmFseXNpcyBpZGVudGlmaWVzIDQtYml0IHF1YW50aXphdGlvbiBhcyBhIHN0cm9uZyBzdGFuZGFsb25lIGVmZmljaWVuY3kgb3B0aW9uIHdpdGggbGltaXRlZCBhY2N1cmFjeSBsb3NzLiBIeWJyaWQgZGlzdGlsbGF0aW9uIGFuZCBzdHJ1Y3R1cmVkLXBydW5pbmcgYXBwcm9hY2hlcyBhbHNvIHNob3cgcHJvbWlzaW5nIHNpemUgYW5kIGFjY3VyYWN5IHRyYWRlLW9mZnMuCgojIyMgNC4gTGltaXRhdGlvbnMgYW5kIGZ1dHVyZSBkaXJlY3Rpb25zCgoqKkxpbWl0YXRpb25zOioqIFRoZSBjb21wYXJpc29uIGlzIG5vdCBhIGNvbXBsZXRlIGhhcmR3YXJlLSBhbmQgd29ya2xvYWQtaW5kZXBlbmRlbnQgY2hhcmFjdGVyaXphdGlvbiBvZiBldmVyeSBjb21wcmVzc2lvbiBtZXRob2QuCgoqKkZ1dHVyZSB3b3JrOioqIEZ1dHVyZSB3b3JrIHNob3VsZCBldmFsdWF0ZSBsYXJnZXIgbW9kZWwgZmFtaWxpZXMsIHJlYWxpc3RpYyBzZXJ2aW5nIHdvcmtsb2FkcywgaGFyZHdhcmUgZWZmZWN0cywgYW5kIHN0YW5kYXJkaXplZCBlbmVyZ3kgbWVhc3VyZW1lbnRzLgoKIyMgQWJzdHJhY3QKCkFic3RyYWN0IG5vdCBhdmFpbGFibGUgaW4gdGhlIGNhcHR1cmVkIHNvdXJjZXMuCgojIyBUb3BpY3MgYW5kIGtleXdvcmRzCgoqKlRhZ3M6KiogW2xsbS1lZmZpY2llbmN5XSguLi8uLi90b3BpY3MvbGxtLWVmZmljaWVuY3kubWQpIHwgW2VuZXJneS1lZmZpY2llbmN5XSguLi8uLi90b3BpY3MvZW5lcmd5LWVmZmljaWVuY3kubWQpIHwgW21vZGVsLWNvbXByZXNzaW9uXSguLi8uLi90b3BpY3MvbW9kZWwtY29tcHJlc3Npb24ubWQpIHwgW3BlcmZvcm1hbmNlLWVuZ2luZWVyaW5nXSguLi8uLi90b3BpY3MvcGVyZm9ybWFuY2UtZW5naW5lZXJpbmcubWQpCgoqKktleXdvcmRzOioqIFt0cmFuc2Zvcm1lcnNdKC4uLy4uL2tleXdvcmRzL3RyYW5zZm9ybWVycy5tZCkgfCBbcXVhbnRpemF0aW9uXSguLi8uLi9rZXl3b3Jkcy9xdWFudGl6YXRpb24ubWQpIHwgW2tub3dsZWRnZSBkaXN0aWxsYXRpb25dKC4uLy4uL2tleXdvcmRzL2tub3dsZWRnZS1kaXN0aWxsYXRpb24ubWQpIHwgW3BydW5pbmddKC4uLy4uL2tleXdvcmRzL3BydW5pbmcubWQpIHwgWzQtYml0IHF1YW50aXphdGlvbl0oLi4vLi4va2V5d29yZHMvNC1iaXQtcXVhbnRpemF0aW9uLm1kKSB8IFtNaW5pdHJvbl0oLi4vLi4va2V5d29yZHMvbWluaXRyb24ubWQpIHwgW3N1c3RhaW5hYmxlIEFJXSguLi8uLi9rZXl3b3Jkcy9zdXN0YWluYWJsZS1haS5tZCkKCiMjIFZlcnNpb25zIGFuZCBzb3VyY2UgbGlua3MKCi0gW1B1Ymxpc2hlZCB2ZXJzaW9uXShodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjc2MTUxLjM3MTkzNzkpIC0gcHVibGlzaGVkCi0gW1B1YmxpYyBwcmVwcmludF0oaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MDIuMDAwNDYpIHwgW1BERl0oaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDIuMDAwNDYpIC0gcHVibGljX2Z1bGxfdGV4dAoKKipDYW5vbmljYWwgc291cmNlOioqIFtodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjc2MTUxLjM3MTkzNzldKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTQ1LzM2NzYxNTEuMzcxOTM3OSkKCiMjIElkZW50aWZpZXJzCgpbRE9JIDEwLjExNDUvMzY3NjE1MS4zNzE5Mzc5XShodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNjc2MTUxLjM3MTkzNzkpIHwgW2FyWGl2IDI1MDIuMDAwNDZdKGh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNTAyLjAwMDQ2KQoKIyMgV2hlbiB0byBjaXRlIHRoaXMgcGFwZXIKCkNpdGUgdGhpcyBwYXBlciB3aGVuIGNvbXBhcmluZyByZXNvdXJjZS1lZmZpY2llbmN5IG1ldGhvZHMgZm9yIFRyYW5zZm9ybWVyIGFuZCBMTE0gd29ya2xvYWRzLgoKLSBRdWFudGl6YXRpb24sIGtub3dsZWRnZSBkaXN0aWxsYXRpb24sIGFuZCBwcnVuaW5nIGFzIGVmZmljaWVuY3kgc3RyYXRlZ2llcy4KLSBBY2N1cmFjeSBhbmQgcmVzb3VyY2UtY29zdCB0cmFkZS1vZmZzIGZvciBUcmFuc2Zvcm1lciBtb2RlbHMuCi0gRW5lcmd5IGFuZCBkZXBsb3ltZW50IGNvbnNpZGVyYXRpb25zIGZvciBsYXJnZS1sYW5ndWFnZS1tb2RlbCB3b3JrbG9hZHMuCgojIyBDaXRhdGlvbgoKCiMjIyBBbHRlcm5hdGl2ZSBvciBzb3VyY2UtcmVuZGVyZWQgdGl0bGVzCgotIE9wdGltaXphdGlvbiBTdHJhdGVnaWVzIGZvciBFbmhhbmNpbmcgUmVzb3VyY2UgRWZmaWNpZW5jeSBpbiBUcmFuc2Zvcm1lcnMgYW5kIExhcmdlIExhbmd1YWdlIE1vZGVscwojIyMgQVBBIDcKCldhbGxhY2UsIFQuLCBPbWJ1a2ktQmVybWFuLCBCLiBNLiwgJiBFenphdGktSml2YW4sIE4uICgyMDI1KS4gT3B0aW1pemF0aW9uIFN0cmF0ZWdpZXMgZm9yIEVuaGFuY2luZyBSZXNvdXJjZSBFZmZpY2llbmN5IGluIFRyYW5zZm9ybWVycyAmIExhcmdlIExhbmd1YWdlIE1vZGVscy4gQUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKS4gaHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzY3NjE1MS4zNzE5Mzc5CgojIyMgSUVFRQoKVC4gV2FsbGFjZSwgQi4gTS4gT21idWtpLUJlcm1hbiwgYW5kIE4uIEV6emF0aS1KaXZhbiwgIk9wdGltaXphdGlvbiBTdHJhdGVnaWVzIGZvciBFbmhhbmNpbmcgUmVzb3VyY2UgRWZmaWNpZW5jeSBpbiBUcmFuc2Zvcm1lcnMgJiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMsIiBpbiBBQ00vU1BFQyBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gUGVyZm9ybWFuY2UgRW5naW5lZXJpbmcgKElDUEUpLCAyMDI1LCBkb2k6IDEwLjExNDUvMzY3NjE1MS4zNzE5Mzc5CgpgYGBiaWJ0ZXgKQGlucHJvY2VlZGluZ3N7ZXp6YXRpSml2YW4yMDI1b3B0aW1pemF0aW9uc3RyYXRlZ2llcywKICBhdXRob3IgPSB7VG9tIFdhbGxhY2UgYW5kIEJlYXRyaWNlIE0uIE9tYnVraS1CZXJtYW4gYW5kIE5hc2VyIEV6emF0aS1KaXZhbn0sCiAgdGl0bGUgPSB7T3B0aW1pemF0aW9uIFN0cmF0ZWdpZXMgZm9yIEVuaGFuY2luZyBSZXNvdXJjZSBFZmZpY2llbmN5IGluIFRyYW5zZm9ybWVycyB7XCZ9IExhcmdlIExhbmd1YWdlIE1vZGVsc30sCiAgeWVhciA9IHsyMDI1fSwKICBib29rdGl0bGUgPSB7QUNNL1NQRUMgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIFBlcmZvcm1hbmNlIEVuZ2luZWVyaW5nIChJQ1BFKX0sCiAgZG9pID0gezEwLjExNDUvMzY3NjE1MS4zNzE5Mzc5fSwKICB1cmwgPSB7aHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzY3NjE1MS4zNzE5Mzc5fQp9CmBgYAoKKipSZWZlcmVuY2UtbWFuYWdlciBpbXBvcnQ6KiogW1JJUyBmaWxlXSguL2NpdGF0aW9uLnJpcykKCiMjIFJlY29yZCBwcm92ZW5hbmNlCgotIE1ldGFkYXRhIHZlcmlmaWVkOiAyMDI2LTA4LTAzCi0gU3VtbWFyeSBzdGF0dXM6IHNvdXJjZS1ncm91bmRlZCBjYXRhbG9nIHJldmlldzsgYXV0aG9yIGFwcHJvdmFsIHBlbmRpbmcKLSBNZXRhZGF0YSBzb3VyY2VzOiBEQkxQIGFuZCBBQ00gRE9JIG1ldGFkYXRhOyBvZmZpY2lhbCBhclhpdiBhYnN0cmFjdCBhbmQgUERGIHBhZ2UgMjUwMi4wMDA0NjsgbG9jYWwgUERGIGhhc2ggdmVyaWZpZWQgaW4gdGhlIHdvcmtpbmcgY2F0YWxvZzsgYXV0aG9yLW9yZGVyIGRpc2NyZXBhbmN5IGV4cGxpY2l0bHkgcmV0YWluZWQKLSBNYWNoaW5lLXJlYWRhYmxlIHJlY29yZDogW3BhcGVyLmpzb25dKC4vcGFwZXIuanNvbikKCj4gTWV0YWRhdGEgbm90ZTogVGhlIHB1Ymxpc2hlZC1yZWNvcmQgbWV0YWRhdGEgaXMgdXNlZCBmb3IgY2l0YXRpb24gb3JkZXI7IHRoZSBhclhpdiBwYWdlIHByZXNlbnRzIGEgZGlmZmVyZW50IGF1dGhvciBvcmRlcmluZywgc28gdGhlIHZlcnNpb25zIHNob3VsZCByZW1haW4gZGlzdGluZ3Vpc2hhYmxlLgo=
+# Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models
+
+**2025 | ACM/SPEC International Conference on Performance Engineering (ICPE) | short conference paper**
+
+**Authors:** Tom Wallace, Beatrice M. Ombuki-Berman, Naser Ezzati-Jivan
+
+**Core contribution:** The paper compares compression and optimization strategies for reducing the resource cost of Transformer and large-language-model workloads while retaining useful accuracy.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Growing model size increases computational and energy demands. Researchers and practitioners need clearer trade-offs among quantization, distillation, pruning, model size, and retained task performance.
+
+### 2. Method and contribution
+
+The study examines quantization, knowledge distillation, and pruning, including hybrid approaches such as NVIDIA's Minitron strategy. It proposes an optimization equation for comparing resource and performance trade-offs.
+
+### 3. Findings and evidence
+
+The reported analysis identifies 4-bit quantization as a strong standalone efficiency option with limited accuracy loss. Hybrid distillation and structured-pruning approaches also show promising size and accuracy trade-offs.
+
+### 4. Limitations and future directions
+
+**Limitations:** The comparison is not a complete hardware- and workload-independent characterization of every compression method.
+
+**Future work:** Future work should evaluate larger model families, realistic serving workloads, hardware effects, and standardized energy measurements.
+
+## Abstract
+
+Abstract not available in the captured sources.
+
+## Topics and keywords
+
+**Tags:** [llm-efficiency](../../topics/llm-efficiency.md) | [energy-efficiency](../../topics/energy-efficiency.md) | [model-compression](../../topics/model-compression.md) | [performance-engineering](../../topics/performance-engineering.md)
+
+**Keywords:** [transformers](../../keywords/transformers.md) | [quantization](../../keywords/quantization.md) | [knowledge distillation](../../keywords/knowledge-distillation.md) | [pruning](../../keywords/pruning.md) | [4-bit quantization](../../keywords/4-bit-quantization.md) | [Minitron](../../keywords/minitron.md) | [sustainable AI](../../keywords/sustainable-ai.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1145/3676151.3719379) - published
+- [Public preprint](https://arxiv.org/abs/2502.00046) | [PDF](https://arxiv.org/pdf/2502.00046) - public_full_text
+
+**Canonical source:** [https://doi.org/10.1145/3676151.3719379](https://doi.org/10.1145/3676151.3719379)
+
+## Identifiers
+
+[DOI 10.1145/3676151.3719379](https://doi.org/10.1145/3676151.3719379) | [arXiv 2502.00046](https://arxiv.org/abs/2502.00046)
+
+## When to cite this paper
+
+Cite this paper when comparing resource-efficiency methods for Transformer and LLM workloads.
+
+- Quantization, knowledge distillation, and pruning as efficiency strategies.
+- Accuracy and resource-cost trade-offs for Transformer models.
+- Energy and deployment considerations for large-language-model workloads.
+
+## Citation
+
+
+### Alternative or source-rendered titles
+
+- Optimization Strategies for Enhancing Resource Efficiency in Transformers and Large Language Models
+### APA 7
+
+Wallace, T., Ombuki-Berman, B. M., & Ezzati-Jivan, N. (2025). Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3676151.3719379
+
+### IEEE
+
+T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2025, doi: 10.1145/3676151.3719379
+
+```bibtex
+@inproceedings{ezzatiJivan2025optimizationstrategies,
+  author = {Tom Wallace and Beatrice M. Ombuki-Berman and Naser Ezzati-Jivan},
+  title = {Optimization Strategies for Enhancing Resource Efficiency in Transformers {\&} Large Language Models},
+  year = {2025},
+  booktitle = {ACM/SPEC International Conference on Performance Engineering (ICPE)},
+  doi = {10.1145/3676151.3719379},
+  url = {https://doi.org/10.1145/3676151.3719379}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2502.00046; local PDF hash verified in the working catalog; author-order discrepancy explicitly retained
+- Machine-readable record: [paper.json](./paper.json)
+
+> Metadata note: The published-record metadata is used for citation order; the arXiv page presents a different author ordering, so the versions should remain distinguishable.

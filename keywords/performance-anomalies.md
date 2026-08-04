@@ -1,1 +1,6 @@
-IyBwZXJmb3JtYW5jZSBhbm9tYWxpZXMKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipwZXJmb3JtYW5jZSBhbm9tYWxpZXMqKi4KCi0gW1BBU0Q6IEEgUGVyZm9ybWFuY2UgQW5hbHlzaXMgQXBwcm9hY2ggVGhyb3VnaCB0aGUgU3RhdGlzdGljYWwgRGVidWdnaW5nIG9mIEtlcm5lbCBFdmVudHNdKC4uL3BhcGVycy9wYXNkLXN0YXRpc3RpY2FsLWRlYnVnZ2luZy1rZXJuZWwtZXZlbnRzL1JFQURNRS5tZCkgLSAyMDIzCi0gW1BlcmZvcm1hbmNlIGFub21hbHkgZGV0ZWN0aW9uIHRocm91Z2ggc2VxdWVuY2UgYWxpZ25tZW50IG9mIHN5c3RlbS1sZXZlbCB0cmFjZXNdKC4uL3BhcGVycy9wZXJmb3JtYW5jZS1hbm9tYWx5LWRldGVjdGlvbi1zZXF1ZW5jZS1hbGlnbm1lbnQvUkVBRE1FLm1kKSAtIDIwMjIK
+# performance anomalies
+
+Papers indexed by keyword **performance anomalies**.
+
+- [PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events](../papers/pasd-statistical-debugging-kernel-events/README.md) - 2023
+- [Performance anomaly detection through sequence alignment of system-level traces](../papers/performance-anomaly-detection-sequence-alignment/README.md) - 2022

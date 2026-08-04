@@ -1,1 +1,10 @@
-VFkgIC0gR0VOCkFVICAtIEtoYW4sIE1vaGFtbWVkIEFkaWIKQVUgIC0gTm9mZXJlc3RpLCBNb3J0ZXphCkFVICAtIEV6emF0aS1KaXZhbiwgTmFzZXIKVEkgIC0gUEFTRDogQSBQZXJmb3JtYW5jZSBBbmFseXNpcyBBcHByb2FjaCBUaHJvdWdoIHRoZSBTdGF0aXN0aWNhbCBEZWJ1Z2dpbmcgb2YgS2VybmVsIEV2ZW50cwpQWSAgLSAyMDIzClQyICAtIElFRUUgV29ya2luZyBDb25mZXJlbmNlIG9uIFNvdXJjZSBDb2RlIEFuYWx5c2lzIGFuZCBNYW5pcHVsYXRpb24gKFNDQU0pCkRPICAtIDEwLjExMDkvc2NhbTU5Njg3LjIwMjMuMDAwMjUKVVIgIC0gaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvc2NhbTU5Njg3LjIwMjMuMDAwMjUKRVIgIC0K
+TY  - GEN
+AU  - Khan, Mohammed Adib
+AU  - Noferesti, Morteza
+AU  - Ezzati-Jivan, Naser
+TI  - PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events
+PY  - 2023
+T2  - IEEE Working Conference on Source Code Analysis and Manipulation (SCAM)
+DO  - 10.1109/scam59687.2023.00025
+UR  - https://doi.org/10.1109/scam59687.2023.00025
+ER  -

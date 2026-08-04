@@ -1,1 +1,11 @@
-VFkgIC0gR0VOCkFVICAtIFBhbmFoYW5kZWgsIE1haHNhCkFVICAtIEV6emF0aS1KaXZhbiwgTmFzZXIKQVUgIC0gSGFtb3UtTGhhZGosIEFiZGVsd2FoYWIKQVUgIC0gTWlsbGVyLCBKYW1lcwpUSSAgLSBFZmZpY2llbnQgVW5zdXBlcnZpc2VkIExhdGVuY3kgQ3VscHJpdCBSYW5raW5nIGluIERpc3RyaWJ1dGVkIFRyYWNlcyB3aXRoIEdOTiBhbmQgQ3JpdGljYWwgUGF0aCBBbmFseXNpcwpQWSAgLSAyMDI0ClQyICAtIEFDTS9TUEVDIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBQZXJmb3JtYW5jZSBFbmdpbmVlcmluZyAoSUNQRSkKRE8gIC0gMTAuMTE0NS8zNjI5NTI3LjM2NTE4NDEKVVIgIC0gaHR0cHM6Ly9kb2kub3JnLzEwLjExNDUvMzYyOTUyNy4zNjUxODQxCkVSICAtCg==
+TY  - GEN
+AU  - Panahandeh, Mahsa
+AU  - Ezzati-Jivan, Naser
+AU  - Hamou-Lhadj, Abdelwahab
+AU  - Miller, James
+TI  - Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis
+PY  - 2024
+T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+DO  - 10.1145/3629527.3651841
+UR  - https://doi.org/10.1145/3629527.3651841
+ER  -

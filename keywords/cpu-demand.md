@@ -1,1 +1,5 @@
-IyBDUFUgZGVtYW5kCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqQ1BVIGRlbWFuZCoqLgoKLSBbQXV0b21hdGljIFJlZHVjdGlvbiBvZiBFeGVjdXRpb24gVHJhY2UgRGF0YSBWb2x1bWUgVXNpbmcgR3JhZGllbnQgQm9vc3RpbmcgaW4gTGFyZ2UtU2NhbGUgTWljcm9zZXJ2aWNlIFN5c3RlbXNdKC4uL3BhcGVycy9hdXRvbWF0aWMtcmVkdWN0aW9uLWV4ZWN1dGlvbi10cmFjZS1kYXRhLXZvbHVtZS9SRUFETUUubWQpIC0gMjAyNAo=
+# CPU demand
+
+Papers indexed by keyword **CPU demand**.
+
+- [Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems](../papers/automatic-reduction-execution-trace-data-volume/README.md) - 2024

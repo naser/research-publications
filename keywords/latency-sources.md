@@ -1,1 +1,5 @@
-IyBsYXRlbmN5IHNvdXJjZXMKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipsYXRlbmN5IHNvdXJjZXMqKi4KCi0gW0RUcmFDb21wOiBDb21wYXJpbmcgZGlzdHJpYnV0ZWQgZXhlY3V0aW9uIHRyYWNlcyBmb3IgdW5kZXJzdGFuZGluZyBpbnRlcm1pdHRlbnQgbGF0ZW5jeSBzb3VyY2VzXSguLi9wYXBlcnMvZHRyYWNvbXAtZGlzdHJpYnV0ZWQtdHJhY2UtY29tcGFyaXNvbi9SRUFETUUubWQpIC0gMjAyNgo=
+# latency sources
+
+Papers indexed by keyword **latency sources**.
+
+- [DTraComp: Comparing distributed execution traces for understanding intermittent latency sources](../papers/dtracomp-distributed-trace-comparison/README.md) - 2026

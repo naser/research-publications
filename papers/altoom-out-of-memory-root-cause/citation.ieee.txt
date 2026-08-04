@@ -1,1 +1,1 @@
-UC4gQ2hha3JhYm9ydHksIE4uIEV6emF0aS1KaXZhbiwgUy4gVi4gQXpoYXJpLCBhbmQgRi4gVGV0cmVhdWx0LCAiQWx0T09NOiBBIERhdGEtZHJpdmVuIE91dCBvZiBNZW1vcnkgUm9vdCBDYXVzZSBJZGVudGlmaWNhdGlvbiBTdHJhdGVneSwiIGluIElFRUUgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIEJpZyBEYXRhLCAyMDIzLCBkb2k6IDEwLjExMDkvYmlnZGF0YTU5MDQ0LjIwMjMuMTAzODY5MzcK
+P. Chakraborty, N. Ezzati-Jivan, S. V. Azhari, and F. Tetreault, "AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy," in IEEE International Conference on Big Data, 2023, doi: 10.1109/bigdata59044.2023.10386937

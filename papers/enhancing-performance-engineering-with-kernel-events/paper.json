@@ -1,1 +1,94 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6ICIwLjQuMCIsCiAgInBhcGVyX2lkIjogImVuaGFuY2luZy1wZXJmb3JtYW5jZS1lbmdpbmVlcmluZy13aXRoLWtlcm5lbC1ldmVudHMiLAogICJwYWdlX3VybCI6ICJodHRwczovL25hc2VyLmdpdGh1Yi5pby9yZXNlYXJjaC1wdWJsaWNhdGlvbnMvcGFwZXJzL2VuaGFuY2luZy1wZXJmb3JtYW5jZS1lbmdpbmVlcmluZy13aXRoLWtlcm5lbC1ldmVudHMvIiwKICAidGl0bGUiOiAiRW5oYW5jaW5nIGVtcGlyaWNhbCBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBlbmdpbmVlcmluZyByZXNlYXJjaCB3aXRoIGtlcm5lbC1sZXZlbCBldmVudHM6IEEgY29tcHJlaGVuc2l2ZSBzeXN0ZW0gdHJhY2luZyBhcHByb2FjaCIsCiAgInRpdGxlX3ZhcmlhbnRzIjogW10sCiAgImF1dGhvcnMiOiBbCiAgICAiTW9ydGV6YSBOb2ZlcmVzdGkiLAogICAgIk5hc2VyIEV6emF0aS1KaXZhbiIKICBdLAogICJwdWJsaWNhdGlvbiI6IHsKICAgICJ5ZWFyIjogMjAyNCwKICAgICJ2ZW51ZSI6ICJKb3VybmFsIG9mIFN5c3RlbXMgYW5kIFNvZnR3YXJlIiwKICAgICJ0eXBlIjogInJlc2VhcmNoIHBhcGVyIgogIH0sCiAgInB1YmxpY2F0aW9uX3R5cGUiOiAicmVzZWFyY2ggcGFwZXIiLAogICJzdGF0dXMiOiAicHVibGlzaGVkX21ldGFkYXRhX3JlY29yZCIsCiAgImNhbm9uaWNhbF9zb3VyY2VfdXJsIjogImh0dHBzOi8vZG9pLm9yZy8xMC4xMDE2L2ouanNzLjIwMjQuMTEyMTE3IiwKICAic291cmNlX3JlY29yZF9pZCI6ICJlbmhhbmNpbmctZW1waXJpY2FsLXNvZnR3YXJlLXBlcmZvcm1hbmNlLWVuZ2luZWVyaW5nLXJlc2VhcmNoLXdpdGgta2VybmVsLWxldmVsLWV2ZW50cy1hLWNvbXByZWgtNWQ1MGYxMGVkZiIsCiAgImlkZW50aWZpZXJzIjogewogICAgImRvaSI6ICIxMC4xMDE2L2ouanNzLjIwMjQuMTEyMTE3IgogIH0sCiAgImFic3RyYWN0IjogbnVsbCwKICAiYWJzdHJhY3Rfc291cmNlIjogIk5vIHB1YmxpYyBhYnN0cmFjdCBjYXB0dXJlZCBpbiB0aGUgY3VycmVudCBjYXRhbG9nOyBzdW1tYXJ5IGxpbWl0ZWQgdG8gdmVyaWZpZWQgYmlibGlvZ3JhcGhpYyBtZXRhZGF0YSBhbmQgdGhlIHBhcGVyIHRpdGxlLiIsCiAgInN1bW1hcnkiOiB7CiAgICAiY29yZV9jb250cmlidXRpb24iOiAiVGhpcyB3b3JrIHN0dWRpZXMgZW5oYW5jaW5nIGVtcGlyaWNhbCBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBlbmdpbmVlcmluZyByZXNlYXJjaCB3aXRoIGtlcm5lbC1sZXZlbCBldmVudHM6IGEgY29tcHJlaGVuc2l2ZSBzeXN0ZW0gdHJhY2luZyBhcHByb2FjaCBpbiB0aGUgY29udGV4dCBvZiBzb2Z0d2FyZSBwZXJmb3JtYW5jZSBhbmQgc3lzdGVtcyBhbmFseXNpcy4iLAogICAgInByb2JsZW0iOiAiQXBwbGljYXRpb24tbGV2ZWwgbWVhc3VyZW1lbnRzIGNhbiBtaXNzIG9wZXJhdGluZy1zeXN0ZW0gZXZlbnRzIHRoYXQgZXhwbGFpbiBwZXJmb3JtYW5jZSB2YXJpYXRpb24uIiwKICAgICJtZXRob2QiOiAiVGhlIHdvcmsgZXhhbWluZXMgYSBjb21wcmVoZW5zaXZlIHN5c3RlbS10cmFjaW5nIGFwcHJvYWNoIHRoYXQgaW5jb3Jwb3JhdGVzIGtlcm5lbC1sZXZlbCBldmVudHMgaW50byBlbXBpcmljYWwgcGVyZm9ybWFuY2UtZW5naW5lZXJpbmcgcmVzZWFyY2guIiwKICAgICJmaW5kaW5ncyI6ICJJdCBhcmd1ZXMgZm9yIHJpY2hlciBwZXJmb3JtYW5jZSBldmlkZW5jZSB0aHJvdWdoIGtlcm5lbCBldmVudHM7IHN0dWR5LXNwZWNpZmljIG1lYXN1cmVtZW50cyByZXF1aXJlIGZ1bGwtdGV4dCByZXZpZXcuIiwKICAgICJsaW1pdGF0aW9ucyI6ICJUaGUgY3VycmVudCBwdWJsaWMgcmVjb3JkIGNhcHR1cmVzIGJpYmxpb2dyYXBoaWMgbWV0YWRhdGEgYnV0IG5vdCB0aGUgcGFwZXIncyBmdWxsIHRleHQ7IHF1YW50aXRhdGl2ZSBjbGFpbXMgYW5kIGltcGxlbWVudGF0aW9uIGRldGFpbHMgc2hvdWxkIGJlIGFkZGVkIGFmdGVyIFBERiBvciBhdXRob3ItbWFudXNjcmlwdCByZXZpZXcuIiwKICAgICJmdXR1cmVfd29yayI6ICJTdGFuZGFyZGl6ZSBldmVudCBzY2hlbWFzLCBxdWFudGlmeSBpbnN0cnVtZW50YXRpb24gY29zdCwgYW5kIGV2YWx1YXRlIHJlcHJvZHVjaWJpbGl0eSBhY3Jvc3MgcGxhdGZvcm1zLiIKICB9LAogICJ0YWdzIjogWwogICAgImtlcm5lbC10cmFjaW5nIiwKICAgICJzeXN0ZW0tdHJhY2luZyIsCiAgICAicGVyZm9ybWFuY2UtZW5naW5lZXJpbmciLAogICAgIm9ic2VydmFiaWxpdHkiCiAgXSwKICAia2V5d29yZHMiOiBbCiAgICAia2VybmVsLWxldmVsIGV2ZW50cyIsCiAgICAiZW1waXJpY2FsIHBlcmZvcm1hbmNlIGVuZ2luZWVyaW5nIiwKICAgICJzeXN0ZW0gdHJhY2luZyIsCiAgICAicGVyZm9ybWFuY2UgZXZpZGVuY2UiCiAgXSwKICAidmVyc2lvbnMiOiBbCiAgICB7CiAgICAgICJpZCI6ICJwdWJsaXNoZWQtdmVyc2lvbiIsCiAgICAgICJsYWJlbCI6ICJQdWJsaXNoZWQgdmVyc2lvbiIsCiAgICAgICJyZWxhdGlvbiI6ICJ2ZXJzaW9uLW9mLXJlY29yZCIsCiAgICAgICJ0aXRsZSI6ICJFbmhhbmNpbmcgZW1waXJpY2FsIHNvZnR3YXJlIHBlcmZvcm1hbmNlIGVuZ2luZWVyaW5nIHJlc2VhcmNoIHdpdGgga2VybmVsLWxldmVsIGV2ZW50czogQSBjb21wcmVoZW5zaXZlIHN5c3RlbSB0cmFjaW5nIGFwcHJvYWNoIiwKICAgICAgInVybCI6ICJodHRwczovL2RvaS5vcmcvMTAuMTAxNi9qLmpzcy4yMDI0LjExMjExNyIsCiAgICAgICJwZGZfdXJsIjogbnVsbCwKICAgICAgInN0YXR1cyI6ICJwdWJsaXNoZWQiLAogICAgICAiY2Fub25pY2FsX2Zvcl9jaXRhdGlvbiI6IHRydWUKICAgIH0KICBdLAogICJhY2Nlc3MiOiB7CiAgICAic3RhdHVzIjogInB1Ymxpc2hlZF9tZXRhZGF0YV9yZWNvcmQiLAogICAgIm5vdGUiOiAiVGhlIERPSSBpcyB0aGUgY2Fub25pY2FsIGNpdGF0aW9uIHRhcmdldDsgdGhpcyBjYXRhbG9nIGRvZXMgbm90IHJlZGlzdHJpYnV0ZSB0aGUgcHVibGlzaGVyIFBERi4iLAogICAgImxpY2Vuc2UiOiBudWxsCiAgfSwKICAicmVzb3VyY2VzIjogewogICAgImNvZGUiOiBudWxsLAogICAgImRhdGEiOiBudWxsLAogICAgInNsaWRlcyI6IG51bGwsCiAgICAiZGVtbyI6IG51bGwKICB9LAogICJjaXRhdGlvbl9ndWlkYW5jZSI6IHsKICAgICJ3aGVuX3RvX2NpdGUiOiAiQ2l0ZSB0aGlzIHBhcGVyIHdoZW4gaXRzIHNwZWNpZmljIG1ldGhvZCwgZXZpZGVuY2UsIG9yIGJlbmNobWFyayBpcyBkaXJlY3RseSByZWxldmFudC4iLAogICAgInBvaW50cyI6IFsKICAgICAgIlRoZSBwYXBlcidzIG1ldGhvZCBpcyBkaXJlY3RseSByZWxldmFudC4iLAogICAgICAiVGhlIHBhcGVyJ3MgZXZpZGVuY2Ugb3IgYmVuY2htYXJrIGlzIGRpcmVjdGx5IHJlbGV2YW50LiIKICAgIF0sCiAgICAiY2Fub25pY2FsX3ZlcnNpb25faWQiOiAicHVibGlzaGVkLXZlcnNpb24iCiAgfSwKICAicHJvdmVuYW5jZSI6IHsKICAgICJtZXRhZGF0YV92ZXJpZmllZF9vbiI6ICIyMDI2LTA4LTAzIiwKICAgICJtZXRhZGF0YV9zb3VyY2UiOiBbCiAgICAgICJEQkxQL0RPSSBiaWJsaW9ncmFwaGljIHJlY29yZCBmb3IgMTAuMTAxNi9qLmpzcy4yMDI0LjExMjExNyIsCiAgICAgICJhdXRob3IgaWRlbnRpdHkgbWF0Y2hlZCB0byBOYXNlciBFenphdGktSml2YW4gaW4gdGhlIGxvY2FsIHJlc2VhcmNoIGNhdGFsb2ciLAogICAgICAiZnVsbC10ZXh0IHN1bW1hcnkgcGVuZGluZyBzb3VyY2UgcmV2aWV3IgogICAgXSwKICAgICJzdW1tYXJ5X3dyaXR0ZW5fYnkiOiAiQUktYXNzaXN0ZWQiLAogICAgInN1bW1hcnlfdmVyaWZpZWRfYnkiOiAic291cmNlLWdyb3VuZGVkIGNhdGFsb2cgcmV2aWV3OyBhdXRob3IgYXBwcm92YWwgcGVuZGluZyIsCiAgICAibGlua2VkX3ByZXByaW50X3JlY29yZCI6IG51bGwsCiAgICAiYXV0aG9yX29yZGVyX25vdGUiOiBudWxsCiAgfSwKICAiYmF0Y2giOiB7CiAgICAicGhhc2UiOiAyLAogICAgImJhdGNoX2xhYmVsIjogImV4cGFuZGVkIHRoaXJ0eS1wYXBlciByZWxlYXNlIiwKICAgICJzdGF0dXMiOiAiaW5jbHVkZWRfaW5fZXhwYW5kZWRfY2F0YWxvZyIsCiAgICAic2VsZWN0ZWRfYXQiOiAiMjAyNi0wOC0wMyIKICB9Cn0K
+{
+  "schema_version": "0.4.0",
+  "paper_id": "enhancing-performance-engineering-with-kernel-events",
+  "page_url": "https://naser.github.io/research-publications/papers/enhancing-performance-engineering-with-kernel-events/",
+  "title": "Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach",
+  "title_variants": [],
+  "authors": [
+    "Morteza Noferesti",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2024,
+    "venue": "Journal of Systems and Software",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1016/j.jss.2024.112117",
+  "source_record_id": "enhancing-empirical-software-performance-engineering-research-with-kernel-level-events-a-compreh-5d50f10edf",
+  "identifiers": {
+    "doi": "10.1016/j.jss.2024.112117"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "This work studies enhancing empirical software performance engineering research with kernel-level events: a comprehensive system tracing approach in the context of software performance and systems analysis.",
+    "problem": "Application-level measurements can miss operating-system events that explain performance variation.",
+    "method": "The work examines a comprehensive system-tracing approach that incorporates kernel-level events into empirical performance-engineering research.",
+    "findings": "It argues for richer performance evidence through kernel events; study-specific measurements require full-text review.",
+    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
+    "future_work": "Standardize event schemas, quantify instrumentation cost, and evaluate reproducibility across platforms."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "performance-engineering",
+    "observability"
+  ],
+  "keywords": [
+    "kernel-level events",
+    "empirical performance engineering",
+    "system tracing",
+    "performance evidence"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach",
+      "url": "https://doi.org/10.1016/j.jss.2024.112117",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "DBLP/DOI bibliographic record for 10.1016/j.jss.2024.112117",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

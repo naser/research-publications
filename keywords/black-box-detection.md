@@ -1,1 +1,5 @@
-IyBibGFjay1ib3ggZGV0ZWN0aW9uCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqYmxhY2stYm94IGRldGVjdGlvbioqLgoKLSBbQi1QZXJmOiBCbGFjay1ib3ggUGVyZm9ybWFuY2UgQW50aXBhdHRlcm4gRGV0ZWN0aW9uIFVzaW5nIFN5c3RlbS1sZXZlbCBFeGVjdXRpb24gVHJhY2luZ10oLi4vcGFwZXJzL2ItcGVyZi1ibGFjay1ib3gtcGVyZm9ybWFuY2UtYW50aXBhdHRlcm5zL1JFQURNRS5tZCkgLSAyMDI2Cg==
+# black-box detection
+
+Papers indexed by keyword **black-box detection**.
+
+- [B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing](../papers/b-perf-black-box-performance-antipatterns/README.md) - 2026

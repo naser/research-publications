@@ -1,1 +1,86 @@
-IyBBdXRvbWF0aWMgQ2F1c2UgRGV0ZWN0aW9uIG9mIFBlcmZvcm1hbmNlIFByb2JsZW1zIGluIFdlYiBBcHBsaWNhdGlvbnMKCioqMjAxOSB8IElFRUUgSW50ZXJuYXRpb25hbCBTeW1wb3NpdW0gb24gU29mdHdhcmUgUmVsaWFiaWxpdHkgRW5naW5lZXJpbmcgV29ya3Nob3BzIChJU1NSRVcpIHwgd29ya3Nob3AgcGFwZXIqKgoKKipBdXRob3JzOioqIFF1ZW50aW4gRm91cm5pZXIsIE5hc2VyIEV6emF0aS1KaXZhbiwgRGFuaWVsIEFsb2lzZSwgTWljaGVsIFIuIERhZ2VuYWlzCgoqKkNvcmUgY29udHJpYnV0aW9uOioqIFRoZSBwYXBlciBwcmVzZW50cyBhIHRyYWNpbmcgYW5kIGFuYWx5c2lzIHBpcGVsaW5lIHRoYXQgZGV0ZWN0cyBzbG93IHdlYiByZXF1ZXN0cyBhbmQgZ3JvdXBzIHRoZW0gYnkgaW50ZXJuYWwgZXhlY3V0aW9uIGJlaGF2aW9yIHRvIGV4cG9zZSBsaWtlbHkgY2F1c2VzLgoKIyMgRm91ci1wYXJ0IHJlc2VhcmNoIHN1bW1hcnkKCiMjIyAxLiBQcm9ibGVtIGFuZCBtb3RpdmF0aW9uCgpTbG93IHdlYiByZXF1ZXN0cyBjYW4gbG9vayBzaW1pbGFyIGF0IHRoZSBhcHBsaWNhdGlvbiBib3VuZGFyeSB3aGlsZSBoYXZpbmcgZGlmZmVyZW50IGxvdy1sZXZlbCBjYXVzZXMuIERldmVsb3BlcnMgbmVlZCBmaW5lLWdyYWluZWQgZXZpZGVuY2UgYWNyb3NzIHVzZXIgc3BhY2UgYW5kIGtlcm5lbCBzcGFjZSB0byBkaXN0aW5ndWlzaCB0aG9zZSBjYXVzZXMuCgojIyMgMi4gTWV0aG9kIGFuZCBjb250cmlidXRpb24KClRoZSBwaXBlbGluZSB0cmFjZXMgZWFjaCByZXF1ZXN0LCBleHRyYWN0cyBiZWhhdmlvcmFsIGZlYXR1cmVzLCBkZXRlY3RzIG91dGxpZXJzLCBjbHVzdGVycyByZXF1ZXN0cyBieSBleGVjdXRpb24gYmVoYXZpb3IsIGFuZCBhbmFseXplcyBlYWNoIGNsdXN0ZXIgZm9yIGNhdXNhbCBleHBsYW5hdGlvbnMuCgojIyMgMy4gRmluZGluZ3MgYW5kIGV2aWRlbmNlCgpUaGUgZXhwZXJpbWVudHMgZGV0ZWN0ZWQgc2xvdyByZXF1ZXN0cyBhbmQgcHJvdmlkZWQgYWRkaXRpb25hbCByb290LWNhdXNlIGluc2lnaHQuIE9uZSBjb25jcmV0ZSByZXN1bHQgd2FzIHRoZSBpZGVudGlmaWNhdGlvbiBvZiBQSFAgY2FjaGUgY29udGVudGlvbiBpbiBhIHJlYWwgd2ViLWFwcGxpY2F0aW9uIHNjZW5hcmlvLgoKIyMjIDQuIExpbWl0YXRpb25zIGFuZCBmdXR1cmUgZGlyZWN0aW9ucwoKKipMaW1pdGF0aW9uczoqKiBUaGUgZXZhbHVhdGlvbiBlbXBoYXNpemVzIHdlYi1yZXF1ZXN0IGJlaGF2aW9yIGFuZCBhIGxpbWl0ZWQgc2V0IG9mIGFwcGxpY2F0aW9uIGNvbmRpdGlvbnMuCgoqKkZ1dHVyZSB3b3JrOioqIEZ1dHVyZSB3b3JrIHNob3VsZCBhc3Nlc3MgbW9yZSBmcmFtZXdvcmtzLCB3b3JrbG9hZHMsIGRlcGxveW1lbnQgZW52aXJvbm1lbnRzLCBhbmQgYXV0b21hdGVkIGV4cGxhbmF0aW9ucyB0aGF0IHJlbWFpbiBzdGFibGUgdW5kZXIgY2hhbmdpbmcgYXBwbGljYXRpb24gdmVyc2lvbnMuCgojIyBBYnN0cmFjdAoKVGhlIGV4ZWN1dGlvbiBvZiBzaW1pbGFyIHVuaXRzIGNhbiBiZSBjb21wYXJlZCBieSB0aGVpciBpbnRlcm5hbCBiZWhhdmlvcnMgdG8gZGV0ZXJtaW5lIHRoZSBjYXVzZXMgb2YgdGhlaXIgcG90ZW50aWFsIHBlcmZvcm1hbmNlIGlzc3Vlcy4gRm9yIGluc3RhbmNlLCBieSBleGFtaW5pbmcgdGhlIGludGVybmFsIGJlaGF2aW9ycyBvZiBkaWZmZXJlbnQgZmFzdCBvciBzbG93IHdlYiByZXF1ZXN0cyBtb3JlIGNsb3NlbHkgYW5kIGJ5IGNsdXN0ZXJpbmcgYW5kIGNvbXBhcmluZyB0aGVpciBpbnRlcm5hbCBleGVjdXRpb25zLCBvbmUgY2FuIGRldGVybWluZSB3aGF0IGNhdXNlcyBzb21lIHJlcXVlc3RzIHRvIHJ1biBzbG93bHkgb3IgYmVoYXZlIGluIHVuZXhwZWN0ZWQgd2F5cy4gSW4gdGhpcyBwYXBlciwgd2UgcHJvcG9zZSBhIG1ldGhvZCBvZiBleHRyYWN0aW5nIHRoZSBpbnRlcm5hbCBiZWhhdmlvciBvZiB3ZWIgcmVxdWVzdHMgYXMgd2VsbCBhcyBpbnRyb2R1Y2UgYSBwaXBlbGluZSB0aGF0IGRldGVjdHMgcGVyZm9ybWFuY2UgaXNzdWVzIGluIHdlYiByZXF1ZXN0cyBhbmQgcHJvdmlkZXMgaW5zaWdodHMgaW50byB0aGVpciByb290IGNhdXNlcy4gRmlyc3QsIGxvdy1sZXZlbCBhbmQgZmluZS1ncmFpbmVkIGluZm9ybWF0aW9uIHJlZ2FyZGluZyBlYWNoIHJlcXVlc3QgaXMgZ2F0aGVyZWQgYnkgdHJhY2luZyBib3RoIHRoZSB1c2VyIHNwYWNlIGFuZCB0aGUga2VybmVsIHNwYWNlLiBTZWNvbmQsIGZ1cnRoZXIgaW5mb3JtYXRpb24gaXMgZXh0cmFjdGVkIGFuZCBmZWQgaW50byBhbiBvdXRsaWVyIGRldGVjdG9yLiBGaW5hbGx5LCB0aGVzZSBvdXRsaWVycyBhcmUgdGhlbiBjbHVzdGVyZWQgYnkgdGhlaXIgYmVoYXZpb3IsIGFuZCBlYWNoIGdyb3VwIGlzIGFuYWx5emVkIHNlcGFyYXRlbHkuIEV4cGVyaW1lbnRzIHJldmVhbGVkIHRoYXQgdGhpcyBwaXBlbGluZSBpcyBpbmRlZWQgYWJsZSB0byBkZXRlY3Qgc2xvdyB3ZWIgcmVxdWVzdHMgYW5kIHByb3ZpZGUgYWRkaXRpb25hbCBpbnNpZ2h0cyBpbnRvIHRoZWlyIHRydWUgcm9vdCBjYXVzZXMuIE5vdGFibHksIHdlIHdlcmUgYWJsZSB0byBpZGVudGlmeSBhIHJlYWwgUEhQIGNhY2hlIGNvbnRlbnRpb24gdXNpbmcgdGhlIHByb3Bvc2VkIGFwcHJvYWNoLgoKIyMgVG9waWNzIGFuZCBrZXl3b3JkcwoKKipUYWdzOioqIFtrZXJuZWwtdHJhY2luZ10oLi4vLi4vdG9waWNzL2tlcm5lbC10cmFjaW5nLm1kKSB8IFt3ZWItcGVyZm9ybWFuY2VdKC4uLy4uL3RvcGljcy93ZWItcGVyZm9ybWFuY2UubWQpIHwgW2Fub21hbHktZGV0ZWN0aW9uXSguLi8uLi90b3BpY3MvYW5vbWFseS1kZXRlY3Rpb24ubWQpIHwgW3Jvb3QtY2F1c2UtYW5hbHlzaXNdKC4uLy4uL3RvcGljcy9yb290LWNhdXNlLWFuYWx5c2lzLm1kKQoKKipLZXl3b3JkczoqKiBbd2ViIHJlcXVlc3RzXSguLi8uLi9rZXl3b3Jkcy93ZWItcmVxdWVzdHMubWQpIHwgW3VzZXItc3BhY2UgdHJhY2luZ10oLi4vLi4va2V5d29yZHMvdXNlci1zcGFjZS10cmFjaW5nLm1kKSB8IFtrZXJuZWwtc3BhY2UgdHJhY2luZ10oLi4vLi4va2V5d29yZHMva2VybmVsLXNwYWNlLXRyYWNpbmcubWQpIHwgW291dGxpZXIgZGV0ZWN0aW9uXSguLi8uLi9rZXl3b3Jkcy9vdXRsaWVyLWRldGVjdGlvbi5tZCkgfCBbYmVoYXZpb3IgY2x1c3RlcmluZ10oLi4vLi4va2V5d29yZHMvYmVoYXZpb3ItY2x1c3RlcmluZy5tZCkgfCBbUEhQIGNhY2hlIGNvbnRlbnRpb25dKC4uLy4uL2tleXdvcmRzL3BocC1jYWNoZS1jb250ZW50aW9uLm1kKQoKIyMgVmVyc2lvbnMgYW5kIHNvdXJjZSBsaW5rcwoKLSBbUHVibGlzaGVkIHZlcnNpb25dKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L0lTU1JFVy4yMDE5LjAwMTAyKSAtIHB1Ymxpc2hlZAotIFtQdWJsaWMgcHJlcHJpbnRdKGh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTAzLjA0OTU0KSB8IFtQREZdKGh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMTAzLjA0OTU0KSAtIHB1YmxpY19mdWxsX3RleHQKCioqQ2Fub25pY2FsIHNvdXJjZToqKiBbaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvSVNTUkVXLjIwMTkuMDAxMDJdKGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L0lTU1JFVy4yMDE5LjAwMTAyKQoKIyMgSWRlbnRpZmllcnMKCltET0kgMTAuMTEwOS9JU1NSRVcuMjAxOS4wMDEwMl0oaHR0cHM6Ly9kb2kub3JnLzEwLjExMDkvSVNTUkVXLjIwMTkuMDAxMDIpIHwgW2FyWGl2IDIxMDMuMDQ5NTRdKGh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTAzLjA0OTU0KQoKIyMgV2hlbiB0byBjaXRlIHRoaXMgcGFwZXIKCkNpdGUgdGhpcyBwYXBlciB3aGVuIGRpYWdub3Npbmcgc2xvdyB3ZWIgcmVxdWVzdHMgd2l0aCBjcm9zcy1sYXllciB0cmFjaW5nLgoKLSBDcm9zcy1sYXllciB1c2VyLXNwYWNlIGFuZCBrZXJuZWwtc3BhY2UgdHJhY2luZyBvZiB3ZWIgcmVxdWVzdHMuCi0gQ2x1c3RlcmluZyBhbmQgY29tcGFyaXNvbiBvZiBub3JtYWwgdmVyc3VzIHNsb3cgcmVxdWVzdCBiZWhhdmlvci4KLSBSb290LWNhdXNlIGFuYWx5c2lzIG9mIGFwcGxpY2F0aW9uIGFuZCBzeXN0ZW0gaW50ZXJhY3Rpb25zLgoKIyMgQ2l0YXRpb24KCiMjIyBBUEEgNwoKRm91cm5pZXIsIFEuLCBFenphdGktSml2YW4sIE4uLCBBbG9pc2UsIEQuLCAmIERhZ2VuYWlzLCBNLiBSLiAoMjAxOSkuIEF1dG9tYXRpYyBDYXVzZSBEZXRlY3Rpb24gb2YgUGVyZm9ybWFuY2UgUHJvYmxlbXMgaW4gV2ViIEFwcGxpY2F0aW9ucy4gSUVFRSBJbnRlcm5hdGlvbmFsIFN5bXBvc2l1bSBvbiBTb2Z0d2FyZSBSZWxpYWJpbGl0eSBFbmdpbmVlcmluZyBXb3Jrc2hvcHMgKElTU1JFVykuIGh0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L0lTU1JFVy4yMDE5LjAwMTAyCgojIyMgSUVFRQoKUS4gRm91cm5pZXIsIE4uIEV6emF0aS1KaXZhbiwgRC4gQWxvaXNlLCBhbmQgTS4gUi4gRGFnZW5haXMsICJBdXRvbWF0aWMgQ2F1c2UgRGV0ZWN0aW9uIG9mIFBlcmZvcm1hbmNlIFByb2JsZW1zIGluIFdlYiBBcHBsaWNhdGlvbnMsIiBpbiBJRUVFIEludGVybmF0aW9uYWwgU3ltcG9zaXVtIG9uIFNvZnR3YXJlIFJlbGlhYmlsaXR5IEVuZ2luZWVyaW5nIFdvcmtzaG9wcyAoSVNTUkVXKSwgMjAxOSwgZG9pOiAxMC4xMTA5L0lTU1JFVy4yMDE5LjAwMTAyCgpgYGBiaWJ0ZXgKQGlucHJvY2VlZGluZ3N7ZXp6YXRpSml2YW4yMDE5YXV0b21hdGljY2F1c2UsCiAgYXV0aG9yID0ge1F1ZW50aW4gRm91cm5pZXIgYW5kIE5hc2VyIEV6emF0aS1KaXZhbiBhbmQgRGFuaWVsIEFsb2lzZSBhbmQgTWljaGVsIFIuIERhZ2VuYWlzfSwKICB0aXRsZSA9IHtBdXRvbWF0aWMgQ2F1c2UgRGV0ZWN0aW9uIG9mIFBlcmZvcm1hbmNlIFByb2JsZW1zIGluIFdlYiBBcHBsaWNhdGlvbnN9LAogIHllYXIgPSB7MjAxOX0sCiAgYm9va3RpdGxlID0ge0lFRUUgSW50ZXJuYXRpb25hbCBTeW1wb3NpdW0gb24gU29mdHdhcmUgUmVsaWFiaWxpdHkgRW5naW5lZXJpbmcgV29ya3Nob3BzIChJU1NSRVcpfSwKICBkb2kgPSB7MTAuMTEwOS9JU1NSRVcuMjAxOS4wMDEwMn0sCiAgdXJsID0ge2h0dHBzOi8vZG9pLm9yZy8xMC4xMTA5L0lTU1JFVy4yMDE5LjAwMTAyfQp9CmBgYAoKKipSZWZlcmVuY2UtbWFuYWdlciBpbXBvcnQ6KiogW1JJUyBmaWxlXSguL2NpdGF0aW9uLnJpcykKCiMjIFJlY29yZCBwcm92ZW5hbmNlCgotIE1ldGFkYXRhIHZlcmlmaWVkOiAyMDI2LTA4LTAzCi0gU3VtbWFyeSBzdGF0dXM6IHNvdXJjZS1ncm91bmRlZCBjYXRhbG9nIHJldmlldzsgYXV0aG9yIGFwcHJvdmFsIHBlbmRpbmcKLSBNZXRhZGF0YSBzb3VyY2VzOiBEQkxQIGFuZCBJRUVFIG1ldGFkYXRhIGZvciB0aGUgcHVibGlzaGVkIHBhcGVyOyBvZmZpY2lhbCBhclhpdiBhYnN0cmFjdCBhbmQgUERGIHBhZ2UgMjEwMy4wNDk1NDsgbG9jYWwgUERGIGhhc2ggdmVyaWZpZWQgaW4gdGhlIHdvcmtpbmcgY2F0YWxvZwotIE1hY2hpbmUtcmVhZGFibGUgcmVjb3JkOiBbcGFwZXIuanNvbl0oLi9wYXBlci5qc29uKQo=
+# Automatic Cause Detection of Performance Problems in Web Applications
+
+**2019 | IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW) | workshop paper**
+
+**Authors:** Quentin Fournier, Naser Ezzati-Jivan, Daniel Aloise, Michel R. Dagenais
+
+**Core contribution:** The paper presents a tracing and analysis pipeline that detects slow web requests and groups them by internal execution behavior to expose likely causes.
+
+## Four-part research summary
+
+### 1. Problem and motivation
+
+Slow web requests can look similar at the application boundary while having different low-level causes. Developers need fine-grained evidence across user space and kernel space to distinguish those causes.
+
+### 2. Method and contribution
+
+The pipeline traces each request, extracts behavioral features, detects outliers, clusters requests by execution behavior, and analyzes each cluster for causal explanations.
+
+### 3. Findings and evidence
+
+The experiments detected slow requests and provided additional root-cause insight. One concrete result was the identification of PHP cache contention in a real web-application scenario.
+
+### 4. Limitations and future directions
+
+**Limitations:** The evaluation emphasizes web-request behavior and a limited set of application conditions.
+
+**Future work:** Future work should assess more frameworks, workloads, deployment environments, and automated explanations that remain stable under changing application versions.
+
+## Abstract
+
+The execution of similar units can be compared by their internal behaviors to determine the causes of their potential performance issues. For instance, by examining the internal behaviors of different fast or slow web requests more closely and by clustering and comparing their internal executions, one can determine what causes some requests to run slowly or behave in unexpected ways. In this paper, we propose a method of extracting the internal behavior of web requests as well as introduce a pipeline that detects performance issues in web requests and provides insights into their root causes. First, low-level and fine-grained information regarding each request is gathered by tracing both the user space and the kernel space. Second, further information is extracted and fed into an outlier detector. Finally, these outliers are then clustered by their behavior, and each group is analyzed separately. Experiments revealed that this pipeline is indeed able to detect slow web requests and provide additional insights into their true root causes. Notably, we were able to identify a real PHP cache contention using the proposed approach.
+
+## Topics and keywords
+
+**Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [web-performance](../../topics/web-performance.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
+
+**Keywords:** [web requests](../../keywords/web-requests.md) | [user-space tracing](../../keywords/user-space-tracing.md) | [kernel-space tracing](../../keywords/kernel-space-tracing.md) | [outlier detection](../../keywords/outlier-detection.md) | [behavior clustering](../../keywords/behavior-clustering.md) | [PHP cache contention](../../keywords/php-cache-contention.md)
+
+## Versions and source links
+
+- [Published version](https://doi.org/10.1109/ISSREW.2019.00102) - published
+- [Public preprint](https://arxiv.org/abs/2103.04954) | [PDF](https://arxiv.org/pdf/2103.04954) - public_full_text
+
+**Canonical source:** [https://doi.org/10.1109/ISSREW.2019.00102](https://doi.org/10.1109/ISSREW.2019.00102)
+
+## Identifiers
+
+[DOI 10.1109/ISSREW.2019.00102](https://doi.org/10.1109/ISSREW.2019.00102) | [arXiv 2103.04954](https://arxiv.org/abs/2103.04954)
+
+## When to cite this paper
+
+Cite this paper when diagnosing slow web requests with cross-layer tracing.
+
+- Cross-layer user-space and kernel-space tracing of web requests.
+- Clustering and comparison of normal versus slow request behavior.
+- Root-cause analysis of application and system interactions.
+
+## Citation
+
+### APA 7
+
+Fournier, Q., Ezzati-Jivan, N., Aloise, D., & Dagenais, M. R. (2019). Automatic Cause Detection of Performance Problems in Web Applications. IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW). https://doi.org/10.1109/ISSREW.2019.00102
+
+### IEEE
+
+Q. Fournier, N. Ezzati-Jivan, D. Aloise, and M. R. Dagenais, "Automatic Cause Detection of Performance Problems in Web Applications," in IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), 2019, doi: 10.1109/ISSREW.2019.00102
+
+```bibtex
+@inproceedings{ezzatiJivan2019automaticcause,
+  author = {Quentin Fournier and Naser Ezzati-Jivan and Daniel Aloise and Michel R. Dagenais},
+  title = {Automatic Cause Detection of Performance Problems in Web Applications},
+  year = {2019},
+  booktitle = {IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)},
+  doi = {10.1109/ISSREW.2019.00102},
+  url = {https://doi.org/10.1109/ISSREW.2019.00102}
+}
+```
+
+**Reference-manager import:** [RIS file](./citation.ris)
+
+## Record provenance
+
+- Metadata verified: 2026-08-03
+- Summary status: source-grounded catalog review; author approval pending
+- Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2103.04954; local PDF hash verified in the working catalog
+- Machine-readable record: [paper.json](./paper.json)
