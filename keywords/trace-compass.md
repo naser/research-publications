@@ -1,5 +1,1 @@
-# Trace Compass
-
-Papers indexed by keyword **Trace Compass**.
-
-- [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](../papers/enhanced-trace-abstraction-social-network-analysis/README.md) - 2020
+IyBUcmFjZSBDb21wYXNzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqVHJhY2UgQ29tcGFzcyoqLgoKLSBbRW5oYW5jZWQgRXhlY3V0aW9uIFRyYWNlIEFic3RyYWN0aW9uIEFwcHJvYWNoIFVzaW5nIFNvY2lhbCBOZXR3b3JrIEFuYWx5c2lzIE1ldGhvZHNdKC4uL3BhcGVycy9lbmhhbmNlZC10cmFjZS1hYnN0cmFjdGlvbi1zb2NpYWwtbmV0d29yay1hbmFseXNpcy9SRUFETUUubWQpIC0gMjAyMAo=

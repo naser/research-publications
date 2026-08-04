@@ -1,5 +1,1 @@
-# thread interaction graph
-
-Papers indexed by keyword **thread interaction graph**.
-
-- [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](../papers/enhanced-trace-abstraction-social-network-analysis/README.md) - 2020
+IyB0aHJlYWQgaW50ZXJhY3Rpb24gZ3JhcGgKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKip0aHJlYWQgaW50ZXJhY3Rpb24gZ3JhcGgqKi4KCi0gW0VuaGFuY2VkIEV4ZWN1dGlvbiBUcmFjZSBBYnN0cmFjdGlvbiBBcHByb2FjaCBVc2luZyBTb2NpYWwgTmV0d29yayBBbmFseXNpcyBNZXRob2RzXSguLi9wYXBlcnMvZW5oYW5jZWQtdHJhY2UtYWJzdHJhY3Rpb24tc29jaWFsLW5ldHdvcmstYW5hbHlzaXMvUkVBRE1FLm1kKSAtIDIwMjAK

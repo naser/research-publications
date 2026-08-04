@@ -1,5 +1,1 @@
-# graph attention networks
-
-Papers indexed by keyword **graph attention networks**.
-
-- [Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures](../papers/gnn-link-prediction-microservices/README.md) - 2025
+IyBncmFwaCBhdHRlbnRpb24gbmV0d29ya3MKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipncmFwaCBhdHRlbnRpb24gbmV0d29ya3MqKi4KCi0gW1V0aWxpemluZyBHcmFwaCBOZXVyYWwgTmV0d29ya3MgZm9yIEVmZmVjdGl2ZSBMaW5rIFByZWRpY3Rpb24gaW4gTWljcm9zZXJ2aWNlIEFyY2hpdGVjdHVyZXNdKC4uL3BhcGVycy9nbm4tbGluay1wcmVkaWN0aW9uLW1pY3Jvc2VydmljZXMvUkVBRE1FLm1kKSAtIDIwMjUK

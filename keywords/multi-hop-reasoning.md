@@ -1,5 +1,1 @@
-# multi-hop reasoning
-
-Papers indexed by keyword **multi-hop reasoning**.
-
-- [TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs](../papers/taaf-trace-abstraction-analysis-framework/README.md) - 2026
+IyBtdWx0aS1ob3AgcmVhc29uaW5nCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqbXVsdGktaG9wIHJlYXNvbmluZyoqLgoKLSBbVEFBRjogQSBUcmFjZSBBYnN0cmFjdGlvbiBhbmQgQW5hbHlzaXMgRnJhbWV3b3JrIFN5bmVyZ2l6aW5nIEtub3dsZWRnZSBHcmFwaHMgYW5kIExMTXNdKC4uL3BhcGVycy90YWFmLXRyYWNlLWFic3RyYWN0aW9uLWFuYWx5c2lzLWZyYW1ld29yay9SRUFETUUubWQpIC0gMjAyNgo=

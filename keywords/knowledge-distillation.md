@@ -1,5 +1,1 @@
-# knowledge distillation
-
-Papers indexed by keyword **knowledge distillation**.
-
-- [Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models](../papers/optimization-transformers-llms/README.md) - 2025
+IyBrbm93bGVkZ2UgZGlzdGlsbGF0aW9uCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqa25vd2xlZGdlIGRpc3RpbGxhdGlvbioqLgoKLSBbT3B0aW1pemF0aW9uIFN0cmF0ZWdpZXMgZm9yIEVuaGFuY2luZyBSZXNvdXJjZSBFZmZpY2llbmN5IGluIFRyYW5zZm9ybWVycyAmIExhcmdlIExhbmd1YWdlIE1vZGVsc10oLi4vcGFwZXJzL29wdGltaXphdGlvbi10cmFuc2Zvcm1lcnMtbGxtcy9SRUFETUUubWQpIC0gMjAyNQo=

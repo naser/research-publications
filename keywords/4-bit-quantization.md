@@ -1,5 +1,1 @@
-# 4-bit quantization
-
-Papers indexed by keyword **4-bit quantization**.
-
-- [Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models](../papers/optimization-transformers-llms/README.md) - 2025
+IyA0LWJpdCBxdWFudGl6YXRpb24KClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKio0LWJpdCBxdWFudGl6YXRpb24qKi4KCi0gW09wdGltaXphdGlvbiBTdHJhdGVnaWVzIGZvciBFbmhhbmNpbmcgUmVzb3VyY2UgRWZmaWNpZW5jeSBpbiBUcmFuc2Zvcm1lcnMgJiBMYXJnZSBMYW5ndWFnZSBNb2RlbHNdKC4uL3BhcGVycy9vcHRpbWl6YXRpb24tdHJhbnNmb3JtZXJzLWxsbXMvUkVBRE1FLm1kKSAtIDIwMjUK

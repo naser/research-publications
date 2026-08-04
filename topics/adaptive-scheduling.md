@@ -1,5 +1,1 @@
-# adaptive-scheduling
-
-Papers tagged **adaptive-scheduling**.
-
-- [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](../papers/deba-adaptive-batch-scheduling/README.md) - 2025
+IyBhZGFwdGl2ZS1zY2hlZHVsaW5nCgpQYXBlcnMgdGFnZ2VkICoqYWRhcHRpdmUtc2NoZWR1bGluZyoqLgoKLSBbT25lIFNpemUgRG9lcyBOb3QgRml0IEFsbDogQXJjaGl0ZWN0dXJlLUF3YXJlIEFkYXB0aXZlIEJhdGNoIFNjaGVkdWxpbmcgd2l0aCBERUJBXSguLi9wYXBlcnMvZGViYS1hZGFwdGl2ZS1iYXRjaC1zY2hlZHVsaW5nL1JFQURNRS5tZCkgLSAyMDI1Cg==

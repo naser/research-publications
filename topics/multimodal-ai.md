@@ -1,5 +1,1 @@
-# multimodal-ai
-
-Papers tagged **multimodal-ai**.
-
-- [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](../papers/picturing-ambiguity-winograd-schema/README.md) - 2024
+IyBtdWx0aW1vZGFsLWFpCgpQYXBlcnMgdGFnZ2VkICoqbXVsdGltb2RhbC1haSoqLgoKLSBbUGljdHVyaW5nIEFtYmlndWl0eTogQSBWaXN1YWwgVHdpc3Qgb24gdGhlIFdpbm9ncmFkIFNjaGVtYSBDaGFsbGVuZ2VdKC4uL3BhcGVycy9waWN0dXJpbmctYW1iaWd1aXR5LXdpbm9ncmFkLXNjaGVtYS9SRUFETUUubWQpIC0gMjAyNAo=

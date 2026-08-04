@@ -1,5 +1,1 @@
-# thread-resource interactions
-
-Papers indexed by keyword **thread-resource interactions**.
-
-- [DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing](../papers/depgraph/README.md) - 2020
+IyB0aHJlYWQtcmVzb3VyY2UgaW50ZXJhY3Rpb25zCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqdGhyZWFkLXJlc291cmNlIGludGVyYWN0aW9ucyoqLgoKLSBbRGVwR3JhcGg6IExvY2FsaXppbmcgUGVyZm9ybWFuY2UgQm90dGxlbmVja3MgaW4gTXVsdGktQ29yZSBBcHBsaWNhdGlvbnMgVXNpbmcgV2FpdGluZyBEZXBlbmRlbmN5IEdyYXBocyBhbmQgU29mdHdhcmUgVHJhY2luZ10oLi4vcGFwZXJzL2RlcGdyYXBoL1JFQURNRS5tZCkgLSAyMDIwCg==

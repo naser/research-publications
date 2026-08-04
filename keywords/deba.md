@@ -1,5 +1,1 @@
-# DEBA
-
-Papers indexed by keyword **DEBA**.
-
-- [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](../papers/deba-adaptive-batch-scheduling/README.md) - 2025
+IyBERUJBCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqREVCQSoqLgoKLSBbT25lIFNpemUgRG9lcyBOb3QgRml0IEFsbDogQXJjaGl0ZWN0dXJlLUF3YXJlIEFkYXB0aXZlIEJhdGNoIFNjaGVkdWxpbmcgd2l0aCBERUJBXSguLi9wYXBlcnMvZGViYS1hZGFwdGl2ZS1iYXRjaC1zY2hlZHVsaW5nL1JFQURNRS5tZCkgLSAyMDI1Cg==
