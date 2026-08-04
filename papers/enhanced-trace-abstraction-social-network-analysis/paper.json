@@ -78,7 +78,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing graph-based trace abstraction using community detection and PageRank.",
+    "when_to_cite": "Cite this paper when applying graph-analysis methods to execution-trace abstraction.",
+    "points": [
+      "Community detection for grouping interacting execution entities.",
+      "PageRank-style prioritization of important trace interactions.",
+      "Trace filtering and abstraction for system-performance analysis."
+    ],
     "canonical_version_id": "public-pdf"
   },
   "provenance": {

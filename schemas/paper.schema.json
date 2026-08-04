@@ -326,12 +326,23 @@
       "additionalProperties": false,
       "required": [
         "when_to_cite",
+        "points",
         "canonical_version_id"
       ],
       "properties": {
         "when_to_cite": {
           "type": "string",
           "minLength": 1
+        },
+        "points": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         },
         "canonical_version_id": {
           "type": "string",

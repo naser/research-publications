@@ -43,11 +43,17 @@ Abstract not available in the captured sources.
 
 **Canonical source:** [https://doi.org/10.1145/3676151.3719362](https://doi.org/10.1145/3676151.3719362)
 
-**Access status:** public_preprint_and_published_record. The ACM DOI is the canonical citation target; the arXiv preprint provides public full text.
+## Identifiers
+
+[DOI 10.1145/3676151.3719362](https://doi.org/10.1145/3676151.3719362) | [arXiv 2501.15019](https://arxiv.org/abs/2501.15019)
 
 ## When to cite this paper
 
-Cite this paper when discussing graph-neural-network link prediction in time-varying microservice call graphs.
+Cite this paper when predicting future interactions in evolving microservice call graphs.
+
+- Graph-neural-network link prediction for microservice architectures.
+- Temporal segmentation of changing service-interaction graphs.
+- Predictive monitoring of likely future microservice calls.
 
 ## Citation
 

@@ -43,11 +43,17 @@ The execution of similar units can be compared by their internal behaviors to de
 
 **Canonical source:** [https://doi.org/10.1109/ISSREW.2019.00102](https://doi.org/10.1109/ISSREW.2019.00102)
 
-**Access status:** public_preprint_and_published_record. The published DOI is the canonical citation target; the arXiv preprint provides public full text.
+## Identifiers
+
+[DOI 10.1109/ISSREW.2019.00102](https://doi.org/10.1109/ISSREW.2019.00102) | [arXiv 2103.04954](https://arxiv.org/abs/2103.04954)
 
 ## When to cite this paper
 
-Cite this paper when discussing cross-layer tracing and behavioral clustering for diagnosing slow web requests.
+Cite this paper when diagnosing slow web requests with cross-layer tracing.
+
+- Cross-layer user-space and kernel-space tracing of web requests.
+- Clustering and comparison of normal versus slow request behavior.
+- Root-cause analysis of application and system interactions.
 
 ## Citation
 

@@ -43,14 +43,24 @@ Abstract not available in the captured sources.
 
 **Canonical source:** [https://doi.org/10.1145/3676151.3719379](https://doi.org/10.1145/3676151.3719379)
 
-**Access status:** public_preprint_and_published_record. The ACM DOI is the canonical citation target; the arXiv preprint provides public full text.
+## Identifiers
+
+[DOI 10.1145/3676151.3719379](https://doi.org/10.1145/3676151.3719379) | [arXiv 2502.00046](https://arxiv.org/abs/2502.00046)
 
 ## When to cite this paper
 
-Cite this paper when discussing resource-efficiency trade-offs among quantization, distillation, pruning, and Transformer models.
+Cite this paper when comparing resource-efficiency methods for Transformer and LLM workloads.
+
+- Quantization, knowledge distillation, and pruning as efficiency strategies.
+- Accuracy and resource-cost trade-offs for Transformer models.
+- Energy and deployment considerations for large-language-model workloads.
 
 ## Citation
 
+
+### Alternative or source-rendered titles
+
+- Optimization Strategies for Enhancing Resource Efficiency in Transformers and Large Language Models
 ```bibtex
 @inproceedings{ezzatiJivan2025optimizationstrategies,
   author = {Tom Wallace and Beatrice M. Ombuki-Berman and Naser Ezzati-Jivan},
@@ -62,10 +72,6 @@ Cite this paper when discussing resource-efficiency trade-offs among quantizatio
 }
 ```
 
-
-### Alternative or source-rendered titles
-
-- Optimization Strategies for Enhancing Resource Efficiency in Transformers and Large Language Models
 ## Record provenance
 
 - Metadata verified: 2026-08-03

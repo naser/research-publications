@@ -83,7 +83,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing resource-efficiency trade-offs among quantization, distillation, pruning, and Transformer models.",
+    "when_to_cite": "Cite this paper when comparing resource-efficiency methods for Transformer and LLM workloads.",
+    "points": [
+      "Quantization, knowledge distillation, and pruning as efficiency strategies.",
+      "Accuracy and resource-cost trade-offs for Transformer models.",
+      "Energy and deployment considerations for large-language-model workloads."
+    ],
     "canonical_version_id": "published-version"
   },
   "provenance": {

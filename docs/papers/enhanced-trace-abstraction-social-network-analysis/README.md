@@ -43,11 +43,17 @@ This paper applies social-network-analysis techniques to system execution traces
 
 **Canonical source:** [https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf](https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf)
 
-**Access status:** public_direct_pdf. A public direct PDF was observed and downloaded for local verification. The repository links the source PDF and DBLP record; no copy is included in the public repository.
+## Identifiers
+
+
 
 ## When to cite this paper
 
-Cite this paper when discussing graph-based trace abstraction using community detection and PageRank.
+Cite this paper when applying graph-analysis methods to execution-trace abstraction.
+
+- Community detection for grouping interacting execution entities.
+- PageRank-style prioritization of important trace interactions.
+- Trace filtering and abstraction for system-performance analysis.
 
 ## Citation
 

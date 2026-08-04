@@ -43,11 +43,17 @@ This paper addresses the challenge of understanding the waiting dependencies bet
 
 **Canonical source:** [https://doi.org/10.1109/SCAM51674.2020.00022](https://doi.org/10.1109/SCAM51674.2020.00022)
 
-**Access status:** public_preprint_and_published_record. The published DOI is the canonical citation target; the arXiv preprint provides public full text.
+## Identifiers
+
+[DOI 10.1109/SCAM51674.2020.00022](https://doi.org/10.1109/SCAM51674.2020.00022) | [arXiv 2103.04933](https://arxiv.org/abs/2103.04933)
 
 ## When to cite this paper
 
-Cite this paper when discussing waiting-dependency graphs or system-level tracing for localizing multicore performance bottlenecks.
+Cite this paper when its method or evidence is relevant to multicore performance diagnosis.
+
+- Waiting-dependency graphs for localizing bottlenecks across threads and resources.
+- LTTng-based kernel and system-call tracing for explaining blocking dependencies.
+- Production-oriented tracing and analysis overhead for performance diagnosis.
 
 ## Citation
 

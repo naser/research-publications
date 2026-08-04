@@ -81,7 +81,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing automated latency-outlier detection with system-level dependency graphs.",
+    "when_to_cite": "Cite this paper when automating latency-outlier detection and diagnosis.",
+    "points": [
+      "System-level dependency graphs for latency-outlier analysis.",
+      "Density-based models and statistical screening of abnormal requests.",
+      "Automated localization of dependencies associated with latency anomalies."
+    ],
     "canonical_version_id": "published-version"
   },
   "provenance": {

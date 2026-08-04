@@ -43,11 +43,17 @@ Detecting performance issues and identifying their root causes in the runtime is
 
 **Canonical source:** [https://doi.org/10.1109/QRS54544.2021.00054](https://doi.org/10.1109/QRS54544.2021.00054)
 
-**Access status:** public_preprint_and_published_record. The published DOI is the canonical citation target; the arXiv preprint provides public full text.
+## Identifiers
+
+[DOI 10.1109/QRS54544.2021.00054](https://doi.org/10.1109/QRS54544.2021.00054) | [arXiv 2207.06515](https://arxiv.org/abs/2207.06515)
 
 ## When to cite this paper
 
-Cite this paper when discussing automated latency-outlier detection with system-level dependency graphs.
+Cite this paper when automating latency-outlier detection and diagnosis.
+
+- System-level dependency graphs for latency-outlier analysis.
+- Density-based models and statistical screening of abnormal requests.
+- Automated localization of dependencies associated with latency anomalies.
 
 ## Citation
 

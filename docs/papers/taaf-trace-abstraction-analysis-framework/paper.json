@@ -83,7 +83,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing trace abstraction with time-indexed knowledge graphs and LLM-supported trace analysis.",
+    "when_to_cite": "Cite this paper when combining trace abstraction, knowledge graphs, and LLM-supported analysis.",
+    "points": [
+      "Time-indexed knowledge graphs for representing execution traces.",
+      "Natural-language trace queries and multi-hop reasoning.",
+      "LLM-assisted observability and explanation of large trace datasets."
+    ],
     "canonical_version_id": "publication-doi-listed-on-arxiv-page"
   },
   "provenance": {

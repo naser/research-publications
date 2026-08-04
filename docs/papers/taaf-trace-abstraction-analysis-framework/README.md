@@ -43,11 +43,17 @@ Abstract not available in the captured sources.
 
 **Canonical source:** [https://doi.org/10.1145/3744916.3787832](https://doi.org/10.1145/3744916.3787832)
 
-**Access status:** public_arxiv_preprint_with_publication_signal. The arXiv page reports acceptance to ICSE 2026 and lists the ACM DOI; the publication record should be rechecked when the final proceedings metadata is available.
+## Identifiers
+
+[DOI 10.1145/3744916.3787832](https://doi.org/10.1145/3744916.3787832) | [arXiv 2601.02632](https://arxiv.org/abs/2601.02632)
 
 ## When to cite this paper
 
-Cite this paper when discussing trace abstraction with time-indexed knowledge graphs and LLM-supported trace analysis.
+Cite this paper when combining trace abstraction, knowledge graphs, and LLM-supported analysis.
+
+- Time-indexed knowledge graphs for representing execution traces.
+- Natural-language trace queries and multi-hop reasoning.
+- LLM-assisted observability and explanation of large trace datasets.
 
 ## Citation
 

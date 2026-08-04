@@ -43,11 +43,17 @@ Abstract not available in the captured sources.
 
 **Canonical source:** [https://aclanthology.org/2024.acl-long.22/](https://aclanthology.org/2024.acl-long.22/)
 
-**Access status:** public_preprint_and_published_record. The ACL DOI is the canonical citation target; the arXiv preprint and ACL Anthology page provide public access paths.
+## Identifiers
+
+[DOI 10.18653/v1/2024.acl-long.22](https://doi.org/10.18653/v1/2024.acl-long.22) | [arXiv 2405.16277](https://arxiv.org/abs/2405.16277)
 
 ## When to cite this paper
 
-Cite this paper when discussing multimodal pronoun disambiguation or the WinoVis benchmark for text-to-image models.
+Cite this paper when evaluating multimodal pronoun disambiguation in text-to-image models.
+
+- The WinoVis benchmark for visual ambiguity and pronoun resolution.
+- Evaluation of text-to-image models on common-sense visual reasoning.
+- Analysis of generated images for multimodal disambiguation behavior.
 
 ## Citation
 

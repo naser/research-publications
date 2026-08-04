@@ -81,7 +81,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing cross-layer tracing and behavioral clustering for diagnosing slow web requests.",
+    "when_to_cite": "Cite this paper when diagnosing slow web requests with cross-layer tracing.",
+    "points": [
+      "Cross-layer user-space and kernel-space tracing of web requests.",
+      "Clustering and comparison of normal versus slow request behavior.",
+      "Root-cause analysis of application and system interactions."
+    ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
