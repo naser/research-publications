@@ -82,7 +82,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing trace-data reduction for microservice performance modeling.",
+    "when_to_cite": "Cite this paper when reducing trace volume for microservice performance modeling.",
+    "points": [
+      "Gradient-boosting feature importance for trace-data reduction.",
+      "Trace-volume trade-offs for CPU, memory, and communication signals.",
+      "Large-scale microservice performance analysis with less retained trace data."
+    ],
     "canonical_version_id": "pubpub-doi"
   },
   "provenance": {

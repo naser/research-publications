@@ -81,7 +81,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing graph-neural-network link prediction in time-varying microservice call graphs.",
+    "when_to_cite": "Cite this paper when predicting future interactions in evolving microservice call graphs.",
+    "points": [
+      "Graph-neural-network link prediction for microservice architectures.",
+      "Temporal segmentation of changing service-interaction graphs.",
+      "Predictive monitoring of likely future microservice calls."
+    ],
     "canonical_version_id": "published-version"
   },
   "provenance": {

@@ -43,14 +43,24 @@ In large microservice systems, collecting too little or too much trace data can 
 
 **Canonical source:** [https://doi.org/10.21428/594757db.fe8b76cf](https://doi.org/10.21428/594757db.fe8b76cf)
 
-**Access status:** public_cc_by_article_page. The official PubPub page exposes the full article, a Download action, and a CC-BY 4.0 license. The repository links the source page rather than copying the PDF.
+## Identifiers
+
+[DOI 10.21428/594757db.fe8b76cf](https://doi.org/10.21428/594757db.fe8b76cf)
 
 ## When to cite this paper
 
-Cite this paper when discussing trace-data reduction for microservice performance modeling.
+Cite this paper when reducing trace volume for microservice performance modeling.
+
+- Gradient-boosting feature importance for trace-data reduction.
+- Trace-volume trade-offs for CPU, memory, and communication signals.
+- Large-scale microservice performance analysis with less retained trace data.
 
 ## Citation
 
+
+### Alternative or source-rendered titles
+
+- Automatic Reduction of Execution Trace Data Volume UsingGradient Boosting in Large-Scale Microservice Systems (source-page rendering variant)
 ```bibtex
 @inproceedings{ezzatiJivan2024automaticreduction,
   author = {Amir Haghshenas and Naser Ezzati-Jivan and Michel Dagenais},
@@ -62,10 +72,6 @@ Cite this paper when discussing trace-data reduction for microservice performanc
 }
 ```
 
-
-### Alternative or source-rendered titles
-
-- Automatic Reduction of Execution Trace Data Volume UsingGradient Boosting in Large-Scale Microservice Systems (source-page rendering variant)
 ## Record provenance
 
 - Metadata verified: 2026-08-03

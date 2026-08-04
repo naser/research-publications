@@ -82,7 +82,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing multimodal pronoun disambiguation or the WinoVis benchmark for text-to-image models.",
+    "when_to_cite": "Cite this paper when evaluating multimodal pronoun disambiguation in text-to-image models.",
+    "points": [
+      "The WinoVis benchmark for visual ambiguity and pronoun resolution.",
+      "Evaluation of text-to-image models on common-sense visual reasoning.",
+      "Analysis of generated images for multimodal disambiguation behavior."
+    ],
     "canonical_version_id": "published-version"
   },
   "provenance": {

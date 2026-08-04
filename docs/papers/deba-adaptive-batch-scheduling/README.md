@@ -42,11 +42,17 @@ Abstract not available in the captured sources.
 
 **Canonical source:** [https://arxiv.org/abs/2511.03809](https://arxiv.org/abs/2511.03809)
 
-**Access status:** public_arxiv_preprint. This record is currently represented as a public arXiv preprint; no separate published DOI was verified in the catalog.
+## Identifiers
+
+[DOI 10.48550/arXiv.2511.03809](https://doi.org/10.48550/arXiv.2511.03809) | [arXiv 2511.03809](https://arxiv.org/abs/2511.03809)
 
 ## When to cite this paper
 
-Cite this paper when discussing architecture-aware adaptive batch-size scheduling for neural-network training.
+Cite this paper when studying adaptive batch-size scheduling for neural-network training.
+
+- Architecture-aware decisions about when and how to change batch size.
+- Training-stability or gradient-variance signals for scheduling.
+- Batch-size effects across heterogeneous neural-network architectures.
 
 ## Citation
 

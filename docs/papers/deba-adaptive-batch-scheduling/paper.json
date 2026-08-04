@@ -72,7 +72,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing architecture-aware adaptive batch-size scheduling for neural-network training.",
+    "when_to_cite": "Cite this paper when studying adaptive batch-size scheduling for neural-network training.",
+    "points": [
+      "Architecture-aware decisions about when and how to change batch size.",
+      "Training-stability or gradient-variance signals for scheduling.",
+      "Batch-size effects across heterogeneous neural-network architectures."
+    ],
     "canonical_version_id": "public-preprint"
   },
   "provenance": {

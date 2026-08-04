@@ -80,7 +80,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when discussing waiting-dependency graphs or system-level tracing for localizing multicore performance bottlenecks.",
+    "when_to_cite": "Cite this paper when its method or evidence is relevant to multicore performance diagnosis.",
+    "points": [
+      "Waiting-dependency graphs for localizing bottlenecks across threads and resources.",
+      "LTTng-based kernel and system-call tracing for explaining blocking dependencies.",
+      "Production-oriented tracing and analysis overhead for performance diagnosis."
+    ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
