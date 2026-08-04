@@ -1,6 +1,7 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "paper_id": "taaf-trace-abstraction-analysis-framework",
+  "page_url": "https://naser.github.io/research-publications/papers/taaf-trace-abstraction-analysis-framework/",
   "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
   "title_variants": [],
   "authors": [
@@ -16,7 +17,7 @@
   },
   "publication_type": "preprint with publication signal",
   "status": "public_arxiv_preprint_with_publication_signal",
-  "canonical_url": "https://doi.org/10.1145/3744916.3787832",
+  "canonical_source_url": "https://doi.org/10.1145/3744916.3787832",
   "source_record_id": "taaf-a-trace-abstraction-and-analysis-framework-synergizing-knowledge-graphs-and-llms-00e7e01d64",
   "identifiers": {
     "doi": "10.1145/3744916.3787832",
@@ -50,30 +51,32 @@
   ],
   "versions": [
     {
+      "id": "publication-doi-listed-on-arxiv-page",
       "label": "Publication DOI listed on arXiv page",
+      "relation": "version-of-record",
       "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
       "url": "https://doi.org/10.1145/3744916.3787832",
-      "status": "publication_signal"
+      "pdf_url": null,
+      "status": "publication_signal",
+      "canonical_for_citation": true
     },
     {
+      "id": "public-preprint",
       "label": "Public preprint",
+      "relation": "preprint",
       "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
       "url": "https://arxiv.org/abs/2601.02632",
       "pdf_url": "https://arxiv.org/pdf/2601.02632",
-      "status": "public_full_text"
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
     "status": "public_arxiv_preprint_with_publication_signal",
-    "primary_url": "https://doi.org/10.1145/3744916.3787832",
-    "pdf_url": "https://arxiv.org/pdf/2601.02632",
     "note": "The arXiv page reports acceptance to ICSE 2026 and lists the ACM DOI; the publication record should be rechecked when the final proceedings metadata is available.",
     "license": null
   },
   "resources": {
-    "publisher_or_record": "https://doi.org/10.1145/3744916.3787832",
-    "preprint": "https://arxiv.org/abs/2601.02632",
-    "full_text": "https://arxiv.org/pdf/2601.02632",
     "code": null,
     "data": null,
     "slides": null,
@@ -81,10 +84,9 @@
   },
   "citation_guidance": {
     "when_to_cite": "Cite this paper when discussing trace abstraction with time-indexed knowledge graphs and LLM-supported trace analysis.",
-    "canonical_version": "Publication DOI listed on arXiv page"
+    "canonical_version_id": "publication-doi-listed-on-arxiv-page"
   },
   "provenance": {
-    "verified_at": "2026-08-03",
     "metadata_verified_on": "2026-08-03",
     "metadata_source": [
       "official arXiv abstract, metadata, and PDF page 2601.02632",
@@ -93,12 +95,6 @@
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
-    "evidence": [
-      "official arXiv abstract, metadata, and PDF page 2601.02632",
-      "arXiv page comment containing the ICSE 2026 acceptance and ACM DOI",
-      "local PDF hash verified in the working catalog"
-    ],
-    "source_record": "taaf-a-trace-abstraction-and-analysis-framework-synergizing-knowledge-graphs-and-llms-00e7e01d64",
     "linked_preprint_record": null,
     "author_order_note": null
   },

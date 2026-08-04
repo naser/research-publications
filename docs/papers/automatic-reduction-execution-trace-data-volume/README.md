@@ -41,7 +41,7 @@ In large microservice systems, collecting too little or too much trace data can 
 - [Public published article](https://caiac.pubpub.org/pub/dh3zxquj/release/1) - public_full_text_page
 - [PubPub DOI](https://doi.org/10.21428/594757db.fe8b76cf) - doi
 
-**Primary source:** [https://caiac.pubpub.org/pub/dh3zxquj/release/1](https://caiac.pubpub.org/pub/dh3zxquj/release/1)
+**Canonical source:** [https://doi.org/10.21428/594757db.fe8b76cf](https://doi.org/10.21428/594757db.fe8b76cf)
 
 **Access status:** public_cc_by_article_page. The official PubPub page exposes the full article, a Download action, and a CC-BY 4.0 license. The repository links the source page rather than copying the PDF.
 
@@ -58,7 +58,7 @@ Cite this paper when discussing trace-data reduction for microservice performanc
   year = {2024},
   booktitle = {The 37th Canadian Conference on Artificial Intelligence},
   doi = {10.21428/594757db.fe8b76cf},
-  url = {https://caiac.pubpub.org/pub/dh3zxquj/release/1}
+  url = {https://doi.org/10.21428/594757db.fe8b76cf}
 }
 ```
 
@@ -70,5 +70,5 @@ Cite this paper when discussing trace-data reduction for microservice performanc
 
 - Metadata verified: 2026-08-03
 - Summary status: source-grounded catalog review; author approval pending
-- Evidence: official Canadian AI Proceedings PubPub page; PubPub page reports CC-BY 4.0 and a Download action; DBLP metadata matched by title, authors, and year
+- Metadata sources: official Canadian AI Proceedings PubPub page; PubPub page reports CC-BY 4.0 and a Download action; DBLP metadata matched by title, authors, and year
 - Machine-readable record: [paper.json](./paper.json)

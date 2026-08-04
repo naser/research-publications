@@ -1,6 +1,7 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "paper_id": "picturing-ambiguity-winograd-schema",
+  "page_url": "https://naser.github.io/research-publications/papers/picturing-ambiguity-winograd-schema/",
   "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
   "title_variants": [],
   "authors": [
@@ -17,7 +18,7 @@
   },
   "publication_type": "conference paper",
   "status": "public_preprint_and_published_record",
-  "canonical_url": "https://doi.org/10.18653/v1/2024.acl-long.22",
+  "canonical_source_url": "https://aclanthology.org/2024.acl-long.22/",
   "source_record_id": "picturing-ambiguity-a-visual-twist-on-the-winograd-schema-challenge-647b74a7c8",
   "identifiers": {
     "doi": "10.18653/v1/2024.acl-long.22",
@@ -49,30 +50,32 @@
   ],
   "versions": [
     {
+      "id": "published-version",
       "label": "Published version",
+      "relation": "version-of-record",
       "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
       "url": "https://aclanthology.org/2024.acl-long.22/",
-      "status": "published_public_page"
+      "pdf_url": null,
+      "status": "published_public_page",
+      "canonical_for_citation": true
     },
     {
+      "id": "public-preprint",
       "label": "Public preprint",
+      "relation": "preprint",
       "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
       "url": "https://arxiv.org/abs/2405.16277",
       "pdf_url": "https://arxiv.org/pdf/2405.16277",
-      "status": "public_full_text"
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
     "status": "public_preprint_and_published_record",
-    "primary_url": "https://doi.org/10.18653/v1/2024.acl-long.22",
-    "pdf_url": "https://arxiv.org/pdf/2405.16277",
     "note": "The ACL DOI is the canonical citation target; the arXiv preprint and ACL Anthology page provide public access paths.",
     "license": null
   },
   "resources": {
-    "publisher_or_record": "https://doi.org/10.18653/v1/2024.acl-long.22",
-    "preprint": "https://arxiv.org/abs/2405.16277",
-    "full_text": "https://arxiv.org/pdf/2405.16277",
     "code": null,
     "data": null,
     "slides": null,
@@ -80,10 +83,9 @@
   },
   "citation_guidance": {
     "when_to_cite": "Cite this paper when discussing multimodal pronoun disambiguation or the WinoVis benchmark for text-to-image models.",
-    "canonical_version": "Published version"
+    "canonical_version_id": "published-version"
   },
   "provenance": {
-    "verified_at": "2026-08-03",
     "metadata_verified_on": "2026-08-03",
     "metadata_source": [
       "ACL Anthology and DOI metadata",
@@ -92,12 +94,6 @@
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
-    "evidence": [
-      "ACL Anthology and DOI metadata",
-      "official arXiv abstract and PDF page 2405.16277",
-      "local PDF hash verified in the working catalog"
-    ],
-    "source_record": "picturing-ambiguity-a-visual-twist-on-the-winograd-schema-challenge-647b74a7c8",
     "linked_preprint_record": null,
     "author_order_note": null
   },

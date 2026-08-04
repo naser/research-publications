@@ -41,7 +41,7 @@ Abstract not available in the captured sources.
 - [Published version](https://doi.org/10.1145/3676151.3719362) - published
 - [Public preprint](https://arxiv.org/abs/2501.15019) | [PDF](https://arxiv.org/pdf/2501.15019) - public_full_text
 
-**Primary source:** [https://doi.org/10.1145/3676151.3719362](https://doi.org/10.1145/3676151.3719362)
+**Canonical source:** [https://doi.org/10.1145/3676151.3719362](https://doi.org/10.1145/3676151.3719362)
 
 **Access status:** public_preprint_and_published_record. The ACM DOI is the canonical citation target; the arXiv preprint provides public full text.
 
@@ -66,5 +66,5 @@ Cite this paper when discussing graph-neural-network link prediction in time-var
 
 - Metadata verified: 2026-08-03
 - Summary status: source-grounded catalog review; author approval pending
-- Evidence: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2501.15019; local PDF hash verified in the working catalog
+- Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2501.15019; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

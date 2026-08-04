@@ -1,6 +1,7 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "paper_id": "automated-cause-analysis-latency-outliers",
+  "page_url": "https://naser.github.io/research-publications/papers/automated-cause-analysis-latency-outliers/",
   "title": "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs",
   "title_variants": [],
   "authors": [
@@ -16,7 +17,7 @@
   },
   "publication_type": "conference paper",
   "status": "public_preprint_and_published_record",
-  "canonical_url": "https://doi.org/10.1109/QRS54544.2021.00054",
+  "canonical_source_url": "https://doi.org/10.1109/QRS54544.2021.00054",
   "source_record_id": "automated-cause-analysis-of-latency-outliers-using-system-level-dependency-graphs-f022a4afee",
   "identifiers": {
     "doi": "10.1109/QRS54544.2021.00054",
@@ -48,30 +49,32 @@
   ],
   "versions": [
     {
+      "id": "published-version",
       "label": "Published version",
+      "relation": "version-of-record",
       "title": "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs",
       "url": "https://doi.org/10.1109/QRS54544.2021.00054",
-      "status": "published"
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
     },
     {
+      "id": "public-preprint",
       "label": "Public preprint",
+      "relation": "preprint",
       "title": "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs",
       "url": "https://arxiv.org/abs/2207.06515",
       "pdf_url": "https://arxiv.org/pdf/2207.06515",
-      "status": "public_full_text"
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
     "status": "public_preprint_and_published_record",
-    "primary_url": "https://doi.org/10.1109/QRS54544.2021.00054",
-    "pdf_url": "https://arxiv.org/pdf/2207.06515",
     "note": "The published DOI is the canonical citation target; the arXiv preprint provides public full text.",
     "license": null
   },
   "resources": {
-    "publisher_or_record": "https://doi.org/10.1109/QRS54544.2021.00054",
-    "preprint": "https://arxiv.org/abs/2207.06515",
-    "full_text": "https://arxiv.org/pdf/2207.06515",
     "code": null,
     "data": null,
     "slides": null,
@@ -79,10 +82,9 @@
   },
   "citation_guidance": {
     "when_to_cite": "Cite this paper when discussing automated latency-outlier detection with system-level dependency graphs.",
-    "canonical_version": "Published version"
+    "canonical_version_id": "published-version"
   },
   "provenance": {
-    "verified_at": "2026-08-03",
     "metadata_verified_on": "2026-08-03",
     "metadata_source": [
       "DBLP and IEEE metadata for the published paper",
@@ -91,12 +93,6 @@
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
-    "evidence": [
-      "DBLP and IEEE metadata for the published paper",
-      "official arXiv abstract and PDF page 2207.06515",
-      "local PDF hash verified in the working catalog"
-    ],
-    "source_record": "automated-cause-analysis-of-latency-outliers-using-system-level-dependency-graphs-f022a4afee",
     "linked_preprint_record": "automated-cause-analysis-of-latency-outliers-using-system-level-dependency-graphs-a40b9206a2",
     "author_order_note": null
   },

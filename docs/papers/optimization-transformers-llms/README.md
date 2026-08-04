@@ -41,7 +41,7 @@ Abstract not available in the captured sources.
 - [Published version](https://doi.org/10.1145/3676151.3719379) - published
 - [Public preprint](https://arxiv.org/abs/2502.00046) | [PDF](https://arxiv.org/pdf/2502.00046) - public_full_text
 
-**Primary source:** [https://doi.org/10.1145/3676151.3719379](https://doi.org/10.1145/3676151.3719379)
+**Canonical source:** [https://doi.org/10.1145/3676151.3719379](https://doi.org/10.1145/3676151.3719379)
 
 **Access status:** public_preprint_and_published_record. The ACM DOI is the canonical citation target; the arXiv preprint provides public full text.
 
@@ -70,7 +70,7 @@ Cite this paper when discussing resource-efficiency trade-offs among quantizatio
 
 - Metadata verified: 2026-08-03
 - Summary status: source-grounded catalog review; author approval pending
-- Evidence: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2502.00046; local PDF hash verified in the working catalog; author-order discrepancy explicitly retained
+- Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2502.00046; local PDF hash verified in the working catalog; author-order discrepancy explicitly retained
 - Machine-readable record: [paper.json](./paper.json)
 
 > Metadata note: The published-record metadata is used for citation order; the arXiv page presents a different author ordering, so the versions should remain distinguishable.

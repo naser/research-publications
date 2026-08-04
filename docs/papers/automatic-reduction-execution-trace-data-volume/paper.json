@@ -1,6 +1,7 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "paper_id": "automatic-reduction-execution-trace-data-volume",
+  "page_url": "https://naser.github.io/research-publications/papers/automatic-reduction-execution-trace-data-volume/",
   "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
   "title_variants": [
     "Automatic Reduction of Execution Trace Data Volume UsingGradient Boosting in Large-Scale Microservice Systems (source-page rendering variant)"
@@ -17,7 +18,7 @@
   },
   "publication_type": "conference paper",
   "status": "public_cc_by_article_page",
-  "canonical_url": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
+  "canonical_source_url": "https://doi.org/10.21428/594757db.fe8b76cf",
   "source_record_id": "automatic-reduction-of-execution-trace-data-volume-using-gradient-boosting-in-large-scale-micros-bd85452d56",
   "identifiers": {
     "doi": "10.21428/594757db.fe8b76cf"
@@ -49,29 +50,32 @@
   ],
   "versions": [
     {
+      "id": "public-published-article",
       "label": "Public published article",
+      "relation": "version-of-record",
       "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
       "url": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
-      "status": "public_full_text_page"
+      "pdf_url": null,
+      "status": "public_full_text_page",
+      "canonical_for_citation": false
     },
     {
+      "id": "pubpub-doi",
       "label": "PubPub DOI",
+      "relation": "version-of-record",
       "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
       "url": "https://doi.org/10.21428/594757db.fe8b76cf",
-      "status": "doi"
+      "pdf_url": null,
+      "status": "doi",
+      "canonical_for_citation": true
     }
   ],
   "access": {
     "status": "public_cc_by_article_page",
-    "primary_url": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
-    "pdf_url": null,
     "note": "The official PubPub page exposes the full article, a Download action, and a CC-BY 4.0 license. The repository links the source page rather than copying the PDF.",
     "license": "CC-BY-4.0"
   },
   "resources": {
-    "publisher_or_record": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
-    "preprint": null,
-    "full_text": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
     "code": null,
     "data": null,
     "slides": null,
@@ -79,10 +83,9 @@
   },
   "citation_guidance": {
     "when_to_cite": "Cite this paper when discussing trace-data reduction for microservice performance modeling.",
-    "canonical_version": "PubPub DOI"
+    "canonical_version_id": "pubpub-doi"
   },
   "provenance": {
-    "verified_at": "2026-08-03",
     "metadata_verified_on": "2026-08-03",
     "metadata_source": [
       "official Canadian AI Proceedings PubPub page",
@@ -91,12 +94,6 @@
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
-    "evidence": [
-      "official Canadian AI Proceedings PubPub page",
-      "PubPub page reports CC-BY 4.0 and a Download action",
-      "DBLP metadata matched by title, authors, and year"
-    ],
-    "source_record": "automatic-reduction-of-execution-trace-data-volume-using-gradient-boosting-in-large-scale-micros-bd85452d56",
     "linked_preprint_record": null,
     "author_order_note": null
   },
