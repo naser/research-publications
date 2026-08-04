@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "deba-adaptive-batch-scheduling",
+  "page_url": "https://naser.github.io/research-publications/papers/deba-adaptive-batch-scheduling/",
+  "title": "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA",
+  "title_variants": [],
+  "authors": [
+    "François Belias",
+    "Naser Ezzati-Jivan",
+    "Foutse Khomh"
+  ],
+  "publication": {
+    "year": 2025,
+    "venue": "arXiv / CoRR",
+    "type": "preprint"
+  },
+  "publication_type": "preprint",
+  "status": "public_arxiv_preprint",
+  "canonical_source_url": "https://arxiv.org/abs/2511.03809",
+  "source_record_id": "one-size-does-not-fit-all-architecture-aware-adaptive-batch-scheduling-with-deba-0e6b5df3ab",
+  "identifiers": {
+    "doi": "10.48550/arXiv.2511.03809",
+    "arxiv": "2511.03809"
+  },
+  "abstract": null,
+  "abstract_source": "official arXiv:2511.03809 abstract",
+  "summary": {
+    "core_contribution": "DEBA is an architecture-aware adaptive batch scheduler that uses training-stability signals to decide when and how to change batch size.",
+    "problem": "Existing adaptive batch-size methods often assume that one adaptation policy works equally well across neural-network architectures, even though architectures differ in optimization stability and sensitivity.",
+    "method": "DEBA monitors gradient variance, gradient-norm variation, and loss variation. The study evaluates it across six architectures, two datasets, five random seeds, and ablations of sliding-window statistics and cooldown periods.",
+    "findings": "The reported gains are architecture-dependent: lightweight and medium-depth models obtain 45–62% training speedups with 1–7% accuracy improvements, while ResNet-50 and ViT-B16 show weaker or more variable benefits.",
+    "limitations": "The study focuses on CIFAR-10/CIFAR-100 and six image-classification architectures.",
+    "future_work": "Future work should test larger datasets, modern language and vision models, distributed training, and workload-level energy or cost outcomes."
+  },
+  "tags": [
+    "deep-learning-systems",
+    "adaptive-scheduling",
+    "performance-optimization",
+    "architecture-aware-methods"
+  ],
+  "keywords": [
+    "DEBA",
+    "adaptive batch size",
+    "gradient variance",
+    "training speedup",
+    "ResNet",
+    "DenseNet",
+    "EfficientNet",
+    "ViT"
+  ],
+  "versions": [
+    {
+      "id": "public-preprint",
+      "label": "Public preprint",
+      "relation": "preprint",
+      "title": "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA",
+      "url": "https://arxiv.org/abs/2511.03809",
+      "pdf_url": "https://arxiv.org/pdf/2511.03809",
+      "status": "public_full_text",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "public_arxiv_preprint",
+    "note": "This record is currently represented as a public arXiv preprint; no separate published DOI was verified in the catalog.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when discussing architecture-aware adaptive batch-size scheduling for neural-network training.",
+    "canonical_version_id": "public-preprint"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "official arXiv abstract and PDF page 2511.03809",
+      "DBLP/Scholar record matched by title and authors",
+      "local PDF hash verified in the working catalog"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 1,
+    "batch_label": "initial ten-paper release",
+    "status": "included_in_phase_1",
+    "selected_at": "2026-08-03"
+  }
+}

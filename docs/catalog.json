@@ -1,0 +1,457 @@
+{
+  "schema_version": "0.4.0",
+  "generated_at": "2026-08-03",
+  "site_url": "https://naser.github.io/research-publications/",
+  "schema_url": "https://naser.github.io/research-publications/schemas/paper.schema.json",
+  "vocabulary_url": "https://naser.github.io/research-publications/schemas/vocabularies.json",
+  "batch": "phase-1-initial-ten",
+  "records": [
+    {
+      "paper_id": "depgraph",
+      "title": "DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing",
+      "year": 2020,
+      "page": "papers/depgraph/README.md",
+      "json": "papers/depgraph/paper.json",
+      "bibtex": "papers/depgraph/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/depgraph/",
+      "canonical_source_url": "https://doi.org/10.1109/SCAM51674.2020.00022",
+      "status": "public_preprint_and_published_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1109/SCAM51674.2020.00022",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        },
+        {
+          "id": "public-preprint",
+          "label": "Public preprint",
+          "relation": "preprint",
+          "status": "public_full_text",
+          "url": "https://arxiv.org/abs/2103.04933",
+          "pdf_url": "https://arxiv.org/pdf/2103.04933",
+          "canonical_for_citation": false
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "performance-analysis",
+        "root-cause-analysis",
+        "multicore-systems"
+      ],
+      "keywords": [
+        "waiting dependency graph",
+        "system-level tracing",
+        "blocking dependencies",
+        "performance bottlenecks",
+        "thread-resource interactions"
+      ]
+    },
+    {
+      "paper_id": "automatic-cause-detection-web-applications",
+      "title": "Automatic Cause Detection of Performance Problems in Web Applications",
+      "year": 2019,
+      "page": "papers/automatic-cause-detection-web-applications/README.md",
+      "json": "papers/automatic-cause-detection-web-applications/paper.json",
+      "bibtex": "papers/automatic-cause-detection-web-applications/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/automatic-cause-detection-web-applications/",
+      "canonical_source_url": "https://doi.org/10.1109/ISSREW.2019.00102",
+      "status": "public_preprint_and_published_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1109/ISSREW.2019.00102",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        },
+        {
+          "id": "public-preprint",
+          "label": "Public preprint",
+          "relation": "preprint",
+          "status": "public_full_text",
+          "url": "https://arxiv.org/abs/2103.04954",
+          "pdf_url": "https://arxiv.org/pdf/2103.04954",
+          "canonical_for_citation": false
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "web-performance",
+        "anomaly-detection",
+        "root-cause-analysis"
+      ],
+      "keywords": [
+        "web requests",
+        "user-space tracing",
+        "kernel-space tracing",
+        "outlier detection",
+        "behavior clustering",
+        "PHP cache contention"
+      ]
+    },
+    {
+      "paper_id": "automated-cause-analysis-latency-outliers",
+      "title": "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs",
+      "year": 2021,
+      "page": "papers/automated-cause-analysis-latency-outliers/README.md",
+      "json": "papers/automated-cause-analysis-latency-outliers/paper.json",
+      "bibtex": "papers/automated-cause-analysis-latency-outliers/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/automated-cause-analysis-latency-outliers/",
+      "canonical_source_url": "https://doi.org/10.1109/QRS54544.2021.00054",
+      "status": "public_preprint_and_published_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1109/QRS54544.2021.00054",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        },
+        {
+          "id": "public-preprint",
+          "label": "Public preprint",
+          "relation": "preprint",
+          "status": "public_full_text",
+          "url": "https://arxiv.org/abs/2207.06515",
+          "pdf_url": "https://arxiv.org/pdf/2207.06515",
+          "canonical_for_citation": false
+        }
+      ],
+      "tags": [
+        "system-tracing",
+        "latency-analysis",
+        "root-cause-analysis",
+        "dependency-graphs"
+      ],
+      "keywords": [
+        "latency outliers",
+        "system-level traces",
+        "dependency graphs",
+        "density-based models",
+        "z-score",
+        "production diagnosis"
+      ]
+    },
+    {
+      "paper_id": "picturing-ambiguity-winograd-schema",
+      "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
+      "year": 2024,
+      "page": "papers/picturing-ambiguity-winograd-schema/README.md",
+      "json": "papers/picturing-ambiguity-winograd-schema/paper.json",
+      "bibtex": "papers/picturing-ambiguity-winograd-schema/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/picturing-ambiguity-winograd-schema/",
+      "canonical_source_url": "https://aclanthology.org/2024.acl-long.22/",
+      "status": "public_preprint_and_published_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published_public_page",
+          "url": "https://aclanthology.org/2024.acl-long.22/",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        },
+        {
+          "id": "public-preprint",
+          "label": "Public preprint",
+          "relation": "preprint",
+          "status": "public_full_text",
+          "url": "https://arxiv.org/abs/2405.16277",
+          "pdf_url": "https://arxiv.org/pdf/2405.16277",
+          "canonical_for_citation": false
+        }
+      ],
+      "tags": [
+        "multimodal-ai",
+        "benchmark-datasets",
+        "common-sense-reasoning",
+        "machine-learning"
+      ],
+      "keywords": [
+        "Winograd Schema Challenge",
+        "WinoVis",
+        "text-to-image models",
+        "pronoun disambiguation",
+        "DAAM",
+        "Stable Diffusion"
+      ]
+    },
+    {
+      "paper_id": "gnn-link-prediction-microservices",
+      "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
+      "year": 2025,
+      "page": "papers/gnn-link-prediction-microservices/README.md",
+      "json": "papers/gnn-link-prediction-microservices/paper.json",
+      "bibtex": "papers/gnn-link-prediction-microservices/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/gnn-link-prediction-microservices/",
+      "canonical_source_url": "https://doi.org/10.1145/3676151.3719362",
+      "status": "public_preprint_and_published_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1145/3676151.3719362",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        },
+        {
+          "id": "public-preprint",
+          "label": "Public preprint",
+          "relation": "preprint",
+          "status": "public_full_text",
+          "url": "https://arxiv.org/abs/2501.15019",
+          "pdf_url": "https://arxiv.org/pdf/2501.15019",
+          "canonical_for_citation": false
+        }
+      ],
+      "tags": [
+        "microservices",
+        "graph-neural-networks",
+        "performance-engineering",
+        "predictive-monitoring"
+      ],
+      "keywords": [
+        "microservice call graphs",
+        "link prediction",
+        "graph attention networks",
+        "temporal segmentation",
+        "negative sampling",
+        "adaptive monitoring"
+      ]
+    },
+    {
+      "paper_id": "optimization-transformers-llms",
+      "title": "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models",
+      "year": 2025,
+      "page": "papers/optimization-transformers-llms/README.md",
+      "json": "papers/optimization-transformers-llms/paper.json",
+      "bibtex": "papers/optimization-transformers-llms/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/optimization-transformers-llms/",
+      "canonical_source_url": "https://doi.org/10.1145/3676151.3719379",
+      "status": "public_preprint_and_published_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1145/3676151.3719379",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        },
+        {
+          "id": "public-preprint",
+          "label": "Public preprint",
+          "relation": "preprint",
+          "status": "public_full_text",
+          "url": "https://arxiv.org/abs/2502.00046",
+          "pdf_url": "https://arxiv.org/pdf/2502.00046",
+          "canonical_for_citation": false
+        }
+      ],
+      "tags": [
+        "llm-efficiency",
+        "energy-efficiency",
+        "model-compression",
+        "performance-engineering"
+      ],
+      "keywords": [
+        "transformers",
+        "quantization",
+        "knowledge distillation",
+        "pruning",
+        "4-bit quantization",
+        "Minitron",
+        "sustainable AI"
+      ]
+    },
+    {
+      "paper_id": "deba-adaptive-batch-scheduling",
+      "title": "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA",
+      "year": 2025,
+      "page": "papers/deba-adaptive-batch-scheduling/README.md",
+      "json": "papers/deba-adaptive-batch-scheduling/paper.json",
+      "bibtex": "papers/deba-adaptive-batch-scheduling/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/deba-adaptive-batch-scheduling/",
+      "canonical_source_url": "https://arxiv.org/abs/2511.03809",
+      "status": "public_arxiv_preprint",
+      "versions": [
+        {
+          "id": "public-preprint",
+          "label": "Public preprint",
+          "relation": "preprint",
+          "status": "public_full_text",
+          "url": "https://arxiv.org/abs/2511.03809",
+          "pdf_url": "https://arxiv.org/pdf/2511.03809",
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "deep-learning-systems",
+        "adaptive-scheduling",
+        "performance-optimization",
+        "architecture-aware-methods"
+      ],
+      "keywords": [
+        "DEBA",
+        "adaptive batch size",
+        "gradient variance",
+        "training speedup",
+        "ResNet",
+        "DenseNet",
+        "EfficientNet",
+        "ViT"
+      ]
+    },
+    {
+      "paper_id": "taaf-trace-abstraction-analysis-framework",
+      "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
+      "year": 2026,
+      "page": "papers/taaf-trace-abstraction-analysis-framework/README.md",
+      "json": "papers/taaf-trace-abstraction-analysis-framework/paper.json",
+      "bibtex": "papers/taaf-trace-abstraction-analysis-framework/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/taaf-trace-abstraction-analysis-framework/",
+      "canonical_source_url": "https://doi.org/10.1145/3744916.3787832",
+      "status": "public_arxiv_preprint_with_publication_signal",
+      "versions": [
+        {
+          "id": "publication-doi-listed-on-arxiv-page",
+          "label": "Publication DOI listed on arXiv page",
+          "relation": "version-of-record",
+          "status": "publication_signal",
+          "url": "https://doi.org/10.1145/3744916.3787832",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        },
+        {
+          "id": "public-preprint",
+          "label": "Public preprint",
+          "relation": "preprint",
+          "status": "public_full_text",
+          "url": "https://arxiv.org/abs/2601.02632",
+          "pdf_url": "https://arxiv.org/pdf/2601.02632",
+          "canonical_for_citation": false
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "trace-analysis",
+        "knowledge-graphs",
+        "llm-assisted-analysis",
+        "observability"
+      ],
+      "keywords": [
+        "TAAF",
+        "TraceQA-100",
+        "time-indexed knowledge graph",
+        "natural-language trace queries",
+        "multi-hop reasoning",
+        "causal reasoning"
+      ]
+    },
+    {
+      "paper_id": "automatic-reduction-execution-trace-data-volume",
+      "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
+      "year": 2024,
+      "page": "papers/automatic-reduction-execution-trace-data-volume/README.md",
+      "json": "papers/automatic-reduction-execution-trace-data-volume/paper.json",
+      "bibtex": "papers/automatic-reduction-execution-trace-data-volume/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/automatic-reduction-execution-trace-data-volume/",
+      "canonical_source_url": "https://doi.org/10.21428/594757db.fe8b76cf",
+      "status": "public_cc_by_article_page",
+      "versions": [
+        {
+          "id": "public-published-article",
+          "label": "Public published article",
+          "relation": "version-of-record",
+          "status": "public_full_text_page",
+          "url": "https://caiac.pubpub.org/pub/dh3zxquj/release/1",
+          "pdf_url": null,
+          "canonical_for_citation": false
+        },
+        {
+          "id": "pubpub-doi",
+          "label": "PubPub DOI",
+          "relation": "version-of-record",
+          "status": "doi",
+          "url": "https://doi.org/10.21428/594757db.fe8b76cf",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "microservices",
+        "trace-reduction",
+        "gradient-boosting",
+        "performance-modeling",
+        "resource-analysis"
+      ],
+      "keywords": [
+        "trace data volume",
+        "feature importance",
+        "CPU demand",
+        "memory demand",
+        "Alibaba microservices",
+        "inter-service communication"
+      ]
+    },
+    {
+      "paper_id": "enhanced-trace-abstraction-social-network-analysis",
+      "title": "Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods",
+      "year": 2020,
+      "page": "papers/enhanced-trace-abstraction-social-network-analysis/README.md",
+      "json": "papers/enhanced-trace-abstraction-social-network-analysis/paper.json",
+      "bibtex": "papers/enhanced-trace-abstraction-social-network-analysis/citation.bib",
+      "page_url": "https://naser.github.io/research-publications/papers/enhanced-trace-abstraction-social-network-analysis/",
+      "canonical_source_url": "https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf",
+      "status": "public_direct_pdf",
+      "versions": [
+        {
+          "id": "public-pdf",
+          "label": "Public PDF",
+          "relation": "source-record",
+          "status": "public_full_text",
+          "url": "https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        },
+        {
+          "id": "dblp-record",
+          "label": "DBLP record",
+          "relation": "source-record",
+          "status": "metadata_record",
+          "url": "https://dblp.org/rec/journals/stt/WangE20",
+          "pdf_url": null,
+          "canonical_for_citation": false
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "trace-abstraction",
+        "social-network-analysis",
+        "trace-filtering",
+        "lttng"
+      ],
+      "keywords": [
+        "LTTng",
+        "Trace Compass",
+        "Louvain community detection",
+        "PageRank",
+        "thread interaction graph",
+        "trace filtering",
+        "virtual-machine clustering"
+      ]
+    }
+  ]
+}
