@@ -41,7 +41,7 @@ Abstract not available in the captured sources.
 - [Published version](https://aclanthology.org/2024.acl-long.22/) - published_public_page
 - [Public preprint](https://arxiv.org/abs/2405.16277) | [PDF](https://arxiv.org/pdf/2405.16277) - public_full_text
 
-**Primary source:** [https://doi.org/10.18653/v1/2024.acl-long.22](https://doi.org/10.18653/v1/2024.acl-long.22)
+**Canonical source:** [https://aclanthology.org/2024.acl-long.22/](https://aclanthology.org/2024.acl-long.22/)
 
 **Access status:** public_preprint_and_published_record. The ACL DOI is the canonical citation target; the arXiv preprint and ACL Anthology page provide public access paths.
 
@@ -58,7 +58,7 @@ Cite this paper when discussing multimodal pronoun disambiguation or the WinoVis
   year = {2024},
   booktitle = {ACL 2024 Main Conference},
   doi = {10.18653/v1/2024.acl-long.22},
-  url = {https://doi.org/10.18653/v1/2024.acl-long.22}
+  url = {https://aclanthology.org/2024.acl-long.22/}
 }
 ```
 
@@ -66,5 +66,5 @@ Cite this paper when discussing multimodal pronoun disambiguation or the WinoVis
 
 - Metadata verified: 2026-08-03
 - Summary status: source-grounded catalog review; author approval pending
-- Evidence: ACL Anthology and DOI metadata; official arXiv abstract and PDF page 2405.16277; local PDF hash verified in the working catalog
+- Metadata sources: ACL Anthology and DOI metadata; official arXiv abstract and PDF page 2405.16277; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

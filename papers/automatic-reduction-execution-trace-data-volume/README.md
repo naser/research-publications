@@ -32,43 +32,22 @@ In large microservice systems, collecting too little or too much trace data can 
 
 ## Topics and keywords
 
-**Tags:** [microservices](../../topics/microservices.md) | [trace-reduction](../../topics/trace-reduction.md) | [gradient-boosting](../../topics/gradient-boosting.md) | [performance-modeling](../../topics/performance-modeling.md) | [resource-analysis](../../topics/resource-analysis.md)
-
-**Keywords:** [trace data volume](../../keywords/trace-data-volume.md) | [feature importance](../../keywords/feature-importance.md) | [CPU demand](../../keywords/cpu-demand.md) | [memory demand](../../keywords/memory-demand.md) | [Alibaba microservices](../../keywords/alibaba-microservices.md) | [inter-service communication](../../keywords/inter-service-communication.md)
-
-## Versions and source links
-
-- [Public published article](https://caiac.pubpub.org/pub/dh3zxquj/release/1) - public_full_text_page
-- [PubPub DOI](https://doi.org/10.21428/594757db.fe8b76cf) - doi
-
-**Primary source:** [https://caiac.pubpub.org/pub/dh3zxquj/release/1](https://caiac.pubpub.org/pub/dh3zxquj/release/1)
-
-**Access status:** public_cc_by_article_page. The official PubPub page exposes the full article, a Download action, and a CC-BY 4.0 license. The repository links the source page rather than copying the PDF.
-
-## When to cite this paper
-
-Cite this paper when discussing trace-data reduction for microservice performance modeling.
-
-## Citation
-
-```bibtex
-@inproceedings{ezzatiJivan2024automaticreduction,
-  author = {Amir Haghshenas and Naser Ezzati-Jivan and Michel Dagenais},
-  title = {Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems},
-  year = {2024},
-  booktitle = {The 37th Canadian Conference on Artificial Intelligence},
-  doi = {10.21428/594757db.fe8b76cf},
-  url = {https://caiac.pubpub.org/pub/dh3zxquj/release/1}
+**Tags:** [microservices](../../topics/microservices.md) | [trace-reduction](../../topics/trace-reduction.md) | [gradient-boosting](../../topics/gradient-boosting.md) | [performance-modeling](../../topics/performance-modeling.md) | [resource-analysis](../../topics/resource-analys…6824 tokens truncated…{
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "public PDF URL observed from DBLP-linked source",
+      "PDF downloaded locally and verified with %PDF- signature",
+      "first three pages extracted for summary verification"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 1,
+    "batch_label": "initial ten-paper release",
+    "status": "included_in_phase_1",
+    "selected_at": "2026-08-03"
+  }
 }
-```
-
-
-### Alternative or source-rendered titles
-
-- Automatic Reduction of Execution Trace Data Volume UsingGradient Boosting in Large-Scale Microservice Systems (source-page rendering variant)
-## Record provenance
-
-- Metadata verified: 2026-08-03
-- Summary status: source-grounded catalog review; author approval pending
-- Evidence: official Canadian AI Proceedings PubPub page; PubPub page reports CC-BY 4.0 and a Download action; DBLP metadata matched by title, authors, and year
-- Machine-readable record: [paper.json](./paper.json)

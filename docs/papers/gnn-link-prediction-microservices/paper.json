@@ -1,6 +1,7 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "paper_id": "gnn-link-prediction-microservices",
+  "page_url": "https://naser.github.io/research-publications/papers/gnn-link-prediction-microservices/",
   "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
   "title_variants": [],
   "authors": [
@@ -16,7 +17,7 @@
   },
   "publication_type": "conference paper",
   "status": "public_preprint_and_published_record",
-  "canonical_url": "https://doi.org/10.1145/3676151.3719362",
+  "canonical_source_url": "https://doi.org/10.1145/3676151.3719362",
   "source_record_id": "utilizing-graph-neural-networks-for-effective-link-prediction-in-microservice-architectures-a78a88205f",
   "identifiers": {
     "doi": "10.1145/3676151.3719362",
@@ -48,30 +49,32 @@
   ],
   "versions": [
     {
+      "id": "published-version",
       "label": "Published version",
+      "relation": "version-of-record",
       "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
       "url": "https://doi.org/10.1145/3676151.3719362",
-      "status": "published"
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
     },
     {
+      "id": "public-preprint",
       "label": "Public preprint",
+      "relation": "preprint",
       "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
       "url": "https://arxiv.org/abs/2501.15019",
       "pdf_url": "https://arxiv.org/pdf/2501.15019",
-      "status": "public_full_text"
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
     "status": "public_preprint_and_published_record",
-    "primary_url": "https://doi.org/10.1145/3676151.3719362",
-    "pdf_url": "https://arxiv.org/pdf/2501.15019",
     "note": "The ACM DOI is the canonical citation target; the arXiv preprint provides public full text.",
     "license": null
   },
   "resources": {
-    "publisher_or_record": "https://doi.org/10.1145/3676151.3719362",
-    "preprint": "https://arxiv.org/abs/2501.15019",
-    "full_text": "https://arxiv.org/pdf/2501.15019",
     "code": null,
     "data": null,
     "slides": null,
@@ -79,10 +82,9 @@
   },
   "citation_guidance": {
     "when_to_cite": "Cite this paper when discussing graph-neural-network link prediction in time-varying microservice call graphs.",
-    "canonical_version": "Published version"
+    "canonical_version_id": "published-version"
   },
   "provenance": {
-    "verified_at": "2026-08-03",
     "metadata_verified_on": "2026-08-03",
     "metadata_source": [
       "DBLP and ACM DOI metadata",
@@ -91,12 +93,6 @@
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
-    "evidence": [
-      "DBLP and ACM DOI metadata",
-      "official arXiv abstract and PDF page 2501.15019",
-      "local PDF hash verified in the working catalog"
-    ],
-    "source_record": "utilizing-graph-neural-networks-for-effective-link-prediction-in-microservice-architectures-a78a88205f",
     "linked_preprint_record": null,
     "author_order_note": null
   },

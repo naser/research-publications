@@ -41,7 +41,7 @@ This paper applies social-network-analysis techniques to system execution traces
 - [Public PDF](https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf) - public_full_text
 - [DBLP record](https://dblp.org/rec/journals/stt/WangE20) - metadata_record
 
-**Primary source:** [https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf](https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf)
+**Canonical source:** [https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf](https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf)
 
 **Access status:** public_direct_pdf. A public direct PDF was observed and downloaded for local verification. The repository links the source PDF and DBLP record; no copy is included in the public repository.
 
@@ -65,5 +65,5 @@ Cite this paper when discussing graph-based trace abstraction using community de
 
 - Metadata verified: 2026-08-03
 - Summary status: source-grounded catalog review; author approval pending
-- Evidence: public PDF URL observed from DBLP-linked source; PDF downloaded locally and verified with %PDF- signature; first three pages extracted for summary verification
+- Metadata sources: public PDF URL observed from DBLP-linked source; PDF downloaded locally and verified with %PDF- signature; first three pages extracted for summary verification
 - Machine-readable record: [paper.json](./paper.json)
