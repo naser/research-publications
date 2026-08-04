@@ -1,5 +1,1 @@
-# adaptive batch size
-
-Papers indexed by keyword **adaptive batch size**.
-
-- [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](../papers/deba-adaptive-batch-scheduling/README.md) - 2025
+IyBhZGFwdGl2ZSBiYXRjaCBzaXplCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqYWRhcHRpdmUgYmF0Y2ggc2l6ZSoqLgoKLSBbT25lIFNpemUgRG9lcyBOb3QgRml0IEFsbDogQXJjaGl0ZWN0dXJlLUF3YXJlIEFkYXB0aXZlIEJhdGNoIFNjaGVkdWxpbmcgd2l0aCBERUJBXSguLi9wYXBlcnMvZGViYS1hZGFwdGl2ZS1iYXRjaC1zY2hlZHVsaW5nL1JFQURNRS5tZCkgLSAyMDI1Cg==

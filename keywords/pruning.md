@@ -1,5 +1,1 @@
-# pruning
-
-Papers indexed by keyword **pruning**.
-
-- [Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models](../papers/optimization-transformers-llms/README.md) - 2025
+IyBwcnVuaW5nCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqcHJ1bmluZyoqLgoKLSBbT3B0aW1pemF0aW9uIFN0cmF0ZWdpZXMgZm9yIEVuaGFuY2luZyBSZXNvdXJjZSBFZmZpY2llbmN5IGluIFRyYW5zZm9ybWVycyAmIExhcmdlIExhbmd1YWdlIE1vZGVsc10oLi4vcGFwZXJzL29wdGltaXphdGlvbi10cmFuc2Zvcm1lcnMtbGxtcy9SRUFETUUubWQpIC0gMjAyNQo=

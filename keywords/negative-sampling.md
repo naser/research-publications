@@ -1,5 +1,1 @@
-# negative sampling
-
-Papers indexed by keyword **negative sampling**.
-
-- [Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures](../papers/gnn-link-prediction-microservices/README.md) - 2025
+IyBuZWdhdGl2ZSBzYW1wbGluZwoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKm5lZ2F0aXZlIHNhbXBsaW5nKiouCgotIFtVdGlsaXppbmcgR3JhcGggTmV1cmFsIE5ldHdvcmtzIGZvciBFZmZlY3RpdmUgTGluayBQcmVkaWN0aW9uIGluIE1pY3Jvc2VydmljZSBBcmNoaXRlY3R1cmVzXSguLi9wYXBlcnMvZ25uLWxpbmstcHJlZGljdGlvbi1taWNyb3NlcnZpY2VzL1JFQURNRS5tZCkgLSAyMDI1Cg==

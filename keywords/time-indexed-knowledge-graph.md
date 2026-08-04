@@ -1,5 +1,1 @@
-# time-indexed knowledge graph
-
-Papers indexed by keyword **time-indexed knowledge graph**.
-
-- [TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs](../papers/taaf-trace-abstraction-analysis-framework/README.md) - 2026
+IyB0aW1lLWluZGV4ZWQga25vd2xlZGdlIGdyYXBoCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqdGltZS1pbmRleGVkIGtub3dsZWRnZSBncmFwaCoqLgoKLSBbVEFBRjogQSBUcmFjZSBBYnN0cmFjdGlvbiBhbmQgQW5hbHlzaXMgRnJhbWV3b3JrIFN5bmVyZ2l6aW5nIEtub3dsZWRnZSBHcmFwaHMgYW5kIExMTXNdKC4uL3BhcGVycy90YWFmLXRyYWNlLWFic3RyYWN0aW9uLWFuYWx5c2lzLWZyYW1ld29yay9SRUFETUUubWQpIC0gMjAyNgo=

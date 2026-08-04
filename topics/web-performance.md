@@ -1,5 +1,1 @@
-# web-performance
-
-Papers tagged **web-performance**.
-
-- [Automatic Cause Detection of Performance Problems in Web Applications](../papers/automatic-cause-detection-web-applications/README.md) - 2019
+IyB3ZWItcGVyZm9ybWFuY2UKClBhcGVycyB0YWdnZWQgKip3ZWItcGVyZm9ybWFuY2UqKi4KCi0gW0F1dG9tYXRpYyBDYXVzZSBEZXRlY3Rpb24gb2YgUGVyZm9ybWFuY2UgUHJvYmxlbXMgaW4gV2ViIEFwcGxpY2F0aW9uc10oLi4vcGFwZXJzL2F1dG9tYXRpYy1jYXVzZS1kZXRlY3Rpb24td2ViLWFwcGxpY2F0aW9ucy9SRUFETUUubWQpIC0gMjAxOQo=

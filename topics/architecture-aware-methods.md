@@ -1,5 +1,1 @@
-# architecture-aware-methods
-
-Papers tagged **architecture-aware-methods**.
-
-- [One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA](../papers/deba-adaptive-batch-scheduling/README.md) - 2025
+IyBhcmNoaXRlY3R1cmUtYXdhcmUtbWV0aG9kcwoKUGFwZXJzIHRhZ2dlZCAqKmFyY2hpdGVjdHVyZS1hd2FyZS1tZXRob2RzKiouCgotIFtPbmUgU2l6ZSBEb2VzIE5vdCBGaXQgQWxsOiBBcmNoaXRlY3R1cmUtQXdhcmUgQWRhcHRpdmUgQmF0Y2ggU2NoZWR1bGluZyB3aXRoIERFQkFdKC4uL3BhcGVycy9kZWJhLWFkYXB0aXZlLWJhdGNoLXNjaGVkdWxpbmcvUkVBRE1FLm1kKSAtIDIwMjUK

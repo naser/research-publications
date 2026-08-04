@@ -1,5 +1,1 @@
-# WinoVis
-
-Papers indexed by keyword **WinoVis**.
-
-- [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](../papers/picturing-ambiguity-winograd-schema/README.md) - 2024
+IyBXaW5vVmlzCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqV2lub1ZpcyoqLgoKLSBbUGljdHVyaW5nIEFtYmlndWl0eTogQSBWaXN1YWwgVHdpc3Qgb24gdGhlIFdpbm9ncmFkIFNjaGVtYSBDaGFsbGVuZ2VdKC4uL3BhcGVycy9waWN0dXJpbmctYW1iaWd1aXR5LXdpbm9ncmFkLXNjaGVtYS9SRUFETUUubWQpIC0gMjAyNAo=

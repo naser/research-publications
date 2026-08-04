@@ -1,5 +1,1 @@
-# Stable Diffusion
-
-Papers indexed by keyword **Stable Diffusion**.
-
-- [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](../papers/picturing-ambiguity-winograd-schema/README.md) - 2024
+IyBTdGFibGUgRGlmZnVzaW9uCgpQYXBlcnMgaW5kZXhlZCBieSBrZXl3b3JkICoqU3RhYmxlIERpZmZ1c2lvbioqLgoKLSBbUGljdHVyaW5nIEFtYmlndWl0eTogQSBWaXN1YWwgVHdpc3Qgb24gdGhlIFdpbm9ncmFkIFNjaGVtYSBDaGFsbGVuZ2VdKC4uL3BhcGVycy9waWN0dXJpbmctYW1iaWd1aXR5LXdpbm9ncmFkLXNjaGVtYS9SRUFETUUubWQpIC0gMjAyNAo=

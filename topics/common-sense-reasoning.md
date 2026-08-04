@@ -1,5 +1,1 @@
-# common-sense-reasoning
-
-Papers tagged **common-sense-reasoning**.
-
-- [Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge](../papers/picturing-ambiguity-winograd-schema/README.md) - 2024
+IyBjb21tb24tc2Vuc2UtcmVhc29uaW5nCgpQYXBlcnMgdGFnZ2VkICoqY29tbW9uLXNlbnNlLXJlYXNvbmluZyoqLgoKLSBbUGljdHVyaW5nIEFtYmlndWl0eTogQSBWaXN1YWwgVHdpc3Qgb24gdGhlIFdpbm9ncmFkIFNjaGVtYSBDaGFsbGVuZ2VdKC4uL3BhcGVycy9waWN0dXJpbmctYW1iaWd1aXR5LXdpbm9ncmFkLXNjaGVtYS9SRUFETUUubWQpIC0gMjAyNAo=

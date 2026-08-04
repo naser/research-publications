@@ -1,5 +1,1 @@
-# energy-efficiency
-
-Papers tagged **energy-efficiency**.
-
-- [Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models](../papers/optimization-transformers-llms/README.md) - 2025
+IyBlbmVyZ3ktZWZmaWNpZW5jeQoKUGFwZXJzIHRhZ2dlZCAqKmVuZXJneS1lZmZpY2llbmN5KiouCgotIFtPcHRpbWl6YXRpb24gU3RyYXRlZ2llcyBmb3IgRW5oYW5jaW5nIFJlc291cmNlIEVmZmljaWVuY3kgaW4gVHJhbnNmb3JtZXJzICYgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzXSguLi9wYXBlcnMvb3B0aW1pemF0aW9uLXRyYW5zZm9ybWVycy1sbG1zL1JFQURNRS5tZCkgLSAyMDI1Cg==

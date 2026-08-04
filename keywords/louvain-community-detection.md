@@ -1,5 +1,1 @@
-# Louvain community detection
-
-Papers indexed by keyword **Louvain community detection**.
-
-- [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](../papers/enhanced-trace-abstraction-social-network-analysis/README.md) - 2020
+IyBMb3V2YWluIGNvbW11bml0eSBkZXRlY3Rpb24KClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKipMb3V2YWluIGNvbW11bml0eSBkZXRlY3Rpb24qKi4KCi0gW0VuaGFuY2VkIEV4ZWN1dGlvbiBUcmFjZSBBYnN0cmFjdGlvbiBBcHByb2FjaCBVc2luZyBTb2NpYWwgTmV0d29yayBBbmFseXNpcyBNZXRob2RzXSguLi9wYXBlcnMvZW5oYW5jZWQtdHJhY2UtYWJzdHJhY3Rpb24tc29jaWFsLW5ldHdvcmstYW5hbHlzaXMvUkVBRE1FLm1kKSAtIDIwMjAK

@@ -1,5 +1,1 @@
-# trace filtering
-
-Papers indexed by keyword **trace filtering**.
-
-- [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](../papers/enhanced-trace-abstraction-social-network-analysis/README.md) - 2020
+IyB0cmFjZSBmaWx0ZXJpbmcKClBhcGVycyBpbmRleGVkIGJ5IGtleXdvcmQgKip0cmFjZSBmaWx0ZXJpbmcqKi4KCi0gW0VuaGFuY2VkIEV4ZWN1dGlvbiBUcmFjZSBBYnN0cmFjdGlvbiBBcHByb2FjaCBVc2luZyBTb2NpYWwgTmV0d29yayBBbmFseXNpcyBNZXRob2RzXSguLi9wYXBlcnMvZW5oYW5jZWQtdHJhY2UtYWJzdHJhY3Rpb24tc29jaWFsLW5ldHdvcmstYW5hbHlzaXMvUkVBRE1FLm1kKSAtIDIwMjAK

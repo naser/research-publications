@@ -1,5 +1,1 @@
-# PHP cache contention
-
-Papers indexed by keyword **PHP cache contention**.
-
-- [Automatic Cause Detection of Performance Problems in Web Applications](../papers/automatic-cause-detection-web-applications/README.md) - 2019
+IyBQSFAgY2FjaGUgY29udGVudGlvbgoKUGFwZXJzIGluZGV4ZWQgYnkga2V5d29yZCAqKlBIUCBjYWNoZSBjb250ZW50aW9uKiouCgotIFtBdXRvbWF0aWMgQ2F1c2UgRGV0ZWN0aW9uIG9mIFBlcmZvcm1hbmNlIFByb2JsZW1zIGluIFdlYiBBcHBsaWNhdGlvbnNdKC4uL3BhcGVycy9hdXRvbWF0aWMtY2F1c2UtZGV0ZWN0aW9uLXdlYi1hcHBsaWNhdGlvbnMvUkVBRE1FLm1kKSAtIDIwMTkK
