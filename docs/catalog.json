@@ -4,7 +4,7 @@
   "site_url": "https://naser.github.io/research-publications/",
   "schema_url": "https://naser.github.io/research-publications/schemas/paper.schema.json",
   "vocabulary_url": "https://naser.github.io/research-publications/schemas/vocabularies.json",
-  "batch": "expanded-thirty-paper-release",
+  "batch": "expanded-forty-paper-release",
   "records": [
     {
       "paper_id": "depgraph",
