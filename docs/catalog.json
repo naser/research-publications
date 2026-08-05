@@ -4,7 +4,7 @@
   "site_url": "https://naser.github.io/research-publications/",
   "schema_url": "https://naser.github.io/research-publications/schemas/paper.schema.json",
   "vocabulary_url": "https://naser.github.io/research-publications/schemas/vocabularies.json",
-  "batch": "phase-1-initial-ten",
+  "batch": "expanded-thirty-paper-release",
   "records": [
     {
       "paper_id": "depgraph",
@@ -1281,6 +1281,398 @@
         "Alibaba production clusters",
         "network analysis",
         "service interactions"
+      ]
+    },
+    {
+      "paper_id": "tracesynth-kernel-trace-generation",
+      "title": "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models",
+      "year": 2026,
+      "page": "papers/tracesynth-kernel-trace-generation/README.md",
+      "json": "papers/tracesynth-kernel-trace-generation/paper.json",
+      "bibtex": "papers/tracesynth-kernel-trace-generation/citation.bib",
+      "citation_files": {
+        "apa": "papers/tracesynth-kernel-trace-generation/citation.apa.txt",
+        "ieee": "papers/tracesynth-kernel-trace-generation/citation.ieee.txt",
+        "ris": "papers/tracesynth-kernel-trace-generation/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/tracesynth-kernel-trace-generation/",
+      "canonical_source_url": "https://doi.org/10.1145/3803437.3805222",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1145/3803437.3805222",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "system-tracing",
+        "trace-analysis",
+        "machine-learning"
+      ],
+      "keywords": [
+        "kernel traces",
+        "trace generation",
+        "diffusion models",
+        "constraint-guided generation",
+        "production traces"
+      ]
+    },
+    {
+      "paper_id": "n-lane-bridge-performance-antipatterns",
+      "title": "N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing",
+      "year": 2022,
+      "page": "papers/n-lane-bridge-performance-antipatterns/README.md",
+      "json": "papers/n-lane-bridge-performance-antipatterns/paper.json",
+      "bibtex": "papers/n-lane-bridge-performance-antipatterns/citation.bib",
+      "citation_files": {
+        "apa": "papers/n-lane-bridge-performance-antipatterns/citation.apa.txt",
+        "ieee": "papers/n-lane-bridge-performance-antipatterns/citation.ieee.txt",
+        "ris": "papers/n-lane-bridge-performance-antipatterns/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/n-lane-bridge-performance-antipatterns/",
+      "canonical_source_url": "https://doi.org/10.1109/scam55253.2022.00015",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1109/scam55253.2022.00015",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "system-tracing",
+        "performance-analysis",
+        "anomaly-detection"
+      ],
+      "keywords": [
+        "N-Lane Bridge",
+        "performance antipatterns",
+        "system-level execution tracing",
+        "trace-based diagnosis"
+      ]
+    },
+    {
+      "paper_id": "performance-evaluation-multithread-execution-paths",
+      "title": "Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis",
+      "year": 2022,
+      "page": "papers/performance-evaluation-multithread-execution-paths/README.md",
+      "json": "papers/performance-evaluation-multithread-execution-paths/paper.json",
+      "bibtex": "papers/performance-evaluation-multithread-execution-paths/citation.bib",
+      "citation_files": {
+        "apa": "papers/performance-evaluation-multithread-execution-paths/citation.apa.txt",
+        "ieee": "papers/performance-evaluation-multithread-execution-paths/citation.ieee.txt",
+        "ris": "papers/performance-evaluation-multithread-execution-paths/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/performance-evaluation-multithread-execution-paths/",
+      "canonical_source_url": "https://doi.org/10.1016/j.peva.2022.102289",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1016/j.peva.2022.102289",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "performance-analysis",
+        "trace-analysis",
+        "multicore-systems",
+        "performance-engineering"
+      ],
+      "keywords": [
+        "multi-thread applications",
+        "execution paths",
+        "performance evaluation",
+        "thread behavior"
+      ]
+    },
+    {
+      "paper_id": "model-based-constraints-execution-tracing",
+      "title": "Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing",
+      "year": 2021,
+      "page": "papers/model-based-constraints-execution-tracing/README.md",
+      "json": "papers/model-based-constraints-execution-tracing/paper.json",
+      "bibtex": "papers/model-based-constraints-execution-tracing/citation.bib",
+      "citation_files": {
+        "apa": "papers/model-based-constraints-execution-tracing/citation.apa.txt",
+        "ieee": "papers/model-based-constraints-execution-tracing/citation.ieee.txt",
+        "ris": "papers/model-based-constraints-execution-tracing/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/model-based-constraints-execution-tracing/",
+      "canonical_source_url": "https://doi.org/10.1007/s10766-020-00689-5",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1007/s10766-020-00689-5",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "system-tracing",
+        "multicore-systems",
+        "trace-analysis",
+        "performance-analysis"
+      ],
+      "keywords": [
+        "model-based constraints",
+        "execution tracing",
+        "multi-core systems",
+        "real-time applications",
+        "constraint generation"
+      ]
+    },
+    {
+      "paper_id": "combining-distributed-kernel-tracing-cloud",
+      "title": "Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications",
+      "year": 2021,
+      "page": "papers/combining-distributed-kernel-tracing-cloud/README.md",
+      "json": "papers/combining-distributed-kernel-tracing-cloud/paper.json",
+      "bibtex": "papers/combining-distributed-kernel-tracing-cloud/citation.bib",
+      "citation_files": {
+        "apa": "papers/combining-distributed-kernel-tracing-cloud/citation.apa.txt",
+        "ieee": "papers/combining-distributed-kernel-tracing-cloud/citation.ieee.txt",
+        "ris": "papers/combining-distributed-kernel-tracing-cloud/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/combining-distributed-kernel-tracing-cloud/",
+      "canonical_source_url": "https://doi.org/10.3390/electronics10212610",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.3390/electronics10212610",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "system-tracing",
+        "performance-analysis",
+        "observability"
+      ],
+      "keywords": [
+        "distributed tracing",
+        "kernel tracing",
+        "cloud applications",
+        "cross-layer performance analysis"
+      ]
+    },
+    {
+      "paper_id": "multilevel-trace-lock-contention",
+      "title": "Multi-Level Execution Trace Based Lock Contention Analysis",
+      "year": 2020,
+      "page": "papers/multilevel-trace-lock-contention/README.md",
+      "json": "papers/multilevel-trace-lock-contention/paper.json",
+      "bibtex": "papers/multilevel-trace-lock-contention/citation.bib",
+      "citation_files": {
+        "apa": "papers/multilevel-trace-lock-contention/citation.apa.txt",
+        "ieee": "papers/multilevel-trace-lock-contention/citation.ieee.txt",
+        "ris": "papers/multilevel-trace-lock-contention/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/multilevel-trace-lock-contention/",
+      "canonical_source_url": "https://doi.org/10.1109/issrew51248.2020.00068",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1109/issrew51248.2020.00068",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "system-tracing",
+        "performance-analysis",
+        "root-cause-analysis"
+      ],
+      "keywords": [
+        "lock contention",
+        "multi-level execution traces",
+        "thread synchronization",
+        "contention diagnosis"
+      ]
+    },
+    {
+      "paper_id": "heterogeneous-debugging-dynamic-tracing",
+      "title": "Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing",
+      "year": 2019,
+      "page": "papers/heterogeneous-debugging-dynamic-tracing/README.md",
+      "json": "papers/heterogeneous-debugging-dynamic-tracing/paper.json",
+      "bibtex": "papers/heterogeneous-debugging-dynamic-tracing/citation.bib",
+      "citation_files": {
+        "apa": "papers/heterogeneous-debugging-dynamic-tracing/citation.apa.txt",
+        "ieee": "papers/heterogeneous-debugging-dynamic-tracing/citation.ieee.txt",
+        "ris": "papers/heterogeneous-debugging-dynamic-tracing/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/heterogeneous-debugging-dynamic-tracing/",
+      "canonical_source_url": "https://doi.org/10.1016/j.sysarc.2019.02.016",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1016/j.sysarc.2019.02.016",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "system-tracing",
+        "trace-analysis",
+        "performance-analysis",
+        "root-cause-analysis"
+      ],
+      "keywords": [
+        "heterogeneous systems",
+        "dynamic tracing",
+        "large-scale debugging",
+        "debugging efficiency"
+      ]
+    },
+    {
+      "paper_id": "efficient-cloud-tracing-levels",
+      "title": "Efficient Cloud Tracing: From Very High Level to Very Low Level",
+      "year": 2018,
+      "page": "papers/efficient-cloud-tracing-levels/README.md",
+      "json": "papers/efficient-cloud-tracing-levels/paper.json",
+      "bibtex": "papers/efficient-cloud-tracing-levels/citation.bib",
+      "citation_files": {
+        "apa": "papers/efficient-cloud-tracing-levels/citation.apa.txt",
+        "ieee": "papers/efficient-cloud-tracing-levels/citation.ieee.txt",
+        "ris": "papers/efficient-cloud-tracing-levels/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/efficient-cloud-tracing-levels/",
+      "canonical_source_url": "https://doi.org/10.1109/icce.2018.8326353",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1109/icce.2018.8326353",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "system-tracing",
+        "performance-analysis",
+        "observability"
+      ],
+      "keywords": [
+        "cloud tracing",
+        "high-level tracing",
+        "low-level tracing",
+        "cross-layer observability"
+      ]
+    },
+    {
+      "paper_id": "hardware-assisted-software-event-tracing",
+      "title": "Hardware-Assisted Software Event Tracing",
+      "year": 2017,
+      "page": "papers/hardware-assisted-software-event-tracing/README.md",
+      "json": "papers/hardware-assisted-software-event-tracing/paper.json",
+      "bibtex": "papers/hardware-assisted-software-event-tracing/citation.bib",
+      "citation_files": {
+        "apa": "papers/hardware-assisted-software-event-tracing/citation.apa.txt",
+        "ieee": "papers/hardware-assisted-software-event-tracing/citation.ieee.txt",
+        "ris": "papers/hardware-assisted-software-event-tracing/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/hardware-assisted-software-event-tracing/",
+      "canonical_source_url": "https://doi.org/10.1002/cpe.4069",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1002/cpe.4069",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "system-tracing",
+        "kernel-tracing",
+        "trace-analysis",
+        "performance-engineering"
+      ],
+      "keywords": [
+        "hardware-assisted tracing",
+        "software events",
+        "event collection",
+        "trace overhead"
+      ]
+    },
+    {
+      "paper_id": "multilayer-virtualized-systems-kernel-tracing",
+      "title": "Multilayer Virtualized Systems Analysis with Kernel Tracing",
+      "year": 2016,
+      "page": "papers/multilayer-virtualized-systems-kernel-tracing/README.md",
+      "json": "papers/multilayer-virtualized-systems-kernel-tracing/paper.json",
+      "bibtex": "papers/multilayer-virtualized-systems-kernel-tracing/citation.bib",
+      "citation_files": {
+        "apa": "papers/multilayer-virtualized-systems-kernel-tracing/citation.apa.txt",
+        "ieee": "papers/multilayer-virtualized-systems-kernel-tracing/citation.ieee.txt",
+        "ris": "papers/multilayer-virtualized-systems-kernel-tracing/citation.ris"
+      },
+      "page_url": "https://naser.github.io/research-publications/papers/multilayer-virtualized-systems-kernel-tracing/",
+      "canonical_source_url": "https://doi.org/10.1109/w-ficloud.2016.18",
+      "status": "published_metadata_record",
+      "versions": [
+        {
+          "id": "published-version",
+          "label": "Published version",
+          "relation": "version-of-record",
+          "status": "published",
+          "url": "https://doi.org/10.1109/w-ficloud.2016.18",
+          "pdf_url": null,
+          "canonical_for_citation": true
+        }
+      ],
+      "tags": [
+        "kernel-tracing",
+        "system-tracing",
+        "performance-analysis",
+        "resource-analysis"
+      ],
+      "keywords": [
+        "virtualized systems",
+        "kernel tracing",
+        "multilayer analysis",
+        "virtualization overhead"
       ]
     }
   ]
