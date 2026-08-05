@@ -4,7 +4,7 @@
 
 **Authors:** Maryam Ekhlasi, Fatemeh Faraji Daneshgar, Michel Dagenais, Maxime Lamothe, Naser Ezzati-Jivan, Matthew Khouzam
 
-**Core contribution:** This work studies dtracomp: comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.
+**Core contribution:** This work investigates DTraComp: Comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

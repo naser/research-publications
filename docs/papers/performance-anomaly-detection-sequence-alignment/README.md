@@ -4,7 +4,7 @@
 
 **Authors:** Madeline Janecek, Naser Ezzati-Jivan, Abdelwahab Hamou-Lhadj
 
-**Core contribution:** This work studies performance anomaly detection through sequence alignment of system-level traces in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Performance anomaly detection through sequence alignment of system-level traces in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

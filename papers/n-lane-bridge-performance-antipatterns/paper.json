@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "n-lane-bridge-performance-antipatterns",
+  "page_url": "https://naser.github.io/research-publications/papers/n-lane-bridge-performance-antipatterns/",
+  "title": "N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing",
+  "title_variants": [],
+  "authors": [
+    "Riley VanDonge",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2022,
+    "venue": "IEEE Working Conference on Source Code Analysis and Manipulation (SCAM)",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/scam55253.2022.00015",
+  "source_record_id": "n-lane-bridge-performance-antipattern-analysis-using-system-level-execution-tracing-2e33511755",
+  "identifiers": {
+    "doi": "10.1109/scam55253.2022.00015"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "N-Lane Bridge applies system-level execution tracing to analyze performance antipatterns in a multi-lane workload.",
+    "problem": "Performance antipatterns may arise from interactions among application activity, operating-system scheduling, and shared resources.",
+    "method": "The study uses system-level execution traces to characterize and analyze performance behavior in the N-Lane Bridge setting.",
+    "findings": "It provides a trace-based antipattern-analysis case study; event details and measured outcomes require full-text review.",
+    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
+    "future_work": "Evaluate additional antipatterns, workloads, hardware configurations, and automated diagnosis support."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "performance-analysis",
+    "anomaly-detection"
+  ],
+  "keywords": [
+    "N-Lane Bridge",
+    "performance antipatterns",
+    "system-level execution tracing",
+    "trace-based diagnosis"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing",
+      "url": "https://doi.org/10.1109/scam55253.2022.00015",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "Crossref and local DBLP/venue metadata for 10.1109/scam55253.2022.00015",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

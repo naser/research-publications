@@ -4,7 +4,7 @@
 
 **Authors:** Mohammed Adib Khan, Morteza Noferesti, Naser Ezzati-Jivan
 
-**Core contribution:** This work studies pasd: a performance analysis approach through the statistical debugging of kernel events in the context of software performance and systems analysis.
+**Core contribution:** This work investigates PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

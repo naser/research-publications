@@ -4,7 +4,7 @@
 
 **Authors:** Naser Ezzati-Jivan, Genevieve Bastien, Michel R. Dagenais
 
-**Core contribution:** This work studies high latency cause detection using multilevel dynamic analysis in the context of software performance and systems analysis.
+**Core contribution:** This work investigates High latency cause detection using multilevel dynamic analysis in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

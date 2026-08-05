@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "multilevel-trace-lock-contention",
+  "page_url": "https://naser.github.io/research-publications/papers/multilevel-trace-lock-contention/",
+  "title": "Multi-Level Execution Trace Based Lock Contention Analysis",
+  "title_variants": [],
+  "authors": [
+    "Majid Rezazadeh",
+    "Naser Ezzati-Jivan",
+    "Evan Galea",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2020,
+    "venue": "IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/issrew51248.2020.00068",
+  "source_record_id": "multi-level-execution-trace-based-lock-contention-analysis-15ef9737b9",
+  "identifiers": {
+    "doi": "10.1109/issrew51248.2020.00068"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "The work uses multi-level execution traces to analyze lock contention in concurrent applications.",
+    "problem": "Lock contention can arise from interactions between application synchronization and lower-level scheduling or resource behavior.",
+    "method": "The study combines trace evidence from multiple system levels to identify and analyze lock-contention behavior.",
+    "findings": "It provides a multi-level contention-analysis approach; tracepoints, workloads, and quantitative outcomes require full-text review.",
+    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
+    "future_work": "Automate contention attribution, evaluate modern runtimes, and measure production tracing overhead."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "performance-analysis",
+    "root-cause-analysis"
+  ],
+  "keywords": [
+    "lock contention",
+    "multi-level execution traces",
+    "thread synchronization",
+    "contention diagnosis"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Multi-Level Execution Trace Based Lock Contention Analysis",
+      "url": "https://doi.org/10.1109/issrew51248.2020.00068",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

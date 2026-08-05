@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies performance anomaly detection through sequence alignment of system-level traces in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Performance anomaly detection through sequence alignment of system-level traces in the context of software performance and systems analysis.",
     "problem": "Anomalous executions may differ from normal executions in timing and event order, making simple threshold detection insufficient.",
     "method": "The approach uses sequence alignment over system-level traces to compare executions and detect anomalous behavior.",
     "findings": "The paper develops a trace-sequence-alignment direction for performance anomaly detection; quantitative findings require full-text review.",

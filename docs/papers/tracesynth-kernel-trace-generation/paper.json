@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "tracesynth-kernel-trace-generation",
+  "page_url": "https://naser.github.io/research-publications/papers/tracesynth-kernel-trace-generation/",
+  "title": "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models",
+  "title_variants": [],
+  "authors": [
+    "Yuvraj Sehgal",
+    "Sneh Patel",
+    "Mahsa Panahandeh",
+    "Naser Ezzati-Jivan",
+    "Francois Tetreault"
+  ],
+  "publication": {
+    "year": 2026,
+    "venue": "ACM International Conference on the Foundations of Software Engineering (FSE) Companion",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1145/3803437.3805222",
+  "source_record_id": "tracesynth-generating-production-quality-kernel-traces-with-constraint-guided-diffusion-models-e5ad60d639",
+  "identifiers": {
+    "doi": "10.1145/3803437.3805222"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "TraceSynth studies constraint-guided diffusion models for generating realistic kernel traces.",
+    "problem": "Production kernel traces can be difficult to share or obtain at scale, limiting experimentation and evaluation of trace-analysis methods.",
+    "method": "The paper combines diffusion-based generation with constraints intended to preserve properties of production-quality kernel traces.",
+    "findings": "The work proposes a generative approach for kernel-trace synthesis; fidelity measures, constraints, and evaluation results require full-text review.",
+    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
+    "future_work": "Compare synthetic and real traces across kernels, workloads, event distributions, and downstream analysis tasks."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "trace-analysis",
+    "machine-learning"
+  ],
+  "keywords": [
+    "kernel traces",
+    "trace generation",
+    "diffusion models",
+    "constraint-guided generation",
+    "production traces"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models",
+      "url": "https://doi.org/10.1145/3803437.3805222",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "Crossref and local DBLP/venue metadata for 10.1145/3803437.3805222",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

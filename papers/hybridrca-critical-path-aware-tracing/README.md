@@ -4,7 +4,7 @@
 
 **Authors:** Maryam Ekhlasi, Arnaud Fiorini, Michel R. Dagenais, Naser Ezzati-Jivan, Maxime Lamothe
 
-**Core contribution:** This work studies hybridrca: lightweight critical-path-aware hybrid tracing for root-cause analysis in production microservices in the context of software performance and systems analysis.
+**Core contribution:** This work investigates HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

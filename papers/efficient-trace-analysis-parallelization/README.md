@@ -4,7 +4,7 @@
 
 **Authors:** Fabien Reumont-Locke, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** This work studies efficient methods for trace analysis parallelization in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Efficient Methods for Trace Analysis Parallelization in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

@@ -4,7 +4,7 @@
 
 **Authors:** Ghazal Khodabandeh, Alireza Ezaz, Naser Ezzati-Jivan
 
-**Core contribution:** This work studies network analysis of microservices: a case study on alibaba production clusters in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Network Analysis of Microservices: A Case Study on Alibaba Production Clusters in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

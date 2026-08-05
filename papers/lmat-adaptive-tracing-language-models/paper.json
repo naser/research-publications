@@ -25,7 +25,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies lmat: an adaptive tracing approach based on efficient system behavior analysis using language models in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models in the context of software performance and systems analysis.",
     "problem": "Always-on tracing can impose cost, while sparse tracing can miss diagnostically important behavior.",
     "method": "LMAT uses system-behavior analysis and language-model assistance to adapt tracing decisions.",
     "findings": "The work investigates adaptive trace collection for efficient observability; quantitative claims require full-text review.",

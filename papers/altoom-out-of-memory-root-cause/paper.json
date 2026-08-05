@@ -25,7 +25,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies altoom: a data-driven out of memory root cause identification strategy in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy in the context of software performance and systems analysis.",
     "problem": "Out-of-memory failures have multiple interacting causes and are difficult to diagnose after the failure occurs.",
     "method": "AltOOM uses data-driven evidence to identify likely root causes of out-of-memory events.",
     "findings": "The paper presents an OOM-specific RCA strategy; datasets, features, and accuracy require full-text review.",

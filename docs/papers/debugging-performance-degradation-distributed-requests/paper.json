@@ -25,7 +25,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies debugging of performance degradation in distributed requests handling using multilevel trace analysis in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis in the context of software performance and systems analysis.",
     "problem": "Performance degradation in distributed request handling can originate at multiple software and system levels.",
     "method": "The paper uses multilevel trace analysis to connect distributed request behavior with lower-level execution evidence.",
     "findings": "It presents a multilevel debugging approach; detailed evaluation results require full-text review.",

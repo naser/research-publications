@@ -4,7 +4,7 @@
 
 **Authors:** Raphaël Beamonte, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** This work studies execution trace-based model verification to analyze multicore and real-time systems in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Execution trace-based model verification to analyze multicore and real-time systems in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

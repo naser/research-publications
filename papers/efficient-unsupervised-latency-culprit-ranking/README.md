@@ -4,7 +4,7 @@
 
 **Authors:** Mahsa Panahandeh, Naser Ezzati-Jivan, Abdelwahab Hamou-Lhadj, James Miller
 
-**Core contribution:** This work studies efficient unsupervised latency culprit ranking in distributed traces with gnn and critical path analysis in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

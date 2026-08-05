@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies container workload characterization through host system tracing in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Container Workload Characterization Through Host System Tracing in the context of software performance and systems analysis.",
     "problem": "Container behavior must be characterized without relying exclusively on instrumentation inside each workload.",
     "method": "The work studies host-system tracing as a source of evidence for characterizing container workloads.",
     "findings": "It contributes a host-observation perspective for container characterization; workload and metric details require full-text review.",

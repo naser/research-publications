@@ -1,0 +1,1 @@
+M. Rezazadeh, N. Ezzati-Jivan, S. V. Azhari, and M. R. Dagenais, "Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis," in Performance Evaluation, 2022, doi: 10.1016/j.peva.2022.102289
