@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies high latency cause detection using multilevel dynamic analysis in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates High latency cause detection using multilevel dynamic analysis in the context of software performance and systems analysis.",
     "problem": "High-latency requests require causal evidence across application and system layers.",
     "method": "The work applies multilevel dynamic analysis to detect causes associated with high latency.",
     "findings": "It establishes an early multilevel latency-diagnosis approach; exact experiments require full-text review.",

@@ -4,7 +4,7 @@
 
 **Authors:** Pranjal Chakraborty, Naser Ezzati-Jivan, Sayed Vahid Azhari, François Tetreault
 
-**Core contribution:** This work studies altoom: a data-driven out of memory root cause identification strategy in the context of software performance and systems analysis.
+**Core contribution:** This work investigates AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

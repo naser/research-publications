@@ -26,7 +26,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies hybridrca: lightweight critical-path-aware hybrid tracing for root-cause analysis in production microservices in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices in the context of software performance and systems analysis.",
     "problem": "Production RCA needs detailed evidence but cannot afford the overhead of collecting every trace signal.",
     "method": "HybridRCA combines critical-path awareness with hybrid tracing to focus collection and analysis on diagnostically relevant execution.",
     "findings": "The paper proposes a lightweight production-oriented RCA design; exact overhead and accuracy require full-text review.",

@@ -4,7 +4,7 @@
 
 **Authors:** Kasra Darvishi, Morteza Noferesti, Yuvraj Sehgal, Naser Ezzati-Jivan
 
-**Core contribution:** This work studies lmat: an adaptive tracing approach based on efficient system behavior analysis using language models in the context of software performance and systems analysis.
+**Core contribution:** This work investigates LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

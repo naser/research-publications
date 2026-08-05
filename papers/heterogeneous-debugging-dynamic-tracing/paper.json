@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "heterogeneous-debugging-dynamic-tracing",
+  "page_url": "https://naser.github.io/research-publications/papers/heterogeneous-debugging-dynamic-tracing/",
+  "title": "Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing",
+  "title_variants": [],
+  "authors": [
+    "Didier Nadeau",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2019,
+    "venue": "Journal of Systems Architecture",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1016/j.sysarc.2019.02.016",
+  "source_record_id": "efficient-large-scale-heterogeneous-debugging-using-dynamic-tracing-5483c71860",
+  "identifiers": {
+    "doi": "10.1016/j.sysarc.2019.02.016"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "This paper studies dynamic tracing for efficient debugging of large-scale heterogeneous systems.",
+    "problem": "Heterogeneous systems produce diverse execution behavior and large evidence volumes that make debugging expensive.",
+    "method": "The work applies dynamic tracing to collect and analyze debugging evidence across heterogeneous system components.",
+    "findings": "It presents a large-scale dynamic-debugging direction; system scope, tracing mechanisms, and measured efficiency require full-text review.",
+    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
+    "future_work": "Assess cross-platform portability, trace-volume control, and automated causal explanations."
+  },
+  "tags": [
+    "system-tracing",
+    "trace-analysis",
+    "performance-analysis",
+    "root-cause-analysis"
+  ],
+  "keywords": [
+    "heterogeneous systems",
+    "dynamic tracing",
+    "large-scale debugging",
+    "debugging efficiency"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing",
+      "url": "https://doi.org/10.1016/j.sysarc.2019.02.016",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "Crossref and local DBLP/venue metadata for 10.1016/j.sysarc.2019.02.016",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

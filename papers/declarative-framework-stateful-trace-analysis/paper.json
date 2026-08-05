@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies a declarative framework for stateful analysis of execution traces in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates A declarative framework for stateful analysis of execution traces in the context of software performance and systems analysis.",
     "problem": "Stateful trace analyses are difficult to implement and reuse when analysis logic is embedded in procedural code.",
     "method": "The paper introduces a declarative framework for expressing stateful analyses over execution traces.",
     "findings": "It contributes a reusable abstraction for trace analysis; language and evaluation details require full-text review.",

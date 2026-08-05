@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies network analysis of microservices: a case study on alibaba production clusters in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Network Analysis of Microservices: A Case Study on Alibaba Production Clusters in the context of software performance and systems analysis.",
     "problem": "Large microservice deployments create complex interaction networks that are difficult to understand from isolated service metrics.",
     "method": "The paper applies network analysis to microservice interactions in Alibaba production clusters.",
     "findings": "It provides a production-cluster case-study perspective; network construction and results require full-text review.",

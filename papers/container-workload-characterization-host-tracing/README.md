@@ -4,7 +4,7 @@
 
 **Authors:** Madeline Janecek, Naser Ezzati-Jivan, Seyed Vahid Azhari
 
-**Core contribution:** This work studies container workload characterization through host system tracing in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Container Workload Characterization Through Host System Tracing in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

@@ -4,7 +4,7 @@
 
 **Authors:** Florian Wininger, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** This work studies a declarative framework for stateful analysis of execution traces in the context of software performance and systems analysis.
+**Core contribution:** This work investigates A declarative framework for stateful analysis of execution traces in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

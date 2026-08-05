@@ -25,7 +25,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies cloud platform performance evaluation using multi-level execution tracing in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Cloud Platform Performance Evaluation Using Multi-level Execution Tracing in the context of software performance and systems analysis.",
     "problem": "Cloud-platform performance depends on interactions across application, runtime, and operating-system layers.",
     "method": "The paper uses multi-level execution tracing to evaluate cloud-platform performance.",
     "findings": "It contributes a cross-level measurement perspective; platform and workload results require full-text review.",

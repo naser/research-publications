@@ -1,0 +1,1 @@
+Sehgal, Y., Patel, S., Panahandeh, M., Ezzati-Jivan, N., & Tetreault, F. (2026). TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models. ACM International Conference on the Foundations of Software Engineering (FSE) Companion. https://doi.org/10.1145/3803437.3805222

@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "combining-distributed-kernel-tracing-cloud",
+  "page_url": "https://naser.github.io/research-publications/papers/combining-distributed-kernel-tracing-cloud/",
+  "title": "Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications",
+  "title_variants": [],
+  "authors": [
+    "Loïc Gelle",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2021,
+    "venue": "Electronics",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.3390/electronics10212610",
+  "source_record_id": "combining-distributed-and-kernel-tracing-for-performance-analysis-of-cloud-applications-4453f8bab8",
+  "identifiers": {
+    "doi": "10.3390/electronics10212610"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "This paper combines distributed tracing with kernel tracing to analyze cloud-application performance across software layers.",
+    "problem": "Distributed traces show request-level structure but may omit operating-system evidence needed to explain resource and scheduling effects.",
+    "method": "The approach correlates distributed-application trace information with kernel-level tracing for cross-layer performance analysis.",
+    "findings": "The paper contributes a combined tracing perspective for cloud applications; tracer configuration, correlation method, and measurements require full-text review.",
+    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
+    "future_work": "Evaluate correlation accuracy, overhead, cloud heterogeneity, and compatibility with modern OpenTelemetry pipelines."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "performance-analysis",
+    "observability"
+  ],
+  "keywords": [
+    "distributed tracing",
+    "kernel tracing",
+    "cloud applications",
+    "cross-layer performance analysis"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications",
+      "url": "https://doi.org/10.3390/electronics10212610",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "Crossref and local DBLP/venue metadata for 10.3390/electronics10212610",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

@@ -1,0 +1,1 @@
+Biancheri, C., Ezzati-Jivan, N., & Dagenais, M. R. (2016). Multilayer Virtualized Systems Analysis with Kernel Tracing. IEEE Future Internet of Things and Cloud Workshops (FiCloudW). https://doi.org/10.1109/w-ficloud.2016.18

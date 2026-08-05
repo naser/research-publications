@@ -4,7 +4,7 @@
 
 **Authors:** Naser Ezzati-Jivan, Houssem Daoud, Michel R. Dagenais, Yong Zhang
 
-**Core contribution:** This work studies debugging of performance degradation in distributed requests handling using multilevel trace analysis in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

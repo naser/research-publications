@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies efficient methods for trace analysis parallelization in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Efficient Methods for Trace Analysis Parallelization in the context of software performance and systems analysis.",
     "problem": "Large execution traces make sequential analysis a bottleneck in performance-debugging workflows.",
     "method": "The work investigates parallel methods for accelerating trace analysis.",
     "findings": "It addresses analysis scalability through parallelization; speedups and workload details require full-text review.",

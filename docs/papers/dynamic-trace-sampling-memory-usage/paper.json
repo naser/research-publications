@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications in the context of software performance and systems analysis.",
     "problem": "Tracking memory behavior through detailed traces can be expensive for long-running enterprise applications.",
     "method": "The paper studies dynamic trace-based sampling to track memory usage while controlling collection cost.",
     "findings": "It presents a sampling strategy for memory-usage tracking; sampling policy and evaluation results require full-text review.",

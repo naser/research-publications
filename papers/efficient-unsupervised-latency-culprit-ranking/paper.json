@@ -25,7 +25,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies efficient unsupervised latency culprit ranking in distributed traces with gnn and critical path analysis in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis in the context of software performance and systems analysis.",
     "problem": "Distributed traces contain many candidate spans, but diagnosing latency requires ranking the most influential culprits.",
     "method": "The approach combines graph neural networks with critical-path analysis in an unsupervised ranking workflow.",
     "findings": "The paper targets efficient culprit ranking without requiring labeled failure data; quantitative results require full-text review.",

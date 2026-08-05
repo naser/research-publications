@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies pasd: a performance analysis approach through the statistical debugging of kernel events in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events in the context of software performance and systems analysis.",
     "problem": "Kernel event streams are rich but difficult to interpret when diagnosing performance problems.",
     "method": "PASD applies statistical debugging to kernel events to distinguish behavior associated with performance outcomes.",
     "findings": "The paper proposes a kernel-event statistical-debugging workflow; exact datasets and evaluation results require full-text review.",

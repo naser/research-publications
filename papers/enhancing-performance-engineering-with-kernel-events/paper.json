@@ -23,7 +23,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies enhancing empirical software performance engineering research with kernel-level events: a comprehensive system tracing approach in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach in the context of software performance and systems analysis.",
     "problem": "Application-level measurements can miss operating-system events that explain performance variation.",
     "method": "The work examines a comprehensive system-tracing approach that incorporates kernel-level events into empirical performance-engineering research.",
     "findings": "It argues for richer performance evidence through kernel events; study-specific measurements require full-text review.",

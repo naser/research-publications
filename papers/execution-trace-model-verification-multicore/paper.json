@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies execution trace-based model verification to analyze multicore and real-time systems in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Execution trace-based model verification to analyze multicore and real-time systems in the context of software performance and systems analysis.",
     "problem": "Multicore and real-time behavior must be checked against models despite timing and scheduling complexity.",
     "method": "The paper uses execution traces as evidence for model verification and analysis of multicore and real-time systems.",
     "findings": "It connects runtime traces with model-based verification; verification procedure and results require full-text review.",

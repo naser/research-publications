@@ -4,7 +4,7 @@
 
 **Authors:** Kasra Darvishi, Morteza Noferesti, Naser Ezzati-Jivan
 
-**Core contribution:** This work studies toward adaptive tracing: efficient system behavior analysis using language models in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

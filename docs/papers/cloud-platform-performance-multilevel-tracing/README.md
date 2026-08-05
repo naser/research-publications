@@ -4,7 +4,7 @@
 
 **Authors:** Yves J. Bationo, Naser Ezzati-Jivan, Evan Galea, Michel R. Dagenais
 
-**Core contribution:** This work studies cloud platform performance evaluation using multi-level execution tracing in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Cloud Platform Performance Evaluation Using Multi-level Execution Tracing in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

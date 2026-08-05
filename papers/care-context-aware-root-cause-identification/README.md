@@ -4,7 +4,7 @@
 
 **Authors:** Mahsa Panahandeh, Naser Ezzati-Jivan, Abdelwahab Hamou-Lhadj, James Miller
 
-**Core contribution:** This work studies care: context aware root cause identification using distributed traces and profiling metrics in the context of software performance and systems analysis.
+**Core contribution:** This work investigates CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

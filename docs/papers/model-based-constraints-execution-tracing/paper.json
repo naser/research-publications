@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "model-based-constraints-execution-tracing",
+  "page_url": "https://naser.github.io/research-publications/papers/model-based-constraints-execution-tracing/",
+  "title": "Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing",
+  "title_variants": [],
+  "authors": [
+    "Raphael Beamonte",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2021,
+    "venue": "International Journal of Parallel Programming",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1007/s10766-020-00689-5",
+  "source_record_id": "automated-generation-of-model-based-constraints-for-common-multi-core-and-real-time-applications-6d19ca8934",
+  "identifiers": {
+    "doi": "10.1007/s10766-020-00689-5"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "The paper investigates generating model-based constraints automatically from execution traces of multi-core and real-time applications.",
+    "problem": "Manual construction of behavioral constraints is difficult when concurrent and real-time applications have complex execution behavior.",
+    "method": "Execution traces are used as evidence for automatically generating constraints for model-based analysis.",
+    "findings": "The work presents a trace-to-constraint generation direction; constraint language, workloads, and validation results require full-text review.",
+    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
+    "future_work": "Test constraint soundness, completeness, portability, and use in continuous runtime verification."
+  },
+  "tags": [
+    "system-tracing",
+    "multicore-systems",
+    "trace-analysis",
+    "performance-analysis"
+  ],
+  "keywords": [
+    "model-based constraints",
+    "execution tracing",
+    "multi-core systems",
+    "real-time applications",
+    "constraint generation"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing",
+      "url": "https://doi.org/10.1007/s10766-020-00689-5",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "Crossref and local DBLP/venue metadata for 10.1007/s10766-020-00689-5",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

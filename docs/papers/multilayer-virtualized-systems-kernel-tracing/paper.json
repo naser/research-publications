@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "multilayer-virtualized-systems-kernel-tracing",
+  "page_url": "https://naser.github.io/research-publications/papers/multilayer-virtualized-systems-kernel-tracing/",
+  "title": "Multilayer Virtualized Systems Analysis with Kernel Tracing",
+  "title_variants": [],
+  "authors": [
+    "Cedric Biancheri",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2016,
+    "venue": "IEEE Future Internet of Things and Cloud Workshops (FiCloudW)",
+    "type": "research paper"
+  },
+  "publication_type": "research paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/w-ficloud.2016.18",
+  "source_record_id": "multilayer-virtualized-systems-analysis-with-kernel-tracing-9afa1f3fe4",
+  "identifiers": {
+    "doi": "10.1109/w-ficloud.2016.18"
+  },
+  "abstract": null,
+  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "summary": {
+    "core_contribution": "The paper applies kernel tracing to analyze behavior across layers of virtualized systems.",
+    "problem": "Virtualization can hide the lower-level scheduling and resource interactions needed to explain application performance.",
+    "method": "Kernel tracing is used to observe and analyze behavior across multiple virtualization layers.",
+    "findings": "The work contributes a multilayer kernel-tracing analysis perspective; hypervisor setup and measured effects require full-text review.",
+    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
+    "future_work": "Extend the analysis to modern containers, nested virtualization, cloud workloads, and heterogeneous hardware."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "performance-analysis",
+    "resource-analysis"
+  ],
+  "keywords": [
+    "virtualized systems",
+    "kernel tracing",
+    "multilayer analysis",
+    "virtualization overhead"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Multilayer Virtualized Systems Analysis with Kernel Tracing",
+      "url": "https://doi.org/10.1109/w-ficloud.2016.18",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-03",
+    "metadata_source": [
+      "Crossref and local DBLP/venue metadata for 10.1109/w-ficloud.2016.18",
+      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
+      "full-text summary pending source review"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded thirty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-03"
+  }
+}

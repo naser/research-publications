@@ -4,7 +4,7 @@
 
 **Authors:** Morteza Noferesti, Naser Ezzati-Jivan
 
-**Core contribution:** This work studies enhancing empirical software performance engineering research with kernel-level events: a comprehensive system tracing approach in the context of software performance and systems analysis.
+**Core contribution:** This work investigates Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach in the context of software performance and systems analysis.
 
 ## Four-part research summary
 

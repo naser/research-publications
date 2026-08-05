@@ -36,6 +36,16 @@ Last updated: 2026-08-03
 - [x] [Efficient Methods for Trace Analysis Parallelization](papers/efficient-trace-analysis-parallelization/README.md) - published_metadata_record
 - [x] [Execution trace-based model verification to analyze multicore and real-time systems](papers/execution-trace-model-verification-multicore/README.md) - published_metadata_record
 - [x] [Network Analysis of Microservices: A Case Study on Alibaba Production Clusters](papers/network-analysis-microservices-alibaba/README.md) - published_metadata_record
+- [x] [TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models](papers/tracesynth-kernel-trace-generation/README.md) - published_metadata_record
+- [x] [N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing](papers/n-lane-bridge-performance-antipatterns/README.md) - published_metadata_record
+- [x] [Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis](papers/performance-evaluation-multithread-execution-paths/README.md) - published_metadata_record
+- [x] [Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing](papers/model-based-constraints-execution-tracing/README.md) - published_metadata_record
+- [x] [Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications](papers/combining-distributed-kernel-tracing-cloud/README.md) - published_metadata_record
+- [x] [Multi-Level Execution Trace Based Lock Contention Analysis](papers/multilevel-trace-lock-contention/README.md) - published_metadata_record
+- [x] [Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing](papers/heterogeneous-debugging-dynamic-tracing/README.md) - published_metadata_record
+- [x] [Efficient Cloud Tracing: From Very High Level to Very Low Level](papers/efficient-cloud-tracing-levels/README.md) - published_metadata_record
+- [x] [Hardware-Assisted Software Event Tracing](papers/hardware-assisted-software-event-tracing/README.md) - published_metadata_record
+- [x] [Multilayer Virtualized Systems Analysis with Kernel Tracing](papers/multilayer-virtualized-systems-kernel-tracing/README.md) - published_metadata_record
 
 ## Phase 2 - kernel and tracing core
 
