@@ -24,7 +24,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies toward adaptive tracing: efficient system behavior analysis using language models in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models in the context of software performance and systems analysis.",
     "problem": "Tracing policies must balance diagnostic coverage against collection and analysis overhead.",
     "method": "The paper explores language-model-supported analysis for making tracing more selective and behavior-aware.",
     "findings": "It establishes an adaptive-tracing direction for efficient system observation; exact findings require full-text review.",
@@ -88,7 +88,7 @@
   },
   "batch": {
     "phase": 2,
-    "batch_label": "expanded thirty-paper release",
+    "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
     "selected_at": "2026-08-03"
   }

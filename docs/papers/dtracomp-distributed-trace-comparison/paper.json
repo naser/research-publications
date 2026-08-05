@@ -27,7 +27,7 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work studies dtracomp: comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.",
+    "core_contribution": "This work investigates DTraComp: Comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.",
     "problem": "Intermittent latency sources are difficult to isolate because normal and abnormal distributed executions can differ only in small trace regions.",
     "method": "DTraComp compares distributed execution traces to expose differences associated with intermittent latency.",
     "findings": "The paper provides a trace-comparison approach for intermittent-latency analysis; exact algorithms and results require full-text review.",
@@ -91,7 +91,7 @@
   },
   "batch": {
     "phase": 2,
-    "batch_label": "expanded thirty-paper release",
+    "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
     "selected_at": "2026-08-03"
   }

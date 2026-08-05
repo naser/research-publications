@@ -4,9 +4,9 @@ This repository is an agent-friendly, human-readable catalog of selected researc
 
 ## Scope of this release
 
-Phase 1 contains **10 papers**. The repository does not redistribute publisher PDFs; each record links to the DOI, arXiv, ACL Anthology, an openly licensed article page, or another authoritative source.
+The catalog contains **40 records**. The ten newest additions have verified bibliographic metadata; records still awaiting full-text review explicitly mark that evidence boundary. The repository does not redistribute publisher PDFs; each record links to the DOI, arXiv, ACL Anthology, an openly licensed article page, or another authoritative source.
 
-See [the rollout outline](./outline.md) for the current phase and remaining portfolio work.
+
 
 ## Browse
 
