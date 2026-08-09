@@ -1,1 +1,1 @@
-Rahman, H., Ezzati-Jivan, N., & Ogbuokiri, B. (2025). SynthLogAI: Generative AI for Synthetic Linux Log Generation and Evaluation. 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON). https://doi.org/10.1109/CASCON66301.2025.00032
+Rahman, H., Ezzati-Jivan, N., & Ogbuokiri, B. (2025). SynthLogAI: Generative AI for Synthetic Linux Log Generation and Evaluation. In 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON) (pp. 102-107). https://doi.org/10.1109/CASCON66301.2025.00032

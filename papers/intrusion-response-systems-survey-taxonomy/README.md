@@ -60,7 +60,7 @@ Cite this paper when your work uses or compares the automation-degree taxonomy s
 
 ### APA 7
 
-Shameli-Sendi, A., Ezzati-Jivan, N., Jabbarifar, M., & Dagenais, M. (2012). Intrusion Response Systems: Survey and Taxonomy. International Journal of Computer Science and Network Security. https://publications.polymtl.ca/14629/
+Shameli-Sendi, A., Ezzati-Jivan, N., Jabbarifar, M., & Dagenais, M. (2012). Intrusion Response Systems: Survey and Taxonomy. International Journal of Computer Science and Network Security,. https://publications.polymtl.ca/14629/
 
 ### IEEE
 
@@ -80,7 +80,7 @@ A. Shameli-Sendi, N. Ezzati-Jivan, M. Jabbarifar, and M. Dagenais, "Intrusion Re
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Remote full text read: pdf-evidence/notes/parallel-batch-04-intrusion-response-systems-survey-and-taxonomy.md; Institutional record: https://publications.polymtl.ca/14629/; Remote article copy: https://www.researchgate.net/publication/267917501_Intrusion_Response_Systems_Survey_and_Taxonomy
 - Machine-readable record: [paper.json](./paper.json)

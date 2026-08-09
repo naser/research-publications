@@ -6,6 +6,9 @@ TI  - Energy Consumption Analysis of Large Language Models Across CPU and GPU Us
 PY  - 2025
 T2  - 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)
 AB  - The paper presents a multi-level analysis of energy consumption for large language model workloads across CPU and GPU settings, combining diverse static and dynamic metrics to build and validate energy-prediction models across NLP tasks.
+SP  - 301
+EP  - 310
+PB  - IEEE
 DO  - 10.1109/CASCON66301.2025.00056
 UR  - https://doi.org/10.1109/CASCON66301.2025.00056
 ER  -

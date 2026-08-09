@@ -1,6 +1,6 @@
 # Efficient Cloud Tracing: From Very High Level to Very Low Level
 
-**2018 | IEEE International Conference on Consumer Electronics (ICCE) | research paper**
+**2018 | IEEE International Conference on Consumer Electronics (ICCE) | conference paper**
 
 **Authors:** Yves J. Bationo, Naser Ezzati-Jivan, Michel R. Dagenais
 
@@ -59,11 +59,11 @@ Cite this paper when your work uses or compares correlating OpenStack Nova lifec
 
 ### APA 7
 
-Bationo, Y. J., Ezzati-Jivan, N., & Dagenais, M. R. (2018). Efficient Cloud Tracing: From Very High Level to Very Low Level. IEEE International Conference on Consumer Electronics (ICCE). https://doi.org/10.1109/icce.2018.8326353
+Bationo, Y. J., Ezzati-Jivan, N., & Dagenais, M. R. (2018). Efficient Cloud Tracing: From Very High Level to Very Low Level. In IEEE International Conference on Consumer Electronics (ICCE) (pp. 1-6). https://doi.org/10.1109/icce.2018.8326353
 
 ### IEEE
 
-Y. J. Bationo, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Cloud Tracing: From Very High Level to Very Low Level," in IEEE International Conference on Consumer Electronics (ICCE), 2018, doi: 10.1109/icce.2018.8326353
+Y. J. Bationo, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Cloud Tracing: From Very High Level to Very Low Level," in IEEE International Conference on Consumer Electronics (ICCE), pp. 1-6, 2018, doi: 10.1109/icce.2018.8326353
 
 ```bibtex
 @inproceedings{ezzatiJivan2018efficientcloud,
@@ -71,6 +71,8 @@ Y. J. Bationo, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Cloud Tracing: Fr
   title = {Efficient Cloud Tracing: From Very High Level to Very Low Level},
   year = {2018},
   booktitle = {IEEE International Conference on Consumer Electronics (ICCE)},
+  pages = {1-6},
+  publisher = {IEEE},
   doi = {10.1109/icce.2018.8326353},
   url = {https://doi.org/10.1109/icce.2018.8326353}
 }
@@ -80,7 +82,7 @@ Y. J. Bationo, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Cloud Tracing: Fr
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/icce.2018.8326353; author identity matched to Naser Ezzati-Jivan in the local research catalog; Efficient cloud tracing PDF pp. 1-5: OpenStack/Nova, QEMU/KVM, LTTng, Trace Compass, and cross-layer model; Efficient cloud tracing PDF pp. 5-6: live-migration procedure, interference conditions, and Table III results; Efficient cloud tracing PDF p. 7: network-evidence limitation and proposed Neutron/OpenDaylight future work; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

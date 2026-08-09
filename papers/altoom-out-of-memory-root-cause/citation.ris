@@ -1,4 +1,4 @@
-TY  - GEN
+TY  - CONF
 AU  - Chakraborty, Pranjal
 AU  - Ezzati-Jivan, Naser
 AU  - Azhari, Vahid
@@ -6,6 +6,9 @@ AU  - Tetreault, François
 TI  - AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy
 PY  - 2023
 T2  - IEEE International Conference on Big Data
+SP  - 1637
+EP  - 1646
+PB  - IEEE
 DO  - 10.1109/bigdata59044.2023.10386937
 UR  - https://doi.org/10.1109/bigdata59044.2023.10386937
 ER  -

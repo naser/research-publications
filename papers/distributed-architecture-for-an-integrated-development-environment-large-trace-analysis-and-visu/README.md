@@ -64,11 +64,11 @@ Cite this paper when your work uses or compares a modular TASP architecture that
 
 ### APA 7
 
-Piao, Y. C. K., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization. Sensors. https://doi.org/10.3390/s21165560
+Piao, Y. C. K., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization. Sensors, 21(16), 5560. https://doi.org/10.3390/s21165560
 
 ### IEEE
 
-Y. C. K. Piao, N. Ezzati-Jivan, and M. R. Dagenais, "Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization," Sensors, 2021, doi: 10.3390/s21165560
+Y. C. K. Piao, N. Ezzati-Jivan, and M. R. Dagenais, "Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization," Sensors, vol. 21, no. 16, Art. no. 5560, 2021, doi: 10.3390/s21165560
 
 ```bibtex
 @article{ezzatiJivan2021distributedarchitecture,
@@ -76,6 +76,11 @@ Y. C. K. Piao, N. Ezzati-Jivan, and M. R. Dagenais, "Distributed Architecture fo
   title = {Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization},
   year = {2021},
   journal = {Sensors},
+  volume = {21},
+  number = {16},
+  pages = {5560},
+  publisher = {MDPI AG},
+  issn = {1424-8220},
   doi = {10.3390/s21165560},
   url = {https://doi.org/10.3390/s21165560}
 }
@@ -85,7 +90,7 @@ Y. C. K. Piao, N. Ezzati-Jivan, and M. R. Dagenais, "Distributed Architecture fo
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Sensors/institutional PDF: Trace Compass, TraceScape, LTTng 2.10.3, TASP, data providers, serialization, and visualization architecture; Sensors/institutional PDF: 2.47 GB/75-million-event trace, state-model sizes, serialization payload/overhead, request latency, and rendering measurements; Sensors/institutional PDF: small-trace, REST/gRPC, and qualitative-maintainability limitations plus future-work direction; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

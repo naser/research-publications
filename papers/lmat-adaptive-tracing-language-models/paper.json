@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "lmat-adaptive-tracing-language-models",
   "page_url": "https://naser.github.io/research-publications/papers/lmat-adaptive-tracing-language-models/",
   "title": "LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models",
@@ -10,10 +10,45 @@
     "Yuvraj Sehgal",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Kasra Darvishi",
+      "orcid": "https://orcid.org/0000-0001-7755-7227",
+      "profile_url": "https://dblp.org/pid/313/9799.html"
+    },
+    {
+      "name": "Morteza Noferesti",
+      "orcid": "https://orcid.org/0009-0000-5507-1461",
+      "profile_url": "https://dblp.org/pid/82/10462.html"
+    },
+    {
+      "name": "Yuvraj Sehgal",
+      "orcid": "https://orcid.org/0009-0002-1980-604X",
+      "profile_url": "https://dblp.org/pid/434/8410.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2026,
     "venue": "Journal of Systems and Software",
-    "type": "research paper"
+    "type": "journal article",
+    "publication_date": "2026-08",
+    "online_date": null,
+    "print_date": "2026-08",
+    "volume": "238",
+    "issue": null,
+    "pages": "112890",
+    "article_number": "112890",
+    "publisher": "Elsevier BV",
+    "issn": [
+      "0164-1212"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -25,8 +60,49 @@
   "abstract": null,
   "abstract_source": "LMAT published-paper proof PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "LMAT combines multi-task language models for kernel-event and event-duration prediction with online change detection, lightweight error-vector root-cause analysis, and adaptive tracing control.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112890"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "LMAT PDF pp. 1-4: adaptive tracing motivation, four contributions, system loop, and language-model/event-duration design"
+      },
+      {
+        "note": "LMAT PDF pp. 5-8: LTTng event representation, duration modeling, multi-task loss, error vectors, HDBSCAN prototypes, and adaptive control"
+      },
+      {
+        "note": "LMAT PDF pp. 8-11: Apache and Sock Shop datasets, environments, fault injection, tracing protocol, and event subsets"
+      },
+      {
+        "note": "LMAT PDF pp. 12-16: change-detection, root-cause, trace-reduction, latency, throughput, and storage-cost results"
+      },
+      {
+        "note": "LMAT PDF pp. 17-18: generalization boundaries, threats to validity, limitations, and future work"
+      },
+      {
+        "note": "LMAT PDF p. 3: implementation https://github.com/kasra-darvishi/adaptive_tracer and dataset https://zenodo.org/records/10437041"
+      },
+      {
+        "note": "local LMAT PDF hash verified in pdf-evidence/notes/lmat-adaptive-tracing-language-models.md and pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "LMAT combines multi-task language models for kernel-event and event-duration prediction with online change detection, lightweight error-vector root-cause analysis, and adaptive tracing control.",
     "problem": "Always-on or fixed-granularity tracing increases storage and processing cost, while sparse tracing can miss rare or timing-sensitive behavior; event-only models can also miss anomalies that preserve event order but change execution duration.",
@@ -98,7 +174,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112890",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -119,6 +195,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

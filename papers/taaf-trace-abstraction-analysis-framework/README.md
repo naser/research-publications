@@ -64,7 +64,7 @@ Ezaz, A., Khodabandeh, G., Babaei, M., & Ezzati-Jivan, N. (2026). TAAF: A Trace 
 
 ### IEEE
 
-A. Ezaz, G. Khodabandeh, M. Babaei, and N. Ezzati-Jivan, "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs," in arXiv / CoRR; arXiv page reports acceptance to ICSE 2026, 2026, doi: 10.1145/3744916.3787832
+A. Ezaz, G. Khodabandeh, M. Babaei, and N. Ezzati-Jivan, "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs," in arXiv / CoRR; arXiv page reports acceptance to ICSE 2026, vol. abs/2601.02632, 2026, doi: 10.1145/3744916.3787832
 
 ```bibtex
 @misc{ezzatiJivan2026taafa,
@@ -72,6 +72,7 @@ A. Ezaz, G. Khodabandeh, M. Babaei, and N. Ezzati-Jivan, "TAAF: A Trace Abstract
   title = {TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs},
   year = {2026},
   howpublished = {arXiv / CoRR; arXiv page reports acceptance to ICSE 2026},
+  volume = {abs/2601.02632},
   doi = {10.1145/3744916.3787832},
   url = {https://doi.org/10.1145/3744916.3787832}
 }
@@ -81,7 +82,7 @@ A. Ezaz, G. Khodabandeh, M. Babaei, and N. Ezzati-Jivan, "TAAF: A Trace Abstract
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: official arXiv abstract, metadata, and PDF page 2601.02632; arXiv page comment containing the ICSE 2026 acceptance and ACM DOI; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

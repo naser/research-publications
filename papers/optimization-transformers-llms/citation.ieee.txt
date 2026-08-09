@@ -1,1 +1,1 @@
-T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2025, doi: 10.1145/3676151.3719379
+T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models," in ACM/SPEC International Conference on Performance Engineering (ICPE), pp. 105-112, 2025, doi: 10.1145/3676151.3719379

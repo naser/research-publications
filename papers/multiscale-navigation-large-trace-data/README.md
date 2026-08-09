@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Ezzati-Jivan, N., & Dagenais, M. R. (2014). Multiscale Navigation in Large Trace Data. 2014 IEEE 27th Canadian Conference on Electrical and Computer Engineering (CCECE). https://doi.org/10.1109/CCECE.2014.6901019
+Ezzati-Jivan, N., & Dagenais, M. R. (2014). Multiscale Navigation in Large Trace Data. In 2014 IEEE 27th Canadian Conference on Electrical and Computer Engineering (CCECE) (pp. 1-7). https://doi.org/10.1109/CCECE.2014.6901019
 
 ### IEEE
 
-N. Ezzati-Jivan and M. R. Dagenais, "Multiscale Navigation in Large Trace Data," in 2014 IEEE 27th Canadian Conference on Electrical and Computer Engineering (CCECE), 2014, doi: 10.1109/CCECE.2014.6901019
+N. Ezzati-Jivan and M. R. Dagenais, "Multiscale Navigation in Large Trace Data," in 2014 IEEE 27th Canadian Conference on Electrical and Computer Engineering (CCECE), pp. 1-7, 2014, doi: 10.1109/CCECE.2014.6901019
 
 ```bibtex
 @inproceedings{ezzatiJivan2014multiscalenavigation,
@@ -70,6 +70,8 @@ N. Ezzati-Jivan and M. R. Dagenais, "Multiscale Navigation in Large Trace Data,"
   title = {Multiscale Navigation in Large Trace Data},
   year = {2014},
   booktitle = {2014 IEEE 27th Canadian Conference on Electrical and Computer Engineering (CCECE)},
+  pages = {1-7},
+  publisher = {IEEE},
   doi = {10.1109/CCECE.2014.6901019},
   url = {https://doi.org/10.1109/CCECE.2014.6901019}
 }
@@ -79,7 +81,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "Multiscale Navigation in Large Trace Data,"
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: PolyPublie record: https://publications.polymtl.ca/12410/; DOI: https://doi.org/10.1109/CCECE.2014.6901019; DBLP record: https://dblp.org/rec/conf/ccece/JivanD14.html; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

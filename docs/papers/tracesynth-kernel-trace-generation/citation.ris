@@ -7,6 +7,9 @@ AU  - Tetreault, Francois
 TI  - TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models
 PY  - 2026
 T2  - ACM International Conference on the Foundations of Software Engineering (FSE) Companion
+SP  - 496
+EP  - 506
+PB  - ACM
 DO  - 10.1145/3803437.3805222
 UR  - https://doi.org/10.1145/3803437.3805222
 ER  -

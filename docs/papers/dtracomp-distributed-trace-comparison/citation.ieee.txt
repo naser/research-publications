@@ -1,1 +1,1 @@
-M. Ekhlasi, F. F. Daneshgar, M. Dagenais, M. Lamothe, N. Ezzati-Jivan, and M. Khouzam, "DTraComp: Comparing distributed execution traces for understanding intermittent latency sources," in Journal of Systems and Software, 2026, doi: 10.1016/j.jss.2026.112990
+M. Ekhlasi, F. F. Daneshgar, M. Dagenais, M. Lamothe, N. Ezzati-Jivan, and M. Khouzam, "DTraComp: Comparing distributed execution traces for understanding intermittent latency sources," Journal of Systems and Software, vol. 241, Art. no. 112990, 2026, doi: 10.1016/j.jss.2026.112990

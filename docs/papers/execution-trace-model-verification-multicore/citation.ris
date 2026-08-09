@@ -1,10 +1,16 @@
-TY  - GEN
+TY  - JOUR
 AU  - Beamonte, Raphaël
 AU  - Ezzati-Jivan, Naser
 AU  - Dagenais, Michel R.
 TI  - Execution trace-based model verification to analyze multicore and real-time systems
 PY  - 2022
 T2  - Concurrency and Computation: Practice and Experience
+VL  - 34
+IS  - 17
+AN  - e6974
+PB  - Wiley
+SN  - 1532-0626
+SN  - 1532-0634
 DO  - 10.1002/cpe.6974
 UR  - https://doi.org/10.1002/cpe.6974
 ER  -

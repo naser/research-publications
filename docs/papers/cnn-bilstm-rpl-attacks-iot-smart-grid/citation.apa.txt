@@ -1,1 +1,1 @@
-Guan, Y., Noferesti, M., & Ezzati-Jivan, N. (2023). CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track). ACM/IFIP/USENIX Middleware 2023 Industry Track. https://doi.org/10.1145/3626562.3626832
+Guan, Y., Noferesti, M., & Ezzati-Jivan, N. (2023). CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track). In ACM/IFIP/USENIX Middleware 2023 Industry Track (pp. 29-34). https://doi.org/10.1145/3626562.3626832

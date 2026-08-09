@@ -1,1 +1,1 @@
-Nadeau, D., Ezzati-Jivan, N., & Dagenais, M. R. (2019). Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing. Journal of Systems Architecture. https://doi.org/10.1016/j.sysarc.2019.02.016
+Nadeau, D., Ezzati-Jivan, N., & Dagenais, M. R. (2019). Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing. Journal of Systems Architecture, 98, 346-360. https://doi.org/10.1016/j.sysarc.2019.02.016

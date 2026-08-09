@@ -58,7 +58,7 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Ezzati-Jivan, N., & Dagenais, M. R. (2012). An Efficient Analysis Approach for Multi-Core System Tracing Data. 16th IASTED International Conference on Software Engineering and Applications (SEA 2012). https://doi.org/10.2316/P.2012.790-053
+Ezzati-Jivan, N., & Dagenais, M. R. (2012). An Efficient Analysis Approach for Multi-Core System Tracing Data. In 16th IASTED International Conference on Software Engineering and Applications (SEA 2012). https://doi.org/10.2316/P.2012.790-053
 
 ### IEEE
 
@@ -70,6 +70,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "An Efficient Analysis Approach for Multi-Co
   title = {An Efficient Analysis Approach for Multi-Core System Tracing Data},
   year = {2012},
   booktitle = {16th IASTED International Conference on Software Engineering and Applications (SEA 2012)},
+  publisher = {ACTAPRESS},
   doi = {10.2316/P.2012.790-053},
   url = {https://doi.org/10.2316/P.2012.790-053}
 }
@@ -79,7 +80,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "An Efficient Analysis Approach for Multi-Co
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: ActaPress publisher abstract: https://m.actapress.com/Abstract.aspx?paperId=454815; PolyPublie institutional record: https://publications.polymtl.ca/15433/; Private evidence note: pdf-evidence/notes/parallel-batch-04-an-efficient-analysis-approach-for-multi-core-system-tracing-data.md
 - Machine-readable record: [paper.json](./paper.json)

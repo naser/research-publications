@@ -1,6 +1,6 @@
 # Execution trace-based model verification to analyze multicore and real-time systems
 
-**2022 | Concurrency and Computation: Practice and Experience | research paper**
+**2022 | Concurrency and Computation: Practice and Experience | journal article**
 
 **Authors:** Raphaël Beamonte, Naser Ezzati-Jivan, Michel R. Dagenais
 
@@ -58,18 +58,23 @@ Cite this paper when using model-based quantitative constraints and user-space/k
 
 ### APA 7
 
-Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2022). Execution trace-based model verification to analyze multicore and real-time systems. Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.6974
+Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2022). Execution trace-based model verification to analyze multicore and real-time systems. Concurrency and Computation: Practice and Experience, 34(17), e6974. https://doi.org/10.1002/cpe.6974
 
 ### IEEE
 
-R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Execution trace-based model verification to analyze multicore and real-time systems," in Concurrency and Computation: Practice and Experience, 2022, doi: 10.1002/cpe.6974
+R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Execution trace-based model verification to analyze multicore and real-time systems," Concurrency and Computation: Practice and Experience, vol. 34, no. 17, 2022, doi: 10.1002/cpe.6974
 
 ```bibtex
-@inproceedings{ezzatiJivan2022executiontrace,
+@article{ezzatiJivan2022executiontrace,
   author = {Raphaël Beamonte and Naser Ezzati-Jivan and Michel R. Dagenais},
   title = {Execution trace-based model verification to analyze multicore and real-time systems},
   year = {2022},
-  booktitle = {Concurrency and Computation: Practice and Experience},
+  journal = {Concurrency and Computation: Practice and Experience},
+  volume = {34},
+  number = {17},
+  eid = {e6974},
+  publisher = {Wiley},
+  issn = {1532-0626, 1532-0634},
   doi = {10.1002/cpe.6974},
   url = {https://doi.org/10.1002/cpe.6974}
 }
@@ -79,7 +84,7 @@ R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Execution trace-based model v
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1002/cpe.6974; author identity matched to Naser Ezzati-Jivan in the local research catalog; Publisher full text viewer pp. 1-3: problem, LTTng/LTTng-UST selection, CTF/common-clock rationale, and related tracing/model-analysis tools; Publisher full text viewer pp. 4-13: state-machine model, constraint statuses, 95%/5% sampling, reservoir sampling, interval-set extraction, distance/weight/differential analysis, and responsibility scores; Publisher full text viewer pp. 13-20: JACK2, wakelock, userspace, and cyclictest case studies, including 96.65%/96.51% JACK2 attribution and the Jetson/HDMI cyclictest diagnosis; Publisher full text viewer pp. 20-24: i7-4790/32 GiB platform, trace sizes, 100-run sampling comparison, analysis timings, and scalability; Publisher full text viewer p. 25: conclusion, data-availability statement, and future direction; No local PDF hash is claimed: the Wiley PDF link redirected to an abstract/access page and the ResearchGate publisher viewer exposed the full 26-page text but did not provide a downloadable file in this run.
 - Machine-readable record: [paper.json](./paper.json)

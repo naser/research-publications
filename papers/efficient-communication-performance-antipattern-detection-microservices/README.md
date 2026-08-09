@@ -72,6 +72,7 @@ M. Nourollahi, N. Ezzati-Jivan, A. Belkheiri, and M. Dagenais, "Efficient Detect
   title = {Efficient Detection of Communication-related Performance Anti-patterns in Microservices},
   year = {2025},
   howpublished = {Authorea preprint},
+  publisher = {Wiley},
   doi = {10.22541/au.175533132.24109345/v1},
   url = {https://doi.org/10.22541/au.175533132.24109345/v1}
 }
@@ -81,7 +82,7 @@ M. Nourollahi, N. Ezzati-Jivan, A. Belkheiri, and M. Dagenais, "Efficient Detect
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Remote full preprint read: pdf-evidence/notes/parallel-batch-01-efficient-communication-anti-patterns.md; Authorea DOI: https://doi.org/10.22541/au.175533132.24109345/v1; Public preprint PDF: https://d197for5662m48.cloudfront.net/documents/publicationstatus/274238/preprint_pdf/0c308204518850728852b7cf01be90f6.pdf
 - Machine-readable record: [paper.json](./paper.json)

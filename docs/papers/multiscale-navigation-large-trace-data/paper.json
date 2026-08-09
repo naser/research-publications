@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "multiscale-navigation-large-trace-data",
   "page_url": "https://naser.github.io/research-publications/papers/multiscale-navigation-large-trace-data/",
   "title": "Multiscale Navigation in Large Trace Data",
@@ -8,10 +8,33 @@
     "Naser Ezzati-Jivan",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2014,
     "venue": "2014 IEEE 27th Canadian Conference on Electrical and Computer Engineering (CCECE)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2014-05",
+    "online_date": null,
+    "print_date": "2014-05",
+    "volume": null,
+    "issue": null,
+    "pages": "1-7",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -23,8 +46,34 @@
   "abstract": "The accessible abstract describes hierarchical trace-log management with an interactive zoomable timeline and semantic and physical zooming that supports coarse-layer-first navigation.",
   "abstract_source": "PolyPublie/abstract metadata, paraphrased; full text not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The accessible abstract describes hierarchical trace-log management with an interactive zoomable timeline and semantic and physical zooming that supports coarse-layer-first navigation.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "PolyPublie record: https://publications.polymtl.ca/12410/"
+      },
+      {
+        "note": "DOI: https://doi.org/10.1109/CCECE.2014.6901019"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/ccece/JivanD14.html"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-03.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The abstract presents multiscale navigation for large trace data through hierarchical storage and interactive zoomable visualization.",
     "problem": "Trace logs can be too large for direct inspection, so analysts need to move between coarse and detailed views without loading or rendering everything at once.",
@@ -89,7 +138,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "PolyPublie record: https://publications.polymtl.ca/12410/",
       "DOI: https://doi.org/10.1109/CCECE.2014.6901019",
@@ -105,6 +154,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

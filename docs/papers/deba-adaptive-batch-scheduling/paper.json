@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "deba-adaptive-batch-scheduling",
   "page_url": "https://naser.github.io/research-publications/papers/deba-adaptive-batch-scheduling/",
   "title": "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA",
@@ -9,10 +9,38 @@
     "Naser Ezzati-Jivan",
     "Foutse Khomh"
   ],
+  "author_details": [
+    {
+      "name": "François Belias",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/337/3020.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Foutse Khomh",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/32/147.html"
+    }
+  ],
   "publication": {
     "year": 2025,
     "venue": "arXiv / CoRR",
-    "type": "preprint"
+    "type": "preprint",
+    "publication_date": "2025",
+    "online_date": null,
+    "print_date": null,
+    "volume": "abs/2511.03809",
+    "issue": null,
+    "pages": null,
+    "article_number": null,
+    "publisher": null,
+    "issn": [],
+    "isbn": [],
+    "crossref_type": null
   },
   "publication_type": "preprint",
   "status": "public_arxiv_preprint",
@@ -25,8 +53,31 @@
   "abstract": null,
   "abstract_source": "official arXiv:2511.03809 abstract",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "DEBA is an architecture-aware adaptive batch scheduler that uses training-stability signals to decide when and how to change batch size.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "official arXiv abstract and PDF page 2511.03809"
+      },
+      {
+        "note": "DBLP/Scholar record matched by title and authors"
+      },
+      {
+        "note": "local PDF hash verified in the working catalog"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "DEBA is an architecture-aware adaptive batch scheduler that uses training-stability signals to decide when and how to change batch size.",
     "problem": "Fixed or architecture-agnostic batch-size schedules assume that the same adaptation policy works across model families. The paper studies whether architecture and baseline training stability determine when adaptive batch sizing improves speed without sacrificing generalization.",
@@ -84,7 +135,7 @@
     "canonical_version_id": "public-preprint"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "official arXiv abstract and PDF page 2511.03809",
       "DBLP/Scholar record matched by title and authors",
@@ -99,6 +150,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

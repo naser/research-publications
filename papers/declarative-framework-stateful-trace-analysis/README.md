@@ -59,11 +59,11 @@ Cite this paper when your work uses or compares a declarative XML/XSD state-anal
 
 ### APA 7
 
-Wininger, F., Ezzati-Jivan, N., & Dagenais, M. R. (2017). A declarative framework for stateful analysis of execution traces. Software Quality Journal. https://doi.org/10.1007/s11219-016-9311-0
+Wininger, F., Ezzati-Jivan, N., & Dagenais, M. R. (2017). A declarative framework for stateful analysis of execution traces. Software Quality Journal, 25(1), 201-229. https://doi.org/10.1007/s11219-016-9311-0
 
 ### IEEE
 
-F. Wininger, N. Ezzati-Jivan, and M. R. Dagenais, "A declarative framework for stateful analysis of execution traces," Software Quality Journal, 2017, doi: 10.1007/s11219-016-9311-0
+F. Wininger, N. Ezzati-Jivan, and M. R. Dagenais, "A declarative framework for stateful analysis of execution traces," Software Quality Journal, vol. 25, no. 1, pp. 201-229, 2017, doi: 10.1007/s11219-016-9311-0
 
 ```bibtex
 @article{ezzatiJivan2017adeclarative,
@@ -71,6 +71,11 @@ F. Wininger, N. Ezzati-Jivan, and M. R. Dagenais, "A declarative framework for s
   title = {A declarative framework for stateful analysis of execution traces},
   year = {2017},
   journal = {Software Quality Journal},
+  volume = {25},
+  number = {1},
+  pages = {201-229},
+  publisher = {Springer Science and Business Media LLC},
+  issn = {0963-9314, 1573-1367},
   doi = {10.1007/s11219-016-9311-0},
   url = {https://doi.org/10.1007/s11219-016-9311-0}
 }
@@ -80,7 +85,7 @@ F. Wininger, N. Ezzati-Jivan, and M. R. Dagenais, "A declarative framework for s
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/declarative-framework-stateful-trace-analysis.md; Declarative-framework PDF pp. 2-7: problem, state model, State History Tree, XML language, event handlers, and filters; Declarative-framework PDF pp. 8-13: LTTng/ETW evaluation, 13.4/100 MiB traces, 25 repetitions, cross-platform examples, and resolution queries; Declarative-framework PDF p. 14: limitations and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

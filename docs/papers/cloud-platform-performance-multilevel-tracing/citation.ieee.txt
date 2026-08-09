@@ -1,1 +1,1 @@
-Y. J. Bationo, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Cloud Platform Performance Evaluation Using Multi-level Execution Tracing," in IEEE Internet of Things, GreenCom, CPSCom and SmartData, 2020, doi: 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063
+Y. J. Bationo, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Cloud Platform Performance Evaluation Using Multi-level Execution Tracing," in IEEE Internet of Things, GreenCom, CPSCom and SmartData, pp. 294-299, 2020, doi: 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063

@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Giraldeau, F., Ezzati-Jivan, N., & Dagenais, M. R. (2021). System Execution Path Profiling Using Hardware Performance Counters. 2021 IEEE International Systems Conference (SysCon). https://doi.org/10.1109/SYSCON48628.2021.9447121
+Giraldeau, F., Ezzati-Jivan, N., & Dagenais, M. R. (2021). System Execution Path Profiling Using Hardware Performance Counters. In 2021 IEEE International Systems Conference (SysCon) (pp. 1-8). https://doi.org/10.1109/SYSCON48628.2021.9447121
 
 ### IEEE
 
-F. Giraldeau, N. Ezzati-Jivan, and M. R. Dagenais, "System Execution Path Profiling Using Hardware Performance Counters," in 2021 IEEE International Systems Conference (SysCon), 2021, doi: 10.1109/SYSCON48628.2021.9447121
+F. Giraldeau, N. Ezzati-Jivan, and M. R. Dagenais, "System Execution Path Profiling Using Hardware Performance Counters," in 2021 IEEE International Systems Conference (SysCon), pp. 1-8, 2021, doi: 10.1109/SYSCON48628.2021.9447121
 
 ```bibtex
 @inproceedings{ezzatiJivan2021systemexecution,
@@ -70,6 +70,8 @@ F. Giraldeau, N. Ezzati-Jivan, and M. R. Dagenais, "System Execution Path Profil
   title = {System Execution Path Profiling Using Hardware Performance Counters},
   year = {2021},
   booktitle = {2021 IEEE International Systems Conference (SysCon)},
+  pages = {1-8},
+  publisher = {IEEE},
   doi = {10.1109/SYSCON48628.2021.9447121},
   url = {https://doi.org/10.1109/SYSCON48628.2021.9447121}
 }
@@ -79,7 +81,7 @@ F. Giraldeau, N. Ezzati-Jivan, and M. R. Dagenais, "System Execution Path Profil
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/SYSCON48628.2021.9447121; DBLP record: https://dblp.org/rec/conf/syscon/GiraldeauJD21; Official SysCon program: https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

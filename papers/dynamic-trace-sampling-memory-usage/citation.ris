@@ -1,10 +1,13 @@
-TY  - GEN
+TY  - CONF
 AU  - Daoud, Houssem
 AU  - Ezzati-Jivan, Naser
 AU  - Dagenais, Michel R.
 TI  - Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications
 PY  - 2017
 T2  - IEEE High Performance Extreme Computing Conference (HPEC)
+SP  - 1
+EP  - 7
+PB  - IEEE
 DO  - 10.1109/hpec.2017.8091061
 UR  - https://doi.org/10.1109/hpec.2017.8091061
 ER  -

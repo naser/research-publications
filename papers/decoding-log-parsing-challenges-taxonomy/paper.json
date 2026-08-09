@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "decoding-log-parsing-challenges-taxonomy",
   "page_url": "https://naser.github.io/research-publications/papers/decoding-log-parsing-challenges-taxonomy/",
   "title": "Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions",
@@ -11,10 +11,48 @@
     "Naser Ezzati-Jivan",
     "Mohammed A. Shehab"
   ],
+  "author_details": [
+    {
+      "name": "Issam Sedki",
+      "orcid": "https://orcid.org/0009-0006-8709-7934",
+      "profile_url": "https://dblp.org/pid/305/0448.html"
+    },
+    {
+      "name": "Abdelwahab Hamou-Lhadj",
+      "orcid": "https://orcid.org/0000-0002-3319-5006",
+      "profile_url": "https://dblp.org/pid/70/2136.html"
+    },
+    {
+      "name": "Otmane Ait-Mohamed",
+      "orcid": "https://orcid.org/0000-0003-1378-1443",
+      "profile_url": "https://dblp.org/pid/95/4076.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Mohammed A. Shehab",
+      "orcid": "https://orcid.org/0000-0003-3369-8540",
+      "profile_url": "https://dblp.org/pid/162/3272.html"
+    }
+  ],
   "publication": {
     "year": 2024,
     "venue": "2024 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE Companion)",
-    "type": "poster paper"
+    "type": "poster paper",
+    "publication_date": "2024-04-14",
+    "online_date": "2024-05-23",
+    "print_date": "2024-04-14",
+    "volume": null,
+    "issue": null,
+    "pages": "392-393",
+    "article_number": null,
+    "publisher": "ACM",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "poster paper",
   "status": "published_metadata_record",
@@ -26,8 +64,31 @@
   "abstract": "The official poster abstract reports a study of log-parsing challenges across 16 datasets and eight parsing tools; the detailed taxonomy and evaluation were not captured.",
   "abstract_source": "Official ICSE poster abstract, paraphrased; full artifact not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The official poster abstract reports a study of log-parsing challenges across 16 datasets and eight parsing tools; the detailed taxonomy and evaluation were not captured.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions"
+      },
+      {
+        "note": "DOI: https://doi.org/10.1145/3639478.3643523"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-02.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The poster abstract proposes a taxonomy-oriented analysis of challenges that affect actionable log parsing.",
     "problem": "Different log datasets and parsers expose recurring parsing difficulties, but the complete challenge space is difficult to compare systematically.",
@@ -91,7 +152,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions",
       "DOI: https://doi.org/10.1145/3639478.3643523",
@@ -106,6 +167,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

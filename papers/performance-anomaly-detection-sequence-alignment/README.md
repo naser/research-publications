@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares black-box performance-anomaly de
 
 ### APA 7
 
-Janecek, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2022). Performance Anomaly Detection through Sequence Alignment of System-Level Traces. 30th International Conference on Program Comprehension (ICPC). https://doi.org/10.1145/3524610.3527898
+Janecek, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2022). Performance Anomaly Detection through Sequence Alignment of System-Level Traces. In 30th International Conference on Program Comprehension (ICPC) (pp. 264-274). https://doi.org/10.1145/3524610.3527898
 
 ### IEEE
 
-M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance Anomaly Detection through Sequence Alignment of System-Level Traces," in 30th International Conference on Program Comprehension (ICPC), 2022, doi: 10.1145/3524610.3527898
+M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance Anomaly Detection through Sequence Alignment of System-Level Traces," in 30th International Conference on Program Comprehension (ICPC), pp. 264-274, 2022, doi: 10.1145/3524610.3527898
 
 ```bibtex
 @inproceedings{ezzatiJivan2022performanceanomaly,
@@ -72,6 +72,8 @@ M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance Anomaly Detection 
   title = {Performance Anomaly Detection through Sequence Alignment of System-Level Traces},
   year = {2022},
   booktitle = {30th International Conference on Program Comprehension (ICPC)},
+  pages = {264-274},
+  publisher = {ACM},
   doi = {10.1145/3524610.3527898},
   url = {https://doi.org/10.1145/3524610.3527898}
 }
@@ -81,7 +83,7 @@ M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance Anomaly Detection 
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/performance-anomaly-detection-sequence-alignment.md; Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment; Performance-anomaly PDF pp. 8-10: VirtualBox/Ubuntu/LTTng environment, overhead, Python case, Docker case, and diagnosis; Performance-anomaly PDF p. 10: conclusion and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

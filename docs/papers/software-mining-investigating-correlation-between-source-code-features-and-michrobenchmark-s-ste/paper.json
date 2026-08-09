@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste",
   "page_url": "https://naser.github.io/research-publications/papers/software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste/",
   "title": "Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State",
@@ -10,10 +10,33 @@
     "Amirmahdi Khosravi Tabrizi",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Amirmahdi Khosravi Tabrizi",
+      "orcid": "https://orcid.org/0000-0002-6498-9319",
+      "profile_url": "https://dblp.org/pid/344/3160.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2023,
     "venue": "Companion of the 2023 ACM/SPEC International Conference on Performance Engineering (ICPE '23 Companion)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2023-04-15",
+    "online_date": "2023-04-15",
+    "print_date": "2023-04-15",
+    "volume": null,
+    "issue": null,
+    "pages": "107-111",
+    "article_number": null,
+    "publisher": "ACM",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_full_text",
@@ -25,8 +48,34 @@
   "abstract": null,
   "abstract_source": null,
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The study examines whether static source-code features are associated with the steady-state behavior of Java microbenchmarks during JVM warmup.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Private full PDF read: pdf-evidence/notes/parallel-batch-02-software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste-bd15de158b.md"
+      },
+      {
+        "note": "Software Mining PDF pp. 1-4: JMH, 586 results from 30 Java projects, srcML/Lizard features, steady-state labels, group counts, and Apriori confidences"
+      },
+      {
+        "note": "Local PDF hash verified: D883BDDA4B750A791CF29D206A9FD20C3E75F6BF21276761B563206134FF43DC"
+      },
+      {
+        "note": "Public source: https://research.spec.org/icpe_proceedings/2023/companion/p107.pdf"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The study examines whether static source-code features are associated with the steady-state behavior of Java microbenchmarks during JVM warmup.",
     "problem": "JVM JIT compilation makes Java microbenchmark results unstable during warmup; the study asks whether static source features are associated with reaching steady state (p. 1).",
@@ -97,7 +146,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Private full PDF read: pdf-evidence/notes/parallel-batch-02-software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste-bd15de158b.md",
       "Software Mining PDF pp. 1-4: JMH, 586 results from 30 Java projects, srcML/Lizard features, steady-state labels, group counts, and Apriori confidences",
@@ -113,6 +162,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

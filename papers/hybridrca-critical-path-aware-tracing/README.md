@@ -1,6 +1,6 @@
 # HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices
 
-**2025 | IEEE International Conference on Software Maintenance and Evolution (ICSME) | research paper**
+**2025 | IEEE International Conference on Software Maintenance and Evolution (ICSME) | conference paper**
 
 **Authors:** Maryam Ekhlasi, Arnaud Fiorini, Michel R. Dagenais, Naser Ezzati-Jivan, Maxime Lamothe
 
@@ -58,11 +58,11 @@ Cite this paper when reducing production microservice tracing while retaining cr
 
 ### APA 7
 
-Ekhlasi, M., Fiorini, A., Dagenais, M. R., Ezzati-Jivan, N., & Lamothe, M. (2025). HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices. IEEE International Conference on Software Maintenance and Evolution (ICSME). https://doi.org/10.1109/icsme64153.2025.00056
+Ekhlasi, M., Fiorini, A., Dagenais, M. R., Ezzati-Jivan, N., & Lamothe, M. (2025). HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices. In IEEE International Conference on Software Maintenance and Evolution (ICSME) (pp. 553-564). https://doi.org/10.1109/icsme64153.2025.00056
 
 ### IEEE
 
-M. Ekhlasi, A. Fiorini, M. R. Dagenais, N. Ezzati-Jivan, and M. Lamothe, "HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices," in IEEE International Conference on Software Maintenance and Evolution (ICSME), 2025, doi: 10.1109/icsme64153.2025.00056
+M. Ekhlasi, A. Fiorini, M. R. Dagenais, N. Ezzati-Jivan, and M. Lamothe, "HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices," in IEEE International Conference on Software Maintenance and Evolution (ICSME), pp. 553-564, 2025, doi: 10.1109/icsme64153.2025.00056
 
 ```bibtex
 @inproceedings{ezzatiJivan2025hybridrcalightweight,
@@ -70,6 +70,8 @@ M. Ekhlasi, A. Fiorini, M. R. Dagenais, N. Ezzati-Jivan, and M. Lamothe, "Hybrid
   title = {HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices},
   year = {2025},
   booktitle = {IEEE International Conference on Software Maintenance and Evolution (ICSME)},
+  pages = {553-564},
+  publisher = {IEEE},
   doi = {10.1109/icsme64153.2025.00056},
   url = {https://doi.org/10.1109/icsme64153.2025.00056}
 }
@@ -79,7 +81,7 @@ M. Ekhlasi, A. Fiorini, M. R. Dagenais, N. Ezzati-Jivan, and M. Lamothe, "Hybrid
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/icsme64153.2025.00056; author identity matched to Naser Ezzati-Jivan in the local research catalog; HybridRCA PDF pp. 1-6: critical-path extraction, Personalized PageRank, weighted spectrum analysis, targeted metrics, and clock synchronization; HybridRCA PDF pp. 7-10: LTTng 2.13.9-1 environment, HotROD/TrainTicket/OnlineBoutique/TiDB workloads, injected faults, accuracy, trace-volume, and storage results; HybridRCA PDF p. 10: limitations and future-work boundary; local HybridRCA PDF hash verified in pdf-evidence/notes/hybridrca-critical-path-aware-tracing.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

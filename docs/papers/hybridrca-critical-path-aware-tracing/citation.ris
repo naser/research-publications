@@ -1,4 +1,4 @@
-TY  - GEN
+TY  - CONF
 AU  - Ekhlasi, Maryam
 AU  - Fiorini, Arnaud
 AU  - Dagenais, Michel R.
@@ -7,6 +7,9 @@ AU  - Lamothe, Maxime
 TI  - HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices
 PY  - 2025
 T2  - IEEE International Conference on Software Maintenance and Evolution (ICSME)
+SP  - 553
+EP  - 564
+PB  - IEEE
 DO  - 10.1109/icsme64153.2025.00056
 UR  - https://doi.org/10.1109/icsme64153.2025.00056
 ER  -

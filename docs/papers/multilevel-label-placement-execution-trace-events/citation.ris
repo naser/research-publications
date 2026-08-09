@@ -6,6 +6,9 @@ TI  - Multilevel Label Placement for Execution Trace Events
 PY  - 2013
 T2  - 2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE)
 AB  - The accessible abstract describes automatic label placement for points and lines representing execution-trace events.
+SP  - 1
+EP  - 6
+PB  - IEEE
 DO  - 10.1109/CCECE.2013.6567826
 UR  - https://doi.org/10.1109/CCECE.2013.6567826
 ER  -

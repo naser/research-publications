@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces",
   "page_url": "https://naser.github.io/research-publications/papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/",
   "title": "Cube Data Model for Multilevel Statistics Computation of Live Execution Traces",
@@ -8,10 +8,36 @@
     "Naser Ezzati-Jivan",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2015,
     "venue": "Concurrency and Computation: Practice and Experience",
-    "type": "journal article"
+    "type": "journal article",
+    "publication_date": "2014-04-16",
+    "online_date": "2014-04-16",
+    "print_date": "2015-04-10",
+    "volume": "27",
+    "issue": "5",
+    "pages": "1069-1091",
+    "article_number": null,
+    "publisher": "Wiley",
+    "issn": [
+      "1532-0626",
+      "1532-0634"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "journal article",
   "status": "published_with_public_full_text",
@@ -23,8 +49,34 @@
   "abstract": null,
   "abstract_source": "Institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper proposes a multilevel data-cube model for computing statistics over live execution traces across several time scales.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Cube data model PDF: interval-form measures, dimension tree, history store, circular buffers, tilted time frame, cuboid choices, and query types"
+      },
+      {
+        "note": "Cube data model PDF: LTTng/Linux 2.6.38.6, Java/Eclipse/Core i7/6 GB environment, workloads, 1,000 measures, three time levels, and 35 MB memory result"
+      },
+      {
+        "note": "Cube data model PDF: materialization trade-off, range-query behavior, limitations, and future work"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper proposes a multilevel data-cube model for computing statistics over live execution traces across several time scales.",
     "problem": "Live trace streams are potentially unbounded, but analysts need multidimensional statistics across recent fine-grained and older coarse-grained time ranges without retaining every event or detailed value (pp. 2-5).",
@@ -98,7 +150,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Cube data model PDF: interval-form measures, dimension tree, history store, circular buffers, tilted time frame, cuboid choices, and query types",
       "Cube data model PDF: LTTng/Linux 2.6.38.6, Java/Eclipse/Core i7/6 GB environment, workloads, 1,000 measures, three time levels, and 35 MB memory result",
@@ -114,6 +166,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

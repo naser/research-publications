@@ -1,10 +1,13 @@
-TY  - GEN
+TY  - CONF
 AU  - Janecek, Madeline
 AU  - Ezzati-Jivan, Naser
 AU  - Azhari, Seyed Vahid
 TI  - Container Workload Characterization Through Host System Tracing
 PY  - 2021
 T2  - IEEE International Conference on Cloud Computing Technology and Science (CloudCom)
+SP  - 9
+EP  - 19
+PB  - IEEE
 DO  - 10.1109/ic2e52221.2021.00015
 UR  - https://doi.org/10.1109/ic2e52221.2021.00015
 ER  -

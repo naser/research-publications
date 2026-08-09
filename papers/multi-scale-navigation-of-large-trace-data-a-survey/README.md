@@ -59,11 +59,11 @@ Cite this paper when your work uses or compares the four-part taxonomy of conten
 
 ### APA 7
 
-Ezzati-Jivan, N., & Dagenais, M. R. (2017). Multi-scale Navigation of Large Trace Data: A Survey. Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.4068
+Ezzati-Jivan, N., & Dagenais, M. R. (2017). Multi-scale Navigation of Large Trace Data: A Survey. Concurrency and Computation: Practice and Experience, 29(10), e4068. https://doi.org/10.1002/cpe.4068
 
 ### IEEE
 
-N. Ezzati-Jivan and M. R. Dagenais, "Multi-scale Navigation of Large Trace Data: A Survey," Concurrency and Computation: Practice and Experience, 2017, doi: 10.1002/cpe.4068
+N. Ezzati-Jivan and M. R. Dagenais, "Multi-scale Navigation of Large Trace Data: A Survey," Concurrency and Computation: Practice and Experience, vol. 29, no. 10, 2017, doi: 10.1002/cpe.4068
 
 ```bibtex
 @article{ezzatiJivan2017multiscale,
@@ -71,6 +71,11 @@ N. Ezzati-Jivan and M. R. Dagenais, "Multi-scale Navigation of Large Trace Data:
   title = {Multi-scale Navigation of Large Trace Data: A Survey},
   year = {2017},
   journal = {Concurrency and Computation: Practice and Experience},
+  volume = {29},
+  number = {10},
+  eid = {e4068},
+  publisher = {Wiley},
+  issn = {1532-0626, 1532-0634},
   doi = {10.1002/cpe.4068},
   url = {https://doi.org/10.1002/cpe.4068}
 }
@@ -80,7 +85,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "Multi-scale Navigation of Large Trace Data:
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Survey PDF: four abstraction families, multi-level views, semantic/physical zoom, focus-plus-context, and trace-data structures; Survey PDF: Trace Compass/LTTV, Vampir, Jumpshot, TuningFork, HPCToolkit, VTune, and metric examples; Survey PDF: complementary-techniques conclusion and bidirectional-link future direction; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

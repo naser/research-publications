@@ -1,6 +1,6 @@
 # Hardware-Assisted Software Event Tracing
 
-**2017 | Concurrency and Computation: Practice and Experience | research paper**
+**2017 | Concurrency and Computation: Practice and Experience | journal article**
 
 **Authors:** Adrien Vergé, Naser Ezzati-Jivan, Michel R. Dagenais
 
@@ -59,18 +59,23 @@ Cite this paper when your work uses or compares the STM/ETB design that carries 
 
 ### APA 7
 
-Vergé, A., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Hardware-Assisted Software Event Tracing. Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.4069
+Vergé, A., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Hardware-Assisted Software Event Tracing. Concurrency and Computation: Practice and Experience, 29(10), e4069. https://doi.org/10.1002/cpe.4069
 
 ### IEEE
 
-A. Vergé, N. Ezzati-Jivan, and M. R. Dagenais, "Hardware-Assisted Software Event Tracing," in Concurrency and Computation: Practice and Experience, 2017, doi: 10.1002/cpe.4069
+A. Vergé, N. Ezzati-Jivan, and M. R. Dagenais, "Hardware-Assisted Software Event Tracing," Concurrency and Computation: Practice and Experience, vol. 29, no. 10, 2017, doi: 10.1002/cpe.4069
 
 ```bibtex
-@inproceedings{ezzatiJivan2017hardwareassisted,
+@article{ezzatiJivan2017hardwareassisted,
   author = {Adrien Vergé and Naser Ezzati-Jivan and Michel R. Dagenais},
   title = {Hardware-Assisted Software Event Tracing},
   year = {2017},
-  booktitle = {Concurrency and Computation: Practice and Experience},
+  journal = {Concurrency and Computation: Practice and Experience},
+  volume = {29},
+  number = {10},
+  eid = {e4069},
+  publisher = {Wiley},
+  issn = {1532-0626, 1532-0634},
   doi = {10.1002/cpe.4069},
   url = {https://doi.org/10.1002/cpe.4069}
 }
@@ -80,7 +85,7 @@ A. Vergé, N. Ezzati-Jivan, and M. R. Dagenais, "Hardware-Assisted Software Even
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1002/cpe.4069; author identity matched to Naser Ezzati-Jivan in the local research catalog; Hardware-assisted tracing PDF pp. 1-4: problem, ARM CoreSight/Intel BTS design, platforms, and LTTng comparison; Hardware-assisted tracing PDF pp. 4-10: STM/ETM/BTS implementations, benchmark results, and modified Perf path; Hardware-assisted tracing PDF p. 10: conclusion, quantitative comparisons, and limitations; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

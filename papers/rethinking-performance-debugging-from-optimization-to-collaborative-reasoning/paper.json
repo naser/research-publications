@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "rethinking-performance-debugging-from-optimization-to-collaborative-reasoning",
   "page_url": "https://naser.github.io/research-publications/papers/rethinking-performance-debugging-from-optimization-to-collaborative-reasoning/",
   "title": "Rethinking Performance Debugging: From Optimization to Collaborative Reasoning",
@@ -9,10 +9,38 @@
     "Naser Ezzati-Jivan",
     "Abdelwahab Hamou-Lhadj"
   ],
+  "author_details": [
+    {
+      "name": "Mahsa Panahandeh",
+      "orcid": "https://orcid.org/0000-0002-6369-8982",
+      "profile_url": "https://dblp.org/pid/201/1655.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Abdelwahab Hamou-Lhadj",
+      "orcid": "https://orcid.org/0000-0002-3319-5006",
+      "profile_url": "https://dblp.org/pid/70/2136.html"
+    }
+  ],
   "publication": {
     "year": 2026,
     "venue": "SIGSOFT FSE Companion",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2026-07-05",
+    "online_date": "2026-07-17",
+    "print_date": "2026-07-05",
+    "volume": null,
+    "issue": null,
+    "pages": "1312-1316",
+    "article_number": null,
+    "publisher": "ACM",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_full_text",
@@ -24,8 +52,34 @@
   "abstract": "The paper argues that microservice performance debugging should preserve and empirically challenge multiple evidence-grounded explanations under uncertainty instead of optimizing for one opaque root-cause answer.",
   "abstract_source": "Public author manuscript and private downloaded copy reviewed; abstract paraphrased.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper argues that microservice performance debugging should preserve and empirically challenge multiple evidence-grounded explanations under uncertainty instead of optimizing for one opaque root-cause answer.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Public author manuscript: AgentDebug roles, Reasoning Surface, Gemini 2.5 Flash, CART critique, and Pareto-style curation"
+      },
+      {
+        "note": "Public author manuscript: 200 datasets, Train-Ticket/E-Shopper, 2.1 million RPC traces, fault regimes, F1 results, convergence ratio, and API cost"
+      },
+      {
+        "note": "Public author manuscript: optimization-versus-reasoning boundary and future-work discussion"
+      },
+      {
+        "note": "Publication DOI and DBLP identity verified; private five-page ResearchGate author manuscript read and SHA-256 verified as 9fad98132e1dd1c06f885bf6b033c80691bd067a3f7c31f7f27841d9b9d4c308; private evidence note: pdf-evidence/notes/rethinking-performance-debugging-agentdebug.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper reframes performance debugging as collaborative reasoning over multiple evidence-grounded hypotheses rather than optimization for one supposedly best explanation.",
     "problem": "Optimization-centric performance debugging collapses diagnosis into one best root cause. That framing is brittle when traces are incomplete, failures interact, and engineers must compare uncertain explanations and decide what to investigate.",
@@ -101,7 +155,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Public author manuscript: AgentDebug roles, Reasoning Surface, Gemini 2.5 Flash, CART critique, and Pareto-style curation",
       "Public author manuscript: 200 datasets, Train-Ticket/E-Shopper, 2.1 million RPC traces, fault regimes, F1 results, convergence ratio, and API cost",
@@ -117,6 +171,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

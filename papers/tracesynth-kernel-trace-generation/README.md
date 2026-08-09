@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares constraint-guided diffusion gene
 
 ### APA 7
 
-Sehgal, Y., Patel, S., Panahandeh, M., Ezzati-Jivan, N., & Tetreault, F. (2026). TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models. ACM International Conference on the Foundations of Software Engineering (FSE) Companion. https://doi.org/10.1145/3803437.3805222
+Sehgal, Y., Patel, S., Panahandeh, M., Ezzati-Jivan, N., & Tetreault, F. (2026). TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models. In ACM International Conference on the Foundations of Software Engineering (FSE) Companion (pp. 496-506). https://doi.org/10.1145/3803437.3805222
 
 ### IEEE
 
-Y. Sehgal, S. Patel, M. Panahandeh, N. Ezzati-Jivan, and F. Tetreault, "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models," in ACM International Conference on the Foundations of Software Engineering (FSE) Companion, 2026, doi: 10.1145/3803437.3805222
+Y. Sehgal, S. Patel, M. Panahandeh, N. Ezzati-Jivan, and F. Tetreault, "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models," in ACM International Conference on the Foundations of Software Engineering (FSE) Companion, pp. 496-506, 2026, doi: 10.1145/3803437.3805222
 
 ```bibtex
 @inproceedings{ezzatiJivan2026tracesynthgenerating,
@@ -72,6 +72,8 @@ Y. Sehgal, S. Patel, M. Panahandeh, N. Ezzati-Jivan, and F. Tetreault, "TraceSyn
   title = {TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models},
   year = {2026},
   booktitle = {ACM International Conference on the Foundations of Software Engineering (FSE) Companion},
+  pages = {496-506},
+  publisher = {ACM},
   doi = {10.1145/3803437.3805222},
   url = {https://doi.org/10.1145/3803437.3805222}
 }
@@ -81,7 +83,7 @@ Y. Sehgal, S. Patel, M. Panahandeh, N. Ezzati-Jivan, and F. Tetreault, "TraceSyn
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/tracesynth-kernel-trace-generation.md; TraceSynth PDF pp. 3-5: LTTng collection, six-channel representation, diffusion model, and invariant repair; TraceSynth PDF pp. 6-10: Nibicluster/Phoronix workloads, DDIM generation, next-event metrics, context-length and channel ablations; TraceSynth PDF pp. 10-11: limitations and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

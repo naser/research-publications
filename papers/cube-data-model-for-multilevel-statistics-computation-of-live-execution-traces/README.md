@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares tilted-time-frame stream cubes t
 
 ### APA 7
 
-Ezzati-Jivan, N., & Dagenais, M. R. (2015). Cube Data Model for Multilevel Statistics Computation of Live Execution Traces. Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.3272
+Ezzati-Jivan, N., & Dagenais, M. R. (2015). Cube Data Model for Multilevel Statistics Computation of Live Execution Traces. Concurrency and Computation: Practice and Experience, 27(5), 1069-1091. https://doi.org/10.1002/cpe.3272
 
 ### IEEE
 
-N. Ezzati-Jivan and M. R. Dagenais, "Cube Data Model for Multilevel Statistics Computation of Live Execution Traces," Concurrency and Computation: Practice and Experience, 2015, doi: 10.1002/cpe.3272
+N. Ezzati-Jivan and M. R. Dagenais, "Cube Data Model for Multilevel Statistics Computation of Live Execution Traces," Concurrency and Computation: Practice and Experience, vol. 27, no. 5, pp. 1069-1091, 2015, doi: 10.1002/cpe.3272
 
 ```bibtex
 @article{ezzatiJivan2015cubedata,
@@ -72,6 +72,11 @@ N. Ezzati-Jivan and M. R. Dagenais, "Cube Data Model for Multilevel Statistics C
   title = {Cube Data Model for Multilevel Statistics Computation of Live Execution Traces},
   year = {2015},
   journal = {Concurrency and Computation: Practice and Experience},
+  volume = {27},
+  number = {5},
+  pages = {1069-1091},
+  publisher = {Wiley},
+  issn = {1532-0626, 1532-0634},
   doi = {10.1002/cpe.3272},
   url = {https://doi.org/10.1002/cpe.3272}
 }
@@ -81,7 +86,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "Cube Data Model for Multilevel Statistics C
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Cube data model PDF: interval-form measures, dimension tree, history store, circular buffers, tilted time frame, cuboid choices, and query types; Cube data model PDF: LTTng/Linux 2.6.38.6, Java/Eclipse/Core i7/6 GB environment, workloads, 1,000 measures, three time levels, and 35 MB memory result; Cube data model PDF: materialization trade-off, range-query behavior, limitations, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "execution-trace-reconstruction-using-diffusion-based-generative-models",
   "page_url": "https://naser.github.io/research-publications/papers/execution-trace-reconstruction-using-diffusion-based-generative-models/",
   "title": "Execution Trace Reconstruction Using Diffusion-Based Generative Models",
@@ -9,10 +9,38 @@
     "Naser Ezzati-Jivan",
     "Abdelwahab Hamou-Lhadj"
   ],
+  "author_details": [
+    {
+      "name": "Madeline Janecek",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/307/5913.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Abdelwahab Hamou-Lhadj",
+      "orcid": "https://orcid.org/0000-0002-3319-5006",
+      "profile_url": "https://dblp.org/pid/70/2136.html"
+    }
+  ],
   "publication": {
     "year": 2025,
     "venue": "IEEE/ACM International Conference on Software Engineering (ICSE)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2025-04-26",
+    "online_date": null,
+    "print_date": "2025-04-26",
+    "volume": null,
+    "issue": null,
+    "pages": "1077-1088",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_full_text",
@@ -24,8 +52,34 @@
   "abstract": null,
   "abstract_source": "Author-hosted published-paper PDF reviewed; abstract paraphrased for this catalog.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper reconstructs missing system-call events in execution traces with diffusion and structured state-space generative models.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "ICSE published PDF: nine PTS workloads, PTS 6.2.2, LTTng 2.8, Debian kernel, Xeon/32 GB/SSD platform, and 32 runs per benchmark"
+      },
+      {
+        "note": "ICSE published PDF: integer event encoding, DiffWave/SSSDS4/SSSDSA/CSDIS4 configurations, blackout protocol, accuracy, perfect rate, ROUGE-L, and LSTM baseline"
+      },
+      {
+        "note": "ICSE published PDF: controlled-loss limitation, functional-plausibility example, and future work"
+      },
+      {
+        "note": "Local thesis/manuscript and published-paper PDF are retained as distinct version evidence; local hashes are recorded in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper reconstructs missing system-call events in execution traces with diffusion and structured state-space generative models.",
     "problem": "Ring-buffer overflow and resource constraints can discard contiguous system-call events, weakening trace-based diagnosis, anomaly detection, and performance analysis. Increasing buffers or blocking the application changes collection cost or system behavior.",
@@ -102,7 +156,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "ICSE published PDF: nine PTS workloads, PTS 6.2.2, LTTng 2.8, Debian kernel, Xeon/32 GB/SSD platform, and 32 runs per benchmark",
       "ICSE published PDF: integer event encoding, DiffWave/SSSDS4/SSSDSA/CSDIS4 configurations, blackout protocol, accuracy, perfect rate, ROUGE-L, and LSTM baseline",
@@ -118,6 +172,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

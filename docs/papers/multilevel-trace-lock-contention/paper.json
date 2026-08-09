@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "multilevel-trace-lock-contention",
   "page_url": "https://naser.github.io/research-publications/papers/multilevel-trace-lock-contention/",
   "title": "Multi-Level Execution Trace Based Lock Contention Analysis",
@@ -10,10 +10,43 @@
     "Evan Galea",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Majid Rezazadeh",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/45/10661.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Evan Galea",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/282/7650.html"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2020,
     "venue": "IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)",
-    "type": "research paper"
+    "type": "conference paper",
+    "publication_date": "2020-10",
+    "online_date": null,
+    "print_date": "2020-10",
+    "volume": null,
+    "issue": null,
+    "pages": "177-182",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -25,8 +58,37 @@
   "abstract": null,
   "abstract_source": "Multi-Level Lock Contention published-paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper extends critical-path analysis across kernel and user-space lock events so contention from futexes, spinlocks, semaphores, and other synchronization mechanisms can be diagnosed without recompiling the application.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "Lock-contention PDF pp. 1-4: LTTng 2.10, Trace Compass 4, LD_PRELOAD Pthreads wrappers, event sets, state system, graph, and active-path algorithm"
+      },
+      {
+        "note": "Lock-contention PDF pp. 4-6: visualization views, C++/Pthreads overhead, Apache/OPcache case, and analysis boundary"
+      },
+      {
+        "note": "local lock-contention PDF hash verified in pdf-evidence/notes/multilevel-trace-lock-contention.md and pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper extends critical-path analysis across kernel and user-space lock events so contention from futexes, spinlocks, semaphores, and other synchronization mechanisms can be diagnosed without recompiling the application.",
     "problem": "Kernel-only analysis misses locks implemented in user space, while source-dependent tools are difficult to apply to large multi-threaded applications and cannot provide a unified view of cross-level dependencies.",
@@ -89,7 +151,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -106,6 +168,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

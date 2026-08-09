@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "hardware-assisted-software-event-tracing",
   "page_url": "https://naser.github.io/research-publications/papers/hardware-assisted-software-event-tracing/",
   "title": "Hardware-Assisted Software Event Tracing",
@@ -9,10 +9,41 @@
     "Naser Ezzati-Jivan",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Adrien Vergé",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/199/0078.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2017,
     "venue": "Concurrency and Computation: Practice and Experience",
-    "type": "research paper"
+    "type": "journal article",
+    "publication_date": "2017-03-06",
+    "online_date": "2017-03-06",
+    "print_date": "2017-05-25",
+    "volume": "29",
+    "issue": "10",
+    "pages": null,
+    "article_number": "e4069",
+    "publisher": "Wiley",
+    "issn": [
+      "1532-0626",
+      "1532-0634"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "research paper",
   "status": "published_with_public_full_text",
@@ -24,8 +55,40 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper designs and evaluates hardware-assisted alternatives to LTTng-UST for software-event and execution-path tracing, including STM/ETB, ETM/ETB, and a modified Perf/BTS path.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Crossref and local DBLP/venue metadata for 10.1002/cpe.4069"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "Hardware-assisted tracing PDF pp. 1-4: problem, ARM CoreSight/Intel BTS design, platforms, and LTTng comparison"
+      },
+      {
+        "note": "Hardware-assisted tracing PDF pp. 4-10: STM/ETM/BTS implementations, benchmark results, and modified Perf path"
+      },
+      {
+        "note": "Hardware-assisted tracing PDF p. 10: conclusion, quantitative comparisons, and limitations"
+      },
+      {
+        "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper designs and evaluates hardware-assisted alternatives to LTTng-UST for software-event and execution-path tracing, including STM/ETB, ETM/ETB, and a modified Perf/BTS path.",
     "problem": "Software event tracing can impose substantial delay and buffer-copy overhead, while hardware branch tracing provides low-level execution evidence but has different semantics, payload limits, and loss behavior.",
@@ -96,7 +159,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1002/cpe.4069",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -114,6 +177,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

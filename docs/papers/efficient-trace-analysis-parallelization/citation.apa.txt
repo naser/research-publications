@@ -1,1 +1,1 @@
-Reumont-Locke, F., Ezzati-Jivan, N., & Dagenais, M. R. (2019). Efficient Methods for Trace Analysis Parallelization. International Journal of Parallel Programming. https://doi.org/10.1007/s10766-019-00631-4
+Reumont-Locke, F., Ezzati-Jivan, N., & Dagenais, M. R. (2019). Efficient Methods for Trace Analysis Parallelization. International Journal of Parallel Programming, 47(5-6), 951-972. https://doi.org/10.1007/s10766-019-00631-4

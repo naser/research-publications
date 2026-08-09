@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares a multi-level IoT host IDS that 
 
 ### APA 7
 
-Gassais, R., Ezzati-Jivan, N., Fernandez, J. M., Aloise, D., & Dagenais, M. R. (2020). Multi-level Host-based Intrusion Detection System for Internet of Things. Journal of Cloud Computing. https://doi.org/10.1186/s13677-020-00206-6
+Gassais, R., Ezzati-Jivan, N., Fernandez, J. M., Aloise, D., & Dagenais, M. R. (2020). Multi-level Host-based Intrusion Detection System for Internet of Things. Journal of Cloud Computing, 9(1), 62. https://doi.org/10.1186/s13677-020-00206-6
 
 ### IEEE
 
-R. Gassais, N. Ezzati-Jivan, J. M. Fernandez, D. Aloise, and M. R. Dagenais, "Multi-level Host-based Intrusion Detection System for Internet of Things," Journal of Cloud Computing, 2020, doi: 10.1186/s13677-020-00206-6
+R. Gassais, N. Ezzati-Jivan, J. M. Fernandez, D. Aloise, and M. R. Dagenais, "Multi-level Host-based Intrusion Detection System for Internet of Things," Journal of Cloud Computing, vol. 9, no. 1, Art. no. 62, 2020, doi: 10.1186/s13677-020-00206-6
 
 ```bibtex
 @article{ezzatiJivan2020multilevel,
@@ -72,6 +72,12 @@ R. Gassais, N. Ezzati-Jivan, J. M. Fernandez, D. Aloise, and M. R. Dagenais, "Mu
   title = {Multi-level Host-based Intrusion Detection System for Internet of Things},
   year = {2020},
   journal = {Journal of Cloud Computing},
+  volume = {9},
+  number = {1},
+  pages = {62},
+  eid = {62},
+  publisher = {Springer Science and Business Media LLC},
+  issn = {2192-113X},
   doi = {10.1186/s13677-020-00206-6},
   url = {https://doi.org/10.1186/s13677-020-00206-6}
 }
@@ -81,7 +87,7 @@ R. Gassais, N. Ezzati-Jivan, J. M. Fernandez, D. Aloise, and M. R. Dagenais, "Mu
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Official Journal of Cloud Computing PDF: LTTng/barectf/CTF/Babeltrace pipeline, Raspberry Pi/Home Assistant testbed, features, models, and attack simulations; Official PDF: 58/42 benign-intrusion split, 66/34 train/test split, classifier metrics, latency, CPU, memory, and training-cost results; Official PDF: protocol, real-malware, validation-bias, single-point, and scaling limitations plus future work; Official open-access PDF was read; no copy is included in github-repo
 - Machine-readable record: [paper.json](./paper.json)

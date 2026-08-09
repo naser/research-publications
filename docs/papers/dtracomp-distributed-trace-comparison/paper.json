@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "dtracomp-distributed-trace-comparison",
   "page_url": "https://naser.github.io/research-publications/papers/dtracomp-distributed-trace-comparison/",
   "title": "DTraComp: Comparing distributed execution traces for understanding intermittent latency sources",
@@ -12,10 +12,55 @@
     "Naser Ezzati-Jivan",
     "Matthew Khouzam"
   ],
+  "author_details": [
+    {
+      "name": "Maryam Ekhlasi",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Fatemeh Faraji Daneshgar",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Michel Dagenais",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Maxime Lamothe",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Matthew Khouzam",
+      "orcid": null,
+      "profile_url": null
+    }
+  ],
   "publication": {
     "year": 2026,
     "venue": "Journal of Systems and Software",
-    "type": "research paper"
+    "type": "journal article",
+    "publication_date": "2026-11",
+    "online_date": null,
+    "print_date": "2026-11",
+    "volume": "241",
+    "issue": null,
+    "pages": "112990",
+    "article_number": "112990",
+    "publisher": "Elsevier BV",
+    "issn": [
+      "0164-1212"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -27,8 +72,31 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "This work investigates DTraComp: Comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112990"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "full-text summary pending source review"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "This work investigates DTraComp: Comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.",
     "problem": "Intermittent latency sources are difficult to isolate because normal and abnormal distributed executions can differ only in small trace regions.",
@@ -81,7 +149,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112990",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -96,6 +164,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

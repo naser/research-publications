@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "ai-video-retrieval-semantic-search-timestamp-alignment",
   "page_url": "https://naser.github.io/research-publications/papers/ai-video-retrieval-semantic-search-timestamp-alignment/",
   "title": "AI Video Retrieval: A Semantic Search & Timestamp Alignment System",
@@ -9,10 +9,38 @@
     "Naser Ezzati-Jivan",
     "Blessing Ogbuokiri"
   ],
+  "author_details": [
+    {
+      "name": "Hridoy Rahman",
+      "orcid": null,
+      "profile_url": "https://ieeexplore.ieee.org/author/366631566188381"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://ieeexplore.ieee.org/author/37071999400"
+    },
+    {
+      "name": "Blessing Ogbuokiri",
+      "orcid": null,
+      "profile_url": "https://ieeexplore.ieee.org/author/37088214110"
+    }
+  ],
   "publication": {
     "year": 2025,
     "venue": "2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2025-08-07",
+    "online_date": null,
+    "print_date": "2025-08-07",
+    "volume": null,
+    "issue": null,
+    "pages": "1-6",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -24,8 +52,31 @@
   "abstract": null,
   "abstract_source": null,
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The verified record identifies this work as a 2025 ACDSA paper on semantic video retrieval, but the full technical contribution was not available in the captured sources.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "IEEE record: https://ieeexplore.ieee.org/document/11166430/"
+      },
+      {
+        "note": "DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430"
+      },
+      {
+        "note": "Private evidence note: papers/ai-video-retrieval-a-semantic-search-timestamp-alignment-system-b0d72f7cf3/pdf-evidence/notes/parallel-batch-01-ai-video-retrieval.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The verified record identifies this work as a 2025 ACDSA paper on semantic video retrieval, but the full technical contribution was not available in the captured sources.",
     "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
@@ -88,7 +139,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "IEEE record: https://ieeexplore.ieee.org/document/11166430/",
       "DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430",
@@ -103,6 +154,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

@@ -1,10 +1,13 @@
-TY  - GEN
+TY  - CONF
 AU  - Darvishi, Kasra
 AU  - Noferesti, Morteza
 AU  - Ezzati-Jivan, Naser
 TI  - Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models
 PY  - 2024
 T2  - 2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)
+SP  - 62
+EP  - 66
+PB  - ACM
 DO  - 10.1145/3639476.3639778
 UR  - https://doi.org/10.1145/3639476.3639778
 ER  -

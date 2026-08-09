@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Chakraborty, P., Babaei, M., Tahmooresnejad, L., & Ezzati-Jivan, N. (2024). MemAdapt: Adaptive Monitoring of Memory Usage Through Irregularly Sampled Data. 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON). https://doi.org/10.1109/CASCON62161.2024.10838037
+Chakraborty, P., Babaei, M., Tahmooresnejad, L., & Ezzati-Jivan, N. (2024). MemAdapt: Adaptive Monitoring of Memory Usage Through Irregularly Sampled Data. In 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON) (pp. 1-6). https://doi.org/10.1109/CASCON62161.2024.10838037
 
 ### IEEE
 
-P. Chakraborty, M. Babaei, L. Tahmooresnejad, and N. Ezzati-Jivan, "MemAdapt: Adaptive Monitoring of Memory Usage Through Irregularly Sampled Data," in 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON), 2024, doi: 10.1109/CASCON62161.2024.10838037
+P. Chakraborty, M. Babaei, L. Tahmooresnejad, and N. Ezzati-Jivan, "MemAdapt: Adaptive Monitoring of Memory Usage Through Irregularly Sampled Data," in 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON), pp. 1-6, 2024, doi: 10.1109/CASCON62161.2024.10838037
 
 ```bibtex
 @inproceedings{ezzatiJivan2024memadaptadaptive,
@@ -70,6 +70,8 @@ P. Chakraborty, M. Babaei, L. Tahmooresnejad, and N. Ezzati-Jivan, "MemAdapt: Ad
   title = {MemAdapt: Adaptive Monitoring of Memory Usage Through Irregularly Sampled Data},
   year = {2024},
   booktitle = {2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)},
+  pages = {1-6},
+  publisher = {IEEE},
   doi = {10.1109/CASCON62161.2024.10838037},
   url = {https://doi.org/10.1109/CASCON62161.2024.10838037}
 }
@@ -79,7 +81,7 @@ P. Chakraborty, M. Babaei, L. Tahmooresnejad, and N. Ezzati-Jivan, "MemAdapt: Ad
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838037; CASCON program: https://iccsse.github.io/CASCON2024/program/; Author synopsis: https://majidbabaei.com/; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Ezzati-Jivan, N., & Ekhlasi, M. (2026). Observability and Runtime Governance for Agentic AI Systems. Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE). https://doi.org/10.1145/3803437.3804904
+Ezzati-Jivan, N., & Ekhlasi, M. (2026). Observability and Runtime Governance for Agentic AI Systems. In Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE) (pp. 64-65). https://doi.org/10.1145/3803437.3804904
 
 ### IEEE
 
-N. Ezzati-Jivan and M. Ekhlasi, "Observability and Runtime Governance for Agentic AI Systems," in Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE), 2026, doi: 10.1145/3803437.3804904
+N. Ezzati-Jivan and M. Ekhlasi, "Observability and Runtime Governance for Agentic AI Systems," in Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE), pp. 64-65, 2026, doi: 10.1145/3803437.3804904
 
 ```bibtex
 @inproceedings{ezzatiJivan2026observabilityand,
@@ -70,6 +70,8 @@ N. Ezzati-Jivan and M. Ekhlasi, "Observability and Runtime Governance for Agenti
   title = {Observability and Runtime Governance for Agentic AI Systems},
   year = {2026},
   booktitle = {Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE)},
+  pages = {64-65},
+  publisher = {ACM},
   doi = {10.1145/3803437.3804904},
   url = {https://doi.org/10.1145/3803437.3804904}
 }
@@ -79,7 +81,7 @@ N. Ezzati-Jivan and M. Ekhlasi, "Observability and Runtime Governance for Agenti
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref DOI record: https://api.crossref.org/v1/works/10.1145/3803437.3804904; DBLP record: https://dblp.org/rec/conf/sigsoft/Ezzati-JivanE26; Private evidence note: papers/observability-and-runtime-governance-for-agentic-ai-systems-838a748cf7/pdf-evidence/notes/parallel-batch-01-observability-runtime-governance.md
 - Machine-readable record: [paper.json](./paper.json)

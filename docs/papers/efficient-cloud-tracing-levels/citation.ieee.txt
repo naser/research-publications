@@ -1,1 +1,1 @@
-Y. J. Bationo, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Cloud Tracing: From Very High Level to Very Low Level," in IEEE International Conference on Consumer Electronics (ICCE), 2018, doi: 10.1109/icce.2018.8326353
+Y. J. Bationo, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Cloud Tracing: From Very High Level to Very Low Level," in IEEE International Conference on Consumer Electronics (ICCE), pp. 1-6, 2018, doi: 10.1109/icce.2018.8326353

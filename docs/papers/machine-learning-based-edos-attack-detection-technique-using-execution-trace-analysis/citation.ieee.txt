@@ -1,1 +1,1 @@
-H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis," Journal of Hardware and Systems Security, 2019, doi: 10.1007/s41635-018-0061-2
+H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis," Journal of Hardware and Systems Security, vol. 3, no. 2, pp. 164-176, 2019, doi: 10.1007/s41635-018-0061-2

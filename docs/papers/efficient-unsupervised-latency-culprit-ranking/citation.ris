@@ -6,6 +6,9 @@ AU  - Miller, James
 TI  - Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis
 PY  - 2024
 T2  - ACM/SPEC International Conference on Performance Engineering (ICPE) Companion
+SP  - 62
+EP  - 66
+PB  - ACM
 DO  - 10.1145/3629527.3651841
 UR  - https://doi.org/10.1145/3629527.3651841
 ER  -

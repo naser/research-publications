@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Azhari, V., Bhamra, S., Ezzati-Jivan, N., & Tetreault, F. (2021). Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis. 2021 IEEE International Conference on Big Data (BigData). https://doi.org/10.1109/BigData52589.2021.9671473
+Azhari, V., Bhamra, S., Ezzati-Jivan, N., & Tetreault, F. (2021). Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis. In 2021 IEEE International Conference on Big Data (BigData) (pp. 3020-3030). https://doi.org/10.1109/BigData52589.2021.9671473
 
 ### IEEE
 
-V. Azhari, S. Bhamra, N. Ezzati-Jivan, and F. Tetreault, "Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis," in 2021 IEEE International Conference on Big Data (BigData), 2021, doi: 10.1109/BigData52589.2021.9671473
+V. Azhari, S. Bhamra, N. Ezzati-Jivan, and F. Tetreault, "Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis," in 2021 IEEE International Conference on Big Data (BigData), pp. 3020-3030, 2021, doi: 10.1109/BigData52589.2021.9671473
 
 ```bibtex
 @inproceedings{ezzatiJivan2021efficientheap,
@@ -70,6 +70,8 @@ V. Azhari, S. Bhamra, N. Ezzati-Jivan, and F. Tetreault, "Efficient Heap Monitor
   title = {Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis},
   year = {2021},
   booktitle = {2021 IEEE International Conference on Big Data (BigData)},
+  pages = {3020-3030},
+  publisher = {IEEE},
   doi = {10.1109/BigData52589.2021.9671473},
   url = {https://doi.org/10.1109/BigData52589.2021.9671473}
 }
@@ -79,7 +81,7 @@ V. Azhari, S. Bhamra, N. Ezzati-Jivan, and F. Tetreault, "Efficient Heap Monitor
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/BigData52589.2021.9671473; DBLP record: https://dblp.org/rec/conf/bigdataconf/AzhariBET21; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

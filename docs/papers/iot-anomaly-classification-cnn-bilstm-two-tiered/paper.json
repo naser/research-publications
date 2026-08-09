@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "iot-anomaly-classification-cnn-bilstm-two-tiered",
   "page_url": "https://naser.github.io/research-publications/papers/iot-anomaly-classification-cnn-bilstm-two-tiered/",
   "title": "A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model",
@@ -9,10 +9,40 @@
     "Morteza Noferesti",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Yue Guan",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/54/7820.html"
+    },
+    {
+      "name": "Morteza Noferesti",
+      "orcid": "https://orcid.org/0009-0000-5507-1461",
+      "profile_url": "https://dblp.org/pid/82/10462.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2024,
     "venue": "Software Impacts",
-    "type": "journal article"
+    "type": "journal article",
+    "publication_date": "2024-05",
+    "online_date": null,
+    "print_date": "2024-05",
+    "volume": "20",
+    "issue": null,
+    "pages": "100646",
+    "article_number": "100646",
+    "publisher": "Elsevier BV",
+    "issn": [
+      "2665-9638"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "journal article",
   "status": "published_with_public_abstract",
@@ -24,8 +54,31 @@
   "abstract": "The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.",
   "abstract_source": "ScienceDirect publisher abstract, paraphrased; full text not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344"
+      },
+      {
+        "note": "DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646"
+      },
+      {
+        "note": "Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The abstract presents a two-tier anomaly-classification framework for IoT networks that combines a decision-tree detector with a CNN-BiLSTM classifier.",
     "problem": "IoT anomaly data can be imbalanced and heterogeneous, making both anomaly detection and attack-type classification difficult.",
@@ -91,7 +144,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344",
       "DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646",
@@ -106,6 +159,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

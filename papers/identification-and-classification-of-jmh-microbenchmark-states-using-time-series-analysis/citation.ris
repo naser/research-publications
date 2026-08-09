@@ -5,6 +5,9 @@ AU  - Ezzati-Jivan, Naser
 TI  - Identification and Classification of JMH Microbenchmark States using Time Series Analysis
 PY  - 2023
 T2  - ACM/SPEC ICPE Companion
+SP  - 101
+EP  - 105
+PB  - ACM
 DO  - 10.1145/3578245.3584694
 UR  - https://doi.org/10.1145/3578245.3584694
 ER  -

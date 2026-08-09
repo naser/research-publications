@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "uncovering-steady-state-executions-in-java-microbenchmarking-with-call-graph-analysis",
   "page_url": "https://naser.github.io/research-publications/papers/uncovering-steady-state-executions-in-java-microbenchmarking-with-call-graph-analysis/",
   "title": "Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis",
@@ -9,10 +9,38 @@
     "Sneh Patel",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Madeline Janecek",
+      "orcid": "https://orcid.org/0000-0002-7182-3958",
+      "profile_url": "https://dblp.org/pid/307/5913.html"
+    },
+    {
+      "name": "Sneh Patel",
+      "orcid": "https://orcid.org/0000-0002-1985-8715",
+      "profile_url": "https://dblp.org/pid/315/9849.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2023,
     "venue": "ACM/SPEC ICPE Companion",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2023-04-15",
+    "online_date": "2023-04-15",
+    "print_date": "2023-04-15",
+    "volume": null,
+    "issue": null,
+    "pages": "71-75",
+    "article_number": null,
+    "publisher": "ACM",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_full_text",
@@ -24,8 +52,34 @@
   "abstract": null,
   "abstract_source": "ICPE Companion PDF reviewed; abstract paraphrased for this catalog.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper uses sampled call graphs and machine learning to distinguish warmup from steady-state executions in Java microbenchmarks.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "ICPE Companion PDF: perf call-stack sampling, Graph2Vec, flame graphs, PELT, 50-of-1,000 labelling protocol, and five classifiers"
+      },
+      {
+        "note": "ICPE Companion PDF: Java binary-search workload, 10,000 executions/10 forks, Ubuntu/kernel/Perf/Log4j environment, and accuracy/precision/recall table"
+      },
+      {
+        "note": "Paper-linked code/results repository recorded as a public resource"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper uses sampled call graphs and machine learning to distinguish warmup from steady-state executions in Java microbenchmarks.",
     "problem": "JMH warmup and steady-state stages can differ structurally, while runtime-only detection gives little insight into why. The paper tests whether sampled call graphs distinguish the stages (pp. 1-2).",
@@ -98,7 +152,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "ICPE Companion PDF: perf call-stack sampling, Graph2Vec, flame graphs, PELT, 50-of-1,000 labelling protocol, and five classifiers",
       "ICPE Companion PDF: Java binary-search workload, 10,000 executions/10 forks, Ubuntu/kernel/Perf/Log4j environment, and accuracy/precision/recall table",
@@ -114,6 +168,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

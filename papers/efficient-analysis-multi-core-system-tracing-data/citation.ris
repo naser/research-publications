@@ -5,6 +5,7 @@ TI  - An Efficient Analysis Approach for Multi-Core System Tracing Data
 PY  - 2012
 T2  - 16th IASTED International Conference on Software Engineering and Applications (SEA 2012)
 AB  - The publisher abstract describes a stateful trace-analysis and abstraction approach for parallel processes. It claims that sharing common information can reduce computation and storage compared with stateless approaches.
+PB  - ACTAPRESS
 DO  - 10.2316/P.2012.790-053
 UR  - https://doi.org/10.2316/P.2012.790-053
 ER  -

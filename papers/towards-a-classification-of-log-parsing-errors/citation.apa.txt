@@ -1,1 +1,1 @@
-Sedki, I., Hamou-Lhadj, A., Mohamed, O. A., & Ezzati-Jivan, N. (2023). Towards a Classification of Log Parsing Errors. IEEE International Conference on Program Comprehension (ICPC). https://doi.org/10.1109/ICPC58990.2023.00023
+Sedki, I., Hamou-Lhadj, A., Mohamed, O. A., & Ezzati-Jivan, N. (2023). Towards a Classification of Log Parsing Errors. In IEEE International Conference on Program Comprehension (ICPC) (pp. 84-88). https://doi.org/10.1109/ICPC58990.2023.00023

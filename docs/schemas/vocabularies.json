@@ -146,6 +146,11 @@
       "aliases": []
     },
     {
+      "id": "responsible-ai",
+      "label": "responsible ai",
+      "aliases": []
+    },
+    {
       "id": "root-cause-analysis",
       "label": "root cause analysis",
       "aliases": []
@@ -188,6 +193,11 @@
     {
       "id": "iot-security",
       "label": "iot security",
+      "aliases": []
+    },
+    {
+      "id": "llm-evaluation",
+      "label": "llm evaluation",
       "aliases": []
     },
     {

@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Rahman, H., Ezzati-Jivan, N., & Ogbuokiri, B. (2025). AI Video Retrieval: A Semantic Search & Timestamp Alignment System. 2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA). https://doi.org/10.1109/ACDSA65407.2025.11166430
+Rahman, H., Ezzati-Jivan, N., & Ogbuokiri, B. (2025). AI Video Retrieval: A Semantic Search & Timestamp Alignment System. In 2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA) (pp. 1-6). https://doi.org/10.1109/ACDSA65407.2025.11166430
 
 ### IEEE
 
-H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "AI Video Retrieval: A Semantic Search & Timestamp Alignment System," in 2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), 2025, doi: 10.1109/ACDSA65407.2025.11166430
+H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "AI Video Retrieval: A Semantic Search & Timestamp Alignment System," in 2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), pp. 1-6, 2025, doi: 10.1109/ACDSA65407.2025.11166430
 
 ```bibtex
 @inproceedings{ezzatiJivan2025aivideo,
@@ -70,6 +70,8 @@ H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "AI Video Retrieval: A Semantic Se
   title = {AI Video Retrieval: A Semantic Search {\&} Timestamp Alignment System},
   year = {2025},
   booktitle = {2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)},
+  pages = {1-6},
+  publisher = {IEEE},
   doi = {10.1109/ACDSA65407.2025.11166430},
   url = {https://doi.org/10.1109/ACDSA65407.2025.11166430}
 }
@@ -79,7 +81,7 @@ H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "AI Video Retrieval: A Semantic Se
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11166430/; DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430; Private evidence note: papers/ai-video-retrieval-a-semantic-search-timestamp-alignment-system-b0d72f7cf3/pdf-evidence/notes/parallel-batch-01-ai-video-retrieval.md
 - Machine-readable record: [paper.json](./paper.json)

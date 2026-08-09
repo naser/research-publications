@@ -1,6 +1,6 @@
 # AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy
 
-**2023 | IEEE International Conference on Big Data | research paper**
+**2023 | IEEE International Conference on Big Data | conference paper**
 
 **Authors:** Pranjal Chakraborty, Naser Ezzati-Jivan, Vahid Azhari, François Tetreault
 
@@ -58,11 +58,11 @@ Cite this paper when studying proactive memory-pressure forecasting or process-l
 
 ### APA 7
 
-Chakraborty, P., Ezzati-Jivan, N., Azhari, V., & Tetreault, F. (2023). AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy. IEEE International Conference on Big Data. https://doi.org/10.1109/bigdata59044.2023.10386937
+Chakraborty, P., Ezzati-Jivan, N., Azhari, V., & Tetreault, F. (2023). AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy. In IEEE International Conference on Big Data (pp. 1637-1646). https://doi.org/10.1109/bigdata59044.2023.10386937
 
 ### IEEE
 
-P. Chakraborty, N. Ezzati-Jivan, V. Azhari, and F. Tetreault, "AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy," in IEEE International Conference on Big Data, 2023, doi: 10.1109/bigdata59044.2023.10386937
+P. Chakraborty, N. Ezzati-Jivan, V. Azhari, and F. Tetreault, "AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy," in IEEE International Conference on Big Data, pp. 1637-1646, 2023, doi: 10.1109/bigdata59044.2023.10386937
 
 ```bibtex
 @inproceedings{ezzatiJivan2023altooma,
@@ -70,6 +70,8 @@ P. Chakraborty, N. Ezzati-Jivan, V. Azhari, and F. Tetreault, "AltOOM: A Data-dr
   title = {AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy},
   year = {2023},
   booktitle = {IEEE International Conference on Big Data},
+  pages = {1637-1646},
+  publisher = {IEEE},
   doi = {10.1109/bigdata59044.2023.10386937},
   url = {https://doi.org/10.1109/bigdata59044.2023.10386937}
 }
@@ -79,7 +81,7 @@ P. Chakraborty, N. Ezzati-Jivan, V. Azhari, and F. Tetreault, "AltOOM: A Data-dr
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937; author identity matched to Naser Ezzati-Jivan in the local research catalog; AltOOM PDF pp. 1, 4-10: perf/sar collection, 34 metrics, 85% threshold, prediction models, burst ranking, evaluation tables, limitations, and future work; local AltOOM PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

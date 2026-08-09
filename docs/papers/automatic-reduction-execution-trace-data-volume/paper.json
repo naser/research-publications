@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "automatic-reduction-execution-trace-data-volume",
   "page_url": "https://naser.github.io/research-publications/papers/automatic-reduction-execution-trace-data-volume/",
   "title": "Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems",
@@ -11,10 +11,38 @@
     "Naser Ezzati-Jivan",
     "Michel Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Amir Haghshenas",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/292/8169.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel Dagenais",
+      "orcid": null,
+      "profile_url": null
+    }
+  ],
   "publication": {
     "year": 2024,
     "venue": "The 37th Canadian Conference on Artificial Intelligence",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2024-05-27",
+    "online_date": "2024-05-27",
+    "print_date": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null,
+    "publisher": "PubPub",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "conference paper",
   "status": "public_cc_by_article_page",
@@ -26,8 +54,31 @@
   "abstract": "In large microservice systems, collecting too little or too much trace data can make performance modeling unreliable. This work introduces a two-phase gradient-boosting method that identifies the most important trace features for predicting CPU and memory demand. Using a comprehensive Alibaba dataset, the study reports more than 69% reduction in data volume without compromising, and sometimes improving, model accuracy. The retained features emphasize inter-service communication and resource-access patterns.",
   "abstract_source": "official Canadian AI Proceedings PubPub page observed 2026-08-03",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "In large microservice systems, collecting too little or too much trace data can make performance modeling unreliable. This work introduces a two-phase gradient-boosting method that identifies the most important trace features for predicting CPU and memory demand. Using a comprehensive Alibaba dataset, the study reports more than 69% reduction in data volume without compromising, and sometimes improving, model accuracy. The retained features emphasize inter-service communication and resource-access patterns.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "official Canadian AI Proceedings PubPub page"
+      },
+      {
+        "note": "PubPub page reports CC-BY 4.0 and a Download action"
+      },
+      {
+        "note": "DBLP metadata matched by title, authors, and year"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper uses gradient boosting and feature importance to reduce the amount of trace data needed for microservice performance modeling.",
     "problem": "Large-scale microservice performance modeling faces a collection trade-off: too many trace/log features increase collection and analysis cost, while too few can remove information needed to predict resource use. Existing logging-placement approaches may require access to internals that is difficult to obtain across large microservice deployments.",
@@ -94,7 +145,7 @@
     "canonical_version_id": "pubpub-doi"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "official Canadian AI Proceedings PubPub page",
       "PubPub page reports CC-BY 4.0 and a Download action",
@@ -109,6 +160,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

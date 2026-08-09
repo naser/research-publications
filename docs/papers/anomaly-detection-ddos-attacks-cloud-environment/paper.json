@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "anomaly-detection-ddos-attacks-cloud-environment",
   "page_url": "https://naser.github.io/research-publications/papers/anomaly-detection-ddos-attacks-cloud-environment/",
   "title": "The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment",
@@ -11,10 +11,51 @@
     "Chamseddine Talhi",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Hossein Abbasi",
+      "orcid": "https://orcid.org/0000-0002-4024-4355",
+      "profile_url": "https://dblp.org/pid/241/6443.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Martine Bellaiche",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/06/7909.html"
+    },
+    {
+      "name": "Chamseddine Talhi",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/63/6619.html"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2021,
     "venue": "Journal of Hardware and Systems Security",
-    "type": "journal article"
+    "type": "journal article",
+    "publication_date": "2021-10-16",
+    "online_date": "2021-10-16",
+    "print_date": "2021-12",
+    "volume": "5",
+    "issue": "3-4",
+    "pages": "208-222",
+    "article_number": null,
+    "publisher": "Springer Science and Business Media LLC",
+    "issn": [
+      "2509-3428",
+      "2509-3436"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "journal article",
   "status": "published_with_public_preview",
@@ -26,8 +67,31 @@
   "abstract": "The accessible Springer preview associates the paper with a unified anomaly-detection approach for bandwidth-, application-, and connection-exhaustion DDoS groups, using CUSUM-style change detection and representative HTTP, database/application, and TCP SYN-flood attacks.",
   "abstract_source": "Springer two-page preview, paraphrased; complete article not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The accessible Springer preview associates the paper with a unified anomaly-detection approach for bandwidth-, application-, and connection-exhaustion DDoS groups, using CUSUM-style change detection and representative HTTP, database/application, and TCP SYN-flood attacks.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DOI: https://doi.org/10.1007/s41635-021-00119-z"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21"
+      },
+      {
+        "note": "Official Springer preview read privately; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; private evidence report: reports/agent-batch-04.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The record identifies a cloud-DDoS anomaly-detection study that distinguishes multiple exhaustion-oriented attack types.",
     "problem": "Cloud DDoS attacks can consume different resource layers and require detection methods that distinguish their behavioral signatures.",
@@ -93,7 +157,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DOI: https://doi.org/10.1007/s41635-021-00119-z",
       "DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21",
@@ -108,6 +172,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

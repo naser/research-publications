@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares persian-news feature extraction 
 
 ### APA 7
 
-Jivan, N. E., Fazeli, M., & Yousefi, K. S. (2010). New Approach for Automated Categorizing and Finding Similarities in Online Persian News. International Symposium on Information Management in a Changing World (IMCW 2010), Communications in Computer and Information Science 96. https://doi.org/10.1007/978-3-642-16032-5_11
+Jivan, N. E., Fazeli, M., & Yousefi, K. S. (2010). New Approach for Automated Categorizing and Finding Similarities in Online Persian News. In International Symposium on Information Management in a Changing World (IMCW 2010), Communications in Computer and Information Science 96 (pp. 120-128). https://doi.org/10.1007/978-3-642-16032-5_11
 
 ### IEEE
 
-N. E. Jivan, M. Fazeli, and K. S. Yousefi, "New Approach for Automated Categorizing and Finding Similarities in Online Persian News," in International Symposium on Information Management in a Changing World (IMCW 2010), Communications in Computer and Information Science 96, 2010, doi: 10.1007/978-3-642-16032-5_11
+N. E. Jivan, M. Fazeli, and K. S. Yousefi, "New Approach for Automated Categorizing and Finding Similarities in Online Persian News," in International Symposium on Information Management in a Changing World (IMCW 2010), Communications in Computer and Information Science 96, pp. 120-128, 2010, doi: 10.1007/978-3-642-16032-5_11
 
 ```bibtex
 @inproceedings{ezzatiJivan2010newapproach,
@@ -72,6 +72,10 @@ N. E. Jivan, M. Fazeli, and K. S. Yousefi, "New Approach for Automated Categoriz
   title = {New Approach for Automated Categorizing and Finding Similarities in Online Persian News},
   year = {2010},
   booktitle = {International Symposium on Information Management in a Changing World (IMCW 2010), Communications in Computer and Information Science 96},
+  pages = {120-128},
+  publisher = {Springer Berlin Heidelberg},
+  issn = {1865-0929, 1865-0937},
+  isbn = {9783642160318, 9783642160325},
   doi = {10.1007/978-3-642-16032-5_11},
   url = {https://doi.org/10.1007/978-3-642-16032-5_11}
 }
@@ -81,7 +85,7 @@ N. E. Jivan, M. Fazeli, and K. S. Yousefi, "New Approach for Automated Categoriz
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF evidence note: pdf-evidence/notes/parallel-batch-04-new-approach-for-automated-categorizing-and-finding-similarities-in-online-persian-news.md; Springer version-of-record metadata: https://link.springer.com/chapter/10.1007/978-3-642-16032-5_11; Public conference copy: https://bilgiyonetimi.net/by2010/bildiriler/jivan.pdf; Local PDF hash verified: 93BD457A0C3B4C8FA6AC470421D8A0535166BDA5D5E688635FC7E7FED7CAFF64
 - Machine-readable record: [paper.json](./paper.json)

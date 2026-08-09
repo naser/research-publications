@@ -1,1 +1,1 @@
-Ezzati-Jivan, N., Shameli-Sendi, A., & Dagenais, M. R. (2013). Multilevel Label Placement for Execution Trace Events. 2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE). https://doi.org/10.1109/CCECE.2013.6567826
+Ezzati-Jivan, N., Shameli-Sendi, A., & Dagenais, M. R. (2013). Multilevel Label Placement for Execution Trace Events. In 2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE) (pp. 1-6). https://doi.org/10.1109/CCECE.2013.6567826

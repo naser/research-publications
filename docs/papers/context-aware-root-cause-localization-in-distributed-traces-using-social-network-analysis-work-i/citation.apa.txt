@@ -1,1 +1,1 @@
-Panahandeh, M., Ezzati-Jivan, N., Hamou-Lhadj, A., & Miller, J. (2024). Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper). ACM/SPEC ICPE Companion. https://doi.org/10.1145/3629527.3651426
+Panahandeh, M., Ezzati-Jivan, N., Hamou-Lhadj, A., & Miller, J. (2024). Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper). In ACM/SPEC ICPE Companion (pp. 1-6). https://doi.org/10.1145/3629527.3651426

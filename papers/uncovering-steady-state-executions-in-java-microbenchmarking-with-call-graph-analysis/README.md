@@ -63,11 +63,11 @@ Cite this paper when your work uses or compares call-stack-sampled call graphs/f
 
 ### APA 7
 
-Janecek, M., Patel, S., & Ezzati-Jivan, N. (2023). Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis. ACM/SPEC ICPE Companion. https://doi.org/10.1145/3578245.3584689
+Janecek, M., Patel, S., & Ezzati-Jivan, N. (2023). Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis. In ACM/SPEC ICPE Companion (pp. 71-75). https://doi.org/10.1145/3578245.3584689
 
 ### IEEE
 
-M. Janecek, S. Patel, and N. Ezzati-Jivan, "Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis," in ACM/SPEC ICPE Companion, 2023, doi: 10.1145/3578245.3584689
+M. Janecek, S. Patel, and N. Ezzati-Jivan, "Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis," in ACM/SPEC ICPE Companion, pp. 71-75, 2023, doi: 10.1145/3578245.3584689
 
 ```bibtex
 @inproceedings{ezzatiJivan2023uncoveringsteady,
@@ -75,6 +75,8 @@ M. Janecek, S. Patel, and N. Ezzati-Jivan, "Uncovering Steady State Executions i
   title = {Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis},
   year = {2023},
   booktitle = {ACM/SPEC ICPE Companion},
+  pages = {71-75},
+  publisher = {ACM},
   doi = {10.1145/3578245.3584689},
   url = {https://doi.org/10.1145/3578245.3584689}
 }
@@ -84,7 +86,7 @@ M. Janecek, S. Patel, and N. Ezzati-Jivan, "Uncovering Steady State Executions i
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE Companion PDF: perf call-stack sampling, Graph2Vec, flame graphs, PELT, 50-of-1,000 labelling protocol, and five classifiers; ICPE Companion PDF: Java binary-search workload, 10,000 executions/10 forks, Ubuntu/kernel/Perf/Log4j environment, and accuracy/precision/recall table; Paper-linked code/results repository recorded as a public resource; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

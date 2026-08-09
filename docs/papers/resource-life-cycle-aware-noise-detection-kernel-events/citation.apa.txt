@@ -1,1 +1,1 @@
-Noferesti, M., Grandy, B., & Ezzati-Jivan, N. (2024). Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring. 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON). https://doi.org/10.1109/CASCON62161.2024.10838205
+Noferesti, M., Grandy, B., & Ezzati-Jivan, N. (2024). Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring. In 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON) (pp. 1-10). https://doi.org/10.1109/CASCON62161.2024.10838205

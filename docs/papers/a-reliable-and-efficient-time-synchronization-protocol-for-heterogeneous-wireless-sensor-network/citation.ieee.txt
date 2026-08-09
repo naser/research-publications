@@ -1,1 +1,1 @@
-M. Jabbarifar, A. Shameli-Sendi, A. Sadighian, N. Ezzati-Jivan, and M. R. Dagenais, "A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network," Wireless Sensor Network, 2010, doi: 10.4236/wsn.2010.212109
+M. Jabbarifar, A. Shameli-Sendi, A. Sadighian, N. Ezzati-Jivan, and M. R. Dagenais, "A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network," Wireless Sensor Network, vol. 02, no. 12, pp. 910-918, 2010, doi: 10.4236/wsn.2010.212109

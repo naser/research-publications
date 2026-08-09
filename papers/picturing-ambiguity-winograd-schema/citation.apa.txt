@@ -1,1 +1,1 @@
-Park, B., Janecek, M., Ezzati-Jivan, N., Li, Y., & Emami, A. (2024). Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge. ACL 2024 Main Conference. https://doi.org/10.18653/v1/2024.acl-long.22
+Park, B., Janecek, M., Ezzati-Jivan, N., Li, Y., & Emami, A. (2024). Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge. In ACL 2024 Main Conference (pp. 355-374). https://doi.org/10.18653/v1/2024.acl-long.22

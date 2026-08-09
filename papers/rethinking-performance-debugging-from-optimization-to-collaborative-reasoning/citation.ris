@@ -6,6 +6,9 @@ TI  - Rethinking Performance Debugging: From Optimization to Collaborative Reaso
 PY  - 2026
 T2  - SIGSOFT FSE Companion
 AB  - The paper argues that microservice performance debugging should preserve and empirically challenge multiple evidence-grounded explanations under uncertainty instead of optimizing for one opaque root-cause answer.
+SP  - 1312
+EP  - 1316
+PB  - ACM
 DO  - 10.1145/3803437.3805578
 UR  - https://doi.org/10.1145/3803437.3805578
 ER  -

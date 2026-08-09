@@ -1,1 +1,1 @@
-M. Janecek, S. Patel, and N. Ezzati-Jivan, "Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis," in ACM/SPEC ICPE Companion, 2023, doi: 10.1145/3578245.3584689
+M. Janecek, S. Patel, and N. Ezzati-Jivan, "Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis," in ACM/SPEC ICPE Companion, pp. 71-75, 2023, doi: 10.1145/3578245.3584689

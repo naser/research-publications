@@ -63,11 +63,11 @@ Cite this paper when your work uses or compares context-aware spectrum-based RCA
 
 ### APA 7
 
-Panahandeh, M., Ezzati-Jivan, N., Hamou-Lhadj, A., & Miller, J. (2024). Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper). ACM/SPEC ICPE Companion. https://doi.org/10.1145/3629527.3651426
+Panahandeh, M., Ezzati-Jivan, N., Hamou-Lhadj, A., & Miller, J. (2024). Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper). In ACM/SPEC ICPE Companion (pp. 1-6). https://doi.org/10.1145/3629527.3651426
 
 ### IEEE
 
-M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper)," in ACM/SPEC ICPE Companion, 2024, doi: 10.1145/3629527.3651426
+M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper)," in ACM/SPEC ICPE Companion, pp. 1-6, 2024, doi: 10.1145/3629527.3651426
 
 ```bibtex
 @inproceedings{ezzatiJivan2024contextaware,
@@ -75,6 +75,8 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Context-aware Ro
   title = {Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper)},
   year = {2024},
   booktitle = {ACM/SPEC ICPE Companion},
+  pages = {1-6},
+  publisher = {ACM},
   doi = {10.1145/3629527.3651426},
   url = {https://doi.org/10.1145/3629527.3651426}
 }
@@ -84,7 +86,7 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Context-aware Ro
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE Companion WIP PDF: weighted service-call graphs, Louvain, PageRank, Jaccard diversity, Ochiai, and heuristic search; ICPE Companion WIP PDF: AIOps Challenge 2020 Dataset C, 46 labelled windows, fault categories, top-1/top-3 results, and tied-candidate reduction; ICPE Companion WIP PDF: preliminary-evaluation limitation and future-work scope; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

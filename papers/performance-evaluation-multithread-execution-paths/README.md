@@ -1,6 +1,6 @@
 # Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis
 
-**2022 | Performance Evaluation | research paper**
+**2022 | Performance Evaluation | journal article**
 
 **Authors:** Majid Rezazadeh, Naser Ezzati-Jivan, Seyed Vahid Azhari, Michel R. Dagenais
 
@@ -57,18 +57,23 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Rezazadeh, M., Ezzati-Jivan, N., Azhari, S. V., & Dagenais, M. R. (2022). Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis. Performance Evaluation. https://doi.org/10.1016/j.peva.2022.102289
+Rezazadeh, M., Ezzati-Jivan, N., Azhari, S. V., & Dagenais, M. R. (2022). Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis. Performance Evaluation, 155-156, 102289. https://doi.org/10.1016/j.peva.2022.102289
 
 ### IEEE
 
-M. Rezazadeh, N. Ezzati-Jivan, S. V. Azhari, and M. R. Dagenais, "Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis," in Performance Evaluation, 2022, doi: 10.1016/j.peva.2022.102289
+M. Rezazadeh, N. Ezzati-Jivan, S. V. Azhari, and M. R. Dagenais, "Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis," Performance Evaluation, vol. 155-156, Art. no. 102289, 2022, doi: 10.1016/j.peva.2022.102289
 
 ```bibtex
-@inproceedings{ezzatiJivan2022performanceevaluation,
+@article{ezzatiJivan2022performanceevaluation,
   author = {Majid Rezazadeh and Naser Ezzati-Jivan and Seyed Vahid Azhari and Michel R. Dagenais},
   title = {Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis},
   year = {2022},
-  booktitle = {Performance Evaluation},
+  journal = {Performance Evaluation},
+  volume = {155-156},
+  pages = {102289},
+  eid = {102289},
+  publisher = {Elsevier BV},
+  issn = {0166-5316},
   doi = {10.1016/j.peva.2022.102289},
   url = {https://doi.org/10.1016/j.peva.2022.102289}
 }
@@ -78,7 +83,7 @@ M. Rezazadeh, N. Ezzati-Jivan, S. V. Azhari, and M. R. Dagenais, "Performance Ev
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1016/j.peva.2022.102289; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
 - Machine-readable record: [paper.json](./paper.json)

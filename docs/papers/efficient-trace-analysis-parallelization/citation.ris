@@ -1,10 +1,17 @@
-TY  - GEN
+TY  - JOUR
 AU  - Reumont-Locke, Fabien
 AU  - Ezzati-Jivan, Naser
 AU  - Dagenais, Michel R.
 TI  - Efficient Methods for Trace Analysis Parallelization
 PY  - 2019
 T2  - International Journal of Parallel Programming
+VL  - 47
+IS  - 5-6
+SP  - 951
+EP  - 972
+PB  - Springer Science and Business Media LLC
+SN  - 0885-7458
+SN  - 1573-7640
 DO  - 10.1007/s10766-019-00631-4
 UR  - https://doi.org/10.1007/s10766-019-00631-4
 ER  -

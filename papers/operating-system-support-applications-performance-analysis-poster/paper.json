@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "operating-system-support-applications-performance-analysis-poster",
   "page_url": "https://naser.github.io/research-publications/papers/operating-system-support-applications-performance-analysis-poster/",
   "title": "Poster Paper: Operating System Support for Applications Performance Analysis",
@@ -8,10 +8,33 @@
     "Riley VanDonge",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Riley VanDonge",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/333/8400.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2022,
     "venue": "2022 IEEE International Conference on Cloud Engineering (IC2E)",
-    "type": "poster paper"
+    "type": "poster paper",
+    "publication_date": "2022-09",
+    "online_date": null,
+    "print_date": "2022-09",
+    "volume": null,
+    "issue": null,
+    "pages": "279-280",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "poster paper",
   "status": "published_metadata_record",
@@ -23,8 +46,31 @@
   "abstract": null,
   "abstract_source": null,
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The verified record identifies this work as a 2022 IC2E poster paper on operating-system support for performance analysis, but the full technical contribution was not available in the captured sources.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DOI: https://doi.org/10.1109/IC2E55432.2022.00039"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-02.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The verified record identifies this work as a 2022 IC2E poster paper on operating-system support for performance analysis, but the full technical contribution was not available in the captured sources.",
     "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
@@ -87,7 +133,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DOI: https://doi.org/10.1109/IC2E55432.2022.00039",
       "DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22",
@@ -102,6 +148,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

@@ -7,6 +7,9 @@ TI  - DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Us
 PY  - 2020
 T2  - IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM)
 AB  - This paper addresses the challenge of understanding the waiting dependencies between the threads and hardware resources required to complete a task. The objective is to improve software performance by detecting the underlying bottlenecks caused by system-level blocking dependencies. In this paper, we use a system level tracing approach to extract a Waiting Dependency Graph that shows the breakdown of a task execution among all the interleaving threads and resources. The method allows developers and system administrators to quickly discover how the total execution time is divided among its interacting threads and resources. Ultimately, the method helps detecting bottlenecks and highlighting their possible causes. Our experiments show the effectiveness of the proposed approach in several industry-level use cases. Three performance anomalies are analysed and explained using the proposed approach. Evaluating the method efficiency reveals that the imposed overhead never exceeds 10.1%, therefore making it suitable for in-production environments.
+SP  - 149
+EP  - 159
+PB  - IEEE
 DO  - 10.1109/SCAM51674.2020.00022
 UR  - https://doi.org/10.1109/SCAM51674.2020.00022
 ER  -

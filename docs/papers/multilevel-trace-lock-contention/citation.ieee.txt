@@ -1,1 +1,1 @@
-M. Rezazadeh, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Multi-Level Execution Trace Based Lock Contention Analysis," in IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), 2020, doi: 10.1109/issrew51248.2020.00068
+M. Rezazadeh, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Multi-Level Execution Trace Based Lock Contention Analysis," in IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), pp. 177-182, 2020, doi: 10.1109/issrew51248.2020.00068

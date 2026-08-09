@@ -1,10 +1,15 @@
-TY  - GEN
+TY  - JOUR
 AU  - Nadeau, Didier
 AU  - Ezzati-Jivan, Naser
 AU  - Dagenais, Michel R.
 TI  - Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing
 PY  - 2019
 T2  - Journal of Systems Architecture
+VL  - 98
+SP  - 346
+EP  - 360
+PB  - Elsevier BV
+SN  - 1383-7621
 DO  - 10.1016/j.sysarc.2019.02.016
 UR  - https://doi.org/10.1016/j.sysarc.2019.02.016
 ER  -

@@ -67,11 +67,11 @@ Cite this paper when your work uses or compares exploratory mining of source-cod
 
 ### APA 7
 
-Tabrizi, A. K., & Ezzati-Jivan, N. (2023). Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State. Companion of the 2023 ACM/SPEC International Conference on Performance Engineering (ICPE '23 Companion). https://doi.org/10.1145/3578245.3584695
+Tabrizi, A. K., & Ezzati-Jivan, N. (2023). Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State. In Companion of the 2023 ACM/SPEC International Conference on Performance Engineering (ICPE '23 Companion) (pp. 107-111). https://doi.org/10.1145/3578245.3584695
 
 ### IEEE
 
-A. K. Tabrizi and N. Ezzati-Jivan, "Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State," in Companion of the 2023 ACM/SPEC International Conference on Performance Engineering (ICPE '23 Companion), 2023, doi: 10.1145/3578245.3584695
+A. K. Tabrizi and N. Ezzati-Jivan, "Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State," in Companion of the 2023 ACM/SPEC International Conference on Performance Engineering (ICPE '23 Companion), pp. 107-111, 2023, doi: 10.1145/3578245.3584695
 
 ```bibtex
 @inproceedings{ezzatiJivan2023softwaremining,
@@ -79,6 +79,8 @@ A. K. Tabrizi and N. Ezzati-Jivan, "Software Mining - Investigating Correlation 
   title = {Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State},
   year = {2023},
   booktitle = {Companion of the 2023 ACM/SPEC International Conference on Performance Engineering (ICPE '23 Companion)},
+  pages = {107-111},
+  publisher = {ACM},
   doi = {10.1145/3578245.3584695},
   url = {https://doi.org/10.1145/3578245.3584695}
 }
@@ -88,7 +90,7 @@ A. K. Tabrizi and N. Ezzati-Jivan, "Software Mining - Investigating Correlation 
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/parallel-batch-02-software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste-bd15de158b.md; Software Mining PDF pp. 1-4: JMH, 586 results from 30 Java projects, srcML/Lizard features, steady-state labels, group counts, and Apriori confidences; Local PDF hash verified: D883BDDA4B750A791CF29D206A9FD20C3E75F6BF21276761B563206134FF43DC; Public source: https://research.spec.org/icpe_proceedings/2023/companion/p107.pdf
 - Machine-readable record: [paper.json](./paper.json)

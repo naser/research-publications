@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "efficient-model-query-visualize-system-states-traces",
   "page_url": "https://naser.github.io/research-publications/papers/efficient-model-query-visualize-system-states-traces/",
   "title": "Efficient Model to Query and Visualize the System States Extracted from Trace Data",
@@ -10,10 +10,49 @@
     "Florian Wininger",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Alexandre Montplaisir",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/134/9492.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Florian Wininger",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/134/9574.html"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2013,
     "venue": "Runtime Verification 2013 (RV 2013)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2013",
+    "online_date": null,
+    "print_date": "2013",
+    "volume": null,
+    "issue": null,
+    "pages": "219-234",
+    "article_number": null,
+    "publisher": "Springer Berlin Heidelberg",
+    "issn": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "isbn": [
+      "9783642407864",
+      "9783642407871"
+    ],
+    "crossref_type": "book-chapter"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_preview",
@@ -25,8 +64,34 @@
   "abstract": "The accessible chapter preview describes a tree-based model of system states and intervals extracted from traces, with online/offline operation and interactive analysis at approximately 1 TB trace scale.",
   "abstract_source": "Springer two-page chapter preview, paraphrased; complete chapter not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The accessible chapter preview describes a tree-based model of system states and intervals extracted from traces, with online/offline operation and interactive analysis at approximately 1 TB trace scale.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "PolyPublie record: https://publications.polymtl.ca/13394/"
+      },
+      {
+        "note": "DOI: https://doi.org/10.1007/978-3-642-40787-1_13"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/rv/MontplaisirJWD13.html"
+      },
+      {
+        "note": "Official Springer preview read privately; SHA-256 1f03c9225de8d032f7015b076dd48c7805897c006cb226016baa0e9b01eb621d; private evidence report: reports/agent-batch-04.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The abstract presents a model for querying and visualizing system states extracted from very large traces.",
     "problem": "State intervals extracted from traces need a representation that supports efficient queries and visualization at very large data volumes.",
@@ -92,7 +157,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "PolyPublie record: https://publications.polymtl.ca/13394/",
       "DOI: https://doi.org/10.1007/978-3-642-40787-1_13",
@@ -108,6 +173,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

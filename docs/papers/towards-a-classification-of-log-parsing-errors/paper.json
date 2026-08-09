@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "towards-a-classification-of-log-parsing-errors",
   "page_url": "https://naser.github.io/research-publications/papers/towards-a-classification-of-log-parsing-errors/",
   "title": "Towards a Classification of Log Parsing Errors",
@@ -10,10 +10,43 @@
     "Otmane Ait Mohamed",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Issam Sedki",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/305/0448.html"
+    },
+    {
+      "name": "Abdelwahab Hamou-Lhadj",
+      "orcid": "https://orcid.org/0000-0002-3319-5006",
+      "profile_url": "https://dblp.org/pid/70/2136.html"
+    },
+    {
+      "name": "Otmane Ait Mohamed",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/95/4076.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2023,
     "venue": "IEEE International Conference on Program Comprehension (ICPC)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2023-05",
+    "online_date": null,
+    "print_date": "2023-05",
+    "volume": null,
+    "issue": null,
+    "pages": "84-88",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_full_text",
@@ -25,8 +58,34 @@
   "abstract": null,
   "abstract_source": "Author-hosted full-text PDF reviewed; abstract paraphrased for this catalog.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper classifies recurring log-parsing errors and connects them to token and event characteristics that can guide parser design and logging practice.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "ICPC log-parsing-errors PDF: four LogHub datasets, four parsers, 8,000 labelled events, nine categories, and error-count method"
+      },
+      {
+        "note": "ICPC log-parsing-errors PDF: 523 errors, 65.51% tokenization-related share, 28.5% regex share, per-category values, and HealthApp/OpenStack examples"
+      },
+      {
+        "note": "Zenodo dataset DOI and author-hosted PDF recorded as public resources"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper classifies recurring log-parsing errors and connects them to token and event characteristics that can guide parser design and logging practice.",
     "problem": "Log parsers vary substantially across datasets, but recurring error causes lack a common classification that can guide parser design and logging practice (p. 1).",
@@ -100,7 +159,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "ICPC log-parsing-errors PDF: four LogHub datasets, four parsers, 8,000 labelled events, nine categories, and error-count method",
       "ICPC log-parsing-errors PDF: 523 errors, 65.51% tokenization-related share, 28.5% regex share, per-category values, and HealthApp/OpenStack examples",
@@ -116,6 +175,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

@@ -64,11 +64,11 @@ Cite this paper when your work uses or compares top-down multilevel root-cause a
 
 ### APA 7
 
-Ezzati-Jivan, N., Daoud, H., & Dagenais, M. R. (2021). Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis. Wireless Communications and Mobile Computing. https://doi.org/10.1155/2021/8478076
+Ezzati-Jivan, N., Daoud, H., & Dagenais, M. R. (2021). Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis. Wireless Communications and Mobile Computing, 2021(1), 8478076. https://doi.org/10.1155/2021/8478076
 
 ### IEEE
 
-N. Ezzati-Jivan, H. Daoud, and M. R. Dagenais, "Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis," Wireless Communications and Mobile Computing, 2021, doi: 10.1155/2021/8478076
+N. Ezzati-Jivan, H. Daoud, and M. R. Dagenais, "Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis," Wireless Communications and Mobile Computing, vol. 2021, no. 1, 2021, doi: 10.1155/2021/8478076
 
 ```bibtex
 @article{ezzatiJivan2021debuggingof,
@@ -76,6 +76,11 @@ N. Ezzati-Jivan, H. Daoud, and M. R. Dagenais, "Debugging of Performance Degrada
   title = {Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis},
   year = {2021},
   journal = {Wireless Communications and Mobile Computing},
+  volume = {2021},
+  number = {1},
+  eid = {8478076},
+  publisher = {Wiley},
+  issn = {1530-8669, 1530-8677},
   doi = {10.1155/2021/8478076},
   url = {https://doi.org/10.1155/2021/8478076}
 }
@@ -85,7 +90,7 @@ N. Ezzati-Jivan, H. Daoud, and M. R. Dagenais, "Debugging of Performance Degrada
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/debugging-performance-degradation-distributed-requests.md; Debugging paper pp. 1-10: LTTng, LAMP probes, multihost synchronization, State History Tree, data model, and top-down algorithm; Debugging paper pp. 11-13: MediaWiki/WordPress/MariaDB and unusual-latency use cases, cache analysis, and disk contention diagnosis; Debugging paper pp. 14-16: ApacheBench environment, tracing overhead, state-store/PostgreSQL comparison, conclusion, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -1,4 +1,4 @@
-TY  - GEN
+TY  - CONF
 AU  - Rezazadeh, Majid
 AU  - Ezzati-Jivan, Naser
 AU  - Galea, Evan
@@ -6,6 +6,9 @@ AU  - Dagenais, Michel R.
 TI  - Multi-Level Execution Trace Based Lock Contention Analysis
 PY  - 2020
 T2  - IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)
+SP  - 177
+EP  - 182
+PB  - IEEE
 DO  - 10.1109/issrew51248.2020.00068
 UR  - https://doi.org/10.1109/issrew51248.2020.00068
 ER  -

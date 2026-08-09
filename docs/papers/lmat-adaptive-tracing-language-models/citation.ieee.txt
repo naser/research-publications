@@ -1,1 +1,1 @@
-K. Darvishi, M. Noferesti, Y. Sehgal, and N. Ezzati-Jivan, "LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models," in Journal of Systems and Software, 2026, doi: 10.1016/j.jss.2026.112890
+K. Darvishi, M. Noferesti, Y. Sehgal, and N. Ezzati-Jivan, "LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models," Journal of Systems and Software, vol. 238, Art. no. 112890, 2026, doi: 10.1016/j.jss.2026.112890

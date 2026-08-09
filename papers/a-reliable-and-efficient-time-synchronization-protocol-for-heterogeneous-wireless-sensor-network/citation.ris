@@ -8,6 +8,13 @@ TI  - A Reliable and Efficient Time Synchronization Protocol for Heterogeneous W
 PY  - 2010
 T2  - Wireless Sensor Network
 AB  - L-SYNCng combines topology-aware clustering with convex-hull estimation of clock offset and skew for synchronization in heterogeneous wireless sensor networks.
+VL  - 02
+IS  - 12
+SP  - 910
+EP  - 918
+PB  - Scientific Research Publishing, Inc.
+SN  - 1945-3078
+SN  - 1945-3086
 DO  - 10.4236/wsn.2010.212109
 UR  - https://doi.org/10.4236/wsn.2010.212109
 ER  -

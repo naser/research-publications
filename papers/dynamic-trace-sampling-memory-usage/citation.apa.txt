@@ -1,1 +1,1 @@
-Daoud, H., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications. IEEE High Performance Extreme Computing Conference (HPEC). https://doi.org/10.1109/hpec.2017.8091061
+Daoud, H., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications. In IEEE High Performance Extreme Computing Conference (HPEC) (pp. 1-7). https://doi.org/10.1109/hpec.2017.8091061

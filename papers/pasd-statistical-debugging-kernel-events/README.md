@@ -1,6 +1,6 @@
 # PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events
 
-**2023 | IEEE Working Conference on Source Code Analysis and Manipulation (SCAM) | research paper**
+**2023 | IEEE Working Conference on Source Code Analysis and Manipulation (SCAM) | conference paper**
 
 **Authors:** Mohammed Adib Khan, Morteza Noferesti, Naser Ezzati-Jivan
 
@@ -58,11 +58,11 @@ Cite this paper when using kernel events and Perf call stacks for source-free st
 
 ### APA 7
 
-Khan, M. A., Noferesti, M., & Ezzati-Jivan, N. (2023). PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events. IEEE Working Conference on Source Code Analysis and Manipulation (SCAM). https://doi.org/10.1109/scam59687.2023.00025
+Khan, M. A., Noferesti, M., & Ezzati-Jivan, N. (2023). PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events. In IEEE Working Conference on Source Code Analysis and Manipulation (SCAM) (pp. 151-161). https://doi.org/10.1109/scam59687.2023.00025
 
 ### IEEE
 
-M. A. Khan, M. Noferesti, and N. Ezzati-Jivan, "PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events," in IEEE Working Conference on Source Code Analysis and Manipulation (SCAM), 2023, doi: 10.1109/scam59687.2023.00025
+M. A. Khan, M. Noferesti, and N. Ezzati-Jivan, "PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events," in IEEE Working Conference on Source Code Analysis and Manipulation (SCAM), pp. 151-161, 2023, doi: 10.1109/scam59687.2023.00025
 
 ```bibtex
 @inproceedings{ezzatiJivan2023pasda,
@@ -70,6 +70,8 @@ M. A. Khan, M. Noferesti, and N. Ezzati-Jivan, "PASD: A Performance Analysis App
   title = {PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events},
   year = {2023},
   booktitle = {IEEE Working Conference on Source Code Analysis and Manipulation (SCAM)},
+  pages = {151-161},
+  publisher = {IEEE},
   doi = {10.1109/scam59687.2023.00025},
   url = {https://doi.org/10.1109/scam59687.2023.00025}
 }
@@ -79,7 +81,7 @@ M. A. Khan, M. Noferesti, and N. Ezzati-Jivan, "PASD: A Performance Analysis App
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/scam59687.2023.00025; author identity matched to Naser Ezzati-Jivan in the local research catalog; PASD PDF pp. 1-5: kernel-event tracing, Perf call stacks, metric thresholds, statistical debugging, and suspect ranking; PASD PDF pp. 6-9: Firefox and ls cases, reported functions, data volumes, and offline analysis cost; PASD PDF pp. 9-10: limitations and future-work boundary; local PASD PDF hash verified in pdf-evidence/notes/pasd-statistical-debugging-kernel-events.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

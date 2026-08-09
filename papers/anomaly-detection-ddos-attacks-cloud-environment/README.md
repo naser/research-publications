@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Abbasi, H., Ezzati-Jivan, N., Bellaiche, M., Talhi, C., & Dagenais, M. R. (2021). The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment. Journal of Hardware and Systems Security. https://doi.org/10.1007/s41635-021-00119-z
+Abbasi, H., Ezzati-Jivan, N., Bellaiche, M., Talhi, C., & Dagenais, M. R. (2021). The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment. Journal of Hardware and Systems Security, 5(3-4), 208-222. https://doi.org/10.1007/s41635-021-00119-z
 
 ### IEEE
 
-H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment," Journal of Hardware and Systems Security, 2021, doi: 10.1007/s41635-021-00119-z
+H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment," Journal of Hardware and Systems Security, vol. 5, no. 3-4, pp. 208-222, 2021, doi: 10.1007/s41635-021-00119-z
 
 ```bibtex
 @article{ezzatiJivan2021theuse,
@@ -70,6 +70,11 @@ H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "The Use
   title = {The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment},
   year = {2021},
   journal = {Journal of Hardware and Systems Security},
+  volume = {5},
+  number = {3-4},
+  pages = {208-222},
+  publisher = {Springer Science and Business Media LLC},
+  issn = {2509-3428, 2509-3436},
   doi = {10.1007/s41635-021-00119-z},
   url = {https://doi.org/10.1007/s41635-021-00119-z}
 }
@@ -79,7 +84,7 @@ H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "The Use
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1007/s41635-021-00119-z; DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21; Official Springer preview read privately; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; private evidence report: reports/agent-batch-04.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares declarative XML FSMs for user-de
 
 ### APA 7
 
-Kouame, K. G., Ezzati-Jivan, N., & Dagenais, M. R. (2015). A Flexible Data-Driven Approach for Execution Trace Filtering. IEEE BigData Congress. https://doi.org/10.1109/BigDataCongress.2015.112
+Kouame, K. G., Ezzati-Jivan, N., & Dagenais, M. R. (2015). A Flexible Data-Driven Approach for Execution Trace Filtering. In IEEE BigData Congress (pp. 698-703). https://doi.org/10.1109/BigDataCongress.2015.112
 
 ### IEEE
 
-K. G. Kouame, N. Ezzati-Jivan, and M. R. Dagenais, "A Flexible Data-Driven Approach for Execution Trace Filtering," in IEEE BigData Congress, 2015, doi: 10.1109/BigDataCongress.2015.112
+K. G. Kouame, N. Ezzati-Jivan, and M. R. Dagenais, "A Flexible Data-Driven Approach for Execution Trace Filtering," in IEEE BigData Congress, pp. 698-703, 2015, doi: 10.1109/BigDataCongress.2015.112
 
 ```bibtex
 @inproceedings{ezzatiJivan2015aflexible,
@@ -72,6 +72,8 @@ K. G. Kouame, N. Ezzati-Jivan, and M. R. Dagenais, "A Flexible Data-Driven Appro
   title = {A Flexible Data-Driven Approach for Execution Trace Filtering},
   year = {2015},
   booktitle = {IEEE BigData Congress},
+  pages = {698-703},
+  publisher = {IEEE},
   doi = {10.1109/BigDataCongress.2015.112},
   url = {https://doi.org/10.1109/BigDataCongress.2015.112}
 }
@@ -81,7 +83,7 @@ K. G. Kouame, N. Ezzati-Jivan, and M. R. Dagenais, "A Flexible Data-Driven Appro
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Flexible filtering PDF: XML FSM architecture, Trace Compass/state-system execution, raw/synthetic event support, and UI integration; Flexible filtering PDF: LTTng 2.4.0, Ubuntu 14.10, kernel 3.13.0-43, hping3 SYN-flood workload, thresholds, synthetic-event counts, and XML/Java timings; Flexible filtering PDF: condition-check/runtime and understandability limitations plus future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

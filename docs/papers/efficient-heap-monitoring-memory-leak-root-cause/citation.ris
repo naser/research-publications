@@ -6,6 +6,9 @@ AU  - Tetreault, Francois
 TI  - Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis
 PY  - 2021
 T2  - 2021 IEEE International Conference on Big Data (BigData)
+SP  - 3020
+EP  - 3030
+PB  - IEEE
 DO  - 10.1109/BigData52589.2021.9671473
 UR  - https://doi.org/10.1109/BigData52589.2021.9671473
 ER  -

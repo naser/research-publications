@@ -1,6 +1,6 @@
 # Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications
 
-**2017 | IEEE High Performance Extreme Computing Conference (HPEC) | research paper**
+**2017 | IEEE High Performance Extreme Computing Conference (HPEC) | conference paper**
 
 **Authors:** Houssem Daoud, Naser Ezzati-Jivan, Michel R. Dagenais
 
@@ -59,11 +59,11 @@ Cite this paper when your work uses or compares a timer-plus-memory-variability 
 
 ### APA 7
 
-Daoud, H., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications. IEEE High Performance Extreme Computing Conference (HPEC). https://doi.org/10.1109/hpec.2017.8091061
+Daoud, H., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications. In IEEE High Performance Extreme Computing Conference (HPEC) (pp. 1-7). https://doi.org/10.1109/hpec.2017.8091061
 
 ### IEEE
 
-H. Daoud, N. Ezzati-Jivan, and M. R. Dagenais, "Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications," in IEEE High Performance Extreme Computing Conference (HPEC), 2017, doi: 10.1109/hpec.2017.8091061
+H. Daoud, N. Ezzati-Jivan, and M. R. Dagenais, "Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications," in IEEE High Performance Extreme Computing Conference (HPEC), pp. 1-7, 2017, doi: 10.1109/hpec.2017.8091061
 
 ```bibtex
 @inproceedings{ezzatiJivan2017dynamictrace,
@@ -71,6 +71,8 @@ H. Daoud, N. Ezzati-Jivan, and M. R. Dagenais, "Dynamic trace-based sampling alg
   title = {Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications},
   year = {2017},
   booktitle = {IEEE High Performance Extreme Computing Conference (HPEC)},
+  pages = {1-7},
+  publisher = {IEEE},
   doi = {10.1109/hpec.2017.8091061},
   url = {https://doi.org/10.1109/hpec.2017.8091061}
 }
@@ -80,7 +82,7 @@ H. Daoud, N. Ezzati-Jivan, and M. R. Dagenais, "Dynamic trace-based sampling alg
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/hpec.2017.8091061; author identity matched to Naser Ezzati-Jivan in the local research catalog; Dynamic sampling PDF pp. 1-5: problem, LTTng 2.8, kernel-module design, dynamic policy, and environment; Dynamic sampling PDF pp. 5-7: benchmark, Firefox/Totem comparisons, overhead, event-count reduction, and correctness; Dynamic sampling PDF p. 7: stated extension to other high-frequency kernel metrics; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

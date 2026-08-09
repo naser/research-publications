@@ -5,6 +5,7 @@
 - Catalog: https://naser.github.io/research-publications/
 - Catalog JSON: https://naser.github.io/research-publications/catalog.json
 - Paper JSON Schema: https://naser.github.io/research-publications/schemas/paper.schema.json
+- Crossref bibliography cache: https://naser.github.io/research-publications/schemas/crossref-bibliography.json
 - Controlled topics: https://naser.github.io/research-publications/topics/index.html
 - Recurring keywords: https://naser.github.io/research-publications/keywords/index.html
 - Research profile: https://naser.github.io/tabs/research/

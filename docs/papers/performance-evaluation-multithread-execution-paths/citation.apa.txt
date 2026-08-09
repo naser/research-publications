@@ -1,1 +1,1 @@
-Rezazadeh, M., Ezzati-Jivan, N., Azhari, S. V., & Dagenais, M. R. (2022). Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis. Performance Evaluation. https://doi.org/10.1016/j.peva.2022.102289
+Rezazadeh, M., Ezzati-Jivan, N., Azhari, S. V., & Dagenais, M. R. (2022). Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis. Performance Evaluation, 155-156, 102289. https://doi.org/10.1016/j.peva.2022.102289

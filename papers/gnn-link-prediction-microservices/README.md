@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares temporal link prediction in micr
 
 ### APA 7
 
-Khodabandeh, G., Ezaz, A., Babaei, M., & Ezzati-Jivan, N. (2025). Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3676151.3719362
+Khodabandeh, G., Ezaz, A., Babaei, M., & Ezzati-Jivan, N. (2025). Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures. In ACM/SPEC International Conference on Performance Engineering (ICPE) (pp. 19-30). https://doi.org/10.1145/3676151.3719362
 
 ### IEEE
 
-G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2025, doi: 10.1145/3676151.3719362
+G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures," in ACM/SPEC International Conference on Performance Engineering (ICPE), pp. 19-30, 2025, doi: 10.1145/3676151.3719362
 
 ```bibtex
 @inproceedings{ezzatiJivan2025utilizinggraph,
@@ -72,6 +72,8 @@ G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural
   title = {Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures},
   year = {2025},
   booktitle = {ACM/SPEC International Conference on Performance Engineering (ICPE)},
+  pages = {19-30},
+  publisher = {ACM},
   doi = {10.1145/3676151.3719362},
   url = {https://doi.org/10.1145/3676151.3719362}
 }
@@ -81,7 +83,7 @@ G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2501.15019; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

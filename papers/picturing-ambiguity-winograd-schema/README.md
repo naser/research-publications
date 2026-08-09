@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares wINOVIS as a 500-scenario benchm
 
 ### APA 7
 
-Park, B., Janecek, M., Ezzati-Jivan, N., Li, Y., & Emami, A. (2024). Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge. ACL 2024 Main Conference. https://doi.org/10.18653/v1/2024.acl-long.22
+Park, B., Janecek, M., Ezzati-Jivan, N., Li, Y., & Emami, A. (2024). Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge. In ACL 2024 Main Conference (pp. 355-374). https://doi.org/10.18653/v1/2024.acl-long.22
 
 ### IEEE
 
-B. Park, M. Janecek, N. Ezzati-Jivan, Y. Li, and A. Emami, "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge," in ACL 2024 Main Conference, 2024, doi: 10.18653/v1/2024.acl-long.22
+B. Park, M. Janecek, N. Ezzati-Jivan, Y. Li, and A. Emami, "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge," in ACL 2024 Main Conference, pp. 355-374, 2024, doi: 10.18653/v1/2024.acl-long.22
 
 ```bibtex
 @inproceedings{ezzatiJivan2024picturingambiguity,
@@ -72,6 +72,8 @@ B. Park, M. Janecek, N. Ezzati-Jivan, Y. Li, and A. Emami, "Picturing Ambiguity:
   title = {Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge},
   year = {2024},
   booktitle = {ACL 2024 Main Conference},
+  pages = {355-374},
+  publisher = {Association for Computational Linguistics},
   doi = {10.18653/v1/2024.acl-long.22},
   url = {https://aclanthology.org/2024.acl-long.22/}
 }
@@ -81,7 +83,7 @@ B. Park, M. Janecek, N. Ezzati-Jivan, Y. Li, and A. Emami, "Picturing Ambiguity:
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ACL Anthology and DOI metadata; official arXiv abstract and PDF page 2405.16277; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

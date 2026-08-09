@@ -5,6 +5,11 @@ AU  - Ezzati-Jivan, Naser
 TI  - B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing
 PY  - 2026
 T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+AB  - Performance antipatterns capture recurring behaviours that degrade software efficiency. Black-box approaches aim to detect such issues without modifying the application. This paper presents B-Perf, a system-level black-box method that reconstructs execution, memory, and messaging behaviour from kernel-level traces. By analysing scheduling, allocation, and communication events, B-Perf derives workload-dependent behavioural trends and reports antipattern indicators grounded in resource usage and contention. To handle large trace volumes, the approach follows a pipeline of workload generation, event gathering, trace handling, and antipattern inference. We evaluate B-Perf on three representative antipatterns—One Lane Bridge, Empty Semi Trucks, and Excessive Dynamic Allocation—and apply it to traces from real multi-threaded applications. The results show that system-level events are often sufficient to expose bottlenecks linked to resource contention and system-level interactions. A key limitation is that kernel traces provide limited visibility into fine-grained in-process behaviour. When performance issues are driven by internal logic or function-level interactions, B-Perf may capture only indirect symptoms and may not reveal the full root cause. Within this scope, B-Perf provides practical and efficient black-box detection for antipatterns driven by resource interaction and competition.
+SP  - 96
+EP  - 107
+PB  - ACM
+SN  - 979-8-4007-2325-4
 DO  - 10.1145/3777884.3797014
 UR  - https://doi.org/10.1145/3777884.3797014
 ER  -

@@ -1,6 +1,6 @@
 # DTraComp: Comparing distributed execution traces for understanding intermittent latency sources
 
-**2026 | Journal of Systems and Software | research paper**
+**2026 | Journal of Systems and Software | journal article**
 
 **Authors:** Maryam Ekhlasi, Fatemeh Faraji Daneshgar, Michel Dagenais, Maxime Lamothe, Naser Ezzati-Jivan, Matthew Khouzam
 
@@ -57,18 +57,23 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Ekhlasi, M., Daneshgar, F. F., Dagenais, M., Lamothe, M., Ezzati-Jivan, N., & Khouzam, M. (2026). DTraComp: Comparing distributed execution traces for understanding intermittent latency sources. Journal of Systems and Software. https://doi.org/10.1016/j.jss.2026.112990
+Ekhlasi, M., Daneshgar, F. F., Dagenais, M., Lamothe, M., Ezzati-Jivan, N., & Khouzam, M. (2026). DTraComp: Comparing distributed execution traces for understanding intermittent latency sources. Journal of Systems and Software, 241, 112990. https://doi.org/10.1016/j.jss.2026.112990
 
 ### IEEE
 
-M. Ekhlasi, F. F. Daneshgar, M. Dagenais, M. Lamothe, N. Ezzati-Jivan, and M. Khouzam, "DTraComp: Comparing distributed execution traces for understanding intermittent latency sources," in Journal of Systems and Software, 2026, doi: 10.1016/j.jss.2026.112990
+M. Ekhlasi, F. F. Daneshgar, M. Dagenais, M. Lamothe, N. Ezzati-Jivan, and M. Khouzam, "DTraComp: Comparing distributed execution traces for understanding intermittent latency sources," Journal of Systems and Software, vol. 241, Art. no. 112990, 2026, doi: 10.1016/j.jss.2026.112990
 
 ```bibtex
-@inproceedings{ezzatiJivan2026dtracompcomparing,
+@article{ezzatiJivan2026dtracompcomparing,
   author = {Maryam Ekhlasi and Fatemeh Faraji Daneshgar and Michel Dagenais and Maxime Lamothe and Naser Ezzati-Jivan and Matthew Khouzam},
   title = {DTraComp: Comparing distributed execution traces for understanding intermittent latency sources},
   year = {2026},
-  booktitle = {Journal of Systems and Software},
+  journal = {Journal of Systems and Software},
+  volume = {241},
+  pages = {112990},
+  eid = {112990},
+  publisher = {Elsevier BV},
+  issn = {0164-1212},
   doi = {10.1016/j.jss.2026.112990},
   url = {https://doi.org/10.1016/j.jss.2026.112990}
 }
@@ -78,7 +83,7 @@ M. Ekhlasi, F. F. Daneshgar, M. Dagenais, M. Lamothe, N. Ezzati-Jivan, and M. Kh
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112990; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
 - Machine-readable record: [paper.json](./paper.json)

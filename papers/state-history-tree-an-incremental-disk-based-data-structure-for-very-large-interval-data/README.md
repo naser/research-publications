@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares incremental disk-based interval 
 
 ### APA 7
 
-Montplaisir-Goncalves, A., Ezzati-Jivan, N., Wininger, F., & Dagenais, M. R. (2013). State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data. IEEE International Conference on Social Computing. https://doi.org/10.1109/SocialCom.2013.107
+Montplaisir-Goncalves, A., Ezzati-Jivan, N., Wininger, F., & Dagenais, M. R. (2013). State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data. In IEEE International Conference on Social Computing (pp. 716-724). https://doi.org/10.1109/SocialCom.2013.107
 
 ### IEEE
 
-A. Montplaisir-Goncalves, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data," in IEEE International Conference on Social Computing, 2013, doi: 10.1109/SocialCom.2013.107
+A. Montplaisir-Goncalves, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data," in IEEE International Conference on Social Computing, pp. 716-724, 2013, doi: 10.1109/SocialCom.2013.107
 
 ```bibtex
 @inproceedings{ezzatiJivan2013statehistory,
@@ -72,6 +72,8 @@ A. Montplaisir-Goncalves, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Sta
   title = {State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data},
   year = {2013},
   booktitle = {IEEE International Conference on Social Computing},
+  pages = {716-724},
+  publisher = {IEEE},
   doi = {10.1109/SocialCom.2013.107},
   url = {https://doi.org/10.1109/SocialCom.2013.107}
 }
@@ -81,7 +83,7 @@ A. Montplaisir-Goncalves, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Sta
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design; State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons; State History Tree PDF: chronological-insertion limitation and conclusion boundary; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

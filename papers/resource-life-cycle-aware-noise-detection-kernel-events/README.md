@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Noferesti, M., Grandy, B., & Ezzati-Jivan, N. (2024). Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring. 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON). https://doi.org/10.1109/CASCON62161.2024.10838205
+Noferesti, M., Grandy, B., & Ezzati-Jivan, N. (2024). Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring. In 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON) (pp. 1-10). https://doi.org/10.1109/CASCON62161.2024.10838205
 
 ### IEEE
 
-M. Noferesti, B. Grandy, and N. Ezzati-Jivan, "Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring," in 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON), 2024, doi: 10.1109/CASCON62161.2024.10838205
+M. Noferesti, B. Grandy, and N. Ezzati-Jivan, "Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring," in 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON), pp. 1-10, 2024, doi: 10.1109/CASCON62161.2024.10838205
 
 ```bibtex
 @inproceedings{ezzatiJivan2024resourcelife,
@@ -70,6 +70,8 @@ M. Noferesti, B. Grandy, and N. Ezzati-Jivan, "Resource Life-Cycle Aware Noise D
   title = {Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring},
   year = {2024},
   booktitle = {2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)},
+  pages = {1-10},
+  publisher = {IEEE},
   doi = {10.1109/CASCON62161.2024.10838205},
   url = {https://doi.org/10.1109/CASCON62161.2024.10838205}
 }
@@ -79,7 +81,7 @@ M. Noferesti, B. Grandy, and N. Ezzati-Jivan, "Resource Life-Cycle Aware Noise D
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838205; CASCON program: https://iccsse.github.io/CASCON2024/program/; J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217419132863; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

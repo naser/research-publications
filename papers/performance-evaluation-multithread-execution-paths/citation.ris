@@ -1,4 +1,4 @@
-TY  - GEN
+TY  - JOUR
 AU  - Rezazadeh, Majid
 AU  - Ezzati-Jivan, Naser
 AU  - Azhari, Seyed Vahid
@@ -6,6 +6,11 @@ AU  - Dagenais, Michel R.
 TI  - Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis
 PY  - 2022
 T2  - Performance Evaluation
+VL  - 155-156
+SP  - 102289
+AN  - 102289
+PB  - Elsevier BV
+SN  - 0166-5316
 DO  - 10.1016/j.peva.2022.102289
 UR  - https://doi.org/10.1016/j.peva.2022.102289
 ER  -

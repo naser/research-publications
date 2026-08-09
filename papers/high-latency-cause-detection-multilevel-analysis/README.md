@@ -1,6 +1,6 @@
 # High latency cause detection using multilevel dynamic analysis
 
-**2018 | IEEE Systems Conference | research paper**
+**2018 | IEEE Systems Conference | conference paper**
 
 **Authors:** Naser Ezzati-Jivan, Genevieve Bastien, Michel R. Dagenais
 
@@ -59,11 +59,11 @@ Cite this paper when your work uses or compares multilevel PHP/LTTng/kernel corr
 
 ### APA 7
 
-Ezzati-Jivan, N., Bastien, G., & Dagenais, M. R. (2018). High latency cause detection using multilevel dynamic analysis. IEEE Systems Conference. https://doi.org/10.1109/syscon.2018.8369613
+Ezzati-Jivan, N., Bastien, G., & Dagenais, M. R. (2018). High latency cause detection using multilevel dynamic analysis. In IEEE Systems Conference (pp. 1-8). https://doi.org/10.1109/syscon.2018.8369613
 
 ### IEEE
 
-N. Ezzati-Jivan, G. Bastien, and M. R. Dagenais, "High latency cause detection using multilevel dynamic analysis," in IEEE Systems Conference, 2018, doi: 10.1109/syscon.2018.8369613
+N. Ezzati-Jivan, G. Bastien, and M. R. Dagenais, "High latency cause detection using multilevel dynamic analysis," in IEEE Systems Conference, pp. 1-8, 2018, doi: 10.1109/syscon.2018.8369613
 
 ```bibtex
 @inproceedings{ezzatiJivan2018highlatency,
@@ -71,6 +71,8 @@ N. Ezzati-Jivan, G. Bastien, and M. R. Dagenais, "High latency cause detection u
   title = {High latency cause detection using multilevel dynamic analysis},
   year = {2018},
   booktitle = {IEEE Systems Conference},
+  pages = {1-8},
+  publisher = {IEEE},
   doi = {10.1109/syscon.2018.8369613},
   url = {https://doi.org/10.1109/syscon.2018.8369613}
 }
@@ -80,7 +82,7 @@ N. Ezzati-Jivan, G. Bastien, and M. R. Dagenais, "High latency cause detection u
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613; author identity matched to Naser Ezzati-Jivan in the local research catalog; High latency PDF pp. 1-5: problem, LTTng/LTTng-UST instrumentation, state model, and environment; High latency PDF pp. 5, 8-9: PHP/Drupal use cases, OPcache contention, throughput, and tracing overhead; High latency PDF p. 9: validity threats and conclusion/future-work boundary; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

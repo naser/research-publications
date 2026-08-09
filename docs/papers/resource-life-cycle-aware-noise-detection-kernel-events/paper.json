@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "resource-life-cycle-aware-noise-detection-kernel-events",
   "page_url": "https://naser.github.io/research-publications/papers/resource-life-cycle-aware-noise-detection-kernel-events/",
   "title": "Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring",
@@ -9,10 +9,38 @@
     "Ben Grandy",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Morteza Noferesti",
+      "orcid": null,
+      "profile_url": "https://ieeexplore.ieee.org/author/125083277698132"
+    },
+    {
+      "name": "Ben Grandy",
+      "orcid": null,
+      "profile_url": "https://ieeexplore.ieee.org/author/786647424220158"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://ieeexplore.ieee.org/author/37071999400"
+    }
+  ],
   "publication": {
     "year": 2024,
     "venue": "2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2024-11-11",
+    "online_date": null,
+    "print_date": "2024-11-11",
+    "volume": null,
+    "issue": null,
+    "pages": "1-10",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -24,8 +52,34 @@
   "abstract": "The available synopsis describes passive kernel-event monitoring and alignment of CPU, disk, and network request life cycles for noise detection; detailed evaluation was not captured.",
   "abstract_source": "CASCON metadata and author synopsis, paraphrased; full text not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The available synopsis describes passive kernel-event monitoring and alignment of CPU, disk, and network request life cycles for noise detection; detailed evaluation was not captured.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DOI: https://doi.org/10.1109/CASCON62161.2024.10838205"
+      },
+      {
+        "note": "CASCON program: https://iccsse.github.io/CASCON2024/program/"
+      },
+      {
+        "note": "J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217419132863"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-02.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The accessible synopsis identifies a passive kernel-event approach for detecting noise by aligning resource request life cycles.",
     "problem": "Performance observations can contain resource-related noise that is difficult to distinguish without correlating low-level request activity across CPU, disk, and network resources.",
@@ -90,7 +144,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DOI: https://doi.org/10.1109/CASCON62161.2024.10838205",
       "CASCON program: https://iccsse.github.io/CASCON2024/program/",
@@ -106,6 +160,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

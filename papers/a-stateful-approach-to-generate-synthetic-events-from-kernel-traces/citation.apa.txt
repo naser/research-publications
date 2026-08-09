@@ -1,1 +1,1 @@
-Ezzati-Jivan, N., & Dagenais, M. R. (2012). A Stateful Approach to Generate Synthetic Events from Kernel Traces. Advances in Software Engineering. https://doi.org/10.1155/2012/140368
+Ezzati-Jivan, N., & Dagenais, M. R. (2012). A Stateful Approach to Generate Synthetic Events from Kernel Traces. Advances in Software Engineering, 2012, 1-12. https://doi.org/10.1155/2012/140368

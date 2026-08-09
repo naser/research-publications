@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "state-history-tree-an-incremental-disk-based-data-structure-for-very-large-interval-data",
   "page_url": "https://naser.github.io/research-publications/papers/state-history-tree-an-incremental-disk-based-data-structure-for-very-large-interval-data/",
   "title": "State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data",
@@ -10,10 +10,43 @@
     "Florian Wininger",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Alexandre Montplaisir-Goncalves",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Florian Wininger",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/134/9574.html"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2013,
     "venue": "IEEE International Conference on Social Computing",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2013-09",
+    "online_date": null,
+    "print_date": "2013-09",
+    "volume": null,
+    "issue": null,
+    "pages": "716-724",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_full_text",
@@ -25,8 +58,34 @@
   "abstract": "The State History Tree is a disk-based structure for incrementally arriving, time-ordered interval data derived from LTTng system traces, designed to support very large histories.",
   "abstract_source": "Public institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The State History Tree is a disk-based structure for incrementally arriving, time-ordered interval data derived from LTTng system traces, designed to support very large histories.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design"
+      },
+      {
+        "note": "State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons"
+      },
+      {
+        "note": "State History Tree PDF: chronological-insertion limitation and conclusion boundary"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper presents a disk-oriented State History Tree that stores very large, time-ordered trace intervals without repeated node rebalancing.",
     "problem": "Trace-derived, time-ordered interval histories can exceed memory capacity; generic R-trees rebalance repeatedly during chronological construction, while B-trees do not directly model intervals (pp. 2-5).",
@@ -99,7 +158,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design",
       "State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons",
@@ -115,6 +174,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

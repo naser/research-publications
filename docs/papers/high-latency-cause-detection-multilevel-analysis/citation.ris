@@ -1,10 +1,13 @@
-TY  - GEN
+TY  - CONF
 AU  - Ezzati-Jivan, Naser
 AU  - Bastien, Genevieve
 AU  - Dagenais, Michel R.
 TI  - High latency cause detection using multilevel dynamic analysis
 PY  - 2018
 T2  - IEEE Systems Conference
+SP  - 1
+EP  - 8
+PB  - IEEE
 DO  - 10.1109/syscon.2018.8369613
 UR  - https://doi.org/10.1109/syscon.2018.8369613
 ER  -

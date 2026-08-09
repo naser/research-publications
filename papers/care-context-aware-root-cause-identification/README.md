@@ -1,6 +1,6 @@
 # CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics
 
-**2026 | IEEE Transactions on Software Engineering | research paper**
+**2026 | IEEE Transactions on Software Engineering | journal article**
 
 **Authors:** Mahsa Panahandeh, Naser Ezzati-Jivan, Abdelwahab Hamou-Lhadj, James Miller
 
@@ -58,18 +58,23 @@ Cite this paper when combining distributed traces, profiling metrics, and contex
 
 ### APA 7
 
-Panahandeh, M., Ezzati-Jivan, N., Hamou-Lhadj, A., & Miller, J. (2026). CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics. IEEE Transactions on Software Engineering. https://doi.org/10.1109/tse.2025.3645143
+Panahandeh, M., Ezzati-Jivan, N., Hamou-Lhadj, A., & Miller, J. (2026). CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics. IEEE Transactions on Software Engineering, 52(2), 691-715. https://doi.org/10.1109/tse.2025.3645143
 
 ### IEEE
 
-M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics," in IEEE Transactions on Software Engineering, 2026, doi: 10.1109/tse.2025.3645143
+M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics," IEEE Transactions on Software Engineering, vol. 52, no. 2, pp. 691-715, 2026, doi: 10.1109/tse.2025.3645143
 
 ```bibtex
-@inproceedings{ezzatiJivan2026carecontext,
+@article{ezzatiJivan2026carecontext,
   author = {Mahsa Panahandeh and Naser Ezzati-Jivan and Abdelwahab Hamou-Lhadj and James Miller},
   title = {CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics},
   year = {2026},
-  booktitle = {IEEE Transactions on Software Engineering},
+  journal = {IEEE Transactions on Software Engineering},
+  volume = {52},
+  number = {2},
+  pages = {691-715},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+  issn = {0098-5589, 1939-3520, 2326-3881},
   doi = {10.1109/tse.2025.3645143},
   url = {https://doi.org/10.1109/tse.2025.3645143}
 }
@@ -79,7 +84,7 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aw
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/tse.2025.3645143; author identity matched to Naser Ezzati-Jivan in the local research catalog; CARE PDF pp. 1-2: problem, context-aware observability motivation, and contribution; CARE PDF pp. 3-10: service graphs, profiling metrics, trace clustering, graph ranking, and weighted spectrum analysis; CARE PDF pp. 9-12: baselines, TrainTicket and China Mobile Zhejiang datasets, metrics, accuracy results, and double-root-cause evaluation; CARE PDF pp. 11-12: HeMiRCA data mismatch and evaluation boundary; local CARE PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

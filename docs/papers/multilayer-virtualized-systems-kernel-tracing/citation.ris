@@ -1,10 +1,13 @@
-TY  - GEN
+TY  - CONF
 AU  - Biancheri, Cedric
 AU  - Ezzati-Jivan, Naser
 AU  - Dagenais, Michel R.
 TI  - Multilayer Virtualized Systems Analysis with Kernel Tracing
 PY  - 2016
 T2  - IEEE Future Internet of Things and Cloud Workshops (FiCloudW)
+SP  - 1
+EP  - 6
+PB  - IEEE
 DO  - 10.1109/w-ficloud.2016.18
 UR  - https://doi.org/10.1109/w-ficloud.2016.18
 ER  -

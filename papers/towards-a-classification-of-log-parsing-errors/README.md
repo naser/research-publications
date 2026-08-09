@@ -64,11 +64,11 @@ Cite this paper when your work uses or compares the nine-category taxonomy of re
 
 ### APA 7
 
-Sedki, I., Hamou-Lhadj, A., Mohamed, O. A., & Ezzati-Jivan, N. (2023). Towards a Classification of Log Parsing Errors. IEEE International Conference on Program Comprehension (ICPC). https://doi.org/10.1109/ICPC58990.2023.00023
+Sedki, I., Hamou-Lhadj, A., Mohamed, O. A., & Ezzati-Jivan, N. (2023). Towards a Classification of Log Parsing Errors. In IEEE International Conference on Program Comprehension (ICPC) (pp. 84-88). https://doi.org/10.1109/ICPC58990.2023.00023
 
 ### IEEE
 
-I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Towards a Classification of Log Parsing Errors," in IEEE International Conference on Program Comprehension (ICPC), 2023, doi: 10.1109/ICPC58990.2023.00023
+I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Towards a Classification of Log Parsing Errors," in IEEE International Conference on Program Comprehension (ICPC), pp. 84-88, 2023, doi: 10.1109/ICPC58990.2023.00023
 
 ```bibtex
 @inproceedings{ezzatiJivan2023towardsa,
@@ -76,6 +76,8 @@ I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Towards a Classif
   title = {Towards a Classification of Log Parsing Errors},
   year = {2023},
   booktitle = {IEEE International Conference on Program Comprehension (ICPC)},
+  pages = {84-88},
+  publisher = {IEEE},
   doi = {10.1109/ICPC58990.2023.00023},
   url = {https://doi.org/10.1109/ICPC58990.2023.00023}
 }
@@ -85,7 +87,7 @@ I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Towards a Classif
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPC log-parsing-errors PDF: four LogHub datasets, four parsers, 8,000 labelled events, nine categories, and error-count method; ICPC log-parsing-errors PDF: 523 errors, 65.51% tokenization-related share, 28.5% regex share, per-category values, and HealthApp/OpenStack examples; Zenodo dataset DOI and author-hosted PDF recorded as public resources; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

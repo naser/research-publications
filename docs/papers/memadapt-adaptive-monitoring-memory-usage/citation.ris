@@ -7,6 +7,9 @@ TI  - MemAdapt: Adaptive Monitoring of Memory Usage Through Irregularly Sampled 
 PY  - 2024
 T2  - 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)
 AB  - The available author synopsis describes an adaptive memory-monitoring approach built around irregularly sampled data and forecasting; the full algorithm and evaluation were not captured.
+SP  - 1
+EP  - 6
+PB  - IEEE
 DO  - 10.1109/CASCON62161.2024.10838037
 UR  - https://doi.org/10.1109/CASCON62161.2024.10838037
 ER  -

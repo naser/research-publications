@@ -1,1 +1,1 @@
-L. Gelle, N. Ezzati-Jivan, and M. R. Dagenais, "Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications," in Electronics, 2021, doi: 10.3390/electronics10212610
+L. Gelle, N. Ezzati-Jivan, and M. R. Dagenais, "Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications," Electronics, vol. 10, no. 21, Art. no. 2610, 2021, doi: 10.3390/electronics10212610

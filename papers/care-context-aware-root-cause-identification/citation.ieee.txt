@@ -1,1 +1,1 @@
-M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics," in IEEE Transactions on Software Engineering, 2026, doi: 10.1109/tse.2025.3645143
+M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics," IEEE Transactions on Software Engineering, vol. 52, no. 2, pp. 691-715, 2026, doi: 10.1109/tse.2025.3645143

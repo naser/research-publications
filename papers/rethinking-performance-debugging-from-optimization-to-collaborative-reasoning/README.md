@@ -59,11 +59,11 @@ Cite this paper when your work uses or compares the Reasoning Surface concept: a
 
 ### APA 7
 
-Panahandeh, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2026). Rethinking Performance Debugging: From Optimization to Collaborative Reasoning. SIGSOFT FSE Companion. https://doi.org/10.1145/3803437.3805578
+Panahandeh, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2026). Rethinking Performance Debugging: From Optimization to Collaborative Reasoning. In SIGSOFT FSE Companion (pp. 1312-1316). https://doi.org/10.1145/3803437.3805578
 
 ### IEEE
 
-M. Panahandeh, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Rethinking Performance Debugging: From Optimization to Collaborative Reasoning," in SIGSOFT FSE Companion, 2026, doi: 10.1145/3803437.3805578
+M. Panahandeh, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Rethinking Performance Debugging: From Optimization to Collaborative Reasoning," in SIGSOFT FSE Companion, pp. 1312-1316, 2026, doi: 10.1145/3803437.3805578
 
 ```bibtex
 @inproceedings{ezzatiJivan2026rethinkingperformance,
@@ -71,6 +71,8 @@ M. Panahandeh, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Rethinking Performance Debu
   title = {Rethinking Performance Debugging: From Optimization to Collaborative Reasoning},
   year = {2026},
   booktitle = {SIGSOFT FSE Companion},
+  pages = {1312-1316},
+  publisher = {ACM},
   doi = {10.1145/3803437.3805578},
   url = {https://doi.org/10.1145/3803437.3805578}
 }
@@ -80,7 +82,7 @@ M. Panahandeh, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Rethinking Performance Debu
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Public author manuscript: AgentDebug roles, Reasoning Surface, Gemini 2.5 Flash, CART critique, and Pareto-style curation; Public author manuscript: 200 datasets, Train-Ticket/E-Shopper, 2.1 million RPC traces, fault regimes, F1 results, convergence ratio, and API cost; Public author manuscript: optimization-versus-reasoning boundary and future-work discussion; Publication DOI and DBLP identity verified; private five-page ResearchGate author manuscript read and SHA-256 verified as 9fad98132e1dd1c06f885bf6b033c80691bd067a3f7c31f7f27841d9b9d4c308; private evidence note: pdf-evidence/notes/rethinking-performance-debugging-agentdebug.md
 - Machine-readable record: [paper.json](./paper.json)

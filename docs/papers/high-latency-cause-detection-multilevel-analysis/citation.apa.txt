@@ -1,1 +1,1 @@
-Ezzati-Jivan, N., Bastien, G., & Dagenais, M. R. (2018). High latency cause detection using multilevel dynamic analysis. IEEE Systems Conference. https://doi.org/10.1109/syscon.2018.8369613
+Ezzati-Jivan, N., Bastien, G., & Dagenais, M. R. (2018). High latency cause detection using multilevel dynamic analysis. In IEEE Systems Conference (pp. 1-8). https://doi.org/10.1109/syscon.2018.8369613

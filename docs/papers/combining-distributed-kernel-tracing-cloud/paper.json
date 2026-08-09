@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "combining-distributed-kernel-tracing-cloud",
   "page_url": "https://naser.github.io/research-publications/papers/combining-distributed-kernel-tracing-cloud/",
   "title": "Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications",
@@ -9,10 +9,40 @@
     "Naser Ezzati-Jivan",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Loïc Gelle",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": null
+    }
+  ],
   "publication": {
     "year": 2021,
     "venue": "Electronics",
-    "type": "research paper"
+    "type": "journal article",
+    "publication_date": "2021-10-26",
+    "online_date": "2021-10-26",
+    "print_date": null,
+    "volume": "10",
+    "issue": "21",
+    "pages": "2610",
+    "article_number": null,
+    "publisher": "MDPI AG",
+    "issn": [
+      "2079-9292"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "research paper",
   "status": "published_with_public_full_text",
@@ -24,8 +54,43 @@
   "abstract": "Distributed tracing allows tracking user requests that span across multiple services and machines in a distributed application. However, typical cloud applications rely on abstraction layers that can hide the root cause of latency happening between processes or in the kernel. Because of its focus on high-level events, existing methodologies in applying distributed tracing can be limited when trying to detect complex contentions and relate them back to the originating requests. Cross-level analyses that include kernel-level events are necessary to debug problems as prevalent as mutex or disk contention, however cross-level analysis and associating events in the kernel and distributed tracing data is complex and can add a lot of overhead. This paper describes a new solution for combining distributed tracing with low-level software tracing in order to find the latency root cause better. We explain how we achieve a hybrid trace collection to capture and synchronize both kernel and distributed request events. Then, we present our design and implementation for a critical path analysis. We show that our analysis describes precisely how each request spends its time and what stands in its critical path while limiting overhead.",
   "abstract_source": "Official MDPI full-text HTML, CC BY 4.0, reviewed 2026-08-06: https://www.mdpi.com/2079-9292/10/21/2610",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "Distributed tracing allows tracking user requests that span across multiple services and machines in a distributed application. However, typical cloud applications rely on abstraction layers that can hide the root cause of latency happening between processes or in the kernel. Because of its focus on high-level events, existing methodologies in applying distributed tracing can be limited when trying to detect complex contentions and relate them back to the originating requests. Cross-level analyses that include kernel-level events are necessary to debug problems as prevalent as mutex or disk contention, however cross-level analysis and associating events in the kernel and distributed tracing data is complex and can add a lot of overhead. This paper describes a new solution for combining distributed tracing with low-level software tracing in order to find the latency root cause better. We explain how we achieve a hybrid trace collection to capture and synchronize both kernel and distributed request events. Then, we present our design and implementation for a critical path analysis. We show that our analysis describes precisely how each request spends its time and what stands in its critical path while limiting overhead.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Crossref and local DBLP/venue metadata for 10.3390/electronics10212610"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "Official MDPI HTML, Abstract and Sections 1-3 (reviewed 2026-08-06): distributed/kernel tracing motivation, LTTng/Jaeger/Trace Compass stack, patched Java and Go clients, synchronization events, and request critical-path construction."
+      },
+      {
+        "note": "Official MDPI HTML, Section 4 and Sections 4.1-4.1.2: i7-7820X/32 GB environment, HotROD 10,000-request evaluation, Cassandra 1,000,000-read/write evaluation, sampling configurations, and overhead bounds."
+      },
+      {
+        "note": "Official MDPI HTML, Sections 4.2-4.4: approximately 15-second analysis for 500 MB/20-30-second traces, 1% CPU-control-group use case, 2-second versus approximately 5-millisecond request latency, recurring 100-ms preemption, and transferability limits."
+      },
+      {
+        "note": "Official MDPI HTML, Section 5 and Data Availability Statement: dashboard-triggered snapshots, user-level scheduler/thread-pool tracking, network analysis, multi-host extension, CC BY 4.0 license, and https://github.com/loicgelle/jaeger-go-lttng-instr."
+      },
+      {
+        "note": "The official MDPI PDF URL was verified from the article's citation_pdf_url metadata, but Chrome's PDF endpoint was blocked by an interstitial in this run; no local PDF hash is claimed."
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper combines Jaeger distributed traces with LTTng kernel and user-space events and extends critical-path analysis from threads to distributed requests so request latency can be related to low-level scheduling and resource behavior.",
     "problem": "Distributed request spans identify application-level paths but can miss kernel scheduling, I/O, and CPU contention that explains hidden latency.",
@@ -105,7 +170,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.3390/electronics10212610",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -124,6 +189,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }
