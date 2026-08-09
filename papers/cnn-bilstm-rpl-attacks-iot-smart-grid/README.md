@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [iot-security](../../topics/iot-security.md) | [deep-learning-systems](../../topics/deep-learning-systems.md) | [machine-learning](../../topics/machine-learning.md) | [anomaly-detection](../../topics/anomaly-detection.md)
 
-**Keywords:** [RPL attacks](../../keywords/rpl-attacks.md) | [IoT smart grid](../../keywords/iot-smart-grid.md) | [CNN-BiLSTM](../../keywords/cnn-bilstm.md) | [routing attacks](../../keywords/routing-attacks.md) | [intrusion detection](../../keywords/intrusion-detection.md) | [Middleware 2023](../../keywords/middleware-2023.md)
+**Keywords:** RPL attacks | IoT smart grid | [CNN-BiLSTM](../../keywords/cnn-bilstm.md) | routing attacks | [intrusion detection](../../keywords/intrusion-detection.md) | Middleware 2023
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "CNN-BiLSTM-Based Classification of 
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1145/3626562.3626832; DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

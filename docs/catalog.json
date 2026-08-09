@@ -1,9 +1,18 @@
 {
   "schema_version": "0.4.0",
-  "generated_at": "2026-08-07",
+  "generated_at": "2026-08-08",
   "site_url": "https://naser.github.io/research-publications/",
   "schema_url": "https://naser.github.io/research-publications/schemas/paper.schema.json",
   "vocabulary_url": "https://naser.github.io/research-publications/schemas/vocabularies.json",
+  "creator": {
+    "name": "Naser Ezzati-Jivan",
+    "orcid": "0000-0003-1435-6297",
+    "orcid_url": "https://orcid.org/0000-0003-1435-6297",
+    "research_profile_url": "https://naser.github.io/tabs/research/"
+  },
+  "record_count": 89,
+  "full_text_reviewed_count": 53,
+  "full_text_pending_count": 36,
   "batch": "expanded-catalog-release",
   "records": [
     {
@@ -21,6 +30,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/b-perf-black-box-performance-antipatterns/",
       "canonical_source_url": "https://doi.org/10.1145/3777884.3797014",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "B-Perf reconstructs execution, memory, and messaging behavior from Linux kernel-level traces and infers performance-antipattern indicators without requiring application source access or intrusive instrumentation.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -75,6 +87,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/care-context-aware-root-cause-identification/",
       "canonical_source_url": "https://doi.org/10.1109/tse.2025.3645143",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "CARE combines distributed traces and profiling metrics with graph- and spectrum-based analysis to localize performance root causes in microservices.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -118,6 +133,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/dtracomp-distributed-trace-comparison/",
       "canonical_source_url": "https://doi.org/10.1016/j.jss.2026.112990",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "This work investigates DTraComp: Comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -157,6 +175,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/lmat-adaptive-tracing-language-models/",
       "canonical_source_url": "https://doi.org/10.1016/j.jss.2026.112890",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "LMAT combines multi-task language models for kernel-event and event-duration prediction with online change detection, lightweight error-vector root-cause analysis, and adaptive tracing control.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -214,6 +235,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/observability-runtime-governance-agentic-ai-systems/",
       "canonical_source_url": "https://doi.org/10.1145/3803437.3804904",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The verified record identifies this work as a 2026 FSE paper on agentic-AI observability and runtime governance, but the full technical contribution was not available in the captured sources.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -262,6 +286,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/rethinking-performance-debugging-from-optimization-to-collaborative-reasoning/",
       "canonical_source_url": "https://doi.org/10.1145/3803437.3805578",
       "status": "published_with_public_full_text",
+      "abstract_available": true,
+      "description": "The paper argues that microservice performance debugging should preserve and empirically challenge multiple evidence-grounded explanations under uncertainty instead of optimizing for one opaque root-cause answer.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -322,6 +349,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/taaf-trace-abstraction-analysis-framework/",
       "canonical_source_url": "https://doi.org/10.1145/3744916.3787832",
       "status": "public_arxiv_preprint_with_publication_signal",
+      "abstract_available": false,
+      "description": "TAAF combines time-indexed knowledge graphs with large language models to turn large execution traces into queryable, actionable explanations.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "publication-doi-listed-on-arxiv-page",
@@ -373,6 +403,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/tracesynth-kernel-trace-generation/",
       "canonical_source_url": "https://doi.org/10.1145/3803437.3805222",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "TraceSynth generates novel structured kernel-trace windows with a Transformer diffusion model and repairs generated events against invariants mined from real LTTng traces.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -427,6 +460,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/ai-video-retrieval-semantic-search-timestamp-alignment/",
       "canonical_source_url": "https://doi.org/10.1109/ACDSA65407.2025.11166430",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The verified record identifies this work as a 2025 ACDSA paper on semantic video retrieval, but the full technical contribution was not available in the captured sources.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -475,6 +511,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/developing-a-taxonomy-for-advanced-log-parsing-techniques/",
       "canonical_source_url": "https://doi.org/10.1109/ICPC66645.2025.00061",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper introduces a taxonomy of log-event characteristics that explains why different log parsers fail across systems and parser families.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -537,6 +576,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/efficient-communication-performance-antipattern-detection-microservices/",
       "canonical_source_url": "https://doi.org/10.22541/au.175533132.24109345/v1",
       "status": "preprint_with_public_full_text",
+      "abstract_available": true,
+      "description": "The preprint combines selected communication-related system-call traces with distributed observability traces to detect Blob and Empty Semi Trucks anti-patterns in microservices. It reports supervised, semi-supervised, and unsupervised settings on DeathStarBench scenarios.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -593,6 +635,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/energy-consumption-analysis-large-language-models-cpu-gpu/",
       "canonical_source_url": "https://doi.org/10.1109/CASCON66301.2025.00056",
       "status": "published_with_public_abstract",
+      "abstract_available": true,
+      "description": "The paper presents a multi-level analysis of energy consumption for large language model workloads across CPU and GPU settings, combining diverse static and dynamic metrics to build and validate energy-prediction models across NLP tasks.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -647,6 +692,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/execution-trace-reconstruction-using-diffusion-based-generative-models/",
       "canonical_source_url": "https://doi.org/10.1109/ICSE55347.2025.00063",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper reconstructs missing system-call events in execution traces with diffusion and structured state-space generative models.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -707,6 +755,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/hybridrca-critical-path-aware-tracing/",
       "canonical_source_url": "https://doi.org/10.1109/icsme64153.2025.00056",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "HybridRCA combines critical-path-aware span analysis with targeted kernel metrics to reduce production trace volume while preserving root-cause localization evidence.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -755,6 +806,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/multi-dimensional-bias-analysis-llms-hierarchical-interactions/",
       "canonical_source_url": "https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/",
       "status": "published_with_public_abstract",
+      "abstract_available": true,
+      "description": "The official abstract describes a five-layer framework for analyzing interacting bias dimensions in large language models, with ChatGPT and Gemini used as illustrative systems and context-dependent ranking of bias dimensions.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "institutional-publication-record",
@@ -807,6 +861,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/deba-adaptive-batch-scheduling/",
       "canonical_source_url": "https://arxiv.org/abs/2511.03809",
       "status": "public_arxiv_preprint",
+      "abstract_available": false,
+      "description": "DEBA is an architecture-aware adaptive batch scheduler that uses training-stability signals to decide when and how to change batch size.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "public-preprint",
@@ -850,6 +907,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/optimization-transformers-llms/",
       "canonical_source_url": "https://doi.org/10.1145/3676151.3719379",
       "status": "public_preprint_and_published_record",
+      "abstract_available": false,
+      "description": "The paper compares compression and optimization strategies for reducing the resource cost of Transformer and large-language-model workloads while retaining useful accuracy.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -901,6 +961,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/synthlogai-synthetic-linux-log-generation/",
       "canonical_source_url": "https://doi.org/10.1109/CASCON66301.2025.00032",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The verified record identifies this work as a 2025 CASCON paper on generative AI for Linux logs, but the full technical contribution was not available in the captured sources.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -950,6 +1013,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/gnn-link-prediction-microservices/",
       "canonical_source_url": "https://doi.org/10.1145/3676151.3719362",
       "status": "public_preprint_and_published_record",
+      "abstract_available": false,
+      "description": "The paper applies graph attention networks to predict future interactions in microservice call graphs, supporting proactive monitoring.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1000,6 +1066,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/iot-anomaly-classification-cnn-bilstm-two-tiered/",
       "canonical_source_url": "https://doi.org/10.1016/j.simpa.2024.100646",
       "status": "published_with_public_abstract",
+      "abstract_available": true,
+      "description": "The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1051,6 +1120,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/an-adaptive-logging-system-als-enhancing-software-logging-with-reinforcement-learning-techniques/",
       "canonical_source_url": "https://doi.org/10.1145/3629526.3645033",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "ALS uses source-code features and reinforcement learning to recommend which Python functions to log and which log levels to use for performance-bug diagnosis.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1111,6 +1183,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/analyzing-performance-variability-in-alibaba-s-microservice-architecture-a-critical-path-based-p/",
       "canonical_source_url": "https://doi.org/10.1145/3629527.3651845",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper identifies response-time variability in Alibaba microservice traces through critical-path extraction and variability analysis of service interactions.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1166,6 +1241,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/assessing-predictive-models-energy-consumption-software/",
       "canonical_source_url": "https://doi.org/10.1109/BigData62323.2024.10825500",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The verified record identifies this work as a 2024 IEEE Big Data paper on software energy prediction, but the full technical contribution was not available in the captured sources.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1215,6 +1293,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/automatic-reduction-execution-trace-data-volume/",
       "canonical_source_url": "https://doi.org/10.21428/594757db.fe8b76cf",
       "status": "public_cc_by_article_page",
+      "abstract_available": true,
+      "description": "In large microservice systems, collecting too little or too much trace data can make performance modeling unreliable. This work introduces a two-phase gradient-boosting method that identifies the most important trace features for predicting CPU and memory demand. Using a comprehensive Alibaba dataset, the study reports more than 69% reduction in data volume without compromising, and sometimes improving, model accuracy. The retained features emphasize inter-service communication and resource-access patterns.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "public-published-article",
@@ -1266,6 +1347,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/context-aware-root-cause-localization-in-distributed-traces-using-social-network-analysis-work-i/",
       "canonical_source_url": "https://doi.org/10.1145/3629527.3651426",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The work-in-progress paper combines service-call graph context, social-network analysis, and spectrum-based fault localization to rank distributed-trace root causes.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1323,6 +1407,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/decoding-log-parsing-challenges-taxonomy/",
       "canonical_source_url": "https://doi.org/10.1145/3639478.3643523",
       "status": "published_metadata_record",
+      "abstract_available": true,
+      "description": "The official poster abstract reports a study of log-parsing challenges across 16 datasets and eight parsing tools; the detailed taxonomy and evaluation were not captured.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1372,6 +1459,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/efficient-unsupervised-latency-culprit-ranking/",
       "canonical_source_url": "https://doi.org/10.1145/3629527.3651841",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper combines an unsupervised GraphSAGE model with critical-path-specific latency profiles to detect anomalous requests and rank likely microservice culprits without labelled training data.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1426,6 +1516,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/enhancing-performance-engineering-with-kernel-events/",
       "canonical_source_url": "https://doi.org/10.1016/j.jss.2024.112117",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The work presents a reusable system-tracing artifact and workflow for bringing Linux kernel-level events into empirical software performance-engineering studies, with raw traces, analysis reports, and setup material.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1476,6 +1569,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/memadapt-adaptive-monitoring-memory-usage/",
       "canonical_source_url": "https://doi.org/10.1109/CASCON62161.2024.10838037",
       "status": "published_metadata_record",
+      "abstract_available": true,
+      "description": "The available author synopsis describes an adaptive memory-monitoring approach built around irregularly sampled data and forecasting; the full algorithm and evaluation were not captured.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1526,6 +1622,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/network-analysis-microservices-alibaba/",
       "canonical_source_url": "https://doi.org/10.1145/3629527.3651842",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper applies graph community detection and service-graph clustering to expose recurring microservice communication structures in an Alibaba production-cluster snapshot.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1581,6 +1680,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/picturing-ambiguity-winograd-schema/",
       "canonical_source_url": "https://aclanthology.org/2024.acl-long.22/",
       "status": "public_preprint_and_published_record",
+      "abstract_available": false,
+      "description": "The paper introduces WinoVis, a multimodal benchmark and analysis framework for testing pronoun disambiguation in text-to-image models.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1631,6 +1733,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/resource-life-cycle-aware-noise-detection-kernel-events/",
       "canonical_source_url": "https://doi.org/10.1109/CASCON62161.2024.10838205",
       "status": "published_metadata_record",
+      "abstract_available": true,
+      "description": "The available synopsis describes passive kernel-event monitoring and alignment of CPU, disk, and network request life cycles for noise detection; detailed evaluation was not captured.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1681,6 +1786,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/toward-adaptive-tracing-language-models/",
       "canonical_source_url": "https://doi.org/10.1145/3639476.3639778",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper proposes an adaptive tracing loop that combines language-model prediction of kernel-event sequences and event durations with change detection and root-cause analysis, so detailed tracing is activated only around significant behavior shifts.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1742,6 +1850,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/altoom-out-of-memory-root-cause/",
       "canonical_source_url": "https://doi.org/10.1109/bigdata59044.2023.10386937",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "AltOOM combines early memory-pressure forecasting with selective process-level profiling to identify the process most responsible for an impending out-of-memory event.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1785,6 +1896,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/cnn-bilstm-rpl-attacks-iot-smart-grid/",
       "canonical_source_url": "https://doi.org/10.1145/3626562.3626832",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The verified record identifies this work as a Middleware 2023 industry-track paper on RPL-attack classification, but the full technical contribution was not available in the captured sources.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1835,6 +1949,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/emd-scs-malware-detection-sonification-system-calls/",
       "canonical_source_url": "https://doi.org/10.1109/TRUSTCOM60117.2023.00235",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The verified record identifies this work as a TrustCom 2023 paper on system-call sonification for malware detection, but the full technical contribution was not available in the captured sources.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1886,6 +2003,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/identification-and-classification-of-jmh-microbenchmark-states-using-time-series-analysis/",
       "canonical_source_url": "https://doi.org/10.1145/3578245.3584694",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper uses time-series analysis to identify and classify warmup, steady-state, and anomalous states in Java JMH microbenchmarks.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1943,6 +2063,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/multi-level-adaptive-execution-tracing-performance-analysis/",
       "canonical_source_url": "https://doi.org/10.1109/SERA57763.2023.10197790",
       "status": "published_metadata_record",
+      "abstract_available": true,
+      "description": "The available program synopsis describes dynamic kernel/application tracing guided by time-series trends with an emphasis on reducing tracing overhead; the exact trigger logic and evaluation were not captured.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -1993,6 +2116,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/pasd-statistical-debugging-kernel-events/",
       "canonical_source_url": "https://doi.org/10.1109/scam59687.2023.00025",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "PASD uses Linux kernel-event traces, Perf call stacks, and statistical debugging to rank functions associated with performance problems without application-source instrumentation.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2040,6 +2166,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste/",
       "canonical_source_url": "https://doi.org/10.1145/3578245.3584695",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The study examines whether static source-code features are associated with the steady-state behavior of Java microbenchmarks during JVM warmup.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2095,6 +2224,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/towards-a-classification-of-log-parsing-errors/",
       "canonical_source_url": "https://doi.org/10.1109/ICPC58990.2023.00023",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper classifies recurring log-parsing errors and connects them to token and event characteristics that can guide parser design and logging practice.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2152,6 +2284,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/uncovering-steady-state-executions-in-java-microbenchmarking-with-call-graph-analysis/",
       "canonical_source_url": "https://doi.org/10.1145/3578245.3584689",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper uses sampled call graphs and machine learning to distinguish warmup from steady-state executions in Java microbenchmarks.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2209,6 +2344,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/iot-anomaly-intrusion-detection-poster-abstract/",
       "canonical_source_url": "https://doi.org/10.1145/3565386.3565493",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The poster proposes a hybrid IoT intrusion-detection pipeline with binary anomaly detection followed by multiclass attack classification.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2261,6 +2399,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/execution-trace-model-verification-multicore/",
       "canonical_source_url": "https://doi.org/10.1002/cpe.6974",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The paper combines model-based quantitative constraints with user-space and kernel execution traces to automatically identify likely causes of real-time and multicore constraint violations.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2312,6 +2453,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/n-lane-bridge-performance-antipatterns/",
       "canonical_source_url": "https://doi.org/10.1109/scam55253.2022.00015",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "N-Lane Bridge extends One-Lane Bridge analysis to active-resource bottlenecks and uses LTTng system-level traces to distinguish application-caused congestion from external interference.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2361,6 +2505,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/performance-anomaly-detection-sequence-alignment/",
       "canonical_source_url": "https://doi.org/10.1145/3524610.3527898",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The framework combines critical-path extraction, coarse anomaly checks, OPTICS execution clustering, and MUSCLE multiple sequence alignment to localize performance differences in system-level traces.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2415,6 +2562,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/performance-evaluation-multithread-execution-paths/",
       "canonical_source_url": "https://doi.org/10.1016/j.peva.2022.102289",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "This work investigates execution-path analysis as a way to evaluate complex multi-thread applications.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2454,6 +2604,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/operating-system-support-applications-performance-analysis-poster/",
       "canonical_source_url": "https://doi.org/10.1109/IC2E55432.2022.00039",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The verified record identifies this work as a 2022 IC2E poster paper on operating-system support for performance analysis, but the full technical contribution was not available in the captured sources.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2502,6 +2655,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/automated-cause-analysis-latency-outliers/",
       "canonical_source_url": "https://doi.org/10.1109/QRS54544.2021.00054",
       "status": "public_preprint_and_published_record",
+      "abstract_available": true,
+      "description": "Detecting performance issues and identifying their root causes in the runtime is a challenging task. Typically, developers use methods such as logging and tracing to identify bottlenecks. These solutions are, however, not ideal as they are time-consuming and require manual effort. In this paper, we propose a method to automate the task of detecting latency outliers using system-level traces and then comparing them to identify the root cause(s). Our method makes use of dependency graphs to show internal interactions between threads and system resources. With these graphs, one can pinpoint where performance issues occur. However, a single trace can be composed of a large number of requests, each generating one graph. To automate the task of identifying outliers within the dataset, we use machine learning density-based models and statistical calculations such as -score. Our evaluation shows an accuracy greater than 97 % on outlier detection, making them appropriate for in-production servers and industry-level use cases.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2552,6 +2708,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/model-based-constraints-execution-tracing/",
       "canonical_source_url": "https://doi.org/10.1007/s10766-020-00689-5",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The paper automatically builds an approximate workflow model and adaptive quantitative constraints from user-space and kernel execution traces, reducing manual model construction for real-time and multicore diagnosis.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2598,6 +2757,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/combining-distributed-kernel-tracing-cloud/",
       "canonical_source_url": "https://doi.org/10.3390/electronics10212610",
       "status": "published_with_public_full_text",
+      "abstract_available": true,
+      "description": "Distributed tracing allows tracking user requests that span across multiple services and machines in a distributed application. However, typical cloud applications rely on abstraction layers that can hide the root cause of latency happening between processes or in the kernel. Because of its focus on high-level events, existing methodologies in applying distributed tracing can be limited when trying to detect complex contentions and relate them back to the originating requests. Cross-level analyses that include kernel-level events are necessary to debug problems as prevalent as mutex or disk contention, however cross-level analysis and associating events in the kernel and distributed tracing data is complex and can add a lot of overhead. This paper describes a new solution for combining distributed tracing with low-level software tracing in order to find the latency root cause better. We explain how we achieve a hybrid trace collection to capture and synchronize both kernel and distributed request events. Then, we present our design and implementation for a critical path analysis. We show that our analysis describes precisely how each request spends its time and what stands in its critical path while limiting overhead.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2661,6 +2823,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/container-workload-characterization-host-tracing/",
       "canonical_source_url": "https://doi.org/10.1109/ic2e52221.2021.00015",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The paper characterizes container workloads from host-level LTTng traces by selecting important threads and clustering execution-state behavior without instrumenting the containers internally.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2709,6 +2874,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/debugging-performance-degradation-distributed-requests/",
       "canonical_source_url": "https://doi.org/10.1155/2021/8478076",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper correlates LTTng traces from user space through kernel, storage, network, and multiple hosts in a disk-backed state model, enabling top-down diagnosis of distributed request latency.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2765,6 +2933,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu/",
       "canonical_source_url": "https://doi.org/10.3390/s21165560",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper presents a modular client-server architecture for large-trace storage, analysis, and visualization inside an integrated development environment.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2824,6 +2995,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/efficient-heap-monitoring-memory-leak-root-cause/",
       "canonical_source_url": "https://doi.org/10.1109/BigData52589.2021.9671473",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The verified record identifies this work as a BigData 2021 paper on heap monitoring and memory-leak diagnosis, but the full technical contribution was not available in the captured sources.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2873,6 +3047,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/integrated-modeling-tool-state-machine-trace/",
       "canonical_source_url": "https://doi.org/10.1109/ISNCC52172.2021.9615814",
       "status": "published_metadata_record",
+      "abstract_available": true,
+      "description": "The accessible abstract describes a modeled state representation with a special-purpose database, filtering/highlighting, and Gantt/XY views for Linux and Windows traces.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2923,6 +3100,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/malware-system-calls-detection-using-hybrid-system/",
       "canonical_source_url": "https://doi.org/10.1109/SysCon48628.2021.9447094",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper combines LTTng system-call monitoring with recurrent and Transformer-style models for malware and anomalous system-behavior detection.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -2981,6 +3161,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/system-execution-path-profiling-hardware-counters/",
       "canonical_source_url": "https://doi.org/10.1109/SYSCON48628.2021.9447121",
       "status": "published_metadata_record",
+      "abstract_available": true,
+      "description": "The official program abstract describes critical-path profiling using hardware-counter samples every 100,000 cycles, user-space interrupt signaling, and comparison with CPython behavior.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3031,6 +3214,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/anomaly-detection-ddos-attacks-cloud-environment/",
       "canonical_source_url": "https://doi.org/10.1007/s41635-021-00119-z",
       "status": "published_with_public_preview",
+      "abstract_available": true,
+      "description": "The accessible Springer preview associates the paper with a unified anomaly-detection approach for bandwidth-, application-, and connection-exhaustion DDoS groups, using CUSUM-style change detection and representative HTTP, database/application, and TCP SYN-flood attacks.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3082,6 +3268,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/cloud-platform-performance-multilevel-tracing/",
       "canonical_source_url": "https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The paper correlates LTTng traces across OpenStack services, QEMU/KVM, network components, and host kernels to diagnose cloud-platform performance problems.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3130,6 +3319,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/depgraph/",
       "canonical_source_url": "https://doi.org/10.1109/SCAM51674.2020.00022",
       "status": "public_preprint_and_published_record",
+      "abstract_available": true,
+      "description": "This paper addresses the challenge of understanding the waiting dependencies between the threads and hardware resources required to complete a task. The objective is to improve software performance by detecting the underlying bottlenecks caused by system-level blocking dependencies. In this paper, we use a system level tracing approach to extract a Waiting Dependency Graph that shows the breakdown of a task execution among all the interleaving threads and resources. The method allows developers and system administrators to quickly discover how the total execution time is divided among its interacting threads and resources. Ultimately, the method helps detecting bottlenecks and highlighting their possible causes. Our experiments show the effectiveness of the proposed approach in several industry-level use cases. Three performance anomalies are analysed and explained using the proposed approach. Evaluating the method efficiency reveals that the imposed overhead never exceeds 10.1%, therefore making it suitable for in-production environments.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3179,6 +3371,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/enhanced-trace-abstraction-social-network-analysis/",
       "canonical_source_url": "https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf",
       "status": "public_direct_pdf",
+      "abstract_available": true,
+      "description": "This paper applies social-network-analysis techniques to system execution traces. The workflow collects Linux kernel and user-space traces with LTTng, constructs a directed weighted graph of thread interactions, detects communities with the Louvain method, and ranks important threads with PageRank. Two use cases address trace filtering and virtual-machine clustering. In the reported evaluation, the analysis adds a 5.3% slowdown to the traced program, extracts 509 threads and 6,015 interactions from a 316 MB trace, and computes graph metrics in 1,599 ms.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "public-pdf",
@@ -3231,6 +3426,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/multilevel-trace-lock-contention/",
       "canonical_source_url": "https://doi.org/10.1109/issrew51248.2020.00068",
       "status": "published_metadata_record",
+      "abstract_available": false,
+      "description": "The paper extends critical-path analysis across kernel and user-space lock events so contention from futexes, spinlocks, semaphores, and other synchronization mechanisms can be diagnosed without recompiling the application.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3279,6 +3477,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/multi-level-host-based-intrusion-detection-system-for-internet-of-things/",
       "canonical_source_url": "https://doi.org/10.1186/s13677-020-00206-6",
       "status": "published_with_public_full_text",
+      "abstract_available": true,
+      "description": "The paper presents a host-based IoT intrusion-detection framework that combines user- and kernel-space traces with machine-learning classifiers.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3343,6 +3544,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/automatic-cause-detection-web-applications/",
       "canonical_source_url": "https://doi.org/10.1109/ISSREW.2019.00102",
       "status": "public_preprint_and_published_record",
+      "abstract_available": true,
+      "description": "The execution of similar units can be compared by their internal behaviors to determine the causes of their potential performance issues. For instance, by examining the internal behaviors of different fast or slow web requests more closely and by clustering and comparing their internal executions, one can determine what causes some requests to run slowly or behave in unexpected ways. In this paper, we propose a method of extracting the internal behavior of web requests as well as introduce a pipeline that detects performance issues in web requests and provides insights into their root causes. First, low-level and fine-grained information regarding each request is gathered by tracing both the user space and the kernel space. Second, further information is extracted and fed into an outlier detector. Finally, these outliers are then clustered by their behavior, and each group is analyzed separately. Experiments revealed that this pipeline is indeed able to detect slow web requests and provide additional insights into their true root causes. Notably, we were able to identify a real PHP cache contention using the proposed approach.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3393,6 +3597,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/heterogeneous-debugging-dynamic-tracing/",
       "canonical_source_url": "https://doi.org/10.1016/j.sysarc.2019.02.016",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper redesigns GDB dynamic tracing around LTTng-UST and scalable trace views so multi-threaded CPU/GPU debugging remains usable on heterogeneous many-core systems.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3447,6 +3654,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/efficient-trace-analysis-parallelization/",
       "canonical_source_url": "https://doi.org/10.1007/s10766-019-00631-4",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper partitions Common Trace Format streams into balanced workloads, resolves cross-chunk state dependencies, and parallelizes stateful trace analyses with low synchronization cost.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3500,6 +3710,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/machine-learning-based-edos-attack-detection-technique-using-execution-trace-analysis/",
       "canonical_source_url": "https://doi.org/10.1007/s41635-018-0061-2",
       "status": "published_with_public_full_text",
+      "abstract_available": true,
+      "description": "Economic Denial of Sustainability (EDoS) attacks can cause cloud customers to pay for malicious resource consumption. The paper proposes a framework that learns normal and abnormal virtual-machine behavior and allocates extra resources only to VMs classified as normal, limiting attack propagation and resource misuse.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3562,6 +3775,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/efficient-cloud-tracing-levels/",
       "canonical_source_url": "https://doi.org/10.1109/icce.2018.8326353",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper correlates OpenStack Nova, QEMU/KVM, and host/guest kernel evidence to diagnose live-migration behavior across cloud-system layers.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3615,6 +3831,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/high-latency-cause-detection-multilevel-analysis/",
       "canonical_source_url": "https://doi.org/10.1109/syscon.2018.8369613",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper correlates PHP user-space events with LTTng kernel events in a unified multilevel model to explain high-latency web requests.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3667,6 +3886,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/declarative-framework-stateful-trace-analysis/",
       "canonical_source_url": "https://doi.org/10.1007/s11219-016-9311-0",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The framework lets analysts define stateful trace analyses declaratively, using a generic state model and XML specifications that can drive storage, filtering, and visualization across trace formats.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3722,6 +3944,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/dynamic-trace-sampling-memory-usage/",
       "canonical_source_url": "https://doi.org/10.1109/hpec.2017.8091061",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper introduces a kernel-resident dynamic sampler that tracks virtual and physical memory usage while reducing the event volume generated by high-frequency memory activity.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3775,6 +4000,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/hardware-assisted-software-event-tracing/",
       "canonical_source_url": "https://doi.org/10.1002/cpe.4069",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper designs and evaluates hardware-assisted alternatives to LTTng-UST for software-event and execution-path tracing, including STM/ETB, ETM/ETB, and a modified Perf/BTS path.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3830,6 +4058,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/multi-scale-navigation-of-large-trace-data-a-survey/",
       "canonical_source_url": "https://doi.org/10.1002/cpe.4068",
       "status": "published_with_public_full_text",
+      "abstract_available": true,
+      "description": "The survey organizes abstraction and visualization techniques that help analysts navigate long operating-system and kernel traces from overview to event-level evidence.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3891,6 +4122,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/enhanced-state-history-tree-esht-a-stateful-data-structure-for-analysis-of-highly-parallel-syste/",
       "canonical_source_url": "https://doi.org/10.1109/BigDataCongress.2016.19",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "eSHT redesigns the State History Tree to store and query highly parallel trace intervals more compactly and with shallower trees.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -3948,6 +4182,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/multilayer-virtualized-systems-kernel-tracing/",
       "canonical_source_url": "https://doi.org/10.1109/w-ficloud.2016.18",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper fuses synchronized host and virtual-machine kernel traces into a Fused Virtual Machine view that exposes how VM threads, virtual CPUs, hypervisor transitions, and physical CPUs interact.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4003,6 +4240,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/a-flexible-data-driven-approach-for-execution-trace-filtering/",
       "canonical_source_url": "https://doi.org/10.1109/BigDataCongress.2015.112",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper provides a declarative XML/state-machine approach for flexible filtering and synthetic-event generation over large kernel traces.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4059,6 +4299,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/",
       "canonical_source_url": "https://doi.org/10.1002/cpe.3272",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper proposes a multilevel data-cube model for computing statistics over live execution traces across several time scales.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4116,6 +4359,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/multiscale-navigation-large-trace-data/",
       "canonical_source_url": "https://doi.org/10.1109/CCECE.2014.6901019",
       "status": "published_metadata_record",
+      "abstract_available": true,
+      "description": "The accessible abstract describes hierarchical trace-log management with an interactive zoomable timeline and semantic and physical zooming that supports coarse-layer-first navigation.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4166,6 +4412,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/",
       "canonical_source_url": "https://doi.org/10.1145/2433140.2433151",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The framework computes system-parameter statistics for arbitrary intervals and resource hierarchies from very large traces using a disk-resident history structure and controlled granularity.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4223,6 +4472,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/efficient-model-query-visualize-system-states-traces/",
       "canonical_source_url": "https://doi.org/10.1007/978-3-642-40787-1_13",
       "status": "published_with_public_preview",
+      "abstract_available": true,
+      "description": "The accessible chapter preview describes a tree-based model of system states and intervals extracted from traces, with online/offline operation and interactive analysis at approximately 1 TB trace scale.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4274,6 +4526,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/multilevel-label-placement-execution-trace-events/",
       "canonical_source_url": "https://doi.org/10.1109/CCECE.2013.6567826",
       "status": "published_metadata_record",
+      "abstract_available": true,
+      "description": "The accessible abstract describes automatic label placement for points and lines representing execution-trace events.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4323,6 +4578,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/state-history-tree-an-incremental-disk-based-data-structure-for-very-large-interval-data/",
       "canonical_source_url": "https://doi.org/10.1109/SocialCom.2013.107",
       "status": "published_with_public_full_text",
+      "abstract_available": true,
+      "description": "The State History Tree is a disk-based structure for incrementally arriving, time-ordered interval data derived from LTTng system traces, designed to support very large histories.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4379,6 +4637,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/a-stateful-approach-to-generate-synthetic-events-from-kernel-traces/",
       "canonical_source_url": "https://doi.org/10.1155/2012/140368",
       "status": "published_with_public_full_text",
+      "abstract_available": true,
+      "description": "The paper presents a stateful approach that maps low-level LTTng events to semantic events and uses modeled resource state and finite-state patterns to generate synthetic events and alarms.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4436,6 +4697,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/efficient-analysis-multi-core-system-tracing-data/",
       "canonical_source_url": "https://doi.org/10.2316/P.2012.790-053",
       "status": "published_with_public_abstract",
+      "abstract_available": true,
+      "description": "The publisher abstract describes a stateful trace-analysis and abstraction approach for parallel processes. It claims that sharing common information can reduce computation and storage compared with stateless approaches.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4487,6 +4751,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/intrusion-response-systems-survey-taxonomy/",
       "canonical_source_url": "https://publications.polymtl.ca/14629/",
       "status": "published_with_remote_full_text",
+      "abstract_available": false,
+      "description": "This survey organizes intrusion-response systems around automation, response cost, decision evaluation, adjustment, execution, attack paths, and risk assessment.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "institutional-publication-record",
@@ -4540,6 +4807,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/high-performance-internet-connection-filtering-in-kernel/",
       "canonical_source_url": "https://publications.polymtl.ca/16917/",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper moves part of an application proxy into the kernel to reduce context switches and unnecessary data copies during connection filtering.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "institutional-publication-record",
@@ -4593,6 +4863,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/a-reliable-and-efficient-time-synchronization-protocol-for-heterogeneous-wireless-sensor-network/",
       "canonical_source_url": "https://doi.org/10.4236/wsn.2010.212109",
       "status": "published_with_public_full_text",
+      "abstract_available": true,
+      "description": "L-SYNCng combines topology-aware clustering with convex-hull estimation of clock offset and skew for synchronization in heterogeneous wireless sensor networks.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",
@@ -4645,6 +4918,9 @@
       "page_url": "https://naser.github.io/research-publications/papers/automated-categorizing-similarities-persian-news/",
       "canonical_source_url": "https://doi.org/10.1007/978-3-642-16032-5_11",
       "status": "published_with_public_full_text",
+      "abstract_available": false,
+      "description": "The paper combines automated Persian-news categorization with a web system for retrieving similar news items.",
+      "evidence_level": "full-text-reviewed",
       "versions": [
         {
           "id": "published-version",

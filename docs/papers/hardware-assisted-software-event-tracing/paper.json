@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_available": false,
+  "description": "The paper designs and evaluates hardware-assisted alternatives to LTTng-UST for software-event and execution-path tracing, including STM/ETB, ETM/ETB, and a modified Perf/BTS path.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper designs and evaluates hardware-assisted alternatives to LTTng-UST for software-event and execution-path tracing, including STM/ETB, ETM/ETB, and a modified Perf/BTS path.",
     "problem": "Software event tracing can impose substantial delay and buffer-copy overhead, while hardware branch tracing provides low-level execution evidence but has different semantics, payload limits, and loss behavior.",
@@ -93,7 +96,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1002/cpe.4069",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -103,7 +106,7 @@
       "local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -111,6 +114,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

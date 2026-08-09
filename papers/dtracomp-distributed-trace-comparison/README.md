@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [latency-analysis](../../topics/latency-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
 
-**Keywords:** [distributed execution traces](../../keywords/distributed-execution-traces.md) | [trace comparison](../../keywords/trace-comparison.md) | [intermittent latency](../../keywords/intermittent-latency.md) | [latency sources](../../keywords/latency-sources.md)
+**Keywords:** distributed execution traces | trace comparison | intermittent latency | latency sources
 
 ## Versions and source links
 
@@ -78,7 +78,7 @@ M. Ekhlasi, F. F. Daneshgar, M. Dagenais, M. Lamothe, N. Ezzati-Jivan, and M. Kh
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112990; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
 - Machine-readable record: [paper.json](./paper.json)

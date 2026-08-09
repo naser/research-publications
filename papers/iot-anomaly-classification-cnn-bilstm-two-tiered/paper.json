@@ -23,6 +23,9 @@
   },
   "abstract": "The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.",
   "abstract_source": "ScienceDirect publisher abstract, paraphrased; full text not obtained.",
+  "abstract_available": true,
+  "description": "The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "The abstract presents a two-tier anomaly-classification framework for IoT networks that combines a decision-tree detector with a CNN-BiLSTM classifier.",
     "problem": "IoT anomaly data can be imbalanced and heterogeneous, making both anomaly detection and attack-type classification difficult.",
@@ -88,14 +91,14 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344",
       "DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646",
       "Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -103,6 +106,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

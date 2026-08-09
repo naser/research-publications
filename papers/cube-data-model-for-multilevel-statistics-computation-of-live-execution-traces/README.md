@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md) | [resource-analysis](../../topics/resource-analysis.md) | [performance-engineering](../../topics/performance-engineering.md)
 
-**Keywords:** [data cube](../../keywords/data-cube.md) | [stream cube](../../keywords/stream-cube.md) | [live trace statistics](../../keywords/live-trace-statistics.md) | [LTTng](../../keywords/lttng.md) | [State History Tree](../../keywords/state-history-tree.md) | [tilted time frame](../../keywords/tilted-time-frame.md) | [multilevel analysis](../../keywords/multilevel-analysis.md) | [roll-up](../../keywords/roll-up.md) | [drill-down](../../keywords/drill-down.md) | [range query](../../keywords/range-query.md) | [sliding window](../../keywords/sliding-window.md) | [cuboid materialization](../../keywords/cuboid-materialization.md)
+**Keywords:** data cube | stream cube | live trace statistics | [LTTng](../../keywords/lttng.md) | [State History Tree](../../keywords/state-history-tree.md) | tilted time frame | [multilevel analysis](../../keywords/multilevel-analysis.md) | roll-up | drill-down | range query | sliding window | cuboid materialization
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "Cube Data Model for Multilevel Statistics C
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Cube data model PDF: interval-form measures, dimension tree, history store, circular buffers, tilted time frame, cuboid choices, and query types; Cube data model PDF: LTTng/Linux 2.6.38.6, Java/Eclipse/Core i7/6 GB environment, workloads, 1,000 measures, three time levels, and 35 MB memory result; Cube data model PDF: materialization trade-off, range-query behavior, limitations, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

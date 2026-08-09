@@ -19,6 +19,9 @@
     "identifiers",
     "abstract",
     "abstract_source",
+    "abstract_available",
+    "description",
+    "evidence_level",
     "summary",
     "tags",
     "keywords",
@@ -141,6 +144,19 @@
       "type": [
         "string",
         "null"
+      ]
+    },
+    "abstract_available": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_level": {
+      "enum": [
+        "full-text-reviewed",
+        "metadata-or-abstract-reviewed"
       ]
     },
     "summary": {

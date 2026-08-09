@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [microservices](../../topics/microservices.md) | [graph-neural-networks](../../topics/graph-neural-networks.md) | [latency-analysis](../../topics/latency-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [trace-analysis](../../topics/trace-analysis.md)
 
-**Keywords:** [latency culprit ranking](../../keywords/latency-culprit-ranking.md) | [distributed traces](../../keywords/distributed-traces.md) | [GraphSAGE](../../keywords/graphsage.md) | [graph neural networks](../../keywords/graph-neural-networks.md) | [critical path](../../keywords/critical-path.md) | [FIRM dataset](../../keywords/firm-dataset.md) | [service invocation graph](../../keywords/service-invocation-graph.md) | [unsupervised anomaly detection](../../keywords/unsupervised-anomaly-detection.md) | [Top-k ranking](../../keywords/top-k-ranking.md)
+**Keywords:** latency culprit ranking | [distributed traces](../../keywords/distributed-traces.md) | GraphSAGE | graph neural networks | [critical path](../../keywords/critical-path.md) | FIRM dataset | service invocation graph | unsupervised anomaly detection | Top-k ranking
 
 ## Resources
 
@@ -86,7 +86,7 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Efficient Unsupe
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/efficient-unsupervised-latency-culprit-ranking.md; Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split; Efficient culprit-ranking PDF pp. 4-5: benchmark accuracy, Top-k results, training/test speed comparison, limitations, and artifact link; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

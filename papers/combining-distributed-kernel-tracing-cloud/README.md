@@ -34,7 +34,7 @@ Distributed tracing allows tracking user requests that span across multiple serv
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [observability](../../topics/observability.md) | [lttng](../../topics/lttng.md)
 
-**Keywords:** [distributed tracing](../../keywords/distributed-tracing.md) | [kernel tracing](../../keywords/kernel-tracing.md) | [cloud applications](../../keywords/cloud-applications.md) | [cross-layer performance analysis](../../keywords/cross-layer-performance-analysis.md) | [LTTng](../../keywords/lttng.md) | [Jaeger](../../keywords/jaeger.md) | [Trace Compass](../../keywords/trace-compass.md) | [Babeltrace](../../keywords/babeltrace.md) | [Common Trace Format](../../keywords/common-trace-format.md) | [HotROD](../../keywords/hotrod.md) | [Cassandra](../../keywords/cassandra.md) | [Apache ab](../../keywords/apache-ab.md) | [cassandra-stress](../../keywords/cassandra-stress.md) | [critical-path analysis](../../keywords/critical-path-analysis.md) | [snapshot tracing](../../keywords/snapshot-tracing.md) | [CPU control groups](../../keywords/cpu-control-groups.md) | [liblttng-ust](../../keywords/liblttng-ust.md) | [request synchronization](../../keywords/request-synchronization.md)
+**Keywords:** distributed tracing | [kernel tracing](../../keywords/kernel-tracing.md) | cloud applications | cross-layer performance analysis | [LTTng](../../keywords/lttng.md) | [Jaeger](../../keywords/jaeger.md) | [Trace Compass](../../keywords/trace-compass.md) | [Babeltrace](../../keywords/babeltrace.md) | [Common Trace Format](../../keywords/common-trace-format.md) | [HotROD](../../keywords/hotrod.md) | Cassandra | Apache ab | cassandra-stress | [critical-path analysis](../../keywords/critical-path-analysis.md) | snapshot tracing | CPU control groups | liblttng-ust | request synchronization
 
 ## Resources
 
@@ -85,7 +85,7 @@ L. Gelle, N. Ezzati-Jivan, and M. R. Dagenais, "Combining Distributed and Kernel
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.3390/electronics10212610; author identity matched to Naser Ezzati-Jivan in the local research catalog; Official MDPI HTML, Abstract and Sections 1-3 (reviewed 2026-08-06): distributed/kernel tracing motivation, LTTng/Jaeger/Trace Compass stack, patched Java and Go clients, synchronization events, and request critical-path construction.; Official MDPI HTML, Section 4 and Sections 4.1-4.1.2: i7-7820X/32 GB environment, HotROD 10,000-request evaluation, Cassandra 1,000,000-read/write evaluation, sampling configurations, and overhead bounds.; Official MDPI HTML, Sections 4.2-4.4: approximately 15-second analysis for 500 MB/20-30-second traces, 1% CPU-control-group use case, 2-second versus approximately 5-millisecond request latency, recurring 100-ms preemption, and transferability limits.; Official MDPI HTML, Section 5 and Data Availability Statement: dashboard-triggered snapshots, user-level scheduler/thread-pool tracking, network analysis, multi-host extension, CC BY 4.0 license, and https://github.com/loicgelle/jaeger-go-lttng-instr.; The official MDPI PDF URL was verified from the article's citation_pdf_url metadata, but Chrome's PDF endpoint was blocked by an interstitial in this run; no local PDF hash is claimed.
 - Machine-readable record: [paper.json](./paper.json)

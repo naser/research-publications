@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [microservices](../../topics/microservices.md) | [performance-analysis](../../topics/performance-analysis.md) | [observability](../../topics/observability.md) | [graph-neural-networks](../../topics/graph-neural-networks.md)
 
-**Keywords:** [microservice networks](../../keywords/microservice-networks.md) | [Alibaba production clusters](../../keywords/alibaba-production-clusters.md) | [service call graphs](../../keywords/service-call-graphs.md) | [community detection](../../keywords/community-detection.md) | [Louvain](../../keywords/louvain.md) | [Infomap](../../keywords/infomap.md) | [Label Propagation](../../keywords/label-propagation.md) | [graph clustering](../../keywords/graph-clustering.md) | [K-Means](../../keywords/k-means.md) | [silhouette score](../../keywords/silhouette-score.md) | [modularity](../../keywords/modularity.md)
+**Keywords:** microservice networks | Alibaba production clusters | service call graphs | community detection | [Louvain](../../keywords/louvain.md) | Infomap | Label Propagation | graph clustering | [K-Means](../../keywords/k-means.md) | [silhouette score](../../keywords/silhouette-score.md) | modularity
 
 ## Resources
 
@@ -85,7 +85,7 @@ G. Khodabandeh, A. Ezaz, and N. Ezzati-Jivan, "Network Analysis of Microservices
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/network-analysis-microservices-alibaba.md; Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering; Network-analysis PDF pp. 3-5: structural findings, limitations, future work, and implementation repository; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

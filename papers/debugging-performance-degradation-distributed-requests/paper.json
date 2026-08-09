@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
+  "abstract_available": false,
+  "description": "The paper correlates LTTng traces from user space through kernel, storage, network, and multiple hosts in a disk-backed state model, enabling top-down diagnosis of distributed request latency.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper correlates LTTng traces from user space through kernel, storage, network, and multiple hosts in a disk-backed state model, enabling top-down diagnosis of distributed request latency.",
     "problem": "Performance degradation in distributed requests can arise at user, kernel, storage, network, or remote-service layers, so single-layer tracing does not provide enough causal context.",
@@ -95,7 +98,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Private full PDF read: pdf-evidence/notes/debugging-performance-degradation-distributed-requests.md",
       "Debugging paper pp. 1-10: LTTng, LAMP probes, multihost synchronization, State History Tree, data model, and top-down algorithm",
@@ -104,7 +107,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -112,6 +115,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

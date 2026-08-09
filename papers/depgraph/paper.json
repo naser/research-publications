@@ -25,6 +25,9 @@
   },
   "abstract": "This paper addresses the challenge of understanding the waiting dependencies between the threads and hardware resources required to complete a task. The objective is to improve software performance by detecting the underlying bottlenecks caused by system-level blocking dependencies. In this paper, we use a system level tracing approach to extract a Waiting Dependency Graph that shows the breakdown of a task execution among all the interleaving threads and resources. The method allows developers and system administrators to quickly discover how the total execution time is divided among its interacting threads and resources. Ultimately, the method helps detecting bottlenecks and highlighting their possible causes. Our experiments show the effectiveness of the proposed approach in several industry-level use cases. Three performance anomalies are analysed and explained using the proposed approach. Evaluating the method efficiency reveals that the imposed overhead never exceeds 10.1%, therefore making it suitable for in-production environments.",
   "abstract_source": "arXiv:2103.04933 abstract; public preprint version",
+  "abstract_available": true,
+  "description": "This paper addresses the challenge of understanding the waiting dependencies between the threads and hardware resources required to complete a task. The objective is to improve software performance by detecting the underlying bottlenecks caused by system-level blocking dependencies. In this paper, we use a system level tracing approach to extract a Waiting Dependency Graph that shows the breakdown of a task execution among all the interleaving threads and resources. The method allows developers and system administrators to quickly discover how the total execution time is divided among its interacting threads and resources. Ultimately, the method helps detecting bottlenecks and highlighting their possible causes. Our experiments show the effectiveness of the proposed approach in several industry-level use cases. Three performance anomalies are analysed and explained using the proposed approach. Evaluating the method efficiency reveals that the imposed overhead never exceeds 10.1%, therefore making it suitable for in-production environments.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "DepGraph uses system-level tracing to expose the waiting dependencies that divide a task's execution time across threads and hardware resources.",
     "problem": "System-level traces expose waiting and resource interactions, but conventional analysis does not present a compact causal view of why requests are delayed across threads and resources.",
@@ -90,14 +93,14 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "DBLP and IEEE metadata for the published paper",
       "official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3",
       "local PDF hash verified in the working catalog"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": "depgraph-localizing-performance-bottlenecks-in-multi-core-applications-using-waiting-dependency--f36541c1f2",
     "author_order_note": null
   },
@@ -105,6 +108,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

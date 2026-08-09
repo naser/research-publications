@@ -23,6 +23,9 @@
   },
   "abstract": "Distributed tracing allows tracking user requests that span across multiple services and machines in a distributed application. However, typical cloud applications rely on abstraction layers that can hide the root cause of latency happening between processes or in the kernel. Because of its focus on high-level events, existing methodologies in applying distributed tracing can be limited when trying to detect complex contentions and relate them back to the originating requests. Cross-level analyses that include kernel-level events are necessary to debug problems as prevalent as mutex or disk contention, however cross-level analysis and associating events in the kernel and distributed tracing data is complex and can add a lot of overhead. This paper describes a new solution for combining distributed tracing with low-level software tracing in order to find the latency root cause better. We explain how we achieve a hybrid trace collection to capture and synchronize both kernel and distributed request events. Then, we present our design and implementation for a critical path analysis. We show that our analysis describes precisely how each request spends its time and what stands in its critical path while limiting overhead.",
   "abstract_source": "Official MDPI full-text HTML, CC BY 4.0, reviewed 2026-08-06: https://www.mdpi.com/2079-9292/10/21/2610",
+  "abstract_available": true,
+  "description": "Distributed tracing allows tracking user requests that span across multiple services and machines in a distributed application. However, typical cloud applications rely on abstraction layers that can hide the root cause of latency happening between processes or in the kernel. Because of its focus on high-level events, existing methodologies in applying distributed tracing can be limited when trying to detect complex contentions and relate them back to the originating requests. Cross-level analyses that include kernel-level events are necessary to debug problems as prevalent as mutex or disk contention, however cross-level analysis and associating events in the kernel and distributed tracing data is complex and can add a lot of overhead. This paper describes a new solution for combining distributed tracing with low-level software tracing in order to find the latency root cause better. We explain how we achieve a hybrid trace collection to capture and synchronize both kernel and distributed request events. Then, we present our design and implementation for a critical path analysis. We show that our analysis describes precisely how each request spends its time and what stands in its critical path while limiting overhead.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper combines Jaeger distributed traces with LTTng kernel and user-space events and extends critical-path analysis from threads to distributed requests so request latency can be related to low-level scheduling and resource behavior.",
     "problem": "Distributed request spans identify application-level paths but can miss kernel scheduling, I/O, and CPU contention that explains hidden latency.",
@@ -102,7 +105,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.3390/electronics10212610",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -113,7 +116,7 @@
       "The official MDPI PDF URL was verified from the article's citation_pdf_url metadata, but Chrome's PDF endpoint was blocked by an interstitial in this run; no local PDF hash is claimed."
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -121,6 +124,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

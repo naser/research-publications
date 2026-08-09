@@ -34,7 +34,7 @@ The survey organizes abstraction and visualization techniques that help analysts
 
 **Tags:** [trace-visualization](../../topics/trace-visualization.md) | [trace-abstraction](../../topics/trace-abstraction.md) | [kernel-tracing](../../topics/kernel-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [system-tracing](../../topics/system-tracing.md)
 
-**Keywords:** [trace navigation](../../keywords/trace-navigation.md) | [multi-scale analysis](../../keywords/multi-scale-analysis.md) | [trace visualization](../../keywords/trace-visualization.md) | [content abstraction](../../keywords/content-abstraction.md) | [metric abstraction](../../keywords/metric-abstraction.md) | [visual abstraction](../../keywords/visual-abstraction.md) | [resource abstraction](../../keywords/resource-abstraction.md) | [semantic zoom](../../keywords/semantic-zoom.md) | [focus-plus-context](../../keywords/focus-plus-context.md) | [Trace Compass](../../keywords/trace-compass.md) | [Vampir](../../keywords/vampir.md) | [Jumpshot](../../keywords/jumpshot.md) | [SLOG](../../keywords/slog.md) | [R-tree](../../keywords/r-tree.md) | [quadtree](../../keywords/quadtree.md) | [State History Tree](../../keywords/state-history-tree.md)
+**Keywords:** trace navigation | multi-scale analysis | [trace visualization](../../keywords/trace-visualization.md) | content abstraction | metric abstraction | visual abstraction | resource abstraction | [semantic zoom](../../keywords/semantic-zoom.md) | focus-plus-context | [Trace Compass](../../keywords/trace-compass.md) | Vampir | Jumpshot | SLOG | [R-tree](../../keywords/r-tree.md) | quadtree | [State History Tree](../../keywords/state-history-tree.md)
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "Multi-scale Navigation of Large Trace Data:
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Survey PDF: four abstraction families, multi-level views, semantic/physical zoom, focus-plus-context, and trace-data structures; Survey PDF: Trace Compass/LTTV, Vampir, Jumpshot, TuningFork, HPCToolkit, VTune, and metric examples; Survey PDF: complementary-techniques conclusion and bidirectional-link future direction; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

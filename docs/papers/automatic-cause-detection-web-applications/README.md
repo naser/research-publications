@@ -34,7 +34,7 @@ The execution of similar units can be compared by their internal behaviors to de
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [web-performance](../../topics/web-performance.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
 
-**Keywords:** [web requests](../../keywords/web-requests.md) | [user-space tracing](../../keywords/user-space-tracing.md) | [kernel-space tracing](../../keywords/kernel-space-tracing.md) | [outlier detection](../../keywords/outlier-detection.md) | [behavior clustering](../../keywords/behavior-clustering.md) | [PHP cache contention](../../keywords/php-cache-contention.md)
+**Keywords:** web requests | user-space tracing | kernel-space tracing | outlier detection | behavior clustering | PHP cache contention
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ Q. Fournier, N. Ezzati-Jivan, D. Aloise, and M. R. Dagenais, "Automatic Cause De
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2103.04954; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

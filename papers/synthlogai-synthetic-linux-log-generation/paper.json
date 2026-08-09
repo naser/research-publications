@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": null,
+  "abstract_available": false,
+  "description": "The verified record identifies this work as a 2025 CASCON paper on generative AI for Linux logs, but the full technical contribution was not available in the captured sources.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "The verified record identifies this work as a 2025 CASCON paper on generative AI for Linux logs, but the full technical contribution was not available in the captured sources.",
     "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
@@ -86,14 +89,14 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "IEEE record: https://ieeexplore.ieee.org/document/11344303/",
       "CASCON schedule: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation",
       "Private evidence note: papers/synthlogai-generative-ai-for-synthetic-linux-log-generation-and-evaluation-a00bad2d6b/pdf-evidence/notes/parallel-batch-01-synthlogai.md"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -101,6 +104,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

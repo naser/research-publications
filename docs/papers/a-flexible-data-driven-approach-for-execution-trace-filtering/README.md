@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [trace-filtering](../../topics/trace-filtering.md) | [trace-abstraction](../../topics/trace-abstraction.md) | [trace-analysis](../../topics/trace-analysis.md)
 
-**Keywords:** [execution trace filtering](../../keywords/execution-trace-filtering.md) | [LTTng 2.4.0](../../keywords/lttng-2-4-0.md) | [Trace Compass](../../keywords/trace-compass.md) | [finite-state machine](../../keywords/finite-state-machine.md) | [declarative analysis](../../keywords/declarative-analysis.md) | [synthetic events](../../keywords/synthetic-events.md) | [SYN flood](../../keywords/syn-flood.md) | [hping3](../../keywords/hping3.md) | [state system](../../keywords/state-system.md) | [XML modeling](../../keywords/xml-modeling.md) | [kernel tracing](../../keywords/kernel-tracing.md)
+**Keywords:** execution trace filtering | LTTng 2.4.0 | [Trace Compass](../../keywords/trace-compass.md) | [finite-state machine](../../keywords/finite-state-machine.md) | declarative analysis | [synthetic events](../../keywords/synthetic-events.md) | [SYN flood](../../keywords/syn-flood.md) | hping3 | [state system](../../keywords/state-system.md) | XML modeling | [kernel tracing](../../keywords/kernel-tracing.md)
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ K. G. Kouame, N. Ezzati-Jivan, and M. R. Dagenais, "A Flexible Data-Driven Appro
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Flexible filtering PDF: XML FSM architecture, Trace Compass/state-system execution, raw/synthetic event support, and UI integration; Flexible filtering PDF: LTTng 2.4.0, Ubuntu 14.10, kernel 3.13.0-43, hping3 SYN-flood workload, thresholds, synthetic-event counts, and XML/Java timings; Flexible filtering PDF: condition-check/runtime and understandability limitations plus future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

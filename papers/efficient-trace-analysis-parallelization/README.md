@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [trace-analysis](../../topics/trace-analysis.md) | [performance-engineering](../../topics/performance-engineering.md) | [multicore-systems](../../topics/multicore-systems.md) | [performance-optimization](../../topics/performance-optimization.md)
 
-**Keywords:** [trace analysis](../../keywords/trace-analysis.md) | [parallelization](../../keywords/parallelization.md) | [analysis scalability](../../keywords/analysis-scalability.md) | [multicore processing](../../keywords/multicore-processing.md) | [CTF](../../keywords/ctf.md) | [Babeltrace](../../keywords/babeltrace.md) | [LTTng](../../keywords/lttng.md) | [parallel efficiency](../../keywords/parallel-efficiency.md) | [State History Tree](../../keywords/state-history-tree.md)
+**Keywords:** trace analysis | parallelization | analysis scalability | multicore processing | CTF | [Babeltrace](../../keywords/babeltrace.md) | [LTTng](../../keywords/lttng.md) | parallel efficiency | [State History Tree](../../keywords/state-history-tree.md)
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ F. Reumont-Locke, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Methods for Tr
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1007/s10766-019-00631-4; author identity matched to Naser Ezzati-Jivan in the local research catalog; Efficient parallelization PDF pp. 1-5: CTF/Babeltrace model, partitioning, state dependencies, and proposed map/reduce design; Efficient parallelization PDF pp. 8-11: storage devices, 44,897,970-event trace, three analyses, speedups, and efficiencies; Efficient parallelization PDF pp. 11-12: decoding and State History Tree limitations and future work; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

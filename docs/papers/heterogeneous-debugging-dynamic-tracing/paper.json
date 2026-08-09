@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_available": false,
+  "description": "The paper redesigns GDB dynamic tracing around LTTng-UST and scalable trace views so multi-threaded CPU/GPU debugging remains usable on heterogeneous many-core systems.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper redesigns GDB dynamic tracing around LTTng-UST and scalable trace views so multi-threaded CPU/GPU debugging remains usable on heterogeneous many-core systems.",
     "problem": "Conventional debugger tracing serializes many threads through shared buffers and stop-the-world flushing, while heterogeneous CPU/GPU execution produces too many threads, waves, and call-stack events for a flat debugger UI.",
@@ -93,7 +96,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1016/j.sysarc.2019.02.016",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -103,7 +106,7 @@
       "local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -111,6 +114,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

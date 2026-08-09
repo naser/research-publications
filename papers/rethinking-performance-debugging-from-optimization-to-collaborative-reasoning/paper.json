@@ -23,6 +23,9 @@
   },
   "abstract": "The paper argues that microservice performance debugging should preserve and empirically challenge multiple evidence-grounded explanations under uncertainty instead of optimizing for one opaque root-cause answer.",
   "abstract_source": "Public author manuscript and private downloaded copy reviewed; abstract paraphrased.",
+  "abstract_available": true,
+  "description": "The paper argues that microservice performance debugging should preserve and empirically challenge multiple evidence-grounded explanations under uncertainty instead of optimizing for one opaque root-cause answer.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper reframes performance debugging as collaborative reasoning over multiple evidence-grounded hypotheses rather than optimization for one supposedly best explanation.",
     "problem": "Optimization-centric performance debugging collapses diagnosis into one best root cause. That framing is brittle when traces are incomplete, failures interact, and engineers must compare uncertain explanations and decide what to investigate.",
@@ -98,7 +101,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Public author manuscript: AgentDebug roles, Reasoning Surface, Gemini 2.5 Flash, CART critique, and Pareto-style curation",
       "Public author manuscript: 200 datasets, Train-Ticket/E-Shopper, 2.1 million RPC traces, fault regimes, F1 results, convergence ratio, and API cost",
@@ -106,7 +109,7 @@
       "Publication DOI and DBLP identity verified; private five-page ResearchGate author manuscript read and SHA-256 verified as 9fad98132e1dd1c06f885bf6b033c80691bd067a3f7c31f7f27841d9b9d4c308; private evidence note: pdf-evidence/notes/rethinking-performance-debugging-agentdebug.md"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -114,6 +117,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

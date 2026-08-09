@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "ICPE Companion PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "The paper identifies response-time variability in Alibaba microservice traces through critical-path extraction and variability analysis of service interactions.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper identifies response-time variability in Alibaba microservice traces through critical-path extraction and variability analysis of service interactions.",
     "problem": "Large microservice traces contain many interacting services, and service-level averages can hide path-level response-time variability. The paper targets critical interactions whose unstable response times may indicate performance problems (pp. 1-2).",
@@ -94,7 +97,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "ICPE Companion PDF: Alibaba cluster-trace-microservices-v2022 preprocessing, critical-path extraction, 20 intervals, and 10-times-mean variability rule",
       "ICPE Companion PDF: nearly 20,000 services, 40,062,862 trace IDs, 91,704 critical paths, 1,891 high-variance interactions, and four patterns",
@@ -102,7 +105,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -110,6 +113,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

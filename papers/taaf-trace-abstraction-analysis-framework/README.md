@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [knowledge-graphs](../../topics/knowledge-graphs.md) | [llm-assisted-analysis](../../topics/llm-assisted-analysis.md) | [observability](../../topics/observability.md)
 
-**Keywords:** [TAAF](../../keywords/taaf.md) | [TraceQA-100](../../keywords/traceqa-100.md) | [time-indexed knowledge graph](../../keywords/time-indexed-knowledge-graph.md) | [natural-language trace queries](../../keywords/natural-language-trace-queries.md) | [multi-hop reasoning](../../keywords/multi-hop-reasoning.md) | [causal reasoning](../../keywords/causal-reasoning.md)
+**Keywords:** TAAF | TraceQA-100 | time-indexed knowledge graph | natural-language trace queries | multi-hop reasoning | causal reasoning
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ A. Ezaz, G. Khodabandeh, M. Babaei, and N. Ezzati-Jivan, "TAAF: A Trace Abstract
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: official arXiv abstract, metadata, and PDF page 2601.02632; arXiv page comment containing the ICSE 2026 acceptance and ACM DOI; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

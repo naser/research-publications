@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [machine-learning](../../topics/machine-learning.md)
 
-**Keywords:** [kernel traces](../../keywords/kernel-traces.md) | [trace generation](../../keywords/trace-generation.md) | [diffusion models](../../keywords/diffusion-models.md) | [constraint-guided generation](../../keywords/constraint-guided-generation.md) | [LTTng](../../keywords/lttng.md) | [Parquet](../../keywords/parquet.md) | [Phoronix Test Suite](../../keywords/phoronix-test-suite.md) | [DDIM](../../keywords/ddim.md) | [next-event prediction](../../keywords/next-event-prediction.md) | [synthetic traces](../../keywords/synthetic-traces.md)
+**Keywords:** [kernel traces](../../keywords/kernel-traces.md) | trace generation | [diffusion models](../../keywords/diffusion-models.md) | constraint-guided generation | [LTTng](../../keywords/lttng.md) | Parquet | [Phoronix Test Suite](../../keywords/phoronix-test-suite.md) | DDIM | next-event prediction | synthetic traces
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ Y. Sehgal, S. Patel, M. Panahandeh, N. Ezzati-Jivan, and F. Tetreault, "TraceSyn
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/tracesynth-kernel-trace-generation.md; TraceSynth PDF pp. 3-5: LTTng collection, six-channel representation, diffusion model, and invariant repair; TraceSynth PDF pp. 6-10: Nibicluster/Phoronix workloads, DDIM generation, next-event metrics, context-length and channel ablations; TraceSynth PDF pp. 10-11: limitations and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

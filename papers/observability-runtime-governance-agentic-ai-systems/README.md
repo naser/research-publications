@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [observability](../../topics/observability.md) | [llm-assisted-analysis](../../topics/llm-assisted-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [agentic AI](../../keywords/agentic-ai.md) | [runtime governance](../../keywords/runtime-governance.md) | [AI observability](../../keywords/ai-observability.md) | [software agents](../../keywords/software-agents.md) | [FSE 2026](../../keywords/fse-2026.md)
+**Keywords:** agentic AI | runtime governance | AI observability | software agents | FSE 2026
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ N. Ezzati-Jivan and M. Ekhlasi, "Observability and Runtime Governance for Agenti
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref DOI record: https://api.crossref.org/v1/works/10.1145/3803437.3804904; DBLP record: https://dblp.org/rec/conf/sigsoft/Ezzati-JivanE26; Private evidence note: papers/observability-and-runtime-governance-for-agentic-ai-systems-838a748cf7/pdf-evidence/notes/parallel-batch-01-observability-runtime-governance.md
 - Machine-readable record: [paper.json](./paper.json)

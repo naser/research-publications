@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": "Author-hosted full-text PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "The paper introduces a taxonomy of log-event characteristics that explains why different log parsers fail across systems and parser families.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper introduces a taxonomy of log-event characteristics that explains why different log parsers fail across systems and parser families.",
     "problem": "Heterogeneous and evolving logs make template extraction unreliable; existing parser evaluations often emphasize algorithm design without identifying the log-event characteristics that cause errors across datasets and parser families.",
@@ -102,7 +105,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "ICPC taxonomy PDF: 16 LogHub datasets, 32,000 labelled events, eight parsers, 30 characteristics, and three taxonomy categories",
       "ICPC taxonomy PDF: parser error counts, difficult token patterns, chi-square/effect-size results, and IPv6 exception",
@@ -110,7 +113,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -118,6 +121,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

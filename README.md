@@ -27,7 +27,7 @@ Each paper has a Markdown record for readers, a JSON record for agents and scrip
 
 Schema version **0.4.0** uses `versions` as the only canonical list of publication and preprint source links. `page_url` is the stable catalog page; `canonical_source_url` is the citation target; `access` is an access summary; `resources` contains only optional code, data, slides, and demo links; and `provenance` records verification and summary status.
 
-Controlled `tags` link to broad topic pages. Paper-specific `keywords` link to keyword pages and are checked for duplicate or inconsistent spellings.
+Controlled tags link to broad topic pages. All paper-specific keywords remain in each record; recurring keywords used by at least 2 papers receive standalone browse pages, while one-off keywords remain plain-text metadata to prevent a fragmented index.
 
 ## Provenance and rights
 
@@ -35,4 +35,4 @@ Each record identifies when metadata was verified, what evidence was used, and w
 
 The repository validator enforces the JSON Schema, checks duplicate DOIs and source records, validates URL syntax, checks topic/keyword indexes, compares mirrored JSON records, and rejects mojibake or escaped HTML entities.
 
-Generated from the locally verified research catalog on 2026-08-07.
+Generated from the locally verified research catalog on 2026-08-08.

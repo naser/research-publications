@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "Toward Adaptive Tracing ACM Open PDF reviewed on 2026-08-06; abstract not reproduced because the reuse terms for the publisher PDF were not established.",
+  "abstract_available": false,
+  "description": "The paper proposes an adaptive tracing loop that combines language-model prediction of kernel-event sequences and event durations with change detection and root-cause analysis, so detailed tracing is activated only around significant behavior shifts.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper proposes an adaptive tracing loop that combines language-model prediction of kernel-event sequences and event durations with change detection and root-cause analysis, so detailed tracing is activated only around significant behavior shifts.",
     "problem": "Continuous kernel tracing imposes performance, storage, and analysis cost, while event-only analysis can miss duration changes. The paper asks how tracing can remain selective while preserving evidence around abrupt system behavior changes.",
@@ -100,7 +103,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1145/3639476.3639778",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -111,7 +114,7 @@
       "local Toward Adaptive Tracing PDF hash verified in pdf-evidence/notes/toward-adaptive-tracing-language-models.md and pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -119,6 +122,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

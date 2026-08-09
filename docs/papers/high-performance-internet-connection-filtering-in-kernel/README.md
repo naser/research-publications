@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [performance-engineering](../../topics/performance-engineering.md) | [performance-optimization](../../topics/performance-optimization.md) | [resource-analysis](../../topics/resource-analysis.md)
 
-**Keywords:** [in-kernel proxy](../../keywords/in-kernel-proxy.md) | [connection filtering](../../keywords/connection-filtering.md) | [Fire Bench](../../keywords/fire-bench.md) | [SPECWeb2009](../../keywords/specweb2009.md) | [context switches](../../keywords/context-switches.md) | [data copies](../../keywords/data-copies.md) | [HTTP proxy](../../keywords/http-proxy.md) | [FTP](../../keywords/ftp.md) | [TELNET](../../keywords/telnet.md) | [kernel architecture](../../keywords/kernel-architecture.md)
+**Keywords:** in-kernel proxy | connection filtering | Fire Bench | SPECWeb2009 | context switches | data copies | HTTP proxy | FTP | TELNET | kernel architecture
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ N. E. Jivan, A. S. Sendi, N. Nematbakhsh, and M. Dagenais, "High Performance Int
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full proceedings evidence note: pdf-evidence/notes/parallel-batch-04-high-performance-internet-connection-filtering-through-an-in-kernel-architecture.md; Article printed pp. 32-37 in the public combined ICIMP proceedings PDF; Local PDF hash verified: F4F01012F90BB07B08926F1AF8AED9CC0211177450BD1ABCB70DF3C87E37D94; Institutional record: https://publications.polymtl.ca/16917/
 - Machine-readable record: [paper.json](./paper.json)

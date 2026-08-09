@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [root-cause-analysis](../../topics/root-cause-analysis.md) | [microservices](../../topics/microservices.md) | [social-network-analysis](../../topics/social-network-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [context-aware RCA](../../keywords/context-aware-rca.md) | [service-call graph](../../keywords/service-call-graph.md) | [distributed traces](../../keywords/distributed-traces.md) | [service communities](../../keywords/service-communities.md) | [Louvain](../../keywords/louvain.md) | [PageRank](../../keywords/pagerank.md) | [Jaccard distance](../../keywords/jaccard-distance.md) | [Ochiai](../../keywords/ochiai.md) | [CPU stress](../../keywords/cpu-stress.md) | [network delay](../../keywords/network-delay.md) | [network loss](../../keywords/network-loss.md) | [AIOps Challenge 2020](../../keywords/aiops-challenge-2020.md)
+**Keywords:** [context-aware RCA](../../keywords/context-aware-rca.md) | service-call graph | [distributed traces](../../keywords/distributed-traces.md) | service communities | [Louvain](../../keywords/louvain.md) | [PageRank](../../keywords/pagerank.md) | Jaccard distance | Ochiai | CPU stress | network delay | network loss | AIOps Challenge 2020
 
 ## Resources
 
@@ -84,7 +84,7 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Context-aware Ro
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE Companion WIP PDF: weighted service-call graphs, Louvain, PageRank, Jaccard diversity, Ochiai, and heuristic search; ICPE Companion WIP PDF: AIOps Challenge 2020 Dataset C, 46 labelled windows, fault categories, top-1/top-3 results, and tied-candidate reduction; ICPE Companion WIP PDF: preliminary-evaluation limitation and future-work scope; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

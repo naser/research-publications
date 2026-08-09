@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [performance-analysis](../../topics/performance-analysis.md) | [trace-analysis](../../topics/trace-analysis.md)
 
-**Keywords:** [sequence alignment](../../keywords/sequence-alignment.md) | [MUSCLE](../../keywords/muscle.md) | [OPTICS](../../keywords/optics.md) | [critical path](../../keywords/critical-path.md) | [system-level traces](../../keywords/system-level-traces.md) | [performance anomalies](../../keywords/performance-anomalies.md) | [LTTng](../../keywords/lttng.md) | [Docker](../../keywords/docker.md) | [execution clustering](../../keywords/execution-clustering.md) | [trace overhead](../../keywords/trace-overhead.md)
+**Keywords:** sequence alignment | MUSCLE | OPTICS | [critical path](../../keywords/critical-path.md) | [system-level traces](../../keywords/system-level-traces.md) | performance anomalies | [LTTng](../../keywords/lttng.md) | [Docker](../../keywords/docker.md) | execution clustering | [trace overhead](../../keywords/trace-overhead.md)
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance Anomaly Detection 
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/performance-anomaly-detection-sequence-alignment.md; Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment; Performance-anomaly PDF pp. 8-10: VirtualBox/Ubuntu/LTTng environment, overhead, Python case, Docker case, and diagnosis; Performance-anomaly PDF p. 10: conclusion and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

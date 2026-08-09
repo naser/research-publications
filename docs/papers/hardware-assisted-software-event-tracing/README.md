@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [kernel-tracing](../../topics/kernel-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-engineering](../../topics/performance-engineering.md)
 
-**Keywords:** [hardware-assisted tracing](../../keywords/hardware-assisted-tracing.md) | [software events](../../keywords/software-events.md) | [event collection](../../keywords/event-collection.md) | [trace overhead](../../keywords/trace-overhead.md) | [ARM CoreSight](../../keywords/arm-coresight.md) | [STM](../../keywords/stm.md) | [ETM](../../keywords/etm.md) | [ETB](../../keywords/etb.md) | [Intel BTS](../../keywords/intel-bts.md) | [Perf](../../keywords/perf.md) | [LTTng-UST](../../keywords/lttng-ust.md)
+**Keywords:** hardware-assisted tracing | software events | event collection | [trace overhead](../../keywords/trace-overhead.md) | ARM CoreSight | STM | ETM | ETB | Intel BTS | [Perf](../../keywords/perf.md) | [LTTng-UST](../../keywords/lttng-ust.md)
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ A. Vergé, N. Ezzati-Jivan, and M. R. Dagenais, "Hardware-Assisted Software Even
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1002/cpe.4069; author identity matched to Naser Ezzati-Jivan in the local research catalog; Hardware-assisted tracing PDF pp. 1-4: problem, ARM CoreSight/Intel BTS design, platforms, and LTTng comparison; Hardware-assisted tracing PDF pp. 4-10: STM/ETM/BTS implementations, benchmark results, and modified Perf path; Hardware-assisted tracing PDF p. 10: conclusion, quantitative comparisons, and limitations; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

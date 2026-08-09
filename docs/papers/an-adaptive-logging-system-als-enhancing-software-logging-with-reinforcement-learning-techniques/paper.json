@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "ICPE proceedings PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "ALS uses source-code features and reinforcement learning to recommend which Python functions to log and which log levels to use for performance-bug diagnosis.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "ALS uses source-code features and reinforcement learning to recommend which Python functions to log and which log levels to use for performance-bug diagnosis.",
     "problem": "Logging can provide essential postmortem evidence but adds code, storage, and runtime cost. Existing log-placement systems are tied to fixed objectives and show weak cross-project transfer; resource-constrained environments need adaptable performance-bug logging (pp. 1-3).",
@@ -99,7 +102,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "ICPE ALS PDF: Python AST, GitHub/PyGithub/git, 12 static features, bug classes, Stable-Baselines, and DQN/A2C/PPO selection",
       "ICPE ALS PDF: 17 Apache/Django projects, 93,484 functions, 4,235 files, eight-episode evaluation, and reward stability findings",
@@ -107,7 +110,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -115,6 +118,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

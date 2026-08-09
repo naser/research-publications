@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [resource-analysis](../../topics/resource-analysis.md)
 
-**Keywords:** [container workloads](../../keywords/container-workloads.md) | [host tracing](../../keywords/host-tracing.md) | [LTTng](../../keywords/lttng.md) | [pid_ns](../../keywords/pid-ns.md) | [tid](../../keywords/tid.md) | [Trace Compass](../../keywords/trace-compass.md) | [PageRank](../../keywords/pagerank.md) | [K-Means](../../keywords/k-means.md) | [Docker](../../keywords/docker.md) | [Ubuntu 20.04.1](../../keywords/ubuntu-20-04-1.md) | [Linux 5.8.0](../../keywords/linux-5-8-0.md) | [silhouette score](../../keywords/silhouette-score.md) | [tracing overhead](../../keywords/tracing-overhead.md)
+**Keywords:** container workloads | host tracing | [LTTng](../../keywords/lttng.md) | pid_ns | tid | [Trace Compass](../../keywords/trace-compass.md) | [PageRank](../../keywords/pagerank.md) | [K-Means](../../keywords/k-means.md) | [Docker](../../keywords/docker.md) | Ubuntu 20.04.1 | Linux 5.8.0 | [silhouette score](../../keywords/silhouette-score.md) | tracing overhead
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ M. Janecek, N. Ezzati-Jivan, and S. V. Azhari, "Container Workload Characterizat
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/ic2e52221.2021.00015; author identity matched to Naser Ezzati-Jivan in the local research catalog; Container workload PDF pp. 1-4: host-only motivation, LTTng, pid_ns/tid attribution, and state extraction; Container workload PDF pp. 4-9: PageRank feature selection, vectorization, two-stage K-Means, workloads, and silhouette result; Container workload PDF pp. 9-10: required tracepoints, 21.62% versus 3.6% overhead, limitations, and future work; local container-workload PDF hash verified in pdf-evidence/notes/container-workload-characterization-host-tracing.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

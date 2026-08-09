@@ -22,6 +22,9 @@
   },
   "abstract": null,
   "abstract_source": "Authors' public artifact README and system-information file reviewed on 2026-08-07; the publisher full text was not reproduced and the abstract is not included.",
+  "abstract_available": false,
+  "description": "The work presents a reusable system-tracing artifact and workflow for bringing Linux kernel-level events into empirical software performance-engineering studies, with raw traces, analysis reports, and setup material.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "The work presents a reusable system-tracing artifact and workflow for bringing Linux kernel-level events into empirical software performance-engineering studies, with raw traces, analysis reports, and setup material.",
     "problem": "Application-level performance measurements can show that a workload is slow without exposing the operating-system events, scheduling behavior, or injected resource noise that explain the variation. A reproducible kernel-event collection and analysis artifact is therefore needed for performance-engineering research.",
@@ -85,7 +88,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1016/j.jss.2024.112117",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -95,7 +98,7 @@
       "No local publication PDF hash is claimed; publisher/SSRN full-text retrieval was blocked during this run"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -103,6 +106,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

@@ -34,7 +34,7 @@ The accessible chapter preview describes a tree-based model of system states and
 
 **Tags:** [trace-abstraction](../../topics/trace-abstraction.md) | [trace-visualization](../../topics/trace-visualization.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [system states](../../keywords/system-states.md) | [trace queries](../../keywords/trace-queries.md) | [trace visualization](../../keywords/trace-visualization.md) | [interval data](../../keywords/interval-data.md) | [tree-based storage](../../keywords/tree-based-storage.md) | [online analysis](../../keywords/online-analysis.md) | [offline analysis](../../keywords/offline-analysis.md)
+**Keywords:** system states | trace queries | [trace visualization](../../keywords/trace-visualization.md) | [interval data](../../keywords/interval-data.md) | tree-based storage | [online analysis](../../keywords/online-analysis.md) | offline analysis
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ A. Montplaisir, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Efficient Mod
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: PolyPublie record: https://publications.polymtl.ca/13394/; DOI: https://doi.org/10.1007/978-3-642-40787-1_13; DBLP record: https://dblp.org/rec/conf/rv/MontplaisirJWD13.html; Official Springer preview read privately; SHA-256 1f03c9225de8d032f7015b076dd48c7805897c006cb226016baa0e9b01eb621d; private evidence report: reports/agent-batch-04.md
 - Machine-readable record: [paper.json](./paper.json)

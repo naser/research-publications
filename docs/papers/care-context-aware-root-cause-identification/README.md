@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [microservices](../../topics/microservices.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [latency-analysis](../../topics/latency-analysis.md)
 
-**Keywords:** [distributed traces](../../keywords/distributed-traces.md) | [profiling metrics](../../keywords/profiling-metrics.md) | [context-aware RCA](../../keywords/context-aware-rca.md) | [microservice diagnosis](../../keywords/microservice-diagnosis.md) | [TrainTicket](../../keywords/trainticket.md) | [spectrum-based fault localization](../../keywords/spectrum-based-fault-localization.md) | [PageRank](../../keywords/pagerank.md) | [China Mobile Zhejiang](../../keywords/china-mobile-zhejiang.md)
+**Keywords:** [distributed traces](../../keywords/distributed-traces.md) | profiling metrics | [context-aware RCA](../../keywords/context-aware-rca.md) | microservice diagnosis | [TrainTicket](../../keywords/trainticket.md) | spectrum-based fault localization | [PageRank](../../keywords/pagerank.md) | China Mobile Zhejiang
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aw
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/tse.2025.3645143; author identity matched to Naser Ezzati-Jivan in the local research catalog; CARE PDF pp. 1-2: problem, context-aware observability motivation, and contribution; CARE PDF pp. 3-10: service graphs, profiling metrics, trace clustering, graph ranking, and weighted spectrum analysis; CARE PDF pp. 9-12: baselines, TrainTicket and China Mobile Zhejiang datasets, metrics, accuracy results, and double-root-cause evaluation; CARE PDF pp. 11-12: HeMiRCA data mismatch and evaluation boundary; local CARE PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

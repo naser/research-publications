@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": null,
+  "abstract_available": false,
+  "description": "The paper moves part of an application proxy into the kernel to reduce context switches and unnecessary data copies during connection filtering.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper moves part of an application proxy into the kernel to reduce context switches and unnecessary data copies during connection filtering.",
     "problem": "Application-layer proxy firewalls can copy packets between kernel and user space and incur repeated context switches, creating a network-performance bottleneck (printed pp. 32-34).",
@@ -93,7 +96,7 @@
     "canonical_version_id": "institutional-publication-record"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Private full proceedings evidence note: pdf-evidence/notes/parallel-batch-04-high-performance-internet-connection-filtering-through-an-in-kernel-architecture.md",
       "Article printed pp. 32-37 in the public combined ICIMP proceedings PDF",
@@ -101,7 +104,7 @@
       "Institutional record: https://publications.polymtl.ca/16917/"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -109,6 +112,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

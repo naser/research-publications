@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": null,
+  "abstract_available": false,
+  "description": "The poster proposes a hybrid IoT intrusion-detection pipeline with binary anomaly detection followed by multiclass attack classification.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The poster proposes a hybrid IoT intrusion-detection pipeline with binary anomaly detection followed by multiclass attack classification.",
     "problem": "The poster motivates anomaly/intrusion detection for growing IoT networks, arguing that existing methods may be poorly tuned and that large feature sets increase computation, memory, and training time (p. 1, \"Abstract/Introduction\").",
@@ -91,7 +94,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Private one-page poster read: pdf-evidence/notes/parallel-batch-02-deep-learning-driven-anomaly-based-intrusion-detection-system-for-iot-poster-abstract-e3d870b1d7.md",
       "DOI/DBLP published item: https://doi.org/10.1145/3565386.3565493",
@@ -99,7 +102,7 @@
       "Local poster hash verified: B1B4A85A9EB721BC9930119CF6CBF6797CA28B6F7525E21DD5633DF8138F1682"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -107,6 +110,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

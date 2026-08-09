@@ -25,6 +25,9 @@
   },
   "abstract": "The accessible Springer preview associates the paper with a unified anomaly-detection approach for bandwidth-, application-, and connection-exhaustion DDoS groups, using CUSUM-style change detection and representative HTTP, database/application, and TCP SYN-flood attacks.",
   "abstract_source": "Springer two-page preview, paraphrased; complete article not obtained.",
+  "abstract_available": true,
+  "description": "The accessible Springer preview associates the paper with a unified anomaly-detection approach for bandwidth-, application-, and connection-exhaustion DDoS groups, using CUSUM-style change detection and representative HTTP, database/application, and TCP SYN-flood attacks.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "The record identifies a cloud-DDoS anomaly-detection study that distinguishes multiple exhaustion-oriented attack types.",
     "problem": "Cloud DDoS attacks can consume different resource layers and require detection methods that distinguish their behavioral signatures.",
@@ -90,14 +93,14 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "DOI: https://doi.org/10.1007/s41635-021-00119-z",
       "DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21",
       "Official Springer preview read privately; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; private evidence report: reports/agent-batch-04.md"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -105,6 +108,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

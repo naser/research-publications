@@ -34,7 +34,7 @@ The accessible abstract describes hierarchical trace-log management with an inte
 
 **Tags:** [trace-visualization](../../topics/trace-visualization.md) | [trace-abstraction](../../topics/trace-abstraction.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [large trace data](../../keywords/large-trace-data.md) | [multiscale navigation](../../keywords/multiscale-navigation.md) | [zoomable timeline](../../keywords/zoomable-timeline.md) | [semantic zoom](../../keywords/semantic-zoom.md) | [physical zoom](../../keywords/physical-zoom.md) | [trace visualization](../../keywords/trace-visualization.md)
+**Keywords:** large trace data | multiscale navigation | zoomable timeline | [semantic zoom](../../keywords/semantic-zoom.md) | physical zoom | [trace visualization](../../keywords/trace-visualization.md)
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "Multiscale Navigation in Large Trace Data,"
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: PolyPublie record: https://publications.polymtl.ca/12410/; DOI: https://doi.org/10.1109/CCECE.2014.6901019; DBLP record: https://dblp.org/rec/conf/ccece/JivanD14.html; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

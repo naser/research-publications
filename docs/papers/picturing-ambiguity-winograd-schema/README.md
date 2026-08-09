@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [multimodal-ai](../../topics/multimodal-ai.md) | [benchmark-datasets](../../topics/benchmark-datasets.md) | [common-sense-reasoning](../../topics/common-sense-reasoning.md) | [machine-learning](../../topics/machine-learning.md)
 
-**Keywords:** [Winograd Schema Challenge](../../keywords/winograd-schema-challenge.md) | [WinoVis](../../keywords/winovis.md) | [text-to-image models](../../keywords/text-to-image-models.md) | [pronoun disambiguation](../../keywords/pronoun-disambiguation.md) | [DAAM](../../keywords/daam.md) | [Stable Diffusion](../../keywords/stable-diffusion.md)
+**Keywords:** Winograd Schema Challenge | WinoVis | text-to-image models | pronoun disambiguation | DAAM | Stable Diffusion
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ B. Park, M. Janecek, N. Ezzati-Jivan, Y. Li, and A. Emami, "Picturing Ambiguity:
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ACL Anthology and DOI metadata; official arXiv abstract and PDF page 2405.16277; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

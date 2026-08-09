@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [trace-analysis](../../topics/trace-analysis.md) | [trace-abstraction](../../topics/trace-abstraction.md) | [performance-analysis](../../topics/performance-analysis.md) | [system-tracing](../../topics/system-tracing.md) | [trace-visualization](../../topics/trace-visualization.md)
 
-**Keywords:** [declarative trace analysis](../../keywords/declarative-trace-analysis.md) | [stateful analysis](../../keywords/stateful-analysis.md) | [execution traces](../../keywords/execution-traces.md) | [LTTng](../../keywords/lttng.md) | [ETW](../../keywords/etw.md) | [State History Tree](../../keywords/state-history-tree.md) | [XML](../../keywords/xml.md) | [trace filtering](../../keywords/trace-filtering.md) | [Gantt chart](../../keywords/gantt-chart.md) | [critical-path analysis](../../keywords/critical-path-analysis.md)
+**Keywords:** declarative trace analysis | stateful analysis | execution traces | [LTTng](../../keywords/lttng.md) | ETW | [State History Tree](../../keywords/state-history-tree.md) | XML | [trace filtering](../../keywords/trace-filtering.md) | [Gantt chart](../../keywords/gantt-chart.md) | [critical-path analysis](../../keywords/critical-path-analysis.md)
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ F. Wininger, N. Ezzati-Jivan, and M. R. Dagenais, "A declarative framework for s
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/declarative-framework-stateful-trace-analysis.md; Declarative-framework PDF pp. 2-7: problem, state model, State History Tree, XML language, event handlers, and filters; Declarative-framework PDF pp. 8-13: LTTng/ETW evaluation, 13.4/100 MiB traces, 25 repetitions, cross-platform examples, and resolution queries; Declarative-framework PDF p. 14: limitations and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

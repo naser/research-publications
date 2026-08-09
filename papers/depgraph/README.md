@@ -34,7 +34,7 @@ This paper addresses the challenge of understanding the waiting dependencies bet
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [multicore-systems](../../topics/multicore-systems.md)
 
-**Keywords:** [waiting dependency graph](../../keywords/waiting-dependency-graph.md) | [system-level tracing](../../keywords/system-level-tracing.md) | [blocking dependencies](../../keywords/blocking-dependencies.md) | [performance bottlenecks](../../keywords/performance-bottlenecks.md) | [thread-resource interactions](../../keywords/thread-resource-interactions.md)
+**Keywords:** waiting dependency graph | system-level tracing | blocking dependencies | performance bottlenecks | thread-resource interactions
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ N. Ezzati-Jivan, Q. Fournier, M. R. Dagenais, and A. Hamou-Lhadj, "DepGraph: Loc
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

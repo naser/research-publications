@@ -34,7 +34,7 @@ The paper presents a host-based IoT intrusion-detection framework that combines 
 
 **Tags:** [iot-security](../../topics/iot-security.md) | [kernel-tracing](../../topics/kernel-tracing.md) | [machine-learning](../../topics/machine-learning.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [lttng](../../topics/lttng.md) | [observability](../../topics/observability.md)
 
-**Keywords:** [IoT intrusion detection](../../keywords/iot-intrusion-detection.md) | [host-based IDS](../../keywords/host-based-ids.md) | [LTTng](../../keywords/lttng.md) | [barectf](../../keywords/barectf.md) | [Common Trace Format](../../keywords/common-trace-format.md) | [Babeltrace](../../keywords/babeltrace.md) | [Raspberry Pi 3](../../keywords/raspberry-pi-3.md) | [Home Assistant](../../keywords/home-assistant.md) | [Decision Tree](../../keywords/decision-tree.md) | [Random Forest](../../keywords/random-forest.md) | [Gradient Boosted Trees](../../keywords/gradient-boosted-trees.md) | [SVM](../../keywords/svm.md) | [MLP](../../keywords/mlp.md) | [LSTM](../../keywords/lstm.md) | [Mirai](../../keywords/mirai.md) | [ransomware](../../keywords/ransomware.md) | [CPU overhead](../../keywords/cpu-overhead.md) | [memory overhead](../../keywords/memory-overhead.md)
+**Keywords:** IoT intrusion detection | host-based IDS | [LTTng](../../keywords/lttng.md) | barectf | [Common Trace Format](../../keywords/common-trace-format.md) | [Babeltrace](../../keywords/babeltrace.md) | Raspberry Pi 3 | Home Assistant | Decision Tree | [Random Forest](../../keywords/random-forest.md) | Gradient Boosted Trees | [SVM](../../keywords/svm.md) | MLP | [LSTM](../../keywords/lstm.md) | Mirai | ransomware | CPU overhead | memory overhead
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ R. Gassais, N. Ezzati-Jivan, J. M. Fernandez, D. Aloise, and M. R. Dagenais, "Mu
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Official Journal of Cloud Computing PDF: LTTng/barectf/CTF/Babeltrace pipeline, Raspberry Pi/Home Assistant testbed, features, models, and attack simulations; Official PDF: 58/42 benign-intrusion split, 66/34 train/test split, classifier metrics, latency, CPU, memory, and training-cost results; Official PDF: protocol, real-malware, validation-bias, single-point, and scaling limitations plus future work; Official open-access PDF was read; no copy is included in github-repo
 - Machine-readable record: [paper.json](./paper.json)

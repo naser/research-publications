@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [observability](../../topics/observability.md) | [trace-analysis](../../topics/trace-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [log parsing](../../keywords/log-parsing.md) | [log event characteristics](../../keywords/log-event-characteristics.md) | [LEC taxonomy](../../keywords/lec-taxonomy.md) | [LogHub](../../keywords/loghub.md) | [Drain](../../keywords/drain.md) | [IPLoM](../../keywords/iplom.md) | [AEL](../../keywords/ael.md) | [Spell](../../keywords/spell.md) | [LenMa](../../keywords/lenma.md) | [LogMine](../../keywords/logmine.md) | [SHISO](../../keywords/shiso.md) | [ULP](../../keywords/ulp.md) | [open coding](../../keywords/open-coding.md) | [regex](../../keywords/regex.md) | [NER](../../keywords/ner.md) | [chi-square](../../keywords/chi-square.md) | [parser errors](../../keywords/parser-errors.md) | [token structure](../../keywords/token-structure.md)
+**Keywords:** [log parsing](../../keywords/log-parsing.md) | log event characteristics | LEC taxonomy | [LogHub](../../keywords/loghub.md) | [Drain](../../keywords/drain.md) | IPLoM | [AEL](../../keywords/ael.md) | [Spell](../../keywords/spell.md) | LenMa | LogMine | SHISO | [ULP](../../keywords/ulp.md) | open coding | regex | NER | chi-square | [parser errors](../../keywords/parser-errors.md) | token structure
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Developing a Taxo
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPC taxonomy PDF: 16 LogHub datasets, 32,000 labelled events, eight parsers, 30 characteristics, and three taxonomy categories; ICPC taxonomy PDF: parser error counts, difficult token patterns, chi-square/effect-size results, and IPv6 exception; ICPC taxonomy PDF: limitations and hybrid/adaptive-parser future directions; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -120,6 +120,7 @@ const requiredRoot = [
   "docs/catalog.json",
   "docs/robots.txt",
   "docs/sitemap.xml",
+  "docs/llms.txt",
   "docs/.nojekyll",
   "docs/schemas/paper.schema.json",
   "docs/schemas/vocabularies.json",
@@ -155,6 +156,9 @@ if (schema) {
 }
 if (catalog?.schema_version !== expectedSchemaVersion) failures.push("catalog schema_version is not " + expectedSchemaVersion);
 if (!Array.isArray(catalog?.records) || !catalog.records.length) failures.push("catalog has no records");
+if (catalog?.creator?.orcid !== "0000-0003-1435-6297") failures.push("catalog creator ORCID is missing or incorrect");
+if (catalog?.record_count !== catalog?.records?.length) failures.push("catalog record_count does not match records");
+if ((catalog?.full_text_reviewed_count ?? 0) + (catalog?.full_text_pending_count ?? 0) !== catalog?.records?.length) failures.push("catalog full-text counts do not sum to records");
 
 for (const relative of ["schemas/paper.schema.json", "schemas/vocabularies.json", "catalog.json"]) {
   const source = path.join(repoRoot, relative);
@@ -182,6 +186,13 @@ const catalogById = new Map((catalog?.records ?? []).map((record) => [record.pap
 const seenDois = new Map();
 const seenSourceRecords = new Map();
 const seenKeywords = new Map();
+const keywordFrequency = new Map();
+for (const record of catalog?.records ?? []) {
+  for (const keyword of record.keywords ?? []) {
+    const key = keywordSlug(keyword);
+    keywordFrequency.set(key, (keywordFrequency.get(key) ?? 0) + 1);
+  }
+}
 
 if (catalog && catalog.records.length !== paperIds.length) failures.push("catalog record count does not match paper directory count");
 if (new Set(catalog?.records?.map((record) => record.paper_id) ?? []).size !== (catalog?.records?.length ?? 0)) failures.push("catalog contains duplicate paper_id values");
@@ -242,7 +253,7 @@ for (const paperId of paperIds) {
     }
     const keywordFile = path.join(repoRoot, "keywords", key + ".md");
     const keywordHtml = path.join(repoRoot, "docs", "keywords", key + ".html");
-    if (!await exists(keywordFile) || !await exists(keywordHtml)) failures.push(paperId + ": keyword index missing for " + keyword);
+    if ((keywordFrequency.get(key) ?? 0) >= 2 && (!await exists(keywordFile) || !await exists(keywordHtml))) failures.push(paperId + ": recurring keyword index missing for " + keyword);
   }
 
   for (const tag of paper.tags ?? []) {
@@ -272,6 +283,10 @@ for (const paperId of paperIds) {
     const html = await readText(htmlPath);
     for (const required of [
       "<link rel=\"canonical\"",
+      "<link rel=\"cite-as\"",
+      "type=\"application/json\"",
+      "type=\"application/x-bibtex\"",
+      "type=\"application/x-research-info-systems\"",
       "application/ld+json",
       "citation_title",
       "citation_author",
@@ -288,6 +303,11 @@ for (const paperId of paperIds) {
     }
     if (paper.identifiers?.doi && !html.includes("citation_doi")) failures.push(paperId + ": HTML missing citation_doi");
     if ((paper.versions ?? []).some((version) => version.pdf_url) && !html.includes("citation_pdf_url")) failures.push(paperId + ": HTML missing citation_pdf_url");
+    for (const keyword of paper.keywords ?? []) {
+      const key = keywordSlug(keyword);
+      const linked = html.includes("href=\"../../keywords/" + key + ".html\"");
+      if ((keywordFrequency.get(key) ?? 0) < 2 && linked) failures.push(paperId + ": singleton keyword is linked: " + keyword);
+    }
     if (html.includes("&amp;middot;") || html.includes("&amp;mdash;") || html.includes("&amp;larr;")) failures.push(paperId + ": HTML contains escaped entity text");
     if (badEncoding.test(html)) failures.push(paperId + ": HTML contains mojibake");
   }
@@ -300,7 +320,7 @@ for (const paperId of paperIds) {
   if (!catalogRecord) {
     failures.push(paperId + ": missing catalog entry");
   } else {
-    for (const field of ["page", "json", "bibtex", "citation_files", "page_url", "canonical_source_url", "versions", "tags", "keywords"]) {
+    for (const field of ["page", "json", "bibtex", "citation_files", "page_url", "canonical_source_url", "description", "evidence_level", "versions", "tags", "keywords"]) {
       if (catalogRecord[field] == null) failures.push(paperId + ": catalog entry missing " + field);
     }
     if (catalogRecord.page_url !== paper.page_url) failures.push(paperId + ": catalog page_url mismatch");
@@ -329,6 +349,9 @@ const result = {
   controlled_topics: topicIds.size,
   unique_dois: seenDois.size,
   unique_keywords: seenKeywords.size,
+  indexed_keywords: [...keywordFrequency.values()].filter((count) => count >= 2).length,
+  full_text_reviewed: catalog?.full_text_reviewed_count ?? 0,
+  full_text_pending: catalog?.full_text_pending_count ?? 0,
   html_landing_pages: paperIds.length,
   pdf_files_in_public_repo: allFiles.filter((file) => file.relative.toLowerCase().endsWith(".pdf")).length,
   warnings,

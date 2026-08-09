@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
+  "abstract_available": false,
+  "description": "The paper applies graph community detection and service-graph clustering to expose recurring microservice communication structures in an Alibaba production-cluster snapshot.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper applies graph community detection and service-graph clustering to expose recurring microservice communication structures in an Alibaba production-cluster snapshot.",
     "problem": "Large microservice deployments contain complex call relationships whose structure is difficult to inspect directly. The paper studies graph analysis for exposing communities, dependencies, and similarities among service call graphs.",
@@ -94,7 +97,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Private full PDF read: pdf-evidence/notes/network-analysis-microservices-alibaba.md",
       "Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering",
@@ -102,7 +105,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -110,6 +113,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

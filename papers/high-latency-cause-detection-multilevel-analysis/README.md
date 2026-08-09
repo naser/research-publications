@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [latency-analysis](../../topics/latency-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [high latency](../../keywords/high-latency.md) | [dynamic analysis](../../keywords/dynamic-analysis.md) | [multilevel analysis](../../keywords/multilevel-analysis.md) | [latency causes](../../keywords/latency-causes.md) | [LTTng](../../keywords/lttng.md) | [LTTng-UST](../../keywords/lttng-ust.md) | [Trace Compass](../../keywords/trace-compass.md) | [OPcache contention](../../keywords/opcache-contention.md)
+**Keywords:** high latency | dynamic analysis | [multilevel analysis](../../keywords/multilevel-analysis.md) | latency causes | [LTTng](../../keywords/lttng.md) | [LTTng-UST](../../keywords/lttng-ust.md) | [Trace Compass](../../keywords/trace-compass.md) | OPcache contention
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ N. Ezzati-Jivan, G. Bastien, and M. R. Dagenais, "High latency cause detection u
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613; author identity matched to Naser Ezzati-Jivan in the local research catalog; High latency PDF pp. 1-5: problem, LTTng/LTTng-UST instrumentation, state model, and environment; High latency PDF pp. 5, 8-9: PHP/Drupal use cases, OPcache contention, throughput, and tracing overhead; High latency PDF p. 9: validity threats and conclusion/future-work boundary; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

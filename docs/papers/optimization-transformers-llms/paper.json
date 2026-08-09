@@ -26,6 +26,9 @@
   },
   "abstract": null,
   "abstract_source": "arXiv:2502.00046 abstract; public preprint version",
+  "abstract_available": false,
+  "description": "The paper compares compression and optimization strategies for reducing the resource cost of Transformer and large-language-model workloads while retaining useful accuracy.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper compares compression and optimization strategies for reducing the resource cost of Transformer and large-language-model workloads while retaining useful accuracy.",
     "problem": "Transformer and LLM size increases raise computation, energy, and memory costs. The paper compares compression methods under a common objective so that energy savings and runtime reductions can be weighed against perplexity and task-performance loss.",
@@ -92,7 +95,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "DBLP and ACM DOI metadata",
       "official arXiv abstract and PDF page 2502.00046",
@@ -100,7 +103,7 @@
       "author-order discrepancy explicitly retained"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": "The published-record metadata is used for citation order; the arXiv page presents a different author ordering, so the versions should remain distinguishable."
   },
@@ -108,6 +111,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

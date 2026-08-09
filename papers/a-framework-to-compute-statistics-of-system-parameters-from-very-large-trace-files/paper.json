@@ -22,6 +22,9 @@
   },
   "abstract": null,
   "abstract_source": "Institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "The framework computes system-parameter statistics for arbitrary intervals and resource hierarchies from very large traces using a disk-resident history structure and controlled granularity.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The framework computes system-parameter statistics for arbitrary intervals and resource hierarchies from very large traces using a disk-resident history structure and controlled granularity.",
     "problem": "Re-reading large traces for every interval query is slow, while storing every metric change can consume storage comparable to the source trace. The framework targets scalable, compact, interactive metric statistics (pp. 2-4).",
@@ -95,7 +98,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Statistics framework PDF: LTTng/Linux 2.6.38.6, Java history/resource trees, granularity degree, interpolation, and query bounds",
       "Statistics framework PDF: 1-40 GB traces, GD 1/100/500/1000, 20-run/100-interval query experiment, disk-size comparison, and hierarchy analysis",
@@ -103,7 +106,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -111,6 +114,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

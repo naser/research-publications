@@ -25,6 +25,9 @@
   },
   "abstract": "The paper presents a host-based IoT intrusion-detection framework that combines user- and kernel-space traces with machine-learning classifiers.",
   "abstract_source": "Official open-access article PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": true,
+  "description": "The paper presents a host-based IoT intrusion-detection framework that combines user- and kernel-space traces with machine-learning classifiers.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper combines host-level user/kernel tracing with machine learning to detect intrusion behavior on constrained IoT and home-automation systems.",
     "problem": "IoT intrusion detection needs host-level context across user and kernel activity, but resource-constrained devices cannot perform all analysis locally and network-only signals miss useful execution behavior.",
@@ -105,7 +108,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Official Journal of Cloud Computing PDF: LTTng/barectf/CTF/Babeltrace pipeline, Raspberry Pi/Home Assistant testbed, features, models, and attack simulations",
       "Official PDF: 58/42 benign-intrusion split, 66/34 train/test split, classifier metrics, latency, CPU, memory, and training-cost results",
@@ -113,7 +116,7 @@
       "Official open-access PDF was read; no copy is included in github-repo"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -121,6 +124,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

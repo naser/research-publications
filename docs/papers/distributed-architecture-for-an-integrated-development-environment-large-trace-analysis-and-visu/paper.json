@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "Open-access/institutional full-text PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "The paper presents a modular client-server architecture for large-trace storage, analysis, and visualization inside an integrated development environment.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper presents a modular client-server architecture for large-trace storage, analysis, and visualization inside an integrated development environment.",
     "problem": "IDE trace analysis tools are difficult to integrate when trace storage, analysis, and visualization are monolithic, and large traces make browser transfer and rendering expensive.",
@@ -98,7 +101,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Sensors/institutional PDF: Trace Compass, TraceScape, LTTng 2.10.3, TASP, data providers, serialization, and visualization architecture",
       "Sensors/institutional PDF: 2.47 GB/75-million-event trace, state-model sizes, serialization payload/overhead, request latency, and rendering measurements",
@@ -106,7 +109,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -114,6 +117,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

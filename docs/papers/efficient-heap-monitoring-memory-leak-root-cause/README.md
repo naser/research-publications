@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [resource-analysis](../../topics/resource-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [performance-analysis](../../topics/performance-analysis.md) | [system-tracing](../../topics/system-tracing.md)
 
-**Keywords:** [heap monitoring](../../keywords/heap-monitoring.md) | [memory leaks](../../keywords/memory-leaks.md) | [root-cause analysis](../../keywords/root-cause-analysis.md) | [memory management](../../keywords/memory-management.md) | [BigData 2021](../../keywords/bigdata-2021.md)
+**Keywords:** heap monitoring | memory leaks | [root-cause analysis](../../keywords/root-cause-analysis.md) | memory management | BigData 2021
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ V. Azhari, S. Bhamra, N. Ezzati-Jivan, and F. Tetreault, "Efficient Heap Monitor
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/BigData52589.2021.9671473; DBLP record: https://dblp.org/rec/conf/bigdataconf/AzhariBET21; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

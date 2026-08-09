@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [llm-assisted-analysis](../../topics/llm-assisted-analysis.md) | [observability](../../topics/observability.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [trace-reduction](../../topics/trace-reduction.md)
 
-**Keywords:** [adaptive tracing](../../keywords/adaptive-tracing.md) | [LTTng](../../keywords/lttng.md) | [kernel events](../../keywords/kernel-events.md) | [system-call sequences](../../keywords/system-call-sequences.md) | [event-duration modeling](../../keywords/event-duration-modeling.md) | [language models](../../keywords/language-models.md) | [LSTM](../../keywords/lstm.md) | [BERT](../../keywords/bert.md) | [multi-task learning](../../keywords/multi-task-learning.md) | [HDBSCAN](../../keywords/hdbscan.md) | [change detection](../../keywords/change-detection.md) | [root-cause analysis](../../keywords/root-cause-analysis.md) | [Apache](../../keywords/apache.md) | [Sock Shop](../../keywords/sock-shop.md) | [OpenTelemetry](../../keywords/opentelemetry.md) | [Prometheus](../../keywords/prometheus.md) | [stress-ng](../../keywords/stress-ng.md) | [trace reduction](../../keywords/trace-reduction.md) | [trace overhead](../../keywords/trace-overhead.md)
+**Keywords:** [adaptive tracing](../../keywords/adaptive-tracing.md) | [LTTng](../../keywords/lttng.md) | [kernel events](../../keywords/kernel-events.md) | [system-call sequences](../../keywords/system-call-sequences.md) | [event-duration modeling](../../keywords/event-duration-modeling.md) | [language models](../../keywords/language-models.md) | [LSTM](../../keywords/lstm.md) | [BERT](../../keywords/bert.md) | [multi-task learning](../../keywords/multi-task-learning.md) | HDBSCAN | [change detection](../../keywords/change-detection.md) | [root-cause analysis](../../keywords/root-cause-analysis.md) | [Apache](../../keywords/apache.md) | Sock Shop | OpenTelemetry | Prometheus | [stress-ng](../../keywords/stress-ng.md) | [trace reduction](../../keywords/trace-reduction.md) | [trace overhead](../../keywords/trace-overhead.md)
 
 ## Resources
 
@@ -84,7 +84,7 @@ K. Darvishi, M. Noferesti, Y. Sehgal, and N. Ezzati-Jivan, "LMAT: An adaptive tr
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112890; author identity matched to Naser Ezzati-Jivan in the local research catalog; LMAT PDF pp. 1-4: adaptive tracing motivation, four contributions, system loop, and language-model/event-duration design; LMAT PDF pp. 5-8: LTTng event representation, duration modeling, multi-task loss, error vectors, HDBSCAN prototypes, and adaptive control; LMAT PDF pp. 8-11: Apache and Sock Shop datasets, environments, fault injection, tracing protocol, and event subsets; LMAT PDF pp. 12-16: change-detection, root-cause, trace-reduction, latency, throughput, and storage-cost results; LMAT PDF pp. 17-18: generalization boundaries, threats to validity, limitations, and future work; LMAT PDF p. 3: implementation https://github.com/kasra-darvishi/adaptive_tracer and dataset https://zenodo.org/records/10437041; local LMAT PDF hash verified in pdf-evidence/notes/lmat-adaptive-tracing-language-models.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

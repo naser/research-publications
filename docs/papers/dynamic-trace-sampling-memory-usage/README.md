@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [resource-analysis](../../topics/resource-analysis.md) | [performance-analysis](../../topics/performance-analysis.md) | [trace-reduction](../../topics/trace-reduction.md)
 
-**Keywords:** [memory usage](../../keywords/memory-usage.md) | [dynamic sampling](../../keywords/dynamic-sampling.md) | [enterprise applications](../../keywords/enterprise-applications.md) | [trace overhead](../../keywords/trace-overhead.md) | [LTTng](../../keywords/lttng.md) | [kernel module](../../keywords/kernel-module.md) | [Kprobes](../../keywords/kprobes.md) | [kmem_mm_page_alloc](../../keywords/kmem-mm-page-alloc.md) | [kmem_mm_page_free](../../keywords/kmem-mm-page-free.md)
+**Keywords:** [memory usage](../../keywords/memory-usage.md) | dynamic sampling | enterprise applications | [trace overhead](../../keywords/trace-overhead.md) | [LTTng](../../keywords/lttng.md) | kernel module | Kprobes | kmem_mm_page_alloc | kmem_mm_page_free
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ H. Daoud, N. Ezzati-Jivan, and M. R. Dagenais, "Dynamic trace-based sampling alg
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/hpec.2017.8091061; author identity matched to Naser Ezzati-Jivan in the local research catalog; Dynamic sampling PDF pp. 1-5: problem, LTTng 2.8, kernel-module design, dynamic policy, and environment; Dynamic sampling PDF pp. 5-7: benchmark, Firefox/Totem comparisons, overhead, event-count reduction, and correctness; Dynamic sampling PDF p. 7: stated extension to other high-frequency kernel metrics; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

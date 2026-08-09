@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [trace-reduction](../../topics/trace-reduction.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [execution trace reconstruction](../../keywords/execution-trace-reconstruction.md) | [trace imputation](../../keywords/trace-imputation.md) | [diffusion models](../../keywords/diffusion-models.md) | [DiffWave](../../keywords/diffwave.md) | [SSSDS4](../../keywords/sssds4.md) | [SSSDSA](../../keywords/sssdsa.md) | [CSDIS4](../../keywords/csdis4.md) | [structured state-space](../../keywords/structured-state-space.md) | [system-call sequences](../../keywords/system-call-sequences.md) | [LTTng](../../keywords/lttng.md) | [Phoronix Test Suite](../../keywords/phoronix-test-suite.md) | [ROUGE-L](../../keywords/rouge-l.md) | [perfect rate](../../keywords/perfect-rate.md) | [missing events](../../keywords/missing-events.md) | [ring-buffer overflow](../../keywords/ring-buffer-overflow.md)
+**Keywords:** execution trace reconstruction | trace imputation | [diffusion models](../../keywords/diffusion-models.md) | DiffWave | SSSDS4 | SSSDSA | CSDIS4 | structured state-space | [system-call sequences](../../keywords/system-call-sequences.md) | [LTTng](../../keywords/lttng.md) | [Phoronix Test Suite](../../keywords/phoronix-test-suite.md) | ROUGE-L | perfect rate | missing events | ring-buffer overflow
 
 ## Resources
 
@@ -85,7 +85,7 @@ M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Execution Trace Reconstruction
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICSE published PDF: nine PTS workloads, PTS 6.2.2, LTTng 2.8, Debian kernel, Xeon/32 GB/SSD platform, and 32 runs per benchmark; ICSE published PDF: integer event encoding, DiffWave/SSSDS4/SSSDSA/CSDIS4 configurations, blackout protocol, accuracy, perfect rate, ROUGE-L, and LSTM baseline; ICSE published PDF: controlled-loss limitation, functional-plausibility example, and future work; Local thesis/manuscript and published-paper PDF are retained as distinct version evidence; local hashes are recorded in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

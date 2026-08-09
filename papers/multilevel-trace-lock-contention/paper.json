@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": "Multi-Level Lock Contention published-paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
+  "abstract_available": false,
+  "description": "The paper extends critical-path analysis across kernel and user-space lock events so contention from futexes, spinlocks, semaphores, and other synchronization mechanisms can be diagnosed without recompiling the application.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "The paper extends critical-path analysis across kernel and user-space lock events so contention from futexes, spinlocks, semaphores, and other synchronization mechanisms can be diagnosed without recompiling the application.",
     "problem": "Kernel-only analysis misses locks implemented in user space, while source-dependent tools are difficult to apply to large multi-threaded applications and cannot provide a unified view of cross-level dependencies.",
@@ -86,7 +89,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -95,7 +98,7 @@
       "local lock-contention PDF hash verified in pdf-evidence/notes/multilevel-trace-lock-contention.md and pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -103,6 +106,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

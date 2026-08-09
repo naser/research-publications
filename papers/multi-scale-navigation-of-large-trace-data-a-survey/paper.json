@@ -22,6 +22,9 @@
   },
   "abstract": "The survey organizes abstraction and visualization techniques that help analysts navigate long operating-system and kernel traces from overview to event-level evidence.",
   "abstract_source": "Institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": true,
+  "description": "The survey organizes abstraction and visualization techniques that help analysts navigate long operating-system and kernel traces from overview to event-level evidence.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The survey provides a taxonomy and requirements-oriented comparison of techniques for collecting, abstracting, analyzing, visualizing, and navigating large execution traces.",
     "problem": "Long-running and parallel executions produce traces too large for a single-resolution display; analysts need overview, semantic navigation, and evidence-preserving drill-down.",
@@ -98,7 +101,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Survey PDF: four abstraction families, multi-level views, semantic/physical zoom, focus-plus-context, and trace-data structures",
       "Survey PDF: Trace Compass/LTTV, Vampir, Jumpshot, TuningFork, HPCToolkit, VTune, and metric examples",
@@ -106,7 +109,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -114,6 +117,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

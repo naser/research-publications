@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": null,
+  "abstract_available": false,
+  "description": "This survey organizes intrusion-response systems around automation, response cost, decision evaluation, adjustment, execution, attack paths, and risk assessment.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "This survey organizes intrusion-response systems around automation, response cost, decision evaluation, adjustment, execution, attack paths, and risk assessment.",
     "problem": "Automated intrusion responses can damage services, resources, or users and may turn an attack response into a denial-of-service condition. The paper seeks a taxonomy that exposes these weaknesses and guides response selection (printed pp. 1-3, 10-12).",
@@ -93,14 +96,14 @@
     "canonical_version_id": "institutional-publication-record"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Remote full text read: pdf-evidence/notes/parallel-batch-04-intrusion-response-systems-survey-and-taxonomy.md",
       "Institutional record: https://publications.polymtl.ca/14629/",
       "Remote article copy: https://www.researchgate.net/publication/267917501_Intrusion_Response_Systems_Survey_and_Taxonomy"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -108,6 +111,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

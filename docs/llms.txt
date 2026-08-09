@@ -1,0 +1,14 @@
+# Naser Ezzati-Jivan Publications
+
+> Canonical, year-grouped research catalog with stable paper pages, technical summaries, citation guidance, and machine-readable records.
+
+- Catalog: https://naser.github.io/research-publications/
+- Catalog JSON: https://naser.github.io/research-publications/catalog.json
+- Paper JSON Schema: https://naser.github.io/research-publications/schemas/paper.schema.json
+- Controlled topics: https://naser.github.io/research-publications/topics/index.html
+- Recurring keywords: https://naser.github.io/research-publications/keywords/index.html
+- Research profile: https://naser.github.io/tabs/research/
+- ORCID: https://orcid.org/0000-0003-1435-6297
+- Source repository: https://github.com/naser/research-publications
+
+Each paper page exposes JSON, BibTeX, RIS, citation metadata, Schema.org ScholarlyArticle JSON-LD, a canonical citation target, and authoritative version links. Publisher PDFs are not redistributed.

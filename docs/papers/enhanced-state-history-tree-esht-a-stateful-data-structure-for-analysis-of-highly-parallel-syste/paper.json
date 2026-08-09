@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": "Institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "eSHT redesigns the State History Tree to store and query highly parallel trace intervals more compactly and with shallower trees.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "eSHT redesigns the State History Tree to store and query highly parallel trace intervals more compactly and with shallower trees.",
     "problem": "Highly parallel traces can contain billions of events. The original state history tree becomes sparse and deep when many thread-related attributes begin together, increasing disk use, construction cost, query cost, and memory pressure.",
@@ -96,7 +99,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "eSHT PDF: LTTng 2.7.0/Linux 4.3.0/Trace Compass environment, synthetic many-thread workload, and 1,000-1,000,000-attribute scale",
       "eSHT PDF: SHT/eSHT build, node, disk, fill, depth, query, and one-million-attribute results",
@@ -104,7 +107,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -112,6 +115,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

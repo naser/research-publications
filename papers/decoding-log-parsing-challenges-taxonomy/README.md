@@ -34,7 +34,7 @@ The official poster abstract reports a study of log-parsing challenges across 16
 
 **Tags:** [observability](../../topics/observability.md) | [machine-learning](../../topics/machine-learning.md) | [trace-analysis](../../topics/trace-analysis.md)
 
-**Keywords:** [log parsing](../../keywords/log-parsing.md) | [log parsing challenges](../../keywords/log-parsing-challenges.md) | [taxonomy](../../keywords/taxonomy.md) | [log datasets](../../keywords/log-datasets.md) | [parsing tools](../../keywords/parsing-tools.md) | [ICSE 2024](../../keywords/icse-2024.md)
+**Keywords:** [log parsing](../../keywords/log-parsing.md) | log parsing challenges | taxonomy | log datasets | parsing tools | ICSE 2024
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ I. Sedki, A. Hamou-Lhadj, O. Ait-Mohamed, N. Ezzati-Jivan, and M. A. Shehab, "De
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions; DOI: https://doi.org/10.1145/3639478.3643523; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

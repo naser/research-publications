@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [deep-learning-systems](../../topics/deep-learning-systems.md) | [adaptive-scheduling](../../topics/adaptive-scheduling.md) | [performance-optimization](../../topics/performance-optimization.md) | [architecture-aware-methods](../../topics/architecture-aware-methods.md)
 
-**Keywords:** [DEBA](../../keywords/deba.md) | [adaptive batch size](../../keywords/adaptive-batch-size.md) | [gradient variance](../../keywords/gradient-variance.md) | [training speedup](../../keywords/training-speedup.md) | [ResNet](../../keywords/resnet.md) | [DenseNet](../../keywords/densenet.md) | [EfficientNet](../../keywords/efficientnet.md) | [ViT](../../keywords/vit.md)
+**Keywords:** DEBA | adaptive batch size | gradient variance | training speedup | ResNet | DenseNet | EfficientNet | ViT
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architectu
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: official arXiv abstract and PDF page 2511.03809; DBLP/Scholar record matched by title and authors; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

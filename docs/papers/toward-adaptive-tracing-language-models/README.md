@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [llm-assisted-analysis](../../topics/llm-assisted-analysis.md) | [observability](../../topics/observability.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [trace-reduction](../../topics/trace-reduction.md)
 
-**Keywords:** [adaptive tracing](../../keywords/adaptive-tracing.md) | [LTTng](../../keywords/lttng.md) | [kernel events](../../keywords/kernel-events.md) | [system-call sequences](../../keywords/system-call-sequences.md) | [event-duration modeling](../../keywords/event-duration-modeling.md) | [language models](../../keywords/language-models.md) | [LSTM](../../keywords/lstm.md) | [BERT](../../keywords/bert.md) | [multi-task learning](../../keywords/multi-task-learning.md) | [change detection](../../keywords/change-detection.md) | [root-cause analysis](../../keywords/root-cause-analysis.md) | [Apache2](../../keywords/apache2.md) | [trace reduction](../../keywords/trace-reduction.md) | [trace overhead](../../keywords/trace-overhead.md)
+**Keywords:** [adaptive tracing](../../keywords/adaptive-tracing.md) | [LTTng](../../keywords/lttng.md) | [kernel events](../../keywords/kernel-events.md) | [system-call sequences](../../keywords/system-call-sequences.md) | [event-duration modeling](../../keywords/event-duration-modeling.md) | [language models](../../keywords/language-models.md) | [LSTM](../../keywords/lstm.md) | [BERT](../../keywords/bert.md) | [multi-task learning](../../keywords/multi-task-learning.md) | [change detection](../../keywords/change-detection.md) | [root-cause analysis](../../keywords/root-cause-analysis.md) | Apache2 | [trace reduction](../../keywords/trace-reduction.md) | [trace overhead](../../keywords/trace-overhead.md)
 
 ## Resources
 
@@ -85,7 +85,7 @@ K. Darvishi, M. Noferesti, and N. Ezzati-Jivan, "Toward Adaptive Tracing: Effici
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1145/3639476.3639778; author identity matched to Naser Ezzati-Jivan in the local research catalog; Toward Adaptive Tracing PDF pp. 1-3: ACM/ICSE-NIER identity, LTTng motivation, Apache2 data source, and adaptive-tracing contribution; Toward Adaptive Tracing PDF pp. 3-5: event vectors, LSTM/BERT multi-task sequence and duration modeling, MAD-normalized change detection, and cosine/error-vector root-cause analysis; Toward Adaptive Tracing PDF p. 5: Apache2 scenarios, seven noise categories, 77.1% event reduction, 5.8% miss rate, 91.3% root-cause accuracy, duration-model F-scores, and V100 latency; Toward Adaptive Tracing PDF p. 5: future-work and model-update boundary; local Toward Adaptive Tracing PDF hash verified in pdf-evidence/notes/toward-adaptive-tracing-language-models.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

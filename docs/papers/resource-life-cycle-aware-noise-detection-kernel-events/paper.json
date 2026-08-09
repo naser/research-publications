@@ -23,6 +23,9 @@
   },
   "abstract": "The available synopsis describes passive kernel-event monitoring and alignment of CPU, disk, and network request life cycles for noise detection; detailed evaluation was not captured.",
   "abstract_source": "CASCON metadata and author synopsis, paraphrased; full text not obtained.",
+  "abstract_available": true,
+  "description": "The available synopsis describes passive kernel-event monitoring and alignment of CPU, disk, and network request life cycles for noise detection; detailed evaluation was not captured.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "The accessible synopsis identifies a passive kernel-event approach for detecting noise by aligning resource request life cycles.",
     "problem": "Performance observations can contain resource-related noise that is difficult to distinguish without correlating low-level request activity across CPU, disk, and network resources.",
@@ -87,7 +90,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "DOI: https://doi.org/10.1109/CASCON62161.2024.10838205",
       "CASCON program: https://iccsse.github.io/CASCON2024/program/",
@@ -95,7 +98,7 @@
       "Private batch report: reports/parallel-batch-02.md"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -103,6 +106,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

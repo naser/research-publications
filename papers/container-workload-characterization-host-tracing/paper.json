@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "Container workload paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
+  "abstract_available": false,
+  "description": "The paper characterizes container workloads from host-level LTTng traces by selecting important threads and clustering execution-state behavior without instrumenting the containers internally.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "The paper characterizes container workloads from host-level LTTng traces by selecting important threads and clustering execution-state behavior without instrumenting the containers internally.",
     "problem": "Cloud users may not control internal container agents, and coarse CPU, disk, and network metrics do not reveal enough execution detail for workload characterization.",
@@ -85,7 +88,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/ic2e52221.2021.00015",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -95,7 +98,7 @@
       "local container-workload PDF hash verified in pdf-evidence/notes/container-workload-characterization-host-tracing.md and pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -103,6 +106,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

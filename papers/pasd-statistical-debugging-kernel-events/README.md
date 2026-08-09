@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md)
 
-**Keywords:** [statistical debugging](../../keywords/statistical-debugging.md) | [Linux kernel tracepoints](../../keywords/linux-kernel-tracepoints.md) | [Perf](../../keywords/perf.md) | [perf record](../../keywords/perf-record.md) | [call stacks](../../keywords/call-stacks.md) | [sched_switch](../../keywords/sched-switch.md) | [Firefox](../../keywords/firefox.md) | [Coreutils](../../keywords/coreutils.md) | [ls](../../keywords/ls.md) | [Bug 1637586](../../keywords/bug-1637586.md) | [Bug 1565019](../../keywords/bug-1565019.md) | [function suspect ranking](../../keywords/function-suspect-ranking.md)
+**Keywords:** statistical debugging | Linux kernel tracepoints | [Perf](../../keywords/perf.md) | perf record | call stacks | [sched_switch](../../keywords/sched-switch.md) | Firefox | Coreutils | ls | Bug 1637586 | Bug 1565019 | function suspect ranking
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ M. A. Khan, M. Noferesti, and N. Ezzati-Jivan, "PASD: A Performance Analysis App
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/scam59687.2023.00025; author identity matched to Naser Ezzati-Jivan in the local research catalog; PASD PDF pp. 1-5: kernel-event tracing, Perf call stacks, metric thresholds, statistical debugging, and suspect ranking; PASD PDF pp. 6-9: Firefox and ls cases, reported functions, data volumes, and offline analysis cost; PASD PDF pp. 9-10: limitations and future-work boundary; local PASD PDF hash verified in pdf-evidence/notes/pasd-statistical-debugging-kernel-events.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

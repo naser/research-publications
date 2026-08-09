@@ -25,6 +25,9 @@
   },
   "abstract": null,
   "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
+  "abstract_available": false,
+  "description": "TraceSynth generates novel structured kernel-trace windows with a Transformer diffusion model and repairs generated events against invariants mined from real LTTng traces.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "TraceSynth generates novel structured kernel-trace windows with a Transformer diffusion model and repairs generated events against invariants mined from real LTTng traces.",
     "problem": "Production kernel traces are expensive to collect because of runtime overhead, storage, privacy constraints, and poor coverage of rare behavior. Existing generators do not reliably preserve long-range temporal structure, multi-attribute correlations, and valid execution behavior.",
@@ -95,7 +98,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Private full PDF read: pdf-evidence/notes/tracesynth-kernel-trace-generation.md",
       "TraceSynth PDF pp. 3-5: LTTng collection, six-channel representation, diffusion model, and invariant repair",
@@ -104,7 +107,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -112,6 +115,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

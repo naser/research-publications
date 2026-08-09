@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md)
 
-**Keywords:** [N-Lane Bridge](../../keywords/n-lane-bridge.md) | [One-Lane Bridge](../../keywords/one-lane-bridge.md) | [performance antipatterns](../../keywords/performance-antipatterns.md) | [system-level execution tracing](../../keywords/system-level-execution-tracing.md) | [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | [sched_switch](../../keywords/sched-switch.md) | [sched_wakeup](../../keywords/sched-wakeup.md) | [futex](../../keywords/futex.md) | [Firefox PDF.js](../../keywords/firefox-pdf-js.md) | [InDebitO](../../keywords/indebito.md) | [SysBench](../../keywords/sysbench.md) | [memory paging](../../keywords/memory-paging.md) | [CPU preemption](../../keywords/cpu-preemption.md)
+**Keywords:** N-Lane Bridge | One-Lane Bridge | [performance antipatterns](../../keywords/performance-antipatterns.md) | system-level execution tracing | [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | [sched_switch](../../keywords/sched-switch.md) | sched_wakeup | [futex](../../keywords/futex.md) | Firefox PDF.js | InDebitO | [SysBench](../../keywords/sysbench.md) | memory paging | CPU preemption
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ R. VanDonge and N. Ezzati-Jivan, "N-Lane Bridge Performance Antipattern Analysis
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/scam55253.2022.00015; author identity matched to Naser Ezzati-Jivan in the local research catalog; N-Lane Bridge PDF pp. 1-7: OLB/NLB definitions, LTTng 2.12.3, Trace Compass, tracepoints, critical-path and response-time method; N-Lane Bridge PDF pp. 7-9: Firefox 65.0/98.0.2 and InDebitO cases, latency causes, and NLB classification; N-Lane Bridge PDF pp. 9-10: CPU/I/O overhead, trace sizes, offline analysis cost, threats, and future work; local N-Lane Bridge PDF hash verified in pdf-evidence/notes/n-lane-bridge-performance-antipatterns.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

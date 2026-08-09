@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [multimodal-ai](../../topics/multimodal-ai.md) | [machine-learning](../../topics/machine-learning.md) | [benchmark-datasets](../../topics/benchmark-datasets.md)
 
-**Keywords:** [video retrieval](../../keywords/video-retrieval.md) | [semantic search](../../keywords/semantic-search.md) | [timestamp alignment](../../keywords/timestamp-alignment.md) | [AI video search](../../keywords/ai-video-search.md) | [ACDSA 2025](../../keywords/acdsa-2025.md)
+**Keywords:** video retrieval | semantic search | timestamp alignment | AI video search | ACDSA 2025
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "AI Video Retrieval: A Semantic Se
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11166430/; DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430; Private evidence note: papers/ai-video-retrieval-a-semantic-search-timestamp-alignment-system-b0d72f7cf3/pdf-evidence/notes/parallel-batch-01-ai-video-retrieval.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -34,7 +34,7 @@ The available synopsis describes passive kernel-event monitoring and alignment o
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [kernel event monitoring](../../keywords/kernel-event-monitoring.md) | [resource life cycle](../../keywords/resource-life-cycle.md) | [noise detection](../../keywords/noise-detection.md) | [CPU requests](../../keywords/cpu-requests.md) | [disk requests](../../keywords/disk-requests.md) | [network requests](../../keywords/network-requests.md)
+**Keywords:** kernel event monitoring | resource life cycle | noise detection | CPU requests | disk requests | network requests
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ M. Noferesti, B. Grandy, and N. Ezzati-Jivan, "Resource Life-Cycle Aware Noise D
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838205; CASCON program: https://iccsse.github.io/CASCON2024/program/; J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217419132863; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)
