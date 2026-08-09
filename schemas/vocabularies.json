@@ -181,6 +181,16 @@
       "aliases": []
     },
     {
+      "id": "trace-visualization",
+      "label": "trace visualization",
+      "aliases": []
+    },
+    {
+      "id": "iot-security",
+      "label": "iot security",
+      "aliases": []
+    },
+    {
       "id": "web-performance",
       "label": "web performance",
       "aliases": []

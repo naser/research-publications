@@ -1,0 +1,1 @@
+H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment," Journal of Hardware and Systems Security, 2021, doi: 10.1007/s41635-021-00119-z

@@ -7,7 +7,7 @@
   "authors": [
     "Pranjal Chakraborty",
     "Naser Ezzati-Jivan",
-    "Sayed Vahid Azhari",
+    "Vahid Azhari",
     "François Tetreault"
   ],
   "publication": {
@@ -23,14 +23,14 @@
     "doi": "10.1109/bigdata59044.2023.10386937"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "AltOOM published-paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "summary": {
-    "core_contribution": "This work investigates AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy in the context of software performance and systems analysis.",
-    "problem": "Out-of-memory failures have multiple interacting causes and are difficult to diagnose after the failure occurs.",
-    "method": "AltOOM uses data-driven evidence to identify likely root causes of out-of-memory events.",
-    "findings": "The paper presents an OOM-specific RCA strategy; datasets, features, and accuracy require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Test cross-application transfer, early warning, memory pressure signals, and actionable explanations."
+    "core_contribution": "AltOOM combines early memory-pressure forecasting with selective process-level profiling to identify the process most responsible for an impending out-of-memory event.",
+    "problem": "Linux's reactive OOM killer can terminate a high-memory process even when a lower-memory process is the one whose memory usage is growing; resource-constrained systems need earlier warning and lower-overhead process attribution.",
+    "method": "AltOOM samples 34 system-level signals at 0.5-second intervals - 28 virtual-memory statistics, three memory-related system calls (brk, sbrk, and mmap), and three kernel events (kmalloc, mm_page_alloc, and vmscan) - using perf and sar. It labels pressure at %memused >= 85%, compares SVM, vanilla DNN, and bidirectional-LSTM predictors, filters 34 features to 15, then uses burst-collected process-level allocation signals and moving-average growth ranking after an alert.",
+    "findings": "In the reported evaluation, the feature-filtered DNN reaches 0.82 accuracy for (n,k)=(4,3) and 0.81 for (3,3); the abstract reports 85% memory-pressure forecasting accuracy. AltOOM process identification reaches 0.56-0.83 as the burst count increases from 3 to 7, versus 0.42 for the Linux OOM killer. A Firefox PDF-preview case reports 0.83 and 0.79 forecasting accuracy for (4,3) and (3,3), respectively.",
+    "limitations": "The method can miss gradual memory buildup when only three timestamps (1.5 seconds) are observed. Fixed-rate monitoring creates overhead, and the evaluation centers on generated pressure scenarios plus a Firefox case rather than broad production-device coverage.",
+    "future_work": "Evaluate adaptive sampling of rates, metrics, and metric groups, and implement actions such as controlling or adjusting the responsible process, terminating it, or restarting the system."
   },
   "tags": [
     "resource-analysis",
@@ -42,7 +42,11 @@
     "out-of-memory",
     "OOM diagnosis",
     "data-driven RCA",
-    "resource analysis"
+    "resource analysis",
+    "memory pressure forecasting",
+    "process-level profiling",
+    "Perf",
+    "sar"
   ],
   "versions": [
     {
@@ -68,19 +72,21 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when studying proactive memory-pressure forecasting or process-level out-of-memory root-cause identification.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "Perf/sar-based collection of VM statistics, memory-related system calls, and kernel events for memory-pressure prediction.",
+      "Burst-based process profiling and moving-average ranking for identifying the responsible process.",
+      "Comparison with the Linux OOM killer and reported forecasting and process-identification accuracy in simulated and Firefox cases."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "AltOOM PDF pp. 1, 4-10: perf/sar collection, 34 metrics, 85% threshold, prediction models, burst ranking, evaluation tables, limitations, and future work",
+      "local AltOOM PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -91,6 +97,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

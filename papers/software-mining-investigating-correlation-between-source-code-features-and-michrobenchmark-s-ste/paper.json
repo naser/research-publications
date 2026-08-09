@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste",
+  "page_url": "https://naser.github.io/research-publications/papers/software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste/",
+  "title": "Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State",
+  "title_variants": [
+    "Software Mining - Investigating Correlation between Source Code Features and Microbenchmark's Steady State"
+  ],
+  "authors": [
+    "Amirmahdi Khosravi Tabrizi",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2023,
+    "venue": "Companion of the 2023 ACM/SPEC International Conference on Performance Engineering (ICPE '23 Companion)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1145/3578245.3584695",
+  "source_record_id": "software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste-bd15de158b",
+  "identifiers": {
+    "doi": "10.1145/3578245.3584695"
+  },
+  "abstract": null,
+  "abstract_source": null,
+  "summary": {
+    "core_contribution": "The study examines whether static source-code features are associated with the steady-state behavior of Java microbenchmarks during JVM warmup.",
+    "problem": "JVM JIT compilation makes Java microbenchmark results unstable during warmup; the study asks whether static source features are associated with reaching steady state (p. 1).",
+    "method": "The study uses 586 JMH results from 30 open-source Java projects and 10 forks per benchmark method. srcML and Lizard extract 11 static features; dynamic features include DNNSF, DANCP, and DANITS. Twenty-seven records were excluded after feature-extraction errors. Manual comparisons at benchmark-method/file level are followed by Apriori descriptive association mining (pp. 2-4).",
+    "findings": "At benchmark-method level, 321 cases are steady, 236 inconsistent, and 2 non-steady. Reported Apriori associations are BMNFC_HIGH -> DNNSF_ZERO with confidence 0.63 and BMLOC_HIGH -> DNNSF_ZERO with confidence 0.61; the paper interprets higher function count/LOC as associated with zero non-steady forks (p. 4).",
+    "limitations": "This is exploratory association analysis, not causal evidence. Only two benchmark methods are in the non-steady class, 27 records were removed, and independent replication/generalization across JVMs, hardware, languages, and workloads are not established. The paper does not specify a complete OS/hardware/JVM configuration.",
+    "future_work": "Add source features for system calls, threading, locks, and other function-call types (p. 4)."
+  },
+  "tags": [
+    "performance-analysis",
+    "performance-engineering",
+    "machine-learning"
+  ],
+  "keywords": [
+    "Java Microbenchmark Harness",
+    "JMH",
+    "srcML",
+    "Lizard",
+    "Apriori",
+    "Java microbenchmarks",
+    "JVM warmup",
+    "steady state",
+    "source-code features",
+    "BMNFC",
+    "BMLOC",
+    "DNNSF"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State",
+      "url": "https://doi.org/10.1145/3578245.3584695",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-conference-pdf",
+      "label": "Public conference PDF",
+      "relation": "source-record",
+      "title": "Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State",
+      "url": "https://research.spec.org/icpe_proceedings/2023/companion/p107.pdf",
+      "pdf_url": "https://research.spec.org/icpe_proceedings/2023/companion/p107.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public conference PDF is linked as an external source and is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": "https://github.com/amirmahdiKhosravi/ACM-SPEC-ICPE-2023-DataTrack",
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares exploratory mining of source-code LOC/function-count features against JMH steady-state indicators.",
+    "points": [
+      "For exploratory mining of source-code LOC/function-count features against JMH steady-state indicators.",
+      "For the BMNFC/BMLOC to DNNSF_ZERO associations and their reported 0.63/0.61 confidence values, explicitly as non-causal associations.",
+      "For the 30-project/586-result/10-fork corpus and the DNNSF, DANCP, and DANITS feature vocabulary."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Private full PDF read: pdf-evidence/notes/parallel-batch-02-software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste-bd15de158b.md",
+      "Software Mining PDF pp. 1-4: JMH, 586 results from 30 Java projects, srcML/Lizard features, steady-state labels, group counts, and Apriori confidences",
+      "Local PDF hash verified: D883BDDA4B750A791CF29D206A9FD20C3E75F6BF21276761B563206134FF43DC",
+      "Public source: https://research.spec.org/icpe_proceedings/2023/companion/p107.pdf"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

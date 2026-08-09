@@ -21,14 +21,14 @@
     "doi": "10.1109/scam55253.2022.00015"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "N-Lane Bridge published-paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "summary": {
-    "core_contribution": "N-Lane Bridge applies system-level execution tracing to analyze performance antipatterns in a multi-lane workload.",
-    "problem": "Performance antipatterns may arise from interactions among application activity, operating-system scheduling, and shared resources.",
-    "method": "The study uses system-level execution traces to characterize and analyze performance behavior in the N-Lane Bridge setting.",
-    "findings": "It provides a trace-based antipattern-analysis case study; event details and measured outcomes require full-text review.",
-    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
-    "future_work": "Evaluate additional antipatterns, workloads, hardware configurations, and automated diagnosis support."
+    "core_contribution": "N-Lane Bridge extends One-Lane Bridge analysis to active-resource bottlenecks and uses LTTng system-level traces to distinguish application-caused congestion from external interference.",
+    "problem": "Existing One-Lane Bridge methods focus on passive resources and imprecise CPU metrics, so they can miss latency caused by an application's overuse of CPUs, memory, disks, or other active resources.",
+    "method": "LTTng 2.12.3 and Trace Compass collect request delimiters, scheduling, wakeup, interrupt, timer, syscall, and call-stack events. Workloads scale users as A+Bx until response time reaches 10 times the baseline; critical paths classify running, preempted, interrupt, timer, network, input, block-device, and unknown-blocked time. A 5% one-tailed unequal-variance t-test detects nonlinear response growth, and average blocking-time increases identify the responsible resource. Active-resource congestion then separates an N-Lane Bridge from an external bottleneck; ELF symbols locate passive-resource code without source instrumentation.",
+    "findings": "In Firefox 65.0 PDF.js, average render time rises from 31.6 seconds for one window to 2:16.8 for two and 5:43.0 for three. Poll blocking contributes 54.49% of latency increase, CPU preemption 27.66%, and futex blocking 10.85%; memory paging and CPU occupancy identify active-resource N-Lane Bridges. In the unfamiliar InDebitO Flask application, 36 concurrent login requests produce a 10x latency increase and reveal CPU congestion caused by the application.",
+    "limitations": "The method is evaluated on layered systems and its extraction cost grows with threads, traces, and event volume. It is heuristic, can miss antipatterns absent from the recorded workload, may report false negatives when the test system has excess resources, and does not always locate the complete source-level cause.",
+    "future_work": "Extend the analysis to Traffic Jam and Ramp antipatterns and investigate software-aging and security-related antipatterns."
   },
   "tags": [
     "kernel-tracing",
@@ -38,9 +38,19 @@
   ],
   "keywords": [
     "N-Lane Bridge",
+    "One-Lane Bridge",
     "performance antipatterns",
     "system-level execution tracing",
-    "trace-based diagnosis"
+    "LTTng",
+    "Trace Compass",
+    "sched_switch",
+    "sched_wakeup",
+    "futex",
+    "Firefox PDF.js",
+    "InDebitO",
+    "SysBench",
+    "memory paging",
+    "CPU preemption"
   ],
   "versions": [
     {
@@ -66,19 +76,23 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when detecting One-Lane and active-resource N-Lane Bridge performance antipatterns with system-level tracing.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "LTTng 2.12.3 and Trace Compass critical-path analysis with scheduling, syscall, interrupt, and call-stack events.",
+      "Firefox PDF.js and InDebitO case studies that distinguish memory, CPU, I/O, and futex causes of nonlinear latency.",
+      "Measured CPU/I/O tracing overhead and heuristic limitations for layered multi-threaded systems."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1109/scam55253.2022.00015",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "N-Lane Bridge PDF pp. 1-7: OLB/NLB definitions, LTTng 2.12.3, Trace Compass, tracepoints, critical-path and response-time method",
+      "N-Lane Bridge PDF pp. 7-9: Firefox 65.0/98.0.2 and InDebitO cases, latency causes, and NLB classification",
+      "N-Lane Bridge PDF pp. 9-10: CPU/I/O overhead, trace sizes, offline analysis cost, threats, and future work",
+      "local N-Lane Bridge PDF hash verified in pdf-evidence/notes/n-lane-bridge-performance-antipatterns.md and pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -89,6 +103,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

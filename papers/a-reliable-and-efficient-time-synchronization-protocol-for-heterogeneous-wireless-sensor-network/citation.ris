@@ -1,0 +1,13 @@
+TY  - JOUR
+AU  - Jabbarifar, Masoume
+AU  - Shameli-Sendi, Alireza
+AU  - Sadighian, Alireza
+AU  - Ezzati-Jivan, Naser
+AU  - Dagenais, Michel R.
+TI  - A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network
+PY  - 2010
+T2  - Wireless Sensor Network
+AB  - L-SYNCng combines topology-aware clustering with convex-hull estimation of clock offset and skew for synchronization in heterogeneous wireless sensor networks.
+DO  - 10.4236/wsn.2010.212109
+UR  - https://doi.org/10.4236/wsn.2010.212109
+ER  -

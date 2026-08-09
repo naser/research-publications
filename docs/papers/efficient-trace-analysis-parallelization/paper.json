@@ -15,7 +15,7 @@
     "type": "research paper"
   },
   "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1007/s10766-019-00631-4",
   "source_record_id": "efficient-methods-for-trace-analysis-parallelization-d3d00d5f6f",
   "identifiers": {
@@ -24,12 +24,12 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work investigates Efficient Methods for Trace Analysis Parallelization in the context of software performance and systems analysis.",
-    "problem": "Large execution traces make sequential analysis a bottleneck in performance-debugging workflows.",
-    "method": "The work investigates parallel methods for accelerating trace analysis.",
-    "findings": "It addresses analysis scalability through parallelization; speedups and workload details require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Study distributed analysis, reproducible benchmarks, and parallel stateful analyses."
+    "core_contribution": "The paper partitions Common Trace Format streams into balanced workloads, resolves cross-chunk state dependencies, and parallelizes stateful trace analyses with low synchronization cost.",
+    "problem": "Stateful analysis of LTTng/CTF traces is difficult to scale because stream and state dependencies constrain parallel work, while trace density and storage speed create load imbalance.",
+    "method": "A hybrid packet-index/time partition divides trace streams into approximately balanced chunks. Workers initialize local state, analyze independently, and merge state chronologically; thread migrations are handled as inter-stream dependencies. The implementation uses Babeltrace/CTF decoding, OpenMP/TBB-style parallel execution, and QtConcurrent map/reduce in the real analyses.",
+    "findings": "Three analyses-event count, CPU active time, and I/O-scale substantially on SSD storage. On the 44,897,970-event trace, 32 threads achieved 14.73x, 14.12x, and 18.15x speedup respectively; the corresponding efficiencies were 46.0%, 44.1%, and 56.7%. Storage and decoder overhead limit scaling beyond that point.",
+    "limitations": "The evaluation combines a synthetic simulation with one 8-core trace and a small set of storage devices; the analyses are not a broad workload benchmark. The paper reports non-pipelined memory-operation and decoding bottlenecks, and no distributed or live deployment evaluation.",
+    "future_work": "Improve Babeltrace decoding and copying/locking, parallelize kernel memory operations and State History Tree output, and extend the design to distributed and live trace analysis."
   },
   "tags": [
     "trace-analysis",
@@ -41,7 +41,12 @@
     "trace analysis",
     "parallelization",
     "analysis scalability",
-    "multicore processing"
+    "multicore processing",
+    "CTF",
+    "Babeltrace",
+    "LTTng",
+    "parallel efficiency",
+    "State History Tree"
   ],
   "versions": [
     {
@@ -53,11 +58,21 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "Efficient Methods for Trace Analysis Parallelization",
+      "url": "https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf",
+      "pdf_url": "https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
     "license": null
   },
   "resources": {
@@ -67,19 +82,24 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares packet-index/time hybrid partitioning of stateful CTF trace analysis.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For packet-index/time hybrid partitioning of stateful CTF trace analysis.",
+      "For local-state plus chronological-merge handling of trace dependencies and thread migrations.",
+      "For the measured 32-thread SSD results: 18.15x I/O speedup and 56.7% I/O efficiency on a 44.9M-event trace.",
+      "For the diagnosis that decoder copying/locks and Linux memory-operation serialization, rather than only raw disk bandwidth, constrain scaling."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1007/s10766-019-00631-4",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Efficient parallelization PDF pp. 1-5: CTF/Babeltrace model, partitioning, state dependencies, and proposed map/reduce design",
+      "Efficient parallelization PDF pp. 8-11: storage devices, 44,897,970-event trace, three analyses, speedups, and efficiencies",
+      "Efficient parallelization PDF pp. 11-12: decoding and State History Tree limitations and future work",
+      "local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +110,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

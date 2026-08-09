@@ -1,30 +1,30 @@
 # Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis
 
-**2021 | International Journal of Computer and Information Sciences | research paper**
+**2021 | Wireless Communications and Mobile Computing | journal article**
 
-**Authors:** Naser Ezzati-Jivan, Houssem Daoud, Michel R. Dagenais, Yong Zhang
+**Authors:** Naser Ezzati-Jivan, Houssem Daoud, Michel R. Dagenais
 
-**Core contribution:** This work investigates Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis in the context of software performance and systems analysis.
+**Core contribution:** The paper correlates LTTng traces from user space through kernel, storage, network, and multiple hosts in a disk-backed state model, enabling top-down diagnosis of distributed request latency.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Performance degradation in distributed request handling can originate at multiple software and system levels.
+Performance degradation in distributed requests can arise at user, kernel, storage, network, or remote-service layers, so single-layer tracing does not provide enough causal context.
 
 ### 2. Method and contribution
 
-The paper uses multilevel trace analysis to connect distributed request behavior with lower-level execution evidence.
+Instrument LAMP components and system layers with LTTng, synchronize hosts using causal network event pairs and convex-hull matching, maintain multilevel state trees, and perform top-down diagnosis from request latency to system call and kernel/storage/network states.
 
 ### 3. Findings and evidence
 
-It presents a multilevel debugging approach; detailed evaluation results require full-text review.
+The case study localized application-level session/statistics work and disk queue contention from backup activity. The system distinguished cache-hit/miss latency classes and showed that line-level PHP tracing can approximately double response time, while selected UST tracing can approach the no-trace baseline.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+**Limitations:** The evaluation focuses on LAMP and selected instrumented cases; causal synchronization requires suitable event pairs and the available probes determine what can be explained. Network attacks, broader systems, and richer anomaly classes are not evaluated.
 
-**Future work:** Automate cross-level correlation, test modern service meshes, and quantify tracing overhead.
+**Future work:** Add network-attack and host-anomaly analysis, broaden probes and workloads, and improve multilevel visualization and causal coverage.
 
 ## Abstract
 
@@ -32,13 +32,18 @@ Abstract not available in the captured sources.
 
 ## Topics and keywords
 
-**Tags:** [system-tracing](../../topics/system-tracing.md) | [microservices](../../topics/microservices.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
+**Tags:** [system-tracing](../../topics/system-tracing.md) | [microservices](../../topics/microservices.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [trace-analysis](../../topics/trace-analysis.md)
 
-**Keywords:** [distributed requests](../../keywords/distributed-requests.md) | [multilevel tracing](../../keywords/multilevel-tracing.md) | [performance degradation](../../keywords/performance-degradation.md) | [debugging](../../keywords/debugging.md)
+**Keywords:** [distributed requests](../../keywords/distributed-requests.md) | [multilevel trace analysis](../../keywords/multilevel-trace-analysis.md) | [LTTng](../../keywords/lttng.md) | [Apache](../../keywords/apache.md) | [PHP](../../keywords/php.md) | [MariaDB](../../keywords/mariadb.md) | [State History Tree](../../keywords/state-history-tree.md) | [cache hit ratio](../../keywords/cache-hit-ratio.md) | [disk contention](../../keywords/disk-contention.md) | [ApacheBench](../../keywords/apachebench.md) | [Trace Compass](../../keywords/trace-compass.md)
+
+## Resources
+
+- [Code](https://github.com/naser/)
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1155/2021/8478076) - published
+- [Public Wiley PDF](https://onlinelibrary.wiley.com/doi/pdf/10.1155/2021/8478076) | [PDF](https://onlinelibrary.wiley.com/doi/pdf/10.1155/2021/8478076) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1155/2021/8478076](https://doi.org/10.1155/2021/8478076)
 
@@ -48,27 +53,29 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when your work uses or compares top-down multilevel root-cause analysis from distributed request latency to kernel/storage/network state.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- For top-down multilevel root-cause analysis from distributed request latency to kernel/storage/network state.
+- For LTTng instrumentation spanning LAMP user space, system calls, kernel, filesystem, page cache, block layer, disk, and network.
+- For cross-host causal synchronization using request/response event pairs and convex-hull matching.
+- For the MediaWiki/WordPress session-check and `backup.sh` disk-queue case studies, including the tracing-cost boundary.
 
 ## Citation
 
 ### APA 7
 
-Ezzati-Jivan, N., Daoud, H., Dagenais, M. R., & Zhang, Y. (2021). Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis. International Journal of Computer and Information Sciences. https://doi.org/10.1155/2021/8478076
+Ezzati-Jivan, N., Daoud, H., & Dagenais, M. R. (2021). Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis. Wireless Communications and Mobile Computing. https://doi.org/10.1155/2021/8478076
 
 ### IEEE
 
-N. Ezzati-Jivan, H. Daoud, M. R. Dagenais, and Y. Zhang, "Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis," in International Journal of Computer and Information Sciences, 2021, doi: 10.1155/2021/8478076
+N. Ezzati-Jivan, H. Daoud, and M. R. Dagenais, "Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis," Wireless Communications and Mobile Computing, 2021, doi: 10.1155/2021/8478076
 
 ```bibtex
-@inproceedings{ezzatiJivan2021debuggingof,
-  author = {Naser Ezzati-Jivan and Houssem Daoud and Michel R. Dagenais and Yong Zhang},
+@article{ezzatiJivan2021debuggingof,
+  author = {Naser Ezzati-Jivan and Houssem Daoud and Michel R. Dagenais},
   title = {Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis},
   year = {2021},
-  booktitle = {International Journal of Computer and Information Sciences},
+  journal = {Wireless Communications and Mobile Computing},
   doi = {10.1155/2021/8478076},
   url = {https://doi.org/10.1155/2021/8478076}
 }
@@ -78,7 +85,7 @@ N. Ezzati-Jivan, H. Daoud, M. R. Dagenais, and Y. Zhang, "Debugging of Performan
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1155/2021/8478076; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: Private full PDF read: pdf-evidence/notes/debugging-performance-degradation-distributed-requests.md; Debugging paper pp. 1-10: LTTng, LAMP probes, multihost synchronization, State History Tree, data model, and top-down algorithm; Debugging paper pp. 11-13: MediaWiki/WordPress/MariaDB and unusual-latency use cases, cache analysis, and disk contention diagnosis; Debugging paper pp. 14-16: ApacheBench environment, tracing overhead, state-store/PostgreSQL comparison, conclusion, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

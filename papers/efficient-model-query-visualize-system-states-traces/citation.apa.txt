@@ -1,0 +1,1 @@
+Montplaisir, A., Ezzati-Jivan, N., Wininger, F., & Dagenais, M. R. (2013). Efficient Model to Query and Visualize the System States Extracted from Trace Data. Runtime Verification 2013 (RV 2013). https://doi.org/10.1007/978-3-642-40787-1_13

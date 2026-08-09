@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Language models can perform well on text-only common-sense reasoning, but it is harder to determine whether multimodal models correctly connect ambiguous language with visual content.
+Text-to-image models can generate visually plausible images without resolving which entity an ambiguous pronoun refers to. Existing WSC-style reasoning evaluations are mainly textual and do not isolate multimodal pronoun disambiguation from image-generation artifacts.
 
 ### 2. Method and contribution
 
-WinoVis uses GPT-4 for prompt generation and Diffusion Attentive Attribution Maps for heatmap-based analysis. The evaluation is designed to isolate pronoun disambiguation from unrelated visual-processing difficulties.
+WINOVIS contains 500 WSC-adapted scenarios generated through GPT-4 prompting and manually filtered for textual ambiguity, illogical content, visual indistinctiveness, and redundancy. The evaluation uses Stable Diffusion generations, DAAM cross-attention heatmaps, caption filtering, 90th-percentile heatmap thresholding, and IoU-based overlap/decision rules. A single pronoun-to-entity association is accepted when the pronoun heatmap crosses IoU 0.4 with one or the stronger of the two referents.
 
 ### 3. Findings and evidence
 
-Across successive model versions, Stable Diffusion 2.0 reached 56.7% precision on WinoVis, only slightly above random guessing. The error analysis identifies specific weaknesses in multimodal interpretation.
+The paper evaluates Stable Diffusion versions labeled 1.0/1.5/2.0 and XL in Tables 2-3; the setup prose says 1.1/1.5/2.0/XL. SD 2.0 reports 56.7% precision, 24.2% recall, 34.1% F1, and 36.1% certainty, with 55 correct, 42 incorrect, and 172 neither outcomes in the table. SDXL produces mostly unusable heatmap decisions. Error analysis shows much weaker handling of visually distinct entities than disparate entities.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The results depend on the benchmark design, model versions, and attribution analysis.
+**Limitations:** Entity separation, semantic entanglement, captioned images, DAAM availability only for open Stable Diffusion models, bias, and limited scenario diversity affect validity. The metrics assess heatmap/association behavior rather than human-level or task-functional multimodal reasoning. GPU/CPU, OS, runtime, and replication details are unknown.
 
-**Future work:** Future work should expand the dataset, test more model families, and validate whether attribution patterns correspond to reliable reasoning.
+**Future work:** Improve entity separation and entanglement filtering, study bias, expand context and entity diversity, and develop interpretability methods for more diffusion models.
 
 ## Abstract
 
@@ -49,11 +49,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when evaluating multimodal pronoun disambiguation in text-to-image models.
+Cite this paper when your work uses or compares wINOVIS as a 500-scenario benchmark for pronoun disambiguation in text-to-image generation.
 
-- The WinoVis benchmark for visual ambiguity and pronoun resolution.
-- Evaluation of text-to-image models on common-sense visual reasoning.
-- Analysis of generated images for multimodal disambiguation behavior.
+- WINOVIS as a 500-scenario benchmark for pronoun disambiguation in text-to-image generation.
+- a DAAM heatmap plus IoU evaluation pipeline that separates entity overlap, caption artifacts, and pronoun-association decisions.
+- the SD 2.0 result when documenting that visually convincing diffusion outputs can still show weak multimodal pronoun resolution.
+- the distinct-versus-disparate entity error analysis when motivating harder visual common-sense benchmarks.
 
 ## Citation
 
@@ -80,7 +81,7 @@ B. Park, M. Janecek, N. Ezzati-Jivan, Y. Li, and A. Emami, "Picturing Ambiguity:
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: ACL Anthology and DOI metadata; official arXiv abstract and PDF page 2405.16277; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

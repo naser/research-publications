@@ -1,0 +1,104 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "observability-runtime-governance-agentic-ai-systems",
+  "page_url": "https://naser.github.io/research-publications/papers/observability-runtime-governance-agentic-ai-systems/",
+  "title": "Observability and Runtime Governance for Agentic AI Systems",
+  "title_variants": [],
+  "authors": [
+    "Naser Ezzati-Jivan",
+    "Maryam Ekhlasi"
+  ],
+  "publication": {
+    "year": 2026,
+    "venue": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1145/3803437.3804904",
+  "source_record_id": "observability-and-runtime-governance-for-agentic-ai-systems-838a748cf7",
+  "identifiers": {
+    "doi": "10.1145/3803437.3804904"
+  },
+  "abstract": null,
+  "abstract_source": null,
+  "summary": {
+    "core_contribution": "The verified record identifies this work as a 2026 FSE paper on agentic-AI observability and runtime governance, but the full technical contribution was not available in the captured sources.",
+    "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
+    "method": "No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.",
+    "findings": "No page-grounded quantitative or qualitative findings were verified in this audit.",
+    "limitations": "The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.",
+    "future_work": "The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained."
+  },
+  "tags": [
+    "observability",
+    "llm-assisted-analysis",
+    "performance-analysis"
+  ],
+  "keywords": [
+    "agentic AI",
+    "runtime governance",
+    "AI observability",
+    "software agents",
+    "FSE 2026"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Observability and Runtime Governance for Agentic AI Systems",
+      "url": "https://doi.org/10.1145/3803437.3804904",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "dblp-record",
+      "label": "DBLP record",
+      "relation": "source-record",
+      "title": "Observability and Runtime Governance for Agentic AI Systems",
+      "url": "https://dblp.org/rec/conf/sigsoft/Ezzati-JivanE26",
+      "pdf_url": null,
+      "status": "public_source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "Crossref, DBLP, and the FSE proceedings metadata agree on identity. The ACM PDF was blocked under normal access, so no technical claim is made beyond the verified bibliographic record.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Crossref DOI record: https://api.crossref.org/v1/works/10.1145/3803437.3804904",
+      "DBLP record: https://dblp.org/rec/conf/sigsoft/Ezzati-JivanE26",
+      "Private evidence note: papers/observability-and-runtime-governance-for-agentic-ai-systems-838a748cf7/pdf-evidence/notes/parallel-batch-01-observability-runtime-governance.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

@@ -3,22 +3,52 @@
 Papers tagged **performance-analysis**.
 
 - [A declarative framework for stateful analysis of execution traces](../papers/declarative-framework-stateful-trace-analysis/README.md) - 2017
+- [A Framework to Compute Statistics of System Parameters from Very Large Trace Files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
+- [A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network](../papers/a-reliable-and-efficient-time-synchronization-protocol-for-heterogeneous-wireless-sensor-network/README.md) - 2010
+- [A Stateful Approach to Generate Synthetic Events from Kernel Traces](../papers/a-stateful-approach-to-generate-synthetic-events-from-kernel-traces/README.md) - 2012
+- [An Efficient Analysis Approach for Multi-Core System Tracing Data](../papers/efficient-analysis-multi-core-system-tracing-data/README.md) - 2012
+- [Analyzing Performance Variability in Alibaba's Microservice Architecture: A Critical-Path-Based Perspective](../papers/analyzing-performance-variability-in-alibaba-s-microservice-architecture-a-critical-path-based-p/README.md) - 2024
 - [Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing](../papers/model-based-constraints-execution-tracing/README.md) - 2021
 - [B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing](../papers/b-perf-black-box-performance-antipatterns/README.md) - 2026
 - [Cloud Platform Performance Evaluation Using Multi-level Execution Tracing](../papers/cloud-platform-performance-multilevel-tracing/README.md) - 2020
 - [Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications](../papers/combining-distributed-kernel-tracing-cloud/README.md) - 2021
 - [Container Workload Characterization Through Host System Tracing](../papers/container-workload-characterization-host-tracing/README.md) - 2021
+- [Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper)](../papers/context-aware-root-cause-localization-in-distributed-traces-using-social-network-analysis-work-i/README.md) - 2024
+- [Cube Data Model for Multilevel Statistics Computation of Live Execution Traces](../papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/README.md) - 2015
 - [Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis](../papers/debugging-performance-degradation-distributed-requests/README.md) - 2021
 - [DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing](../papers/depgraph/README.md) - 2020
+- [Developing a Taxonomy for Advanced Log Parsing Techniques](../papers/developing-a-taxonomy-for-advanced-log-parsing-techniques/README.md) - 2025
 - [Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications](../papers/dynamic-trace-sampling-memory-usage/README.md) - 2017
 - [Efficient Cloud Tracing: From Very High Level to Very Low Level](../papers/efficient-cloud-tracing-levels/README.md) - 2018
+- [Efficient Detection of Communication-related Performance Anti-patterns in Microservices](../papers/efficient-communication-performance-antipattern-detection-microservices/README.md) - 2025
+- [Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis](../papers/efficient-heap-monitoring-memory-leak-root-cause/README.md) - 2021
 - [Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing](../papers/heterogeneous-debugging-dynamic-tracing/README.md) - 2019
-- [Execution trace-based model verification to analyze multicore and real-time systems](../papers/execution-trace-model-verification-multicore/README.md) - 2022
+- [Efficient Model to Query and Visualize the System States Extracted from Trace Data](../papers/efficient-model-query-visualize-system-states-traces/README.md) - 2013
+- [EMD-SCS: A Dynamic Behavioral Approach for Early Malware Detection with Sonification of System Call Sequences](../papers/emd-scs-malware-detection-sonification-system-calls/README.md) - 2023
+- [Energy Consumption Analysis of Large Language Models Across CPU and GPU Using Diverse Metric Types](../papers/energy-consumption-analysis-large-language-models-cpu-gpu/README.md) - 2025
+- [Execution Trace Reconstruction Using Diffusion-Based Generative Models](../papers/execution-trace-reconstruction-using-diffusion-based-generative-models/README.md) - 2025
 - [High latency cause detection using multilevel dynamic analysis](../papers/high-latency-cause-detection-multilevel-analysis/README.md) - 2018
+- [Identification and Classification of JMH Microbenchmark States using Time Series Analysis](../papers/identification-and-classification-of-jmh-microbenchmark-states-using-time-series-analysis/README.md) - 2023
+- [Integrated Modeling Tool for Indexing and Analyzing State Machine Trace](../papers/integrated-modeling-tool-state-machine-trace/README.md) - 2021
+- [Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis](../papers/machine-learning-based-edos-attack-detection-technique-using-execution-trace-analysis/README.md) - 2019
+- [MemAdapt: Adaptive Monitoring of Memory Usage Through Irregularly Sampled Data](../papers/memadapt-adaptive-monitoring-memory-usage/README.md) - 2024
+- [Multi-level Adaptive Execution Tracing for Efficient Performance Analysis](../papers/multi-level-adaptive-execution-tracing-performance-analysis/README.md) - 2023
 - [Multi-Level Execution Trace Based Lock Contention Analysis](../papers/multilevel-trace-lock-contention/README.md) - 2020
+- [Multi-scale Navigation of Large Trace Data: A Survey](../papers/multi-scale-navigation-of-large-trace-data-a-survey/README.md) - 2017
 - [Multilayer Virtualized Systems Analysis with Kernel Tracing](../papers/multilayer-virtualized-systems-kernel-tracing/README.md) - 2016
+- [Multilevel Label Placement for Execution Trace Events](../papers/multilevel-label-placement-execution-trace-events/README.md) - 2013
+- [Multiscale Navigation in Large Trace Data](../papers/multiscale-navigation-large-trace-data/README.md) - 2014
 - [N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing](../papers/n-lane-bridge-performance-antipatterns/README.md) - 2022
 - [Network Analysis of Microservices: A Case Study on Alibaba Production Clusters](../papers/network-analysis-microservices-alibaba/README.md) - 2024
+- [Observability and Runtime Governance for Agentic AI Systems](../papers/observability-runtime-governance-agentic-ai-systems/README.md) - 2026
 - [PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events](../papers/pasd-statistical-debugging-kernel-events/README.md) - 2023
-- [Performance anomaly detection through sequence alignment of system-level traces](../papers/performance-anomaly-detection-sequence-alignment/README.md) - 2022
+- [Performance Anomaly Detection through Sequence Alignment of System-Level Traces](../papers/performance-anomaly-detection-sequence-alignment/README.md) - 2022
 - [Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis](../papers/performance-evaluation-multithread-execution-paths/README.md) - 2022
+- [Poster Paper: Operating System Support for Applications Performance Analysis](../papers/operating-system-support-applications-performance-analysis-poster/README.md) - 2022
+- [Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring](../papers/resource-life-cycle-aware-noise-detection-kernel-events/README.md) - 2024
+- [Rethinking Performance Debugging: From Optimization to Collaborative Reasoning](../papers/rethinking-performance-debugging-from-optimization-to-collaborative-reasoning/README.md) - 2026
+- [Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State](../papers/software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste/README.md) - 2023
+- [System Execution Path Profiling Using Hardware Performance Counters](../papers/system-execution-path-profiling-hardware-counters/README.md) - 2021
+- [The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment](../papers/anomaly-detection-ddos-attacks-cloud-environment/README.md) - 2021
+- [Towards a Classification of Log Parsing Errors](../papers/towards-a-classification-of-log-parsing-errors/README.md) - 2023
+- [Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis](../papers/uncovering-steady-state-executions-in-java-microbenchmarking-with-call-graph-analysis/README.md) - 2023

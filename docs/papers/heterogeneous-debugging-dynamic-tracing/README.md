@@ -4,27 +4,27 @@
 
 **Authors:** Didier Nadeau, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** This paper studies dynamic tracing for efficient debugging of large-scale heterogeneous systems.
+**Core contribution:** The paper redesigns GDB dynamic tracing around LTTng-UST and scalable trace views so multi-threaded CPU/GPU debugging remains usable on heterogeneous many-core systems.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Heterogeneous systems produce diverse execution behavior and large evidence volumes that make debugging expensive.
+Conventional debugger tracing serializes many threads through shared buffers and stop-the-world flushing, while heterogeneous CPU/GPU execution produces too many threads, waves, and call-stack events for a flat debugger UI.
 
 ### 2. Method and contribution
 
-The work applies dynamic tracing to collect and analyze debugging evidence across heterogeneous system components.
+Dynamically insert jump-pad instrumentation from GDB/GDBServer and transfer events through LTTng-UST per-core lock-free-style ring buffers without stopping the target during buffer transfer. Trace Compass aggregates CPU call stacks and provides hierarchical HSA GPU wave/grid views and filters.
 
 ### 3. Findings and evidence
 
-It presents a large-scale dynamic-debugging direction; system scope, tracing mechanisms, and measured efficiency require full-text review.
+The proposed path scales substantially better than default GDB fast tracing on the pbzip2 workload, with much lower growth in tracing overhead as thread count increases. The UI supports focused CPU call-stack and GPU wave-level exploration.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.
+**Limitations:** Instrumentation has instruction-size/location constraints; filters still incur event/context-switch cost; GPU first-level grouping may require manual expansion; closed-source tools were excluded; the evaluation centers on pbzip2 and one GPU setup, with only informal feedback from three engineers rather than a controlled user study.
 
-**Future work:** Assess cross-platform portability, trace-volume control, and automated causal explanations.
+**Future work:** No dedicated future-work section is provided. The conclusion identifies a cautious next direction: remove the size limitation by replacing a function frame and instrumenting that frame.
 
 ## Abstract
 
@@ -34,11 +34,12 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
 
-**Keywords:** [heterogeneous systems](../../keywords/heterogeneous-systems.md) | [dynamic tracing](../../keywords/dynamic-tracing.md) | [large-scale debugging](../../keywords/large-scale-debugging.md) | [debugging efficiency](../../keywords/debugging-efficiency.md)
+**Keywords:** [heterogeneous systems](../../keywords/heterogeneous-systems.md) | [dynamic tracing](../../keywords/dynamic-tracing.md) | [large-scale debugging](../../keywords/large-scale-debugging.md) | [debugging efficiency](../../keywords/debugging-efficiency.md) | [GDB](../../keywords/gdb.md) | [LTTng-UST](../../keywords/lttng-ust.md) | [Trace Compass](../../keywords/trace-compass.md) | [ROCm-GDB](../../keywords/rocm-gdb.md) | [GPU debugging](../../keywords/gpu-debugging.md) | [pbzip2](../../keywords/pbzip2.md)
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1016/j.sysarc.2019.02.016) - published
+- [Public full text](https://publications.polymtl.ca/3817/12/2019_Nadeau_Efficient_large-scale_heterogeneous_debugging_dynamic.pdf) | [PDF](https://publications.polymtl.ca/3817/12/2019_Nadeau_Efficient_large-scale_heterogeneous_debugging_dynamic.pdf) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1016/j.sysarc.2019.02.016](https://doi.org/10.1016/j.sysarc.2019.02.016)
 
@@ -48,10 +49,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when your work uses or compares combining dynamic GDB jump-pad instrumentation with per-core LTTng-UST buffers to avoid the default shared-buffer/flush bottleneck.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- For combining dynamic GDB jump-pad instrumentation with per-core LTTng-UST buffers to avoid the default shared-buffer/flush bottleneck.
+- For the pbzip2 scaling result showing proposed tracing at about 90% overhead versus 3294% for the default path at 15 threads.
+- For hierarchical CPU call-stack and HSA GPU grid/wave navigation in a heterogeneous debugging interface.
+- For the practical limitations of x86-64 jump-pad placement and GPU event filtering under dynamic tracing.
 
 ## Citation
 
@@ -78,7 +81,7 @@ D. Nadeau, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Large-Scale Heterogen
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1016/j.sysarc.2019.02.016; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: Crossref and local DBLP/venue metadata for 10.1016/j.sysarc.2019.02.016; author identity matched to Naser Ezzati-Jivan in the local research catalog; Heterogeneous debugging PDF pp. 1-8: GDB/LTTng-UST architecture, trace buffering, views, filters, and GPU scope; Heterogeneous debugging PDF pp. 12-13: Fedora/Intel/AMD environment, pbzip2 workload, tracepoint count, and performance comparison; Heterogeneous debugging PDF p. 17: conclusion and reported 90% versus 3294% overhead comparison; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

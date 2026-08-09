@@ -4,27 +4,27 @@
 
 **Authors:** Naser Ezzati-Jivan, Genevieve Bastien, Michel R. Dagenais
 
-**Core contribution:** This work investigates High latency cause detection using multilevel dynamic analysis in the context of software performance and systems analysis.
+**Core contribution:** The paper correlates PHP user-space events with LTTng kernel events in a unified multilevel model to explain high-latency web requests.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-High-latency requests require causal evidence across application and system layers.
+Web-request latency is caused by interactions among application code, runtime compilation/cache behavior, synchronization, scheduling, and I/O; a user-space trace alone cannot identify all causes.
 
 ### 2. Method and contribution
 
-The work applies multilevel dynamic analysis to detect causes associated with high latency.
+Instrument PHP and correlate its call/compile events with LTTng-UST and kernel states in a common timestamped model. Mapping rules and an FSM reconstruct PHP call-stack state; synchronized views and a Critical Path View expose blocking and preemption.
 
 ### 3. Findings and evidence
 
-It establishes an early multilevel latency-diagnosis approach; exact experiments require full-text review.
+The simple example identifies compile/cache time, while the Drupal example identifies OPcache shared-memory lock contention that is invisible in PHP-only analysis. Minimal cross-layer tracing limits overhead to below 7.5% in the reported client sweep.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+**Limitations:** The implementation and evaluation are PHP-specific; the paper does not establish transferability to other runtimes or web stacks. Full tracing has substantial throughput cost, and the compile percentage is case-specific.
 
-**Future work:** Revisit the method for distributed and cloud-native workloads with modern tracing standards.
+**Future work:** Add mapping rules and views, and investigate machine-learning-based predictive analytics, as stated by the authors.
 
 ## Abstract
 
@@ -34,11 +34,12 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [latency-analysis](../../topics/latency-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [high latency](../../keywords/high-latency.md) | [dynamic analysis](../../keywords/dynamic-analysis.md) | [multilevel analysis](../../keywords/multilevel-analysis.md) | [latency causes](../../keywords/latency-causes.md)
+**Keywords:** [high latency](../../keywords/high-latency.md) | [dynamic analysis](../../keywords/dynamic-analysis.md) | [multilevel analysis](../../keywords/multilevel-analysis.md) | [latency causes](../../keywords/latency-causes.md) | [LTTng](../../keywords/lttng.md) | [LTTng-UST](../../keywords/lttng-ust.md) | [Trace Compass](../../keywords/trace-compass.md) | [OPcache contention](../../keywords/opcache-contention.md)
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1109/syscon.2018.8369613) - published
+- [Public full text](https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf) | [PDF](https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1109/syscon.2018.8369613](https://doi.org/10.1109/syscon.2018.8369613)
 
@@ -48,10 +49,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when your work uses or compares multilevel PHP/LTTng/kernel correlation that distinguishes application execution, compilation/cache, scheduling, and blocking states.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- For multilevel PHP/LTTng/kernel correlation that distinguishes application execution, compilation/cache, scheduling, and blocking states.
+- For the OPcache shared-memory lock-contention diagnosis in a Drupal/ApacheBench workload.
+- For the measured overhead tradeoff between full tracing and a minimal syscall/process-scheduling configuration.
 
 ## Citation
 
@@ -78,7 +80,7 @@ N. Ezzati-Jivan, G. Bastien, and M. R. Dagenais, "High latency cause detection u
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613; author identity matched to Naser Ezzati-Jivan in the local research catalog; High latency PDF pp. 1-5: problem, LTTng/LTTng-UST instrumentation, state model, and environment; High latency PDF pp. 5, 8-9: PHP/Drupal use cases, OPcache contention, throughput, and tracing overhead; High latency PDF p. 9: validity threats and conclusion/future-work boundary; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

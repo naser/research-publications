@@ -4,27 +4,27 @@
 
 **Authors:** Cedric Biancheri, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** The paper applies kernel tracing to analyze behavior across layers of virtualized systems.
+**Core contribution:** The paper fuses synchronized host and virtual-machine kernel traces into a Fused Virtual Machine view that exposes how VM threads, virtual CPUs, hypervisor transitions, and physical CPUs interact.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Virtualization can hide the lower-level scheduling and resource interactions needed to explain application performance.
+Virtual-machine boundaries obscure direct and indirect interactions between guest activity, hypervisor transitions, and host scheduling or I/O. A process can appear uninterrupted inside a guest while being preempted or delayed on the host.
 
 ### 2. Method and contribution
 
-Kernel tracing is used to observe and analyze behavior across multiple virtualization layers.
+Collect synchronized LTTng kernel traces from hosts and VMs, align them using hypercalls and incremental convex-hull synchronization, and fuse them into a state-history representation. The Fused Virtual Machine view maps guest vCPUs onto physical CPUs and exposes cross-layer state.
 
 ### 3. Findings and evidence
 
-The work contributes a multilayer kernel-tracing analysis perspective; hypervisor setup and measured effects require full-text review.
+In the three-VM use cases, the fused view reveals host preemption, process migration, vmentry/vmexit transitions, and physical I/O handling that are invisible or ambiguous in a VM-only view.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.
+**Limitations:** Evaluation is qualitative and use-case based. Containers are explicitly outside scope. The inspected paper does not report hardware, OS/kernel versions, trace volumes, run counts, timing results, or quantitative detection accuracy.
 
-**Future work:** Extend the analysis to modern containers, nested virtualization, cloud workloads, and heterogeneous hardware.
+**Future work:** Reuse existing analysis tools, parallelize fused analysis, and extend the approach to Java, Python, containers, and interactions among VMs on different nodes, as stated in the conclusion.
 
 ## Abstract
 
@@ -34,11 +34,12 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [resource-analysis](../../topics/resource-analysis.md)
 
-**Keywords:** [virtualized systems](../../keywords/virtualized-systems.md) | [kernel tracing](../../keywords/kernel-tracing.md) | [multilayer analysis](../../keywords/multilayer-analysis.md) | [virtualization overhead](../../keywords/virtualization-overhead.md)
+**Keywords:** [virtualized systems](../../keywords/virtualized-systems.md) | [kernel tracing](../../keywords/kernel-tracing.md) | [multilayer analysis](../../keywords/multilayer-analysis.md) | [virtualization overhead](../../keywords/virtualization-overhead.md) | [LTTng](../../keywords/lttng.md) | [KVM](../../keywords/kvm.md) | [Trace Compass](../../keywords/trace-compass.md) | [Fused Virtual Machine view](../../keywords/fused-virtual-machine-view.md) | [State History Tree](../../keywords/state-history-tree.md) | [vmentry](../../keywords/vmentry.md) | [vmexit](../../keywords/vmexit.md)
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1109/w-ficloud.2016.18) - published
+- [Public full text](https://publications.polymtl.ca/2988/1/2016_Biancheri_Multilayer_virtualized_systems_analysis_kernel.pdf) | [PDF](https://publications.polymtl.ca/2988/1/2016_Biancheri_Multilayer_virtualized_systems_analysis_kernel.pdf) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1109/w-ficloud.2016.18](https://doi.org/10.1109/w-ficloud.2016.18)
 
@@ -48,10 +49,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when your work uses or compares synchronized host/guest kernel tracing that explains VM-level behavior using physical-CPU context.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- For synchronized host/guest kernel tracing that explains VM-level behavior using physical-CPU context.
+- For a fused VM/physical-resource view that reveals host preemption or migration hidden by guest-only control-flow views.
+- For the methodological distinction between independently parallelizable layer analyses and a correlated fused analysis.
 
 ## Citation
 
@@ -78,7 +80,7 @@ C. Biancheri, N. Ezzati-Jivan, and M. R. Dagenais, "Multilayer Virtualized Syste
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/w-ficloud.2016.18; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/w-ficloud.2016.18; author identity matched to Naser Ezzati-Jivan in the local research catalog; Multilayer virtualization PDF pp. 1-4: problem, LTTng/KVM trace events, synchronization, State History Tree, and FVM view; Multilayer virtualization PDF pp. 4-7: process-preemption and hypervisor I/O-interruption use cases and evaluation discussion; Multilayer virtualization PDF p. 7: conclusion, reuse of tools, and parallel-analysis boundary; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

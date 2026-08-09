@@ -1,0 +1,116 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "efficient-communication-performance-antipattern-detection-microservices",
+  "page_url": "https://naser.github.io/research-publications/papers/efficient-communication-performance-antipattern-detection-microservices/",
+  "title": "Efficient Detection of Communication-related Performance Anti-patterns in Microservices",
+  "title_variants": [],
+  "authors": [
+    "Masoumeh Nourollahi",
+    "Naser Ezzati-Jivan",
+    "Adel Belkheiri",
+    "Michel Dagenais"
+  ],
+  "publication": {
+    "year": 2025,
+    "venue": "Authorea preprint",
+    "type": "preprint"
+  },
+  "publication_type": "preprint",
+  "status": "preprint_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.22541/au.175533132.24109345/v1",
+  "source_record_id": "efficient-detection-of-communication-related-performance-anti-patterns-in-microservices-30dc5b1051",
+  "identifiers": {
+    "doi": "10.22541/au.175533132.24109345/v1"
+  },
+  "abstract": "The preprint combines selected communication-related system-call traces with distributed observability traces to detect Blob and Empty Semi Trucks anti-patterns in microservices. It reports supervised, semi-supervised, and unsupervised settings on DeathStarBench scenarios.",
+  "abstract_source": "Authorea public preprint abstract, paraphrased; the preprint is not peer-reviewed.",
+  "summary": {
+    "core_contribution": "The preprint combines communication-related kernel/system-call events with distributed traces to detect communication performance anti-patterns in microservices.",
+    "problem": "Communication-related performance antipatterns in microservices can be hidden across user-level request traces and lower-level communication activity. The paper targets detection of Blob and Empty-semi-trucks while limiting collection overhead.",
+    "method": "The workflow combines distributed observability traces with selected communication-related system calls, correlates user-space and kernel events, aggregates features, and supports supervised, semi-supervised, and unsupervised learning. The reported setup uses LTTng, Trace Compass, Jaeger-client instrumentation, liblttng-ust, and kernel tracing, with offline training and online detection.",
+    "findings": "The evaluation uses DeathStarBench with 14 clean/noisy scenarios. The abstract reports up to 91% accuracy, 2.74% data-collection overhead, and more than 80% agreement with manual analysis. The later discussion reports 63% for the unsupervised setting and higher supervised performance, with semi-supervised learning positioned as a labeling-cost/accuracy compromise.",
+    "limitations": "Evidence is a remote-read public preprint, not a locally hashed or peer-reviewed version. The approach depends on the LTTng/Jaeger/Trace Compass stack and communication-specific calls such as recvfrom/recvmsg/recvmmsg and sendto/sendmsg/sendmmsg. It is evaluated on controlled DeathStarBench scenarios, not proprietary industrial systems. Tool versions, OS/kernel, hardware, runtime, and replication details are unknown in the retained evidence note.",
+    "future_work": "Evaluate with industrial partners, add I/O-related system-call families, and investigate topic-modeling or generative-AI extensions."
+  },
+  "tags": [
+    "microservices",
+    "system-tracing",
+    "anomaly-detection",
+    "machine-learning",
+    "performance-analysis"
+  ],
+  "keywords": [
+    "communication anti-patterns",
+    "DeathStarBench",
+    "LTTng",
+    "Trace Compass",
+    "Jaeger",
+    "system calls",
+    "distributed traces",
+    "Blob",
+    "Empty Semi Trucks",
+    "supervised learning",
+    "semi-supervised learning"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "preprint",
+      "title": "Efficient Detection of Communication-related Performance Anti-patterns in Microservices",
+      "url": "https://doi.org/10.22541/au.175533132.24109345/v1",
+      "pdf_url": null,
+      "status": "preprint",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-preprint-pdf",
+      "label": "Public preprint PDF",
+      "relation": "preprint",
+      "title": "Efficient Detection of Communication-related Performance Anti-patterns in Microservices",
+      "url": "https://d197for5662m48.cloudfront.net/documents/publicationstatus/274238/preprint_pdf/0c308204518850728852b7cf01be90f6.pdf",
+      "pdf_url": "https://d197for5662m48.cloudfront.net/documents/publicationstatus/274238/preprint_pdf/0c308204518850728852b7cf01be90f6.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "preprint_with_public_full_text",
+    "note": "This is an Authorea preprint explicitly identified as not peer-reviewed. The DOI is the preprint citation target; the external PDF is linked but not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares combining distributed spans with communication-related kernel/user system calls to detect microservice performance antipatterns.",
+    "points": [
+      "combining distributed spans with communication-related kernel/user system calls to detect microservice performance antipatterns.",
+      "the Blob and Empty-semi-truck target classes and the 14-scenario DeathStarBench evaluation.",
+      "the supervised/semi-supervised/unsupervised comparison and its reported collection-overhead/manual-agreement measurements.",
+      "with an explicit preprint and controlled-testbed caveat; do not present it as peer-reviewed industrial evidence."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Remote full preprint read: pdf-evidence/notes/parallel-batch-01-efficient-communication-anti-patterns.md",
+      "Authorea DOI: https://doi.org/10.22541/au.175533132.24109345/v1",
+      "Public preprint PDF: https://d197for5662m48.cloudfront.net/documents/publicationstatus/274238/preprint_pdf/0c308204518850728852b7cf01be90f6.pdf"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

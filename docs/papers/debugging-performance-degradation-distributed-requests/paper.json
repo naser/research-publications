@@ -7,42 +7,49 @@
   "authors": [
     "Naser Ezzati-Jivan",
     "Houssem Daoud",
-    "Michel R. Dagenais",
-    "Yong Zhang"
+    "Michel R. Dagenais"
   ],
   "publication": {
     "year": 2021,
-    "venue": "International Journal of Computer and Information Sciences",
-    "type": "research paper"
+    "venue": "Wireless Communications and Mobile Computing",
+    "type": "journal article"
   },
-  "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "publication_type": "journal article",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1155/2021/8478076",
   "source_record_id": "debugging-of-performance-degradation-in-distributed-requests-handling-using-multilevel-trace-ana-f64bec92e9",
   "identifiers": {
     "doi": "10.1155/2021/8478076"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
   "summary": {
-    "core_contribution": "This work investigates Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis in the context of software performance and systems analysis.",
-    "problem": "Performance degradation in distributed request handling can originate at multiple software and system levels.",
-    "method": "The paper uses multilevel trace analysis to connect distributed request behavior with lower-level execution evidence.",
-    "findings": "It presents a multilevel debugging approach; detailed evaluation results require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Automate cross-level correlation, test modern service meshes, and quantify tracing overhead."
+    "core_contribution": "The paper correlates LTTng traces from user space through kernel, storage, network, and multiple hosts in a disk-backed state model, enabling top-down diagnosis of distributed request latency.",
+    "problem": "Performance degradation in distributed requests can arise at user, kernel, storage, network, or remote-service layers, so single-layer tracing does not provide enough causal context.",
+    "method": "Instrument LAMP components and system layers with LTTng, synchronize hosts using causal network event pairs and convex-hull matching, maintain multilevel state trees, and perform top-down diagnosis from request latency to system call and kernel/storage/network states.",
+    "findings": "The case study localized application-level session/statistics work and disk queue contention from backup activity. The system distinguished cache-hit/miss latency classes and showed that line-level PHP tracing can approximately double response time, while selected UST tracing can approach the no-trace baseline.",
+    "limitations": "The evaluation focuses on LAMP and selected instrumented cases; causal synchronization requires suitable event pairs and the available probes determine what can be explained. Network attacks, broader systems, and richer anomaly classes are not evaluated.",
+    "future_work": "Add network-attack and host-anomaly analysis, broaden probes and workloads, and improve multilevel visualization and causal coverage."
   },
   "tags": [
     "system-tracing",
     "microservices",
     "performance-analysis",
-    "root-cause-analysis"
+    "root-cause-analysis",
+    "trace-analysis"
   ],
   "keywords": [
     "distributed requests",
-    "multilevel tracing",
-    "performance degradation",
-    "debugging"
+    "multilevel trace analysis",
+    "LTTng",
+    "Apache",
+    "PHP",
+    "MariaDB",
+    "State History Tree",
+    "cache hit ratio",
+    "disk contention",
+    "ApacheBench",
+    "Trace Compass"
   ],
   "versions": [
     {
@@ -54,33 +61,47 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-wiley-pdf",
+      "label": "Public Wiley PDF",
+      "relation": "source-record",
+      "title": "Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2021/8478076",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2021/8478076",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
-    "license": null
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target. The external source PDF is linked for readers; no PDF is redistributed in this repository.",
+    "license": "CC BY 4.0"
   },
   "resources": {
-    "code": null,
+    "code": "https://github.com/naser/",
     "data": null,
     "slides": null,
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares top-down multilevel root-cause analysis from distributed request latency to kernel/storage/network state.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For top-down multilevel root-cause analysis from distributed request latency to kernel/storage/network state.",
+      "For LTTng instrumentation spanning LAMP user space, system calls, kernel, filesystem, page cache, block layer, disk, and network.",
+      "For cross-host causal synchronization using request/response event pairs and convex-hull matching.",
+      "For the MediaWiki/WordPress session-check and `backup.sh` disk-queue case studies, including the tracing-cost boundary."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
-      "DBLP/DOI bibliographic record for 10.1155/2021/8478076",
-      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Private full PDF read: pdf-evidence/notes/debugging-performance-degradation-distributed-requests.md",
+      "Debugging paper pp. 1-10: LTTng, LAMP probes, multihost synchronization, State History Tree, data model, and top-down algorithm",
+      "Debugging paper pp. 11-13: MediaWiki/WordPress/MariaDB and unusual-latency use cases, cache analysis, and disk contention diagnosis",
+      "Debugging paper pp. 14-16: ApacheBench environment, tracing overhead, state-store/PostgreSQL comparison, conclusion, and future work",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -91,6 +112,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

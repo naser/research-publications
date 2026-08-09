@@ -27,11 +27,11 @@
   "abstract_source": "arXiv:2207.06515 abstract; public preprint version",
   "summary": {
     "core_contribution": "The paper combines system-level dependency graphs with automated outlier detection to localize likely causes of latency anomalies.",
-    "problem": "Latency problems in runtime systems are difficult to diagnose because logging and tracing often require manual inspection of many requests and their internal interactions.",
-    "method": "Each request is represented through a dependency graph describing interactions among threads and system resources. Density-based models and statistical calculations are then used to identify outliers before comparing their graph structures to locate suspicious dependencies.",
-    "findings": "The evaluation reports outlier-detection accuracy above 97%, suggesting that the approach can identify latency anomalies with limited manual screening in industry-oriented settings.",
-    "limitations": "The reported evidence is tied to the evaluated traces, models, and deployment conditions.",
-    "future_work": "Future work should test broader distributed workloads, quantify explanation quality separately from detection accuracy, and evaluate continuous online operation."
+    "problem": "Latency outliers in distributed/request-oriented software are difficult to triage because their causes may be hidden in thread and resource waiting relationships in system-level traces.",
+    "method": "Build waiting-dependency graphs from LTTng traces, embed graphs with Graph2Vec, detect unusual requests or graph regions using Z-score, k-NN, DBSCAN, or OPTICS, then merge and compare representative graphs to expose causal waiting nodes.",
+    "findings": "On 697 Apache/PHP/MySQL requests labeled by a 200 ms expert threshold, Z-score had the best printed result (98.1% accuracy, 55.0% precision, 73.3% recall, 62.9% F1), while the other methods had lower precision/recall despite >97% accuracy. A representative outlier exposed CPU waiting (waitcpu) and Xorg contention. Computation costs were dominated by graph construction and embedding.",
+    "limitations": "There is no ground-truth latency-cause dataset; labels are threshold/expert derived and some detected outliers may be unrelated to latency. Graph2Vec size and hyperparameters can overfit, and the method focuses on off-CPU/resource waits rather than user-space function detail or on-CPU causality.",
+    "future_work": "Reduce Graph2Vec size while retaining accuracy, improve training time, use more graphs, and extend analysis beyond the current off-CPU representation."
   },
   "tags": [
     "system-tracing",
@@ -81,16 +81,17 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when automating latency-outlier detection and diagnosis.",
+    "when_to_cite": "Cite this paper when your work uses or compares graph2Vec embeddings of waiting-dependency graphs as a latency-outlier screening method.",
     "points": [
-      "System-level dependency graphs for latency-outlier analysis.",
-      "Density-based models and statistical screening of abnormal requests.",
-      "Automated localization of dependencies associated with latency anomalies."
+      "For Graph2Vec embeddings of waiting-dependency graphs as a latency-outlier screening method.",
+      "For comparing DBSCAN, OPTICS, k-NN, and Z-score on threshold-derived latency labels with the reported precision/recall trade-off.",
+      "For merging and comparing representative DepGraphs to expose CPU-wait/Xorg contention.",
+      "For the measured cost boundary: 32.391 s graph construction, 11.608 s Graph2Vec, and ≤10.1% method tracing overhead in the stated setup."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "DBLP and IEEE metadata for the published paper",
       "official arXiv abstract and PDF page 2207.06515",
@@ -105,6 +106,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

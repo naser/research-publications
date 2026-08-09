@@ -1,0 +1,120 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "an-adaptive-logging-system-als-enhancing-software-logging-with-reinforcement-learning-techniques",
+  "page_url": "https://naser.github.io/research-publications/papers/an-adaptive-logging-system-als-enhancing-software-logging-with-reinforcement-learning-techniques/",
+  "title": "An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques",
+  "title_variants": [],
+  "authors": [
+    "Amirmahdi Khosravi Tabrizi",
+    "Naser Ezzati-Jivan",
+    "Francois Tetreault"
+  ],
+  "publication": {
+    "year": 2024,
+    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1145/3629526.3645033",
+  "source_record_id": "an-adaptive-logging-system-als-enhancing-software-logging-with-reinforcement-learning-techniques-26544da898",
+  "identifiers": {
+    "doi": "10.1145/3629526.3645033"
+  },
+  "abstract": null,
+  "abstract_source": "ICPE proceedings PDF reviewed; abstract paraphrased for this catalog.",
+  "summary": {
+    "core_contribution": "ALS uses source-code features and reinforcement learning to recommend which Python functions to log and which log levels to use for performance-bug diagnosis.",
+    "problem": "Logging can provide essential postmortem evidence but adds code, storage, and runtime cost. Existing log-placement systems are tied to fixed objectives and show weak cross-project transfer; resource-constrained environments need adaptable performance-bug logging (pp. 1-3).",
+    "method": "ALS extracts 12 static Python source features covering loops, synchronization issues, and Django ORM API misuses. Python AST FunctionDef nodes are collected from cloned GitHub repositories; five discrete actions select not-log, Trace, Debug, Info, or Warn. Error/Fatal are excluded because the policy uses static features. A deterministic RL environment uses rewards from -4 to +2; DQN, A2C, and PPO are evaluated through Stable-Baselines/OpenAI Baselines (pp. 3-8).",
+    "findings": "The dataset contains 17 projects (11 Apache, 6 Django), 4,235 Python files, and 93,484 functions: 56,755 training functions/1,421 files and 36,729 testing functions/2,814 files (p. 7, Table 2). All three methods show positive reward trends by the end of the first of eight episodes; DQN is reported as the most stable in training and cross-project evaluation (pp. 8-9). No accuracy, logging-overhead, or production-quality number is reported.",
+    "limitations": "Python-only static features; no dynamic CPU/memory terms; one agent handles both placement and level; function selection does not specify complete log content; project/algorithm coverage and reward design limit generalization. Production/Ciena deployment is future work, not completed evaluation.",
+    "future_work": "Multi-language AST/LLM/Jina features, CPU/memory reward terms, dual-agent placement/level control, integration with LLM/RLHF and logging frameworks, and deployment/evaluation in Ciena's operational context (pp. 9-10)."
+  },
+  "tags": [
+    "observability",
+    "performance-engineering",
+    "machine-learning",
+    "trace-reduction"
+  ],
+  "keywords": [
+    "adaptive logging",
+    "ALS",
+    "reinforcement learning",
+    "log placement",
+    "log level selection",
+    "performance bugs",
+    "Python AST",
+    "Stable-Baselines",
+    "DQN",
+    "A2C",
+    "PPO",
+    "Apache",
+    "Django",
+    "cross-project evaluation",
+    "Ciena",
+    "source-code features"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques",
+      "url": "https://doi.org/10.1145/3629526.3645033",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques",
+      "url": "https://research.spec.org/icpe_proceedings/2024/proceedings/p37.pdf",
+      "pdf_url": "https://research.spec.org/icpe_proceedings/2024/proceedings/p37.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text or author-manuscript link is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares an RL formulation in which source-function observations select both whether to log and which verbosity level to use.",
+    "points": [
+      "For an RL formulation in which source-function observations select both whether to log and which verbosity level to use.",
+      "For the 12-feature PerformanceBugLoggingObjective covering loops, synchronization, and Django ORM misuse.",
+      "For cross-project reward-curve evaluation of DQN, A2C, and PPO over 17 Apache/Django projects, with DQN's reported stability.",
+      "Do not cite this paper for measured production logging overhead or production deployment; those remain future work."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "ICPE ALS PDF: Python AST, GitHub/PyGithub/git, 12 static features, bug classes, Stable-Baselines, and DQN/A2C/PPO selection",
+      "ICPE ALS PDF: 17 Apache/Django projects, 93,484 functions, 4,235 files, eight-episode evaluation, and reward stability findings",
+      "ICPE ALS PDF: Python/dynamic-feature/agent-scope limitations and stated future work",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

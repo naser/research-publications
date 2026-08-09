@@ -1,0 +1,114 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "high-performance-internet-connection-filtering-in-kernel",
+  "page_url": "https://naser.github.io/research-publications/papers/high-performance-internet-connection-filtering-in-kernel/",
+  "title": "High Performance Internet Connection Filtering through an In-Kernel Architecture",
+  "title_variants": [],
+  "authors": [
+    "Naser Ezzati Jivan",
+    "Alireza Shameli Sendi",
+    "Naser Nematbakhsh",
+    "Michel Dagenais"
+  ],
+  "publication": {
+    "year": 2011,
+    "venue": "Sixth International Conference on Internet Monitoring and Protection (ICIMP 2011)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://publications.polymtl.ca/16917/",
+  "source_record_id": "high-performance-internet-connection-filtering-through-an-in-kernel-architecture-0fd7b76ddd",
+  "identifiers": {
+    "doi": null
+  },
+  "abstract": null,
+  "abstract_source": null,
+  "summary": {
+    "core_contribution": "The paper moves part of an application proxy into the kernel to reduce context switches and unnecessary data copies during connection filtering.",
+    "problem": "Application-layer proxy firewalls can copy packets between kernel and user space and incur repeated context switches, creating a network-performance bottleneck (printed pp. 32-34).",
+    "method": "The architecture splits proxy work between a kernel module and user-level daemon. Kernel-side modules handle authentication, rules, connection/state management, filtering, and logging; detailed application-layer work is retained where needed. The common proxy targets HTTP, FTP, and TELNET and emphasizes pass-through processing (printed pp. 32, 34-35).",
+    "findings": "The test compares kernel/no-proxy, kernel-proxy, kernel-proxy plus user daemon, and FWTK configurations using connections per second and average response time. The graphs and discussion report higher efficiency for the kernel-proxy configurations, attributed to fewer copies and context switches (printed pp. 36-37). Exact graph values are not reconstructed.",
+    "limitations": "The evaluation is a dated three-host testbed: 100 Mbps links, HTTP proxy, 30 rules, no cache, summarized logging, disabled NAT, and three runs. Modern hardware, higher link rates, larger policies, non-HTTP workloads, and adversarial traffic are unknown.",
+    "future_work": "Kernel URL categorization, high-performance kernel packet modification, a lightweight IP-layer TCP daemon, and a user/administrator interface for rule and policy management (printed p. 37)."
+  },
+  "tags": [
+    "performance-engineering",
+    "performance-optimization",
+    "resource-analysis"
+  ],
+  "keywords": [
+    "in-kernel proxy",
+    "connection filtering",
+    "Fire Bench",
+    "SPECWeb2009",
+    "context switches",
+    "data copies",
+    "HTTP proxy",
+    "FTP",
+    "TELNET",
+    "kernel architecture"
+  ],
+  "versions": [
+    {
+      "id": "institutional-publication-record",
+      "label": "Institutional publication record",
+      "relation": "version-of-record",
+      "title": "High Performance Internet Connection Filtering through an In-Kernel Architecture",
+      "url": "https://publications.polymtl.ca/16917/",
+      "pdf_url": null,
+      "status": "publication_signal",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-proceedings-pdf",
+      "label": "Public proceedings PDF",
+      "relation": "source-record",
+      "title": "High Performance Internet Connection Filtering through an In-Kernel Architecture",
+      "url": "https://www.thinkmind.org/download_full.php?instance=ICIMP+2011",
+      "pdf_url": "https://www.thinkmind.org/download_full.php?instance=ICIMP+2011",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The paper is linked through the institutional record and a combined public proceedings PDF; the article occupies the printed pages 32-37. The proceedings volume is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares the split in-kernel/user-daemon proxy architecture for reducing packet copies and context switches.",
+    "points": [
+      "The split in-kernel/user-daemon proxy architecture for reducing packet copies and context switches.",
+      "The specific state/rule/filter/logging decomposition for a protocol-aware in-kernel connection filter.",
+      "The Fire Bench/SPECWeb2009 evaluation design and its connections-per-second/average-response-time metrics.",
+      "The qualitative result that pass-through kernel handling outperformed the tested FWTK/application-proxy configuration under the dated testbed."
+    ],
+    "canonical_version_id": "institutional-publication-record"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Private full proceedings evidence note: pdf-evidence/notes/parallel-batch-04-high-performance-internet-connection-filtering-through-an-in-kernel-architecture.md",
+      "Article printed pp. 32-37 in the public combined ICIMP proceedings PDF",
+      "Local PDF hash verified: F4F01012F90BB07B08926F1AF8AED9CC0211177450BD1ABCB70DF3C87E37D94",
+      "Institutional record: https://publications.polymtl.ca/16917/"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

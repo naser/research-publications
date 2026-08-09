@@ -1,0 +1,10 @@
+TY  - JOUR
+AU  - Ezzati-Jivan, Naser
+AU  - Dagenais, Michel R.
+TI  - Multi-scale Navigation of Large Trace Data: A Survey
+PY  - 2017
+T2  - Concurrency and Computation: Practice and Experience
+AB  - The survey organizes abstraction and visualization techniques that help analysts navigate long operating-system and kernel traces from overview to event-level evidence.
+DO  - 10.1002/cpe.4068
+UR  - https://doi.org/10.1002/cpe.4068
+ER  -

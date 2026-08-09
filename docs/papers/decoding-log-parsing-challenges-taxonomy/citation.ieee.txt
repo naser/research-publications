@@ -1,0 +1,1 @@
+I. Sedki, A. Hamou-Lhadj, O. Ait-Mohamed, N. Ezzati-Jivan, and M. A. Shehab, "Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions," in 2024 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE Companion), 2024, doi: 10.1145/3639478.3643523

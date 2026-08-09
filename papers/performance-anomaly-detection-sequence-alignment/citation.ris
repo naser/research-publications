@@ -1,10 +1,10 @@
-TY  - GEN
+TY  - CONF
 AU  - Janecek, Madeline
 AU  - Ezzati-Jivan, Naser
 AU  - Hamou-Lhadj, Abdelwahab
-TI  - Performance anomaly detection through sequence alignment of system-level traces
+TI  - Performance Anomaly Detection through Sequence Alignment of System-Level Traces
 PY  - 2022
-T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+T2  - 30th International Conference on Program Comprehension (ICPC)
 DO  - 10.1145/3524610.3527898
 UR  - https://doi.org/10.1145/3524610.3527898
 ER  -

@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "state-history-tree-an-incremental-disk-based-data-structure-for-very-large-interval-data",
+  "page_url": "https://naser.github.io/research-publications/papers/state-history-tree-an-incremental-disk-based-data-structure-for-very-large-interval-data/",
+  "title": "State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data",
+  "title_variants": [],
+  "authors": [
+    "Alexandre Montplaisir-Goncalves",
+    "Naser Ezzati-Jivan",
+    "Florian Wininger",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2013,
+    "venue": "IEEE International Conference on Social Computing",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1109/SocialCom.2013.107",
+  "source_record_id": "state-history-tree-an-incremental-disk-based-data-structure-for-very-large-interval-data-35a2d470ae",
+  "identifiers": {
+    "doi": "10.1109/SocialCom.2013.107"
+  },
+  "abstract": "The State History Tree is a disk-based structure for incrementally arriving, time-ordered interval data derived from LTTng system traces, designed to support very large histories.",
+  "abstract_source": "Public institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
+  "summary": {
+    "core_contribution": "The paper presents a disk-oriented State History Tree that stores very large, time-ordered trace intervals without repeated node rebalancing.",
+    "problem": "Trace-derived, time-ordered interval histories can exceed memory capacity; generic R-trees rebalance repeatedly during chronological construction, while B-trees do not directly model intervals (pp. 2-5).",
+    "method": "The State History Tree stores key/value intervals in fixed-size disk blocks organized as a tree. Nodes are closed and committed without rebalancing when chronological end-time insertion fills them; sequence numbers and child time boundaries guide navigation. Full and key-specific ad-hoc queries traverse relevant branches (pp. 5-7).",
+    "findings": "The Java implementation integrates with Eclipse TMF/Linux Tools and manages state intervals extracted from LTTng traces. Tested block sizes are 16 KB, 64 KB, 256 KB, 1 MB, and 4 MB; 16-256 KB perform best on the tested traces, while 1 MB is slightly better above 10 GB. For 10-550 GB traces, the paper reports about 150 ms full-query and 2 ms ad-hoc-query times (pp. 7-9). R-tree queries are faster in memory, but construction is slower and capacity-limited; PostGIS has higher reported storage/query overhead.",
+    "limitations": "The design assumes intervals arrive in ascending end-time order and short intervals dominate. Frequent insertion into the past can increase imbalance and, in the worst case, degenerate toward a linear list (pp. 5-6). The conclusion states no separate author future-work agenda.",
+    "future_work": "Unknown / not explicitly stated by the authors. Do not convert generic modern-storage or modern-tracing ideas into author-attributed future work."
+  },
+  "tags": [
+    "kernel-tracing",
+    "trace-analysis",
+    "performance-engineering",
+    "resource-analysis"
+  ],
+  "keywords": [
+    "State History Tree",
+    "disk-based interval data",
+    "streaming interval data",
+    "time-ordered intervals",
+    "LTTng",
+    "Eclipse Tracing and Monitoring Framework",
+    "Linux Tools Project",
+    "Java",
+    "R-tree",
+    "PostgreSQL/PostGIS",
+    "full query",
+    "ad-hoc query"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data",
+      "url": "https://doi.org/10.1109/SocialCom.2013.107",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-accepted-full-text",
+      "label": "Public accepted full text",
+      "relation": "source-record",
+      "title": "State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data",
+      "url": "https://publications.polymtl.ca/2983/1/2013_Montplaisir-Gon%C3%A7alves_State_history_tree_incremental_disk-based.pdf",
+      "pdf_url": "https://publications.polymtl.ca/2983/1/2013_Montplaisir-Gon%C3%A7alves_State_history_tree_incremental_disk-based.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text link is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares incremental disk-based interval storage that avoids rebalancing under time-ordered insertion.",
+    "points": [
+      "Incremental disk-based interval storage that avoids rebalancing under time-ordered insertion.",
+      "The State History Tree's full versus key-specific ad-hoc query distinction.",
+      "LTTng-derived system-state interval storage integrated into Eclipse TMF/Linux Tools.",
+      "The block-size and 10-550 GB scalability results, including the reported 150 ms full and 2 ms ad-hoc query values."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design",
+      "State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons",
+      "State History Tree PDF: chronological-insertion limitation and conclusion boundary",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

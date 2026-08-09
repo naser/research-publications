@@ -15,7 +15,7 @@
     "type": "research paper"
   },
   "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1109/w-ficloud.2016.18",
   "source_record_id": "multilayer-virtualized-systems-analysis-with-kernel-tracing-9afa1f3fe4",
   "identifiers": {
@@ -24,12 +24,12 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "The paper applies kernel tracing to analyze behavior across layers of virtualized systems.",
-    "problem": "Virtualization can hide the lower-level scheduling and resource interactions needed to explain application performance.",
-    "method": "Kernel tracing is used to observe and analyze behavior across multiple virtualization layers.",
-    "findings": "The work contributes a multilayer kernel-tracing analysis perspective; hypervisor setup and measured effects require full-text review.",
-    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
-    "future_work": "Extend the analysis to modern containers, nested virtualization, cloud workloads, and heterogeneous hardware."
+    "core_contribution": "The paper fuses synchronized host and virtual-machine kernel traces into a Fused Virtual Machine view that exposes how VM threads, virtual CPUs, hypervisor transitions, and physical CPUs interact.",
+    "problem": "Virtual-machine boundaries obscure direct and indirect interactions between guest activity, hypervisor transitions, and host scheduling or I/O. A process can appear uninterrupted inside a guest while being preempted or delayed on the host.",
+    "method": "Collect synchronized LTTng kernel traces from hosts and VMs, align them using hypercalls and incremental convex-hull synchronization, and fuse them into a state-history representation. The Fused Virtual Machine view maps guest vCPUs onto physical CPUs and exposes cross-layer state.",
+    "findings": "In the three-VM use cases, the fused view reveals host preemption, process migration, vmentry/vmexit transitions, and physical I/O handling that are invisible or ambiguous in a VM-only view.",
+    "limitations": "Evaluation is qualitative and use-case based. Containers are explicitly outside scope. The inspected paper does not report hardware, OS/kernel versions, trace volumes, run counts, timing results, or quantitative detection accuracy.",
+    "future_work": "Reuse existing analysis tools, parallelize fused analysis, and extend the approach to Java, Python, containers, and interactions among VMs on different nodes, as stated in the conclusion."
   },
   "tags": [
     "kernel-tracing",
@@ -41,7 +41,14 @@
     "virtualized systems",
     "kernel tracing",
     "multilayer analysis",
-    "virtualization overhead"
+    "virtualization overhead",
+    "LTTng",
+    "KVM",
+    "Trace Compass",
+    "Fused Virtual Machine view",
+    "State History Tree",
+    "vmentry",
+    "vmexit"
   ],
   "versions": [
     {
@@ -53,11 +60,21 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "Multilayer Virtualized Systems Analysis with Kernel Tracing",
+      "url": "https://publications.polymtl.ca/2988/1/2016_Biancheri_Multilayer_virtualized_systems_analysis_kernel.pdf",
+      "pdf_url": "https://publications.polymtl.ca/2988/1/2016_Biancheri_Multilayer_virtualized_systems_analysis_kernel.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
     "license": null
   },
   "resources": {
@@ -67,19 +84,23 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares synchronized host/guest kernel tracing that explains VM-level behavior using physical-CPU context.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For synchronized host/guest kernel tracing that explains VM-level behavior using physical-CPU context.",
+      "For a fused VM/physical-resource view that reveals host preemption or migration hidden by guest-only control-flow views.",
+      "For the methodological distinction between independently parallelizable layer analyses and a correlated fused analysis."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1109/w-ficloud.2016.18",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Multilayer virtualization PDF pp. 1-4: problem, LTTng/KVM trace events, synchronization, State History Tree, and FVM view",
+      "Multilayer virtualization PDF pp. 4-7: process-preemption and hypervisor I/O-interruption use cases and evaluation discussion",
+      "Multilayer virtualization PDF p. 7: conclusion, reuse of tools, and parallel-analysis boundary",
+      "local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +111,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

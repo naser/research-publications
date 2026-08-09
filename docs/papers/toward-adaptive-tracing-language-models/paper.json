@@ -11,37 +11,50 @@
   ],
   "publication": {
     "year": 2024,
-    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
+    "venue": "2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)",
     "type": "research paper"
   },
   "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1145/3639476.3639778",
   "source_record_id": "toward-adaptive-tracing-efficient-system-behavior-analysis-using-language-models-2466c66979",
   "identifiers": {
     "doi": "10.1145/3639476.3639778"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "Toward Adaptive Tracing ACM Open PDF reviewed on 2026-08-06; abstract not reproduced because the reuse terms for the publisher PDF were not established.",
   "summary": {
-    "core_contribution": "This work investigates Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models in the context of software performance and systems analysis.",
-    "problem": "Tracing policies must balance diagnostic coverage against collection and analysis overhead.",
-    "method": "The paper explores language-model-supported analysis for making tracing more selective and behavior-aware.",
-    "findings": "It establishes an adaptive-tracing direction for efficient system observation; exact findings require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Compare adaptive policies against fixed tracing, verify safety, and test unseen workload behavior."
+    "core_contribution": "The paper proposes an adaptive tracing loop that combines language-model prediction of kernel-event sequences and event durations with change detection and root-cause analysis, so detailed tracing is activated only around significant behavior shifts.",
+    "problem": "Continuous kernel tracing imposes performance, storage, and analysis cost, while event-only analysis can miss duration changes. The paper asks how tracing can remain selective while preserving evidence around abrupt system behavior changes.",
+    "method": "LTTng kernel/system-call events are represented with event/process names, PID/TID, delay, return status, and other arguments. A multi-task model predicts the next event and a categorized system-call duration; LSTM and transformer-based BERT variants share features. Cross-entropy prediction losses are MAD-rescaled and combined for change detection. Error vectors of unexpected/missing event types are compared by cosine similarity with pre-clustered, tagged vectors for root-cause/noise assignment.",
+    "findings": "Normal Apache2 traces and noisy traces from the prior dataset plus an author-created bandwidth-limited duration-noise set yield seven noise categories. Across 50%-0% noise scenarios, adaptive tracing reduces recorded events by 77.1% with a 5.8% miss rate for events related to abrupt changes. Duration F1 is 82.9% for LSTM and 83.1% for BERT. On a combined 700,000-request test set, root-cause/noise identification averages 91.3%, up to 20.9% above event-sequence-only analysis. On a V100 GPU, batch-16 inference is under 100 ms; average change-detection time is 106 ms for LSTM and 151 ms for BERT, with about 29 ms added for RCA.",
+    "limitations": "The study is a short preliminary ICSE-NIER paper centered on Apache2 and controlled/noisy traces. LTTng is named but its evaluation version is not specified; the LTTng v2.13 URL is a documentation reference, not proof of runtime version. OS, kernel, CPU, RAM, and replication count are unknown.",
+    "future_work": "Test database logs, API traces, network traffic, and application logs; build a larger anomaly benchmark; model recurring anomalies as normal when appropriate; and use online learning/model adjustment to maintain low tracing overhead."
   },
   "tags": [
     "kernel-tracing",
     "system-tracing",
     "llm-assisted-analysis",
-    "observability"
+    "observability",
+    "anomaly-detection",
+    "root-cause-analysis",
+    "trace-reduction"
   ],
   "keywords": [
     "adaptive tracing",
-    "language-model assistance",
-    "system behavior analysis",
-    "trace collection"
+    "LTTng",
+    "kernel events",
+    "system-call sequences",
+    "event-duration modeling",
+    "language models",
+    "LSTM",
+    "BERT",
+    "multi-task learning",
+    "change detection",
+    "root-cause analysis",
+    "Apache2",
+    "trace reduction",
+    "trace overhead"
   ],
   "versions": [
     {
@@ -53,33 +66,49 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3639476.3639778",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3639476.3639778",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
     "license": null
   },
   "resources": {
     "code": null,
-    "data": null,
+    "data": "https://zenodo.org/records/10437041",
     "slides": null,
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares combining next-system-call prediction with categorized system-call-duration prediction in a multi-task adaptive tracer.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "combining next-system-call prediction with categorized system-call-duration prediction in a multi-task adaptive tracer.",
+      "selective tracing that reports 77.1% event reduction at a 5.8% abrupt-change-related miss rate.",
+      "cosine-similarity clustering of abnormal event vectors as an interpretable root-cause/noise assignment step.",
+      "the V100 latency measurements when discussing inference feasibility, with the Apache/noise-testbed boundary."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1145/3639476.3639778",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Toward Adaptive Tracing PDF pp. 1-3: ACM/ICSE-NIER identity, LTTng motivation, Apache2 data source, and adaptive-tracing contribution",
+      "Toward Adaptive Tracing PDF pp. 3-5: event vectors, LSTM/BERT multi-task sequence and duration modeling, MAD-normalized change detection, and cosine/error-vector root-cause analysis",
+      "Toward Adaptive Tracing PDF p. 5: Apache2 scenarios, seven noise categories, 77.1% event reduction, 5.8% miss rate, 91.3% root-cause accuracy, duration-model F-scores, and V100 latency",
+      "Toward Adaptive Tracing PDF p. 5: future-work and model-update boundary",
+      "local Toward Adaptive Tracing PDF hash verified in pdf-evidence/notes/toward-adaptive-tracing-language-models.md and pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +119,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

@@ -1,0 +1,1 @@
+N. Ezzati-Jivan and M. R. Dagenais, "Multi-scale Navigation of Large Trace Data: A Survey," Concurrency and Computation: Practice and Experience, 2017, doi: 10.1002/cpe.4068

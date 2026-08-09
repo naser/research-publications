@@ -1,11 +1,11 @@
-TY  - GEN
+TY  - CONF
 AU  - Panahandeh, Mahsa
 AU  - Ezzati-Jivan, Naser
 AU  - Hamou-Lhadj, Abdelwahab
 AU  - Miller, James
 TI  - Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis
 PY  - 2024
-T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+T2  - ACM/SPEC International Conference on Performance Engineering (ICPE) Companion
 DO  - 10.1145/3629527.3651841
 UR  - https://doi.org/10.1145/3629527.3651841
 ER  -

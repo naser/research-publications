@@ -1,0 +1,113 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "a-reliable-and-efficient-time-synchronization-protocol-for-heterogeneous-wireless-sensor-network",
+  "page_url": "https://naser.github.io/research-publications/papers/a-reliable-and-efficient-time-synchronization-protocol-for-heterogeneous-wireless-sensor-network/",
+  "title": "A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network",
+  "title_variants": [],
+  "authors": [
+    "Masoume Jabbarifar",
+    "Alireza Shameli-Sendi",
+    "Alireza Sadighian",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2010,
+    "venue": "Wireless Sensor Network",
+    "type": "journal article"
+  },
+  "publication_type": "journal article",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.4236/wsn.2010.212109",
+  "source_record_id": "a-reliable-and-efficient-time-synchronization-protocol-for-heterogeneous-wireless-sensor-network-4003f17406",
+  "identifiers": {
+    "doi": "10.4236/wsn.2010.212109"
+  },
+  "abstract": "L-SYNCng combines topology-aware clustering with convex-hull estimation of clock offset and skew for synchronization in heterogeneous wireless sensor networks.",
+  "abstract_source": "Public article/full-text evidence reviewed; abstract paraphrased for this catalog.",
+  "summary": {
+    "core_contribution": "The paper proposes L-SYNCng, a time-synchronization protocol for heterogeneous wireless sensor networks that combines topology-aware clustering with convex-hull clock estimation.",
+    "problem": "Clock offset, clock drift, delayed or unreliable packets, and heterogeneous topology make accurate and efficient synchronization difficult in wireless sensor networks; multihop clock conversion also accumulates error (abstract and pp. 1, 3, 7).",
+    "method": "L-SYNCng combines degree-/weight-based clustering, shorter inter-cluster routes, and convex-hull estimation of clock offset and skew. The synchronization phase uses cluster-head broadcasts, acknowledgements, timestamp histories, and route-based clock conversion (pp. 3-7).",
+    "findings": "NS-2.31 simulations compare L-SYNCng with L-SYNC and SLTP in homogeneous/heterogeneous and noisy/noiseless settings. The reported plots show slower growth of average synchronization error for L-SYNCng and improved robustness to delayed packets when convex-hull estimation is used (pp. 7-8; qualitative graph evidence, no exact numeric error table).",
+    "limitations": "The evidence is simulation-only: no hardware-clock, energy-consumption, deployment, or dynamic-membership result was verified. The paper does not provide a reusable empirical dataset or exact tabulated error values.",
+    "future_work": "Apply L-SYNCng to dynamic sensor networks in which nodes can change status or membership (pp. 8-9, conclusion)."
+  },
+  "tags": [
+    "performance-analysis",
+    "resource-analysis",
+    "observability"
+  ],
+  "keywords": [
+    "wireless sensor networks",
+    "time synchronization",
+    "L-SYNCng",
+    "convex hull",
+    "clock drift",
+    "NS-2.31",
+    "heterogeneous topology",
+    "clock offset",
+    "clock skew"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network",
+      "url": "https://doi.org/10.4236/wsn.2010.212109",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network",
+      "url": "https://pdfs.semanticscholar.org/aac3/26768ba2da9c45750107826a2ebb79dfad1d.pdf",
+      "pdf_url": "https://pdfs.semanticscholar.org/aac3/26768ba2da9c45750107826a2ebb79dfad1d.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text link is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares l-SYNCng's topology-aware clustering for heterogeneous WSN synchronization.",
+    "points": [
+      "L-SYNCng's topology-aware clustering for heterogeneous WSN synchronization.",
+      "Convex-hull clock offset/skew estimation under delayed or noisy synchronization packets.",
+      "The specific L-SYNCng/L-SYNC/SLTP comparison over 100-node homogeneous and heterogeneous simulated networks."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "L-SYNCng PDF: protocol design, clustering, convex-hull offset/skew estimation, and comparison protocols",
+      "L-SYNCng PDF: NS-2.31, 100-node/1000 x 1000 m/100 m setup, ten runs, noise conditions, and plotted comparisons",
+      "L-SYNCng PDF: conclusion and dynamic-network future-work statement",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

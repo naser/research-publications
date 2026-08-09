@@ -1,0 +1,11 @@
+TY  - CONF
+AU  - Noferesti, Morteza
+AU  - Grandy, Ben
+AU  - Ezzati-Jivan, Naser
+TI  - Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring
+PY  - 2024
+T2  - 2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)
+AB  - The available synopsis describes passive kernel-event monitoring and alignment of CPU, disk, and network request life cycles for noise detection; detailed evaluation was not captured.
+DO  - 10.1109/CASCON62161.2024.10838205
+UR  - https://doi.org/10.1109/CASCON62161.2024.10838205
+ER  -

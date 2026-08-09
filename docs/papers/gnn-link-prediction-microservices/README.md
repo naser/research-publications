@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Microservice interactions are frequent, dynamic, and operationally important. Predicting likely future links could help systems detect or respond to emerging performance problems before they escalate.
+Microservice call graphs are dense, time-sensitive, and continuously changing. Static similarity methods and temporal models without structural context may miss future service interactions that matter for proactive monitoring and resource management.
 
 ### 2. Method and contribution
 
-The approach uses temporal segmentation, advanced negative sampling, and graph attention mechanisms to model time-sensitive call-graph interactions. It is evaluated with AUC, precision, recall, and F1-score on real-world data.
+The pipeline cleans timestamped caller/callee events, maps services to node IDs, partitions them into fixed time-window graphs, and uses a two-layer Graph Attention Network. The first layer uses two attention heads with ELU; the second consolidates with one head. Advanced negative sampling selects degree-weighted non-existing edges with alpha=0.1 while excluding existing edges. Link scores use an embedding dot product, sigmoid, and binary cross-entropy loss.
 
 ### 3. Findings and evidence
 
-The reported evaluation shows high accuracy and robustness for predicting microservice interactions, supporting possible use in adaptive resource management and performance optimization.
+On the evaluated Alibaba 2022 Cluster Trace slice, the proposed temporal GAT reports AUC 0.89, accuracy 0.91, precision 0.89, recall 0.96, and F1 0.92. It improves F1 over NodeSim 0.18, LSTM 0.60, Simple GNN 0.76, and Simple Temporal GNN 0.77, although Simple GNN has higher AUC (0.94) than the proposed model. The paper uses attention heatmaps, confusion matrices, PR curves, and ROC curves to inspect behavior across windows.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The evidence is tied to the available real-world traces and offline link-prediction setup.
+**Limitations:** The quantitative evaluation uses one real dataset and a 0-10,000 ms interval, with 0-7,000 ms for training and 7,000-10,000 ms for testing. GNN computation is more expensive than simple baselines; extreme class imbalance, longer temporal horizons, additional service/load attributes, ranking metrics, and other datasets are not fully evaluated. CPU model, GPU, OS, and runtime/library versions are unknown.
 
-**Future work:** Future work should evaluate online drift, operational cost, false-positive consequences, and integration with live monitoring controllers.
+**Future work:** Test longer and more varied time ranges and multiple datasets; add interaction frequency, service load, and refined temporal features; investigate sparse/lightweight GNNs, distributed training, ranking metrics, and unsupervised or self-supervised learning.
 
 ## Abstract
 
@@ -49,11 +49,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when predicting future interactions in evolving microservice call graphs.
+Cite this paper when your work uses or compares temporal link prediction in microservice call graphs using time-windowed graphs and GAT attention.
 
-- Graph-neural-network link prediction for microservice architectures.
-- Temporal segmentation of changing service-interaction graphs.
-- Predictive monitoring of likely future microservice calls.
+- temporal link prediction in microservice call graphs using time-windowed graphs and GAT attention.
+- advanced degree-weighted negative sampling that excludes existing edges in a highly imbalanced call-graph setting.
+- the Alibaba 2022 Cluster Trace evaluation and the comparison against NodeSim, LSTM, Simple GNN, and Simple Temporal GNN.
+- the paper's result as a classification benchmark only with its stated 0-10,000 ms split; do not generalize it to long-horizon production prediction without additional evidence.
 
 ## Citation
 
@@ -80,7 +81,7 @@ G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2501.15019; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

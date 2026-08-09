@@ -1,0 +1,112 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "automated-categorizing-similarities-persian-news",
+  "page_url": "https://naser.github.io/research-publications/papers/automated-categorizing-similarities-persian-news/",
+  "title": "New Approach for Automated Categorizing and Finding Similarities in Online Persian News",
+  "title_variants": [],
+  "authors": [
+    "Naser Ezzati Jivan",
+    "Mahlagha Fazeli",
+    "Khadije Sadat Yousefi"
+  ],
+  "publication": {
+    "year": 2010,
+    "venue": "International Symposium on Information Management in a Changing World (IMCW 2010), Communications in Computer and Information Science 96",
+    "type": "conference chapter"
+  },
+  "publication_type": "conference chapter",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1007/978-3-642-16032-5_11",
+  "source_record_id": "new-approach-for-automated-categorizing-and-finding-similarities-in-online-persian-news-f3dd90c03f",
+  "identifiers": {
+    "doi": "10.1007/978-3-642-16032-5_11"
+  },
+  "abstract": null,
+  "abstract_source": null,
+  "summary": {
+    "core_contribution": "The paper combines automated Persian-news categorization with a web system for retrieving similar news items.",
+    "problem": "Online Persian news requires automatic category assignment and retrieval of related items, but the paper notes that no standard similarity test bench or universally accepted similarity measure was available (p. 61, abstract; pp. 62-63).",
+    "method": "A crawler collects news; preprocessing removes general words and creates tf*idf-style vectors; an S-V-M categorizer trained with Reuters material assigns general categories. Similarity retrieval uses stored headline/summary/topic/date features and prioritized permutations from all features down to one keyword (pp. 63-65).",
+    "findings": "The Linux/PHP crawler and similarity finder were manually assessed on 100 news pieces and corresponding results. The authors report 79% precision when permutations of headline, summary, and topic are used (p. 66). No standard benchmark split or independent reproduction was verified.",
+    "limitations": "Surface subject/keyword resemblance can miss semantic similarity or match documents that share words without sharing meaning. The corpus protocol, train/test split, and larger benchmark size are unknown; the public copy does not establish them.",
+    "future_work": "Add semantic features representing both keywords and concepts so that conceptually related Persian news can be retrieved even when surface words differ (pp. 66-67)."
+  },
+  "tags": [
+    "machine-learning",
+    "benchmark-datasets"
+  ],
+  "keywords": [
+    "Persian news",
+    "text categorization",
+    "document similarity",
+    "tf-idf",
+    "SVM",
+    "Reuters",
+    "web crawler",
+    "PHP",
+    "keyword extraction",
+    "semantic similarity"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "New Approach for Automated Categorizing and Finding Similarities in Online Persian News",
+      "url": "https://doi.org/10.1007/978-3-642-16032-5_11",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-conference-copy",
+      "label": "Public conference copy",
+      "relation": "source-record",
+      "title": "New Approach for Automated Categorizing and Finding Similarities in Online Persian News",
+      "url": "https://bilgiyonetimi.net/by2010/bildiriler/jivan.pdf",
+      "pdf_url": "https://bilgiyonetimi.net/by2010/bildiriler/jivan.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The Springer DOI is the canonical citation target. A public conference copy is linked for readers; it has different pagination from the Springer version of record and is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares persian-news feature extraction using grammar-aware general-word removal and keyword/topic/date features.",
+    "points": [
+      "Persian-news feature extraction using grammar-aware general-word removal and keyword/topic/date features.",
+      "The crawler plus tf*idf/S-V-M architecture trained with Reuters categories for automated news classification.",
+      "Prioritized feature-permutation retrieval for related news, including the authors' 79% manual-precision result and its non-standard benchmark boundary.",
+      "The explicit motivation for semantic similarity using concepts in addition to keywords."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Private full PDF evidence note: pdf-evidence/notes/parallel-batch-04-new-approach-for-automated-categorizing-and-finding-similarities-in-online-persian-news.md",
+      "Springer version-of-record metadata: https://link.springer.com/chapter/10.1007/978-3-642-16032-5_11",
+      "Public conference copy: https://bilgiyonetimi.net/by2010/bildiriler/jivan.pdf",
+      "Local PDF hash verified: 93BD457A0C3B4C8FA6AC470421D8A0535166BDA5D5E688635FC7E7FED7CAFF64"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

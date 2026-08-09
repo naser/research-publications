@@ -1,0 +1,1 @@
+Giraldeau, F., Ezzati-Jivan, N., & Dagenais, M. R. (2021). System Execution Path Profiling Using Hardware Performance Counters. 2021 IEEE International Systems Conference (SysCon). https://doi.org/10.1109/SYSCON48628.2021.9447121

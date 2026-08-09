@@ -1,1 +1,1 @@
-Khodabandeh, G., Ezaz, A., & Ezzati-Jivan, N. (2024). Network Analysis of Microservices: A Case Study on Alibaba Production Clusters. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3629527.3651842
+Khodabandeh, G., Ezaz, A., & Ezzati-Jivan, N. (2024). Network Analysis of Microservices: A Case Study on Alibaba Production Clusters. ACM/SPEC International Conference on Performance Engineering (ICPE) Companion. https://doi.org/10.1145/3629527.3651842

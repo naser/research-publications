@@ -1,0 +1,5 @@
+# log generation
+
+Papers indexed by keyword **log generation**.
+
+- [SynthLogAI: Generative AI for Synthetic Linux Log Generation and Evaluation](../papers/synthlogai-synthetic-linux-log-generation/README.md) - 2025

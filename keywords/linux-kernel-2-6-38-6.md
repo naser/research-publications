@@ -1,0 +1,6 @@
+# Linux kernel 2.6.38.6
+
+Papers indexed by keyword **Linux kernel 2.6.38.6**.
+
+- [A Framework to Compute Statistics of System Parameters from Very Large Trace Files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
+- [A Stateful Approach to Generate Synthetic Events from Kernel Traces](../papers/a-stateful-approach-to-generate-synthetic-events-from-kernel-traces/README.md) - 2012

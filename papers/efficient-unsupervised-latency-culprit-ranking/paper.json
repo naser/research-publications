@@ -12,37 +12,43 @@
   ],
   "publication": {
     "year": 2024,
-    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
-    "type": "research paper"
+    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE) Companion",
+    "type": "conference paper"
   },
-  "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1145/3629527.3651841",
   "source_record_id": "efficient-unsupervised-latency-culprit-ranking-in-distributed-traces-with-gnn-and-critical-path--ec5a0cb026",
   "identifiers": {
     "doi": "10.1145/3629527.3651841"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
   "summary": {
-    "core_contribution": "This work investigates Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis in the context of software performance and systems analysis.",
-    "problem": "Distributed traces contain many candidate spans, but diagnosing latency requires ranking the most influential culprits.",
-    "method": "The approach combines graph neural networks with critical-path analysis in an unsupervised ranking workflow.",
-    "findings": "The paper targets efficient culprit ranking without requiring labeled failure data; quantitative results require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Study label-free drift handling, explanation fidelity, sampling effects, and online deployment."
+    "core_contribution": "The paper combines an unsupervised GraphSAGE model with critical-path-specific latency profiles to detect anomalous requests and rank likely microservice culprits without labelled training data.",
+    "problem": "Latency-culprit methods for microservices often require labeled anomalies or make assumptions about propagation paths that do not hold across requests. The paper seeks request-level culprit ranking without a labeled training set.",
+    "method": "Historical service-span latency vectors are normalized and grouped by computed critical path. Each critical-path cluster stores service latency distributions. A two-layer GraphSAGE encoder/decoder reconstructs node features on a directed acyclic service-invocation graph; MSE above 0.1 marks an anomalous request. For each candidate service, a sampled latency from its historical distribution replaces the observed value; candidates whose replacement makes the request normal are retained and ranked by distributional deviation. A static graph plus periodic updates and neighborhood sampling is used for efficiency.",
+    "findings": "On FIRM preprocessed traces for social-network, hotel-reservation, media-service, and ticket-booking benchmarks, ACC is 87%, 95.4%, 86.4%, and 96%; Top-1 is 83%, 94.7%, 85%, and 94.3%; Top-3 is 86.2%, 95.4%, 86.4%, and 96%; Top-5 is 87%, 95.4%, 86.4%, and 96%, respectively. The paper reports roughly 3-8% accuracy improvement and training-time reduction to more than one-fifth of a comparable method; the critical-path version reduces test culprit-identification time from 1.5-13 s to 0.8-8.3 s, reported as a 58.33% average improvement.",
+    "limitations": "Static service graphs require updates; a computed critical path can overshadow the actual culprit in sparse systems or when the culprit has a narrow latency distribution. The evaluation uses aggregated, preprocessed FIRM data rather than arbitrary raw tracing backends, and the paper does not establish production transfer.",
+    "future_work": "Broaden experiments, improve detection, handle evolving dependencies, and test larger or more varied service graphs and deployment conditions."
   },
   "tags": [
-    "system-tracing",
     "microservices",
     "graph-neural-networks",
-    "root-cause-analysis"
+    "latency-analysis",
+    "root-cause-analysis",
+    "trace-analysis"
   ],
   "keywords": [
     "latency culprit ranking",
     "distributed traces",
+    "GraphSAGE",
     "graph neural networks",
-    "critical path"
+    "critical path",
+    "FIRM dataset",
+    "service invocation graph",
+    "unsupervised anomaly detection",
+    "Top-k ranking"
   ],
   "versions": [
     {
@@ -54,33 +60,46 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-acm-pdf",
+      "label": "Public ACM PDF",
+      "relation": "source-record",
+      "title": "Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3629527.3651841",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3629527.3651841",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target. The external source PDF is linked for readers; no PDF is redistributed in this repository.",
     "license": null
   },
   "resources": {
-    "code": null,
-    "data": null,
+    "code": "https://anonymous.4open.science/r/ICPE2024-4281/v2.py",
+    "data": "https://doi.org/10.13012/B2IDB-6738796_V1",
     "slides": null,
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares an unsupervised GraphSAGE encoder/decoder that detects request-level latency anomalies from service-span vectors.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "an unsupervised GraphSAGE encoder/decoder that detects request-level latency anomalies from service-span vectors.",
+      "critical-path clustering plus service latency distributions as a label-free culprit-ranking strategy.",
+      "the FIRM benchmark ACC/Top-k table or the v1/v2 timing comparison when evaluating efficient distributed-trace culprit localization.",
+      "with the static-graph and preprocessed-data caveat when discussing production generalization."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
-      "DBLP/DOI bibliographic record for 10.1145/3629527.3651841",
-      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Private full PDF read: pdf-evidence/notes/efficient-unsupervised-latency-culprit-ranking.md",
+      "Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split",
+      "Efficient culprit-ranking PDF pp. 4-5: benchmark accuracy, Top-k results, training/test speed comparison, limitations, and artifact link",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -91,6 +110,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

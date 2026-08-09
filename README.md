@@ -4,7 +4,7 @@ This repository is an agent-friendly, human-readable catalog of selected researc
 
 ## Scope of this release
 
-The catalog contains **40 records**. The ten newest additions have verified bibliographic metadata; records still awaiting full-text review explicitly mark that evidence boundary. The repository does not redistribute publisher PDFs; each record links to the DOI, arXiv, ACL Anthology, an openly licensed article page, or another authoritative source.
+The catalog contains **89 records**. Records still awaiting full-text review explicitly mark that evidence boundary. The repository does not redistribute publisher PDFs; each record links to the DOI, arXiv, ACL Anthology, an openly licensed article page, or another authoritative source.
 
 
 
@@ -35,4 +35,4 @@ Each record identifies when metadata was verified, what evidence was used, and w
 
 The repository validator enforces the JSON Schema, checks duplicate DOIs and source records, validates URL syntax, checks topic/keyword indexes, compares mirrored JSON records, and rejects mojibake or escaped HTML entities.
 
-Generated from the locally verified research catalog on 2026-08-03.
+Generated from the locally verified research catalog on 2026-08-07.

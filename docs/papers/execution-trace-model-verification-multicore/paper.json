@@ -22,26 +22,38 @@
     "doi": "10.1002/cpe.6974"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "Wiley publisher full text rendered in the signed-in ResearchGate viewer on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "summary": {
-    "core_contribution": "This work investigates Execution trace-based model verification to analyze multicore and real-time systems in the context of software performance and systems analysis.",
-    "problem": "Multicore and real-time behavior must be checked against models despite timing and scheduling complexity.",
-    "method": "The paper uses execution traces as evidence for model verification and analysis of multicore and real-time systems.",
-    "findings": "It connects runtime traces with model-based verification; verification procedure and results require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Extend to dynamic scheduling, larger systems, and continuous runtime verification."
+    "core_contribution": "The paper combines model-based quantitative constraints with user-space and kernel execution traces to automatically identify likely causes of real-time and multicore constraint violations.",
+    "problem": "Large execution traces can reveal timing and scheduling failures, but interpreting millions of events is slow and requires deep operating-system knowledge. Model checking can identify a violated specification without explaining whether preemption, blocking, a system call, scheduling, or application code caused it.",
+    "method": "A developer-specified state-machine model contains states, transitions, metric variables, and quantitative constraints. The method extracts model instances from user-space and kernel traces, labels constraint occurrences valid/invalid/uncertain, excludes uncertain cases, and compares sampled valid and invalid instances. It uses 95% confidence, a 5% margin of error, and reservoir sampling. Elements such as RUNNING, BLOCKED, PREEMPTED, and SYSCALL are converted into duration sets and merged into interval sets; directional edit-distance-like comparisons, occurrence/distance weights, differential interval sets, and responsibility scores identify the most likely causes. Follow-up analyses include process state, critical path, priority inheritance, state-machine state, CPU-top, and CPU-frequency analysis. LTTng/LTTng-UST is selected as the primary low-impact kernel/user-space tracing stack, with CTF events and a common clock; the cyclictest case uses LTTng snapshot mode.",
+    "findings": "Four case studies diagnose low-priority JACK2, in-kernel wake-lock priority inversion, bad user-space code, and a preempted cyclictest waker. JACK2 analysis attributes 96.65% of excess time to WAKING and 96.51% to process preemption, identifying the higher-priority cpuburn process. The wakelock analysis identifies abnormal blocking on open, priority inheritance, and preemption by highprio1. The user-space case locates the excess time in step3. The cyclictest case on an NVIDIA Jetson TK1 traces a 7-ms outlier through rt_sigtimedwait, preempted ktimersoftd/3, and the irq/154-hpd HDMI hot-plug handler. The four traces contain 321/419,164, 42/194,997, 29/89,840, and 41,677/208,489 UST/kernel events. On an Intel Core i7-4790 at 3.6 GHz with 32 GiB DDR3, sampling preserves the highest responsibility within 0.1% in 100-run comparisons while reducing process-state analysis from 23,925.75 to 15,311.02 ms for JACK2 and from 103,119.10 to 7,124.76 ms for cyclictest.",
+    "limitations": "The method depends on a developer-provided model and suitable tracepoints, and generated or selected valid baselines may not cover complex or changing behavior. Sampling is an approximation, missing snapshot data can cause instances to be dropped, and full analysis remains sensitive to the number of trace events, model instances, and variable changes. The evaluation uses four controlled/common real-time cases rather than a broad cross-platform workload study.",
+    "future_work": "The paper proposes automatically setting constraint values from traces. It does not establish online learning, modern OpenTelemetry support, or automatic model generation for this publication. Supporting data are available from the corresponding author upon reasonable request."
   },
   "tags": [
     "system-tracing",
+    "kernel-tracing",
     "multicore-systems",
-    "performance-analysis",
-    "trace-analysis"
+    "trace-analysis",
+    "root-cause-analysis",
+    "lttng"
   ],
   "keywords": [
-    "execution traces",
-    "model verification",
-    "multicore systems",
-    "real-time systems"
+    "model-based constraints",
+    "execution tracing",
+    "user-space traces",
+    "kernel traces",
+    "LTTng",
+    "LTTng-UST",
+    "Common Trace Format",
+    "Trace Compass",
+    "reservoir sampling",
+    "critical-path analysis",
+    "JACK2",
+    "cyclictest",
+    "priority inversion",
+    "CPUTop"
   ],
   "versions": [
     {
@@ -67,19 +79,25 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when using model-based quantitative constraints and user-space/kernel traces to diagnose real-time or multicore execution problems.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "LTTng/LTTng-UST and CTF-based correlation of kernel and user-space execution evidence.",
+      "Reservoir-sampled valid/invalid model instances, interval-set comparison, and responsibility scoring for likely causes.",
+      "JACK2, wake-lock priority inversion, bad user-space code, and cyclictest case studies with trace-size, runtime, and sampling results."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1002/cpe.6974",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Publisher full text viewer pp. 1-3: problem, LTTng/LTTng-UST selection, CTF/common-clock rationale, and related tracing/model-analysis tools",
+      "Publisher full text viewer pp. 4-13: state-machine model, constraint statuses, 95%/5% sampling, reservoir sampling, interval-set extraction, distance/weight/differential analysis, and responsibility scores",
+      "Publisher full text viewer pp. 13-20: JACK2, wakelock, userspace, and cyclictest case studies, including 96.65%/96.51% JACK2 attribution and the Jetson/HDMI cyclictest diagnosis",
+      "Publisher full text viewer pp. 20-24: i7-4790/32 GiB platform, trace sizes, 100-run sampling comparison, analysis timings, and scalability",
+      "Publisher full text viewer p. 25: conclusion, data-availability statement, and future direction",
+      "No local PDF hash is claimed: the Wiley PDF link redirected to an abstract/access page and the ResearchGate publisher viewer exposed the full 26-page text but did not provide a downloadable file in this run."
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +108,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

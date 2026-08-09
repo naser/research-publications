@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Growing model size increases computational and energy demands. Researchers and practitioners need clearer trade-offs among quantization, distillation, pruning, model size, and retained task performance.
+Transformer and LLM size increases raise computation, energy, and memory costs. The paper compares compression methods under a common objective so that energy savings and runtime reductions can be weighed against perplexity and task-performance loss.
 
 ### 2. Method and contribution
 
-The study examines quantization, knowledge distillation, and pruning, including hybrid approaches such as NVIDIA's Minitron strategy. It proposes an optimization equation for comparing resource and performance trade-offs.
+The study tests 8/4-bit quantization, knowledge distillation, attention-head pruning at 90% and 80% thresholds, SparseGPT-style magnitude/structured pruning, and hybrid models including MiniLLM, NVIDIA Minitron, and ShearedLlama. It introduces opt = P_c^1.5 (alpha T_c + beta E_c), with adjustable time and energy weights, and reports standalone and hybrid evaluations on GPT-2/OPT/LLaMA-family models.
 
 ### 3. Findings and evidence
 
-The reported analysis identifies 4-bit quantization as a strong standalone efficiency option with limited accuracy loss. Hybrid distillation and structured-pruning approaches also show promising size and accuracy trade-offs.
+On GPT-2 125M, 4-bit quantization increases perplexity 3.79%, runtime 4.86%, and reduces energy 50.21%; 8-bit reduces energy 56.28% but increases runtime 203.78%. On GPT-2 Large, 8-bit reduces energy 69.17% with a -0.04% perplexity change but increases runtime 83.59%. The paper reports that 4-bit quantization plus distillation and Minitron-style hybrids provide the most favorable energy/performance trade-offs, while attention-head pruning often loses too much perplexity.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The comparison is not a complete hardware- and workload-independent characterization of every compression method.
+**Limitations:** The study uses one local machine and does not report OS, kernel, CUDA, Python, library, or model-checkpoint versions. GPU-compatible and CPU-only methods use different hardware paths; pruning is repeated only five times versus 30 for other model/dataset pairs. The evaluation does not establish production-scale training cost or broad generalization beyond the listed models, datasets, and benchmarks.
 
-**Future work:** Future work should evaluate larger model families, realistic serving workloads, hardware effects, and standardized energy measurements.
+**Future work:** Refine the objective with training energy and more detailed cost terms; evaluate more architectures and benchmarks; investigate retraining to recover perplexity after compression; and improve quantization implementations whose runtime cost can dominate the energy benefit.
 
 ## Abstract
 
@@ -49,11 +49,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when comparing resource-efficiency methods for Transformer and LLM workloads.
+Cite this paper when your work uses or compares a concrete energy/runtime/perplexity comparison of 4-bit and 8-bit quantization on GPT-2 model sizes.
 
-- Quantization, knowledge distillation, and pruning as efficiency strategies.
-- Accuracy and resource-cost trade-offs for Transformer models.
-- Energy and deployment considerations for large-language-model workloads.
+- a concrete energy/runtime/perplexity comparison of 4-bit and 8-bit quantization on GPT-2 model sizes.
+- the adjustable objective that makes energy-versus-runtime priorities explicit rather than reporting a single compression score.
+- the empirical contrast between standalone compression, knowledge distillation, and Minitron-style pruning-plus-distillation hybrids.
 
 ## Citation
 
@@ -84,7 +84,7 @@ T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Optimization Strategies f
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2502.00046; local PDF hash verified in the working catalog; author-order discrepancy explicitly retained
 - Machine-readable record: [paper.json](./paper.json)

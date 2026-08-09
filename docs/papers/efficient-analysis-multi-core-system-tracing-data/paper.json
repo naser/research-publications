@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "efficient-analysis-multi-core-system-tracing-data",
+  "page_url": "https://naser.github.io/research-publications/papers/efficient-analysis-multi-core-system-tracing-data/",
+  "title": "An Efficient Analysis Approach for Multi-Core System Tracing Data",
+  "title_variants": [],
+  "authors": [
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2012,
+    "venue": "16th IASTED International Conference on Software Engineering and Applications (SEA 2012)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_with_public_abstract",
+  "canonical_source_url": "https://doi.org/10.2316/P.2012.790-053",
+  "source_record_id": "an-efficient-analysis-approach-for-multi-core-system-tracing-data-67abba75b9",
+  "identifiers": {
+    "doi": "10.2316/P.2012.790-053"
+  },
+  "abstract": "The publisher abstract describes a stateful trace-analysis and abstraction approach for parallel processes. It claims that sharing common information can reduce computation and storage compared with stateless approaches.",
+  "abstract_source": "ActaPress publisher abstract, paraphrased; full text not obtained.",
+  "summary": {
+    "core_contribution": "The publisher abstract presents stateful trace analysis and abstraction for parallel-process traces, with shared computation and storage for recurring information.",
+    "problem": "The abstract frames stateless analysis of multi-core traces as costly when repeated information is recomputed or stored independently.",
+    "method": "Only the abstract-level description is verified: stateful trace analysis, abstraction, pattern support, and sharing of common information. The tracer, event set, data structure, and evaluation setup remain unverified.",
+    "findings": "The abstract reports a qualitative computation- and storage-efficiency advantage over stateless approaches; no numeric result or workload was accessible.",
+    "limitations": "Pages, implementation details, datasets, workloads, and quantitative evaluation were not available in the captured sources.",
+    "future_work": "The paper's detailed limitations and future-work section remains unverified pending full-text access."
+  },
+  "tags": [
+    "kernel-tracing",
+    "trace-analysis",
+    "trace-abstraction",
+    "performance-analysis"
+  ],
+  "keywords": [
+    "multi-core tracing",
+    "stateful trace analysis",
+    "trace abstraction",
+    "pattern matching",
+    "kernel tracing",
+    "computation sharing",
+    "storage efficiency"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "An Efficient Analysis Approach for Multi-Core System Tracing Data",
+      "url": "https://doi.org/10.2316/P.2012.790-053",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "publisher-abstract",
+      "label": "Publisher abstract",
+      "relation": "source-record",
+      "title": "An Efficient Analysis Approach for Multi-Core System Tracing Data",
+      "url": "https://m.actapress.com/Abstract.aspx?paperId=454815",
+      "pdf_url": null,
+      "status": "public_abstract",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_abstract",
+    "note": "The publisher abstract and institutional record are available; the full text was not obtained, so detailed technical fields remain provisional.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "ActaPress publisher abstract: https://m.actapress.com/Abstract.aspx?paperId=454815",
+      "PolyPublie institutional record: https://publications.polymtl.ca/15433/",
+      "Private evidence note: pdf-evidence/notes/parallel-batch-04-an-efficient-analysis-approach-for-multi-core-system-tracing-data.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

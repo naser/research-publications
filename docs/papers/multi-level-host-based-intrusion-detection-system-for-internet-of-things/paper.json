@@ -1,0 +1,126 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "multi-level-host-based-intrusion-detection-system-for-internet-of-things",
+  "page_url": "https://naser.github.io/research-publications/papers/multi-level-host-based-intrusion-detection-system-for-internet-of-things/",
+  "title": "Multi-level Host-based Intrusion Detection System for Internet of Things",
+  "title_variants": [],
+  "authors": [
+    "Robin Gassais",
+    "Naser Ezzati-Jivan",
+    "Jose M. Fernandez",
+    "Daniel Aloise",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2020,
+    "venue": "Journal of Cloud Computing",
+    "type": "journal article"
+  },
+  "publication_type": "journal article",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1186/s13677-020-00206-6",
+  "source_record_id": "multi-level-host-based-intrusion-detection-system-for-internet-of-things-5d16975f5d",
+  "identifiers": {
+    "doi": "10.1186/s13677-020-00206-6"
+  },
+  "abstract": "The paper presents a host-based IoT intrusion-detection framework that combines user- and kernel-space traces with machine-learning classifiers.",
+  "abstract_source": "Official open-access article PDF reviewed; abstract paraphrased for this catalog.",
+  "summary": {
+    "core_contribution": "The paper combines host-level user/kernel tracing with machine learning to detect intrusion behavior on constrained IoT and home-automation systems.",
+    "problem": "IoT intrusion detection needs host-level context across user and kernel activity, but resource-constrained devices cannot perform all analysis locally and network-only signals miss useful execution behavior.",
+    "method": "A multi-level host IDS collects live/snapshot LTTng CTF data on an IoT device, optionally uses barectf, aggregates selected events remotely, creates synthetic syscall events and one-hot features, and evaluates supervised DT/RF/GBT/MLP/SVM plus One-Class SVM and LSTM models.",
+    "findings": "In the Home Assistant/Raspberry Pi experiment, DT/RF/GBT reported near-perfect classification on the stated split, while MLP and the printed SVM row were much less reliable. Snapshot tracing added roughly 0.25-1.52% average CPU overhead across 10 s-0.5 s intervals and roughly 1.8-2.7% memory overhead. A novel basic attack had millisecond-scale detection latencies, but it was not real malware.",
+    "limitations": "The attacks are simulated or mimicked; no real malware and no public corpus identifier were verified. TCP/IP-centric collection excludes several IoT protocols, including Z-Wave/Zigbee/Insteon data collection. Supervised models only cover learned attacks; cross-validation can be optimistic and the analysis engine may be a single point of failure.",
+    "future_work": "Combine misuse and anomaly detection, add an ARM honeypot, scale/optimize the analysis engine and learning process, build per-device or ensemble models, and support LTTng live mode plus additional IoT protocols."
+  },
+  "tags": [
+    "iot-security",
+    "kernel-tracing",
+    "machine-learning",
+    "anomaly-detection",
+    "lttng",
+    "observability"
+  ],
+  "keywords": [
+    "IoT intrusion detection",
+    "host-based IDS",
+    "LTTng",
+    "barectf",
+    "Common Trace Format",
+    "Babeltrace",
+    "Raspberry Pi 3",
+    "Home Assistant",
+    "Decision Tree",
+    "Random Forest",
+    "Gradient Boosted Trees",
+    "SVM",
+    "MLP",
+    "LSTM",
+    "Mirai",
+    "ransomware",
+    "CPU overhead",
+    "memory overhead"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Multi-level Host-based Intrusion Detection System for Internet of Things",
+      "url": "https://doi.org/10.1186/s13677-020-00206-6",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "institutional-full-text",
+      "label": "Institutional full text",
+      "relation": "source-record",
+      "title": "Multi-level Host-based Intrusion Detection System for Internet of Things",
+      "url": "https://link.springer.com/content/pdf/10.1186/s13677-020-00206-6.pdf",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1186/s13677-020-00206-6.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the institutional source link is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares a multi-level IoT host IDS that exports trace-derived features to a remote analysis engine.",
+    "points": [
+      "For a multi-level IoT host IDS that exports trace-derived features to a remote analysis engine.",
+      "For the trace-to-FSM-synthetic-event-to-one-hot-feature pipeline over LTTng/barectf/Babeltrace data.",
+      "For the Home Assistant/Raspberry Pi 3 benign-plus-threat evaluation and its snapshot CPU/memory overhead measurements.",
+      "For the explicit boundary that near-perfect supervised results came from simulated/mimicked attacks rather than real malware."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Official Journal of Cloud Computing PDF: LTTng/barectf/CTF/Babeltrace pipeline, Raspberry Pi/Home Assistant testbed, features, models, and attack simulations",
+      "Official PDF: 58/42 benign-intrusion split, 66/34 train/test split, classifier metrics, latency, CPU, memory, and training-cost results",
+      "Official PDF: protocol, real-malware, validation-bias, single-point, and scaling limitations plus future work",
+      "Official open-access PDF was read; no copy is included in github-repo"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

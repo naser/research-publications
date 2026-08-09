@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Slow web requests can look similar at the application boundary while having different low-level causes. Developers need fine-grained evidence across user space and kernel space to distinguish those causes.
+Aggregate response time and conventional profilers do not distinguish the different internal causes of anomalous web requests.
 
 ### 2. Method and contribution
 
-The pipeline traces each request, extracts behavioral features, detects outliers, clusters requests by execution behavior, and analyzes each cluster for causal explanations.
+Follow interacting request threads with PHP and kernel LTTng traces, derive sequence/count/duration state features, detect outliers with DBSCAN or Isolation Forest, cluster outliers with K-means, and inspect clusters with Isomap and n-grams.
 
 ### 3. Findings and evidence
 
-The experiments detected slow requests and provided additional root-cause insight. One concrete result was the identification of PHP cache contention in a real web-application scenario.
+Duration-oriented features expose materially slower request groups; cluster analysis links groups to repeated connect behavior and OPcache shared-memory cache contention. Minimal tracing reduces overhead substantially relative to full user/kernel tracing.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The evaluation emphasizes web-request behavior and a limited set of application conditions.
+**Limitations:** DBSCAN parameters are manually selected; non-outliers are treated as normal even though they may contain anomalies; evaluation is one WordPress/PHP setup; full tracing is costly; the analysis pipeline is not fully parallelized except where the cited sklearn implementations support it.
 
-**Future work:** Future work should assess more frameworks, workloads, deployment environments, and automated explanations that remain stable under changing application versions.
+**Future work:** Compare sequence-specific methods such as HMM and SEQDBSCAN, and extend cluster analysis to CCT/ECCT representations.
 
 ## Abstract
 
@@ -49,11 +49,12 @@ The execution of similar units can be compared by their internal behaviors to de
 
 ## When to cite this paper
 
-Cite this paper when diagnosing slow web requests with cross-layer tracing.
+Cite this paper when your work uses or compares request-level causal anomaly detection using LTTng state/sequence/duration features rather than response time alone.
 
-- Cross-layer user-space and kernel-space tracing of web requests.
-- Clustering and comparison of normal versus slow request behavior.
-- Root-cause analysis of application and system interactions.
+- For request-level causal anomaly detection using LTTng state/sequence/duration features rather than response time alone.
+- For the DBSCAN-to-K-means analysis that separates anomalous WordPress/PHP request groups and connects them to concrete syscall/OPcache behavior.
+- For the reported 29.6% full-tracing versus 5.1% minimal-tracing slowdown tradeoff.
+- For an ApacheBench/WordPress workload with approximately 50,000 requests and 1-1,000 clients used to validate trace-derived web-performance diagnosis.
 
 ## Citation
 
@@ -80,7 +81,7 @@ Q. Fournier, N. Ezzati-Jivan, D. Aloise, and M. R. Dagenais, "Automatic Cause De
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2103.04954; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

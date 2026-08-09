@@ -1,0 +1,108 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "iot-anomaly-classification-cnn-bilstm-two-tiered",
+  "page_url": "https://naser.github.io/research-publications/papers/iot-anomaly-classification-cnn-bilstm-two-tiered/",
+  "title": "A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model",
+  "title_variants": [],
+  "authors": [
+    "Yue Guan",
+    "Morteza Noferesti",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2024,
+    "venue": "Software Impacts",
+    "type": "journal article"
+  },
+  "publication_type": "journal article",
+  "status": "published_with_public_abstract",
+  "canonical_source_url": "https://doi.org/10.1016/j.simpa.2024.100646",
+  "source_record_id": "a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc",
+  "identifiers": {
+    "doi": "10.1016/j.simpa.2024.100646"
+  },
+  "abstract": "The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.",
+  "abstract_source": "ScienceDirect publisher abstract, paraphrased; full text not obtained.",
+  "summary": {
+    "core_contribution": "The abstract presents a two-tier anomaly-classification framework for IoT networks that combines a decision-tree detector with a CNN-BiLSTM classifier.",
+    "problem": "IoT anomaly data can be imbalanced and heterogeneous, making both anomaly detection and attack-type classification difficult.",
+    "method": "The abstract identifies a decision-tree first tier, CNN-BiLSTM second tier, SMOTE class balancing, and PSO feature selection. Dataset identity, preprocessing, hyperparameters, and baselines remain unverified.",
+    "findings": "The abstract reports 88% accuracy, 89% precision, 88% recall, and 88% F1, with at least a 6% improvement over compared machine-learning methods. These values are abstract-level claims.",
+    "limitations": "The blocked full text leaves the dataset, split protocol, model configuration, baseline definitions, statistical treatment, and paper-specific limitations unverified.",
+    "future_work": "The article's future-work section remains unverified pending full-text retrieval."
+  },
+  "tags": [
+    "iot-security",
+    "anomaly-detection",
+    "machine-learning",
+    "deep-learning-systems"
+  ],
+  "keywords": [
+    "IoT anomaly detection",
+    "CNN-BiLSTM",
+    "SMOTE",
+    "particle swarm optimization",
+    "PSO",
+    "Software Impacts",
+    "classification"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model",
+      "url": "https://doi.org/10.1016/j.simpa.2024.100646",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "publisher-abstract-page",
+      "label": "Publisher abstract page",
+      "relation": "source-record",
+      "title": "A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2665963824000344",
+      "pdf_url": null,
+      "status": "public_abstract",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_abstract",
+    "note": "The publisher page and abstract are available, but normal PDF retrieval was blocked. The summary is restricted to abstract-level claims until the article is read in full.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344",
+      "DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646",
+      "Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

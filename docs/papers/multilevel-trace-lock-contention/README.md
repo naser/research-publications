@@ -4,27 +4,27 @@
 
 **Authors:** Majid Rezazadeh, Naser Ezzati-Jivan, Evan Galea, Michel R. Dagenais
 
-**Core contribution:** The work uses multi-level execution traces to analyze lock contention in concurrent applications.
+**Core contribution:** The paper extends critical-path analysis across kernel and user-space lock events so contention from futexes, spinlocks, semaphores, and other synchronization mechanisms can be diagnosed without recompiling the application.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Lock contention can arise from interactions between application synchronization and lower-level scheduling or resource behavior.
+Kernel-only analysis misses locks implemented in user space, while source-dependent tools are difficult to apply to large multi-threaded applications and cannot provide a unified view of cross-level dependencies.
 
 ### 2. Method and contribution
 
-The study combines trace evidence from multiple system levels to identify and analyze lock-contention behavior.
+LTTng 2.10 and Trace Compass 4 collect kernel futex events and user-space Pthreads wrapper events injected with LD_PRELOAD. The method maps events to state intervals in a tree-based state system, constructs a sparse execution graph with horizontal running edges and vertical blocking edges, and recursively replaces waiting edges with waking-thread edges to extract a multi-level active path. Wait-block, flame-graph, critical-flow, and state views expose the result.
 
 ### 3. Findings and evidence
 
-It provides a multi-level contention-analysis approach; tracepoints, workloads, and quantitative outcomes require full-text review.
+A C++ Pthreads evaluation covers spinlock and semaphore contention. User-space lock-event tracing adds less than 0.7% execution-time overhead; enabling all kernel events can impose up to 25%, while the minimal event set for lock analysis is reported at about 7%. In Apache, the method isolates user-space file-lock waits and connects anomalous latency to OPcache shared-cache contention during concurrent script compilation.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.
+**Limitations:** The evidence covers C++ and Apache/PHP cases and shows that kernel overhead is highly event-set dependent; it does not establish broad language, workload, or distributed-deployment generalization. The reviewed conclusion does not specify a concrete author-stated future-work agenda.
 
-**Future work:** Automate contention attribution, evaluate modern runtimes, and measure production tracing overhead.
+**Future work:** No detailed future-work direction is stated in the reviewed conclusion; further extensions should be treated as proposed follow-up rather than as author claims.
 
 ## Abstract
 
@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
 
-**Keywords:** [lock contention](../../keywords/lock-contention.md) | [multi-level execution traces](../../keywords/multi-level-execution-traces.md) | [thread synchronization](../../keywords/thread-synchronization.md) | [contention diagnosis](../../keywords/contention-diagnosis.md)
+**Keywords:** [lock contention](../../keywords/lock-contention.md) | [multi-level execution traces](../../keywords/multi-level-execution-traces.md) | [LTTng 2.10](../../keywords/lttng-2-10.md) | [Trace Compass 4](../../keywords/trace-compass-4.md) | [LD_PRELOAD](../../keywords/ld-preload.md) | [Pthreads](../../keywords/pthreads.md) | [futex](../../keywords/futex.md) | [spinlock](../../keywords/spinlock.md) | [semaphore](../../keywords/semaphore.md) | [critical path](../../keywords/critical-path.md) | [state system](../../keywords/state-system.md) | [Apache](../../keywords/apache.md) | [OPcache](../../keywords/opcache.md)
 
 ## Versions and source links
 
@@ -48,10 +48,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when diagnosing lock contention across kernel and user-space synchronization mechanisms without recompiling the application.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- LTTng 2.10, Trace Compass 4, futex events, and LD_PRELOAD Pthreads wrappers.
+- Multi-level execution graphs and active paths for mutex, spinlock, and semaphore dependencies.
+- C++ and Apache/OPcache cases with minimal-tracing overhead and full-kernel-event overhead bounds.
 
 ## Citation
 
@@ -78,7 +79,7 @@ M. Rezazadeh, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Multi-Level Execut
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068; author identity matched to Naser Ezzati-Jivan in the local research catalog; Lock-contention PDF pp. 1-4: LTTng 2.10, Trace Compass 4, LD_PRELOAD Pthreads wrappers, event sets, state system, graph, and active-path algorithm; Lock-contention PDF pp. 4-6: visualization views, C++/Pthreads overhead, Apache/OPcache case, and analysis boundary; local lock-contention PDF hash verified in pdf-evidence/notes/multilevel-trace-lock-contention.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

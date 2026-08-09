@@ -1,1 +1,1 @@
-Janecek, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2022). Performance anomaly detection through sequence alignment of system-level traces. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3524610.3527898
+Janecek, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2022). Performance Anomaly Detection through Sequence Alignment of System-Level Traces. 30th International Conference on Program Comprehension (ICPC). https://doi.org/10.1145/3524610.3527898

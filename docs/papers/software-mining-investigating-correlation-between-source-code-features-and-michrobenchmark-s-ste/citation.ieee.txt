@@ -1,0 +1,1 @@
+A. K. Tabrizi and N. Ezzati-Jivan, "Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State," in Companion of the 2023 ACM/SPEC International Conference on Performance Engineering (ICPE '23 Companion), 2023, doi: 10.1145/3578245.3584695

@@ -111,7 +111,6 @@ async function walk(dir, relative = "") {
 
 const requiredRoot = [
   "README.md",
-  "outline.md",
   "catalog.json",
   "CITATION.cff",
   "schemas/paper.schema.json",
@@ -119,7 +118,6 @@ const requiredRoot = [
   "scripts/validate-github-repo.mjs",
   "docs/index.html",
   "docs/catalog.json",
-  "docs/outline.md",
   "docs/robots.txt",
   "docs/sitemap.xml",
   "docs/.nojekyll",
@@ -169,7 +167,17 @@ for (const relative of ["schemas/paper.schema.json", "schemas/vocabularies.json"
 const topicIds = new Set(vocabulary?.topics?.map((topic) => topic.id) ?? []);
 const keywordAliases = vocabulary?.keyword_policy?.aliases ?? {};
 const paperEntries = (await readdir(path.join(repoRoot, "papers"), { withFileTypes: true }).catch(() => []));
-const paperIds = paperEntries.filter((entry) => entry.isDirectory()).map((entry) => entry.name).sort();
+const paperIds = [];
+for (const entry of paperEntries) {
+  if (!entry.isDirectory()) continue;
+  try {
+    await stat(path.join(repoRoot, "papers", entry.name, "paper.json"));
+    paperIds.push(entry.name);
+  } catch {
+    // Ignore empty stale directories left by local regeneration; Git does not track them.
+  }
+}
+paperIds.sort();
 const catalogById = new Map((catalog?.records ?? []).map((record) => [record.paper_id, record]));
 const seenDois = new Map();
 const seenSourceRecords = new Map();
