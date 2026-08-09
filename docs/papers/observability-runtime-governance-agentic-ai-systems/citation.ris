@@ -4,6 +4,7 @@ AU  - Ekhlasi, Maryam
 TI  - Observability and Runtime Governance for Agentic AI Systems
 PY  - 2026
 T2  - Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE)
+AB  - Agentic AI systems increasingly plan, call tools, coordinate with other agents, and act on external software services. Their failures are difficult to diagnose because control flow is generated at run-time, execution is stochastic, and incorrect behavior often appears as goal drift, unsafe tool use, or false success reports rather than as crashes. This tutorial presents a software engineering workflow for AgentOps that connects high-level intent, model-level decisions, tool calls, memory accesses, and low-level system effects. Participants will learn how to construct agent traces, correlate execution evidence, identify silent and drifting behavior, and apply runtime governance patterns such as policy checks, risk tracking, containment, and human escalation.
 SP  - 64
 EP  - 65
 PB  - ACM

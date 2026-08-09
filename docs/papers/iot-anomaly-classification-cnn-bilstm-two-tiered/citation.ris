@@ -5,7 +5,7 @@ AU  - Ezzati-Jivan, Naser
 TI  - A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model
 PY  - 2024
 T2  - Software Impacts
-AB  - The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.
+AB  - The paper introduces ACS-IoT, an Anomaly Classification System for IoT networks, structured as a two-tiered framework. In the first, it employs a decision tree classifier for anomaly detection. In the second, a CNN-BiLSTM model is utilized for more profound analysis and classification of anomaly types. To address data imbalance, SMOTE is used, and feature selection is enhanced with PSO. The approach showcases strong practical applicability in real-world industrial settings, achieving an accuracy of 88%, precision of 89%, recall of 88%, and F1-score of 88% for multi-class classification, surpassing other machine learning approaches by at least 6% in all metrics.
 VL  - 20
 SP  - 100646
 AN  - 100646

@@ -28,7 +28,7 @@ The abstract reports 88% accuracy, 89% precision, 88% recall, and 88% F1, with a
 
 ## Abstract
 
-The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.
+The paper introduces ACS-IoT, an Anomaly Classification System for IoT networks, structured as a two-tiered framework. In the first, it employs a decision tree classifier for anomaly detection. In the second, a CNN-BiLSTM model is utilized for more profound analysis and classification of anomaly types. To address data imbalance, SMOTE is used, and feature selection is enhanced with PSO. The approach showcases strong practical applicability in real-world industrial settings, achieving an accuracy of 88%, precision of 89%, recall of 88%, and F1-score of 88% for multi-class classification, surpassing other machine learning approaches by at least 6% in all metrics.
 
 ## Topics and keywords
 
@@ -39,7 +39,7 @@ The publisher abstract describes a two-tier IoT anomaly-classification framework
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1016/j.simpa.2024.100646) - published
-- [Publisher abstract page](https://www.sciencedirect.com/science/article/pii/S2665963824000344) - public_abstract
+- [Open-access publisher PDF](https://www.sciencedirect.com/science/article/pii/S2665963824000344/pdfft?isDTMRedir=true&download=true) | [PDF](https://www.sciencedirect.com/science/article/pii/S2665963824000344/pdfft?isDTMRedir=true&download=true) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1016/j.simpa.2024.100646](https://doi.org/10.1016/j.simpa.2024.100646)
 
@@ -49,10 +49,11 @@ The publisher abstract describes a two-tier IoT anomaly-classification framework
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when studying two-stage anomaly detection and attack-type classification for imbalanced IoT network data.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Decision-tree anomaly detection followed by CNN-BiLSTM multi-class attack classification.
+- SMOTE-based class balancing and particle-swarm-optimization feature selection for IoT intrusion data.
+- Reported 88% accuracy, 89% precision, 88% recall, and 88% F1 for multi-class classification.
 
 ## Citation
 
@@ -86,5 +87,5 @@ Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "A Two-Tiered Framework for Anomaly 
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344; DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646; Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md
+- Metadata sources: ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344; Crossref DOI record verified 2026-08-09: the version of record is licensed CC BY 4.0; Public publisher PDF: https://www.sciencedirect.com/science/article/pii/S2665963824000344/pdfft?isDTMRedir=true&download=true; DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646; Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md
 - Machine-readable record: [paper.json](./paper.json)

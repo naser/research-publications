@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [observability](../../topics/observability.md) | [trace-analysis](../../topics/trace-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [log parsing](../../keywords/log-parsing.md) | log event characteristics | LEC taxonomy | [LogHub](../../keywords/loghub.md) | [Drain](../../keywords/drain.md) | IPLoM | [AEL](../../keywords/ael.md) | [Spell](../../keywords/spell.md) | LenMa | LogMine | SHISO | [ULP](../../keywords/ulp.md) | open coding | regex | NER | chi-square | [parser errors](../../keywords/parser-errors.md) | token structure
+**Keywords:** [log parsing](../../keywords/log-parsing.md) | [log event characteristics](../../keywords/log-event-characteristics.md) | [LEC taxonomy](../../keywords/lec-taxonomy.md) | [LogHub](../../keywords/loghub.md) | [Drain](../../keywords/drain.md) | [IPLoM](../../keywords/iplom.md) | [AEL](../../keywords/ael.md) | [Spell](../../keywords/spell.md) | [LenMa](../../keywords/lenma.md) | [LogMine](../../keywords/logmine.md) | [SHISO](../../keywords/shiso.md) | [ULP](../../keywords/ulp.md) | [open coding](../../keywords/open-coding.md) | regex | NER | chi-square | [parser errors](../../keywords/parser-errors.md) | token structure
 
 ## Versions and source links
 

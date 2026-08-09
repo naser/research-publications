@@ -7,7 +7,7 @@ AU  - Shehab, Mohammed A.
 TI  - Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions
 PY  - 2024
 T2  - 2024 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE Companion)
-AB  - The official poster abstract reports a study of log-parsing challenges across 16 datasets and eight parsing tools; the detailed taxonomy and evaluation were not captured.
+AB  - Logging is a common practice in software engineering that is used by developers to understand the runtime aspects of a system. Log files, however, tend to vary in their structures, making it challenging to analyze their content. In this paper, we present a preliminary taxonomy of log event characteristics that commonly lead to log parsing errors. We achieve this through the analysis of 16 log datasets using eight different parsing tools. We believe that this taxonomy can be used to guide the design of better log parsing tools that can adapt to various log file structures. It can also pave the way to the development of logging guidelines and best practices.
 SP  - 392
 EP  - 393
 PB  - ACM
