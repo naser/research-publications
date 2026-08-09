@@ -424,6 +424,7 @@
             "type": "string",
             "enum": [
               "version-of-record",
+              "accepted-manuscript",
               "preprint",
               "source-record"
             ]
