@@ -4,11 +4,11 @@ Papers tagged **trace-analysis**.
 
 - [A declarative framework for stateful analysis of execution traces](../papers/declarative-framework-stateful-trace-analysis/README.md) - 2017
 - [A Flexible Data-Driven Approach for Execution Trace Filtering](../papers/a-flexible-data-driven-approach-for-execution-trace-filtering/README.md) - 2015
-- [A Framework to Compute Statistics of System Parameters from Very Large Trace Files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
+- [A framework to compute statistics of system parameters from very large trace files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
 - [A Stateful Approach to Generate Synthetic Events from Kernel Traces](../papers/a-stateful-approach-to-generate-synthetic-events-from-kernel-traces/README.md) - 2012
 - [An Efficient Analysis Approach for Multi-Core System Tracing Data](../papers/efficient-analysis-multi-core-system-tracing-data/README.md) - 2012
 - [Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing](../papers/model-based-constraints-execution-tracing/README.md) - 2021
-- [Cube Data Model for Multilevel Statistics Computation of Live Execution Traces](../papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/README.md) - 2015
+- [Cube data model for multilevel statistics computation of live execution traces](../papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/README.md) - 2015
 - [Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis](../papers/debugging-performance-degradation-distributed-requests/README.md) - 2021
 - [Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions](../papers/decoding-log-parsing-challenges-taxonomy/README.md) - 2024
 - [Developing a Taxonomy for Advanced Log Parsing Techniques](../papers/developing-a-taxonomy-for-advanced-log-parsing-techniques/README.md) - 2025
@@ -21,7 +21,7 @@ Papers tagged **trace-analysis**.
 - [Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces](../papers/enhanced-state-history-tree-esht-a-stateful-data-structure-for-analysis-of-highly-parallel-syste/README.md) - 2016
 - [Execution Trace Reconstruction Using Diffusion-Based Generative Models](../papers/execution-trace-reconstruction-using-diffusion-based-generative-models/README.md) - 2025
 - [Execution trace-based model verification to analyze multicore and real-time systems](../papers/execution-trace-model-verification-multicore/README.md) - 2022
-- [Hardware-Assisted Software Event Tracing](../papers/hardware-assisted-software-event-tracing/README.md) - 2017
+- [Hardware-assisted software event tracing](../papers/hardware-assisted-software-event-tracing/README.md) - 2017
 - [Integrated Modeling Tool for Indexing and Analyzing State Machine Trace](../papers/integrated-modeling-tool-state-machine-trace/README.md) - 2021
 - [Multilevel Label Placement for Execution Trace Events](../papers/multilevel-label-placement-execution-trace-events/README.md) - 2013
 - [Multiscale Navigation in Large Trace Data](../papers/multiscale-navigation-large-trace-data/README.md) - 2014

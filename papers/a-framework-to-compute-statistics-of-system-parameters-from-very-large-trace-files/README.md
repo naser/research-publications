@@ -1,4 +1,4 @@
-# A Framework to Compute Statistics of System Parameters from Very Large Trace Files
+# A framework to compute statistics of system parameters from very large trace files
 
 **2013 | ACM SIGOPS Operating Systems Review | journal article**
 
@@ -39,7 +39,7 @@ Abstract not available in the captured sources.
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1145/2433140.2433151) - published
-- [Institutional full text](https://publications.polymtl.ca/2954/1/2013_Ezzati-Jivan_Framework_compute_statistics_system_parameters.pdf) | [PDF](https://publications.polymtl.ca/2954/1/2013_Ezzati-Jivan_Framework_compute_statistics_system_parameters.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/2954/) | [PDF](https://publications.polymtl.ca/2954/1/2013_Ezzati-Jivan_Framework_compute_statistics_system_parameters.pdf) - public_author_version
 
 **Canonical source:** [https://doi.org/10.1145/2433140.2433151](https://doi.org/10.1145/2433140.2433151)
 
@@ -60,16 +60,16 @@ Cite this paper when your work uses or compares granularity-degree-controlled, d
 
 ### APA 7
 
-Ezzati-Jivan, N., & Dagenais, M. R. (2013). A Framework to Compute Statistics of System Parameters from Very Large Trace Files. ACM SIGOPS Operating Systems Review, 47(1), 43-54. https://doi.org/10.1145/2433140.2433151
+Ezzati-Jivan, N., & Dagenais, M. R. (2013). A framework to compute statistics of system parameters from very large trace files. ACM SIGOPS Operating Systems Review, 47(1), 43-54. https://doi.org/10.1145/2433140.2433151
 
 ### IEEE
 
-N. Ezzati-Jivan and M. R. Dagenais, "A Framework to Compute Statistics of System Parameters from Very Large Trace Files," ACM SIGOPS Operating Systems Review, vol. 47, no. 1, pp. 43-54, 2013, doi: 10.1145/2433140.2433151
+N. Ezzati-Jivan and M. R. Dagenais, "A framework to compute statistics of system parameters from very large trace files," ACM SIGOPS Operating Systems Review, vol. 47, no. 1, pp. 43-54, 2013, doi: 10.1145/2433140.2433151
 
 ```bibtex
 @article{ezzatiJivan2013aframework,
   author = {Naser Ezzati-Jivan and Michel R. Dagenais},
-  title = {A Framework to Compute Statistics of System Parameters from Very Large Trace Files},
+  title = {A framework to compute statistics of system parameters from very large trace files},
   year = {2013},
   journal = {ACM SIGOPS Operating Systems Review},
   volume = {47},
@@ -88,5 +88,5 @@ N. Ezzati-Jivan and M. R. Dagenais, "A Framework to Compute Statistics of System
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Statistics framework PDF: LTTng/Linux 2.6.38.6, Java history/resource trees, granularity degree, interpolation, and query bounds; Statistics framework PDF: 1-40 GB traces, GD 1/100/500/1000, 20-run/100-interval query experiment, disk-size comparison, and hierarchy analysis; Statistics framework PDF: interpolation/precision, storage, online-construction limitations, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the author's ACM version and preserves the ACM non-redistribution notice.
 - Machine-readable record: [paper.json](./paper.json)

@@ -3,7 +3,7 @@
 Papers tagged **performance-analysis**.
 
 - [A declarative framework for stateful analysis of execution traces](../papers/declarative-framework-stateful-trace-analysis/README.md) - 2017
-- [A Framework to Compute Statistics of System Parameters from Very Large Trace Files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
+- [A framework to compute statistics of system parameters from very large trace files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
 - [A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network](../papers/a-reliable-and-efficient-time-synchronization-protocol-for-heterogeneous-wireless-sensor-network/README.md) - 2010
 - [A Stateful Approach to Generate Synthetic Events from Kernel Traces](../papers/a-stateful-approach-to-generate-synthetic-events-from-kernel-traces/README.md) - 2012
 - [An Efficient Analysis Approach for Multi-Core System Tracing Data](../papers/efficient-analysis-multi-core-system-tracing-data/README.md) - 2012
@@ -14,12 +14,12 @@ Papers tagged **performance-analysis**.
 - [Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications](../papers/combining-distributed-kernel-tracing-cloud/README.md) - 2021
 - [Container Workload Characterization Through Host System Tracing](../papers/container-workload-characterization-host-tracing/README.md) - 2021
 - [Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper)](../papers/context-aware-root-cause-localization-in-distributed-traces-using-social-network-analysis-work-i/README.md) - 2024
-- [Cube Data Model for Multilevel Statistics Computation of Live Execution Traces](../papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/README.md) - 2015
+- [Cube data model for multilevel statistics computation of live execution traces](../papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/README.md) - 2015
 - [Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis](../papers/debugging-performance-degradation-distributed-requests/README.md) - 2021
 - [DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing](../papers/depgraph/README.md) - 2020
 - [Developing a Taxonomy for Advanced Log Parsing Techniques](../papers/developing-a-taxonomy-for-advanced-log-parsing-techniques/README.md) - 2025
 - [Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications](../papers/dynamic-trace-sampling-memory-usage/README.md) - 2017
-- [Efficient Cloud Tracing: From Very High Level to Very Low Level](../papers/efficient-cloud-tracing-levels/README.md) - 2018
+- [Efficient cloud tracing: From very high level to very low level](../papers/efficient-cloud-tracing-levels/README.md) - 2018
 - [Efficient Detection of Communication-related Performance Anti-patterns in Microservices](../papers/efficient-communication-performance-antipattern-detection-microservices/README.md) - 2025
 - [Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis](../papers/efficient-heap-monitoring-memory-leak-root-cause/README.md) - 2021
 - [Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing](../papers/heterogeneous-debugging-dynamic-tracing/README.md) - 2019
@@ -34,7 +34,7 @@ Papers tagged **performance-analysis**.
 - [MemAdapt: Adaptive Monitoring of Memory Usage Through Irregularly Sampled Data](../papers/memadapt-adaptive-monitoring-memory-usage/README.md) - 2024
 - [Multi-level Adaptive Execution Tracing for Efficient Performance Analysis](../papers/multi-level-adaptive-execution-tracing-performance-analysis/README.md) - 2023
 - [Multi-Level Execution Trace Based Lock Contention Analysis](../papers/multilevel-trace-lock-contention/README.md) - 2020
-- [Multi-scale Navigation of Large Trace Data: A Survey](../papers/multi-scale-navigation-of-large-trace-data-a-survey/README.md) - 2017
+- [Multi-scale navigation of large trace data: A survey](../papers/multi-scale-navigation-of-large-trace-data-a-survey/README.md) - 2017
 - [Multilayer Virtualized Systems Analysis with Kernel Tracing](../papers/multilayer-virtualized-systems-kernel-tracing/README.md) - 2016
 - [Multilevel Label Placement for Execution Trace Events](../papers/multilevel-label-placement-execution-trace-events/README.md) - 2013
 - [Multiscale Navigation in Large Trace Data](../papers/multiscale-navigation-large-trace-data/README.md) - 2014

@@ -1,4 +1,4 @@
-# Cube Data Model for Multilevel Statistics Computation of Live Execution Traces
+# Cube data model for multilevel statistics computation of live execution traces
 
 **2015 | Concurrency and Computation: Practice and Experience | journal article**
 
@@ -39,7 +39,7 @@ Abstract not available in the captured sources.
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1002/cpe.3272) - published
-- [Institutional full text](https://publications.polymtl.ca/2984/1/2015_Ezzati-Jivan_Cube_data_model_multilevel_statistics.pdf) | [PDF](https://publications.polymtl.ca/2984/1/2015_Ezzati-Jivan_Cube_data_model_multilevel_statistics.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/2984/) | [PDF](https://publications.polymtl.ca/2984/1/2015_Ezzati-Jivan_Cube_data_model_multilevel_statistics.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1002/cpe.3272](https://doi.org/10.1002/cpe.3272)
 
@@ -60,16 +60,16 @@ Cite this paper when your work uses or compares tilted-time-frame stream cubes t
 
 ### APA 7
 
-Ezzati-Jivan, N., & Dagenais, M. R. (2015). Cube Data Model for Multilevel Statistics Computation of Live Execution Traces. Concurrency and Computation: Practice and Experience, 27(5), 1069-1091. https://doi.org/10.1002/cpe.3272
+Ezzati-Jivan, N., & Dagenais, M. R. (2015). Cube data model for multilevel statistics computation of live execution traces. Concurrency and Computation: Practice and Experience, 27(5), 1069-1091. https://doi.org/10.1002/cpe.3272
 
 ### IEEE
 
-N. Ezzati-Jivan and M. R. Dagenais, "Cube Data Model for Multilevel Statistics Computation of Live Execution Traces," Concurrency and Computation: Practice and Experience, vol. 27, no. 5, pp. 1069-1091, 2015, doi: 10.1002/cpe.3272
+N. Ezzati-Jivan and M. R. Dagenais, "Cube data model for multilevel statistics computation of live execution traces," Concurrency and Computation: Practice and Experience, vol. 27, no. 5, pp. 1069-1091, 2015, doi: 10.1002/cpe.3272
 
 ```bibtex
 @article{ezzatiJivan2015cubedata,
   author = {Naser Ezzati-Jivan and Michel R. Dagenais},
-  title = {Cube Data Model for Multilevel Statistics Computation of Live Execution Traces},
+  title = {Cube data model for multilevel statistics computation of live execution traces},
   year = {2015},
   journal = {Concurrency and Computation: Practice and Experience},
   volume = {27},
@@ -88,5 +88,5 @@ N. Ezzati-Jivan and M. R. Dagenais, "Cube Data Model for Multilevel Statistics C
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Cube data model PDF: interval-form measures, dimension tree, history store, circular buffers, tilted time frame, cuboid choices, and query types; Cube data model PDF: LTTng/Linux 2.6.38.6, Java/Eclipse/Core i7/6 GB environment, workloads, 1,000 measures, three time levels, and 35 MB memory result; Cube data model PDF: materialization trade-off, range-query behavior, limitations, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms.
 - Machine-readable record: [paper.json](./paper.json)

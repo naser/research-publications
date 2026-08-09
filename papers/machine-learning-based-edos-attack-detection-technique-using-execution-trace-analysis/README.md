@@ -39,7 +39,7 @@ Economic Denial of Sustainability (EDoS) attacks can cause cloud customers to pa
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1007/s41635-018-0061-2) - published
-- [Public accepted manuscript record](https://publications.polymtl.ca/4211/) - public_source_record
+- [Public institutional full text](https://publications.polymtl.ca/4211/) | [PDF](https://publications.polymtl.ca/4211/1/2019_Abbasi_Machine_learning-based_EDoS_attack_detection.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1007/s41635-018-0061-2](https://doi.org/10.1007/s41635-018-0061-2)
 
@@ -88,5 +88,5 @@ H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "Machine
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Private accepted-manuscript PDF: EDoS threat types, VM resource-allocation framework, and 18-feature machine-learning pipeline; Private PDF: QEMU/KVM, Apache/MySQL, LTTng and monitoring tools, classifier split, accuracy, runtime, and Snort comparison; Private PDF: small-prototype, mixed-attack, and generalization limitations; Public PolyPublie accepted-manuscript record: https://publications.polymtl.ca/4211/; Local PDF hash and extracted text are recorded in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the post-peer-review, pre-copyedit Springer version.
 - Machine-readable record: [paper.json](./paper.json)

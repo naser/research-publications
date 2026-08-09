@@ -38,10 +38,10 @@ Abstract not available in the captured sources.
 
 ## Versions and source links
 
-- [Published version](https://doi.org/10.1109/syscon.2018.8369613) - published
-- [Public full text](https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf) | [PDF](https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf) - public_full_text
+- [Published version](https://doi.org/10.1109/SYSCON.2018.8369613) - published
+- [Public institutional full text](https://publications.polymtl.ca/4203/) | [PDF](https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf) - public_accepted_manuscript
 
-**Canonical source:** [https://doi.org/10.1109/syscon.2018.8369613](https://doi.org/10.1109/syscon.2018.8369613)
+**Canonical source:** [https://doi.org/10.1109/SYSCON.2018.8369613](https://doi.org/10.1109/SYSCON.2018.8369613)
 
 ## Identifiers
 
@@ -74,7 +74,7 @@ N. Ezzati-Jivan, G. Bastien, and M. R. Dagenais, "High latency cause detection u
   pages = {1-8},
   publisher = {IEEE},
   doi = {10.1109/syscon.2018.8369613},
-  url = {https://doi.org/10.1109/syscon.2018.8369613}
+  url = {https://doi.org/10.1109/SYSCON.2018.8369613}
 }
 ```
 
@@ -84,5 +84,5 @@ N. Ezzati-Jivan, G. Bastien, and M. R. Dagenais, "High latency cause detection u
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613; author identity matched to Naser Ezzati-Jivan in the local research catalog; High latency PDF pp. 1-5: problem, LTTng/LTTng-UST instrumentation, state model, and environment; High latency PDF pp. 5, 8-9: PHP/Drupal use cases, OPcache contention, throughput, and tracing overhead; High latency PDF p. 9: validity threats and conclusion/future-work boundary; local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the IEEE accepted version.
 - Machine-readable record: [paper.json](./paper.json)
