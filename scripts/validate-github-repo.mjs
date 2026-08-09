@@ -360,8 +360,15 @@ const sitemap = await readText(path.join(repoRoot, "docs", "sitemap.xml")).catch
 if (sitemap && !sitemap.includes(siteBase + "/")) failures.push("sitemap does not contain the site root");
 if (sitemap.includes(["naser", "publications"].join("-"))) failures.push("sitemap contains the old repository name");
 const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/gu)].map((match) => match[1]);
-const expectedSitemapUrls = new Set([siteBase + "/", ...paperIds.map((paperId) => siteBase + "/papers/" + paperId + "/")]);
-if (sitemapUrls.length !== expectedSitemapUrls.size) failures.push("sitemap URL count is not exactly the catalog root plus all paper pages");
+const expectedSitemapUrls = new Set([
+  siteBase + "/",
+  siteBase + "/topics/index.html",
+  siteBase + "/keywords/index.html",
+  ...[...topicIds].map((topic) => siteBase + "/topics/" + topic + ".html"),
+  ...[...keywordFrequency.entries()].filter(([, count]) => count >= 2).map(([keyword]) => siteBase + "/keywords/" + keyword + ".html"),
+  ...paperIds.map((paperId) => siteBase + "/papers/" + paperId + "/")
+]);
+if (sitemapUrls.length !== expectedSitemapUrls.size) failures.push("sitemap URL count does not match the catalog, topic, and keyword pages");
 for (const url of sitemapUrls) if (!expectedSitemapUrls.has(url)) failures.push("unexpected sitemap URL: " + url);
 for (const url of expectedSitemapUrls) if (!sitemapUrls.includes(url)) failures.push("missing sitemap URL: " + url);
 if ((sitemap.match(/<lastmod>/gu) ?? []).length !== sitemapUrls.length) failures.push("sitemap lastmod count does not match URL count");
