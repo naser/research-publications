@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Guan, Y., Noferesti, M., & Ezzati-Jivan, N. (2024). A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model. Software Impacts. https://doi.org/10.1016/j.simpa.2024.100646
+Guan, Y., Noferesti, M., & Ezzati-Jivan, N. (2024). A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model. Software Impacts, 20, 100646. https://doi.org/10.1016/j.simpa.2024.100646
 
 ### IEEE
 
-Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model," Software Impacts, 2024, doi: 10.1016/j.simpa.2024.100646
+Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model," Software Impacts, vol. 20, Art. no. 100646, 2024, doi: 10.1016/j.simpa.2024.100646
 
 ```bibtex
 @article{ezzatiJivan2024atwo,
@@ -70,6 +70,11 @@ Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "A Two-Tiered Framework for Anomaly 
   title = {A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model},
   year = {2024},
   journal = {Software Impacts},
+  volume = {20},
+  pages = {100646},
+  eid = {100646},
+  publisher = {Elsevier BV},
+  issn = {2665-9638},
   doi = {10.1016/j.simpa.2024.100646},
   url = {https://doi.org/10.1016/j.simpa.2024.100646}
 }
@@ -79,7 +84,7 @@ Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "A Two-Tiered Framework for Anomaly 
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344; DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646; Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md
 - Machine-readable record: [paper.json](./paper.json)

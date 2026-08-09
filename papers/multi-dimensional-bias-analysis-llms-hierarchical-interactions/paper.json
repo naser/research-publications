@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "multi-dimensional-bias-analysis-llms-hierarchical-interactions",
   "page_url": "https://naser.github.io/research-publications/papers/multi-dimensional-bias-analysis-llms-hierarchical-interactions/",
   "title": "Multi-Dimensional Bias Analysis in LLMs Using Hierarchical and Interaction Models",
@@ -11,10 +11,48 @@
     "Leila Tahmooresnejad",
     "Anteneh Ayanso"
   ],
+  "author_details": [
+    {
+      "name": "Basil Syed",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/416/4167.html"
+    },
+    {
+      "name": "Daniel Arana Charlebois",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/416/4603.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Leila Tahmooresnejad",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/156/2580.html"
+    },
+    {
+      "name": "Anteneh Ayanso",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/06/6552.html"
+    }
+  ],
   "publication": {
     "year": 2025,
     "venue": "AMCIS 2025, Data Science / SIG DSA (ERF)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2025",
+    "online_date": null,
+    "print_date": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null,
+    "publisher": null,
+    "issn": [],
+    "isbn": [],
+    "crossref_type": null
   },
   "publication_type": "conference paper",
   "status": "published_with_public_abstract",
@@ -26,8 +64,31 @@
   "abstract": "The official abstract describes a five-layer framework for analyzing interacting bias dimensions in large language models, with ChatGPT and Gemini used as illustrative systems and context-dependent ranking of bias dimensions.",
   "abstract_source": "AIS Electronic Library official abstract, paraphrased; full paper not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The official abstract describes a five-layer framework for analyzing interacting bias dimensions in large language models, with ChatGPT and Gemini used as illustrative systems and context-dependent ranking of bias dimensions.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Official AIS paper and abstract page: https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/"
+      },
+      {
+        "note": "DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25"
+      },
+      {
+        "note": "Private evidence note: papers/multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27/pdf-evidence/notes/parallel-batch-01-multi-dimensional-bias-llm.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The abstract proposes a multi-dimensional, hierarchical view of LLM bias that accounts for direct propagation, cascading effects, and feedback loops.",
     "problem": "Single-axis bias checks can miss interactions among data, algorithmic, surface-level, operational, and societal influences.",
@@ -38,8 +99,8 @@
   },
   "tags": [
     "machine-learning",
-    "multimodal-ai",
-    "benchmark-datasets"
+    "responsible-ai",
+    "llm-evaluation"
   ],
   "keywords": [
     "LLM bias",
@@ -94,7 +155,7 @@
     "canonical_version_id": "institutional-publication-record"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Official AIS paper and abstract page: https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/",
       "DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25",
@@ -109,6 +170,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

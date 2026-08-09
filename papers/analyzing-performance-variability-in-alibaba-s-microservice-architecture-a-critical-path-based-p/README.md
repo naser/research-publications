@@ -65,11 +65,11 @@ Cite this paper when your work uses or compares critical-path extraction and exa
 
 ### APA 7
 
-Ezaz, A., Khodabandeh, G., & Ezzati-Jivan, N. (2024). Analyzing Performance Variability in Alibaba's Microservice Architecture: A Critical-Path-Based Perspective. ACM/SPEC ICPE Companion. https://doi.org/10.1145/3629527.3651845
+Ezaz, A., Khodabandeh, G., & Ezzati-Jivan, N. (2024). Analyzing Performance Variability in Alibaba's Microservice Architecture: A Critical-Path-Based Perspective. In ACM/SPEC ICPE Companion (pp. 82-86). https://doi.org/10.1145/3629527.3651845
 
 ### IEEE
 
-A. Ezaz, G. Khodabandeh, and N. Ezzati-Jivan, "Analyzing Performance Variability in Alibaba's Microservice Architecture: A Critical-Path-Based Perspective," in ACM/SPEC ICPE Companion, 2024, doi: 10.1145/3629527.3651845
+A. Ezaz, G. Khodabandeh, and N. Ezzati-Jivan, "Analyzing Performance Variability in Alibaba's Microservice Architecture: A Critical-Path-Based Perspective," in ACM/SPEC ICPE Companion, pp. 82-86, 2024, doi: 10.1145/3629527.3651845
 
 ```bibtex
 @inproceedings{ezzatiJivan2024analyzingperformance,
@@ -77,6 +77,8 @@ A. Ezaz, G. Khodabandeh, and N. Ezzati-Jivan, "Analyzing Performance Variability
   title = {Analyzing Performance Variability in Alibaba's Microservice Architecture: A Critical-Path-Based Perspective},
   year = {2024},
   booktitle = {ACM/SPEC ICPE Companion},
+  pages = {82-86},
+  publisher = {ACM},
   doi = {10.1145/3629527.3651845},
   url = {https://doi.org/10.1145/3629527.3651845}
 }
@@ -86,7 +88,7 @@ A. Ezaz, G. Khodabandeh, and N. Ezzati-Jivan, "Analyzing Performance Variability
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE Companion PDF: Alibaba cluster-trace-microservices-v2022 preprocessing, critical-path extraction, 20 intervals, and 10-times-mean variability rule; ICPE Companion PDF: nearly 20,000 services, 40,062,862 trace IDs, 91,704 critical paths, 1,891 high-variance interactions, and four patterns; Author-linked analysis repository and Alibaba dataset URL recorded as reproducibility resources; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -1,6 +1,6 @@
 # Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing
 
-**2019 | Journal of Systems Architecture | research paper**
+**2019 | Journal of Systems Architecture | journal article**
 
 **Authors:** Didier Nadeau, Naser Ezzati-Jivan, Michel R. Dagenais
 
@@ -60,18 +60,22 @@ Cite this paper when your work uses or compares combining dynamic GDB jump-pad i
 
 ### APA 7
 
-Nadeau, D., Ezzati-Jivan, N., & Dagenais, M. R. (2019). Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing. Journal of Systems Architecture. https://doi.org/10.1016/j.sysarc.2019.02.016
+Nadeau, D., Ezzati-Jivan, N., & Dagenais, M. R. (2019). Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing. Journal of Systems Architecture, 98, 346-360. https://doi.org/10.1016/j.sysarc.2019.02.016
 
 ### IEEE
 
-D. Nadeau, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing," in Journal of Systems Architecture, 2019, doi: 10.1016/j.sysarc.2019.02.016
+D. Nadeau, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing," Journal of Systems Architecture, vol. 98, pp. 346-360, 2019, doi: 10.1016/j.sysarc.2019.02.016
 
 ```bibtex
-@inproceedings{ezzatiJivan2019efficientlarge,
+@article{ezzatiJivan2019efficientlarge,
   author = {Didier Nadeau and Naser Ezzati-Jivan and Michel R. Dagenais},
   title = {Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing},
   year = {2019},
-  booktitle = {Journal of Systems Architecture},
+  journal = {Journal of Systems Architecture},
+  volume = {98},
+  pages = {346-360},
+  publisher = {Elsevier BV},
+  issn = {1383-7621},
   doi = {10.1016/j.sysarc.2019.02.016},
   url = {https://doi.org/10.1016/j.sysarc.2019.02.016}
 }
@@ -81,7 +85,7 @@ D. Nadeau, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Large-Scale Heterogen
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1016/j.sysarc.2019.02.016; author identity matched to Naser Ezzati-Jivan in the local research catalog; Heterogeneous debugging PDF pp. 1-8: GDB/LTTng-UST architecture, trace buffering, views, filters, and GPU scope; Heterogeneous debugging PDF pp. 12-13: Fedora/Intel/AMD environment, pbzip2 workload, tracepoint count, and performance comparison; Heterogeneous debugging PDF p. 17: conclusion and reported 90% versus 3294% overhead comparison; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

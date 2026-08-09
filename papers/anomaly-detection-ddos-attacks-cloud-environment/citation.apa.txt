@@ -1,1 +1,1 @@
-Abbasi, H., Ezzati-Jivan, N., Bellaiche, M., Talhi, C., & Dagenais, M. R. (2021). The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment. Journal of Hardware and Systems Security. https://doi.org/10.1007/s41635-021-00119-z
+Abbasi, H., Ezzati-Jivan, N., Bellaiche, M., Talhi, C., & Dagenais, M. R. (2021). The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment. Journal of Hardware and Systems Security, 5(3-4), 208-222. https://doi.org/10.1007/s41635-021-00119-z

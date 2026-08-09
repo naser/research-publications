@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Montplaisir, A., Ezzati-Jivan, N., Wininger, F., & Dagenais, M. R. (2013). Efficient Model to Query and Visualize the System States Extracted from Trace Data. Runtime Verification 2013 (RV 2013). https://doi.org/10.1007/978-3-642-40787-1_13
+Montplaisir, A., Ezzati-Jivan, N., Wininger, F., & Dagenais, M. R. (2013). Efficient Model to Query and Visualize the System States Extracted from Trace Data. In Runtime Verification 2013 (RV 2013) (pp. 219-234). https://doi.org/10.1007/978-3-642-40787-1_13
 
 ### IEEE
 
-A. Montplaisir, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Efficient Model to Query and Visualize the System States Extracted from Trace Data," in Runtime Verification 2013 (RV 2013), 2013, doi: 10.1007/978-3-642-40787-1_13
+A. Montplaisir, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Efficient Model to Query and Visualize the System States Extracted from Trace Data," in Runtime Verification 2013 (RV 2013), pp. 219-234, 2013, doi: 10.1007/978-3-642-40787-1_13
 
 ```bibtex
 @inproceedings{ezzatiJivan2013efficientmodel,
@@ -70,6 +70,10 @@ A. Montplaisir, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Efficient Mod
   title = {Efficient Model to Query and Visualize the System States Extracted from Trace Data},
   year = {2013},
   booktitle = {Runtime Verification 2013 (RV 2013)},
+  pages = {219-234},
+  publisher = {Springer Berlin Heidelberg},
+  issn = {0302-9743, 1611-3349},
+  isbn = {9783642407864, 9783642407871},
   doi = {10.1007/978-3-642-40787-1_13},
   url = {https://doi.org/10.1007/978-3-642-40787-1_13}
 }
@@ -79,7 +83,7 @@ A. Montplaisir, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Efficient Mod
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: PolyPublie record: https://publications.polymtl.ca/13394/; DOI: https://doi.org/10.1007/978-3-642-40787-1_13; DBLP record: https://dblp.org/rec/conf/rv/MontplaisirJWD13.html; Official Springer preview read privately; SHA-256 1f03c9225de8d032f7015b076dd48c7805897c006cb226016baa0e9b01eb621d; private evidence report: reports/agent-batch-04.md
 - Machine-readable record: [paper.json](./paper.json)

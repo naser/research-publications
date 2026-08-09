@@ -1,1 +1,1 @@
-Guan, Y., Noferesti, M., & Ezzati-Jivan, N. (2024). A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model. Software Impacts. https://doi.org/10.1016/j.simpa.2024.100646
+Guan, Y., Noferesti, M., & Ezzati-Jivan, N. (2024). A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model. Software Impacts, 20, 100646. https://doi.org/10.1016/j.simpa.2024.100646

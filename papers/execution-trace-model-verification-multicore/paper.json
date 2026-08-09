@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "execution-trace-model-verification-multicore",
   "page_url": "https://naser.github.io/research-publications/papers/execution-trace-model-verification-multicore/",
   "title": "Execution trace-based model verification to analyze multicore and real-time systems",
@@ -9,10 +9,41 @@
     "Naser Ezzati-Jivan",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Raphaël Beamonte",
+      "orcid": "https://orcid.org/0000-0002-3078-0947",
+      "profile_url": "https://dblp.org/pid/181/3722.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2022,
     "venue": "Concurrency and Computation: Practice and Experience",
-    "type": "research paper"
+    "type": "journal article",
+    "publication_date": "2022-05-04",
+    "online_date": "2022-05-04",
+    "print_date": "2022-08",
+    "volume": "34",
+    "issue": "17",
+    "pages": null,
+    "article_number": "e6974",
+    "publisher": "Wiley",
+    "issn": [
+      "1532-0626",
+      "1532-0634"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -24,8 +55,46 @@
   "abstract": null,
   "abstract_source": "Wiley publisher full text rendered in the signed-in ResearchGate viewer on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper combines model-based quantitative constraints with user-space and kernel execution traces to automatically identify likely causes of real-time and multicore constraint violations.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP/DOI bibliographic record for 10.1002/cpe.6974"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "Publisher full text viewer pp. 1-3: problem, LTTng/LTTng-UST selection, CTF/common-clock rationale, and related tracing/model-analysis tools"
+      },
+      {
+        "note": "Publisher full text viewer pp. 4-13: state-machine model, constraint statuses, 95%/5% sampling, reservoir sampling, interval-set extraction, distance/weight/differential analysis, and responsibility scores"
+      },
+      {
+        "note": "Publisher full text viewer pp. 13-20: JACK2, wakelock, userspace, and cyclictest case studies, including 96.65%/96.51% JACK2 attribution and the Jetson/HDMI cyclictest diagnosis"
+      },
+      {
+        "note": "Publisher full text viewer pp. 20-24: i7-4790/32 GiB platform, trace sizes, 100-run sampling comparison, analysis timings, and scalability"
+      },
+      {
+        "note": "Publisher full text viewer p. 25: conclusion, data-availability statement, and future direction"
+      },
+      {
+        "note": "No local PDF hash is claimed: the Wiley PDF link redirected to an abstract/access page and the ResearchGate publisher viewer exposed the full 26-page text but did not provide a downloadable file in this run."
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper combines model-based quantitative constraints with user-space and kernel execution traces to automatically identify likely causes of real-time and multicore constraint violations.",
     "problem": "Large execution traces can reveal timing and scheduling failures, but interpreting millions of events is slow and requires deep operating-system knowledge. Model checking can identify a violated specification without explaining whether preemption, blocking, a system call, scheduling, or application code caused it.",
@@ -91,7 +160,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1002/cpe.6974",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -111,6 +180,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

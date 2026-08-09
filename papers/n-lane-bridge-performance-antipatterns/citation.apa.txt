@@ -1,1 +1,1 @@
-VanDonge, R., & Ezzati-Jivan, N. (2022). N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing. IEEE Working Conference on Source Code Analysis and Manipulation (SCAM). https://doi.org/10.1109/scam55253.2022.00015
+VanDonge, R., & Ezzati-Jivan, N. (2022). N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing. In IEEE Working Conference on Source Code Analysis and Manipulation (SCAM) (pp. 83-93). https://doi.org/10.1109/scam55253.2022.00015

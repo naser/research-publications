@@ -63,11 +63,11 @@ Cite this paper when your work uses or compares matrix Profile motifs/discords a
 
 ### APA 7
 
-Wallace, T., Ombuki-Berman, B. M., & Ezzati-Jivan, N. (2023). Identification and Classification of JMH Microbenchmark States using Time Series Analysis. ACM/SPEC ICPE Companion. https://doi.org/10.1145/3578245.3584694
+Wallace, T., Ombuki-Berman, B. M., & Ezzati-Jivan, N. (2023). Identification and Classification of JMH Microbenchmark States using Time Series Analysis. In ACM/SPEC ICPE Companion (pp. 101-105). https://doi.org/10.1145/3578245.3584694
 
 ### IEEE
 
-T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Identification and Classification of JMH Microbenchmark States using Time Series Analysis," in ACM/SPEC ICPE Companion, 2023, doi: 10.1145/3578245.3584694
+T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Identification and Classification of JMH Microbenchmark States using Time Series Analysis," in ACM/SPEC ICPE Companion, pp. 101-105, 2023, doi: 10.1145/3578245.3584694
 
 ```bibtex
 @inproceedings{ezzatiJivan2023identificationand,
@@ -75,6 +75,8 @@ T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Identification and Classi
   title = {Identification and Classification of JMH Microbenchmark States using Time Series Analysis},
   year = {2023},
   booktitle = {ACM/SPEC ICPE Companion},
+  pages = {101-105},
+  publisher = {ACM},
   doi = {10.1145/3578245.3584694},
   url = {https://doi.org/10.1145/3578245.3584694}
 }
@@ -84,7 +86,7 @@ T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Identification and Classi
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE Companion PDF: Matrix Profile, motifs/discords, PELT change points, Stumpy, Ruptures, and 30-iteration warmup protocol; ICPE Companion PDF: JMH/Traini benchmark corpus, state-identification workflow, anomaly rule, and reported qualitative conclusions; Author code/data repository linked by the paper; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

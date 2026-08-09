@@ -62,7 +62,7 @@ Belias, F., Ezzati-Jivan, N., & Khomh, F. (2025). One Size Does Not Fit All: Arc
 
 ### IEEE
 
-F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA," in arXiv / CoRR, 2025, doi: 10.48550/arXiv.2511.03809
+F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA," in arXiv / CoRR, vol. abs/2511.03809, 2025, doi: 10.48550/arXiv.2511.03809
 
 ```bibtex
 @misc{ezzatiJivan2025onesize,
@@ -70,6 +70,7 @@ F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architectu
   title = {One Size Does Not Fit All: Architecture-Aware Adaptive Batch Scheduling with DEBA},
   year = {2025},
   howpublished = {arXiv / CoRR},
+  volume = {abs/2511.03809},
   doi = {10.48550/arXiv.2511.03809},
   url = {https://arxiv.org/abs/2511.03809}
 }
@@ -79,7 +80,7 @@ F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architectu
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: official arXiv abstract and PDF page 2511.03809; DBLP/Scholar record matched by title and authors; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

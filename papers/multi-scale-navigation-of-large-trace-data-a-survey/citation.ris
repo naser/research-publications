@@ -5,6 +5,12 @@ TI  - Multi-scale Navigation of Large Trace Data: A Survey
 PY  - 2017
 T2  - Concurrency and Computation: Practice and Experience
 AB  - The survey organizes abstraction and visualization techniques that help analysts navigate long operating-system and kernel traces from overview to event-level evidence.
+VL  - 29
+IS  - 10
+AN  - e4068
+PB  - Wiley
+SN  - 1532-0626
+SN  - 1532-0634
 DO  - 10.1002/cpe.4068
 UR  - https://doi.org/10.1002/cpe.4068
 ER  -

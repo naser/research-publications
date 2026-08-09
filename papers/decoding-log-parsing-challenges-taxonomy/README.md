@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Sedki, I., Hamou-Lhadj, A., Ait-Mohamed, O., Ezzati-Jivan, N., & Shehab, M. A. (2024). Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions. 2024 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE Companion). https://doi.org/10.1145/3639478.3643523
+Sedki, I., Hamou-Lhadj, A., Ait-Mohamed, O., Ezzati-Jivan, N., & Shehab, M. A. (2024). Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions. In 2024 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE Companion) (pp. 392-393). https://doi.org/10.1145/3639478.3643523
 
 ### IEEE
 
-I. Sedki, A. Hamou-Lhadj, O. Ait-Mohamed, N. Ezzati-Jivan, and M. A. Shehab, "Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions," in 2024 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE Companion), 2024, doi: 10.1145/3639478.3643523
+I. Sedki, A. Hamou-Lhadj, O. Ait-Mohamed, N. Ezzati-Jivan, and M. A. Shehab, "Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions," in 2024 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE Companion), pp. 392-393, 2024, doi: 10.1145/3639478.3643523
 
 ```bibtex
 @inproceedings{ezzatiJivan2024decodinglog,
@@ -70,6 +70,8 @@ I. Sedki, A. Hamou-Lhadj, O. Ait-Mohamed, N. Ezzati-Jivan, and M. A. Shehab, "De
   title = {Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions},
   year = {2024},
   booktitle = {2024 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE Companion)},
+  pages = {392-393},
+  publisher = {ACM},
   doi = {10.1145/3639478.3643523},
   url = {https://doi.org/10.1145/3639478.3643523}
 }
@@ -79,7 +81,7 @@ I. Sedki, A. Hamou-Lhadj, O. Ait-Mohamed, N. Ezzati-Jivan, and M. A. Shehab, "De
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions; DOI: https://doi.org/10.1145/3639478.3643523; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Zhang, T., Dipanzan, S. I., Tahmooresnejad, L., & Ezzati-Jivan, N. (2024). Assessing Predictive Models for Energy Consumption Across Varied Software Environments. 2024 IEEE International Conference on Big Data (BigData). https://doi.org/10.1109/BigData62323.2024.10825500
+Zhang, T., Dipanzan, S. I., Tahmooresnejad, L., & Ezzati-Jivan, N. (2024). Assessing Predictive Models for Energy Consumption Across Varied Software Environments. In 2024 IEEE International Conference on Big Data (BigData) (pp. 5233-5242). https://doi.org/10.1109/BigData62323.2024.10825500
 
 ### IEEE
 
-T. Zhang, S. I. Dipanzan, L. Tahmooresnejad, and N. Ezzati-Jivan, "Assessing Predictive Models for Energy Consumption Across Varied Software Environments," in 2024 IEEE International Conference on Big Data (BigData), 2024, doi: 10.1109/BigData62323.2024.10825500
+T. Zhang, S. I. Dipanzan, L. Tahmooresnejad, and N. Ezzati-Jivan, "Assessing Predictive Models for Energy Consumption Across Varied Software Environments," in 2024 IEEE International Conference on Big Data (BigData), pp. 5233-5242, 2024, doi: 10.1109/BigData62323.2024.10825500
 
 ```bibtex
 @inproceedings{ezzatiJivan2024assessingpredictive,
@@ -70,6 +70,8 @@ T. Zhang, S. I. Dipanzan, L. Tahmooresnejad, and N. Ezzati-Jivan, "Assessing Pre
   title = {Assessing Predictive Models for Energy Consumption Across Varied Software Environments},
   year = {2024},
   booktitle = {2024 IEEE International Conference on Big Data (BigData)},
+  pages = {5233-5242},
+  publisher = {IEEE},
   doi = {10.1109/BigData62323.2024.10825500},
   url = {https://doi.org/10.1109/BigData62323.2024.10825500}
 }
@@ -79,7 +81,7 @@ T. Zhang, S. I. Dipanzan, L. Tahmooresnejad, and N. Ezzati-Jivan, "Assessing Pre
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/10825500/; DOI: https://doi.org/10.1109/BigData62323.2024.10825500; Private evidence note: papers/assessing-predictive-models-for-energy-consumption-across-varied-software-environments-1da35b5bb9/pdf-evidence/notes/parallel-batch-01-energy-consumption-software-environments.md
 - Machine-readable record: [paper.json](./paper.json)

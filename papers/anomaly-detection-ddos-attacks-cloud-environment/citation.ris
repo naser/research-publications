@@ -8,6 +8,13 @@ TI  - The Use of Anomaly Detection for the Detection of Different Types of DDoS 
 PY  - 2021
 T2  - Journal of Hardware and Systems Security
 AB  - The accessible Springer preview associates the paper with a unified anomaly-detection approach for bandwidth-, application-, and connection-exhaustion DDoS groups, using CUSUM-style change detection and representative HTTP, database/application, and TCP SYN-flood attacks.
+VL  - 5
+IS  - 3-4
+SP  - 208
+EP  - 222
+PB  - Springer Science and Business Media LLC
+SN  - 2509-3428
+SN  - 2509-3436
 DO  - 10.1007/s41635-021-00119-z
 UR  - https://doi.org/10.1007/s41635-021-00119-z
 ER  -

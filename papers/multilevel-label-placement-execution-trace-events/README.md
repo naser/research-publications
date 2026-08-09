@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Ezzati-Jivan, N., Shameli-Sendi, A., & Dagenais, M. R. (2013). Multilevel Label Placement for Execution Trace Events. 2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE). https://doi.org/10.1109/CCECE.2013.6567826
+Ezzati-Jivan, N., Shameli-Sendi, A., & Dagenais, M. R. (2013). Multilevel Label Placement for Execution Trace Events. In 2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE) (pp. 1-6). https://doi.org/10.1109/CCECE.2013.6567826
 
 ### IEEE
 
-N. Ezzati-Jivan, A. Shameli-Sendi, and M. R. Dagenais, "Multilevel Label Placement for Execution Trace Events," in 2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE), 2013, doi: 10.1109/CCECE.2013.6567826
+N. Ezzati-Jivan, A. Shameli-Sendi, and M. R. Dagenais, "Multilevel Label Placement for Execution Trace Events," in 2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE), pp. 1-6, 2013, doi: 10.1109/CCECE.2013.6567826
 
 ```bibtex
 @inproceedings{ezzatiJivan2013multilevellabel,
@@ -70,6 +70,8 @@ N. Ezzati-Jivan, A. Shameli-Sendi, and M. R. Dagenais, "Multilevel Label Placeme
   title = {Multilevel Label Placement for Execution Trace Events},
   year = {2013},
   booktitle = {2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE)},
+  pages = {1-6},
+  publisher = {IEEE},
   doi = {10.1109/CCECE.2013.6567826},
   url = {https://doi.org/10.1109/CCECE.2013.6567826}
 }
@@ -79,7 +81,7 @@ N. Ezzati-Jivan, A. Shameli-Sendi, and M. R. Dagenais, "Multilevel Label Placeme
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: PolyPublie record: https://publications.polymtl.ca/13939/; DOI: https://doi.org/10.1109/CCECE.2013.6567826; DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

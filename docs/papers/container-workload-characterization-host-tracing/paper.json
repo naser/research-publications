@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "container-workload-characterization-host-tracing",
   "page_url": "https://naser.github.io/research-publications/papers/container-workload-characterization-host-tracing/",
   "title": "Container Workload Characterization Through Host System Tracing",
@@ -9,10 +9,38 @@
     "Naser Ezzati-Jivan",
     "Seyed Vahid Azhari"
   ],
+  "author_details": [
+    {
+      "name": "Madeline Janecek",
+      "orcid": "https://orcid.org/0000-0002-7182-3958",
+      "profile_url": "https://dblp.org/pid/307/5913.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Seyed Vahid Azhari",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/42/2821.html"
+    }
+  ],
   "publication": {
     "year": 2021,
     "venue": "IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
-    "type": "research paper"
+    "type": "conference paper",
+    "publication_date": "2021-10",
+    "online_date": null,
+    "print_date": "2021-10",
+    "volume": null,
+    "issue": null,
+    "pages": "9-19",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -24,8 +52,40 @@
   "abstract": null,
   "abstract_source": "Container workload paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper characterizes container workloads from host-level LTTng traces by selecting important threads and clustering execution-state behavior without instrumenting the containers internally.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP/DOI bibliographic record for 10.1109/ic2e52221.2021.00015"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "Container workload PDF pp. 1-4: host-only motivation, LTTng, pid_ns/tid attribution, and state extraction"
+      },
+      {
+        "note": "Container workload PDF pp. 4-9: PageRank feature selection, vectorization, two-stage K-Means, workloads, and silhouette result"
+      },
+      {
+        "note": "Container workload PDF pp. 9-10: required tracepoints, 21.62% versus 3.6% overhead, limitations, and future work"
+      },
+      {
+        "note": "local container-workload PDF hash verified in pdf-evidence/notes/container-workload-characterization-host-tracing.md and pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper characterizes container workloads from host-level LTTng traces by selecting important threads and clustering execution-state behavior without instrumenting the containers internally.",
     "problem": "Cloud users may not control internal container agents, and coarse CPU, disk, and network metrics do not reveal enough execution detail for workload characterization.",
@@ -88,7 +148,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/ic2e52221.2021.00015",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -106,6 +166,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

@@ -6,6 +6,11 @@ TI  - A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizin
 PY  - 2024
 T2  - Software Impacts
 AB  - The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.
+VL  - 20
+SP  - 100646
+AN  - 100646
+PB  - Elsevier BV
+SN  - 2665-9638
 DO  - 10.1016/j.simpa.2024.100646
 UR  - https://doi.org/10.1016/j.simpa.2024.100646
 ER  -

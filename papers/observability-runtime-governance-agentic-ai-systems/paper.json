@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "observability-runtime-governance-agentic-ai-systems",
   "page_url": "https://naser.github.io/research-publications/papers/observability-runtime-governance-agentic-ai-systems/",
   "title": "Observability and Runtime Governance for Agentic AI Systems",
@@ -8,10 +8,33 @@
     "Naser Ezzati-Jivan",
     "Maryam Ekhlasi"
   ],
+  "author_details": [
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Maryam Ekhlasi",
+      "orcid": "https://orcid.org/0009-0007-9147-869X",
+      "profile_url": "https://dblp.org/pid/409/3420.html"
+    }
+  ],
   "publication": {
     "year": 2026,
     "venue": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2026-07-05",
+    "online_date": "2026-07-17",
+    "print_date": "2026-07-05",
+    "volume": null,
+    "issue": null,
+    "pages": "64-65",
+    "article_number": null,
+    "publisher": "ACM",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -23,8 +46,31 @@
   "abstract": null,
   "abstract_source": null,
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The verified record identifies this work as a 2026 FSE paper on agentic-AI observability and runtime governance, but the full technical contribution was not available in the captured sources.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Crossref DOI record: https://api.crossref.org/v1/works/10.1145/3803437.3804904"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/sigsoft/Ezzati-JivanE26"
+      },
+      {
+        "note": "Private evidence note: papers/observability-and-runtime-governance-for-agentic-ai-systems-838a748cf7/pdf-evidence/notes/parallel-batch-01-observability-runtime-governance.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The verified record identifies this work as a 2026 FSE paper on agentic-AI observability and runtime governance, but the full technical contribution was not available in the captured sources.",
     "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
@@ -87,7 +133,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Crossref DOI record: https://api.crossref.org/v1/works/10.1145/3803437.3804904",
       "DBLP record: https://dblp.org/rec/conf/sigsoft/Ezzati-JivanE26",
@@ -102,6 +148,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

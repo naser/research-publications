@@ -1,1 +1,1 @@
-Montplaisir-Goncalves, A., Ezzati-Jivan, N., Wininger, F., & Dagenais, M. R. (2013). State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data. IEEE International Conference on Social Computing. https://doi.org/10.1109/SocialCom.2013.107
+Montplaisir-Goncalves, A., Ezzati-Jivan, N., Wininger, F., & Dagenais, M. R. (2013). State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data. In IEEE International Conference on Social Computing (pp. 716-724). https://doi.org/10.1109/SocialCom.2013.107

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "automated-cause-analysis-latency-outliers",
   "page_url": "https://naser.github.io/research-publications/papers/automated-cause-analysis-latency-outliers/",
   "title": "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs",
@@ -10,10 +10,43 @@
     "Naser Ezzati-Jivan",
     "Quentin Fournier"
   ],
+  "author_details": [
+    {
+      "name": "Sneh Patel",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/315/9849.html"
+    },
+    {
+      "name": "Brendan Park",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/316/0137.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Quentin Fournier",
+      "orcid": "https://orcid.org/0000-0002-1036-0777",
+      "profile_url": "https://dblp.org/pid/246/8623.html"
+    }
+  ],
   "publication": {
     "year": 2021,
     "venue": "IEEE International Conference on Software Quality, Reliability and Security (QRS)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2021-12",
+    "online_date": null,
+    "print_date": "2021-12",
+    "volume": null,
+    "issue": null,
+    "pages": "422-433",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "public_preprint_and_published_record",
@@ -26,8 +59,31 @@
   "abstract": "Detecting performance issues and identifying their root causes in the runtime is a challenging task. Typically, developers use methods such as logging and tracing to identify bottlenecks. These solutions are, however, not ideal as they are time-consuming and require manual effort. In this paper, we propose a method to automate the task of detecting latency outliers using system-level traces and then comparing them to identify the root cause(s). Our method makes use of dependency graphs to show internal interactions between threads and system resources. With these graphs, one can pinpoint where performance issues occur. However, a single trace can be composed of a large number of requests, each generating one graph. To automate the task of identifying outliers within the dataset, we use machine learning density-based models and statistical calculations such as -score. Our evaluation shows an accuracy greater than 97 % on outlier detection, making them appropriate for in-production servers and industry-level use cases.",
   "abstract_source": "arXiv:2207.06515 abstract; public preprint version",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": true,
+    "basis": "complete-visible-author-abstract",
+    "note": "The page displays the complete verified author abstract."
+  },
   "description": "Detecting performance issues and identifying their root causes in the runtime is a challenging task. Typically, developers use methods such as logging and tracing to identify bottlenecks. These solutions are, however, not ideal as they are time-consuming and require manual effort. In this paper, we propose a method to automate the task of detecting latency outliers using system-level traces and then comparing them to identify the root cause(s). Our method makes use of dependency graphs to show internal interactions between threads and system resources. With these graphs, one can pinpoint where performance issues occur. However, a single trace can be composed of a large number of requests, each generating one graph. To automate the task of identifying outliers within the dataset, we use machine learning density-based models and statistical calculations such as -score. Our evaluation shows an accuracy greater than 97 % on outlier detection, making them appropriate for in-production servers and industry-level use cases.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP and IEEE metadata for the published paper"
+      },
+      {
+        "note": "official arXiv abstract and PDF page 2207.06515"
+      },
+      {
+        "note": "local PDF hash verified in the working catalog"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper combines system-level dependency graphs with automated outlier detection to localize likely causes of latency anomalies.",
     "problem": "Latency outliers in distributed/request-oriented software are difficult to triage because their causes may be hidden in thread and resource waiting relationships in system-level traces.",
@@ -94,7 +150,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP and IEEE metadata for the published paper",
       "official arXiv abstract and PDF page 2207.06515",
@@ -109,6 +165,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

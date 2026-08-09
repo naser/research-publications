@@ -65,11 +65,11 @@ Cite this paper when your work uses or compares an unsupervised GraphSAGE encode
 
 ### APA 7
 
-Panahandeh, M., Ezzati-Jivan, N., Hamou-Lhadj, A., & Miller, J. (2024). Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis. ACM/SPEC International Conference on Performance Engineering (ICPE) Companion. https://doi.org/10.1145/3629527.3651841
+Panahandeh, M., Ezzati-Jivan, N., Hamou-Lhadj, A., & Miller, J. (2024). Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis. In ACM/SPEC International Conference on Performance Engineering (ICPE) Companion (pp. 62-66). https://doi.org/10.1145/3629527.3651841
 
 ### IEEE
 
-M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis," in ACM/SPEC International Conference on Performance Engineering (ICPE) Companion, 2024, doi: 10.1145/3629527.3651841
+M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis," in ACM/SPEC International Conference on Performance Engineering (ICPE) Companion, pp. 62-66, 2024, doi: 10.1145/3629527.3651841
 
 ```bibtex
 @inproceedings{ezzatiJivan2024efficientunsupervised,
@@ -77,6 +77,8 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Efficient Unsupe
   title = {Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis},
   year = {2024},
   booktitle = {ACM/SPEC International Conference on Performance Engineering (ICPE) Companion},
+  pages = {62-66},
+  publisher = {ACM},
   doi = {10.1145/3629527.3651841},
   url = {https://doi.org/10.1145/3629527.3651841}
 }
@@ -86,7 +88,7 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Efficient Unsupe
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/efficient-unsupervised-latency-culprit-ranking.md; Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split; Efficient culprit-ranking PDF pp. 4-5: benchmark accuracy, Top-k results, training/test speed comparison, limitations, and artifact link; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

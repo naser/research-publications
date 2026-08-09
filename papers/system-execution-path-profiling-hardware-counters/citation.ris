@@ -6,6 +6,9 @@ TI  - System Execution Path Profiling Using Hardware Performance Counters
 PY  - 2021
 T2  - 2021 IEEE International Systems Conference (SysCon)
 AB  - The official program abstract describes critical-path profiling using hardware-counter samples every 100,000 cycles, user-space interrupt signaling, and comparison with CPython behavior.
+SP  - 1
+EP  - 8
+PB  - IEEE
 DO  - 10.1109/SYSCON48628.2021.9447121
 UR  - https://doi.org/10.1109/SYSCON48628.2021.9447121
 ER  -

@@ -7,6 +7,13 @@ TI  - Efficient Model to Query and Visualize the System States Extracted from Tr
 PY  - 2013
 T2  - Runtime Verification 2013 (RV 2013)
 AB  - The accessible chapter preview describes a tree-based model of system states and intervals extracted from traces, with online/offline operation and interactive analysis at approximately 1 TB trace scale.
+SP  - 219
+EP  - 234
+PB  - Springer Berlin Heidelberg
+SN  - 0302-9743
+SN  - 1611-3349
+SN  - 9783642407864
+SN  - 9783642407871
 DO  - 10.1007/978-3-642-40787-1_13
 UR  - https://doi.org/10.1007/978-3-642-40787-1_13
 ER  -

@@ -59,11 +59,11 @@ Cite this paper when your work uses or compares an external-memory state-history
 
 ### APA 7
 
-Prieur-Drevon, L., Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2016). Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces. IEEE BigData Congress. https://doi.org/10.1109/BigDataCongress.2016.19
+Prieur-Drevon, L., Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2016). Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces. In IEEE BigData Congress (pp. 83-90). https://doi.org/10.1109/BigDataCongress.2016.19
 
 ### IEEE
 
-L. Prieur-Drevon, R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces," in IEEE BigData Congress, 2016, doi: 10.1109/BigDataCongress.2016.19
+L. Prieur-Drevon, R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces," in IEEE BigData Congress, pp. 83-90, 2016, doi: 10.1109/BigDataCongress.2016.19
 
 ```bibtex
 @inproceedings{ezzatiJivan2016enhancedstate,
@@ -71,6 +71,8 @@ L. Prieur-Drevon, R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Enhanced St
   title = {Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces},
   year = {2016},
   booktitle = {IEEE BigData Congress},
+  pages = {83-90},
+  publisher = {IEEE},
   doi = {10.1109/BigDataCongress.2016.19},
   url = {https://doi.org/10.1109/BigDataCongress.2016.19}
 }
@@ -80,7 +82,7 @@ L. Prieur-Drevon, R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Enhanced St
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: eSHT PDF: LTTng 2.7.0/Linux 4.3.0/Trace Compass environment, synthetic many-thread workload, and 1,000-1,000,000-attribute scale; eSHT PDF: SHT/eSHT build, node, disk, fill, depth, query, and one-million-attribute results; eSHT PDF: stress-case limitation and build/overlap/Trace Compass future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

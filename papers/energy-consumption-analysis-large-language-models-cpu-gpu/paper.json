@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "energy-consumption-analysis-large-language-models-cpu-gpu",
   "page_url": "https://naser.github.io/research-publications/papers/energy-consumption-analysis-large-language-models-cpu-gpu/",
   "title": "Energy Consumption Analysis of Large Language Models Across CPU and GPU Using Diverse Metric Types",
@@ -9,10 +9,38 @@
     "Leila Tahmooresnejad",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Tong Zhang",
+      "orcid": null,
+      "profile_url": "https://ieeexplore.ieee.org/author/720453590041487"
+    },
+    {
+      "name": "Leila Tahmooresnejad",
+      "orcid": null,
+      "profile_url": "https://ieeexplore.ieee.org/author/345895937078737"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://ieeexplore.ieee.org/author/37071999400"
+    }
+  ],
   "publication": {
     "year": 2025,
     "venue": "2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2025-11-10",
+    "online_date": null,
+    "print_date": "2025-11-10",
+    "volume": null,
+    "issue": null,
+    "pages": "301-310",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_abstract",
@@ -24,8 +52,34 @@
   "abstract": "The paper presents a multi-level analysis of energy consumption for large language model workloads across CPU and GPU settings, combining diverse static and dynamic metrics to build and validate energy-prediction models across NLP tasks.",
   "abstract_source": "Public abstract/metadata mirror and IEEE bibliographic record, paraphrased; full text not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper presents a multi-level analysis of energy consumption for large language model workloads across CPU and GPU settings, combining diverse static and dynamic metrics to build and validate energy-prediction models across NLP tasks.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "IEEE record: https://ieeexplore.ieee.org/document/11344465/"
+      },
+      {
+        "note": "DOI: https://doi.org/10.1109/CASCON66301.2025.00056"
+      },
+      {
+        "note": "Public abstract metadata mirror: https://eurekamag.com/research/104/995/104995729.php"
+      },
+      {
+        "note": "Private evidence report: reports/agent-batch-01.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The abstract-level contribution is a broader CPU/GPU energy-analysis and prediction perspective for LLM workloads that combines multiple metric types and task coverage.",
     "problem": "Resource-utilization measurements alone may not capture the energy behavior of LLM workloads, while existing prediction models may not cover diverse NLP tasks and metric types.",
@@ -94,7 +148,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "IEEE record: https://ieeexplore.ieee.org/document/11344465/",
       "DOI: https://doi.org/10.1109/CASCON66301.2025.00056",
@@ -110,6 +164,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

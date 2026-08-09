@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares applying Louvain community detec
 
 ### APA 7
 
-Wang, J., & Ezzati-Jivan, N. (2020). Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods. Softwaretechnik-Trends. https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf
+Wang, J., & Ezzati-Jivan, N. (2020). Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods. Softwaretechnik-Trends, 40, 58-60. https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf
 
 ### IEEE
 
-J. Wang and N. Ezzati-Jivan, "Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods," Softwaretechnik-Trends, 2020, [Online]. Available: https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf
+J. Wang and N. Ezzati-Jivan, "Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods," Softwaretechnik-Trends, vol. 40, pp. 58-60, 2020, [Online]. Available: https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf
 
 ```bibtex
 @article{ezzatiJivan2020enhancedexecution,
@@ -72,6 +72,8 @@ J. Wang and N. Ezzati-Jivan, "Enhanced Execution Trace Abstraction Approach Usin
   title = {Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods},
   year = {2020},
   journal = {Softwaretechnik-Trends},
+  volume = {40},
+  pages = {58-60},
   url = {https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf}
 }
 ```
@@ -80,7 +82,7 @@ J. Wang and N. Ezzati-Jivan, "Enhanced Execution Trace Abstraction Approach Usin
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: public PDF URL observed from DBLP-linked source; PDF downloaded locally and verified with %PDF- signature; first three pages extracted for summary verification
 - Machine-readable record: [paper.json](./paper.json)

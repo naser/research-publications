@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares waiting Dependency Graphs that u
 
 ### APA 7
 
-Ezzati-Jivan, N., Fournier, Q., Dagenais, M. R., & Hamou-Lhadj, A. (2020). DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing. IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM). https://doi.org/10.1109/SCAM51674.2020.00022
+Ezzati-Jivan, N., Fournier, Q., Dagenais, M. R., & Hamou-Lhadj, A. (2020). DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing. In IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM) (pp. 149-159). https://doi.org/10.1109/SCAM51674.2020.00022
 
 ### IEEE
 
-N. Ezzati-Jivan, Q. Fournier, M. R. Dagenais, and A. Hamou-Lhadj, "DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing," in IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM), 2020, doi: 10.1109/SCAM51674.2020.00022
+N. Ezzati-Jivan, Q. Fournier, M. R. Dagenais, and A. Hamou-Lhadj, "DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing," in IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM), pp. 149-159, 2020, doi: 10.1109/SCAM51674.2020.00022
 
 ```bibtex
 @inproceedings{ezzatiJivan2020depgraphlocalizing,
@@ -72,6 +72,8 @@ N. Ezzati-Jivan, Q. Fournier, M. R. Dagenais, and A. Hamou-Lhadj, "DepGraph: Loc
   title = {DepGraph: Localizing Performance Bottlenecks in Multi-Core Applications Using Waiting Dependency Graphs and Software Tracing},
   year = {2020},
   booktitle = {IEEE 20th International Working Conference on Source Code Analysis and Manipulation (SCAM)},
+  pages = {149-159},
+  publisher = {IEEE},
   doi = {10.1109/SCAM51674.2020.00022},
   url = {https://doi.org/10.1109/SCAM51674.2020.00022}
 }
@@ -81,7 +83,7 @@ N. Ezzati-Jivan, Q. Fournier, M. R. Dagenais, and A. Hamou-Lhadj, "DepGraph: Loc
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

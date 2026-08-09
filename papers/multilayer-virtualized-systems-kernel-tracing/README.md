@@ -1,6 +1,6 @@
 # Multilayer Virtualized Systems Analysis with Kernel Tracing
 
-**2016 | IEEE Future Internet of Things and Cloud Workshops (FiCloudW) | research paper**
+**2016 | IEEE Future Internet of Things and Cloud Workshops (FiCloudW) | conference paper**
 
 **Authors:** Cedric Biancheri, Naser Ezzati-Jivan, Michel R. Dagenais
 
@@ -59,11 +59,11 @@ Cite this paper when your work uses or compares synchronized host/guest kernel t
 
 ### APA 7
 
-Biancheri, C., Ezzati-Jivan, N., & Dagenais, M. R. (2016). Multilayer Virtualized Systems Analysis with Kernel Tracing. IEEE Future Internet of Things and Cloud Workshops (FiCloudW). https://doi.org/10.1109/w-ficloud.2016.18
+Biancheri, C., Ezzati-Jivan, N., & Dagenais, M. R. (2016). Multilayer Virtualized Systems Analysis with Kernel Tracing. In IEEE Future Internet of Things and Cloud Workshops (FiCloudW) (pp. 1-6). https://doi.org/10.1109/w-ficloud.2016.18
 
 ### IEEE
 
-C. Biancheri, N. Ezzati-Jivan, and M. R. Dagenais, "Multilayer Virtualized Systems Analysis with Kernel Tracing," in IEEE Future Internet of Things and Cloud Workshops (FiCloudW), 2016, doi: 10.1109/w-ficloud.2016.18
+C. Biancheri, N. Ezzati-Jivan, and M. R. Dagenais, "Multilayer Virtualized Systems Analysis with Kernel Tracing," in IEEE Future Internet of Things and Cloud Workshops (FiCloudW), pp. 1-6, 2016, doi: 10.1109/w-ficloud.2016.18
 
 ```bibtex
 @inproceedings{ezzatiJivan2016multilayervirtualized,
@@ -71,6 +71,8 @@ C. Biancheri, N. Ezzati-Jivan, and M. R. Dagenais, "Multilayer Virtualized Syste
   title = {Multilayer Virtualized Systems Analysis with Kernel Tracing},
   year = {2016},
   booktitle = {IEEE Future Internet of Things and Cloud Workshops (FiCloudW)},
+  pages = {1-6},
+  publisher = {IEEE},
   doi = {10.1109/w-ficloud.2016.18},
   url = {https://doi.org/10.1109/w-ficloud.2016.18}
 }
@@ -80,7 +82,7 @@ C. Biancheri, N. Ezzati-Jivan, and M. R. Dagenais, "Multilayer Virtualized Syste
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/w-ficloud.2016.18; author identity matched to Naser Ezzati-Jivan in the local research catalog; Multilayer virtualization PDF pp. 1-4: problem, LTTng/KVM trace events, synchronization, State History Tree, and FVM view; Multilayer virtualization PDF pp. 4-7: process-preemption and hypervisor I/O-interruption use cases and evaluation discussion; Multilayer virtualization PDF p. 7: conclusion, reuse of tools, and parallel-analysis boundary; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

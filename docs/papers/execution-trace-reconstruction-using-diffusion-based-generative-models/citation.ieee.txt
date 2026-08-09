@@ -1,1 +1,1 @@
-M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Execution Trace Reconstruction Using Diffusion-Based Generative Models," in IEEE/ACM International Conference on Software Engineering (ICSE), 2025, doi: 10.1109/ICSE55347.2025.00063
+M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Execution Trace Reconstruction Using Diffusion-Based Generative Models," in IEEE/ACM International Conference on Software Engineering (ICSE), pp. 1077-1088, 2025, doi: 10.1109/ICSE55347.2025.00063

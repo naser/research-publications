@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "system-execution-path-profiling-hardware-counters",
   "page_url": "https://naser.github.io/research-publications/papers/system-execution-path-profiling-hardware-counters/",
   "title": "System Execution Path Profiling Using Hardware Performance Counters",
@@ -9,10 +9,38 @@
     "Naser Ezzati-Jivan",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Francis Giraldeau",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/183/1930.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2021,
     "venue": "2021 IEEE International Systems Conference (SysCon)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2021-04-15",
+    "online_date": null,
+    "print_date": "2021-04-15",
+    "volume": null,
+    "issue": null,
+    "pages": "1-8",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -24,8 +52,34 @@
   "abstract": "The official program abstract describes critical-path profiling using hardware-counter samples every 100,000 cycles, user-space interrupt signaling, and comparison with CPython behavior.",
   "abstract_source": "Official SysCon program abstract, paraphrased; full text not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The official program abstract describes critical-path profiling using hardware-counter samples every 100,000 cycles, user-space interrupt signaling, and comparison with CPython behavior.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DOI: https://doi.org/10.1109/SYSCON48628.2021.9447121"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/syscon/GiraldeauJD21"
+      },
+      {
+        "note": "Official SysCon program: https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-03.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The program abstract identifies a method for profiling execution paths from sampled hardware performance counters.",
     "problem": "Execution-path behavior and performance variation can be difficult to observe without relating hardware-counter activity to program paths.",
@@ -90,7 +144,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DOI: https://doi.org/10.1109/SYSCON48628.2021.9447121",
       "DBLP record: https://dblp.org/rec/conf/syscon/GiraldeauJD21",
@@ -106,6 +160,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

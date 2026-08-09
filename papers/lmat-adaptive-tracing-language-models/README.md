@@ -1,6 +1,6 @@
 # LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models
 
-**2026 | Journal of Systems and Software | research paper**
+**2026 | Journal of Systems and Software | journal article**
 
 **Authors:** Kasra Darvishi, Morteza Noferesti, Yuvraj Sehgal, Naser Ezzati-Jivan
 
@@ -63,18 +63,23 @@ Cite this paper when designing adaptive host-level tracing that uses kernel-even
 
 ### APA 7
 
-Darvishi, K., Noferesti, M., Sehgal, Y., & Ezzati-Jivan, N. (2026). LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models. Journal of Systems and Software. https://doi.org/10.1016/j.jss.2026.112890
+Darvishi, K., Noferesti, M., Sehgal, Y., & Ezzati-Jivan, N. (2026). LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models. Journal of Systems and Software, 238, 112890. https://doi.org/10.1016/j.jss.2026.112890
 
 ### IEEE
 
-K. Darvishi, M. Noferesti, Y. Sehgal, and N. Ezzati-Jivan, "LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models," in Journal of Systems and Software, 2026, doi: 10.1016/j.jss.2026.112890
+K. Darvishi, M. Noferesti, Y. Sehgal, and N. Ezzati-Jivan, "LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models," Journal of Systems and Software, vol. 238, Art. no. 112890, 2026, doi: 10.1016/j.jss.2026.112890
 
 ```bibtex
-@inproceedings{ezzatiJivan2026lmatan,
+@article{ezzatiJivan2026lmatan,
   author = {Kasra Darvishi and Morteza Noferesti and Yuvraj Sehgal and Naser Ezzati-Jivan},
   title = {LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models},
   year = {2026},
-  booktitle = {Journal of Systems and Software},
+  journal = {Journal of Systems and Software},
+  volume = {238},
+  pages = {112890},
+  eid = {112890},
+  publisher = {Elsevier BV},
+  issn = {0164-1212},
   doi = {10.1016/j.jss.2026.112890},
   url = {https://doi.org/10.1016/j.jss.2026.112890}
 }
@@ -84,7 +89,7 @@ K. Darvishi, M. Noferesti, Y. Sehgal, and N. Ezzati-Jivan, "LMAT: An adaptive tr
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112890; author identity matched to Naser Ezzati-Jivan in the local research catalog; LMAT PDF pp. 1-4: adaptive tracing motivation, four contributions, system loop, and language-model/event-duration design; LMAT PDF pp. 5-8: LTTng event representation, duration modeling, multi-task loss, error vectors, HDBSCAN prototypes, and adaptive control; LMAT PDF pp. 8-11: Apache and Sock Shop datasets, environments, fault injection, tracing protocol, and event subsets; LMAT PDF pp. 12-16: change-detection, root-cause, trace-reduction, latency, throughput, and storage-cost results; LMAT PDF pp. 17-18: generalization boundaries, threats to validity, limitations, and future work; LMAT PDF p. 3: implementation https://github.com/kasra-darvishi/adaptive_tracer and dataset https://zenodo.org/records/10437041; local LMAT PDF hash verified in pdf-evidence/notes/lmat-adaptive-tracing-language-models.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

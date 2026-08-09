@@ -1,1 +1,1 @@
-M. Panahandeh, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Rethinking Performance Debugging: From Optimization to Collaborative Reasoning," in SIGSOFT FSE Companion, 2026, doi: 10.1145/3803437.3805578
+M. Panahandeh, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Rethinking Performance Debugging: From Optimization to Collaborative Reasoning," in SIGSOFT FSE Companion, pp. 1312-1316, 2026, doi: 10.1145/3803437.3805578

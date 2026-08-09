@@ -6,6 +6,9 @@ TI  - Integrated Modeling Tool for Indexing and Analyzing State Machine Trace
 PY  - 2021
 T2  - 2021 IEEE International Symposium on Networks, Computers and Communications (ISNCC)
 AB  - The accessible abstract describes a modeled state representation with a special-purpose database, filtering/highlighting, and Gantt/XY views for Linux and Windows traces.
+SP  - 1
+EP  - 8
+PB  - IEEE
 DO  - 10.1109/ISNCC52172.2021.9615814
 UR  - https://doi.org/10.1109/ISNCC52172.2021.9615814
 ER  -

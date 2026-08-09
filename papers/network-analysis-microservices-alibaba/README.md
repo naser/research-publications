@@ -32,7 +32,7 @@ Abstract not available in the captured sources.
 
 ## Topics and keywords
 
-**Tags:** [microservices](../../topics/microservices.md) | [performance-analysis](../../topics/performance-analysis.md) | [observability](../../topics/observability.md) | [graph-neural-networks](../../topics/graph-neural-networks.md)
+**Tags:** [microservices](../../topics/microservices.md) | [performance-analysis](../../topics/performance-analysis.md) | [observability](../../topics/observability.md) | [social-network-analysis](../../topics/social-network-analysis.md)
 
 **Keywords:** microservice networks | Alibaba production clusters | service call graphs | community detection | [Louvain](../../keywords/louvain.md) | Infomap | Label Propagation | graph clustering | [K-Means](../../keywords/k-means.md) | [silhouette score](../../keywords/silhouette-score.md) | modularity
 
@@ -64,11 +64,11 @@ Cite this paper when your work uses or compares applying community detection to 
 
 ### APA 7
 
-Khodabandeh, G., Ezaz, A., & Ezzati-Jivan, N. (2024). Network Analysis of Microservices: A Case Study on Alibaba Production Clusters. ACM/SPEC International Conference on Performance Engineering (ICPE) Companion. https://doi.org/10.1145/3629527.3651842
+Khodabandeh, G., Ezaz, A., & Ezzati-Jivan, N. (2024). Network Analysis of Microservices: A Case Study on Alibaba Production Clusters. In ACM/SPEC International Conference on Performance Engineering (ICPE) Companion (pp. 67-71). https://doi.org/10.1145/3629527.3651842
 
 ### IEEE
 
-G. Khodabandeh, A. Ezaz, and N. Ezzati-Jivan, "Network Analysis of Microservices: A Case Study on Alibaba Production Clusters," in ACM/SPEC International Conference on Performance Engineering (ICPE) Companion, 2024, doi: 10.1145/3629527.3651842
+G. Khodabandeh, A. Ezaz, and N. Ezzati-Jivan, "Network Analysis of Microservices: A Case Study on Alibaba Production Clusters," in ACM/SPEC International Conference on Performance Engineering (ICPE) Companion, pp. 67-71, 2024, doi: 10.1145/3629527.3651842
 
 ```bibtex
 @inproceedings{ezzatiJivan2024networkanalysis,
@@ -76,6 +76,8 @@ G. Khodabandeh, A. Ezaz, and N. Ezzati-Jivan, "Network Analysis of Microservices
   title = {Network Analysis of Microservices: A Case Study on Alibaba Production Clusters},
   year = {2024},
   booktitle = {ACM/SPEC International Conference on Performance Engineering (ICPE) Companion},
+  pages = {67-71},
+  publisher = {ACM},
   doi = {10.1145/3629527.3651842},
   url = {https://doi.org/10.1145/3629527.3651842}
 }
@@ -85,7 +87,7 @@ G. Khodabandeh, A. Ezaz, and N. Ezzati-Jivan, "Network Analysis of Microservices
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/network-analysis-microservices-alibaba.md; Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering; Network-analysis PDF pp. 3-5: structural findings, limitations, future work, and implementation repository; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

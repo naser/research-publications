@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "multilevel-label-placement-execution-trace-events",
   "page_url": "https://naser.github.io/research-publications/papers/multilevel-label-placement-execution-trace-events/",
   "title": "Multilevel Label Placement for Execution Trace Events",
@@ -9,10 +9,38 @@
     "Alireza Shameli-Sendi",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Alireza Shameli-Sendi",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/23/8338.html"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2013,
     "venue": "2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2013-05",
+    "online_date": null,
+    "print_date": "2013-05",
+    "volume": null,
+    "issue": null,
+    "pages": "1-6",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -24,8 +52,34 @@
   "abstract": "The accessible abstract describes automatic label placement for points and lines representing execution-trace events.",
   "abstract_source": "PolyPublie/abstract metadata, paraphrased; full text not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The accessible abstract describes automatic label placement for points and lines representing execution-trace events.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "PolyPublie record: https://publications.polymtl.ca/13939/"
+      },
+      {
+        "note": "DOI: https://doi.org/10.1109/CCECE.2013.6567826"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-03.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The abstract identifies an automatic multilevel label-placement method for execution-trace visualizations.",
     "problem": "Dense trace visualizations can become unreadable when labels overlap or obscure event points and lines.",
@@ -89,7 +143,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "PolyPublie record: https://publications.polymtl.ca/13939/",
       "DOI: https://doi.org/10.1109/CCECE.2013.6567826",
@@ -105,6 +159,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

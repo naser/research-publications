@@ -1,1 +1,1 @@
-K. G. Kouame, N. Ezzati-Jivan, and M. R. Dagenais, "A Flexible Data-Driven Approach for Execution Trace Filtering," in IEEE BigData Congress, 2015, doi: 10.1109/BigDataCongress.2015.112
+K. G. Kouame, N. Ezzati-Jivan, and M. R. Dagenais, "A Flexible Data-Driven Approach for Execution Trace Filtering," in IEEE BigData Congress, pp. 698-703, 2015, doi: 10.1109/BigDataCongress.2015.112

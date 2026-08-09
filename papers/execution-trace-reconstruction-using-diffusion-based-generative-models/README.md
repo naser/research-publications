@@ -64,11 +64,11 @@ Cite this paper when your work uses or compares diffusion-based imputation of co
 
 ### APA 7
 
-Janecek, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2025). Execution Trace Reconstruction Using Diffusion-Based Generative Models. IEEE/ACM International Conference on Software Engineering (ICSE). https://doi.org/10.1109/ICSE55347.2025.00063
+Janecek, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2025). Execution Trace Reconstruction Using Diffusion-Based Generative Models. In IEEE/ACM International Conference on Software Engineering (ICSE) (pp. 1077-1088). https://doi.org/10.1109/ICSE55347.2025.00063
 
 ### IEEE
 
-M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Execution Trace Reconstruction Using Diffusion-Based Generative Models," in IEEE/ACM International Conference on Software Engineering (ICSE), 2025, doi: 10.1109/ICSE55347.2025.00063
+M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Execution Trace Reconstruction Using Diffusion-Based Generative Models," in IEEE/ACM International Conference on Software Engineering (ICSE), pp. 1077-1088, 2025, doi: 10.1109/ICSE55347.2025.00063
 
 ```bibtex
 @inproceedings{ezzatiJivan2025executiontrace,
@@ -76,6 +76,8 @@ M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Execution Trace Reconstruction
   title = {Execution Trace Reconstruction Using Diffusion-Based Generative Models},
   year = {2025},
   booktitle = {IEEE/ACM International Conference on Software Engineering (ICSE)},
+  pages = {1077-1088},
+  publisher = {IEEE},
   doi = {10.1109/ICSE55347.2025.00063},
   url = {https://doi.org/10.1109/ICSE55347.2025.00063}
 }
@@ -85,7 +87,7 @@ M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Execution Trace Reconstruction
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICSE published PDF: nine PTS workloads, PTS 6.2.2, LTTng 2.8, Debian kernel, Xeon/32 GB/SSD platform, and 32 runs per benchmark; ICSE published PDF: integer event encoding, DiffWave/SSSDS4/SSSDSA/CSDIS4 configurations, blackout protocol, accuracy, perfect rate, ROUGE-L, and LSTM baseline; ICSE published PDF: controlled-loss limitation, functional-plausibility example, and future work; Local thesis/manuscript and published-paper PDF are retained as distinct version evidence; local hashes are recorded in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

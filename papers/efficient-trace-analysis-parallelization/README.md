@@ -1,6 +1,6 @@
 # Efficient Methods for Trace Analysis Parallelization
 
-**2019 | International Journal of Parallel Programming | research paper**
+**2019 | International Journal of Parallel Programming | journal article**
 
 **Authors:** Fabien Reumont-Locke, Naser Ezzati-Jivan, Michel R. Dagenais
 
@@ -60,18 +60,23 @@ Cite this paper when your work uses or compares packet-index/time hybrid partiti
 
 ### APA 7
 
-Reumont-Locke, F., Ezzati-Jivan, N., & Dagenais, M. R. (2019). Efficient Methods for Trace Analysis Parallelization. International Journal of Parallel Programming. https://doi.org/10.1007/s10766-019-00631-4
+Reumont-Locke, F., Ezzati-Jivan, N., & Dagenais, M. R. (2019). Efficient Methods for Trace Analysis Parallelization. International Journal of Parallel Programming, 47(5-6), 951-972. https://doi.org/10.1007/s10766-019-00631-4
 
 ### IEEE
 
-F. Reumont-Locke, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Methods for Trace Analysis Parallelization," in International Journal of Parallel Programming, 2019, doi: 10.1007/s10766-019-00631-4
+F. Reumont-Locke, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Methods for Trace Analysis Parallelization," International Journal of Parallel Programming, vol. 47, no. 5-6, pp. 951-972, 2019, doi: 10.1007/s10766-019-00631-4
 
 ```bibtex
-@inproceedings{ezzatiJivan2019efficientmethods,
+@article{ezzatiJivan2019efficientmethods,
   author = {Fabien Reumont-Locke and Naser Ezzati-Jivan and Michel R. Dagenais},
   title = {Efficient Methods for Trace Analysis Parallelization},
   year = {2019},
-  booktitle = {International Journal of Parallel Programming},
+  journal = {International Journal of Parallel Programming},
+  volume = {47},
+  number = {5-6},
+  pages = {951-972},
+  publisher = {Springer Science and Business Media LLC},
+  issn = {0885-7458, 1573-7640},
   doi = {10.1007/s10766-019-00631-4},
   url = {https://doi.org/10.1007/s10766-019-00631-4}
 }
@@ -81,7 +86,7 @@ F. Reumont-Locke, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Methods for Tr
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1007/s10766-019-00631-4; author identity matched to Naser Ezzati-Jivan in the local research catalog; Efficient parallelization PDF pp. 1-5: CTF/Babeltrace model, partitioning, state dependencies, and proposed map/reduce design; Efficient parallelization PDF pp. 8-11: storage devices, 44,897,970-event trace, three analyses, speedups, and efficiencies; Efficient parallelization PDF pp. 11-12: decoding and State History Tree limitations and future work; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

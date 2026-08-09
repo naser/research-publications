@@ -1,6 +1,6 @@
 # Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications
 
-**2021 | Electronics | research paper**
+**2021 | Electronics | journal article**
 
 **Authors:** Loïc Gelle, Naser Ezzati-Jivan, Michel R. Dagenais
 
@@ -64,18 +64,23 @@ Cite this paper when your work uses or compares synchronizing Jaeger spans with 
 
 ### APA 7
 
-Gelle, L., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications. Electronics. https://doi.org/10.3390/electronics10212610
+Gelle, L., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications. Electronics, 10(21), 2610. https://doi.org/10.3390/electronics10212610
 
 ### IEEE
 
-L. Gelle, N. Ezzati-Jivan, and M. R. Dagenais, "Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications," in Electronics, 2021, doi: 10.3390/electronics10212610
+L. Gelle, N. Ezzati-Jivan, and M. R. Dagenais, "Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications," Electronics, vol. 10, no. 21, Art. no. 2610, 2021, doi: 10.3390/electronics10212610
 
 ```bibtex
-@inproceedings{ezzatiJivan2021combiningdistributed,
+@article{ezzatiJivan2021combiningdistributed,
   author = {Loïc Gelle and Naser Ezzati-Jivan and Michel R. Dagenais},
   title = {Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications},
   year = {2021},
-  booktitle = {Electronics},
+  journal = {Electronics},
+  volume = {10},
+  number = {21},
+  pages = {2610},
+  publisher = {MDPI AG},
+  issn = {2079-9292},
   doi = {10.3390/electronics10212610},
   url = {https://doi.org/10.3390/electronics10212610}
 }
@@ -85,7 +90,7 @@ L. Gelle, N. Ezzati-Jivan, and M. R. Dagenais, "Combining Distributed and Kernel
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.3390/electronics10212610; author identity matched to Naser Ezzati-Jivan in the local research catalog; Official MDPI HTML, Abstract and Sections 1-3 (reviewed 2026-08-06): distributed/kernel tracing motivation, LTTng/Jaeger/Trace Compass stack, patched Java and Go clients, synchronization events, and request critical-path construction.; Official MDPI HTML, Section 4 and Sections 4.1-4.1.2: i7-7820X/32 GB environment, HotROD 10,000-request evaluation, Cassandra 1,000,000-read/write evaluation, sampling configurations, and overhead bounds.; Official MDPI HTML, Sections 4.2-4.4: approximately 15-second analysis for 500 MB/20-30-second traces, 1% CPU-control-group use case, 2-second versus approximately 5-millisecond request latency, recurring 100-ms preemption, and transferability limits.; Official MDPI HTML, Section 5 and Data Availability Statement: dashboard-triggered snapshots, user-level scheduler/thread-pool tracking, network analysis, multi-host extension, CC BY 4.0 license, and https://github.com/loicgelle/jaeger-go-lttng-instr.; The official MDPI PDF URL was verified from the article's citation_pdf_url metadata, but Chrome's PDF endpoint was blocked by an interstitial in this run; no local PDF hash is claimed.
 - Machine-readable record: [paper.json](./paper.json)

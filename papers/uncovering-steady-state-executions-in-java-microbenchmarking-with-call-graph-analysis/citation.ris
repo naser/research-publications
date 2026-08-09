@@ -5,6 +5,9 @@ AU  - Ezzati-Jivan, Naser
 TI  - Uncovering Steady State Executions in Java Microbenchmarking with Call Graph Analysis
 PY  - 2023
 T2  - ACM/SPEC ICPE Companion
+SP  - 71
+EP  - 75
+PB  - ACM
 DO  - 10.1145/3578245.3584689
 UR  - https://doi.org/10.1145/3578245.3584689
 ER  -

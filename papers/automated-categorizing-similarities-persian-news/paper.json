@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "automated-categorizing-similarities-persian-news",
   "page_url": "https://naser.github.io/research-publications/papers/automated-categorizing-similarities-persian-news/",
   "title": "New Approach for Automated Categorizing and Finding Similarities in Online Persian News",
@@ -9,10 +9,44 @@
     "Mahlagha Fazeli",
     "Khadije Sadat Yousefi"
   ],
+  "author_details": [
+    {
+      "name": "Naser Ezzati Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Mahlagha Fazeli",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Khadije Sadat Yousefi",
+      "orcid": null,
+      "profile_url": null
+    }
+  ],
   "publication": {
     "year": 2010,
     "venue": "International Symposium on Information Management in a Changing World (IMCW 2010), Communications in Computer and Information Science 96",
-    "type": "conference chapter"
+    "type": "conference chapter",
+    "publication_date": "2010",
+    "online_date": null,
+    "print_date": "2010",
+    "volume": null,
+    "issue": null,
+    "pages": "120-128",
+    "article_number": null,
+    "publisher": "Springer Berlin Heidelberg",
+    "issn": [
+      "1865-0929",
+      "1865-0937"
+    ],
+    "isbn": [
+      "9783642160318",
+      "9783642160325"
+    ],
+    "crossref_type": "book-chapter"
   },
   "publication_type": "conference chapter",
   "status": "published_with_public_full_text",
@@ -24,8 +58,34 @@
   "abstract": null,
   "abstract_source": null,
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper combines automated Persian-news categorization with a web system for retrieving similar news items.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Private full PDF evidence note: pdf-evidence/notes/parallel-batch-04-new-approach-for-automated-categorizing-and-finding-similarities-in-online-persian-news.md"
+      },
+      {
+        "note": "Springer version-of-record metadata: https://link.springer.com/chapter/10.1007/978-3-642-16032-5_11"
+      },
+      {
+        "note": "Public conference copy: https://bilgiyonetimi.net/by2010/bildiriler/jivan.pdf"
+      },
+      {
+        "note": "Local PDF hash verified: 93BD457A0C3B4C8FA6AC470421D8A0535166BDA5D5E688635FC7E7FED7CAFF64"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper combines automated Persian-news categorization with a web system for retrieving similar news items.",
     "problem": "Online Persian news requires automatic category assignment and retrieval of related items, but the paper notes that no standard similarity test bench or universally accepted similarity measure was available (p. 61, abstract; pp. 62-63).",
@@ -94,7 +154,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Private full PDF evidence note: pdf-evidence/notes/parallel-batch-04-new-approach-for-automated-categorizing-and-finding-similarities-in-online-persian-news.md",
       "Springer version-of-record metadata: https://link.springer.com/chapter/10.1007/978-3-642-16032-5_11",
@@ -110,6 +170,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

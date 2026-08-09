@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "hybridrca-critical-path-aware-tracing",
   "page_url": "https://naser.github.io/research-publications/papers/hybridrca-critical-path-aware-tracing/",
   "title": "HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices",
@@ -11,10 +11,48 @@
     "Naser Ezzati-Jivan",
     "Maxime Lamothe"
   ],
+  "author_details": [
+    {
+      "name": "Maryam Ekhlasi",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/409/3420.html"
+    },
+    {
+      "name": "Arnaud Fiorini",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/330/2202.html"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Maxime Lamothe",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/223/4602.html"
+    }
+  ],
   "publication": {
     "year": 2025,
     "venue": "IEEE International Conference on Software Maintenance and Evolution (ICSME)",
-    "type": "research paper"
+    "type": "conference paper",
+    "publication_date": "2025-09-07",
+    "online_date": null,
+    "print_date": "2025-09-07",
+    "volume": null,
+    "issue": null,
+    "pages": "553-564",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -26,8 +64,40 @@
   "abstract": null,
   "abstract_source": "HybridRCA published-paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "HybridRCA combines critical-path-aware span analysis with targeted kernel metrics to reduce production trace volume while preserving root-cause localization evidence.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP/DOI bibliographic record for 10.1109/icsme64153.2025.00056"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "HybridRCA PDF pp. 1-6: critical-path extraction, Personalized PageRank, weighted spectrum analysis, targeted metrics, and clock synchronization"
+      },
+      {
+        "note": "HybridRCA PDF pp. 7-10: LTTng 2.13.9-1 environment, HotROD/TrainTicket/OnlineBoutique/TiDB workloads, injected faults, accuracy, trace-volume, and storage results"
+      },
+      {
+        "note": "HybridRCA PDF p. 10: limitations and future-work boundary"
+      },
+      {
+        "note": "local HybridRCA PDF hash verified in pdf-evidence/notes/hybridrca-critical-path-aware-tracing.md and pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "HybridRCA combines critical-path-aware span analysis with targeted kernel metrics to reduce production trace volume while preserving root-cause localization evidence.",
     "problem": "Production microservices generate too many spans and low-level events for full-granularity storage and diagnosis, yet root-cause analysis still needs evidence about the execution context that causes latency.",
@@ -90,7 +160,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/icsme64153.2025.00056",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -108,6 +178,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

@@ -1,4 +1,4 @@
-TY  - GEN
+TY  - JOUR
 AU  - Ekhlasi, Maryam
 AU  - Daneshgar, Fatemeh Faraji
 AU  - Dagenais, Michel
@@ -8,6 +8,11 @@ AU  - Khouzam, Matthew
 TI  - DTraComp: Comparing distributed execution traces for understanding intermittent latency sources
 PY  - 2026
 T2  - Journal of Systems and Software
+VL  - 241
+SP  - 112990
+AN  - 112990
+PB  - Elsevier BV
+SN  - 0164-1212
 DO  - 10.1016/j.jss.2026.112990
 UR  - https://doi.org/10.1016/j.jss.2026.112990
 ER  -

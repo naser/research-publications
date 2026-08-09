@@ -1,6 +1,6 @@
 # Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing
 
-**2021 | International Journal of Parallel Programming | research paper**
+**2021 | International Journal of Parallel Programming | journal article**
 
 **Authors:** Raphael Beamonte, Naser Ezzati-Jivan, Michel R. Dagenais
 
@@ -58,18 +58,23 @@ Cite this paper when generating model-based real-time constraints or using user-
 
 ### APA 7
 
-Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing. International Journal of Parallel Programming. https://doi.org/10.1007/s10766-020-00689-5
+Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing. International Journal of Parallel Programming, 49(1), 104-134. https://doi.org/10.1007/s10766-020-00689-5
 
 ### IEEE
 
-R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing," in International Journal of Parallel Programming, 2021, doi: 10.1007/s10766-020-00689-5
+R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing," International Journal of Parallel Programming, vol. 49, no. 1, pp. 104-134, 2021, doi: 10.1007/s10766-020-00689-5
 
 ```bibtex
-@inproceedings{ezzatiJivan2021automatedgeneration,
+@article{ezzatiJivan2021automatedgeneration,
   author = {Raphael Beamonte and Naser Ezzati-Jivan and Michel R. Dagenais},
   title = {Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing},
   year = {2021},
-  booktitle = {International Journal of Parallel Programming},
+  journal = {International Journal of Parallel Programming},
+  volume = {49},
+  number = {1},
+  pages = {104-134},
+  publisher = {Springer Science and Business Media LLC},
+  issn = {0885-7458, 1573-7640},
   doi = {10.1007/s10766-020-00689-5},
   url = {https://doi.org/10.1007/s10766-020-00689-5}
 }
@@ -79,7 +84,7 @@ R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Automated Generation of Model
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1007/s10766-020-00689-5; author identity matched to Naser Ezzati-Jivan in the local research catalog; Model-constraints PDF pp. 1-2, 5-17: user-space/kernel scope, LTTng cyclictest case, per-thread/LCS workflow generation, adaptive constraints, and case-study detections; Model-constraints PDF pp. 21-30: hardware, trace sizes, runtime/scalability, and full-cyclictest approximately 7-minute result; Model-constraints PDF p. 30: limitation and future-work boundary; local model-constraints PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

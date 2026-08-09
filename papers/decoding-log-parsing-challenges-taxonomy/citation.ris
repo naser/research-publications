@@ -8,6 +8,9 @@ TI  - Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable S
 PY  - 2024
 T2  - 2024 ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE Companion)
 AB  - The official poster abstract reports a study of log-parsing challenges across 16 datasets and eight parsing tools; the detailed taxonomy and evaluation were not captured.
+SP  - 392
+EP  - 393
+PB  - ACM
 DO  - 10.1145/3639478.3643523
 UR  - https://doi.org/10.1145/3639478.3643523
 ER  -

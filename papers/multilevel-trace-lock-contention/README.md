@@ -1,6 +1,6 @@
 # Multi-Level Execution Trace Based Lock Contention Analysis
 
-**2020 | IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW) | research paper**
+**2020 | IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW) | conference paper**
 
 **Authors:** Majid Rezazadeh, Naser Ezzati-Jivan, Evan Galea, Michel R. Dagenais
 
@@ -58,11 +58,11 @@ Cite this paper when diagnosing lock contention across kernel and user-space syn
 
 ### APA 7
 
-Rezazadeh, M., Ezzati-Jivan, N., Galea, E., & Dagenais, M. R. (2020). Multi-Level Execution Trace Based Lock Contention Analysis. IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW). https://doi.org/10.1109/issrew51248.2020.00068
+Rezazadeh, M., Ezzati-Jivan, N., Galea, E., & Dagenais, M. R. (2020). Multi-Level Execution Trace Based Lock Contention Analysis. In IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW) (pp. 177-182). https://doi.org/10.1109/issrew51248.2020.00068
 
 ### IEEE
 
-M. Rezazadeh, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Multi-Level Execution Trace Based Lock Contention Analysis," in IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), 2020, doi: 10.1109/issrew51248.2020.00068
+M. Rezazadeh, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Multi-Level Execution Trace Based Lock Contention Analysis," in IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), pp. 177-182, 2020, doi: 10.1109/issrew51248.2020.00068
 
 ```bibtex
 @inproceedings{ezzatiJivan2020multilevel,
@@ -70,6 +70,8 @@ M. Rezazadeh, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Multi-Level Execut
   title = {Multi-Level Execution Trace Based Lock Contention Analysis},
   year = {2020},
   booktitle = {IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)},
+  pages = {177-182},
+  publisher = {IEEE},
   doi = {10.1109/issrew51248.2020.00068},
   url = {https://doi.org/10.1109/issrew51248.2020.00068}
 }
@@ -79,7 +81,7 @@ M. Rezazadeh, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Multi-Level Execut
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068; author identity matched to Naser Ezzati-Jivan in the local research catalog; Lock-contention PDF pp. 1-4: LTTng 2.10, Trace Compass 4, LD_PRELOAD Pthreads wrappers, event sets, state system, graph, and active-path algorithm; Lock-contention PDF pp. 4-6: visualization views, C++/Pthreads overhead, Apache/OPcache case, and analysis boundary; local lock-contention PDF hash verified in pdf-evidence/notes/multilevel-trace-lock-contention.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

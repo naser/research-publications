@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "assessing-predictive-models-energy-consumption-software",
   "page_url": "https://naser.github.io/research-publications/papers/assessing-predictive-models-energy-consumption-software/",
   "title": "Assessing Predictive Models for Energy Consumption Across Varied Software Environments",
@@ -10,10 +10,43 @@
     "Leila Tahmooresnejad",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Tong Zhang",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/07/4227.html"
+    },
+    {
+      "name": "Sarwat Islam Dipanzan",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/397/8548.html"
+    },
+    {
+      "name": "Leila Tahmooresnejad",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/156/2580.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2024,
     "venue": "2024 IEEE International Conference on Big Data (BigData)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2024-12-15",
+    "online_date": null,
+    "print_date": "2024-12-15",
+    "volume": null,
+    "issue": null,
+    "pages": "5233-5242",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -25,8 +58,31 @@
   "abstract": null,
   "abstract_source": null,
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The verified record identifies this work as a 2024 IEEE Big Data paper on software energy prediction, but the full technical contribution was not available in the captured sources.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "IEEE record: https://ieeexplore.ieee.org/document/10825500/"
+      },
+      {
+        "note": "DOI: https://doi.org/10.1109/BigData62323.2024.10825500"
+      },
+      {
+        "note": "Private evidence note: papers/assessing-predictive-models-for-energy-consumption-across-varied-software-environments-1da35b5bb9/pdf-evidence/notes/parallel-batch-01-energy-consumption-software-environments.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The verified record identifies this work as a 2024 IEEE Big Data paper on software energy prediction, but the full technical contribution was not available in the captured sources.",
     "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
@@ -90,7 +146,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "IEEE record: https://ieeexplore.ieee.org/document/10825500/",
       "DOI: https://doi.org/10.1109/BigData62323.2024.10825500",
@@ -105,6 +161,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

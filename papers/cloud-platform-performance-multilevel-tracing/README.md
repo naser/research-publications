@@ -1,6 +1,6 @@
 # Cloud Platform Performance Evaluation Using Multi-level Execution Tracing
 
-**2020 | IEEE Internet of Things, GreenCom, CPSCom and SmartData | research paper**
+**2020 | IEEE Internet of Things, GreenCom, CPSCom and SmartData | conference paper**
 
 **Authors:** Yves J. Bationo, Naser Ezzati-Jivan, Evan Galea, Michel R. Dagenais
 
@@ -58,11 +58,11 @@ Cite this paper when correlating OpenStack, virtualization, network, and host-ke
 
 ### APA 7
 
-Bationo, Y. J., Ezzati-Jivan, N., Galea, E., & Dagenais, M. R. (2020). Cloud Platform Performance Evaluation Using Multi-level Execution Tracing. IEEE Internet of Things, GreenCom, CPSCom and SmartData. https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063
+Bationo, Y. J., Ezzati-Jivan, N., Galea, E., & Dagenais, M. R. (2020). Cloud Platform Performance Evaluation Using Multi-level Execution Tracing. In IEEE Internet of Things, GreenCom, CPSCom and SmartData (pp. 294-299). https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063
 
 ### IEEE
 
-Y. J. Bationo, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Cloud Platform Performance Evaluation Using Multi-level Execution Tracing," in IEEE Internet of Things, GreenCom, CPSCom and SmartData, 2020, doi: 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063
+Y. J. Bationo, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Cloud Platform Performance Evaluation Using Multi-level Execution Tracing," in IEEE Internet of Things, GreenCom, CPSCom and SmartData, pp. 294-299, 2020, doi: 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063
 
 ```bibtex
 @inproceedings{ezzatiJivan2020cloudplatform,
@@ -70,6 +70,8 @@ Y. J. Bationo, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Cloud Platform Pe
   title = {Cloud Platform Performance Evaluation Using Multi-level Execution Tracing},
   year = {2020},
   booktitle = {IEEE Internet of Things, GreenCom, CPSCom and SmartData},
+  pages = {294-299},
+  publisher = {IEEE},
   doi = {10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063},
   url = {https://doi.org/10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063}
 }
@@ -79,7 +81,7 @@ Y. J. Bationo, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Cloud Platform Pe
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063; author identity matched to Naser Ezzati-Jivan in the local research catalog; Cloud platform PDF pp. 1-5: LTTng/LTTng-UST, Nova/QEMU/KVM/Neutron/Open vSwitch tracing, correlation, and Trace Compass views; Cloud platform PDF pp. 5-6: live-migration procedure, 166.12/169.320-second results, preemption and VM-interference diagnosis; Cloud platform PDF p. 6: conclusion and future-work boundary; local cloud-platform PDF hash verified in pdf-evidence/notes/cloud-platform-performance-multilevel-tracing.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

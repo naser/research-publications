@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Zhang, T., Tahmooresnejad, L., & Ezzati-Jivan, N. (2025). Energy Consumption Analysis of Large Language Models Across CPU and GPU Using Diverse Metric Types. 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON). https://doi.org/10.1109/CASCON66301.2025.00056
+Zhang, T., Tahmooresnejad, L., & Ezzati-Jivan, N. (2025). Energy Consumption Analysis of Large Language Models Across CPU and GPU Using Diverse Metric Types. In 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON) (pp. 301-310). https://doi.org/10.1109/CASCON66301.2025.00056
 
 ### IEEE
 
-T. Zhang, L. Tahmooresnejad, and N. Ezzati-Jivan, "Energy Consumption Analysis of Large Language Models Across CPU and GPU Using Diverse Metric Types," in 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON), 2025, doi: 10.1109/CASCON66301.2025.00056
+T. Zhang, L. Tahmooresnejad, and N. Ezzati-Jivan, "Energy Consumption Analysis of Large Language Models Across CPU and GPU Using Diverse Metric Types," in 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON), pp. 301-310, 2025, doi: 10.1109/CASCON66301.2025.00056
 
 ```bibtex
 @inproceedings{ezzatiJivan2025energyconsumption,
@@ -70,6 +70,8 @@ T. Zhang, L. Tahmooresnejad, and N. Ezzati-Jivan, "Energy Consumption Analysis o
   title = {Energy Consumption Analysis of Large Language Models Across CPU and GPU Using Diverse Metric Types},
   year = {2025},
   booktitle = {2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)},
+  pages = {301-310},
+  publisher = {IEEE},
   doi = {10.1109/CASCON66301.2025.00056},
   url = {https://doi.org/10.1109/CASCON66301.2025.00056}
 }
@@ -79,7 +81,7 @@ T. Zhang, L. Tahmooresnejad, and N. Ezzati-Jivan, "Energy Consumption Analysis o
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344465/; DOI: https://doi.org/10.1109/CASCON66301.2025.00056; Public abstract metadata mirror: https://eurekamag.com/research/104/995/104995729.php; Private evidence report: reports/agent-batch-01.md
 - Machine-readable record: [paper.json](./paper.json)

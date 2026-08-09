@@ -1,9 +1,14 @@
-TY  - GEN
+TY  - JOUR
 AU  - Noferesti, Morteza
 AU  - Ezzati-Jivan, Naser
 TI  - Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach
 PY  - 2024
 T2  - Journal of Systems and Software
+VL  - 216
+SP  - 112117
+AN  - 112117
+PB  - Elsevier BV
+SN  - 0164-1212
 DO  - 10.1016/j.jss.2024.112117
 UR  - https://doi.org/10.1016/j.jss.2024.112117
 ER  -

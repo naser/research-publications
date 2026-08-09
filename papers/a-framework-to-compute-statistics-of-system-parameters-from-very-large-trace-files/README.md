@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares granularity-degree-controlled, d
 
 ### APA 7
 
-Ezzati-Jivan, N., & Dagenais, M. R. (2013). A Framework to Compute Statistics of System Parameters from Very Large Trace Files. ACM SIGOPS Operating Systems Review. https://doi.org/10.1145/2433140.2433151
+Ezzati-Jivan, N., & Dagenais, M. R. (2013). A Framework to Compute Statistics of System Parameters from Very Large Trace Files. ACM SIGOPS Operating Systems Review, 47(1), 43-54. https://doi.org/10.1145/2433140.2433151
 
 ### IEEE
 
-N. Ezzati-Jivan and M. R. Dagenais, "A Framework to Compute Statistics of System Parameters from Very Large Trace Files," ACM SIGOPS Operating Systems Review, 2013, doi: 10.1145/2433140.2433151
+N. Ezzati-Jivan and M. R. Dagenais, "A Framework to Compute Statistics of System Parameters from Very Large Trace Files," ACM SIGOPS Operating Systems Review, vol. 47, no. 1, pp. 43-54, 2013, doi: 10.1145/2433140.2433151
 
 ```bibtex
 @article{ezzatiJivan2013aframework,
@@ -72,6 +72,11 @@ N. Ezzati-Jivan and M. R. Dagenais, "A Framework to Compute Statistics of System
   title = {A Framework to Compute Statistics of System Parameters from Very Large Trace Files},
   year = {2013},
   journal = {ACM SIGOPS Operating Systems Review},
+  volume = {47},
+  number = {1},
+  pages = {43-54},
+  publisher = {Association for Computing Machinery (ACM)},
+  issn = {0163-5980},
   doi = {10.1145/2433140.2433151},
   url = {https://doi.org/10.1145/2433140.2433151}
 }
@@ -81,7 +86,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "A Framework to Compute Statistics of System
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Statistics framework PDF: LTTng/Linux 2.6.38.6, Java history/resource trees, granularity degree, interpolation, and query bounds; Statistics framework PDF: 1-40 GB traces, GD 1/100/500/1000, 20-run/100-interval query experiment, disk-size comparison, and hierarchy analysis; Statistics framework PDF: interpolation/precision, storage, online-construction limitations, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

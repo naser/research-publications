@@ -11,6 +11,7 @@
     "title",
     "title_variants",
     "authors",
+    "author_details",
     "publication",
     "publication_type",
     "status",
@@ -20,8 +21,10 @@
     "abstract",
     "abstract_source",
     "abstract_available",
+    "scholar_eligibility",
     "description",
     "evidence_level",
+    "evidence",
     "summary",
     "tags",
     "keywords",
@@ -34,7 +37,7 @@
   ],
   "properties": {
     "schema_version": {
-      "const": "0.4.0"
+      "const": "0.6.0"
     },
     "paper_id": {
       "type": "string",
@@ -64,13 +67,45 @@
         "minLength": 1
       }
     },
+    "author_details": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "orcid",
+          "profile_url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "orcid": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "profile_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
     "publication": {
       "type": "object",
       "additionalProperties": false,
       "required": [
         "year",
         "venue",
-        "type"
+        "type",
+        "publication_date"
       ],
       "properties": {
         "year": {
@@ -85,6 +120,74 @@
         "type": {
           "type": "string",
           "minLength": 1
+        },
+        "publication_date": {
+          "type": "string",
+          "minLength": 4
+        },
+        "online_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "print_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "volume": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pages": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "article_number": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publisher": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issn": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "isbn": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "crossref_type": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },
@@ -149,6 +252,30 @@
     "abstract_available": {
       "type": "boolean"
     },
+    "scholar_eligibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "eligible",
+        "basis",
+        "note"
+      ],
+      "properties": {
+        "eligible": {
+          "type": "boolean"
+        },
+        "basis": {
+          "enum": [
+            "complete-visible-author-abstract",
+            "not-eligible"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
     "description": {
       "type": "string",
       "minLength": 1
@@ -158,6 +285,60 @@
         "full-text-reviewed",
         "metadata-or-abstract-reviewed"
       ]
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_basis",
+        "coverage",
+        "summary_origin",
+        "review_status",
+        "verified_on",
+        "sources"
+      ],
+      "properties": {
+        "source_basis": {
+          "enum": [
+            "full-text-reviewed",
+            "abstract-and-metadata-reviewed",
+            "metadata-only"
+          ]
+        },
+        "coverage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary_origin": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verified_on": {
+          "type": "string",
+          "minLength": 10
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "note"
+            ],
+            "properties": {
+              "note": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
     },
     "summary": {
       "type": "object",

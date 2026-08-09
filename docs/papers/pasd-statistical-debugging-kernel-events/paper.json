@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "pasd-statistical-debugging-kernel-events",
   "page_url": "https://naser.github.io/research-publications/papers/pasd-statistical-debugging-kernel-events/",
   "title": "PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events",
@@ -9,10 +9,38 @@
     "Morteza Noferesti",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Mohammed Adib Khan",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/354/3075.html"
+    },
+    {
+      "name": "Morteza Noferesti",
+      "orcid": "https://orcid.org/0009-0000-5507-1461",
+      "profile_url": "https://dblp.org/pid/82/10462.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2023,
     "venue": "IEEE Working Conference on Source Code Analysis and Manipulation (SCAM)",
-    "type": "research paper"
+    "type": "conference paper",
+    "publication_date": "2023-10-02",
+    "online_date": null,
+    "print_date": "2023-10-02",
+    "volume": null,
+    "issue": null,
+    "pages": "151-161",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -24,8 +52,40 @@
   "abstract": null,
   "abstract_source": "PASD published-paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "PASD uses Linux kernel-event traces, Perf call stacks, and statistical debugging to rank functions associated with performance problems without application-source instrumentation.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP/DOI bibliographic record for 10.1109/scam59687.2023.00025"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "PASD PDF pp. 1-5: kernel-event tracing, Perf call stacks, metric thresholds, statistical debugging, and suspect ranking"
+      },
+      {
+        "note": "PASD PDF pp. 6-9: Firefox and ls cases, reported functions, data volumes, and offline analysis cost"
+      },
+      {
+        "note": "PASD PDF pp. 9-10: limitations and future-work boundary"
+      },
+      {
+        "note": "local PASD PDF hash verified in pdf-evidence/notes/pasd-statistical-debugging-kernel-events.md and pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "PASD uses Linux kernel-event traces, Perf call stacks, and statistical debugging to rank functions associated with performance problems without application-source instrumentation.",
     "problem": "Application instrumentation may be unavailable or intrusive, while kernel-event behavior and call stacks contain evidence about functions correlated with performance degradation.",
@@ -87,7 +147,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/scam59687.2023.00025",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -105,6 +165,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

@@ -1,10 +1,13 @@
-TY  - GEN
+TY  - CONF
 AU  - Khan, Mohammed Adib
 AU  - Noferesti, Morteza
 AU  - Ezzati-Jivan, Naser
 TI  - PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events
 PY  - 2023
 T2  - IEEE Working Conference on Source Code Analysis and Manipulation (SCAM)
+SP  - 151
+EP  - 161
+PB  - IEEE
 DO  - 10.1109/scam59687.2023.00025
 UR  - https://doi.org/10.1109/scam59687.2023.00025
 ER  -

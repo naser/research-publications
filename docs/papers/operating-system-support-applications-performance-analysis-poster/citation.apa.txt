@@ -1,1 +1,1 @@
-VanDonge, R., & Ezzati-Jivan, N. (2022). Poster Paper: Operating System Support for Applications Performance Analysis. 2022 IEEE International Conference on Cloud Engineering (IC2E). https://doi.org/10.1109/IC2E55432.2022.00039
+VanDonge, R., & Ezzati-Jivan, N. (2022). Poster Paper: Operating System Support for Applications Performance Analysis. In 2022 IEEE International Conference on Cloud Engineering (IC2E) (pp. 279-280). https://doi.org/10.1109/IC2E55432.2022.00039

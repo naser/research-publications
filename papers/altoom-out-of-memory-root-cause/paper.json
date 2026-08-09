@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "altoom-out-of-memory-root-cause",
   "page_url": "https://naser.github.io/research-publications/papers/altoom-out-of-memory-root-cause/",
   "title": "AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy",
@@ -10,10 +10,43 @@
     "Vahid Azhari",
     "François Tetreault"
   ],
+  "author_details": [
+    {
+      "name": "Pranjal Chakraborty",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/367/0073.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Vahid Azhari",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "François Tetreault",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/288/0256.html"
+    }
+  ],
   "publication": {
     "year": 2023,
     "venue": "IEEE International Conference on Big Data",
-    "type": "research paper"
+    "type": "conference paper",
+    "publication_date": "2023-12-15",
+    "online_date": null,
+    "print_date": "2023-12-15",
+    "volume": null,
+    "issue": null,
+    "pages": "1637-1646",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -25,8 +58,34 @@
   "abstract": null,
   "abstract_source": "AltOOM published-paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "AltOOM combines early memory-pressure forecasting with selective process-level profiling to identify the process most responsible for an impending out-of-memory event.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "AltOOM PDF pp. 1, 4-10: perf/sar collection, 34 metrics, 85% threshold, prediction models, burst ranking, evaluation tables, limitations, and future work"
+      },
+      {
+        "note": "local AltOOM PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "AltOOM combines early memory-pressure forecasting with selective process-level profiling to identify the process most responsible for an impending out-of-memory event.",
     "problem": "Linux's reactive OOM killer can terminate a high-memory process even when a lower-memory process is the one whose memory usage is growing; resource-constrained systems need earlier warning and lower-overhead process attribution.",
@@ -84,7 +143,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -100,6 +159,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

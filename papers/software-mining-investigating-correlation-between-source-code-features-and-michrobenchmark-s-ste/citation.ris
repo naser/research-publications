@@ -4,6 +4,9 @@ AU  - Ezzati-Jivan, Naser
 TI  - Software Mining - Investigating Correlation between Source Code Features and Michrobenchmark's Steady State
 PY  - 2023
 T2  - Companion of the 2023 ACM/SPEC International Conference on Performance Engineering (ICPE '23 Companion)
+SP  - 107
+EP  - 111
+PB  - ACM
 DO  - 10.1145/3578245.3584695
 UR  - https://doi.org/10.1145/3578245.3584695
 ER  -

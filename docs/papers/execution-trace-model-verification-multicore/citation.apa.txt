@@ -1,1 +1,1 @@
-Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2022). Execution trace-based model verification to analyze multicore and real-time systems. Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.6974
+Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2022). Execution trace-based model verification to analyze multicore and real-time systems. Concurrency and Computation: Practice and Experience, 34(17), e6974. https://doi.org/10.1002/cpe.6974

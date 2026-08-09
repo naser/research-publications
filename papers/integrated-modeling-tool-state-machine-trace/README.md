@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Delisle, S., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Integrated Modeling Tool for Indexing and Analyzing State Machine Trace. 2021 IEEE International Symposium on Networks, Computers and Communications (ISNCC). https://doi.org/10.1109/ISNCC52172.2021.9615814
+Delisle, S., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Integrated Modeling Tool for Indexing and Analyzing State Machine Trace. In 2021 IEEE International Symposium on Networks, Computers and Communications (ISNCC) (pp. 1-8). https://doi.org/10.1109/ISNCC52172.2021.9615814
 
 ### IEEE
 
-S. Delisle, N. Ezzati-Jivan, and M. R. Dagenais, "Integrated Modeling Tool for Indexing and Analyzing State Machine Trace," in 2021 IEEE International Symposium on Networks, Computers and Communications (ISNCC), 2021, doi: 10.1109/ISNCC52172.2021.9615814
+S. Delisle, N. Ezzati-Jivan, and M. R. Dagenais, "Integrated Modeling Tool for Indexing and Analyzing State Machine Trace," in 2021 IEEE International Symposium on Networks, Computers and Communications (ISNCC), pp. 1-8, 2021, doi: 10.1109/ISNCC52172.2021.9615814
 
 ```bibtex
 @inproceedings{ezzatiJivan2021integratedmodeling,
@@ -70,6 +70,8 @@ S. Delisle, N. Ezzati-Jivan, and M. R. Dagenais, "Integrated Modeling Tool for I
   title = {Integrated Modeling Tool for Indexing and Analyzing State Machine Trace},
   year = {2021},
   booktitle = {2021 IEEE International Symposium on Networks, Computers and Communications (ISNCC)},
+  pages = {1-8},
+  publisher = {IEEE},
   doi = {10.1109/ISNCC52172.2021.9615814},
   url = {https://doi.org/10.1109/ISNCC52172.2021.9615814}
 }
@@ -79,7 +81,7 @@ S. Delisle, N. Ezzati-Jivan, and M. R. Dagenais, "Integrated Modeling Tool for I
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814; DBLP record: https://dblp.org/rec/conf/isncc/DelisleED21; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

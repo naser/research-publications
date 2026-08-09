@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "integrated-modeling-tool-state-machine-trace",
   "page_url": "https://naser.github.io/research-publications/papers/integrated-modeling-tool-state-machine-trace/",
   "title": "Integrated Modeling Tool for Indexing and Analyzing State Machine Trace",
@@ -9,10 +9,38 @@
     "Naser Ezzati-Jivan",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Simon Delisle",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/308/0441.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2021,
     "venue": "2021 IEEE International Symposium on Networks, Computers and Communications (ISNCC)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2021-10-31",
+    "online_date": null,
+    "print_date": "2021-10-31",
+    "volume": null,
+    "issue": null,
+    "pages": "1-8",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -24,8 +52,31 @@
   "abstract": "The accessible abstract describes a modeled state representation with a special-purpose database, filtering/highlighting, and Gantt/XY views for Linux and Windows traces.",
   "abstract_source": "Abstract mirror and authoritative metadata, paraphrased; full text not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The accessible abstract describes a modeled state representation with a special-purpose database, filtering/highlighting, and Gantt/XY views for Linux and Windows traces.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/isncc/DelisleED21"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-03.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The abstract presents an integrated tool for indexing, querying, and visualizing state-machine traces.",
     "problem": "Large state-machine traces need structured indexing and interactive views so analysts can filter and inspect state intervals efficiently.",
@@ -90,7 +141,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814",
       "DBLP record: https://dblp.org/rec/conf/isncc/DelisleED21",
@@ -105,6 +156,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

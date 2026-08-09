@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares a 30-characteristic log-event ta
 
 ### APA 7
 
-Sedki, I., Hamou-Lhadj, A., Mohamed, O. A., & Ezzati-Jivan, N. (2025). Developing a Taxonomy for Advanced Log Parsing Techniques. IEEE International Conference on Program Comprehension (ICPC). https://doi.org/10.1109/ICPC66645.2025.00061
+Sedki, I., Hamou-Lhadj, A., Mohamed, O. A., & Ezzati-Jivan, N. (2025). Developing a Taxonomy for Advanced Log Parsing Techniques. In IEEE International Conference on Program Comprehension (ICPC) (pp. 01-12). https://doi.org/10.1109/ICPC66645.2025.00061
 
 ### IEEE
 
-I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Developing a Taxonomy for Advanced Log Parsing Techniques," in IEEE International Conference on Program Comprehension (ICPC), 2025, doi: 10.1109/ICPC66645.2025.00061
+I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Developing a Taxonomy for Advanced Log Parsing Techniques," in IEEE International Conference on Program Comprehension (ICPC), pp. 01-12, 2025, doi: 10.1109/ICPC66645.2025.00061
 
 ```bibtex
 @inproceedings{ezzatiJivan2025developinga,
@@ -72,6 +72,8 @@ I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Developing a Taxo
   title = {Developing a Taxonomy for Advanced Log Parsing Techniques},
   year = {2025},
   booktitle = {IEEE International Conference on Program Comprehension (ICPC)},
+  pages = {01-12},
+  publisher = {IEEE},
   doi = {10.1109/ICPC66645.2025.00061},
   url = {https://doi.org/10.1109/ICPC66645.2025.00061}
 }
@@ -81,7 +83,7 @@ I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Developing a Taxo
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPC taxonomy PDF: 16 LogHub datasets, 32,000 labelled events, eight parsers, 30 characteristics, and three taxonomy categories; ICPC taxonomy PDF: parser error counts, difficult token patterns, chi-square/effect-size results, and IPv6 exception; ICPC taxonomy PDF: limitations and hybrid/adaptive-parser future directions; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

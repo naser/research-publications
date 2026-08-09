@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares request-level causal anomaly det
 
 ### APA 7
 
-Fournier, Q., Ezzati-Jivan, N., Aloise, D., & Dagenais, M. R. (2019). Automatic Cause Detection of Performance Problems in Web Applications. IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW). https://doi.org/10.1109/ISSREW.2019.00102
+Fournier, Q., Ezzati-Jivan, N., Aloise, D., & Dagenais, M. R. (2019). Automatic Cause Detection of Performance Problems in Web Applications. In IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW) (pp. 398-405). https://doi.org/10.1109/ISSREW.2019.00102
 
 ### IEEE
 
-Q. Fournier, N. Ezzati-Jivan, D. Aloise, and M. R. Dagenais, "Automatic Cause Detection of Performance Problems in Web Applications," in IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), 2019, doi: 10.1109/ISSREW.2019.00102
+Q. Fournier, N. Ezzati-Jivan, D. Aloise, and M. R. Dagenais, "Automatic Cause Detection of Performance Problems in Web Applications," in IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), pp. 398-405, 2019, doi: 10.1109/ISSREW.2019.00102
 
 ```bibtex
 @inproceedings{ezzatiJivan2019automaticcause,
@@ -72,6 +72,8 @@ Q. Fournier, N. Ezzati-Jivan, D. Aloise, and M. R. Dagenais, "Automatic Cause De
   title = {Automatic Cause Detection of Performance Problems in Web Applications},
   year = {2019},
   booktitle = {IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)},
+  pages = {398-405},
+  publisher = {IEEE},
   doi = {10.1109/ISSREW.2019.00102},
   url = {https://doi.org/10.1109/ISSREW.2019.00102}
 }
@@ -81,7 +83,7 @@ Q. Fournier, N. Ezzati-Jivan, D. Aloise, and M. R. Dagenais, "Automatic Cause De
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2103.04954; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

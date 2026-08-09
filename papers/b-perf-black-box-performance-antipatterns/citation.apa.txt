@@ -1,1 +1,1 @@
-Noferesti, M., Panahandeh, M., & Ezzati-Jivan, N. (2026). B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3777884.3797014
+Noferesti, M., Panahandeh, M., & Ezzati-Jivan, N. (2026). B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing. In ACM/SPEC International Conference on Performance Engineering (ICPE) (pp. 96-107). https://doi.org/10.1145/3777884.3797014

@@ -5,6 +5,9 @@ AU  - Ezzati-Jivan, Naser
 TI  - Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models
 PY  - 2025
 T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+SP  - 105
+EP  - 112
+PB  - ACM
 DO  - 10.1145/3676151.3719379
 UR  - https://doi.org/10.1145/3676151.3719379
 ER  -

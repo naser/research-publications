@@ -62,11 +62,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 - Time-Series Trend-Based Multi-Level Adaptive Execution Tracing for Performance Analysis
 ### APA 7
 
-Khan, M. A., & Ezzati-Jivan, N. (2023). Multi-level Adaptive Execution Tracing for Efficient Performance Analysis. 2023 IEEE International Conference on Software Engineering and Research (SERA). https://doi.org/10.1109/SERA57763.2023.10197790
+Khan, M. A., & Ezzati-Jivan, N. (2023). Multi-level Adaptive Execution Tracing for Efficient Performance Analysis. In 2023 IEEE International Conference on Software Engineering and Research (SERA) (pp. 104-109). https://doi.org/10.1109/SERA57763.2023.10197790
 
 ### IEEE
 
-M. A. Khan and N. Ezzati-Jivan, "Multi-level Adaptive Execution Tracing for Efficient Performance Analysis," in 2023 IEEE International Conference on Software Engineering and Research (SERA), 2023, doi: 10.1109/SERA57763.2023.10197790
+M. A. Khan and N. Ezzati-Jivan, "Multi-level Adaptive Execution Tracing for Efficient Performance Analysis," in 2023 IEEE International Conference on Software Engineering and Research (SERA), pp. 104-109, 2023, doi: 10.1109/SERA57763.2023.10197790
 
 ```bibtex
 @inproceedings{ezzatiJivan2023multilevel,
@@ -74,6 +74,8 @@ M. A. Khan and N. Ezzati-Jivan, "Multi-level Adaptive Execution Tracing for Effi
   title = {Multi-level Adaptive Execution Tracing for Efficient Performance Analysis},
   year = {2023},
   booktitle = {2023 IEEE International Conference on Software Engineering and Research (SERA)},
+  pages = {104-109},
+  publisher = {IEEE},
   doi = {10.1109/SERA57763.2023.10197790},
   url = {https://doi.org/10.1109/SERA57763.2023.10197790}
 }
@@ -83,7 +85,7 @@ M. A. Khan and N. Ezzati-Jivan, "Multi-level Adaptive Execution Tracing for Effi
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/SERA57763.2023.10197790; DBLP record: https://dblp.org/rec/conf/sera/KhanE23; SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

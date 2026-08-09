@@ -1,1 +1,1 @@
-Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing. International Journal of Parallel Programming. https://doi.org/10.1007/s10766-020-00689-5
+Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2021). Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing. International Journal of Parallel Programming, 49(1), 104-134. https://doi.org/10.1007/s10766-020-00689-5

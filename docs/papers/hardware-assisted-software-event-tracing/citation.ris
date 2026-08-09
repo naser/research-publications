@@ -1,10 +1,16 @@
-TY  - GEN
+TY  - JOUR
 AU  - Vergé, Adrien
 AU  - Ezzati-Jivan, Naser
 AU  - Dagenais, Michel R.
 TI  - Hardware-Assisted Software Event Tracing
 PY  - 2017
 T2  - Concurrency and Computation: Practice and Experience
+VL  - 29
+IS  - 10
+AN  - e4069
+PB  - Wiley
+SN  - 1532-0626
+SN  - 1532-0634
 DO  - 10.1002/cpe.4069
 UR  - https://doi.org/10.1002/cpe.4069
 ER  -

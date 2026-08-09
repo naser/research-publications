@@ -8,6 +8,12 @@ TI  - Multi-level Host-based Intrusion Detection System for Internet of Things
 PY  - 2020
 T2  - Journal of Cloud Computing
 AB  - The paper presents a host-based IoT intrusion-detection framework that combines user- and kernel-space traces with machine-learning classifiers.
+VL  - 9
+IS  - 1
+SP  - 62
+AN  - 62
+PB  - Springer Science and Business Media LLC
+SN  - 2192-113X
 DO  - 10.1186/s13677-020-00206-6
 UR  - https://doi.org/10.1186/s13677-020-00206-6
 ER  -

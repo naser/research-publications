@@ -1,1 +1,1 @@
-Jivan, N. E., Sendi, A. S., Nematbakhsh, N., & Dagenais, M. (2011). High Performance Internet Connection Filtering through an In-Kernel Architecture. Sixth International Conference on Internet Monitoring and Protection (ICIMP 2011). https://publications.polymtl.ca/16917/
+Jivan, N. E., Sendi, A. S., Nematbakhsh, N., & Dagenais, M. (2011). High Performance Internet Connection Filtering through an In-Kernel Architecture. In Sixth International Conference on Internet Monitoring and Protection (ICIMP 2011). https://publications.polymtl.ca/16917/

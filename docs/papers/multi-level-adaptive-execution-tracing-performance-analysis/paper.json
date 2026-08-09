@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "multi-level-adaptive-execution-tracing-performance-analysis",
   "page_url": "https://naser.github.io/research-publications/papers/multi-level-adaptive-execution-tracing-performance-analysis/",
   "title": "Multi-level Adaptive Execution Tracing for Efficient Performance Analysis",
@@ -10,10 +10,33 @@
     "Mohammed Adib Khan",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Mohammed Adib Khan",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/354/3075.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2023,
     "venue": "2023 IEEE International Conference on Software Engineering and Research (SERA)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2023-05-23",
+    "online_date": null,
+    "print_date": "2023-05-23",
+    "volume": null,
+    "issue": null,
+    "pages": "104-109",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -25,8 +48,34 @@
   "abstract": "The available program synopsis describes dynamic kernel/application tracing guided by time-series trends with an emphasis on reducing tracing overhead; the exact trigger logic and evaluation were not captured.",
   "abstract_source": "SERA program and author synopsis, paraphrased; full text not obtained.",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The available program synopsis describes dynamic kernel/application tracing guided by time-series trends with an emphasis on reducing tracing overhead; the exact trigger logic and evaluation were not captured.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DOI: https://doi.org/10.1109/SERA57763.2023.10197790"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/sera/KhanE23"
+      },
+      {
+        "note": "SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-02.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The accessible synopsis identifies a multi-level adaptive tracing approach that changes tracing intensity using time-series performance trends.",
     "problem": "Always-on detailed tracing can impose overhead, while coarse tracing may miss performance changes; adaptive levels aim to balance coverage and cost.",
@@ -91,7 +140,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DOI: https://doi.org/10.1109/SERA57763.2023.10197790",
       "DBLP record: https://dblp.org/rec/conf/sera/KhanE23",
@@ -107,6 +156,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

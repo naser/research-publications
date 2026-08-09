@@ -2,10 +2,10 @@ import { readFile, readdir, stat } from "node:fs/promises";
 import path from "node:path";
 
 const workspace = process.cwd();
-const repoRoot = path.join(workspace, "github-repo");
+const repoRoot = path.resolve(process.env.RESEARCH_CATALOG_ROOT ?? path.join(workspace, "github-repo"));
 const failures = [];
 const warnings = [];
-const expectedSchemaVersion = "0.4.0";
+const expectedSchemaVersion = "0.6.0";
 const siteBase = "https://naser.github.io/research-publications";
 const badEncoding = /(?:[\u00c2\u00c3].|\u00e2[\u0080-\u00bf]|\ufffd)/u;
 
@@ -115,6 +115,7 @@ const requiredRoot = [
   "CITATION.cff",
   "schemas/paper.schema.json",
   "schemas/vocabularies.json",
+  "schemas/crossref-bibliography.json",
   "scripts/validate-github-repo.mjs",
   "docs/index.html",
   "docs/catalog.json",
@@ -124,12 +125,17 @@ const requiredRoot = [
   "docs/.nojekyll",
   "docs/schemas/paper.schema.json",
   "docs/schemas/vocabularies.json",
+  "docs/schemas/crossref-bibliography.json",
   "docs/topics/index.html",
   "docs/keywords/index.html"
 ];
 
 for (const relative of requiredRoot) {
   if (!await exists(path.join(repoRoot, relative))) failures.push("missing required artifact: " + relative);
+}
+const allowedRootEntries = new Set([".git", "README.md", "catalog.json", "CITATION.cff", "docs", "keywords", "papers", "schemas", "scripts", "topics"]);
+for (const entry of await readdir(repoRoot, { withFileTypes: true })) {
+  if (!allowedRootEntries.has(entry.name)) failures.push("unexpected repository-root entry: " + entry.name);
 }
 
 let catalog;
@@ -160,7 +166,7 @@ if (catalog?.creator?.orcid !== "0000-0003-1435-6297") failures.push("catalog cr
 if (catalog?.record_count !== catalog?.records?.length) failures.push("catalog record_count does not match records");
 if ((catalog?.full_text_reviewed_count ?? 0) + (catalog?.full_text_pending_count ?? 0) !== catalog?.records?.length) failures.push("catalog full-text counts do not sum to records");
 
-for (const relative of ["schemas/paper.schema.json", "schemas/vocabularies.json", "catalog.json"]) {
+for (const relative of ["schemas/paper.schema.json", "schemas/vocabularies.json", "schemas/crossref-bibliography.json", "catalog.json"]) {
   const source = path.join(repoRoot, relative);
   const mirror = path.join(repoRoot, "docs", relative);
   if (await exists(source) && await exists(mirror) && (await readText(source)) !== (await readText(mirror))) {
@@ -202,8 +208,11 @@ for (const paperId of paperIds) {
   const docsDir = path.join(repoRoot, "docs", "papers", paperId);
   for (const relative of ["paper.json", "README.md", "citation.bib", "citation.apa.txt", "citation.ieee.txt", "citation.ris"]) {
     if (!await exists(path.join(dir, relative))) failures.push(paperId + ": missing " + relative);
+  }
+  for (const relative of ["paper.json", "citation.bib", "citation.apa.txt", "citation.ieee.txt", "citation.ris"]) {
     if (!await exists(path.join(docsDir, relative))) failures.push(paperId + ": missing generated docs/" + relative);
   }
+  if (await exists(path.join(docsDir, "README.md"))) failures.push(paperId + ": duplicate public docs/README.md should not be generated");
 
   let paper;
   try {
@@ -295,14 +304,16 @@ for (const paperId of paperIds) {
       "APA 7",
       "IEEE",
       "href=\"paper.json\"",
-      "href=\"README.md\"",
+      "github.com/naser/research-publications/blob/main/papers/",
       "href=\"citation.bib\"",
       "href=\"citation.ris\""
     ]) {
       if (!html.includes(required)) failures.push(paperId + ": HTML missing " + required);
     }
     if (paper.identifiers?.doi && !html.includes("citation_doi")) failures.push(paperId + ": HTML missing citation_doi");
-    if ((paper.versions ?? []).some((version) => version.pdf_url) && !html.includes("citation_pdf_url")) failures.push(paperId + ": HTML missing citation_pdf_url");
+    if (!html.includes("citation_publication_date")) failures.push(paperId + ": HTML missing citation_publication_date");
+    if (!/preprint/i.test(paper.publication?.type ?? "") && !/citation_(conference|journal|book)_title/.test(html)) failures.push(paperId + ": HTML missing venue-specific citation metadata");
+    if (html.includes("citation_pdf_url")) failures.push(paperId + ": external citation_pdf_url must not be emitted without a lawful local PDF");
     for (const keyword of paper.keywords ?? []) {
       const key = keywordSlug(keyword);
       const linked = html.includes("href=\"../../keywords/" + key + ".html\"");
@@ -311,6 +322,13 @@ for (const paperId of paperIds) {
     if (html.includes("&amp;middot;") || html.includes("&amp;mdash;") || html.includes("&amp;larr;")) failures.push(paperId + ": HTML contains escaped entity text");
     if (badEncoding.test(html)) failures.push(paperId + ": HTML contains mojibake");
   }
+
+  const bibText = await readText(path.join(dir, "citation.bib")).catch(() => "");
+  const expectedBibType = /journal|article/i.test(paper.publication?.type ?? "") ? "@article{" : /preprint/i.test(paper.publication?.type ?? "") ? "@misc{" : "@inproceedings{";
+  if (!bibText.startsWith(expectedBibType)) failures.push(paperId + ": BibTeX type disagrees with publication type");
+  if (paper.publication?.volume && !bibText.includes("volume = {" + paper.publication.volume + "}")) failures.push(paperId + ": BibTeX omits known volume");
+  if (paper.publication?.issue && !bibText.includes("number = {" + paper.publication.issue + "}")) failures.push(paperId + ": BibTeX omits known issue");
+  if (paper.publication?.pages && !bibText.includes("pages = {" + paper.publication.pages + "}")) failures.push(paperId + ": BibTeX omits known pages or article number");
 
   const rootJsonText = await readText(path.join(dir, "paper.json")).catch(() => null);
   const docsJsonText = await readText(path.join(docsDir, "paper.json")).catch(() => null);
@@ -341,6 +359,12 @@ for (const file of allFiles) {
 const sitemap = await readText(path.join(repoRoot, "docs", "sitemap.xml")).catch(() => "");
 if (sitemap && !sitemap.includes(siteBase + "/")) failures.push("sitemap does not contain the site root");
 if (sitemap.includes(["naser", "publications"].join("-"))) failures.push("sitemap contains the old repository name");
+const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/gu)].map((match) => match[1]);
+const expectedSitemapUrls = new Set([siteBase + "/", ...paperIds.map((paperId) => siteBase + "/papers/" + paperId + "/")]);
+if (sitemapUrls.length !== expectedSitemapUrls.size) failures.push("sitemap URL count is not exactly the catalog root plus all paper pages");
+for (const url of sitemapUrls) if (!expectedSitemapUrls.has(url)) failures.push("unexpected sitemap URL: " + url);
+for (const url of expectedSitemapUrls) if (!sitemapUrls.includes(url)) failures.push("missing sitemap URL: " + url);
+if ((sitemap.match(/<lastmod>/gu) ?? []).length !== sitemapUrls.length) failures.push("sitemap lastmod count does not match URL count");
 
 const result = {
   schema_version: expectedSchemaVersion,

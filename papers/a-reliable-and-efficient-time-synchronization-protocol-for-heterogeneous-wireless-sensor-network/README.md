@@ -59,11 +59,11 @@ Cite this paper when your work uses or compares l-SYNCng's topology-aware cluste
 
 ### APA 7
 
-Jabbarifar, M., Shameli-Sendi, A., Sadighian, A., Ezzati-Jivan, N., & Dagenais, M. R. (2010). A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network. Wireless Sensor Network. https://doi.org/10.4236/wsn.2010.212109
+Jabbarifar, M., Shameli-Sendi, A., Sadighian, A., Ezzati-Jivan, N., & Dagenais, M. R. (2010). A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network. Wireless Sensor Network, 02(12), 910-918. https://doi.org/10.4236/wsn.2010.212109
 
 ### IEEE
 
-M. Jabbarifar, A. Shameli-Sendi, A. Sadighian, N. Ezzati-Jivan, and M. R. Dagenais, "A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network," Wireless Sensor Network, 2010, doi: 10.4236/wsn.2010.212109
+M. Jabbarifar, A. Shameli-Sendi, A. Sadighian, N. Ezzati-Jivan, and M. R. Dagenais, "A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network," Wireless Sensor Network, vol. 02, no. 12, pp. 910-918, 2010, doi: 10.4236/wsn.2010.212109
 
 ```bibtex
 @article{ezzatiJivan2010areliable,
@@ -71,6 +71,11 @@ M. Jabbarifar, A. Shameli-Sendi, A. Sadighian, N. Ezzati-Jivan, and M. R. Dagena
   title = {A Reliable and Efficient Time Synchronization Protocol for Heterogeneous Wireless Sensor Network},
   year = {2010},
   journal = {Wireless Sensor Network},
+  volume = {02},
+  number = {12},
+  pages = {910-918},
+  publisher = {Scientific Research Publishing, Inc.},
+  issn = {1945-3078, 1945-3086},
   doi = {10.4236/wsn.2010.212109},
   url = {https://doi.org/10.4236/wsn.2010.212109}
 }
@@ -80,7 +85,7 @@ M. Jabbarifar, A. Shameli-Sendi, A. Sadighian, N. Ezzati-Jivan, and M. R. Dagena
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: L-SYNCng PDF: protocol design, clustering, convex-hull offset/skew estimation, and comparison protocols; L-SYNCng PDF: NS-2.31, 100-node/1000 x 1000 m/100 m setup, ten runs, noise conditions, and plotted comparisons; L-SYNCng PDF: conclusion and dynamic-network future-work statement; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

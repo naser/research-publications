@@ -1,1 +1,1 @@
-Khan, M. A., Noferesti, M., & Ezzati-Jivan, N. (2023). PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events. IEEE Working Conference on Source Code Analysis and Manipulation (SCAM). https://doi.org/10.1109/scam59687.2023.00025
+Khan, M. A., Noferesti, M., & Ezzati-Jivan, N. (2023). PASD: A Performance Analysis Approach Through the Statistical Debugging of Kernel Events. In IEEE Working Conference on Source Code Analysis and Manipulation (SCAM) (pp. 151-161). https://doi.org/10.1109/scam59687.2023.00025

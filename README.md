@@ -16,6 +16,7 @@ The catalog contains **89 records**. Records still awaiting full-text review exp
 - [Keywords](./keywords/index.md)
 - [Paper JSON Schema](./schemas/paper.schema.json)
 - [Controlled vocabularies](./schemas/vocabularies.json)
+- [Crossref bibliography cache](./schemas/crossref-bibliography.json)
 - [Repository validator](./scripts/validate-github-repo.mjs)
 - [Citation file](./CITATION.cff)
 
@@ -25,7 +26,7 @@ Each paper has a Markdown record for readers, a JSON record for agents and scrip
 
 ## Canonical record contract
 
-Schema version **0.4.0** uses `versions` as the only canonical list of publication and preprint source links. `page_url` is the stable catalog page; `canonical_source_url` is the citation target; `access` is an access summary; `resources` contains only optional code, data, slides, and demo links; and `provenance` records verification and summary status.
+Schema version **0.6.0** uses `versions` as the only canonical list of publication and preprint source links; adds structured author identities and Crossref-backed bibliographic fields; and separates Scholar eligibility, evidence basis, and review status. `page_url` is the stable catalog page; `canonical_source_url` is the citation target; `access` is an access summary; `resources` contains only optional code, data, slides, and demo links; and `provenance` records verification and summary status.
 
 Controlled tags link to broad topic pages. All paper-specific keywords remain in each record; recurring keywords used by at least 2 papers receive standalone browse pages, while one-off keywords remain plain-text metadata to prevent a fragmented index.
 
@@ -35,4 +36,4 @@ Each record identifies when metadata was verified, what evidence was used, and w
 
 The repository validator enforces the JSON Schema, checks duplicate DOIs and source records, validates URL syntax, checks topic/keyword indexes, compares mirrored JSON records, and rejects mojibake or escaped HTML entities.
 
-Generated from the locally verified research catalog on 2026-08-08.
+Generated from the locally verified research catalog on 2026-08-09.

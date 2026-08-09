@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "performance-anomaly-detection-sequence-alignment",
   "page_url": "https://naser.github.io/research-publications/papers/performance-anomaly-detection-sequence-alignment/",
   "title": "Performance Anomaly Detection through Sequence Alignment of System-Level Traces",
@@ -9,10 +9,38 @@
     "Naser Ezzati-Jivan",
     "Abdelwahab Hamou-Lhadj"
   ],
+  "author_details": [
+    {
+      "name": "Madeline Janecek",
+      "orcid": "https://orcid.org/0000-0002-7182-3958",
+      "profile_url": "https://dblp.org/pid/307/5913.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Abdelwahab Hamou-Lhadj",
+      "orcid": "https://orcid.org/0000-0002-3319-5006",
+      "profile_url": "https://dblp.org/pid/70/2136.html"
+    }
+  ],
   "publication": {
     "year": 2022,
     "venue": "30th International Conference on Program Comprehension (ICPC)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2022-05-16",
+    "online_date": "2022-10-20",
+    "print_date": "2022-05-16",
+    "volume": null,
+    "issue": null,
+    "pages": "264-274",
+    "article_number": null,
+    "publisher": "ACM",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_full_text",
@@ -24,8 +52,37 @@
   "abstract": null,
   "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The framework combines critical-path extraction, coarse anomaly checks, OPTICS execution clustering, and MUSCLE multiple sequence alignment to localize performance differences in system-level traces.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Private full PDF read: pdf-evidence/notes/performance-anomaly-detection-sequence-alignment.md"
+      },
+      {
+        "note": "Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment"
+      },
+      {
+        "note": "Performance-anomaly PDF pp. 8-10: VirtualBox/Ubuntu/LTTng environment, overhead, Python case, Docker case, and diagnosis"
+      },
+      {
+        "note": "Performance-anomaly PDF p. 10: conclusion and future work"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The framework combines critical-path extraction, coarse anomaly checks, OPTICS execution clustering, and MUSCLE multiple sequence alignment to localize performance differences in system-level traces.",
     "problem": "Kernel traces provide detailed performance evidence but can contain millions of events and impose collection/analysis cost. The paper seeks offline, black-box anomaly detection and localization without application-specific instrumentation (pp. 1-2).",
@@ -96,7 +153,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Private full PDF read: pdf-evidence/notes/performance-anomaly-detection-sequence-alignment.md",
       "Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment",
@@ -113,6 +170,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

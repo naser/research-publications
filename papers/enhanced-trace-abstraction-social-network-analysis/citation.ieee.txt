@@ -1,1 +1,1 @@
-J. Wang and N. Ezzati-Jivan, "Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods," Softwaretechnik-Trends, 2020, [Online]. Available: https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf
+J. Wang and N. Ezzati-Jivan, "Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods," Softwaretechnik-Trends, vol. 40, pp. 58-60, 2020, [Online]. Available: https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf

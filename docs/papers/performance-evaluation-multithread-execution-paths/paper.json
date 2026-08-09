@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "performance-evaluation-multithread-execution-paths",
   "page_url": "https://naser.github.io/research-publications/papers/performance-evaluation-multithread-execution-paths/",
   "title": "Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis",
@@ -10,10 +10,45 @@
     "Seyed Vahid Azhari",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Majid Rezazadeh",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/45/10661.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Seyed Vahid Azhari",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/42/2821.html"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": "https://orcid.org/0000-0002-6095-6149",
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2022,
     "venue": "Performance Evaluation",
-    "type": "research paper"
+    "type": "journal article",
+    "publication_date": "2022-06",
+    "online_date": null,
+    "print_date": "2022-06",
+    "volume": "155-156",
+    "issue": null,
+    "pages": "102289",
+    "article_number": "102289",
+    "publisher": "Elsevier BV",
+    "issn": [
+      "0166-5316"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -25,8 +60,31 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "This work investigates execution-path analysis as a way to evaluate complex multi-thread applications.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Crossref and local DBLP/venue metadata for 10.1016/j.peva.2022.102289"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "full-text summary pending source review"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "This work investigates execution-path analysis as a way to evaluate complex multi-thread applications.",
     "problem": "Concurrency creates many execution paths whose interactions can obscure the causes of performance variation.",
@@ -79,7 +137,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1016/j.peva.2022.102289",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -94,6 +152,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

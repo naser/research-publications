@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "b-perf-black-box-performance-antipatterns",
   "page_url": "https://naser.github.io/research-publications/papers/b-perf-black-box-performance-antipatterns/",
   "title": "B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing",
@@ -9,10 +9,40 @@
     "Mahsa Panahandeh",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Morteza Noferesti",
+      "orcid": "https://orcid.org/0009-0000-5507-1461",
+      "profile_url": "https://dblp.org/pid/82/10462.html"
+    },
+    {
+      "name": "Mahsa Panahandeh",
+      "orcid": "https://orcid.org/0000-0002-6369-8982",
+      "profile_url": "https://dblp.org/pid/201/1655.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2026,
     "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2026-05-03",
+    "pages": "96-107",
+    "publisher": "ACM",
+    "isbn": [
+      "979-8-4007-2325-4"
+    ],
+    "online_date": "2026-05-03",
+    "print_date": "2026-05-04",
+    "volume": null,
+    "issue": null,
+    "article_number": null,
+    "issn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_with_public_full_text",
@@ -21,11 +51,43 @@
   "identifiers": {
     "doi": "10.1145/3777884.3797014"
   },
-  "abstract": null,
-  "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
-  "abstract_available": false,
-  "description": "B-Perf reconstructs execution, memory, and messaging behavior from Linux kernel-level traces and infers performance-antipattern indicators without requiring application source access or intrusive instrumentation.",
+  "abstract": "Performance antipatterns capture recurring behaviours that degrade software efficiency. Black-box approaches aim to detect such issues without modifying the application. This paper presents B-Perf, a system-level black-box method that reconstructs execution, memory, and messaging behaviour from kernel-level traces. By analysing scheduling, allocation, and communication events, B-Perf derives workload-dependent behavioural trends and reports antipattern indicators grounded in resource usage and contention. To handle large trace volumes, the approach follows a pipeline of workload generation, event gathering, trace handling, and antipattern inference. We evaluate B-Perf on three representative antipatterns—One Lane Bridge, Empty Semi Trucks, and Excessive Dynamic Allocation—and apply it to traces from real multi-threaded applications. The results show that system-level events are often sufficient to expose bottlenecks linked to resource contention and system-level interactions. A key limitation is that kernel traces provide limited visibility into fine-grained in-process behaviour. When performance issues are driven by internal logic or function-level interactions, B-Perf may capture only indirect symptoms and may not reveal the full root cause. Within this scope, B-Perf provides practical and efficient black-box detection for antipatterns driven by resource interaction and competition.",
+  "abstract_source": "Author abstract from the official ICPE 2026 preprint, licensed CC BY 4.0; verified against the locally extracted full text.",
+  "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": true,
+    "basis": "complete-visible-author-abstract",
+    "note": "The page displays the complete verified author abstract."
+  },
+  "description": "Performance antipatterns capture recurring behaviours that degrade software efficiency. Black-box approaches aim to detect such issues without modifying the application. This paper presents B-Perf, a system-level black-box method that reconstructs execution, memory, and messaging behaviour from kernel-level traces. By analysing scheduling, allocation, and communication events, B-Perf derives workload-dependent behavioural trends and reports antipattern indicators grounded in resource usage and contention. To handle large trace volumes, the approach follows a pipeline of workload generation, event gathering, trace handling, and antipattern inference. We evaluate B-Perf on three representative antipatterns—One Lane Bridge, Empty Semi Trucks, and Excessive Dynamic Allocation—and apply it to traces from real multi-threaded applications. The results show that system-level events are often sufficient to expose bottlenecks linked to resource contention and system-level interactions. A key limitation is that kernel traces provide limited visibility into fine-grained in-process behaviour. When performance issues are driven by internal logic or function-level interactions, B-Perf may capture only indirect symptoms and may not reveal the full root cause. Within this scope, B-Perf provides practical and efficient black-box detection for antipatterns driven by resource interaction and competition.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Private full PDF read: pdf-evidence/notes/b-perf-black-box-performance-antipatterns.md"
+      },
+      {
+        "note": "B-Perf PDF pp. 4-7: LTTng event model, Trace Compass-style state reconstruction, tracepoints, environment, and workload protocol"
+      },
+      {
+        "note": "B-Perf PDF pp. 7-10: One Lane Bridge, Excessive Dynamic Allocation, Empty Semi Trucks, Firefox/web validation, and overhead results"
+      },
+      {
+        "note": "B-Perf PDF pp. 10-11: limitations, threats to validity, and future work"
+      },
+      {
+        "note": "ICPE 2026 accepted-papers page labels the conference-hosted PDF as the B-Perf Pre-Print; downloaded PDF is byte-identical to the locally reviewed evidence (SHA-256 FE38962FD4ACF91F760AC51907207F2569B99A172CEFE8D2B8D1393B547A6003)"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "B-Perf reconstructs execution, memory, and messaging behavior from Linux kernel-level traces and infers performance-antipattern indicators without requiring application source access or intrusive instrumentation.",
     "problem": "White-box performance-antipattern detection needs source access or application instrumentation. B-Perf asks whether system-level kernel events can expose execution, memory, and messaging antipatterns for black-box or binary-only targets.",
@@ -64,12 +126,12 @@
       "canonical_for_citation": true
     },
     {
-      "id": "public-acm-pdf",
-      "label": "Public ACM PDF",
-      "relation": "source-record",
+      "id": "official-icpe-preprint",
+      "label": "Official ICPE preprint",
+      "relation": "preprint",
       "title": "B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing",
-      "url": "https://dl.acm.org/doi/pdf/10.1145/3777884.3797014",
-      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3777884.3797014",
+      "url": "https://icpe2026.spec.org/preprint/Black-box_Performance_Antipattern_Detection_Using_System-level_Execution_Tracing.pdf",
+      "pdf_url": "https://icpe2026.spec.org/preprint/Black-box_Performance_Antipattern_Detection_Using_System-level_Execution_Tracing.pdf",
       "status": "public_full_text",
       "canonical_for_citation": false
     }
@@ -96,12 +158,13 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Private full PDF read: pdf-evidence/notes/b-perf-black-box-performance-antipatterns.md",
       "B-Perf PDF pp. 4-7: LTTng event model, Trace Compass-style state reconstruction, tracepoints, environment, and workload protocol",
       "B-Perf PDF pp. 7-10: One Lane Bridge, Excessive Dynamic Allocation, Empty Semi Trucks, Firefox/web validation, and overhead results",
       "B-Perf PDF pp. 10-11: limitations, threats to validity, and future work",
+      "ICPE 2026 accepted-papers page labels the conference-hosted PDF as the B-Perf Pre-Print; downloaded PDF is byte-identical to the locally reviewed evidence (SHA-256 FE38962FD4ACF91F760AC51907207F2569B99A172CEFE8D2B8D1393B547A6003)",
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
@@ -113,6 +176,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

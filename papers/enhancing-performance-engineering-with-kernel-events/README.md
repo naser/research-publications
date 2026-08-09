@@ -1,6 +1,6 @@
 # Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach
 
-**2024 | Journal of Systems and Software | research paper**
+**2024 | Journal of Systems and Software | journal article**
 
 **Authors:** Morteza Noferesti, Naser Ezzati-Jivan
 
@@ -62,18 +62,23 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Noferesti, M., & Ezzati-Jivan, N. (2024). Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach. Journal of Systems and Software. https://doi.org/10.1016/j.jss.2024.112117
+Noferesti, M., & Ezzati-Jivan, N. (2024). Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach. Journal of Systems and Software, 216, 112117. https://doi.org/10.1016/j.jss.2024.112117
 
 ### IEEE
 
-M. Noferesti and N. Ezzati-Jivan, "Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach," in Journal of Systems and Software, 2024, doi: 10.1016/j.jss.2024.112117
+M. Noferesti and N. Ezzati-Jivan, "Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach," Journal of Systems and Software, vol. 216, Art. no. 112117, 2024, doi: 10.1016/j.jss.2024.112117
 
 ```bibtex
-@inproceedings{ezzatiJivan2024enhancingempirical,
+@article{ezzatiJivan2024enhancingempirical,
   author = {Morteza Noferesti and Naser Ezzati-Jivan},
   title = {Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach},
   year = {2024},
-  booktitle = {Journal of Systems and Software},
+  journal = {Journal of Systems and Software},
+  volume = {216},
+  pages = {112117},
+  eid = {112117},
+  publisher = {Elsevier BV},
+  issn = {0164-1212},
   doi = {10.1016/j.jss.2024.112117},
   url = {https://doi.org/10.1016/j.jss.2024.112117}
 }
@@ -83,7 +88,7 @@ M. Noferesti and N. Ezzati-Jivan, "Enhancing empirical software performance engi
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1016/j.jss.2024.112117; author identity matched to Naser Ezzati-Jivan in the local research catalog; Authors' artifact README: LTTng collection, Ubuntu 22.04.2, Elasticsearch/Kibana workflow, twelve workload reports, four simulated noise types, and three intended applications; Authors' artifact README: 24,263,691 raw events, event fields, tracepoint use, installation scripts, and reproducibility instructions; Authors' artifact system-info.txt: host, Ubuntu/kernel, CPU, GPU, memory, and storage environment for the published artifact run; No local publication PDF hash is claimed; publisher/SSRN full-text retrieval was blocked during this run
 - Machine-readable record: [paper.json](./paper.json)

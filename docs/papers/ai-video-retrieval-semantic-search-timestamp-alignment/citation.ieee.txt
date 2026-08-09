@@ -1,1 +1,1 @@
-H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "AI Video Retrieval: A Semantic Search & Timestamp Alignment System," in 2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), 2025, doi: 10.1109/ACDSA65407.2025.11166430
+H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "AI Video Retrieval: A Semantic Search & Timestamp Alignment System," in 2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA), pp. 1-6, 2025, doi: 10.1109/ACDSA65407.2025.11166430

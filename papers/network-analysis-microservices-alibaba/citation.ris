@@ -5,6 +5,9 @@ AU  - Ezzati-Jivan, Naser
 TI  - Network Analysis of Microservices: A Case Study on Alibaba Production Clusters
 PY  - 2024
 T2  - ACM/SPEC International Conference on Performance Engineering (ICPE) Companion
+SP  - 67
+EP  - 71
+PB  - ACM
 DO  - 10.1145/3629527.3651842
 UR  - https://doi.org/10.1145/3629527.3651842
 ER  -

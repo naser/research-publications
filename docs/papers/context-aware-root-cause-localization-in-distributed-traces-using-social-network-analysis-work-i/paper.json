@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "context-aware-root-cause-localization-in-distributed-traces-using-social-network-analysis-work-i",
   "page_url": "https://naser.github.io/research-publications/papers/context-aware-root-cause-localization-in-distributed-traces-using-social-network-analysis-work-i/",
   "title": "Context-aware Root Cause Localization in Distributed Traces Using Social Network Analysis (Work In Progress paper)",
@@ -10,10 +10,43 @@
     "Abdelwahab Hamou-Lhadj",
     "James Miller"
   ],
+  "author_details": [
+    {
+      "name": "Mahsa Panahandeh",
+      "orcid": "https://orcid.org/0000-0002-6369-8982",
+      "profile_url": "https://dblp.org/pid/201/1655.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Abdelwahab Hamou-Lhadj",
+      "orcid": "https://orcid.org/0000-0002-3319-5006",
+      "profile_url": "https://dblp.org/pid/70/2136.html"
+    },
+    {
+      "name": "James Miller",
+      "orcid": "https://orcid.org/0000-0001-5095-3000",
+      "profile_url": "https://dblp.org/pid/44/7043-1.html"
+    }
+  ],
   "publication": {
     "year": 2024,
     "venue": "ACM/SPEC ICPE Companion",
-    "type": "work-in-progress conference paper"
+    "type": "work-in-progress conference paper",
+    "publication_date": "2024-05-07",
+    "online_date": "2024-05-07",
+    "print_date": "2024-05-07",
+    "volume": null,
+    "issue": null,
+    "pages": "1-6",
+    "article_number": null,
+    "publisher": "ACM",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "work-in-progress conference paper",
   "status": "published_with_public_full_text",
@@ -25,8 +58,34 @@
   "abstract": null,
   "abstract_source": "ICPE Companion WIP PDF reviewed; abstract paraphrased for this catalog.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The work-in-progress paper combines service-call graph context, social-network analysis, and spectrum-based fault localization to rank distributed-trace root causes.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "ICPE Companion WIP PDF: weighted service-call graphs, Louvain, PageRank, Jaccard diversity, Ochiai, and heuristic search"
+      },
+      {
+        "note": "ICPE Companion WIP PDF: AIOps Challenge 2020 Dataset C, 46 labelled windows, fault categories, top-1/top-3 results, and tied-candidate reduction"
+      },
+      {
+        "note": "ICPE Companion WIP PDF: preliminary-evaluation limitation and future-work scope"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The work-in-progress paper combines service-call graph context, social-network analysis, and spectrum-based fault localization to rank distributed-trace root causes.",
     "problem": "Distributed-service failures propagate through dependencies, so ranking services only by frequency in abnormal traces can miss a remote or infrequently observed root cause. The paper targets context-sensitive localization across services, service communities, and request traces.",
@@ -99,7 +158,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "ICPE Companion WIP PDF: weighted service-call graphs, Louvain, PageRank, Jaccard diversity, Ochiai, and heuristic search",
       "ICPE Companion WIP PDF: AIOps Challenge 2020 Dataset C, 46 labelled windows, fault categories, top-1/top-3 results, and tied-candidate reduction",
@@ -115,6 +174,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

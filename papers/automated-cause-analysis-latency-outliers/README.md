@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares graph2Vec embeddings of waiting-
 
 ### APA 7
 
-Patel, S., Park, B., Ezzati-Jivan, N., & Fournier, Q. (2021). Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs. IEEE International Conference on Software Quality, Reliability and Security (QRS). https://doi.org/10.1109/QRS54544.2021.00054
+Patel, S., Park, B., Ezzati-Jivan, N., & Fournier, Q. (2021). Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs. In IEEE International Conference on Software Quality, Reliability and Security (QRS) (pp. 422-433). https://doi.org/10.1109/QRS54544.2021.00054
 
 ### IEEE
 
-S. Patel, B. Park, N. Ezzati-Jivan, and Q. Fournier, "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs," in IEEE International Conference on Software Quality, Reliability and Security (QRS), 2021, doi: 10.1109/QRS54544.2021.00054
+S. Patel, B. Park, N. Ezzati-Jivan, and Q. Fournier, "Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs," in IEEE International Conference on Software Quality, Reliability and Security (QRS), pp. 422-433, 2021, doi: 10.1109/QRS54544.2021.00054
 
 ```bibtex
 @inproceedings{ezzatiJivan2021automatedcause,
@@ -72,6 +72,8 @@ S. Patel, B. Park, N. Ezzati-Jivan, and Q. Fournier, "Automated Cause Analysis o
   title = {Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs},
   year = {2021},
   booktitle = {IEEE International Conference on Software Quality, Reliability and Security (QRS)},
+  pages = {422-433},
+  publisher = {IEEE},
   doi = {10.1109/QRS54544.2021.00054},
   url = {https://doi.org/10.1109/QRS54544.2021.00054}
 }
@@ -81,7 +83,7 @@ S. Patel, B. Park, N. Ezzati-Jivan, and Q. Fournier, "Automated Cause Analysis o
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2207.06515; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

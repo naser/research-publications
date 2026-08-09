@@ -5,6 +5,9 @@ AU  - Tetreault, Francois
 TI  - An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques
 PY  - 2024
 T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+SP  - 37
+EP  - 47
+PB  - ACM
 DO  - 10.1145/3629526.3645033
 UR  - https://doi.org/10.1145/3629526.3645033
 ER  -

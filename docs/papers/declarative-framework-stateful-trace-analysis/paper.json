@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "declarative-framework-stateful-trace-analysis",
   "page_url": "https://naser.github.io/research-publications/papers/declarative-framework-stateful-trace-analysis/",
   "title": "A declarative framework for stateful analysis of execution traces",
@@ -9,10 +9,41 @@
     "Naser Ezzati-Jivan",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Florian Wininger",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/134/9574.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2017,
     "venue": "Software Quality Journal",
-    "type": "journal article"
+    "type": "journal article",
+    "publication_date": "2016-02-16",
+    "online_date": "2016-02-16",
+    "print_date": "2017-03",
+    "volume": "25",
+    "issue": "1",
+    "pages": "201-229",
+    "article_number": null,
+    "publisher": "Springer Science and Business Media LLC",
+    "issn": [
+      "0963-9314",
+      "1573-1367"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "journal article",
   "status": "published_with_public_full_text",
@@ -24,8 +55,37 @@
   "abstract": null,
   "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The framework lets analysts define stateful trace analyses declaratively, using a generic state model and XML specifications that can drive storage, filtering, and visualization across trace formats.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Private full PDF read: pdf-evidence/notes/declarative-framework-stateful-trace-analysis.md"
+      },
+      {
+        "note": "Declarative-framework PDF pp. 2-7: problem, state model, State History Tree, XML language, event handlers, and filters"
+      },
+      {
+        "note": "Declarative-framework PDF pp. 8-13: LTTng/ETW evaluation, 13.4/100 MiB traces, 25 repetitions, cross-platform examples, and resolution queries"
+      },
+      {
+        "note": "Declarative-framework PDF p. 14: limitations and future work"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The framework lets analysts define stateful trace analyses declaratively, using a generic state model and XML specifications that can drive storage, filtering, and visualization across trace formats.",
     "problem": "Fixed trace viewers and hard-coded analyses do not scale to application-specific performance, security, or bottleneck questions and tie analyses to particular tracer formats.",
@@ -96,7 +156,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Private full PDF read: pdf-evidence/notes/declarative-framework-stateful-trace-analysis.md",
       "Declarative-framework PDF pp. 2-7: problem, state model, State History Tree, XML language, event handlers, and filters",
@@ -113,6 +173,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

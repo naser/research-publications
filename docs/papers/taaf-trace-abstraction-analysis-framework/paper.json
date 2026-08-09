@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "taaf-trace-abstraction-analysis-framework",
   "page_url": "https://naser.github.io/research-publications/papers/taaf-trace-abstraction-analysis-framework/",
   "title": "TAAF: A Trace Abstraction and Analysis Framework Synergizing Knowledge Graphs and LLMs",
@@ -10,10 +10,43 @@
     "Majid Babaei",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Alireza Ezaz",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/374/6221.html"
+    },
+    {
+      "name": "Ghazal Khodabandeh",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/374/6434.html"
+    },
+    {
+      "name": "Majid Babaei",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/19/10401.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2026,
     "venue": "arXiv / CoRR; arXiv page reports acceptance to ICSE 2026",
-    "type": "preprint with publication signal"
+    "type": "preprint with publication signal",
+    "publication_date": "2026",
+    "online_date": null,
+    "print_date": null,
+    "volume": "abs/2601.02632",
+    "issue": null,
+    "pages": null,
+    "article_number": null,
+    "publisher": null,
+    "issn": [],
+    "isbn": [],
+    "crossref_type": null
   },
   "publication_type": "preprint with publication signal",
   "status": "public_arxiv_preprint_with_publication_signal",
@@ -27,8 +60,31 @@
   "abstract": null,
   "abstract_source": "official arXiv:2601.02632 abstract",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "TAAF combines time-indexed knowledge graphs with large language models to turn large execution traces into queryable, actionable explanations.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "official arXiv abstract, metadata, and PDF page 2601.02632"
+      },
+      {
+        "note": "arXiv page comment containing the ICSE 2026 acceptance and ACM DOI"
+      },
+      {
+        "note": "local PDF hash verified in the working catalog"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "TAAF combines time-indexed knowledge graphs with large language models to turn large execution traces into queryable, actionable explanations.",
     "problem": "Kernel and large-application traces are too large, multidimensional, and temporally structured for direct manual inspection or raw LLM ingestion. Existing stateful tools support predefined queries, but flexible questions still require domain-specific scripts and expert knowledge.",
@@ -96,7 +152,7 @@
     "canonical_version_id": "publication-doi-listed-on-arxiv-page"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "official arXiv abstract, metadata, and PDF page 2601.02632",
       "arXiv page comment containing the ICSE 2026 acceptance and ACM DOI",
@@ -111,6 +167,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

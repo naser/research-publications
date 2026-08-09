@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "care-context-aware-root-cause-identification",
   "page_url": "https://naser.github.io/research-publications/papers/care-context-aware-root-cause-identification/",
   "title": "CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics",
@@ -10,10 +10,47 @@
     "Abdelwahab Hamou-Lhadj",
     "James Miller"
   ],
+  "author_details": [
+    {
+      "name": "Mahsa Panahandeh",
+      "orcid": "https://orcid.org/0000-0002-6369-8982",
+      "profile_url": "https://dblp.org/pid/201/1655.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Abdelwahab Hamou-Lhadj",
+      "orcid": "https://orcid.org/0000-0002-3319-5006",
+      "profile_url": "https://dblp.org/pid/70/2136.html"
+    },
+    {
+      "name": "James Miller",
+      "orcid": "https://orcid.org/0000-0001-5095-3000",
+      "profile_url": "https://dblp.org/pid/44/7043-1.html"
+    }
+  ],
   "publication": {
     "year": 2026,
     "venue": "IEEE Transactions on Software Engineering",
-    "type": "research paper"
+    "type": "journal article",
+    "publication_date": "2026-02",
+    "online_date": null,
+    "print_date": "2026-02",
+    "volume": "52",
+    "issue": "2",
+    "pages": "691-715",
+    "article_number": null,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issn": [
+      "0098-5589",
+      "1939-3520",
+      "2326-3881"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "research paper",
   "status": "published_metadata_record",
@@ -25,8 +62,43 @@
   "abstract": null,
   "abstract_source": "CARE published-paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "CARE combines distributed traces and profiling metrics with graph- and spectrum-based analysis to localize performance root causes in microservices.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP/DOI bibliographic record for 10.1109/tse.2025.3645143"
+      },
+      {
+        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+      },
+      {
+        "note": "CARE PDF pp. 1-2: problem, context-aware observability motivation, and contribution"
+      },
+      {
+        "note": "CARE PDF pp. 3-10: service graphs, profiling metrics, trace clustering, graph ranking, and weighted spectrum analysis"
+      },
+      {
+        "note": "CARE PDF pp. 9-12: baselines, TrainTicket and China Mobile Zhejiang datasets, metrics, accuracy results, and double-root-cause evaluation"
+      },
+      {
+        "note": "CARE PDF pp. 11-12: HeMiRCA data mismatch and evaluation boundary"
+      },
+      {
+        "note": "local CARE PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "CARE combines distributed traces and profiling metrics with graph- and spectrum-based analysis to localize performance root causes in microservices.",
     "problem": "Root-cause localization in microservices is difficult because service dependencies, request paths, execution context, and heterogeneous monitoring data interact; conventional methods can miss propagation patterns and contextual relationships.",
@@ -84,7 +156,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/tse.2025.3645143",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -103,6 +175,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

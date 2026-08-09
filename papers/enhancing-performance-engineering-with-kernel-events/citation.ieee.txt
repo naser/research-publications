@@ -1,1 +1,1 @@
-M. Noferesti and N. Ezzati-Jivan, "Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach," in Journal of Systems and Software, 2024, doi: 10.1016/j.jss.2024.112117
+M. Noferesti and N. Ezzati-Jivan, "Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach," Journal of Systems and Software, vol. 216, Art. no. 112117, 2024, doi: 10.1016/j.jss.2024.112117

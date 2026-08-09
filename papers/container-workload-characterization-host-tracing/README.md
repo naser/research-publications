@@ -1,6 +1,6 @@
 # Container Workload Characterization Through Host System Tracing
 
-**2021 | IEEE International Conference on Cloud Computing Technology and Science (CloudCom) | research paper**
+**2021 | IEEE International Conference on Cloud Computing Technology and Science (CloudCom) | conference paper**
 
 **Authors:** Madeline Janecek, Naser Ezzati-Jivan, Seyed Vahid Azhari
 
@@ -58,11 +58,11 @@ Cite this paper when characterizing container workloads from host-level tracing 
 
 ### APA 7
 
-Janecek, M., Ezzati-Jivan, N., & Azhari, S. V. (2021). Container Workload Characterization Through Host System Tracing. IEEE International Conference on Cloud Computing Technology and Science (CloudCom). https://doi.org/10.1109/ic2e52221.2021.00015
+Janecek, M., Ezzati-Jivan, N., & Azhari, S. V. (2021). Container Workload Characterization Through Host System Tracing. In IEEE International Conference on Cloud Computing Technology and Science (CloudCom) (pp. 9-19). https://doi.org/10.1109/ic2e52221.2021.00015
 
 ### IEEE
 
-M. Janecek, N. Ezzati-Jivan, and S. V. Azhari, "Container Workload Characterization Through Host System Tracing," in IEEE International Conference on Cloud Computing Technology and Science (CloudCom), 2021, doi: 10.1109/ic2e52221.2021.00015
+M. Janecek, N. Ezzati-Jivan, and S. V. Azhari, "Container Workload Characterization Through Host System Tracing," in IEEE International Conference on Cloud Computing Technology and Science (CloudCom), pp. 9-19, 2021, doi: 10.1109/ic2e52221.2021.00015
 
 ```bibtex
 @inproceedings{ezzatiJivan2021containerworkload,
@@ -70,6 +70,8 @@ M. Janecek, N. Ezzati-Jivan, and S. V. Azhari, "Container Workload Characterizat
   title = {Container Workload Characterization Through Host System Tracing},
   year = {2021},
   booktitle = {IEEE International Conference on Cloud Computing Technology and Science (CloudCom)},
+  pages = {9-19},
+  publisher = {IEEE},
   doi = {10.1109/ic2e52221.2021.00015},
   url = {https://doi.org/10.1109/ic2e52221.2021.00015}
 }
@@ -79,7 +81,7 @@ M. Janecek, N. Ezzati-Jivan, and S. V. Azhari, "Container Workload Characterizat
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/ic2e52221.2021.00015; author identity matched to Naser Ezzati-Jivan in the local research catalog; Container workload PDF pp. 1-4: host-only motivation, LTTng, pid_ns/tid attribution, and state extraction; Container workload PDF pp. 4-9: PageRank feature selection, vectorization, two-stage K-Means, workloads, and silhouette result; Container workload PDF pp. 9-10: required tracepoints, 21.62% versus 3.6% overhead, limitations, and future work; local container-workload PDF hash verified in pdf-evidence/notes/container-workload-characterization-host-tracing.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -1,9 +1,12 @@
-TY  - GEN
+TY  - CONF
 AU  - VanDonge, Riley
 AU  - Ezzati-Jivan, Naser
 TI  - N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing
 PY  - 2022
 T2  - IEEE Working Conference on Source Code Analysis and Manipulation (SCAM)
+SP  - 83
+EP  - 93
+PB  - IEEE
 DO  - 10.1109/scam55253.2022.00015
 UR  - https://doi.org/10.1109/scam55253.2022.00015
 ER  -

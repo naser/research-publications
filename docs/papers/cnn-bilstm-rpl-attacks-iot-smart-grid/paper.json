@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "cnn-bilstm-rpl-attacks-iot-smart-grid",
   "page_url": "https://naser.github.io/research-publications/papers/cnn-bilstm-rpl-attacks-iot-smart-grid/",
   "title": "CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track)",
@@ -9,10 +9,38 @@
     "Morteza Noferesti",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Yue Guan",
+      "orcid": "https://orcid.org/0009-0008-9603-4171",
+      "profile_url": "https://dblp.org/pid/54/7820.html"
+    },
+    {
+      "name": "Morteza Noferesti",
+      "orcid": "https://orcid.org/0009-0000-5507-1461",
+      "profile_url": "https://dblp.org/pid/82/10462.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2023,
     "venue": "ACM/IFIP/USENIX Middleware 2023 Industry Track",
-    "type": "industry-track paper"
+    "type": "industry-track paper",
+    "publication_date": "2023-12-11",
+    "online_date": "2023-12-11",
+    "print_date": "2023-12-11",
+    "volume": null,
+    "issue": null,
+    "pages": "29-34",
+    "article_number": null,
+    "publisher": "ACM",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "industry-track paper",
   "status": "published_metadata_record",
@@ -24,8 +52,31 @@
   "abstract": null,
   "abstract_source": null,
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The verified record identifies this work as a Middleware 2023 industry-track paper on RPL-attack classification, but the full technical contribution was not available in the captured sources.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DOI: https://doi.org/10.1145/3626562.3626832"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-02.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The verified record identifies this work as a Middleware 2023 industry-track paper on RPL-attack classification, but the full technical contribution was not available in the captured sources.",
     "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
@@ -90,7 +141,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DOI: https://doi.org/10.1145/3626562.3626832",
       "DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23",
@@ -105,6 +156,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

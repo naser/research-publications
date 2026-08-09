@@ -1,1 +1,1 @@
-Prieur-Drevon, L., Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2016). Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces. IEEE BigData Congress. https://doi.org/10.1109/BigDataCongress.2016.19
+Prieur-Drevon, L., Beamonte, R., Ezzati-Jivan, N., & Dagenais, M. R. (2016). Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces. In IEEE BigData Congress (pp. 83-90). https://doi.org/10.1109/BigDataCongress.2016.19

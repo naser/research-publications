@@ -1,1 +1,1 @@
-Ezzati-Jivan, N., & Dagenais, M. R. (2015). Cube Data Model for Multilevel Statistics Computation of Live Execution Traces. Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.3272
+Ezzati-Jivan, N., & Dagenais, M. R. (2015). Cube Data Model for Multilevel Statistics Computation of Live Execution Traces. Concurrency and Computation: Practice and Experience, 27(5), 1069-1091. https://doi.org/10.1002/cpe.3272

@@ -60,7 +60,7 @@ Cite this paper when your work uses or compares the split in-kernel/user-daemon 
 
 ### APA 7
 
-Jivan, N. E., Sendi, A. S., Nematbakhsh, N., & Dagenais, M. (2011). High Performance Internet Connection Filtering through an In-Kernel Architecture. Sixth International Conference on Internet Monitoring and Protection (ICIMP 2011). https://publications.polymtl.ca/16917/
+Jivan, N. E., Sendi, A. S., Nematbakhsh, N., & Dagenais, M. (2011). High Performance Internet Connection Filtering through an In-Kernel Architecture. In Sixth International Conference on Internet Monitoring and Protection (ICIMP 2011). https://publications.polymtl.ca/16917/
 
 ### IEEE
 
@@ -80,7 +80,7 @@ N. E. Jivan, A. S. Sendi, N. Nematbakhsh, and M. Dagenais, "High Performance Int
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full proceedings evidence note: pdf-evidence/notes/parallel-batch-04-high-performance-internet-connection-filtering-through-an-in-kernel-architecture.md; Article printed pp. 32-37 in the public combined ICIMP proceedings PDF; Local PDF hash verified: F4F01012F90BB07B08926F1AF8AED9CC0211177450BD1ABCB70DF3C87E37D94; Institutional record: https://publications.polymtl.ca/16917/
 - Machine-readable record: [paper.json](./paper.json)

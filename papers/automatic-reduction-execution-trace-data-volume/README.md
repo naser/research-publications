@@ -63,7 +63,7 @@ Cite this paper when your work uses or compares a two-phase LightGBM feature-imp
 - Automatic Reduction of Execution Trace Data Volume UsingGradient Boosting in Large-Scale Microservice Systems (source-page rendering variant)
 ### APA 7
 
-Haghshenas, A., Ezzati-Jivan, N., & Dagenais, M. (2024). Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems. The 37th Canadian Conference on Artificial Intelligence. https://doi.org/10.21428/594757db.fe8b76cf
+Haghshenas, A., Ezzati-Jivan, N., & Dagenais, M. (2024). Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems. In The 37th Canadian Conference on Artificial Intelligence. https://doi.org/10.21428/594757db.fe8b76cf
 
 ### IEEE
 
@@ -75,6 +75,7 @@ A. Haghshenas, N. Ezzati-Jivan, and M. Dagenais, "Automatic Reduction of Executi
   title = {Automatic Reduction of Execution Trace Data Volume Using Gradient Boosting in Large-Scale Microservice Systems},
   year = {2024},
   booktitle = {The 37th Canadian Conference on Artificial Intelligence},
+  publisher = {PubPub},
   doi = {10.21428/594757db.fe8b76cf},
   url = {https://doi.org/10.21428/594757db.fe8b76cf}
 }
@@ -84,7 +85,7 @@ A. Haghshenas, N. Ezzati-Jivan, and M. Dagenais, "Automatic Reduction of Executi
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: official Canadian AI Proceedings PubPub page; PubPub page reports CC-BY 4.0 and a Download action; DBLP metadata matched by title, authors, and year
 - Machine-readable record: [paper.json](./paper.json)

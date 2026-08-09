@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "enhanced-trace-abstraction-social-network-analysis",
   "page_url": "https://naser.github.io/research-publications/papers/enhanced-trace-abstraction-social-network-analysis/",
   "title": "Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods",
@@ -8,10 +8,33 @@
     "Ji Wang",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Ji Wang",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/64/856.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2020,
     "venue": "Softwaretechnik-Trends",
-    "type": "article"
+    "type": "article",
+    "publication_date": "2020",
+    "online_date": null,
+    "print_date": null,
+    "volume": "40",
+    "issue": null,
+    "pages": "58-60",
+    "article_number": null,
+    "publisher": null,
+    "issn": [],
+    "isbn": [],
+    "crossref_type": null
   },
   "publication_type": "article",
   "status": "public_direct_pdf",
@@ -21,8 +44,31 @@
   "abstract": "This paper applies social-network-analysis techniques to system execution traces. The workflow collects Linux kernel and user-space traces with LTTng, constructs a directed weighted graph of thread interactions, detects communities with the Louvain method, and ranks important threads with PageRank. Two use cases address trace filtering and virtual-machine clustering. In the reported evaluation, the analysis adds a 5.3% slowdown to the traced program, extracts 509 threads and 6,015 interactions from a 316 MB trace, and computes graph metrics in 1,599 ms.",
   "abstract_source": "public PDF at fb-swt.gi.de, downloaded and PDF-signature verified 2026-08-03",
   "abstract_available": true,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "This paper applies social-network-analysis techniques to system execution traces. The workflow collects Linux kernel and user-space traces with LTTng, constructs a directed weighted graph of thread interactions, detects communities with the Louvain method, and ranks important threads with PageRank. Two use cases address trace filtering and virtual-machine clustering. In the reported evaluation, the analysis adds a 5.3% slowdown to the traced program, extracts 509 threads and 6,015 interactions from a 316 MB trace, and computes graph metrics in 1,599 ms.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "public PDF URL observed from DBLP-linked source"
+      },
+      {
+        "note": "PDF downloaded locally and verified with %PDF- signature"
+      },
+      {
+        "note": "first three pages extracted for summary verification"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper adapts community detection and PageRank from social-network analysis to reduce and prioritize system execution traces.",
     "problem": "Large execution traces expose many thread interactions, making it difficult to retain a concise, useful view while filtering irrelevant activity.",
@@ -91,7 +137,7 @@
     "canonical_version_id": "public-pdf"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "public PDF URL observed from DBLP-linked source",
       "PDF downloaded locally and verified with %PDF- signature",
@@ -106,6 +152,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

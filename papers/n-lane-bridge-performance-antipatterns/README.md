@@ -1,6 +1,6 @@
 # N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing
 
-**2022 | IEEE Working Conference on Source Code Analysis and Manipulation (SCAM) | research paper**
+**2022 | IEEE Working Conference on Source Code Analysis and Manipulation (SCAM) | conference paper**
 
 **Authors:** Riley VanDonge, Naser Ezzati-Jivan
 
@@ -58,11 +58,11 @@ Cite this paper when detecting One-Lane and active-resource N-Lane Bridge perfor
 
 ### APA 7
 
-VanDonge, R., & Ezzati-Jivan, N. (2022). N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing. IEEE Working Conference on Source Code Analysis and Manipulation (SCAM). https://doi.org/10.1109/scam55253.2022.00015
+VanDonge, R., & Ezzati-Jivan, N. (2022). N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing. In IEEE Working Conference on Source Code Analysis and Manipulation (SCAM) (pp. 83-93). https://doi.org/10.1109/scam55253.2022.00015
 
 ### IEEE
 
-R. VanDonge and N. Ezzati-Jivan, "N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing," in IEEE Working Conference on Source Code Analysis and Manipulation (SCAM), 2022, doi: 10.1109/scam55253.2022.00015
+R. VanDonge and N. Ezzati-Jivan, "N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing," in IEEE Working Conference on Source Code Analysis and Manipulation (SCAM), pp. 83-93, 2022, doi: 10.1109/scam55253.2022.00015
 
 ```bibtex
 @inproceedings{ezzatiJivan2022nlane,
@@ -70,6 +70,8 @@ R. VanDonge and N. Ezzati-Jivan, "N-Lane Bridge Performance Antipattern Analysis
   title = {N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing},
   year = {2022},
   booktitle = {IEEE Working Conference on Source Code Analysis and Manipulation (SCAM)},
+  pages = {83-93},
+  publisher = {IEEE},
   doi = {10.1109/scam55253.2022.00015},
   url = {https://doi.org/10.1109/scam55253.2022.00015}
 }
@@ -79,7 +81,7 @@ R. VanDonge and N. Ezzati-Jivan, "N-Lane Bridge Performance Antipattern Analysis
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/scam55253.2022.00015; author identity matched to Naser Ezzati-Jivan in the local research catalog; N-Lane Bridge PDF pp. 1-7: OLB/NLB definitions, LTTng 2.12.3, Trace Compass, tracepoints, critical-path and response-time method; N-Lane Bridge PDF pp. 7-9: Firefox 65.0/98.0.2 and InDebitO cases, latency causes, and NLB classification; N-Lane Bridge PDF pp. 9-10: CPU/I/O overhead, trace sizes, offline analysis cost, threats, and future work; local N-Lane Bridge PDF hash verified in pdf-evidence/notes/n-lane-bridge-performance-antipatterns.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

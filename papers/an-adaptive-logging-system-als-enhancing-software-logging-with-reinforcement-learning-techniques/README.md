@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares an RL formulation in which sourc
 
 ### APA 7
 
-Tabrizi, A. K., Ezzati-Jivan, N., & Tetreault, F. (2024). An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3629526.3645033
+Tabrizi, A. K., Ezzati-Jivan, N., & Tetreault, F. (2024). An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques. In ACM/SPEC International Conference on Performance Engineering (ICPE) (pp. 37-47). https://doi.org/10.1145/3629526.3645033
 
 ### IEEE
 
-A. K. Tabrizi, N. Ezzati-Jivan, and F. Tetreault, "An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2024, doi: 10.1145/3629526.3645033
+A. K. Tabrizi, N. Ezzati-Jivan, and F. Tetreault, "An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques," in ACM/SPEC International Conference on Performance Engineering (ICPE), pp. 37-47, 2024, doi: 10.1145/3629526.3645033
 
 ```bibtex
 @inproceedings{ezzatiJivan2024anadaptive,
@@ -72,6 +72,8 @@ A. K. Tabrizi, N. Ezzati-Jivan, and F. Tetreault, "An Adaptive Logging System (A
   title = {An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques},
   year = {2024},
   booktitle = {ACM/SPEC International Conference on Performance Engineering (ICPE)},
+  pages = {37-47},
+  publisher = {ACM},
   doi = {10.1145/3629526.3645033},
   url = {https://doi.org/10.1145/3629526.3645033}
 }
@@ -81,7 +83,7 @@ A. K. Tabrizi, N. Ezzati-Jivan, and F. Tetreault, "An Adaptive Logging System (A
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE ALS PDF: Python AST, GitHub/PyGithub/git, 12 static features, bug classes, Stable-Baselines, and DQN/A2C/PPO selection; ICPE ALS PDF: 17 Apache/Django projects, 93,484 functions, 4,235 files, eight-episode evaluation, and reward stability findings; ICPE ALS PDF: Python/dynamic-feature/agent-scope limitations and stated future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -5,6 +5,12 @@ TI  - A Stateful Approach to Generate Synthetic Events from Kernel Traces
 PY  - 2012
 T2  - Advances in Software Engineering
 AB  - The paper presents a stateful approach that maps low-level LTTng events to semantic events and uses modeled resource state and finite-state patterns to generate synthetic events and alarms.
+VL  - 2012
+SP  - 1
+EP  - 12
+PB  - Hindawi Limited
+SN  - 1687-8655
+SN  - 1687-8663
 DO  - 10.1155/2012/140368
 UR  - https://doi.org/10.1155/2012/140368
 ER  -

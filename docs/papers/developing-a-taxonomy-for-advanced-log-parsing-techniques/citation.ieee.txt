@@ -1,1 +1,1 @@
-I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Developing a Taxonomy for Advanced Log Parsing Techniques," in IEEE International Conference on Program Comprehension (ICPC), 2025, doi: 10.1109/ICPC66645.2025.00061
+I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Developing a Taxonomy for Advanced Log Parsing Techniques," in IEEE International Conference on Program Comprehension (ICPC), pp. 01-12, 2025, doi: 10.1109/ICPC66645.2025.00061

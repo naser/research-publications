@@ -5,5 +5,8 @@ TI  - Enhanced Execution Trace Abstraction Approach Using Social Network Analysi
 PY  - 2020
 T2  - Softwaretechnik-Trends
 AB  - This paper applies social-network-analysis techniques to system execution traces. The workflow collects Linux kernel and user-space traces with LTTng, constructs a directed weighted graph of thread interactions, detects communities with the Louvain method, and ranks important threads with PageRank. Two use cases address trace filtering and virtual-machine clustering. In the reported evaluation, the analysis adds a 5.3% slowdown to the traced program, extracts 509 threads and 6,015 interactions from a 316 MB trace, and computes graph metrics in 1,599 ms.
+VL  - 40
+SP  - 58
+EP  - 60
 UR  - https://fb-swt.gi.de/fileadmin/FB/SWT/Softwaretechnik-Trends/Verzeichnis/Band_40_Heft_3/SSP2020_Wang.pdf
 ER  -

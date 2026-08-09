@@ -1,1 +1,1 @@
-N. Ezzati-Jivan and M. R. Dagenais, "A Framework to Compute Statistics of System Parameters from Very Large Trace Files," ACM SIGOPS Operating Systems Review, 2013, doi: 10.1145/2433140.2433151
+N. Ezzati-Jivan and M. R. Dagenais, "A Framework to Compute Statistics of System Parameters from Very Large Trace Files," ACM SIGOPS Operating Systems Review, vol. 47, no. 1, pp. 43-54, 2013, doi: 10.1145/2433140.2433151

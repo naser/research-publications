@@ -1,4 +1,4 @@
-TY  - GEN
+TY  - JOUR
 AU  - Darvishi, Kasra
 AU  - Noferesti, Morteza
 AU  - Sehgal, Yuvraj
@@ -6,6 +6,11 @@ AU  - Ezzati-Jivan, Naser
 TI  - LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models
 PY  - 2026
 T2  - Journal of Systems and Software
+VL  - 238
+SP  - 112890
+AN  - 112890
+PB  - Elsevier BV
+SN  - 0164-1212
 DO  - 10.1016/j.jss.2026.112890
 UR  - https://doi.org/10.1016/j.jss.2026.112890
 ER  -

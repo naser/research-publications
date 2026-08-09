@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "picturing-ambiguity-winograd-schema",
   "page_url": "https://naser.github.io/research-publications/papers/picturing-ambiguity-winograd-schema/",
   "title": "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge",
@@ -11,10 +11,48 @@
     "Yifeng Li",
     "Ali Emami"
   ],
+  "author_details": [
+    {
+      "name": "Brendan Park",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/316/0137.html"
+    },
+    {
+      "name": "Madeline Janecek",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/307/5913.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Yifeng Li",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/65/2432.html"
+    },
+    {
+      "name": "Ali Emami",
+      "orcid": "https://orcid.org/0009-0001-4273-5203",
+      "profile_url": "https://dblp.org/pid/75/10772.html"
+    }
+  ],
   "publication": {
     "year": 2024,
     "venue": "ACL 2024 Main Conference",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2024",
+    "online_date": null,
+    "print_date": "2024",
+    "volume": null,
+    "issue": null,
+    "pages": "355-374",
+    "article_number": null,
+    "publisher": "Association for Computational Linguistics",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "public_preprint_and_published_record",
@@ -27,8 +65,31 @@
   "abstract": null,
   "abstract_source": "arXiv:2405.16277 abstract; public preprint version",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper introduces WinoVis, a multimodal benchmark and analysis framework for testing pronoun disambiguation in text-to-image models.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "ACL Anthology and DOI metadata"
+      },
+      {
+        "note": "official arXiv abstract and PDF page 2405.16277"
+      },
+      {
+        "note": "local PDF hash verified in the working catalog"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper introduces WinoVis, a multimodal benchmark and analysis framework for testing pronoun disambiguation in text-to-image models.",
     "problem": "Text-to-image models can generate visually plausible images without resolving which entity an ambiguous pronoun refers to. Existing WSC-style reasoning evaluations are mainly textual and do not isolate multimodal pronoun disambiguation from image-generation artifacts.",
@@ -95,7 +156,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "ACL Anthology and DOI metadata",
       "official arXiv abstract and PDF page 2405.16277",
@@ -110,6 +171,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

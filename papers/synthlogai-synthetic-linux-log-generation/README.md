@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Rahman, H., Ezzati-Jivan, N., & Ogbuokiri, B. (2025). SynthLogAI: Generative AI for Synthetic Linux Log Generation and Evaluation. 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON). https://doi.org/10.1109/CASCON66301.2025.00032
+Rahman, H., Ezzati-Jivan, N., & Ogbuokiri, B. (2025). SynthLogAI: Generative AI for Synthetic Linux Log Generation and Evaluation. In 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON) (pp. 102-107). https://doi.org/10.1109/CASCON66301.2025.00032
 
 ### IEEE
 
-H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "SynthLogAI: Generative AI for Synthetic Linux Log Generation and Evaluation," in 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON), 2025, doi: 10.1109/CASCON66301.2025.00032
+H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "SynthLogAI: Generative AI for Synthetic Linux Log Generation and Evaluation," in 2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON), pp. 102-107, 2025, doi: 10.1109/CASCON66301.2025.00032
 
 ```bibtex
 @inproceedings{ezzatiJivan2025synthlogaigenerative,
@@ -70,6 +70,8 @@ H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "SynthLogAI: Generative AI for Syn
   title = {SynthLogAI: Generative AI for Synthetic Linux Log Generation and Evaluation},
   year = {2025},
   booktitle = {2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)},
+  pages = {102-107},
+  publisher = {IEEE},
   doi = {10.1109/CASCON66301.2025.00032},
   url = {https://doi.org/10.1109/CASCON66301.2025.00032}
 }
@@ -79,7 +81,7 @@ H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "SynthLogAI: Generative AI for Syn
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344303/; CASCON schedule: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation; Private evidence note: papers/synthlogai-generative-ai-for-synthetic-linux-log-generation-and-evaluation-a00bad2d6b/pdf-evidence/notes/parallel-batch-01-synthlogai.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "gnn-link-prediction-microservices",
   "page_url": "https://naser.github.io/research-publications/papers/gnn-link-prediction-microservices/",
   "title": "Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures",
@@ -10,10 +10,43 @@
     "Majid Babaei",
     "Naser Ezzati-Jivan"
   ],
+  "author_details": [
+    {
+      "name": "Ghazal Khodabandeh",
+      "orcid": "https://orcid.org/0009-0001-4587-1876",
+      "profile_url": "https://dblp.org/pid/374/6434.html"
+    },
+    {
+      "name": "Alireza Ezaz",
+      "orcid": "https://orcid.org/0009-0001-4156-2750",
+      "profile_url": "https://dblp.org/pid/374/6221.html"
+    },
+    {
+      "name": "Majid Babaei",
+      "orcid": "https://orcid.org/0000-0002-1394-4030",
+      "profile_url": "https://dblp.org/pid/19/10401.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    }
+  ],
   "publication": {
     "year": 2025,
     "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2025-05-05",
+    "online_date": "2025-05-05",
+    "print_date": "2025-05-05",
+    "volume": null,
+    "issue": null,
+    "pages": "19-30",
+    "article_number": null,
+    "publisher": "ACM",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "public_preprint_and_published_record",
@@ -26,8 +59,31 @@
   "abstract": null,
   "abstract_source": "arXiv:2501.15019 abstract; public preprint version",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper applies graph attention networks to predict future interactions in microservice call graphs, supporting proactive monitoring.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DBLP and ACM DOI metadata"
+      },
+      {
+        "note": "official arXiv abstract and PDF page 2501.15019"
+      },
+      {
+        "note": "local PDF hash verified in the working catalog"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper applies graph attention networks to predict future interactions in microservice call graphs, supporting proactive monitoring.",
     "problem": "Microservice call graphs are dense, time-sensitive, and continuously changing. Static similarity methods and temporal models without structural context may miss future service interactions that matter for proactive monitoring and resource management.",
@@ -94,7 +150,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DBLP and ACM DOI metadata",
       "official arXiv abstract and PDF page 2501.15019",
@@ -109,6 +165,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

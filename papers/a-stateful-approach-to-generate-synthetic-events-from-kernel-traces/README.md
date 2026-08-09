@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares stateful raw-to-semantic trace a
 
 ### APA 7
 
-Ezzati-Jivan, N., & Dagenais, M. R. (2012). A Stateful Approach to Generate Synthetic Events from Kernel Traces. Advances in Software Engineering. https://doi.org/10.1155/2012/140368
+Ezzati-Jivan, N., & Dagenais, M. R. (2012). A Stateful Approach to Generate Synthetic Events from Kernel Traces. Advances in Software Engineering, 2012, 1-12. https://doi.org/10.1155/2012/140368
 
 ### IEEE
 
-N. Ezzati-Jivan and M. R. Dagenais, "A Stateful Approach to Generate Synthetic Events from Kernel Traces," Advances in Software Engineering, 2012, doi: 10.1155/2012/140368
+N. Ezzati-Jivan and M. R. Dagenais, "A Stateful Approach to Generate Synthetic Events from Kernel Traces," Advances in Software Engineering, vol. 2012, pp. 1-12, 2012, doi: 10.1155/2012/140368
 
 ```bibtex
 @article{ezzatiJivan2012astateful,
@@ -72,6 +72,10 @@ N. Ezzati-Jivan and M. R. Dagenais, "A Stateful Approach to Generate Synthetic E
   title = {A Stateful Approach to Generate Synthetic Events from Kernel Traces},
   year = {2012},
   journal = {Advances in Software Engineering},
+  volume = {2012},
+  pages = {1-12},
+  publisher = {Hindawi Limited},
+  issn = {1687-8655, 1687-8663},
   doi = {10.1155/2012/140368},
   url = {https://doi.org/10.1155/2012/140368}
 }
@@ -81,7 +85,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "A Stateful Approach to Generate Synthetic E
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: A Stateful Approach PDF: LTTng, semantic-event mapping, modeled state, finite-state patterns, and Java prototype; A Stateful Approach PDF: 25 MB-10,000 MB traces, 621,132,167/159,023,500/2,247,225 event counts, and reported analysis times; A Stateful Approach PDF: limitations, missing state changes, pattern-library boundary, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

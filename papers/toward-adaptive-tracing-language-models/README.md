@@ -1,6 +1,6 @@
 # Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models
 
-**2024 | 2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER) | research paper**
+**2024 | 2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER) | conference paper**
 
 **Authors:** Kasra Darvishi, Morteza Noferesti, Naser Ezzati-Jivan
 
@@ -64,11 +64,11 @@ Cite this paper when your work uses or compares combining next-system-call predi
 
 ### APA 7
 
-Darvishi, K., Noferesti, M., & Ezzati-Jivan, N. (2024). Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models. 2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER). https://doi.org/10.1145/3639476.3639778
+Darvishi, K., Noferesti, M., & Ezzati-Jivan, N. (2024). Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models. In 2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER) (pp. 62-66). https://doi.org/10.1145/3639476.3639778
 
 ### IEEE
 
-K. Darvishi, M. Noferesti, and N. Ezzati-Jivan, "Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models," in 2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER), 2024, doi: 10.1145/3639476.3639778
+K. Darvishi, M. Noferesti, and N. Ezzati-Jivan, "Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models," in 2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER), pp. 62-66, 2024, doi: 10.1145/3639476.3639778
 
 ```bibtex
 @inproceedings{ezzatiJivan2024towardadaptive,
@@ -76,6 +76,8 @@ K. Darvishi, M. Noferesti, and N. Ezzati-Jivan, "Toward Adaptive Tracing: Effici
   title = {Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models},
   year = {2024},
   booktitle = {2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)},
+  pages = {62-66},
+  publisher = {ACM},
   doi = {10.1145/3639476.3639778},
   url = {https://doi.org/10.1145/3639476.3639778}
 }
@@ -85,7 +87,7 @@ K. Darvishi, M. Noferesti, and N. Ezzati-Jivan, "Toward Adaptive Tracing: Effici
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1145/3639476.3639778; author identity matched to Naser Ezzati-Jivan in the local research catalog; Toward Adaptive Tracing PDF pp. 1-3: ACM/ICSE-NIER identity, LTTng motivation, Apache2 data source, and adaptive-tracing contribution; Toward Adaptive Tracing PDF pp. 3-5: event vectors, LSTM/BERT multi-task sequence and duration modeling, MAD-normalized change detection, and cosine/error-vector root-cause analysis; Toward Adaptive Tracing PDF p. 5: Apache2 scenarios, seven noise categories, 77.1% event reduction, 5.8% miss rate, 91.3% root-cause accuracy, duration-model F-scores, and V100 latency; Toward Adaptive Tracing PDF p. 5: future-work and model-update boundary; local Toward Adaptive Tracing PDF hash verified in pdf-evidence/notes/toward-adaptive-tracing-language-models.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "efficient-heap-monitoring-memory-leak-root-cause",
   "page_url": "https://naser.github.io/research-publications/papers/efficient-heap-monitoring-memory-leak-root-cause/",
   "title": "Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis",
@@ -10,10 +10,43 @@
     "Naser Ezzati-Jivan",
     "Francois Tetreault"
   ],
+  "author_details": [
+    {
+      "name": "Vahid Azhari",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Simar Bhamra",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/311/1517.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Francois Tetreault",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/288/0256.html"
+    }
+  ],
   "publication": {
     "year": 2021,
     "venue": "2021 IEEE International Conference on Big Data (BigData)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2021-12-15",
+    "online_date": null,
+    "print_date": "2021-12-15",
+    "volume": null,
+    "issue": null,
+    "pages": "3020-3030",
+    "article_number": null,
+    "publisher": "IEEE",
+    "issn": [],
+    "isbn": [],
+    "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
   "status": "published_metadata_record",
@@ -25,8 +58,31 @@
   "abstract": null,
   "abstract_source": null,
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The verified record identifies this work as a BigData 2021 paper on heap monitoring and memory-leak diagnosis, but the full technical contribution was not available in the captured sources.",
   "evidence_level": "metadata-or-abstract-reviewed",
+  "evidence": {
+    "source_basis": "metadata-only",
+    "coverage": "bibliographic metadata",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "DOI: https://doi.org/10.1109/BigData52589.2021.9671473"
+      },
+      {
+        "note": "DBLP record: https://dblp.org/rec/conf/bigdataconf/AzhariBET21"
+      },
+      {
+        "note": "Private batch report: reports/parallel-batch-03.md"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The verified record identifies this work as a BigData 2021 paper on heap monitoring and memory-leak diagnosis, but the full technical contribution was not available in the captured sources.",
     "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
@@ -90,7 +146,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "DOI: https://doi.org/10.1109/BigData52589.2021.9671473",
       "DBLP record: https://dblp.org/rec/conf/bigdataconf/AzhariBET21",
@@ -105,6 +161,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

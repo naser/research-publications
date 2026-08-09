@@ -7,6 +7,7 @@ TI  - Efficient Detection of Communication-related Performance Anti-patterns in 
 PY  - 2025
 T2  - Authorea preprint
 AB  - The preprint combines selected communication-related system-call traces with distributed observability traces to detect Blob and Empty Semi Trucks anti-patterns in microservices. It reports supervised, semi-supervised, and unsupervised settings on DeathStarBench scenarios.
+PB  - Wiley
 DO  - 10.22541/au.175533132.24109345/v1
 UR  - https://doi.org/10.22541/au.175533132.24109345/v1
 ER  -

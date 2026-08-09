@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "high-performance-internet-connection-filtering-in-kernel",
   "page_url": "https://naser.github.io/research-publications/papers/high-performance-internet-connection-filtering-in-kernel/",
   "title": "High Performance Internet Connection Filtering through an In-Kernel Architecture",
@@ -10,10 +10,43 @@
     "Naser Nematbakhsh",
     "Michel Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Naser Ezzati Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Alireza Shameli Sendi",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Naser Nematbakhsh",
+      "orcid": null,
+      "profile_url": null
+    },
+    {
+      "name": "Michel Dagenais",
+      "orcid": null,
+      "profile_url": null
+    }
+  ],
   "publication": {
     "year": 2011,
     "venue": "Sixth International Conference on Internet Monitoring and Protection (ICIMP 2011)",
-    "type": "conference paper"
+    "type": "conference paper",
+    "publication_date": "2011",
+    "online_date": null,
+    "print_date": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null,
+    "publisher": null,
+    "issn": [],
+    "isbn": [],
+    "crossref_type": null
   },
   "publication_type": "conference paper",
   "status": "published_with_public_full_text",
@@ -25,8 +58,34 @@
   "abstract": null,
   "abstract_source": null,
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper moves part of an application proxy into the kernel to reduce context switches and unnecessary data copies during connection filtering.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Private full proceedings evidence note: pdf-evidence/notes/parallel-batch-04-high-performance-internet-connection-filtering-through-an-in-kernel-architecture.md"
+      },
+      {
+        "note": "Article printed pp. 32-37 in the public combined ICIMP proceedings PDF"
+      },
+      {
+        "note": "Local PDF hash verified: F4F01012F90BB07B08926F1AF8AED9CC0211177450BD1ABCB70DF3C87E37D94"
+      },
+      {
+        "note": "Institutional record: https://publications.polymtl.ca/16917/"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper moves part of an application proxy into the kernel to reduce context switches and unnecessary data copies during connection filtering.",
     "problem": "Application-layer proxy firewalls can copy packets between kernel and user space and incur repeated context switches, creating a network-performance bottleneck (printed pp. 32-34).",
@@ -96,7 +155,7 @@
     "canonical_version_id": "institutional-publication-record"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Private full proceedings evidence note: pdf-evidence/notes/parallel-batch-04-high-performance-internet-connection-filtering-through-an-in-kernel-architecture.md",
       "Article printed pp. 32-37 in the public combined ICIMP proceedings PDF",
@@ -112,6 +171,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

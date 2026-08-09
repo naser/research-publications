@@ -1,1 +1,1 @@
-Guan, Y., & Ezzati-Jivan, N. (2022). Deep Learning Driven Anomaly Based Intrusion Detection System for IoT: Poster Abstract. ACM/IFIP/USENIX Middleware 2022 Demos/Posters. https://doi.org/10.1145/3565386.3565493
+Guan, Y., & Ezzati-Jivan, N. (2022). Deep Learning Driven Anomaly Based Intrusion Detection System for IoT: Poster Abstract. In ACM/IFIP/USENIX Middleware 2022 Demos/Posters (pp. 19-20). https://doi.org/10.1145/3565386.3565493

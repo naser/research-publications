@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "paper_id": "distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu",
   "page_url": "https://naser.github.io/research-publications/papers/distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu/",
   "title": "Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization",
@@ -9,10 +9,40 @@
     "Naser Ezzati-Jivan",
     "Michel R. Dagenais"
   ],
+  "author_details": [
+    {
+      "name": "Yonni Chen Kuang Piao",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/300/5925.html"
+    },
+    {
+      "name": "Naser Ezzati-Jivan",
+      "orcid": "https://orcid.org/0000-0003-1435-6297",
+      "profile_url": "https://naser.github.io/"
+    },
+    {
+      "name": "Michel R. Dagenais",
+      "orcid": null,
+      "profile_url": "https://dblp.org/pid/60/309.html"
+    }
+  ],
   "publication": {
     "year": 2021,
     "venue": "Sensors",
-    "type": "journal article"
+    "type": "journal article",
+    "publication_date": "2021-08-18",
+    "online_date": "2021-08-18",
+    "print_date": null,
+    "volume": "21",
+    "issue": "16",
+    "pages": "5560",
+    "article_number": null,
+    "publisher": "MDPI AG",
+    "issn": [
+      "1424-8220"
+    ],
+    "isbn": [],
+    "crossref_type": "journal-article"
   },
   "publication_type": "journal article",
   "status": "published_with_public_full_text",
@@ -24,8 +54,34 @@
   "abstract": null,
   "abstract_source": "Open-access/institutional full-text PDF reviewed; abstract paraphrased for this catalog.",
   "abstract_available": false,
+  "scholar_eligibility": {
+    "eligible": false,
+    "basis": "not-eligible",
+    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+  },
   "description": "The paper presents a modular client-server architecture for large-trace storage, analysis, and visualization inside an integrated development environment.",
   "evidence_level": "full-text-reviewed",
+  "evidence": {
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
+    "summary_origin": "AI-assisted catalog editorial summary",
+    "review_status": "catalog-reviewed; paper-author approval pending",
+    "verified_on": "2026-08-09",
+    "sources": [
+      {
+        "note": "Sensors/institutional PDF: Trace Compass, TraceScape, LTTng 2.10.3, TASP, data providers, serialization, and visualization architecture"
+      },
+      {
+        "note": "Sensors/institutional PDF: 2.47 GB/75-million-event trace, state-model sizes, serialization payload/overhead, request latency, and rendering measurements"
+      },
+      {
+        "note": "Sensors/institutional PDF: small-trace, REST/gRPC, and qualitative-maintainability limitations plus future-work direction"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      }
+    ]
+  },
   "summary": {
     "core_contribution": "The paper presents a modular client-server architecture for large-trace storage, analysis, and visualization inside an integrated development environment.",
     "problem": "IDE trace analysis tools are difficult to integrate when trace storage, analysis, and visualization are monolithic, and large traces make browser transfer and rendering expensive.",
@@ -101,7 +157,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-08",
+    "metadata_verified_on": "2026-08-09",
     "metadata_source": [
       "Sensors/institutional PDF: Trace Compass, TraceScape, LTTng 2.10.3, TASP, data providers, serialization, and visualization architecture",
       "Sensors/institutional PDF: 2.47 GB/75-million-event trace, state-model sizes, serialization payload/overhead, request latency, and rendering measurements",
@@ -117,6 +173,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-08"
+    "selected_at": "2026-08-09"
   }
 }

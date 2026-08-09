@@ -60,11 +60,11 @@ Cite this paper when your work uses or compares an 18-feature VM resource/traffi
 
 ### APA 7
 
-Abbasi, H., Ezzati-Jivan, N., Bellaiche, M., Talhi, C., & Dagenais, M. R. (2019). Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis. Journal of Hardware and Systems Security. https://doi.org/10.1007/s41635-018-0061-2
+Abbasi, H., Ezzati-Jivan, N., Bellaiche, M., Talhi, C., & Dagenais, M. R. (2019). Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis. Journal of Hardware and Systems Security, 3(2), 164-176. https://doi.org/10.1007/s41635-018-0061-2
 
 ### IEEE
 
-H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis," Journal of Hardware and Systems Security, 2019, doi: 10.1007/s41635-018-0061-2
+H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis," Journal of Hardware and Systems Security, vol. 3, no. 2, pp. 164-176, 2019, doi: 10.1007/s41635-018-0061-2
 
 ```bibtex
 @article{ezzatiJivan2019machinelearning,
@@ -72,6 +72,11 @@ H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "Machine
   title = {Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis},
   year = {2019},
   journal = {Journal of Hardware and Systems Security},
+  volume = {3},
+  number = {2},
+  pages = {164-176},
+  publisher = {Springer Science and Business Media LLC},
+  issn = {2509-3428, 2509-3436},
   doi = {10.1007/s41635-018-0061-2},
   url = {https://doi.org/10.1007/s41635-018-0061-2}
 }
@@ -81,7 +86,7 @@ H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "Machine
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private accepted-manuscript PDF: EDoS threat types, VM resource-allocation framework, and 18-feature machine-learning pipeline; Private PDF: QEMU/KVM, Apache/MySQL, LTTng and monitoring tools, classifier split, accuracy, runtime, and Snort comparison; Private PDF: small-prototype, mixed-attack, and generalization limitations; Public PolyPublie accepted-manuscript record: https://publications.polymtl.ca/4211/; Local PDF hash and extracted text are recorded in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -58,11 +58,11 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Guan, Y., Noferesti, M., & Ezzati-Jivan, N. (2023). CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track). ACM/IFIP/USENIX Middleware 2023 Industry Track. https://doi.org/10.1145/3626562.3626832
+Guan, Y., Noferesti, M., & Ezzati-Jivan, N. (2023). CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track). In ACM/IFIP/USENIX Middleware 2023 Industry Track (pp. 29-34). https://doi.org/10.1145/3626562.3626832
 
 ### IEEE
 
-Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track)," in ACM/IFIP/USENIX Middleware 2023 Industry Track, 2023, doi: 10.1145/3626562.3626832
+Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track)," in ACM/IFIP/USENIX Middleware 2023 Industry Track, pp. 29-34, 2023, doi: 10.1145/3626562.3626832
 
 ```bibtex
 @inproceedings{ezzatiJivan2023cnnbilstm,
@@ -70,6 +70,8 @@ Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "CNN-BiLSTM-Based Classification of 
   title = {CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track)},
   year = {2023},
   booktitle = {ACM/IFIP/USENIX Middleware 2023 Industry Track},
+  pages = {29-34},
+  publisher = {ACM},
   doi = {10.1145/3626562.3626832},
   url = {https://doi.org/10.1145/3626562.3626832}
 }
@@ -79,7 +81,7 @@ Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "CNN-BiLSTM-Based Classification of 
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1145/3626562.3626832; DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

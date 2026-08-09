@@ -32,7 +32,7 @@ The official abstract describes a five-layer framework for analyzing interacting
 
 ## Topics and keywords
 
-**Tags:** [machine-learning](../../topics/machine-learning.md) | [multimodal-ai](../../topics/multimodal-ai.md) | [benchmark-datasets](../../topics/benchmark-datasets.md)
+**Tags:** [machine-learning](../../topics/machine-learning.md) | [responsible-ai](../../topics/responsible-ai.md) | [llm-evaluation](../../topics/llm-evaluation.md)
 
 **Keywords:** LLM bias | hierarchical bias analysis | interaction effects | ChatGPT | Gemini | bias dimensions | data bias | algorithmic bias | societal bias
 
@@ -58,7 +58,7 @@ Cite this paper when its specific method, evidence, or benchmark is directly rel
 
 ### APA 7
 
-Syed, B., Charlebois, D. A., Ezzati-Jivan, N., Tahmooresnejad, L., & Ayanso, A. (2025). Multi-Dimensional Bias Analysis in LLMs Using Hierarchical and Interaction Models. AMCIS 2025, Data Science / SIG DSA (ERF). https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/
+Syed, B., Charlebois, D. A., Ezzati-Jivan, N., Tahmooresnejad, L., & Ayanso, A. (2025). Multi-Dimensional Bias Analysis in LLMs Using Hierarchical and Interaction Models. In AMCIS 2025, Data Science / SIG DSA (ERF). https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/
 
 ### IEEE
 
@@ -78,7 +78,7 @@ B. Syed, D. A. Charlebois, N. Ezzati-Jivan, L. Tahmooresnejad, and A. Ayanso, "M
 
 ## Record provenance
 
-- Metadata verified: 2026-08-08
+- Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Official AIS paper and abstract page: https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/; DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25; Private evidence note: papers/multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27/pdf-evidence/notes/parallel-batch-01-multi-dimensional-bias-llm.md
 - Machine-readable record: [paper.json](./paper.json)
