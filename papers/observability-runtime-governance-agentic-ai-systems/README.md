@@ -4,37 +4,37 @@
 
 **Authors:** Naser Ezzati-Jivan, Maryam Ekhlasi
 
-**Core contribution:** The verified record identifies this work as a 2026 FSE paper on agentic-AI observability and runtime governance, but the full technical contribution was not available in the captured sources.
+**Core contribution:** The tutorial presents an end-to-end AgentOps workflow that connects task intent and model decisions to tool calls, memory access, inter-agent communication, external side effects, and runtime-governance decisions.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.
+Agentic systems synthesize stochastic control flow at runtime, so failures may appear as goal drift, unsafe tool use, incomplete work, or false success rather than exceptions. Prompt and response logs alone do not explain how decisions propagate into software and system effects.
 
 ### 2. Method and contribution
 
-No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.
+The proposed workflow has five stages: characterize the task, risks, constraints, tools, memories, dependencies, and permitted side effects; classify reasoning, planning, tool-use, coordination, memory, and governance failures; construct agent traces using spans, events, correlation identifiers, decisions, retries, memory operations, handoffs, and effects; correlate application-, model-, tool-, and system-level evidence; and apply policy checks, cumulative risk tracking, graded containment, supervisory agents, and human escalation.
 
 ### 3. Findings and evidence
 
-No page-grounded quantitative or qualitative findings were verified in this audit.
+This is a 90-minute technical tutorial and conceptual workflow rather than an empirical study. Its stated outcomes are a failure vocabulary, an agent-trace model, analysis strategies for loops, divergence, and silent failures, and runtime-governance patterns that support diagnosis and intervention.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.
+**Limitations:** The paper provides a tutorial architecture and representative forensic examples, but it does not report a controlled evaluation, benchmark, dataset, or quantitative comparison. Effectiveness and overhead therefore remain unmeasured in this publication.
 
-**Future work:** The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained.
+**Future work:** The paper identifies standardization gaps, scalability limits, evidence-sufficiency questions, and the need to improve cross-layer correlation and risk-aware intervention for long-running and partially successful agent workflows.
 
 ## Abstract
 
-Abstract not available in the captured sources.
+Agentic AI systems increasingly plan, call tools, coordinate with other agents, and act on external software services. Their failures are difficult to diagnose because control flow is generated at run-time, execution is stochastic, and incorrect behavior often appears as goal drift, unsafe tool use, or false success reports rather than as crashes. This tutorial presents a software engineering workflow for AgentOps that connects high-level intent, model-level decisions, tool calls, memory accesses, and low-level system effects. Participants will learn how to construct agent traces, correlate execution evidence, identify silent and drifting behavior, and apply runtime governance patterns such as policy checks, risk tracking, containment, and human escalation.
 
 ## Topics and keywords
 
 **Tags:** [observability](../../topics/observability.md) | [llm-assisted-analysis](../../topics/llm-assisted-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** agentic AI | runtime governance | AI observability | software agents | FSE 2026
+**Keywords:** agentic AI | AgentOps | runtime governance | AI observability | software agents | agent tracing | silent failures | goal drift | tool-use failures | cross-layer evidence | policy checks | human escalation | FSE 2026
 
 ## Versions and source links
 
@@ -49,10 +49,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when designing cross-layer AgentOps observability or runtime governance for tool-using and multi-agent systems.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Agent traces that connect goals and model decisions to tool calls, memory, handoffs, and external effects.
+- Failure classification covering silent, drifting, planning, coordination, memory, tool-use, and governance failures.
+- Runtime controls based on policy checks, cumulative risk tracking, graded containment, supervision, and human escalation.
 
 ## Citation
 
@@ -82,6 +83,6 @@ N. Ezzati-Jivan and M. Ekhlasi, "Observability and Runtime Governance for Agenti
 ## Record provenance
 
 - Metadata verified: 2026-08-09
-- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: Crossref DOI record: https://api.crossref.org/v1/works/10.1145/3803437.3804904; DBLP record: https://dblp.org/rec/conf/sigsoft/Ezzati-JivanE26; Private evidence note: papers/observability-and-runtime-governance-for-agentic-ai-systems-838a748cf7/pdf-evidence/notes/parallel-batch-01-observability-runtime-governance.md
+- Summary status: full-text-grounded catalog review; author approval pending
+- Metadata sources: Crossref DOI record: https://api.crossref.org/v1/works/10.1145/3803437.3804904; DBLP record: https://dblp.org/rec/conf/sigsoft/Ezzati-JivanE26; Complete two-page paper p. 1: exact abstract, problem motivation, ACM reference format, DOI, and CC BY 4.0 license notice; Complete two-page paper pp. 1-2: five-stage observability and runtime-governance workflow, tutorial format, outcomes, audience, and evaluation boundary; Locally reviewed PDF SHA-256: 4E2FBDB19C69CB9F28682088027DB53141DECAF549884855CACD5D7B7E6E0A03
 - Machine-readable record: [paper.json](./paper.json)

@@ -4,42 +4,42 @@
 
 **Authors:** Issam Sedki, Abdelwahab Hamou-Lhadj, Otmane Ait-Mohamed, Naser Ezzati-Jivan, Mohammed A. Shehab
 
-**Core contribution:** The poster abstract proposes a taxonomy-oriented analysis of challenges that affect actionable log parsing.
+**Core contribution:** The paper derives a 30-item taxonomy of log event characteristics that induce parsing errors and quantifies the characteristics with the largest impact across eight parsers.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Different log datasets and parsers expose recurring parsing difficulties, but the complete challenge space is difficult to compare systematically.
+Log parsers must separate static template text from dynamic values across heterogeneous formats, yet prior work concentrates on parser algorithms more than on the data characteristics that repeatedly cause parsing errors.
 
 ### 2. Method and contribution
 
-At abstract level, the study examines 16 datasets and eight log-parsing tools. The taxonomy categories, parser configurations, and validation procedure require the poster or paper artifact.
+The study uses 16 heterogeneous Loghub datasets, each with 2,000 manually parsed events and templates as ground truth, and runs Drain, IPLoM, AEL, Spell, Lenma, LogMine, SHISO, and ULP with their published configurations. The authors open-code an initial sample of 100 unique events per dataset, iteratively reconcile codes and categories, and then extend detection to all events with regular expressions and named-entity recognition.
 
 ### 3. Findings and evidence
 
-The official abstract establishes the dataset/tool coverage but does not expose page-grounded category counts, accuracy values, or comparative results.
+The analysis identifies 30 log event characteristics in three groups: 19 data-type characteristics, six structural patterns, and five log-message-composition characteristics. Four characteristics account on average for more than half of observed parsing errors: unseparated token sequences contribute about 19-20% across parsers, alphanumeric-plus-special-character tokens about 11-13%, colon-delimited key-value pairs 10.63-11.42%, and decimal values 7.43-8.55%.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The full poster artifact and detailed taxonomy were not retrieved; no method or result beyond the official abstract is asserted.
+**Limitations:** This is a preliminary two-page study. The initial qualitative coding uses 100 unique events per dataset, the automated extension depends on regular expressions and named-entity recognition, parser configurations follow prior publications, and detailed per-dataset results are omitted because of space limits.
 
-**Future work:** The paper-specific future-work section remains unverified.
+**Future work:** Use the taxonomy to design parsers that adapt to heterogeneous log structures and to develop empirically grounded logging guidelines and best practices; validate the taxonomy on additional datasets and parser families.
 
 ## Abstract
 
-The official poster abstract reports a study of log-parsing challenges across 16 datasets and eight parsing tools; the detailed taxonomy and evaluation were not captured.
+Logging is a common practice in software engineering that is used by developers to understand the runtime aspects of a system. Log files, however, tend to vary in their structures, making it challenging to analyze their content. In this paper, we present a preliminary taxonomy of log event characteristics that commonly lead to log parsing errors. We achieve this through the analysis of 16 log datasets using eight different parsing tools. We believe that this taxonomy can be used to guide the design of better log parsing tools that can adapt to various log file structures. It can also pave the way to the development of logging guidelines and best practices.
 
 ## Topics and keywords
 
-**Tags:** [observability](../../topics/observability.md) | [machine-learning](../../topics/machine-learning.md) | [trace-analysis](../../topics/trace-analysis.md)
+**Tags:** [observability](../../topics/observability.md) | [machine-learning](../../topics/machine-learning.md) | [trace-analysis](../../topics/trace-analysis.md) | [benchmark-datasets](../../topics/benchmark-datasets.md)
 
-**Keywords:** [log parsing](../../keywords/log-parsing.md) | log parsing challenges | taxonomy | log datasets | parsing tools | ICSE 2024
+**Keywords:** [log parsing](../../keywords/log-parsing.md) | [log event characteristics](../../keywords/log-event-characteristics.md) | [LEC taxonomy](../../keywords/lec-taxonomy.md) | [LogHub](../../keywords/loghub.md) | [open coding](../../keywords/open-coding.md) | [Drain](../../keywords/drain.md) | [IPLoM](../../keywords/iplom.md) | [AEL](../../keywords/ael.md) | [Spell](../../keywords/spell.md) | [LenMa](../../keywords/lenma.md) | [LogMine](../../keywords/logmine.md) | [SHISO](../../keywords/shiso.md) | [ULP](../../keywords/ulp.md) | log templates | parsing errors | ICSE 2024
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1145/3639478.3643523) - published
-- [Official ICSE poster page](https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions) - public_source_record
+- [Free-access ACM PDF](https://dl.acm.org/doi/pdf/10.1145/3639478.3643523?download=true) | [PDF](https://dl.acm.org/doi/pdf/10.1145/3639478.3643523?download=true) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1145/3639478.3643523](https://doi.org/10.1145/3639478.3643523)
 
@@ -49,10 +49,11 @@ The official poster abstract reports a study of log-parsing challenges across 16
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when analyzing which log-event structures systematically cause errors across automated log parsers.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- A 30-item taxonomy derived from 16 Loghub datasets and eight log parsers.
+- Open coding plus regex and named-entity-recognition expansion for identifying error-inducing log characteristics.
+- Cross-parser impact estimates for unseparated tokens, mixed alphanumeric/special-character tokens, colon-delimited key-value pairs, and decimals.
 
 ## Citation
 
@@ -82,6 +83,6 @@ I. Sedki, A. Hamou-Lhadj, O. Ait-Mohamed, N. Ezzati-Jivan, and M. A. Shehab, "De
 ## Record provenance
 
 - Metadata verified: 2026-08-09
-- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions; DOI: https://doi.org/10.1145/3639478.3643523; Private batch report: reports/parallel-batch-02.md
+- Summary status: full-text-grounded catalog review; author approval pending
+- Metadata sources: ACM free-access eReader, pp. 392-393: complete paper, abstract, approach, taxonomy tables, results, limitations, and conclusion; ACM page verified 2026-08-09: free access, DOI 10.1145/3639478.3643523, pp. 392-393, published 23 May 2024; Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions; DOI: https://doi.org/10.1145/3639478.3643523; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

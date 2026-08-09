@@ -55,29 +55,35 @@
     "crossref_type": "proceedings-article"
   },
   "publication_type": "poster paper",
-  "status": "published_metadata_record",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1145/3639478.3643523",
   "source_record_id": "decoding-log-parsing-challenges-a-comprehensive-taxonomy-for-actionable-solutions-a76a73833e",
   "identifiers": {
     "doi": "10.1145/3639478.3643523"
   },
-  "abstract": "The official poster abstract reports a study of log-parsing challenges across 16 datasets and eight parsing tools; the detailed taxonomy and evaluation were not captured.",
-  "abstract_source": "Official ICSE poster abstract, paraphrased; full artifact not obtained.",
+  "abstract": "Logging is a common practice in software engineering that is used by developers to understand the runtime aspects of a system. Log files, however, tend to vary in their structures, making it challenging to analyze their content. In this paper, we present a preliminary taxonomy of log event characteristics that commonly lead to log parsing errors. We achieve this through the analysis of 16 log datasets using eight different parsing tools. We believe that this taxonomy can be used to guide the design of better log parsing tools that can adapt to various log file structures. It can also pave the way to the development of logging guidelines and best practices.",
+  "abstract_source": "Exact author abstract from ACM's free-access version of record, reviewed in full on 2026-08-09.",
   "abstract_available": true,
   "scholar_eligibility": {
-    "eligible": false,
-    "basis": "not-eligible",
-    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+    "eligible": true,
+    "basis": "complete-visible-author-abstract",
+    "note": "The page displays the complete verified author abstract."
   },
-  "description": "The official poster abstract reports a study of log-parsing challenges across 16 datasets and eight parsing tools; the detailed taxonomy and evaluation were not captured.",
-  "evidence_level": "metadata-or-abstract-reviewed",
+  "description": "Logging is a common practice in software engineering that is used by developers to understand the runtime aspects of a system. Log files, however, tend to vary in their structures, making it challenging to analyze their content. In this paper, we present a preliminary taxonomy of log event characteristics that commonly lead to log parsing errors. We achieve this through the analysis of 16 log datasets using eight different parsing tools. We believe that this taxonomy can be used to guide the design of better log parsing tools that can adapt to various log file structures. It can also pave the way to the development of logging guidelines and best practices.",
+  "evidence_level": "full-text-reviewed",
   "evidence": {
-    "source_basis": "abstract-and-metadata-reviewed",
-    "coverage": "abstract and bibliographic metadata",
+    "source_basis": "full-text-reviewed",
+    "coverage": "material paper sections",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
     "verified_on": "2026-08-09",
     "sources": [
+      {
+        "note": "ACM free-access eReader, pp. 392-393: complete paper, abstract, approach, taxonomy tables, results, limitations, and conclusion"
+      },
+      {
+        "note": "ACM page verified 2026-08-09: free access, DOI 10.1145/3639478.3643523, pp. 392-393, published 23 May 2024"
+      },
       {
         "note": "Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions"
       },
@@ -90,24 +96,35 @@
     ]
   },
   "summary": {
-    "core_contribution": "The poster abstract proposes a taxonomy-oriented analysis of challenges that affect actionable log parsing.",
-    "problem": "Different log datasets and parsers expose recurring parsing difficulties, but the complete challenge space is difficult to compare systematically.",
-    "method": "At abstract level, the study examines 16 datasets and eight log-parsing tools. The taxonomy categories, parser configurations, and validation procedure require the poster or paper artifact.",
-    "findings": "The official abstract establishes the dataset/tool coverage but does not expose page-grounded category counts, accuracy values, or comparative results.",
-    "limitations": "The full poster artifact and detailed taxonomy were not retrieved; no method or result beyond the official abstract is asserted.",
-    "future_work": "The paper-specific future-work section remains unverified."
+    "core_contribution": "The paper derives a 30-item taxonomy of log event characteristics that induce parsing errors and quantifies the characteristics with the largest impact across eight parsers.",
+    "problem": "Log parsers must separate static template text from dynamic values across heterogeneous formats, yet prior work concentrates on parser algorithms more than on the data characteristics that repeatedly cause parsing errors.",
+    "method": "The study uses 16 heterogeneous Loghub datasets, each with 2,000 manually parsed events and templates as ground truth, and runs Drain, IPLoM, AEL, Spell, Lenma, LogMine, SHISO, and ULP with their published configurations. The authors open-code an initial sample of 100 unique events per dataset, iteratively reconcile codes and categories, and then extend detection to all events with regular expressions and named-entity recognition.",
+    "findings": "The analysis identifies 30 log event characteristics in three groups: 19 data-type characteristics, six structural patterns, and five log-message-composition characteristics. Four characteristics account on average for more than half of observed parsing errors: unseparated token sequences contribute about 19-20% across parsers, alphanumeric-plus-special-character tokens about 11-13%, colon-delimited key-value pairs 10.63-11.42%, and decimal values 7.43-8.55%.",
+    "limitations": "This is a preliminary two-page study. The initial qualitative coding uses 100 unique events per dataset, the automated extension depends on regular expressions and named-entity recognition, parser configurations follow prior publications, and detailed per-dataset results are omitted because of space limits.",
+    "future_work": "Use the taxonomy to design parsers that adapt to heterogeneous log structures and to develop empirically grounded logging guidelines and best practices; validate the taxonomy on additional datasets and parser families."
   },
   "tags": [
     "observability",
     "machine-learning",
-    "trace-analysis"
+    "trace-analysis",
+    "benchmark-datasets"
   ],
   "keywords": [
     "log parsing",
-    "log parsing challenges",
-    "taxonomy",
-    "log datasets",
-    "parsing tools",
+    "log event characteristics",
+    "LEC taxonomy",
+    "LogHub",
+    "open coding",
+    "Drain",
+    "IPLoM",
+    "AEL",
+    "Spell",
+    "LenMa",
+    "LogMine",
+    "SHISO",
+    "ULP",
+    "log templates",
+    "parsing errors",
     "ICSE 2024"
   ],
   "versions": [
@@ -122,19 +139,19 @@
       "canonical_for_citation": true
     },
     {
-      "id": "official-icse-poster-page",
-      "label": "Official ICSE poster page",
+      "id": "free-access-acm-pdf",
+      "label": "Free-access ACM PDF",
       "relation": "source-record",
       "title": "Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions",
-      "url": "https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions",
-      "pdf_url": null,
-      "status": "public_source_record",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3639478.3643523?download=true",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3639478.3643523?download=true",
+      "status": "public_full_text",
       "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The official ICSE poster page verifies the poster identity and abstract-level aggregate claims. The full artifact was not obtained; parser names, categories, and validation details remain pending.",
+    "status": "published_with_public_full_text",
+    "note": "ACM marks the two-page version of record as free access and provides public PDF and eReader links. The PDF is externally linked and is not redistributed here.",
     "license": null
   },
   "resources": {
@@ -144,22 +161,25 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when analyzing which log-event structures systematically cause errors across automated log parsers.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "A 30-item taxonomy derived from 16 Loghub datasets and eight log parsers.",
+      "Open coding plus regex and named-entity-recognition expansion for identifying error-inducing log characteristics.",
+      "Cross-parser impact estimates for unseparated tokens, mixed alphanumeric/special-character tokens, colon-delimited key-value pairs, and decimals."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
+      "ACM free-access eReader, pp. 392-393: complete paper, abstract, approach, taxonomy tables, results, limitations, and conclusion",
+      "ACM page verified 2026-08-09: free access, DOI 10.1145/3639478.3643523, pp. 392-393, published 23 May 2024",
       "Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions",
       "DOI: https://doi.org/10.1145/3639478.3643523",
       "Private batch report: reports/parallel-batch-02.md"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
