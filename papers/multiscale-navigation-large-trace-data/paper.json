@@ -22,6 +22,9 @@
   },
   "abstract": "The accessible abstract describes hierarchical trace-log management with an interactive zoomable timeline and semantic and physical zooming that supports coarse-layer-first navigation.",
   "abstract_source": "PolyPublie/abstract metadata, paraphrased; full text not obtained.",
+  "abstract_available": true,
+  "description": "The accessible abstract describes hierarchical trace-log management with an interactive zoomable timeline and semantic and physical zooming that supports coarse-layer-first navigation.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "The abstract presents multiscale navigation for large trace data through hierarchical storage and interactive zoomable visualization.",
     "problem": "Trace logs can be too large for direct inspection, so analysts need to move between coarse and detailed views without loading or rendering everything at once.",
@@ -86,7 +89,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "PolyPublie record: https://publications.polymtl.ca/12410/",
       "DOI: https://doi.org/10.1109/CCECE.2014.6901019",
@@ -94,7 +97,7 @@
       "Private batch report: reports/parallel-batch-03.md"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -102,6 +105,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

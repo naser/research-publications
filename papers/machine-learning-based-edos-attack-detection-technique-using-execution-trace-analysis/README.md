@@ -34,7 +34,7 @@ Economic Denial of Sustainability (EDoS) attacks can cause cloud customers to pa
 
 **Tags:** [anomaly-detection](../../topics/anomaly-detection.md) | [kernel-tracing](../../topics/kernel-tracing.md) | [machine-learning](../../topics/machine-learning.md) | [performance-analysis](../../topics/performance-analysis.md) | [resource-analysis](../../topics/resource-analysis.md) | [system-tracing](../../topics/system-tracing.md)
 
-**Keywords:** [Economic Denial of Sustainability](../../keywords/economic-denial-of-sustainability.md) | [EDoS](../../keywords/edos.md) | [DDoS](../../keywords/ddos.md) | [cloud computing](../../keywords/cloud-computing.md) | [execution trace analysis](../../keywords/execution-trace-analysis.md) | [LTTng](../../keywords/lttng.md) | [QEMU](../../keywords/qemu.md) | [KVM](../../keywords/kvm.md) | [Apache](../../keywords/apache.md) | [MySQL](../../keywords/mysql.md) | [HTTPFlooder](../../keywords/httpflooder.md) | [LoadRunner](../../keywords/loadrunner.md) | [WEKA](../../keywords/weka.md) | [multilayer perceptron](../../keywords/multilayer-perceptron.md) | [SVM](../../keywords/svm.md) | [Snort](../../keywords/snort.md)
+**Keywords:** Economic Denial of Sustainability | EDoS | DDoS | cloud computing | execution trace analysis | [LTTng](../../keywords/lttng.md) | [QEMU](../../keywords/qemu.md) | [KVM](../../keywords/kvm.md) | [Apache](../../keywords/apache.md) | MySQL | HTTPFlooder | LoadRunner | WEKA | multilayer perceptron | [SVM](../../keywords/svm.md) | Snort
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "Machine
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private accepted-manuscript PDF: EDoS threat types, VM resource-allocation framework, and 18-feature machine-learning pipeline; Private PDF: QEMU/KVM, Apache/MySQL, LTTng and monitoring tools, classifier split, accuracy, runtime, and Snort comparison; Private PDF: small-prototype, mixed-attack, and generalization limitations; Public PolyPublie accepted-manuscript record: https://publications.polymtl.ca/4211/; Local PDF hash and extracted text are recorded in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-engineering](../../topics/performance-engineering.md) | [observability](../../topics/observability.md) | [anomaly-detection](../../topics/anomaly-detection.md)
 
-**Keywords:** [LTTng](../../keywords/lttng.md) | [Linux kernel events](../../keywords/linux-kernel-events.md) | [system calls](../../keywords/system-calls.md) | [kernel tracepoints](../../keywords/kernel-tracepoints.md) | [Elasticsearch](../../keywords/elasticsearch.md) | [Kibana](../../keywords/kibana.md) | [IoT dataset](../../keywords/iot-dataset.md) | [stress-ng](../../keywords/stress-ng.md) | [CPU noise](../../keywords/cpu-noise.md) | [I/O noise](../../keywords/i-o-noise.md) | [network noise](../../keywords/network-noise.md) | [memory noise](../../keywords/memory-noise.md) | [software phase detection](../../keywords/software-phase-detection.md) | [24,263,691 events](../../keywords/24-263-691-events.md)
+**Keywords:** [LTTng](../../keywords/lttng.md) | Linux kernel events | [system calls](../../keywords/system-calls.md) | kernel tracepoints | Elasticsearch | Kibana | IoT dataset | [stress-ng](../../keywords/stress-ng.md) | CPU noise | I/O noise | network noise | memory noise | software phase detection | 24,263,691 events
 
 ## Resources
 
@@ -83,7 +83,7 @@ M. Noferesti and N. Ezzati-Jivan, "Enhancing empirical software performance engi
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1016/j.jss.2024.112117; author identity matched to Naser Ezzati-Jivan in the local research catalog; Authors' artifact README: LTTng collection, Ubuntu 22.04.2, Elasticsearch/Kibana workflow, twelve workload reports, four simulated noise types, and three intended applications; Authors' artifact README: 24,263,691 raw events, event fields, tracepoint use, installation scripts, and reproducibility instructions; Authors' artifact system-info.txt: host, Ubuntu/kernel, CPU, GPU, memory, and storage environment for the published artifact run; No local publication PDF hash is claimed; publisher/SSRN full-text retrieval was blocked during this run
 - Machine-readable record: [paper.json](./paper.json)

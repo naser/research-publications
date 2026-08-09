@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [observability](../../topics/observability.md)
 
-**Keywords:** [cloud tracing](../../keywords/cloud-tracing.md) | [high-level tracing](../../keywords/high-level-tracing.md) | [low-level tracing](../../keywords/low-level-tracing.md) | [cross-layer observability](../../keywords/cross-layer-observability.md) | [OpenStack Nova](../../keywords/openstack-nova.md) | [QEMU](../../keywords/qemu.md) | [KVM](../../keywords/kvm.md) | [Trace Compass](../../keywords/trace-compass.md) | [live migration](../../keywords/live-migration.md)
+**Keywords:** cloud tracing | high-level tracing | low-level tracing | cross-layer observability | [OpenStack Nova](../../keywords/openstack-nova.md) | [QEMU](../../keywords/qemu.md) | [KVM](../../keywords/kvm.md) | [Trace Compass](../../keywords/trace-compass.md) | live migration
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ Y. J. Bationo, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Cloud Tracing: Fr
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/icce.2018.8326353; author identity matched to Naser Ezzati-Jivan in the local research catalog; Efficient cloud tracing PDF pp. 1-5: OpenStack/Nova, QEMU/KVM, LTTng, Trace Compass, and cross-layer model; Efficient cloud tracing PDF pp. 5-6: live-migration procedure, interference conditions, and Table III results; Efficient cloud tracing PDF p. 7: network-evidence limitation and proposed Neutron/OpenDaylight future work; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

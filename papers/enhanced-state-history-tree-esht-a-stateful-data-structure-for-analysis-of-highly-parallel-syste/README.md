@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-optimization](../../topics/performance-optimization.md) | [multicore-systems](../../topics/multicore-systems.md) | [resource-analysis](../../topics/resource-analysis.md)
 
-**Keywords:** [Enhanced State History Tree](../../keywords/enhanced-state-history-tree.md) | [eSHT](../../keywords/esht.md) | [State History Tree](../../keywords/state-history-tree.md) | [interval data](../../keywords/interval-data.md) | [external-memory indexing](../../keywords/external-memory-indexing.md) | [LTTng 2.7.0](../../keywords/lttng-2-7-0.md) | [Trace Compass](../../keywords/trace-compass.md) | [Linux kernel 4.3.0](../../keywords/linux-kernel-4-3-0.md) | [parallel traces](../../keywords/parallel-traces.md) | [node fill](../../keywords/node-fill.md) | [tree depth](../../keywords/tree-depth.md) | [query optimization](../../keywords/query-optimization.md)
+**Keywords:** Enhanced State History Tree | eSHT | [State History Tree](../../keywords/state-history-tree.md) | [interval data](../../keywords/interval-data.md) | external-memory indexing | LTTng 2.7.0 | [Trace Compass](../../keywords/trace-compass.md) | Linux kernel 4.3.0 | parallel traces | node fill | tree depth | query optimization
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ L. Prieur-Drevon, R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Enhanced St
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: eSHT PDF: LTTng 2.7.0/Linux 4.3.0/Trace Compass environment, synthetic many-thread workload, and 1,000-1,000,000-attribute scale; eSHT PDF: SHT/eSHT build, node, disk, fill, depth, query, and one-million-attribute results; eSHT PDF: stress-case limitation and build/overlap/Trace Compass future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

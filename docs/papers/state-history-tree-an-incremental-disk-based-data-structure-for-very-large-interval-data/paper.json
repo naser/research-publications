@@ -24,6 +24,9 @@
   },
   "abstract": "The State History Tree is a disk-based structure for incrementally arriving, time-ordered interval data derived from LTTng system traces, designed to support very large histories.",
   "abstract_source": "Public institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": true,
+  "description": "The State History Tree is a disk-based structure for incrementally arriving, time-ordered interval data derived from LTTng system traces, designed to support very large histories.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper presents a disk-oriented State History Tree that stores very large, time-ordered trace intervals without repeated node rebalancing.",
     "problem": "Trace-derived, time-ordered interval histories can exceed memory capacity; generic R-trees rebalance repeatedly during chronological construction, while B-trees do not directly model intervals (pp. 2-5).",
@@ -96,7 +99,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design",
       "State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons",
@@ -104,7 +107,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -112,6 +115,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

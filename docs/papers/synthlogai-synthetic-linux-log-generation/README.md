@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [machine-learning](../../topics/machine-learning.md) | [observability](../../topics/observability.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [system-tracing](../../topics/system-tracing.md)
 
-**Keywords:** [synthetic Linux logs](../../keywords/synthetic-linux-logs.md) | [generative AI](../../keywords/generative-ai.md) | [log generation](../../keywords/log-generation.md) | [log evaluation](../../keywords/log-evaluation.md) | [CASCON 2025](../../keywords/cascon-2025.md)
+**Keywords:** synthetic Linux logs | generative AI | log generation | log evaluation | [CASCON 2025](../../keywords/cascon-2025.md)
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "SynthLogAI: Generative AI for Syn
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344303/; CASCON schedule: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation; Private evidence note: papers/synthlogai-generative-ai-for-synthetic-linux-log-generation-and-evaluation-a00bad2d6b/pdf-evidence/notes/parallel-batch-01-synthlogai.md
 - Machine-readable record: [paper.json](./paper.json)

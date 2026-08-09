@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [microservices](../../topics/microservices.md) | [performance-analysis](../../topics/performance-analysis.md) | [latency-analysis](../../topics/latency-analysis.md) | [observability](../../topics/observability.md) | [performance-engineering](../../topics/performance-engineering.md)
 
-**Keywords:** [Alibaba microservice architecture](../../keywords/alibaba-microservice-architecture.md) | [critical path](../../keywords/critical-path.md) | [distributed traces](../../keywords/distributed-traces.md) | [response-time variability](../../keywords/response-time-variability.md) | [critical interactions](../../keywords/critical-interactions.md) | [microservice performance](../../keywords/microservice-performance.md) | [adaptive tracing](../../keywords/adaptive-tracing.md) | [cluster-trace-microservices-v2022](../../keywords/cluster-trace-microservices-v2022.md) | [mean response time](../../keywords/mean-response-time.md) | [standard deviation](../../keywords/standard-deviation.md)
+**Keywords:** Alibaba microservice architecture | [critical path](../../keywords/critical-path.md) | [distributed traces](../../keywords/distributed-traces.md) | response-time variability | critical interactions | microservice performance | [adaptive tracing](../../keywords/adaptive-tracing.md) | cluster-trace-microservices-v2022 | mean response time | standard deviation
 
 ## Resources
 
@@ -86,7 +86,7 @@ A. Ezaz, G. Khodabandeh, and N. Ezzati-Jivan, "Analyzing Performance Variability
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE Companion PDF: Alibaba cluster-trace-microservices-v2022 preprocessing, critical-path extraction, 20 intervals, and 10-times-mean variability rule; ICPE Companion PDF: nearly 20,000 services, 40,062,862 trace IDs, 91,704 critical paths, 1,891 high-variance interactions, and four patterns; Author-linked analysis repository and Alibaba dataset URL recorded as reproducibility resources; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

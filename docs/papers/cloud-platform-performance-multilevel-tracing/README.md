@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [performance-engineering](../../topics/performance-engineering.md) | [resource-analysis](../../topics/resource-analysis.md)
 
-**Keywords:** [cloud platforms](../../keywords/cloud-platforms.md) | [multi-level execution tracing](../../keywords/multi-level-execution-tracing.md) | [LTTng](../../keywords/lttng.md) | [LTTng-UST](../../keywords/lttng-ust.md) | [OpenStack Nova](../../keywords/openstack-nova.md) | [Neutron](../../keywords/neutron.md) | [QEMU](../../keywords/qemu.md) | [KVM](../../keywords/kvm.md) | [Open vSwitch](../../keywords/open-vswitch.md) | [Trace Compass](../../keywords/trace-compass.md) | [live VM migration](../../keywords/live-vm-migration.md) | [preemption](../../keywords/preemption.md) | [VM interference](../../keywords/vm-interference.md)
+**Keywords:** cloud platforms | multi-level execution tracing | [LTTng](../../keywords/lttng.md) | [LTTng-UST](../../keywords/lttng-ust.md) | [OpenStack Nova](../../keywords/openstack-nova.md) | Neutron | [QEMU](../../keywords/qemu.md) | [KVM](../../keywords/kvm.md) | Open vSwitch | [Trace Compass](../../keywords/trace-compass.md) | live VM migration | preemption | VM interference
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ Y. J. Bationo, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Cloud Platform Pe
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063; author identity matched to Naser Ezzati-Jivan in the local research catalog; Cloud platform PDF pp. 1-5: LTTng/LTTng-UST, Nova/QEMU/KVM/Neutron/Open vSwitch tracing, correlation, and Trace Compass views; Cloud platform PDF pp. 5-6: live-migration procedure, 166.12/169.320-second results, preemption and VM-interference diagnosis; Cloud platform PDF p. 6: conclusion and future-work boundary; local cloud-platform PDF hash verified in pdf-evidence/notes/cloud-platform-performance-multilevel-tracing.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

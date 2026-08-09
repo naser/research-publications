@@ -25,6 +25,9 @@
   },
   "abstract": "Economic Denial of Sustainability (EDoS) attacks can cause cloud customers to pay for malicious resource consumption. The paper proposes a framework that learns normal and abnormal virtual-machine behavior and allocates extra resources only to VMs classified as normal, limiting attack propagation and resource misuse.",
   "abstract_source": "Public accepted-manuscript PDF reviewed locally; abstract paraphrased for this catalog.",
+  "abstract_available": true,
+  "description": "Economic Denial of Sustainability (EDoS) attacks can cause cloud customers to pay for malicious resource consumption. The paper proposes a framework that learns normal and abnormal virtual-machine behavior and allocates extra resources only to VMs classified as normal, limiting attack propagation and resource misuse.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper combines execution-trace and virtual-machine metrics with machine learning to detect EDoS behavior and restrict resource expansion to apparently normal VMs.",
     "problem": "EDoS attacks can make a pay-per-use cloud allocate additional resources to malicious traffic, causing cost escalation; packet-level similarity makes simple traffic rules inadequate.",
@@ -103,7 +106,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Private accepted-manuscript PDF: EDoS threat types, VM resource-allocation framework, and 18-feature machine-learning pipeline",
       "Private PDF: QEMU/KVM, Apache/MySQL, LTTng and monitoring tools, classifier split, accuracy, runtime, and Snort comparison",
@@ -112,7 +115,7 @@
       "Local PDF hash and extracted text are recorded in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -120,6 +123,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

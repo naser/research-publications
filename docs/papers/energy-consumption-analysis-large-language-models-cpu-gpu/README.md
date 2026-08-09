@@ -34,7 +34,7 @@ The paper presents a multi-level analysis of energy consumption for large langua
 
 **Tags:** [energy-efficiency](../../topics/energy-efficiency.md) | [llm-efficiency](../../topics/llm-efficiency.md) | [performance-modeling](../../topics/performance-modeling.md) | [machine-learning](../../topics/machine-learning.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [LLM energy consumption](../../keywords/llm-energy-consumption.md) | [CPU energy](../../keywords/cpu-energy.md) | [GPU energy](../../keywords/gpu-energy.md) | [green AI](../../keywords/green-ai.md) | [static metrics](../../keywords/static-metrics.md) | [dynamic metrics](../../keywords/dynamic-metrics.md) | [NLP workloads](../../keywords/nlp-workloads.md) | [energy prediction](../../keywords/energy-prediction.md) | [CASCON 2025](../../keywords/cascon-2025.md)
+**Keywords:** LLM energy consumption | CPU energy | GPU energy | green AI | static metrics | dynamic metrics | NLP workloads | energy prediction | [CASCON 2025](../../keywords/cascon-2025.md)
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ T. Zhang, L. Tahmooresnejad, and N. Ezzati-Jivan, "Energy Consumption Analysis o
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344465/; DOI: https://doi.org/10.1109/CASCON66301.2025.00056; Public abstract metadata mirror: https://eurekamag.com/research/104/995/104995729.php; Private evidence report: reports/agent-batch-01.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [energy-efficiency](../../topics/energy-efficiency.md) | [performance-modeling](../../topics/performance-modeling.md) | [predictive-monitoring](../../topics/predictive-monitoring.md) | [machine-learning](../../topics/machine-learning.md)
 
-**Keywords:** [software energy consumption](../../keywords/software-energy-consumption.md) | [predictive models](../../keywords/predictive-models.md) | [energy efficiency](../../keywords/energy-efficiency.md) | [software environments](../../keywords/software-environments.md) | [IEEE Big Data 2024](../../keywords/ieee-big-data-2024.md)
+**Keywords:** software energy consumption | predictive models | energy efficiency | software environments | IEEE Big Data 2024
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ T. Zhang, S. I. Dipanzan, L. Tahmooresnejad, and N. Ezzati-Jivan, "Assessing Pre
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/10825500/; DOI: https://doi.org/10.1109/BigData62323.2024.10825500; Private evidence note: papers/assessing-predictive-models-for-energy-consumption-across-varied-software-environments-1da35b5bb9/pdf-evidence/notes/parallel-batch-01-energy-consumption-software-environments.md
 - Machine-readable record: [paper.json](./paper.json)

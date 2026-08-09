@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [microservices](../../topics/microservices.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [trace-analysis](../../topics/trace-analysis.md)
 
-**Keywords:** [distributed requests](../../keywords/distributed-requests.md) | [multilevel trace analysis](../../keywords/multilevel-trace-analysis.md) | [LTTng](../../keywords/lttng.md) | [Apache](../../keywords/apache.md) | [PHP](../../keywords/php.md) | [MariaDB](../../keywords/mariadb.md) | [State History Tree](../../keywords/state-history-tree.md) | [cache hit ratio](../../keywords/cache-hit-ratio.md) | [disk contention](../../keywords/disk-contention.md) | [ApacheBench](../../keywords/apachebench.md) | [Trace Compass](../../keywords/trace-compass.md)
+**Keywords:** distributed requests | multilevel trace analysis | [LTTng](../../keywords/lttng.md) | [Apache](../../keywords/apache.md) | [PHP](../../keywords/php.md) | MariaDB | [State History Tree](../../keywords/state-history-tree.md) | cache hit ratio | disk contention | ApacheBench | [Trace Compass](../../keywords/trace-compass.md)
 
 ## Resources
 
@@ -85,7 +85,7 @@ N. Ezzati-Jivan, H. Daoud, and M. R. Dagenais, "Debugging of Performance Degrada
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/debugging-performance-degradation-distributed-requests.md; Debugging paper pp. 1-10: LTTng, LAMP probes, multihost synchronization, State History Tree, data model, and top-down algorithm; Debugging paper pp. 11-13: MediaWiki/WordPress/MariaDB and unusual-latency use cases, cache analysis, and disk contention diagnosis; Debugging paper pp. 14-16: ApacheBench environment, tracing overhead, state-store/PostgreSQL comparison, conclusion, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

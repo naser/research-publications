@@ -34,7 +34,7 @@ Detecting performance issues and identifying their root causes in the runtime is
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [latency-analysis](../../topics/latency-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [dependency-graphs](../../topics/dependency-graphs.md)
 
-**Keywords:** [latency outliers](../../keywords/latency-outliers.md) | [system-level traces](../../keywords/system-level-traces.md) | [dependency graphs](../../keywords/dependency-graphs.md) | [density-based models](../../keywords/density-based-models.md) | [z-score](../../keywords/z-score.md) | [production diagnosis](../../keywords/production-diagnosis.md)
+**Keywords:** latency outliers | [system-level traces](../../keywords/system-level-traces.md) | dependency graphs | density-based models | z-score | production diagnosis
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ S. Patel, B. Park, N. Ezzati-Jivan, and Q. Fournier, "Automated Cause Analysis o
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2207.06515; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md) | [resource-analysis](../../topics/resource-analysis.md) | [performance-engineering](../../topics/performance-engineering.md)
 
-**Keywords:** [trace statistics](../../keywords/trace-statistics.md) | [LTTng](../../keywords/lttng.md) | [Linux kernel 2.6.38.6](../../keywords/linux-kernel-2-6-38-6.md) | [disk-resident interval tree](../../keywords/disk-resident-interval-tree.md) | [history tree](../../keywords/history-tree.md) | [granularity degree](../../keywords/granularity-degree.md) | [linear interpolation](../../keywords/linear-interpolation.md) | [hierarchical query](../../keywords/hierarchical-query.md) | [large-scale tracing](../../keywords/large-scale-tracing.md) | [online analysis](../../keywords/online-analysis.md) | [CPU usage](../../keywords/cpu-usage.md) | [I/O throughput](../../keywords/i-o-throughput.md)
+**Keywords:** trace statistics | [LTTng](../../keywords/lttng.md) | [Linux kernel 2.6.38.6](../../keywords/linux-kernel-2-6-38-6.md) | disk-resident interval tree | history tree | granularity degree | linear interpolation | hierarchical query | large-scale tracing | [online analysis](../../keywords/online-analysis.md) | CPU usage | I/O throughput
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "A Framework to Compute Statistics of System
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Statistics framework PDF: LTTng/Linux 2.6.38.6, Java history/resource trees, granularity degree, interpolation, and query bounds; Statistics framework PDF: 1-40 GB traces, GD 1/100/500/1000, 20-run/100-interval query experiment, disk-size comparison, and hierarchy analysis; Statistics framework PDF: interpolation/precision, storage, online-construction limitations, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

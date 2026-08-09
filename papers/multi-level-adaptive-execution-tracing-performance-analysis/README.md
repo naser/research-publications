@@ -34,7 +34,7 @@ The available program synopsis describes dynamic kernel/application tracing guid
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [adaptive-scheduling](../../topics/adaptive-scheduling.md)
 
-**Keywords:** [adaptive execution tracing](../../keywords/adaptive-execution-tracing.md) | [time-series trends](../../keywords/time-series-trends.md) | [multi-level tracing](../../keywords/multi-level-tracing.md) | [kernel tracing](../../keywords/kernel-tracing.md) | [performance analysis](../../keywords/performance-analysis.md) | [SERA 2023](../../keywords/sera-2023.md)
+**Keywords:** adaptive execution tracing | time-series trends | multi-level tracing | [kernel tracing](../../keywords/kernel-tracing.md) | performance analysis | SERA 2023
 
 ## Versions and source links
 
@@ -83,7 +83,7 @@ M. A. Khan and N. Ezzati-Jivan, "Multi-level Adaptive Execution Tracing for Effi
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/SERA57763.2023.10197790; DBLP record: https://dblp.org/rec/conf/sera/KhanE23; SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

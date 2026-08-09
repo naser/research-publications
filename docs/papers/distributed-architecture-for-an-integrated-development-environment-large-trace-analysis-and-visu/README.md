@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [observability](../../topics/observability.md) | [performance-optimization](../../topics/performance-optimization.md) | [multicore-systems](../../topics/multicore-systems.md)
 
-**Keywords:** [distributed architecture](../../keywords/distributed-architecture.md) | [Trace Compass](../../keywords/trace-compass.md) | [TraceScape](../../keywords/tracescape.md) | [LTTng 2.10.3](../../keywords/lttng-2-10-3.md) | [Trace Analysis Server Protocol](../../keywords/trace-analysis-server-protocol.md) | [TASP](../../keywords/tasp.md) | [Protobuf](../../keywords/protobuf.md) | [GZip JSON](../../keywords/gzip-json.md) | [large traces](../../keywords/large-traces.md) | [state models](../../keywords/state-models.md) | [trace visualization](../../keywords/trace-visualization.md) | [PixiJS](../../keywords/pixijs.md) | [Chart.js](../../keywords/chart-js.md) | [HighCharts](../../keywords/highcharts.md)
+**Keywords:** distributed architecture | [Trace Compass](../../keywords/trace-compass.md) | TraceScape | LTTng 2.10.3 | Trace Analysis Server Protocol | TASP | Protobuf | GZip JSON | large traces | state models | [trace visualization](../../keywords/trace-visualization.md) | PixiJS | Chart.js | HighCharts
 
 ## Resources
 
@@ -85,7 +85,7 @@ Y. C. K. Piao, N. Ezzati-Jivan, and M. R. Dagenais, "Distributed Architecture fo
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Sensors/institutional PDF: Trace Compass, TraceScape, LTTng 2.10.3, TASP, data providers, serialization, and visualization architecture; Sensors/institutional PDF: 2.47 GB/75-million-event trace, state-model sizes, serialization payload/overhead, request latency, and rendering measurements; Sensors/institutional PDF: small-trace, REST/gRPC, and qualitative-maintainability limitations plus future-work direction; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

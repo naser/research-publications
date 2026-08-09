@@ -34,7 +34,7 @@ In large microservice systems, collecting too little or too much trace data can 
 
 **Tags:** [microservices](../../topics/microservices.md) | [trace-reduction](../../topics/trace-reduction.md) | [gradient-boosting](../../topics/gradient-boosting.md) | [performance-modeling](../../topics/performance-modeling.md) | [resource-analysis](../../topics/resource-analysis.md)
 
-**Keywords:** [trace data volume](../../keywords/trace-data-volume.md) | [feature importance](../../keywords/feature-importance.md) | [CPU demand](../../keywords/cpu-demand.md) | [memory demand](../../keywords/memory-demand.md) | [Alibaba microservices](../../keywords/alibaba-microservices.md) | [inter-service communication](../../keywords/inter-service-communication.md)
+**Keywords:** trace data volume | feature importance | CPU demand | memory demand | Alibaba microservices | inter-service communication
 
 ## Versions and source links
 
@@ -84,7 +84,7 @@ A. Haghshenas, N. Ezzati-Jivan, and M. Dagenais, "Automatic Reduction of Executi
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: official Canadian AI Proceedings PubPub page; PubPub page reports CC-BY 4.0 and a Download action; DBLP metadata matched by title, authors, and year
 - Machine-readable record: [paper.json](./paper.json)

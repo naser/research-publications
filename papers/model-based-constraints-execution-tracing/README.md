@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [multicore-systems](../../topics/multicore-systems.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md) | [lttng](../../topics/lttng.md)
 
-**Keywords:** [model-based constraints](../../keywords/model-based-constraints.md) | [execution tracing](../../keywords/execution-tracing.md) | [multi-core systems](../../keywords/multi-core-systems.md) | [real-time applications](../../keywords/real-time-applications.md) | [constraint generation](../../keywords/constraint-generation.md) | [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | [cyclictest](../../keywords/cyclictest.md) | [JACK2](../../keywords/jack2.md) | [wakelock](../../keywords/wakelock.md)
+**Keywords:** [model-based constraints](../../keywords/model-based-constraints.md) | [execution tracing](../../keywords/execution-tracing.md) | multi-core systems | real-time applications | constraint generation | [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | [cyclictest](../../keywords/cyclictest.md) | [JACK2](../../keywords/jack2.md) | wakelock
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Automated Generation of Model
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1007/s10766-020-00689-5; author identity matched to Naser Ezzati-Jivan in the local research catalog; Model-constraints PDF pp. 1-2, 5-17: user-space/kernel scope, LTTng cyclictest case, per-thread/LCS workflow generation, adaptive constraints, and case-study detections; Model-constraints PDF pp. 21-30: hardware, trace sizes, runtime/scalability, and full-cyclictest approximately 7-minute result; Model-constraints PDF p. 30: limitation and future-work boundary; local model-constraints PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

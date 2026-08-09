@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [kernel-tracing](../../topics/kernel-tracing.md) | [multicore-systems](../../topics/multicore-systems.md) | [trace-analysis](../../topics/trace-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [lttng](../../topics/lttng.md)
 
-**Keywords:** [model-based constraints](../../keywords/model-based-constraints.md) | [execution tracing](../../keywords/execution-tracing.md) | [user-space traces](../../keywords/user-space-traces.md) | [kernel traces](../../keywords/kernel-traces.md) | [LTTng](../../keywords/lttng.md) | [LTTng-UST](../../keywords/lttng-ust.md) | [Common Trace Format](../../keywords/common-trace-format.md) | [Trace Compass](../../keywords/trace-compass.md) | [reservoir sampling](../../keywords/reservoir-sampling.md) | [critical-path analysis](../../keywords/critical-path-analysis.md) | [JACK2](../../keywords/jack2.md) | [cyclictest](../../keywords/cyclictest.md) | [priority inversion](../../keywords/priority-inversion.md) | [CPUTop](../../keywords/cputop.md)
+**Keywords:** [model-based constraints](../../keywords/model-based-constraints.md) | [execution tracing](../../keywords/execution-tracing.md) | user-space traces | [kernel traces](../../keywords/kernel-traces.md) | [LTTng](../../keywords/lttng.md) | [LTTng-UST](../../keywords/lttng-ust.md) | [Common Trace Format](../../keywords/common-trace-format.md) | [Trace Compass](../../keywords/trace-compass.md) | reservoir sampling | [critical-path analysis](../../keywords/critical-path-analysis.md) | [JACK2](../../keywords/jack2.md) | [cyclictest](../../keywords/cyclictest.md) | priority inversion | CPUTop
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Execution trace-based model v
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1002/cpe.6974; author identity matched to Naser Ezzati-Jivan in the local research catalog; Publisher full text viewer pp. 1-3: problem, LTTng/LTTng-UST selection, CTF/common-clock rationale, and related tracing/model-analysis tools; Publisher full text viewer pp. 4-13: state-machine model, constraint statuses, 95%/5% sampling, reservoir sampling, interval-set extraction, distance/weight/differential analysis, and responsibility scores; Publisher full text viewer pp. 13-20: JACK2, wakelock, userspace, and cyclictest case studies, including 96.65%/96.51% JACK2 attribution and the Jetson/HDMI cyclictest diagnosis; Publisher full text viewer pp. 20-24: i7-4790/32 GiB platform, trace sizes, 100-run sampling comparison, analysis timings, and scalability; Publisher full text viewer p. 25: conclusion, data-availability statement, and future direction; No local PDF hash is claimed: the Wiley PDF link redirected to an abstract/access page and the ResearchGate publisher viewer exposed the full 26-page text but did not provide a downloadable file in this run.
 - Machine-readable record: [paper.json](./paper.json)

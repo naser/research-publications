@@ -34,7 +34,7 @@ The accessible abstract describes a modeled state representation with a special-
 
 **Tags:** [trace-analysis](../../topics/trace-analysis.md) | [trace-visualization](../../topics/trace-visualization.md) | [trace-abstraction](../../topics/trace-abstraction.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [state-machine traces](../../keywords/state-machine-traces.md) | [trace indexing](../../keywords/trace-indexing.md) | [special-purpose database](../../keywords/special-purpose-database.md) | [Gantt chart](../../keywords/gantt-chart.md) | [XY view](../../keywords/xy-view.md) | [trace filtering](../../keywords/trace-filtering.md)
+**Keywords:** state-machine traces | trace indexing | special-purpose database | [Gantt chart](../../keywords/gantt-chart.md) | XY view | [trace filtering](../../keywords/trace-filtering.md)
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ S. Delisle, N. Ezzati-Jivan, and M. R. Dagenais, "Integrated Modeling Tool for I
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814; DBLP record: https://dblp.org/rec/conf/isncc/DelisleED21; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

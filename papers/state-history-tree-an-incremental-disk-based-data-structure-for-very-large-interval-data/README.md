@@ -34,7 +34,7 @@ The State History Tree is a disk-based structure for incrementally arriving, tim
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-engineering](../../topics/performance-engineering.md) | [resource-analysis](../../topics/resource-analysis.md)
 
-**Keywords:** [State History Tree](../../keywords/state-history-tree.md) | [disk-based interval data](../../keywords/disk-based-interval-data.md) | [streaming interval data](../../keywords/streaming-interval-data.md) | [time-ordered intervals](../../keywords/time-ordered-intervals.md) | [LTTng](../../keywords/lttng.md) | [Eclipse Tracing and Monitoring Framework](../../keywords/eclipse-tracing-and-monitoring-framework.md) | [Linux Tools Project](../../keywords/linux-tools-project.md) | [Java](../../keywords/java.md) | [R-tree](../../keywords/r-tree.md) | [PostgreSQL/PostGIS](../../keywords/postgresql-postgis.md) | [full query](../../keywords/full-query.md) | [ad-hoc query](../../keywords/ad-hoc-query.md)
+**Keywords:** [State History Tree](../../keywords/state-history-tree.md) | disk-based interval data | streaming interval data | time-ordered intervals | [LTTng](../../keywords/lttng.md) | Eclipse Tracing and Monitoring Framework | Linux Tools Project | [Java](../../keywords/java.md) | [R-tree](../../keywords/r-tree.md) | PostgreSQL/PostGIS | full query | ad-hoc query
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ A. Montplaisir-Goncalves, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Sta
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design; State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons; State History Tree PDF: chronological-insertion limitation and conclusion boundary; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

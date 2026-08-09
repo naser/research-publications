@@ -34,7 +34,7 @@ The official abstract describes a five-layer framework for analyzing interacting
 
 **Tags:** [machine-learning](../../topics/machine-learning.md) | [multimodal-ai](../../topics/multimodal-ai.md) | [benchmark-datasets](../../topics/benchmark-datasets.md)
 
-**Keywords:** [LLM bias](../../keywords/llm-bias.md) | [hierarchical bias analysis](../../keywords/hierarchical-bias-analysis.md) | [interaction effects](../../keywords/interaction-effects.md) | [ChatGPT](../../keywords/chatgpt.md) | [Gemini](../../keywords/gemini.md) | [bias dimensions](../../keywords/bias-dimensions.md) | [data bias](../../keywords/data-bias.md) | [algorithmic bias](../../keywords/algorithmic-bias.md) | [societal bias](../../keywords/societal-bias.md)
+**Keywords:** LLM bias | hierarchical bias analysis | interaction effects | ChatGPT | Gemini | bias dimensions | data bias | algorithmic bias | societal bias
 
 ## Versions and source links
 
@@ -78,7 +78,7 @@ B. Syed, D. A. Charlebois, N. Ezzati-Jivan, L. Tahmooresnejad, and A. Ayanso, "M
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Official AIS paper and abstract page: https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/; DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25; Private evidence note: papers/multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27/pdf-evidence/notes/parallel-batch-01-multi-dimensional-bias-llm.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md)
 
-**Keywords:** [performance antipatterns](../../keywords/performance-antipatterns.md) | [black-box detection](../../keywords/black-box-detection.md) | [system-level execution traces](../../keywords/system-level-execution-traces.md) | [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | [critical paths](../../keywords/critical-paths.md) | [resource contention](../../keywords/resource-contention.md) | [execution serialization](../../keywords/execution-serialization.md) | [allocation churn](../../keywords/allocation-churn.md) | [small-message overhead](../../keywords/small-message-overhead.md)
+**Keywords:** [performance antipatterns](../../keywords/performance-antipatterns.md) | black-box detection | system-level execution traces | [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | critical paths | resource contention | execution serialization | allocation churn | small-message overhead
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ M. Noferesti, M. Panahandeh, and N. Ezzati-Jivan, "B-Perf: Black-box Performance
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Private full PDF read: pdf-evidence/notes/b-perf-black-box-performance-antipatterns.md; B-Perf PDF pp. 4-7: LTTng event model, Trace Compass-style state reconstruction, tracepoints, environment, and workload protocol; B-Perf PDF pp. 7-10: One Lane Bridge, Excessive Dynamic Allocation, Empty Semi Trucks, Firefox/web validation, and overhead results; B-Perf PDF pp. 10-11: limitations, threats to validity, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

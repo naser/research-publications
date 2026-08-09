@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [anomaly-detection](../../topics/anomaly-detection.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [observability](../../topics/observability.md)
 
-**Keywords:** [intrusion response systems](../../keywords/intrusion-response-systems.md) | [response cost](../../keywords/response-cost.md) | [automated response](../../keywords/automated-response.md) | [NIDS](../../keywords/nids.md) | [HIDS](../../keywords/hids.md) | [IDMEF](../../keywords/idmef.md) | [adaptive response](../../keywords/adaptive-response.md) | [retroactive response](../../keywords/retroactive-response.md) | [attack paths](../../keywords/attack-paths.md) | [risk assessment](../../keywords/risk-assessment.md)
+**Keywords:** intrusion response systems | response cost | automated response | NIDS | HIDS | IDMEF | adaptive response | retroactive response | attack paths | risk assessment
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ A. Shameli-Sendi, N. Ezzati-Jivan, M. Jabbarifar, and M. Dagenais, "Intrusion Re
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Remote full text read: pdf-evidence/notes/parallel-batch-04-intrusion-response-systems-survey-and-taxonomy.md; Institutional record: https://publications.polymtl.ca/14629/; Remote article copy: https://www.researchgate.net/publication/267917501_Intrusion_Response_Systems_Survey_and_Taxonomy
 - Machine-readable record: [paper.json](./paper.json)

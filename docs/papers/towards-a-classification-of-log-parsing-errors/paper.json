@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": "Author-hosted full-text PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "The paper classifies recurring log-parsing errors and connects them to token and event characteristics that can guide parser design and logging practice.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper classifies recurring log-parsing errors and connects them to token and event characteristics that can guide parser design and logging practice.",
     "problem": "Log parsers vary substantially across datasets, but recurring error causes lack a common classification that can guide parser design and logging practice (p. 1).",
@@ -97,7 +100,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "ICPC log-parsing-errors PDF: four LogHub datasets, four parsers, 8,000 labelled events, nine categories, and error-count method",
       "ICPC log-parsing-errors PDF: 523 errors, 65.51% tokenization-related share, 28.5% regex share, per-category values, and HealthApp/OpenStack examples",
@@ -105,7 +108,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -113,6 +116,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [performance-analysis](../../topics/performance-analysis.md) | [performance-engineering](../../topics/performance-engineering.md) | [machine-learning](../../topics/machine-learning.md) | [trace-analysis](../../topics/trace-analysis.md)
 
-**Keywords:** [Java](../../keywords/java.md) | [JMH](../../keywords/jmh.md) | [microbenchmarking](../../keywords/microbenchmarking.md) | [steady-state detection](../../keywords/steady-state-detection.md) | [warmup](../../keywords/warmup.md) | [call-graph analysis](../../keywords/call-graph-analysis.md) | [Perf](../../keywords/perf.md) | [Graph2Vec](../../keywords/graph2vec.md) | [change-point detection](../../keywords/change-point-detection.md) | [PELT](../../keywords/pelt.md) | [Random Forest](../../keywords/random-forest.md) | [SVC](../../keywords/svc.md) | [flame graphs](../../keywords/flame-graphs.md)
+**Keywords:** [Java](../../keywords/java.md) | [JMH](../../keywords/jmh.md) | microbenchmarking | steady-state detection | [warmup](../../keywords/warmup.md) | call-graph analysis | [Perf](../../keywords/perf.md) | Graph2Vec | change-point detection | [PELT](../../keywords/pelt.md) | [Random Forest](../../keywords/random-forest.md) | SVC | flame graphs
 
 ## Resources
 
@@ -84,7 +84,7 @@ M. Janecek, S. Patel, and N. Ezzati-Jivan, "Uncovering Steady State Executions i
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE Companion PDF: perf call-stack sampling, Graph2Vec, flame graphs, PELT, 50-of-1,000 labelling protocol, and five classifiers; ICPE Companion PDF: Java binary-search workload, 10,000 executions/10 forks, Ubuntu/kernel/Perf/Log4j environment, and accuracy/precision/recall table; Paper-linked code/results repository recorded as a public resource; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

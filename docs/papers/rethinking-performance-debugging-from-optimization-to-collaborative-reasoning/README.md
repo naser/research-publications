@@ -34,7 +34,7 @@ The paper argues that microservice performance debugging should preserve and emp
 
 **Tags:** [performance-analysis](../../topics/performance-analysis.md) | [microservices](../../topics/microservices.md) | [llm-assisted-analysis](../../topics/llm-assisted-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [observability](../../topics/observability.md)
 
-**Keywords:** [performance debugging](../../keywords/performance-debugging.md) | [collaborative reasoning](../../keywords/collaborative-reasoning.md) | [AgentDebug](../../keywords/agentdebug.md) | [Reasoning Surface](../../keywords/reasoning-surface.md) | [hypothesis generation](../../keywords/hypothesis-generation.md) | [hypothesis critique](../../keywords/hypothesis-critique.md) | [hypothesis curation](../../keywords/hypothesis-curation.md) | [Gemini 2.5 Flash](../../keywords/gemini-2-5-flash.md) | [CART](../../keywords/cart.md) | [DeLag](../../keywords/delag.md) | [Train-Ticket](../../keywords/train-ticket.md) | [E-Shopper](../../keywords/e-shopper.md) | [fault injection](../../keywords/fault-injection.md) | [RPC latency](../../keywords/rpc-latency.md) | [Pareto-optimal hypotheses](../../keywords/pareto-optimal-hypotheses.md)
+**Keywords:** performance debugging | collaborative reasoning | AgentDebug | Reasoning Surface | hypothesis generation | hypothesis critique | hypothesis curation | Gemini 2.5 Flash | CART | DeLag | Train-Ticket | E-Shopper | fault injection | RPC latency | Pareto-optimal hypotheses
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ M. Panahandeh, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Rethinking Performance Debu
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Public author manuscript: AgentDebug roles, Reasoning Surface, Gemini 2.5 Flash, CART critique, and Pareto-style curation; Public author manuscript: 200 datasets, Train-Ticket/E-Shopper, 2.1 million RPC traces, fault regimes, F1 results, convergence ratio, and API cost; Public author manuscript: optimization-versus-reasoning boundary and future-work discussion; Publication DOI and DBLP identity verified; private five-page ResearchGate author manuscript read and SHA-256 verified as 9fad98132e1dd1c06f885bf6b033c80691bd067a3f7c31f7f27841d9b9d4c308; private evidence note: pdf-evidence/notes/rethinking-performance-debugging-agentdebug.md
 - Machine-readable record: [paper.json](./paper.json)

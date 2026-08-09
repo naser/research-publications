@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "Institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "The paper provides a declarative XML/state-machine approach for flexible filtering and synthetic-event generation over large kernel traces.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper provides a declarative XML/state-machine approach for flexible filtering and synthetic-event generation over large kernel traces.",
     "problem": "Large execution traces contain many irrelevant events, while hard-coded filters cannot flexibly express changing event combinations, temporal constraints, or late-arriving events (pp. 2-3).",
@@ -95,7 +98,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Flexible filtering PDF: XML FSM architecture, Trace Compass/state-system execution, raw/synthetic event support, and UI integration",
       "Flexible filtering PDF: LTTng 2.4.0, Ubuntu 14.10, kernel 3.13.0-43, hping3 SYN-flood workload, thresholds, synthetic-event counts, and XML/Java timings",
@@ -103,7 +106,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -111,6 +114,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

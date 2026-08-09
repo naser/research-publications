@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [llm-efficiency](../../topics/llm-efficiency.md) | [energy-efficiency](../../topics/energy-efficiency.md) | [model-compression](../../topics/model-compression.md) | [performance-engineering](../../topics/performance-engineering.md)
 
-**Keywords:** [transformers](../../keywords/transformers.md) | [quantization](../../keywords/quantization.md) | [knowledge distillation](../../keywords/knowledge-distillation.md) | [pruning](../../keywords/pruning.md) | [4-bit quantization](../../keywords/4-bit-quantization.md) | [Minitron](../../keywords/minitron.md) | [sustainable AI](../../keywords/sustainable-ai.md)
+**Keywords:** transformers | quantization | knowledge distillation | pruning | 4-bit quantization | Minitron | sustainable AI
 
 ## Versions and source links
 
@@ -84,8 +84,8 @@ T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Optimization Strategies f
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2502.00046; local PDF hash verified in the working catalog; author-order discrepancy explicitly retained
 - Machine-readable record: [paper.json](./paper.json)
 

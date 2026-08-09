@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
+  "abstract_available": false,
+  "description": "The paper combines an unsupervised GraphSAGE model with critical-path-specific latency profiles to detect anomalous requests and rank likely microservice culprits without labelled training data.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper combines an unsupervised GraphSAGE model with critical-path-specific latency profiles to detect anomalous requests and rank likely microservice culprits without labelled training data.",
     "problem": "Latency-culprit methods for microservices often require labeled anomalies or make assumptions about propagation paths that do not hold across requests. The paper seeks request-level culprit ranking without a labeled training set.",
@@ -94,7 +97,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Private full PDF read: pdf-evidence/notes/efficient-unsupervised-latency-culprit-ranking.md",
       "Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split",
@@ -102,7 +105,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -110,6 +113,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

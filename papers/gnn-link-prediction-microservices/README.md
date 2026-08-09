@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [microservices](../../topics/microservices.md) | [graph-neural-networks](../../topics/graph-neural-networks.md) | [performance-engineering](../../topics/performance-engineering.md) | [predictive-monitoring](../../topics/predictive-monitoring.md)
 
-**Keywords:** [microservice call graphs](../../keywords/microservice-call-graphs.md) | [link prediction](../../keywords/link-prediction.md) | [graph attention networks](../../keywords/graph-attention-networks.md) | [temporal segmentation](../../keywords/temporal-segmentation.md) | [negative sampling](../../keywords/negative-sampling.md) | [adaptive monitoring](../../keywords/adaptive-monitoring.md)
+**Keywords:** microservice call graphs | link prediction | graph attention networks | temporal segmentation | negative sampling | [adaptive monitoring](../../keywords/adaptive-monitoring.md)
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2501.15019; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

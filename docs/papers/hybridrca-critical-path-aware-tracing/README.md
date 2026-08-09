@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [microservices](../../topics/microservices.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [latency-analysis](../../topics/latency-analysis.md)
 
-**Keywords:** [critical path](../../keywords/critical-path.md) | [hybrid tracing](../../keywords/hybrid-tracing.md) | [production microservices](../../keywords/production-microservices.md) | [LTTng](../../keywords/lttng.md) | [OpenTracing](../../keywords/opentracing.md) | [Personalized PageRank](../../keywords/personalized-pagerank.md) | [weighted spectrum-based fault localization](../../keywords/weighted-spectrum-based-fault-localization.md) | [HotROD](../../keywords/hotrod.md) | [TrainTicket](../../keywords/trainticket.md) | [OnlineBoutique](../../keywords/onlineboutique.md) | [TiDB](../../keywords/tidb.md) | [SysBench](../../keywords/sysbench.md) | [kernel-level storage](../../keywords/kernel-level-storage.md)
+**Keywords:** [critical path](../../keywords/critical-path.md) | hybrid tracing | production microservices | [LTTng](../../keywords/lttng.md) | OpenTracing | Personalized PageRank | weighted spectrum-based fault localization | [HotROD](../../keywords/hotrod.md) | [TrainTicket](../../keywords/trainticket.md) | OnlineBoutique | TiDB | [SysBench](../../keywords/sysbench.md) | kernel-level storage
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ M. Ekhlasi, A. Fiorini, M. R. Dagenais, N. Ezzati-Jivan, and M. Lamothe, "Hybrid
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/icsme64153.2025.00056; author identity matched to Naser Ezzati-Jivan in the local research catalog; HybridRCA PDF pp. 1-6: critical-path extraction, Personalized PageRank, weighted spectrum analysis, targeted metrics, and clock synchronization; HybridRCA PDF pp. 7-10: LTTng 2.13.9-1 environment, HotROD/TrainTicket/OnlineBoutique/TiDB workloads, injected faults, accuracy, trace-volume, and storage results; HybridRCA PDF p. 10: limitations and future-work boundary; local HybridRCA PDF hash verified in pdf-evidence/notes/hybridrca-critical-path-aware-tracing.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

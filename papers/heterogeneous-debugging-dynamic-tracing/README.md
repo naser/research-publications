@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
 
-**Keywords:** [heterogeneous systems](../../keywords/heterogeneous-systems.md) | [dynamic tracing](../../keywords/dynamic-tracing.md) | [large-scale debugging](../../keywords/large-scale-debugging.md) | [debugging efficiency](../../keywords/debugging-efficiency.md) | [GDB](../../keywords/gdb.md) | [LTTng-UST](../../keywords/lttng-ust.md) | [Trace Compass](../../keywords/trace-compass.md) | [ROCm-GDB](../../keywords/rocm-gdb.md) | [GPU debugging](../../keywords/gpu-debugging.md) | [pbzip2](../../keywords/pbzip2.md)
+**Keywords:** heterogeneous systems | dynamic tracing | large-scale debugging | debugging efficiency | GDB | [LTTng-UST](../../keywords/lttng-ust.md) | [Trace Compass](../../keywords/trace-compass.md) | ROCm-GDB | GPU debugging | pbzip2
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ D. Nadeau, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Large-Scale Heterogen
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1016/j.sysarc.2019.02.016; author identity matched to Naser Ezzati-Jivan in the local research catalog; Heterogeneous debugging PDF pp. 1-8: GDB/LTTng-UST architecture, trace buffering, views, filters, and GPU scope; Heterogeneous debugging PDF pp. 12-13: Fedora/Intel/AMD environment, pbzip2 workload, tracepoint count, and performance comparison; Heterogeneous debugging PDF p. 17: conclusion and reported 90% versus 3294% overhead comparison; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "Author-hosted published-paper PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "The paper reconstructs missing system-call events in execution traces with diffusion and structured state-space generative models.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper reconstructs missing system-call events in execution traces with diffusion and structured state-space generative models.",
     "problem": "Ring-buffer overflow and resource constraints can discard contiguous system-call events, weakening trace-based diagnosis, anomaly detection, and performance analysis. Increasing buffers or blocking the application changes collection cost or system behavior.",
@@ -99,7 +102,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "ICSE published PDF: nine PTS workloads, PTS 6.2.2, LTTng 2.8, Debian kernel, Xeon/32 GB/SSD platform, and 32 runs per benchmark",
       "ICSE published PDF: integer event encoding, DiffWave/SSSDS4/SSSDSA/CSDIS4 configurations, blackout protocol, accuracy, perfect rate, ROUGE-L, and LSTM baseline",
@@ -107,7 +110,7 @@
       "Local thesis/manuscript and published-paper PDF are retained as distinct version evidence; local hashes are recorded in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -115,6 +118,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

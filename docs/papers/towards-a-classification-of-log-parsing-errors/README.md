@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [observability](../../topics/observability.md) | [trace-analysis](../../topics/trace-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [log parsing](../../keywords/log-parsing.md) | [parser errors](../../keywords/parser-errors.md) | [Drain](../../keywords/drain.md) | [AEL](../../keywords/ael.md) | [Spell](../../keywords/spell.md) | [ULP](../../keywords/ulp.md) | [LogHub](../../keywords/loghub.md) | [tokenization](../../keywords/tokenization.md) | [logging practices](../../keywords/logging-practices.md) | [dynamic tokens](../../keywords/dynamic-tokens.md) | [static tokens](../../keywords/static-tokens.md) | [delimiter-aware logging](../../keywords/delimiter-aware-logging.md) | [parser error taxonomy](../../keywords/parser-error-taxonomy.md)
+**Keywords:** [log parsing](../../keywords/log-parsing.md) | [parser errors](../../keywords/parser-errors.md) | [Drain](../../keywords/drain.md) | [AEL](../../keywords/ael.md) | [Spell](../../keywords/spell.md) | [ULP](../../keywords/ulp.md) | [LogHub](../../keywords/loghub.md) | tokenization | logging practices | dynamic tokens | static tokens | delimiter-aware logging | parser error taxonomy
 
 ## Resources
 
@@ -85,7 +85,7 @@ I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Towards a Classif
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPC log-parsing-errors PDF: four LogHub datasets, four parsers, 8,000 labelled events, nine categories, and error-count method; ICPC log-parsing-errors PDF: 523 errors, 65.51% tokenization-related share, 28.5% regex share, per-category values, and HealthApp/OpenStack examples; Zenodo dataset DOI and author-hosted PDF recorded as public resources; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

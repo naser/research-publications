@@ -34,7 +34,7 @@ The publisher abstract describes a stateful trace-analysis and abstraction appro
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [trace-abstraction](../../topics/trace-abstraction.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [multi-core tracing](../../keywords/multi-core-tracing.md) | [stateful trace analysis](../../keywords/stateful-trace-analysis.md) | [trace abstraction](../../keywords/trace-abstraction.md) | [pattern matching](../../keywords/pattern-matching.md) | [kernel tracing](../../keywords/kernel-tracing.md) | [computation sharing](../../keywords/computation-sharing.md) | [storage efficiency](../../keywords/storage-efficiency.md)
+**Keywords:** multi-core tracing | stateful trace analysis | trace abstraction | pattern matching | [kernel tracing](../../keywords/kernel-tracing.md) | computation sharing | storage efficiency
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "An Efficient Analysis Approach for Multi-Co
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: ActaPress publisher abstract: https://m.actapress.com/Abstract.aspx?paperId=454815; PolyPublie institutional record: https://publications.polymtl.ca/15433/; Private evidence note: pdf-evidence/notes/parallel-batch-04-an-efficient-analysis-approach-for-multi-core-system-tracing-data.md
 - Machine-readable record: [paper.json](./paper.json)

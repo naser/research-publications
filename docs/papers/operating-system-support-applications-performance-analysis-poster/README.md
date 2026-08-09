@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [performance-analysis](../../topics/performance-analysis.md) | [system-tracing](../../topics/system-tracing.md) | [kernel-tracing](../../topics/kernel-tracing.md)
 
-**Keywords:** [operating-system support](../../keywords/operating-system-support.md) | [application performance analysis](../../keywords/application-performance-analysis.md) | [performance instrumentation](../../keywords/performance-instrumentation.md) | [IC2E 2022](../../keywords/ic2e-2022.md) | [poster paper](../../keywords/poster-paper.md)
+**Keywords:** operating-system support | application performance analysis | performance instrumentation | IC2E 2022 | poster paper
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ R. VanDonge and N. Ezzati-Jivan, "Poster Paper: Operating System Support for App
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/IC2E55432.2022.00039; DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md)
 
-**Keywords:** [lock contention](../../keywords/lock-contention.md) | [multi-level execution traces](../../keywords/multi-level-execution-traces.md) | [LTTng 2.10](../../keywords/lttng-2-10.md) | [Trace Compass 4](../../keywords/trace-compass-4.md) | [LD_PRELOAD](../../keywords/ld-preload.md) | [Pthreads](../../keywords/pthreads.md) | [futex](../../keywords/futex.md) | [spinlock](../../keywords/spinlock.md) | [semaphore](../../keywords/semaphore.md) | [critical path](../../keywords/critical-path.md) | [state system](../../keywords/state-system.md) | [Apache](../../keywords/apache.md) | [OPcache](../../keywords/opcache.md)
+**Keywords:** lock contention | multi-level execution traces | LTTng 2.10 | Trace Compass 4 | LD_PRELOAD | Pthreads | [futex](../../keywords/futex.md) | spinlock | semaphore | [critical path](../../keywords/critical-path.md) | [state system](../../keywords/state-system.md) | [Apache](../../keywords/apache.md) | OPcache
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ M. Rezazadeh, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Multi-Level Execut
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068; author identity matched to Naser Ezzati-Jivan in the local research catalog; Lock-contention PDF pp. 1-4: LTTng 2.10, Trace Compass 4, LD_PRELOAD Pthreads wrappers, event sets, state system, graph, and active-path algorithm; Lock-contention PDF pp. 4-6: visualization views, C++/Pthreads overhead, Apache/OPcache case, and analysis boundary; local lock-contention PDF hash verified in pdf-evidence/notes/multilevel-trace-lock-contention.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

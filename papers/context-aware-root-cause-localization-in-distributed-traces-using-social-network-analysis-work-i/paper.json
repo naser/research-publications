@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": "ICPE Companion WIP PDF reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": false,
+  "description": "The work-in-progress paper combines service-call graph context, social-network analysis, and spectrum-based fault localization to rank distributed-trace root causes.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The work-in-progress paper combines service-call graph context, social-network analysis, and spectrum-based fault localization to rank distributed-trace root causes.",
     "problem": "Distributed-service failures propagate through dependencies, so ranking services only by frequency in abnormal traces can miss a remote or infrequently observed root cause. The paper targets context-sensitive localization across services, service communities, and request traces.",
@@ -96,7 +99,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "ICPE Companion WIP PDF: weighted service-call graphs, Louvain, PageRank, Jaccard diversity, Ochiai, and heuristic search",
       "ICPE Companion WIP PDF: AIOps Challenge 2020 Dataset C, 46 labelled windows, fault categories, top-1/top-3 results, and tied-candidate reduction",
@@ -104,7 +107,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -112,6 +115,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

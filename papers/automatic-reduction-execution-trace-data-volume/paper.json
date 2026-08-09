@@ -25,6 +25,9 @@
   },
   "abstract": "In large microservice systems, collecting too little or too much trace data can make performance modeling unreliable. This work introduces a two-phase gradient-boosting method that identifies the most important trace features for predicting CPU and memory demand. Using a comprehensive Alibaba dataset, the study reports more than 69% reduction in data volume without compromising, and sometimes improving, model accuracy. The retained features emphasize inter-service communication and resource-access patterns.",
   "abstract_source": "official Canadian AI Proceedings PubPub page observed 2026-08-03",
+  "abstract_available": true,
+  "description": "In large microservice systems, collecting too little or too much trace data can make performance modeling unreliable. This work introduces a two-phase gradient-boosting method that identifies the most important trace features for predicting CPU and memory demand. Using a comprehensive Alibaba dataset, the study reports more than 69% reduction in data volume without compromising, and sometimes improving, model accuracy. The retained features emphasize inter-service communication and resource-access patterns.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper uses gradient boosting and feature importance to reduce the amount of trace data needed for microservice performance modeling.",
     "problem": "Large-scale microservice performance modeling faces a collection trade-off: too many trace/log features increase collection and analysis cost, while too few can remove information needed to predict resource use. Existing logging-placement approaches may require access to internals that is difficult to obtain across large microservice deployments.",
@@ -91,14 +94,14 @@
     "canonical_version_id": "pubpub-doi"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "official Canadian AI Proceedings PubPub page",
       "PubPub page reports CC-BY 4.0 and a Download action",
       "DBLP metadata matched by title, authors, and year"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -106,6 +109,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

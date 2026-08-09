@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [resource-analysis](../../topics/resource-analysis.md)
 
-**Keywords:** [virtualized systems](../../keywords/virtualized-systems.md) | [kernel tracing](../../keywords/kernel-tracing.md) | [multilayer analysis](../../keywords/multilayer-analysis.md) | [virtualization overhead](../../keywords/virtualization-overhead.md) | [LTTng](../../keywords/lttng.md) | [KVM](../../keywords/kvm.md) | [Trace Compass](../../keywords/trace-compass.md) | [Fused Virtual Machine view](../../keywords/fused-virtual-machine-view.md) | [State History Tree](../../keywords/state-history-tree.md) | [vmentry](../../keywords/vmentry.md) | [vmexit](../../keywords/vmexit.md)
+**Keywords:** virtualized systems | [kernel tracing](../../keywords/kernel-tracing.md) | multilayer analysis | virtualization overhead | [LTTng](../../keywords/lttng.md) | [KVM](../../keywords/kvm.md) | [Trace Compass](../../keywords/trace-compass.md) | Fused Virtual Machine view | [State History Tree](../../keywords/state-history-tree.md) | vmentry | vmexit
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ C. Biancheri, N. Ezzati-Jivan, and M. R. Dagenais, "Multilayer Virtualized Syste
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/w-ficloud.2016.18; author identity matched to Naser Ezzati-Jivan in the local research catalog; Multilayer virtualization PDF pp. 1-4: problem, LTTng/KVM trace events, synchronization, State History Tree, and FVM view; Multilayer virtualization PDF pp. 4-7: process-preemption and hypervisor I/O-interruption use cases and evaluation discussion; Multilayer virtualization PDF p. 7: conclusion, reuse of tools, and parallel-analysis boundary; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [resource-analysis](../../topics/resource-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [system-tracing](../../topics/system-tracing.md) | [predictive-monitoring](../../topics/predictive-monitoring.md)
 
-**Keywords:** [out-of-memory](../../keywords/out-of-memory.md) | [OOM diagnosis](../../keywords/oom-diagnosis.md) | [data-driven RCA](../../keywords/data-driven-rca.md) | [resource analysis](../../keywords/resource-analysis.md) | [memory pressure forecasting](../../keywords/memory-pressure-forecasting.md) | [process-level profiling](../../keywords/process-level-profiling.md) | [Perf](../../keywords/perf.md) | [sar](../../keywords/sar.md)
+**Keywords:** out-of-memory | OOM diagnosis | data-driven RCA | resource analysis | memory pressure forecasting | process-level profiling | [Perf](../../keywords/perf.md) | sar
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ P. Chakraborty, N. Ezzati-Jivan, V. Azhari, and F. Tetreault, "AltOOM: A Data-dr
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937; author identity matched to Naser Ezzati-Jivan in the local research catalog; AltOOM PDF pp. 1, 4-10: perf/sar collection, 34 metrics, 85% threshold, prediction models, burst ranking, evaluation tables, limitations, and future work; local AltOOM PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

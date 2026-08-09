@@ -34,7 +34,7 @@ The accessible abstract describes automatic label placement for points and lines
 
 **Tags:** [trace-visualization](../../topics/trace-visualization.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [execution trace events](../../keywords/execution-trace-events.md) | [label placement](../../keywords/label-placement.md) | [trace visualization](../../keywords/trace-visualization.md) | [overlap avoidance](../../keywords/overlap-avoidance.md) | [event labels](../../keywords/event-labels.md) | [CCECE 2013](../../keywords/ccece-2013.md)
+**Keywords:** execution trace events | label placement | [trace visualization](../../keywords/trace-visualization.md) | overlap avoidance | event labels | CCECE 2013
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ N. Ezzati-Jivan, A. Shameli-Sendi, and M. R. Dagenais, "Multilevel Label Placeme
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: PolyPublie record: https://publications.polymtl.ca/13939/; DOI: https://doi.org/10.1109/CCECE.2013.6567826; DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

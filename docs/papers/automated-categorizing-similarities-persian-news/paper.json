@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": null,
+  "abstract_available": false,
+  "description": "The paper combines automated Persian-news categorization with a web system for retrieving similar news items.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper combines automated Persian-news categorization with a web system for retrieving similar news items.",
     "problem": "Online Persian news requires automatic category assignment and retrieval of related items, but the paper notes that no standard similarity test bench or universally accepted similarity measure was available (p. 61, abstract; pp. 62-63).",
@@ -91,7 +94,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "Private full PDF evidence note: pdf-evidence/notes/parallel-batch-04-new-approach-for-automated-categorizing-and-finding-similarities-in-online-persian-news.md",
       "Springer version-of-record metadata: https://link.springer.com/chapter/10.1007/978-3-642-16032-5_11",
@@ -99,7 +102,7 @@
       "Local PDF hash verified: 93BD457A0C3B4C8FA6AC470421D8A0535166BDA5D5E688635FC7E7FED7CAFF64"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -107,6 +110,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

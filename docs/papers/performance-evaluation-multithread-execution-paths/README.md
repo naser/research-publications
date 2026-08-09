@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [performance-analysis](../../topics/performance-analysis.md) | [trace-analysis](../../topics/trace-analysis.md) | [multicore-systems](../../topics/multicore-systems.md) | [performance-engineering](../../topics/performance-engineering.md)
 
-**Keywords:** [multi-thread applications](../../keywords/multi-thread-applications.md) | [execution paths](../../keywords/execution-paths.md) | [performance evaluation](../../keywords/performance-evaluation.md) | [thread behavior](../../keywords/thread-behavior.md)
+**Keywords:** multi-thread applications | [execution paths](../../keywords/execution-paths.md) | performance evaluation | thread behavior
 
 ## Versions and source links
 
@@ -78,7 +78,7 @@ M. Rezazadeh, N. Ezzati-Jivan, S. V. Azhari, and M. R. Dagenais, "Performance Ev
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1016/j.peva.2022.102289; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
 - Machine-readable record: [paper.json](./paper.json)

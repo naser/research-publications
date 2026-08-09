@@ -24,6 +24,9 @@
   },
   "abstract": null,
   "abstract_source": "Cloud platform paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
+  "abstract_available": false,
+  "description": "The paper correlates LTTng traces across OpenStack services, QEMU/KVM, network components, and host kernels to diagnose cloud-platform performance problems.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "The paper correlates LTTng traces across OpenStack services, QEMU/KVM, network components, and host kernels to diagnose cloud-platform performance problems.",
     "problem": "Cloud-service performance failures span application, virtualization, host-kernel, and network layers, so a single-layer view cannot reliably explain migration or resource-interference delays.",
@@ -86,7 +89,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -96,7 +99,7 @@
       "local cloud-platform PDF hash verified in pdf-evidence/notes/cloud-platform-performance-multilevel-tracing.md and pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -104,6 +107,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

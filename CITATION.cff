@@ -5,6 +5,7 @@ message: "If you use this catalog or its original summaries, please cite the rep
 authors:
   - family-names: Ezzati-Jivan
     given-names: Naser
+    orcid: https://orcid.org/0000-0003-1435-6297
 repository-code: https://github.com/naser/research-publications
 url: https://naser.github.io/research-publications/
 license: CC-BY-4.0

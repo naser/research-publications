@@ -34,7 +34,7 @@ L-SYNCng combines topology-aware clustering with convex-hull estimation of clock
 
 **Tags:** [performance-analysis](../../topics/performance-analysis.md) | [resource-analysis](../../topics/resource-analysis.md) | [observability](../../topics/observability.md)
 
-**Keywords:** [wireless sensor networks](../../keywords/wireless-sensor-networks.md) | [time synchronization](../../keywords/time-synchronization.md) | [L-SYNCng](../../keywords/l-syncng.md) | [convex hull](../../keywords/convex-hull.md) | [clock drift](../../keywords/clock-drift.md) | [NS-2.31](../../keywords/ns-2-31.md) | [heterogeneous topology](../../keywords/heterogeneous-topology.md) | [clock offset](../../keywords/clock-offset.md) | [clock skew](../../keywords/clock-skew.md)
+**Keywords:** wireless sensor networks | time synchronization | L-SYNCng | convex hull | clock drift | NS-2.31 | heterogeneous topology | clock offset | clock skew
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ M. Jabbarifar, A. Shameli-Sendi, A. Sadighian, N. Ezzati-Jivan, and M. R. Dagena
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: L-SYNCng PDF: protocol design, clustering, convex-hull offset/skew estimation, and comparison protocols; L-SYNCng PDF: NS-2.31, 100-node/1000 x 1000 m/100 m setup, ten runs, noise conditions, and plotted comparisons; L-SYNCng PDF: conclusion and dynamic-network future-work statement; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

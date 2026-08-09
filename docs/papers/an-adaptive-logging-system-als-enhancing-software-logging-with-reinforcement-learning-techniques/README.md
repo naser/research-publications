@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [observability](../../topics/observability.md) | [performance-engineering](../../topics/performance-engineering.md) | [machine-learning](../../topics/machine-learning.md) | [trace-reduction](../../topics/trace-reduction.md)
 
-**Keywords:** [adaptive logging](../../keywords/adaptive-logging.md) | [ALS](../../keywords/als.md) | [reinforcement learning](../../keywords/reinforcement-learning.md) | [log placement](../../keywords/log-placement.md) | [log level selection](../../keywords/log-level-selection.md) | [performance bugs](../../keywords/performance-bugs.md) | [Python AST](../../keywords/python-ast.md) | [Stable-Baselines](../../keywords/stable-baselines.md) | [DQN](../../keywords/dqn.md) | [A2C](../../keywords/a2c.md) | [PPO](../../keywords/ppo.md) | [Apache](../../keywords/apache.md) | [Django](../../keywords/django.md) | [cross-project evaluation](../../keywords/cross-project-evaluation.md) | [Ciena](../../keywords/ciena.md) | [source-code features](../../keywords/source-code-features.md)
+**Keywords:** adaptive logging | ALS | reinforcement learning | log placement | log level selection | performance bugs | Python AST | Stable-Baselines | DQN | A2C | PPO | [Apache](../../keywords/apache.md) | Django | cross-project evaluation | Ciena | [source-code features](../../keywords/source-code-features.md)
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ A. K. Tabrizi, N. Ezzati-Jivan, and F. Tetreault, "An Adaptive Logging System (A
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE ALS PDF: Python AST, GitHub/PyGithub/git, 12 static features, bug classes, Stable-Baselines, and DQN/A2C/PPO selection; ICPE ALS PDF: 17 Apache/Django projects, 93,484 functions, 4,235 files, eight-episode evaluation, and reward stability findings; ICPE ALS PDF: Python/dynamic-feature/agent-scope limitations and stated future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

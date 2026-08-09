@@ -34,7 +34,7 @@ The accessible Springer preview associates the paper with a unified anomaly-dete
 
 **Tags:** [anomaly-detection](../../topics/anomaly-detection.md) | [machine-learning](../../topics/machine-learning.md) | [resource-analysis](../../topics/resource-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [DDoS attacks](../../keywords/ddos-attacks.md) | [cloud environment](../../keywords/cloud-environment.md) | [CUSUM](../../keywords/cusum.md) | [bandwidth exhaustion](../../keywords/bandwidth-exhaustion.md) | [application exhaustion](../../keywords/application-exhaustion.md) | [connection exhaustion](../../keywords/connection-exhaustion.md) | [anomaly detection](../../keywords/anomaly-detection.md)
+**Keywords:** DDoS attacks | cloud environment | CUSUM | bandwidth exhaustion | application exhaustion | connection exhaustion | anomaly detection
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "The Use
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1007/s41635-021-00119-z; DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21; Official Springer preview read privately; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; private evidence report: reports/agent-batch-04.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -34,7 +34,7 @@ This paper applies social-network-analysis techniques to system execution traces
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [trace-abstraction](../../topics/trace-abstraction.md) | [social-network-analysis](../../topics/social-network-analysis.md) | [trace-filtering](../../topics/trace-filtering.md) | [lttng](../../topics/lttng.md)
 
-**Keywords:** [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | [Louvain community detection](../../keywords/louvain-community-detection.md) | [PageRank](../../keywords/pagerank.md) | [thread interaction graph](../../keywords/thread-interaction-graph.md) | [trace filtering](../../keywords/trace-filtering.md) | [virtual-machine clustering](../../keywords/virtual-machine-clustering.md)
+**Keywords:** [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | Louvain community detection | [PageRank](../../keywords/pagerank.md) | thread interaction graph | [trace filtering](../../keywords/trace-filtering.md) | virtual-machine clustering
 
 ## Versions and source links
 
@@ -80,7 +80,7 @@ J. Wang and N. Ezzati-Jivan, "Enhanced Execution Trace Abstraction Approach Usin
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: public PDF URL observed from DBLP-linked source; PDF downloaded locally and verified with %PDF- signature; first three pages extracted for summary verification
 - Machine-readable record: [paper.json](./paper.json)

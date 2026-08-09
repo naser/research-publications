@@ -34,7 +34,7 @@ The publisher abstract describes a two-tier IoT anomaly-classification framework
 
 **Tags:** [iot-security](../../topics/iot-security.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [machine-learning](../../topics/machine-learning.md) | [deep-learning-systems](../../topics/deep-learning-systems.md)
 
-**Keywords:** [IoT anomaly detection](../../keywords/iot-anomaly-detection.md) | [CNN-BiLSTM](../../keywords/cnn-bilstm.md) | [SMOTE](../../keywords/smote.md) | [particle swarm optimization](../../keywords/particle-swarm-optimization.md) | [PSO](../../keywords/pso.md) | [Software Impacts](../../keywords/software-impacts.md) | [classification](../../keywords/classification.md)
+**Keywords:** IoT anomaly detection | [CNN-BiLSTM](../../keywords/cnn-bilstm.md) | [SMOTE](../../keywords/smote.md) | particle swarm optimization | [PSO](../../keywords/pso.md) | Software Impacts | classification
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "A Two-Tiered Framework for Anomaly 
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344; DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646; Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md
 - Machine-readable record: [paper.json](./paper.json)

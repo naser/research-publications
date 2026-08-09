@@ -23,6 +23,9 @@
   },
   "abstract": null,
   "abstract_source": "PASD published-paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
+  "abstract_available": false,
+  "description": "PASD uses Linux kernel-event traces, Perf call stacks, and statistical debugging to rank functions associated with performance problems without application-source instrumentation.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "summary": {
     "core_contribution": "PASD uses Linux kernel-event traces, Perf call stacks, and statistical debugging to rank functions associated with performance problems without application-source instrumentation.",
     "problem": "Application instrumentation may be unavailable or intrusive, while kernel-event behavior and call stacks contain evidence about functions correlated with performance degradation.",
@@ -84,7 +87,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/scam59687.2023.00025",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -94,7 +97,7 @@
       "local PASD PDF hash verified in pdf-evidence/notes/pasd-statistical-debugging-kernel-events.md and pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -102,6 +105,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

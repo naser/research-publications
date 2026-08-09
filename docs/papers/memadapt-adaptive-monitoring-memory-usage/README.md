@@ -34,7 +34,7 @@ The available author synopsis describes an adaptive memory-monitoring approach b
 
 **Tags:** [resource-analysis](../../topics/resource-analysis.md) | [predictive-monitoring](../../topics/predictive-monitoring.md) | [performance-analysis](../../topics/performance-analysis.md) | [machine-learning](../../topics/machine-learning.md)
 
-**Keywords:** [memory monitoring](../../keywords/memory-monitoring.md) | [irregular sampling](../../keywords/irregular-sampling.md) | [adaptive monitoring](../../keywords/adaptive-monitoring.md) | [time series](../../keywords/time-series.md) | [memory usage](../../keywords/memory-usage.md) | [MemAdapt](../../keywords/memadapt.md)
+**Keywords:** memory monitoring | irregular sampling | [adaptive monitoring](../../keywords/adaptive-monitoring.md) | time series | [memory usage](../../keywords/memory-usage.md) | MemAdapt
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ P. Chakraborty, M. Babaei, L. Tahmooresnejad, and N. Ezzati-Jivan, "MemAdapt: Ad
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838037; CASCON program: https://iccsse.github.io/CASCON2024/program/; Author synopsis: https://majidbabaei.com/; Private batch report: reports/parallel-batch-02.md
 - Machine-readable record: [paper.json](./paper.json)

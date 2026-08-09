@@ -25,6 +25,9 @@
   },
   "abstract": "L-SYNCng combines topology-aware clustering with convex-hull estimation of clock offset and skew for synchronization in heterogeneous wireless sensor networks.",
   "abstract_source": "Public article/full-text evidence reviewed; abstract paraphrased for this catalog.",
+  "abstract_available": true,
+  "description": "L-SYNCng combines topology-aware clustering with convex-hull estimation of clock offset and skew for synchronization in heterogeneous wireless sensor networks.",
+  "evidence_level": "full-text-reviewed",
   "summary": {
     "core_contribution": "The paper proposes L-SYNCng, a time-synchronization protocol for heterogeneous wireless sensor networks that combines topology-aware clustering with convex-hull clock estimation.",
     "problem": "Clock offset, clock drift, delayed or unreliable packets, and heterogeneous topology make accurate and efficient synchronization difficult in wireless sensor networks; multihop clock conversion also accumulates error (abstract and pp. 1, 3, 7).",
@@ -92,7 +95,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-07",
+    "metadata_verified_on": "2026-08-08",
     "metadata_source": [
       "L-SYNCng PDF: protocol design, clustering, convex-hull offset/skew estimation, and comparison protocols",
       "L-SYNCng PDF: NS-2.31, 100-node/1000 x 1000 m/100 m setup, ten runs, noise conditions, and plotted comparisons",
@@ -100,7 +103,7 @@
       "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },
@@ -108,6 +111,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-07"
+    "selected_at": "2026-08-08"
   }
 }

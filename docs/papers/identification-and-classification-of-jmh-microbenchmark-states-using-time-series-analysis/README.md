@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [performance-analysis](../../topics/performance-analysis.md) | [performance-engineering](../../topics/performance-engineering.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [machine-learning](../../topics/machine-learning.md)
 
-**Keywords:** [Java Microbenchmark Harness](../../keywords/java-microbenchmark-harness.md) | [JMH](../../keywords/jmh.md) | [benchmark states](../../keywords/benchmark-states.md) | [steady state](../../keywords/steady-state.md) | [warmup](../../keywords/warmup.md) | [Matrix Profile](../../keywords/matrix-profile.md) | [motifs](../../keywords/motifs.md) | [discords](../../keywords/discords.md) | [PELT](../../keywords/pelt.md) | [change points](../../keywords/change-points.md) | [Stumpy](../../keywords/stumpy.md) | [Ruptures](../../keywords/ruptures.md) | [time-series analysis](../../keywords/time-series-analysis.md)
+**Keywords:** [Java Microbenchmark Harness](../../keywords/java-microbenchmark-harness.md) | [JMH](../../keywords/jmh.md) | benchmark states | [steady state](../../keywords/steady-state.md) | [warmup](../../keywords/warmup.md) | Matrix Profile | motifs | discords | [PELT](../../keywords/pelt.md) | change points | Stumpy | Ruptures | time-series analysis
 
 ## Resources
 
@@ -84,7 +84,7 @@ T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Identification and Classi
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: ICPE Companion PDF: Matrix Profile, motifs/discords, PELT change points, Stumpy, Ruptures, and 30-iteration warmup protocol; ICPE Companion PDF: JMH/Traini benchmark corpus, state-identification workflow, anomaly rule, and reported qualitative conclusions; Author code/data repository linked by the paper; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -34,7 +34,7 @@ The paper presents a stateful approach that maps low-level LTTng events to seman
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [trace-abstraction](../../topics/trace-abstraction.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
 
-**Keywords:** [stateful trace abstraction](../../keywords/stateful-trace-abstraction.md) | [synthetic events](../../keywords/synthetic-events.md) | [semantic events](../../keywords/semantic-events.md) | [modeled state](../../keywords/modeled-state.md) | [finite-state machine](../../keywords/finite-state-machine.md) | [LTTng](../../keywords/lttng.md) | [Linux kernel 2.6.38.6](../../keywords/linux-kernel-2-6-38-6.md) | [XML pattern library](../../keywords/xml-pattern-library.md) | [partial trace abstraction](../../keywords/partial-trace-abstraction.md) | [fork bomb](../../keywords/fork-bomb.md) | [SYN flood](../../keywords/syn-flood.md) | [port scanning](../../keywords/port-scanning.md)
+**Keywords:** stateful trace abstraction | [synthetic events](../../keywords/synthetic-events.md) | semantic events | modeled state | [finite-state machine](../../keywords/finite-state-machine.md) | [LTTng](../../keywords/lttng.md) | [Linux kernel 2.6.38.6](../../keywords/linux-kernel-2-6-38-6.md) | XML pattern library | partial trace abstraction | fork bomb | [SYN flood](../../keywords/syn-flood.md) | port scanning
 
 ## Versions and source links
 
@@ -81,7 +81,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "A Stateful Approach to Generate Synthetic E
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: full-text-grounded catalog review; author approval pending
 - Metadata sources: A Stateful Approach PDF: LTTng, semantic-event mapping, modeled state, finite-state patterns, and Java prototype; A Stateful Approach PDF: 25 MB-10,000 MB traces, 621,132,167/159,023,500/2,247,225 event counts, and reported analysis times; A Stateful Approach PDF: limitations, missing state changes, pattern-library boundary, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

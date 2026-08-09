@@ -34,7 +34,7 @@ The official program abstract describes critical-path profiling using hardware-c
 
 **Tags:** [performance-analysis](../../topics/performance-analysis.md) | [resource-analysis](../../topics/resource-analysis.md) | [multicore-systems](../../topics/multicore-systems.md) | [system-tracing](../../topics/system-tracing.md)
 
-**Keywords:** [execution paths](../../keywords/execution-paths.md) | [hardware performance counters](../../keywords/hardware-performance-counters.md) | [critical-path profiling](../../keywords/critical-path-profiling.md) | [CPython](../../keywords/cpython.md) | [sampling](../../keywords/sampling.md) | [SysCon 2021](../../keywords/syscon-2021.md)
+**Keywords:** [execution paths](../../keywords/execution-paths.md) | hardware performance counters | critical-path profiling | CPython | sampling | SysCon 2021
 
 ## Versions and source links
 
@@ -79,7 +79,7 @@ F. Giraldeau, N. Ezzati-Jivan, and M. R. Dagenais, "System Execution Path Profil
 
 ## Record provenance
 
-- Metadata verified: 2026-08-07
-- Summary status: source-grounded catalog review; author approval pending
+- Metadata verified: 2026-08-08
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
 - Metadata sources: DOI: https://doi.org/10.1109/SYSCON48628.2021.9447121; DBLP record: https://dblp.org/rec/conf/syscon/GiraldeauJD21; Official SysCon program: https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)
