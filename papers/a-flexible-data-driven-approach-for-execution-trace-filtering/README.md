@@ -39,7 +39,7 @@ Abstract not available in the captured sources.
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1109/BigDataCongress.2015.112) - published
-- [Institutional full text](https://publications.polymtl.ca/2985/1/2015_Kouame_Flexible_data-driven_approach_execution_trace.pdf) | [PDF](https://publications.polymtl.ca/2985/1/2015_Kouame_Flexible_data-driven_approach_execution_trace.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/2985/) | [PDF](https://publications.polymtl.ca/2985/1/2015_Kouame_Flexible_data-driven_approach_execution_trace.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1109/BigDataCongress.2015.112](https://doi.org/10.1109/BigDataCongress.2015.112)
 
@@ -85,5 +85,5 @@ K. G. Kouame, N. Ezzati-Jivan, and M. R. Dagenais, "A Flexible Data-Driven Appro
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Flexible filtering PDF: XML FSM architecture, Trace Compass/state-system execution, raw/synthetic event support, and UI integration; Flexible filtering PDF: LTTng 2.4.0, Ubuntu 14.10, kernel 3.13.0-43, hping3 SYN-flood workload, thresholds, synthetic-event counts, and XML/Java timings; Flexible filtering PDF: condition-check/runtime and understandability limitations plus future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the IEEE accepted version.
 - Machine-readable record: [paper.json](./paper.json)

@@ -3,14 +3,14 @@
 Papers indexed by keyword **LTTng**.
 
 - [A declarative framework for stateful analysis of execution traces](../papers/declarative-framework-stateful-trace-analysis/README.md) - 2017
-- [A Framework to Compute Statistics of System Parameters from Very Large Trace Files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
+- [A framework to compute statistics of system parameters from very large trace files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
 - [A Stateful Approach to Generate Synthetic Events from Kernel Traces](../papers/a-stateful-approach-to-generate-synthetic-events-from-kernel-traces/README.md) - 2012
 - [Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing](../papers/model-based-constraints-execution-tracing/README.md) - 2021
 - [B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing](../papers/b-perf-black-box-performance-antipatterns/README.md) - 2026
 - [Cloud Platform Performance Evaluation Using Multi-level Execution Tracing](../papers/cloud-platform-performance-multilevel-tracing/README.md) - 2020
 - [Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications](../papers/combining-distributed-kernel-tracing-cloud/README.md) - 2021
 - [Container Workload Characterization Through Host System Tracing](../papers/container-workload-characterization-host-tracing/README.md) - 2021
-- [Cube Data Model for Multilevel Statistics Computation of Live Execution Traces](../papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/README.md) - 2015
+- [Cube data model for multilevel statistics computation of live execution traces](../papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/README.md) - 2015
 - [Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis](../papers/debugging-performance-degradation-distributed-requests/README.md) - 2021
 - [Dynamic trace-based sampling algorithm for memory usage tracking of enterprise applications](../papers/dynamic-trace-sampling-memory-usage/README.md) - 2017
 - [Efficient Detection of Communication-related Performance Anti-patterns in Microservices](../papers/efficient-communication-performance-antipattern-detection-microservices/README.md) - 2025

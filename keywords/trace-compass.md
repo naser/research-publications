@@ -10,7 +10,7 @@ Papers indexed by keyword **Trace Compass**.
 - [Container Workload Characterization Through Host System Tracing](../papers/container-workload-characterization-host-tracing/README.md) - 2021
 - [Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis](../papers/debugging-performance-degradation-distributed-requests/README.md) - 2021
 - [Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization](../papers/distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu/README.md) - 2021
-- [Efficient Cloud Tracing: From Very High Level to Very Low Level](../papers/efficient-cloud-tracing-levels/README.md) - 2018
+- [Efficient cloud tracing: From very high level to very low level](../papers/efficient-cloud-tracing-levels/README.md) - 2018
 - [Efficient Detection of Communication-related Performance Anti-patterns in Microservices](../papers/efficient-communication-performance-antipattern-detection-microservices/README.md) - 2025
 - [Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing](../papers/heterogeneous-debugging-dynamic-tracing/README.md) - 2019
 - [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](../papers/enhanced-trace-abstraction-social-network-analysis/README.md) - 2020
@@ -18,6 +18,6 @@ Papers indexed by keyword **Trace Compass**.
 - [Execution trace-based model verification to analyze multicore and real-time systems](../papers/execution-trace-model-verification-multicore/README.md) - 2022
 - [High latency cause detection using multilevel dynamic analysis](../papers/high-latency-cause-detection-multilevel-analysis/README.md) - 2018
 - [Malware System Calls Detection Using Hybrid System](../papers/malware-system-calls-detection-using-hybrid-system/README.md) - 2021
-- [Multi-scale Navigation of Large Trace Data: A Survey](../papers/multi-scale-navigation-of-large-trace-data-a-survey/README.md) - 2017
+- [Multi-scale navigation of large trace data: A survey](../papers/multi-scale-navigation-of-large-trace-data-a-survey/README.md) - 2017
 - [Multilayer Virtualized Systems Analysis with Kernel Tracing](../papers/multilayer-virtualized-systems-kernel-tracing/README.md) - 2016
 - [N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing](../papers/n-lane-bridge-performance-antipatterns/README.md) - 2022

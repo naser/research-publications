@@ -1,1 +1,1 @@
-Vergé, A., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Hardware-Assisted Software Event Tracing. Concurrency and Computation: Practice and Experience, 29(10), e4069. https://doi.org/10.1002/cpe.4069
+Vergé, A., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Hardware-assisted software event tracing. Concurrency and Computation: Practice and Experience, 29(10), e4069. https://doi.org/10.1002/cpe.4069

@@ -2,7 +2,7 @@
   "schema_version": "0.6.0",
   "paper_id": "hardware-assisted-software-event-tracing",
   "page_url": "https://naser.github.io/research-publications/papers/hardware-assisted-software-event-tracing/",
-  "title": "Hardware-Assisted Software Event Tracing",
+  "title": "Hardware-assisted software event tracing",
   "title_variants": [],
   "authors": [
     "Adrien Vergé",
@@ -46,7 +46,7 @@
     "crossref_type": "journal-article"
   },
   "publication_type": "research paper",
-  "status": "published_with_public_full_text",
+  "status": "public_accepted_manuscript",
   "canonical_source_url": "https://doi.org/10.1002/cpe.4069",
   "source_record_id": "hardware-assisted-software-event-tracing-adde2d2e93",
   "identifiers": {
@@ -70,22 +70,13 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "Crossref and local DBLP/venue metadata for 10.1002/cpe.4069"
+        "note": "PolyPublie repository record identity matched to the catalog title and author record"
       },
       {
-        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+        "note": "public PDF downloaded locally and %PDF- signature verified"
       },
       {
-        "note": "Hardware-assisted tracing PDF pp. 1-4: problem, ARM CoreSight/Intel BTS design, platforms, and LTTng comparison"
-      },
-      {
-        "note": "Hardware-assisted tracing PDF pp. 4-10: STM/ETM/BTS implementations, benchmark results, and modified Perf path"
-      },
-      {
-        "note": "Hardware-assisted tracing PDF p. 10: conclusion, quantitative comparisons, and limitations"
-      },
-      {
-        "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+        "note": "PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms."
       }
     ]
   },
@@ -121,26 +112,26 @@
       "id": "published-version",
       "label": "Published version",
       "relation": "version-of-record",
-      "title": "Hardware-Assisted Software Event Tracing",
+      "title": "Hardware-assisted software event tracing",
       "url": "https://doi.org/10.1002/cpe.4069",
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
     },
     {
-      "id": "public-full-text",
-      "label": "Public full text",
-      "relation": "source-record",
-      "title": "Hardware-Assisted Software Event Tracing",
-      "url": "https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf",
+      "id": "public-institutional-full-text",
+      "label": "Public institutional full text",
+      "relation": "accepted-manuscript",
+      "title": "Hardware-assisted software event tracing",
+      "url": "https://publications.polymtl.ca/2981/",
       "pdf_url": "https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf",
-      "status": "public_full_text",
+      "status": "public_accepted_manuscript",
       "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_with_public_full_text",
-    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
+    "status": "public_accepted_manuscript",
+    "note": "PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms.",
     "license": null
   },
   "resources": {
@@ -161,12 +152,9 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "Crossref and local DBLP/venue metadata for 10.1002/cpe.4069",
-      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "Hardware-assisted tracing PDF pp. 1-4: problem, ARM CoreSight/Intel BTS design, platforms, and LTTng comparison",
-      "Hardware-assisted tracing PDF pp. 4-10: STM/ETM/BTS implementations, benchmark results, and modified Perf path",
-      "Hardware-assisted tracing PDF p. 10: conclusion, quantitative comparisons, and limitations",
-      "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      "PolyPublie repository record identity matched to the catalog title and author record",
+      "public PDF downloaded locally and %PDF- signature verified",
+      "PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms."
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

@@ -49,7 +49,7 @@
     "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
-  "status": "published_with_public_full_text",
+  "status": "public_accepted_manuscript",
   "canonical_source_url": "https://doi.org/10.1109/SocialCom.2013.107",
   "source_record_id": "state-history-tree-an-incremental-disk-based-data-structure-for-very-large-interval-data-35a2d470ae",
   "identifiers": {
@@ -73,16 +73,13 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design"
+        "note": "PolyPublie repository record identity matched to the catalog title and author record"
       },
       {
-        "note": "State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons"
+        "note": "public PDF downloaded locally and %PDF- signature verified"
       },
       {
-        "note": "State History Tree PDF: chronological-insertion limitation and conclusion boundary"
-      },
-      {
-        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+        "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
       }
     ]
   },
@@ -126,19 +123,19 @@
       "canonical_for_citation": true
     },
     {
-      "id": "public-accepted-full-text",
-      "label": "Public accepted full text",
-      "relation": "source-record",
+      "id": "public-institutional-full-text",
+      "label": "Public institutional full text",
+      "relation": "accepted-manuscript",
       "title": "State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data",
-      "url": "https://publications.polymtl.ca/2983/1/2013_Montplaisir-Gon%C3%A7alves_State_history_tree_incremental_disk-based.pdf",
+      "url": "https://publications.polymtl.ca/2983/",
       "pdf_url": "https://publications.polymtl.ca/2983/1/2013_Montplaisir-Gon%C3%A7alves_State_history_tree_incremental_disk-based.pdf",
-      "status": "public_full_text",
+      "status": "public_accepted_manuscript",
       "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_with_public_full_text",
-    "note": "The DOI is the canonical citation target; the public full-text link is external and the PDF is not redistributed here.",
+    "status": "public_accepted_manuscript",
+    "note": "PolyPublie cover sheet identifies this as the IEEE accepted version.",
     "license": null
   },
   "resources": {
@@ -160,10 +157,9 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design",
-      "State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons",
-      "State History Tree PDF: chronological-insertion limitation and conclusion boundary",
-      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      "PolyPublie repository record identity matched to the catalog title and author record",
+      "public PDF downloaded locally and %PDF- signature verified",
+      "PolyPublie cover sheet identifies this as the IEEE accepted version."
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

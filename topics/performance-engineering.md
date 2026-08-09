@@ -2,14 +2,14 @@
 
 Papers tagged **performance-engineering**.
 
-- [A Framework to Compute Statistics of System Parameters from Very Large Trace Files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
+- [A framework to compute statistics of system parameters from very large trace files](../papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/README.md) - 2013
 - [An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques](../papers/an-adaptive-logging-system-als-enhancing-software-logging-with-reinforcement-learning-techniques/README.md) - 2024
 - [Analyzing Performance Variability in Alibaba's Microservice Architecture: A Critical-Path-Based Perspective](../papers/analyzing-performance-variability-in-alibaba-s-microservice-architecture-a-critical-path-based-p/README.md) - 2024
 - [Cloud Platform Performance Evaluation Using Multi-level Execution Tracing](../papers/cloud-platform-performance-multilevel-tracing/README.md) - 2020
-- [Cube Data Model for Multilevel Statistics Computation of Live Execution Traces](../papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/README.md) - 2015
+- [Cube data model for multilevel statistics computation of live execution traces](../papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/README.md) - 2015
 - [Efficient Methods for Trace Analysis Parallelization](../papers/efficient-trace-analysis-parallelization/README.md) - 2019
 - [Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach](../papers/enhancing-performance-engineering-with-kernel-events/README.md) - 2024
-- [Hardware-Assisted Software Event Tracing](../papers/hardware-assisted-software-event-tracing/README.md) - 2017
+- [Hardware-assisted software event tracing](../papers/hardware-assisted-software-event-tracing/README.md) - 2017
 - [High Performance Internet Connection Filtering through an In-Kernel Architecture](../papers/high-performance-internet-connection-filtering-in-kernel/README.md) - 2011
 - [Identification and Classification of JMH Microbenchmark States using Time Series Analysis](../papers/identification-and-classification-of-jmh-microbenchmark-states-using-time-series-analysis/README.md) - 2023
 - [Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models](../papers/optimization-transformers-llms/README.md) - 2025
