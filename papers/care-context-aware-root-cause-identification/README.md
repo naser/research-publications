@@ -28,7 +28,7 @@ On TrainTicket, which contains 41 microservices and 242,259 traces across 200 fa
 
 ## Abstract
 
-Abstract not available in the captured sources.
+Root cause localization in microservices is challenging due to intricate service dependencies and the high volume and heterogeneity of collected monitoring data, which add complexity to the analysis. Conventional methods often overlook nuanced propagation patterns and contextual interactions among services, and they are limited in leveraging multi-source observability data for comprehensive root cause identification. This study introduces CARE, a context-aware, spectrum-analysis-based approach that integrates multi-source observability data and employs network analysis to prioritize the contextual significance of components in propagating anomalies across individual services, service communities, and requests. CARE's weighted spectrum analysis leverages these prioritized contexts to pinpoint underlying performance issues. Evaluations on 224 cases from the TrainTicket benchmark and a real-world Internet service provider's production system demonstrate CARE's substantial accuracy gains, with top-1 accuracy of 72%-89% and top-5 accuracy of 84%-99% for single root causes, outperforming baselines by 8%-41%. CARE also shows significant improvements in dual root cause identification, exceeding baseline performance by 18%-37%, all while maintaining efficient resource usage, establishing CARE as a robust and resource-effective solution for root cause localization in complex microservice environments.
 
 ## Topics and keywords
 
@@ -38,9 +38,10 @@ Abstract not available in the captured sources.
 
 ## Versions and source links
 
-- [Published version](https://doi.org/10.1109/tse.2025.3645143) - published
+- [Published version](https://doi.org/10.1109/TSE.2025.3645143) - published
+- [Accepted-author manuscript](https://zenodo.org/records/18021268) | [PDF](https://zenodo.org/records/18021268/files/CARE_IEEETransaction_resubmit2.pdf?download=1) - public_full_text
 
-**Canonical source:** [https://doi.org/10.1109/tse.2025.3645143](https://doi.org/10.1109/tse.2025.3645143)
+**Canonical source:** [https://doi.org/10.1109/TSE.2025.3645143](https://doi.org/10.1109/TSE.2025.3645143)
 
 ## Identifiers
 
@@ -76,7 +77,7 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aw
   publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
   issn = {0098-5589, 1939-3520, 2326-3881},
   doi = {10.1109/tse.2025.3645143},
-  url = {https://doi.org/10.1109/tse.2025.3645143}
+  url = {https://doi.org/10.1109/TSE.2025.3645143}
 }
 ```
 
@@ -85,6 +86,6 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aw
 ## Record provenance
 
 - Metadata verified: 2026-08-09
-- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1109/tse.2025.3645143; author identity matched to Naser Ezzati-Jivan in the local research catalog; CARE PDF pp. 1-2: problem, context-aware observability motivation, and contribution; CARE PDF pp. 3-10: service graphs, profiling metrics, trace clustering, graph ranking, and weighted spectrum analysis; CARE PDF pp. 9-12: baselines, TrainTicket and China Mobile Zhejiang datasets, metrics, accuracy results, and double-root-cause evaluation; CARE PDF pp. 11-12: HeMiRCA data mismatch and evaluation boundary; local CARE PDF hash verified in pdf-evidence/extraction-manifest.json
+- Summary status: full-text-grounded catalog review; author approval pending
+- Metadata sources: DBLP/DOI bibliographic record for 10.1109/tse.2025.3645143; author identity matched to Naser Ezzati-Jivan in the local research catalog; CARE accepted-author manuscript pp. 1-2: explicit accepted-manuscript statement, exact abstract, problem, context-aware observability motivation, and contribution; CARE accepted-author manuscript pp. 3-10: service graphs, profiling metrics, trace clustering, graph ranking, and weighted spectrum analysis; CARE accepted-author manuscript pp. 9-12: baselines, TrainTicket and China Mobile Zhejiang datasets, metrics, accuracy results, and double-root-cause evaluation; CARE accepted-author manuscript pp. 11-12: HeMiRCA data mismatch and evaluation boundary; Zenodo record 18021268 provides CARE_IEEETransaction_resubmit2.pdf as public full text; its 1,580,357-byte file and MD5 e6e888ef140bee9ece7d26c74fce559b exactly match the locally inspected 21-page manuscript; Crossref and the manuscript identify the canonical published DOI as 10.1109/TSE.2025.3645143
 - Machine-readable record: [paper.json](./paper.json)

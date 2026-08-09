@@ -146,7 +146,7 @@
     {
       "id": "public-accepted-manuscript-record",
       "label": "Public accepted manuscript record",
-      "relation": "source-record",
+      "relation": "accepted-manuscript",
       "title": "Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis",
       "url": "https://publications.polymtl.ca/4211/",
       "pdf_url": null,
