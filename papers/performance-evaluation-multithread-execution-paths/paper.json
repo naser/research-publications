@@ -76,7 +76,7 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1016/j.peva.2022.102289",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
@@ -91,6 +91,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

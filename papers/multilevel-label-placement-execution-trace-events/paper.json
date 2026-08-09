@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "multilevel-label-placement-execution-trace-events",
+  "page_url": "https://naser.github.io/research-publications/papers/multilevel-label-placement-execution-trace-events/",
+  "title": "Multilevel Label Placement for Execution Trace Events",
+  "title_variants": [],
+  "authors": [
+    "Naser Ezzati-Jivan",
+    "Alireza Shameli-Sendi",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2013,
+    "venue": "2013 IEEE 26th Canadian Conference on Electrical and Computer Engineering (CCECE)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/CCECE.2013.6567826",
+  "source_record_id": "multilevel-label-placement-for-execution-trace-events-96dc1a7efe",
+  "identifiers": {
+    "doi": "10.1109/CCECE.2013.6567826"
+  },
+  "abstract": "The accessible abstract describes automatic label placement for points and lines representing execution-trace events.",
+  "abstract_source": "PolyPublie/abstract metadata, paraphrased; full text not obtained.",
+  "summary": {
+    "core_contribution": "The abstract identifies an automatic multilevel label-placement method for execution-trace visualizations.",
+    "problem": "Dense trace visualizations can become unreadable when labels overlap or obscure event points and lines.",
+    "method": "Only the abstract-level automatic placement objective is verified; the layout algorithm, trace representation, and evaluation are not asserted.",
+    "findings": "No page-grounded metric, comparison, or user-study result was available.",
+    "limitations": "The full paper was not obtained, so layout quality, scalability, and interaction conditions remain unverified.",
+    "future_work": "The paper-specific future-work section remains unverified."
+  },
+  "tags": [
+    "trace-visualization",
+    "trace-analysis",
+    "performance-analysis"
+  ],
+  "keywords": [
+    "execution trace events",
+    "label placement",
+    "trace visualization",
+    "overlap avoidance",
+    "event labels",
+    "CCECE 2013"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Multilevel Label Placement for Execution Trace Events",
+      "url": "https://doi.org/10.1109/CCECE.2013.6567826",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "polypublie-record",
+      "label": "PolyPublie record",
+      "relation": "source-record",
+      "title": "Multilevel Label Placement for Execution Trace Events",
+      "url": "https://publications.polymtl.ca/13939/",
+      "pdf_url": null,
+      "status": "public_source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "PolyPublie, DOI, DBLP, and abstract metadata verify the record. The publisher copy was not obtained, so the summary remains abstract-level.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "PolyPublie record: https://publications.polymtl.ca/13939/",
+      "DOI: https://doi.org/10.1109/CCECE.2013.6567826",
+      "DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html",
+      "Private batch report: reports/parallel-batch-03.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

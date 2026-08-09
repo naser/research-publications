@@ -2,29 +2,29 @@
 
 **2023 | IEEE International Conference on Big Data | research paper**
 
-**Authors:** Pranjal Chakraborty, Naser Ezzati-Jivan, Sayed Vahid Azhari, François Tetreault
+**Authors:** Pranjal Chakraborty, Naser Ezzati-Jivan, Vahid Azhari, François Tetreault
 
-**Core contribution:** This work investigates AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy in the context of software performance and systems analysis.
+**Core contribution:** AltOOM combines early memory-pressure forecasting with selective process-level profiling to identify the process most responsible for an impending out-of-memory event.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Out-of-memory failures have multiple interacting causes and are difficult to diagnose after the failure occurs.
+Linux's reactive OOM killer can terminate a high-memory process even when a lower-memory process is the one whose memory usage is growing; resource-constrained systems need earlier warning and lower-overhead process attribution.
 
 ### 2. Method and contribution
 
-AltOOM uses data-driven evidence to identify likely root causes of out-of-memory events.
+AltOOM samples 34 system-level signals at 0.5-second intervals - 28 virtual-memory statistics, three memory-related system calls (brk, sbrk, and mmap), and three kernel events (kmalloc, mm_page_alloc, and vmscan) - using perf and sar. It labels pressure at %memused >= 85%, compares SVM, vanilla DNN, and bidirectional-LSTM predictors, filters 34 features to 15, then uses burst-collected process-level allocation signals and moving-average growth ranking after an alert.
 
 ### 3. Findings and evidence
 
-The paper presents an OOM-specific RCA strategy; datasets, features, and accuracy require full-text review.
+In the reported evaluation, the feature-filtered DNN reaches 0.82 accuracy for (n,k)=(4,3) and 0.81 for (3,3); the abstract reports 85% memory-pressure forecasting accuracy. AltOOM process identification reaches 0.56-0.83 as the burst count increases from 3 to 7, versus 0.42 for the Linux OOM killer. A Firefox PDF-preview case reports 0.83 and 0.79 forecasting accuracy for (4,3) and (3,3), respectively.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+**Limitations:** The method can miss gradual memory buildup when only three timestamps (1.5 seconds) are observed. Fixed-rate monitoring creates overhead, and the evaluation centers on generated pressure scenarios plus a Firefox case rather than broad production-device coverage.
 
-**Future work:** Test cross-application transfer, early warning, memory pressure signals, and actionable explanations.
+**Future work:** Evaluate adaptive sampling of rates, metrics, and metric groups, and implement actions such as controlling or adjusting the responsible process, terminating it, or restarting the system.
 
 ## Abstract
 
@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [resource-analysis](../../topics/resource-analysis.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [system-tracing](../../topics/system-tracing.md) | [predictive-monitoring](../../topics/predictive-monitoring.md)
 
-**Keywords:** [out-of-memory](../../keywords/out-of-memory.md) | [OOM diagnosis](../../keywords/oom-diagnosis.md) | [data-driven RCA](../../keywords/data-driven-rca.md) | [resource analysis](../../keywords/resource-analysis.md)
+**Keywords:** [out-of-memory](../../keywords/out-of-memory.md) | [OOM diagnosis](../../keywords/oom-diagnosis.md) | [data-driven RCA](../../keywords/data-driven-rca.md) | [resource analysis](../../keywords/resource-analysis.md) | [memory pressure forecasting](../../keywords/memory-pressure-forecasting.md) | [process-level profiling](../../keywords/process-level-profiling.md) | [Perf](../../keywords/perf.md) | [sar](../../keywords/sar.md)
 
 ## Versions and source links
 
@@ -48,24 +48,25 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when studying proactive memory-pressure forecasting or process-level out-of-memory root-cause identification.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Perf/sar-based collection of VM statistics, memory-related system calls, and kernel events for memory-pressure prediction.
+- Burst-based process profiling and moving-average ranking for identifying the responsible process.
+- Comparison with the Linux OOM killer and reported forecasting and process-identification accuracy in simulated and Firefox cases.
 
 ## Citation
 
 ### APA 7
 
-Chakraborty, P., Ezzati-Jivan, N., Azhari, S. V., & Tetreault, F. (2023). AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy. IEEE International Conference on Big Data. https://doi.org/10.1109/bigdata59044.2023.10386937
+Chakraborty, P., Ezzati-Jivan, N., Azhari, V., & Tetreault, F. (2023). AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy. IEEE International Conference on Big Data. https://doi.org/10.1109/bigdata59044.2023.10386937
 
 ### IEEE
 
-P. Chakraborty, N. Ezzati-Jivan, S. V. Azhari, and F. Tetreault, "AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy," in IEEE International Conference on Big Data, 2023, doi: 10.1109/bigdata59044.2023.10386937
+P. Chakraborty, N. Ezzati-Jivan, V. Azhari, and F. Tetreault, "AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy," in IEEE International Conference on Big Data, 2023, doi: 10.1109/bigdata59044.2023.10386937
 
 ```bibtex
 @inproceedings{ezzatiJivan2023altooma,
-  author = {Pranjal Chakraborty and Naser Ezzati-Jivan and Sayed Vahid Azhari and François Tetreault},
+  author = {Pranjal Chakraborty and Naser Ezzati-Jivan and Vahid Azhari and François Tetreault},
   title = {AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy},
   year = {2023},
   booktitle = {IEEE International Conference on Big Data},
@@ -78,7 +79,7 @@ P. Chakraborty, N. Ezzati-Jivan, S. V. Azhari, and F. Tetreault, "AltOOM: A Data
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937; author identity matched to Naser Ezzati-Jivan in the local research catalog; AltOOM PDF pp. 1, 4-10: perf/sar collection, 34 metrics, 85% threshold, prediction models, burst ranking, evaluation tables, limitations, and future work; local AltOOM PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

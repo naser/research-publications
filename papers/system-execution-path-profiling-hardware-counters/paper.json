@@ -1,0 +1,108 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "system-execution-path-profiling-hardware-counters",
+  "page_url": "https://naser.github.io/research-publications/papers/system-execution-path-profiling-hardware-counters/",
+  "title": "System Execution Path Profiling Using Hardware Performance Counters",
+  "title_variants": [],
+  "authors": [
+    "Francis Giraldeau",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2021,
+    "venue": "2021 IEEE International Systems Conference (SysCon)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/SYSCON48628.2021.9447121",
+  "source_record_id": "system-execution-path-profiling-using-hardware-performance-counters-c4cbc41744",
+  "identifiers": {
+    "doi": "10.1109/SYSCON48628.2021.9447121"
+  },
+  "abstract": "The official program abstract describes critical-path profiling using hardware-counter samples every 100,000 cycles, user-space interrupt signaling, and comparison with CPython behavior.",
+  "abstract_source": "Official SysCon program abstract, paraphrased; full text not obtained.",
+  "summary": {
+    "core_contribution": "The program abstract identifies a method for profiling execution paths from sampled hardware performance counters.",
+    "problem": "Execution-path behavior and performance variation can be difficult to observe without relating hardware-counter activity to program paths.",
+    "method": "The abstract reports counter sampling every 100,000 cycles, user-space interrupt signaling, and critical-path profiling; the exact counters, instrumentation, and analysis are not verified.",
+    "findings": "The program mentions a CPython comparison, but no page-grounded metric or result is available.",
+    "limitations": "Full-text evidence is required to verify the counter set, overhead, workloads, baselines, and validity conditions.",
+    "future_work": "The paper-specific future-work section remains unverified."
+  },
+  "tags": [
+    "performance-analysis",
+    "resource-analysis",
+    "multicore-systems",
+    "system-tracing"
+  ],
+  "keywords": [
+    "execution paths",
+    "hardware performance counters",
+    "critical-path profiling",
+    "CPython",
+    "sampling",
+    "SysCon 2021"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "System Execution Path Profiling Using Hardware Performance Counters",
+      "url": "https://doi.org/10.1109/SYSCON48628.2021.9447121",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "official-syscon-program",
+      "label": "Official SysCon program",
+      "relation": "source-record",
+      "title": "System Execution Path Profiling Using Hardware Performance Counters",
+      "url": "https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf",
+      "pdf_url": null,
+      "status": "public_source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI/DBLP record and official conference program verify the item. The program abstract supports only the high-level profiling design; the paper PDF was not obtained.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "DOI: https://doi.org/10.1109/SYSCON48628.2021.9447121",
+      "DBLP record: https://dblp.org/rec/conf/syscon/GiraldeauJD21",
+      "Official SysCon program: https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf",
+      "Private batch report: reports/parallel-batch-03.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

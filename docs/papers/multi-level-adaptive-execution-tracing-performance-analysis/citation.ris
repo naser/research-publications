@@ -1,0 +1,10 @@
+TY  - CONF
+AU  - Khan, Mohammed Adib
+AU  - Ezzati-Jivan, Naser
+TI  - Multi-level Adaptive Execution Tracing for Efficient Performance Analysis
+PY  - 2023
+T2  - 2023 IEEE International Conference on Software Engineering and Research (SERA)
+AB  - The available program synopsis describes dynamic kernel/application tracing guided by time-series trends with an emphasis on reducing tracing overhead; the exact trigger logic and evaluation were not captured.
+DO  - 10.1109/SERA57763.2023.10197790
+UR  - https://doi.org/10.1109/SERA57763.2023.10197790
+ER  -

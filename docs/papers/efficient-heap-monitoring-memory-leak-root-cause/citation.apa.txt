@@ -1,0 +1,1 @@
+Azhari, V., Bhamra, S., Ezzati-Jivan, N., & Tetreault, F. (2021). Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis. 2021 IEEE International Conference on Big Data (BigData). https://doi.org/10.1109/BigData52589.2021.9671473

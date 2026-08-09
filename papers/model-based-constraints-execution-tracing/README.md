@@ -4,27 +4,27 @@
 
 **Authors:** Raphael Beamonte, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** The paper investigates generating model-based constraints automatically from execution traces of multi-core and real-time applications.
+**Core contribution:** The paper automatically builds an approximate workflow model and adaptive quantitative constraints from user-space and kernel execution traces, reducing manual model construction for real-time and multicore diagnosis.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Manual construction of behavioral constraints is difficult when concurrent and real-time applications have complex execution behavior.
+Manual model and constraint construction for concurrent real-time applications requires substantial system knowledge and effort, even though low-overhead tracing provides the evidence needed for verification.
 
 ### 2. Method and contribution
 
-Execution traces are used as evidence for automatically generating constraints for model-based analysis.
+The method organizes trace events per thread, groups similar sequences with longest-common-subsequence matching using strict or flexible key-value matching, removes unneeded repetitions, builds a state model, and infers adaptive constraint operators and values from runtime timing distributions. The model is presented for user checking and correction; LTTng is explicitly used in the cyclictest case.
 
 ### 3. Findings and evidence
 
-The work presents a trace-to-constraint generation direction; constraint language, workloads, and validation results require full-text review.
+The generated model detects the JACK2 xrun, the cyclictest outlier, and the in-kernel wakelock priority inversion. For cyclictest, a manually set 3-ms deadline is inferred as about 2.685 ms. In the reported evaluation, model construction is dominant - about 7 minutes for full cyclictest - while traces range from 321 UST and 419,164 kernel events for JACK2 to 41,677 UST and 208,489 kernel events for cyclictest and 42 UST and 194,997 kernel events for wakelock.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.
+**Limitations:** Generated models can contain extra constraints and still need user correction. The evaluation emphasizes common real-time cases with relatively simple loops and does not establish performance across more complex modeling requirements.
 
-**Future work:** Test constraint soundness, completeness, portability, and use in continuous runtime verification.
+**Future work:** Build and detect models on the fly, compatible with LTTng flight-recorder mode.
 
 ## Abstract
 
@@ -32,9 +32,9 @@ Abstract not available in the captured sources.
 
 ## Topics and keywords
 
-**Tags:** [system-tracing](../../topics/system-tracing.md) | [multicore-systems](../../topics/multicore-systems.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md)
+**Tags:** [system-tracing](../../topics/system-tracing.md) | [multicore-systems](../../topics/multicore-systems.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-analysis](../../topics/performance-analysis.md) | [lttng](../../topics/lttng.md)
 
-**Keywords:** [model-based constraints](../../keywords/model-based-constraints.md) | [execution tracing](../../keywords/execution-tracing.md) | [multi-core systems](../../keywords/multi-core-systems.md) | [real-time applications](../../keywords/real-time-applications.md) | [constraint generation](../../keywords/constraint-generation.md)
+**Keywords:** [model-based constraints](../../keywords/model-based-constraints.md) | [execution tracing](../../keywords/execution-tracing.md) | [multi-core systems](../../keywords/multi-core-systems.md) | [real-time applications](../../keywords/real-time-applications.md) | [constraint generation](../../keywords/constraint-generation.md) | [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | [cyclictest](../../keywords/cyclictest.md) | [JACK2](../../keywords/jack2.md) | [wakelock](../../keywords/wakelock.md)
 
 ## Versions and source links
 
@@ -48,10 +48,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when generating model-based real-time constraints or using user-space and kernel traces for multicore diagnosis.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Automatic workflow extraction from per-thread traces using sequence matching.
+- Adaptive timing constraints inferred from runtime trace values.
+- LTTng-backed JACK2, cyclictest, and kernel-wakelock case studies.
 
 ## Citation
 
@@ -78,7 +79,7 @@ R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Automated Generation of Model
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1007/s10766-020-00689-5; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: Crossref and local DBLP/venue metadata for 10.1007/s10766-020-00689-5; author identity matched to Naser Ezzati-Jivan in the local research catalog; Model-constraints PDF pp. 1-2, 5-17: user-space/kernel scope, LTTng cyclictest case, per-thread/LCS workflow generation, adaptive constraints, and case-study detections; Model-constraints PDF pp. 21-30: hardware, trace sizes, runtime/scalability, and full-cyclictest approximately 7-minute result; Model-constraints PDF p. 30: limitation and future-work boundary; local model-constraints PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

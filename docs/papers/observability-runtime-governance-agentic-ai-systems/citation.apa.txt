@@ -1,0 +1,1 @@
+Ezzati-Jivan, N., & Ekhlasi, M. (2026). Observability and Runtime Governance for Agentic AI Systems. Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE). https://doi.org/10.1145/3803437.3804904

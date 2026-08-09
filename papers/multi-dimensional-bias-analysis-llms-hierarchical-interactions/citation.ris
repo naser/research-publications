@@ -1,0 +1,12 @@
+TY  - CONF
+AU  - Syed, Basil
+AU  - Charlebois, Daniel Arana
+AU  - Ezzati-Jivan, Naser
+AU  - Tahmooresnejad, Leila
+AU  - Ayanso, Anteneh
+TI  - Multi-Dimensional Bias Analysis in LLMs Using Hierarchical and Interaction Models
+PY  - 2025
+T2  - AMCIS 2025, Data Science / SIG DSA (ERF)
+AB  - The official abstract describes a five-layer framework for analyzing interacting bias dimensions in large language models, with ChatGPT and Gemini used as illustrative systems and context-dependent ranking of bias dimensions.
+UR  - https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/
+ER  -

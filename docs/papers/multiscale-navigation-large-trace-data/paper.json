@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "multiscale-navigation-large-trace-data",
+  "page_url": "https://naser.github.io/research-publications/papers/multiscale-navigation-large-trace-data/",
+  "title": "Multiscale Navigation in Large Trace Data",
+  "title_variants": [],
+  "authors": [
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2014,
+    "venue": "2014 IEEE 27th Canadian Conference on Electrical and Computer Engineering (CCECE)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/CCECE.2014.6901019",
+  "source_record_id": "multiscale-navigation-in-large-trace-data-9b173f4210",
+  "identifiers": {
+    "doi": "10.1109/CCECE.2014.6901019"
+  },
+  "abstract": "The accessible abstract describes hierarchical trace-log management with an interactive zoomable timeline and semantic and physical zooming that supports coarse-layer-first navigation.",
+  "abstract_source": "PolyPublie/abstract metadata, paraphrased; full text not obtained.",
+  "summary": {
+    "core_contribution": "The abstract presents multiscale navigation for large trace data through hierarchical storage and interactive zoomable visualization.",
+    "problem": "Trace logs can be too large for direct inspection, so analysts need to move between coarse and detailed views without loading or rendering everything at once.",
+    "method": "At abstract level, the approach uses hierarchical trace-log management, an interactive zoomable timeline, and semantic and physical zoom operations.",
+    "findings": "The abstract supports the navigation concept but provides no page-grounded scalability or usability metric.",
+    "limitations": "The storage implementation, trace format, dataset size, interaction study, and performance measurements remain unverified.",
+    "future_work": "The paper-specific future-work section remains unverified."
+  },
+  "tags": [
+    "trace-visualization",
+    "trace-abstraction",
+    "trace-analysis",
+    "performance-analysis"
+  ],
+  "keywords": [
+    "large trace data",
+    "multiscale navigation",
+    "zoomable timeline",
+    "semantic zoom",
+    "physical zoom",
+    "trace visualization"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Multiscale Navigation in Large Trace Data",
+      "url": "https://doi.org/10.1109/CCECE.2014.6901019",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "polypublie-record",
+      "label": "PolyPublie record",
+      "relation": "source-record",
+      "title": "Multiscale Navigation in Large Trace Data",
+      "url": "https://publications.polymtl.ca/12410/",
+      "pdf_url": null,
+      "status": "public_source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "PolyPublie, DOI, DBLP, and abstract metadata verify the record. The paper PDF was not obtained; the summary is restricted to abstract-level claims.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "PolyPublie record: https://publications.polymtl.ca/12410/",
+      "DOI: https://doi.org/10.1109/CCECE.2014.6901019",
+      "DBLP record: https://dblp.org/rec/conf/ccece/JivanD14.html",
+      "Private batch report: reports/parallel-batch-03.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

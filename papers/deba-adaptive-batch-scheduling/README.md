@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Existing adaptive batch-size methods often assume that one adaptation policy works equally well across neural-network architectures, even though architectures differ in optimization stability and sensitivity.
+Fixed or architecture-agnostic batch-size schedules assume that the same adaptation policy works across model families. The paper studies whether architecture and baseline training stability determine when adaptive batch sizing improves speed without sacrificing generalization.
 
 ### 2. Method and contribution
 
-DEBA monitors gradient variance, gradient-norm variation, and loss variation. The study evaluates it across six architectures, two datasets, five random seeds, and ablations of sliding-window statistics and cooldown periods.
+DEBA (Dynamic Efficient Batch Adaptation) computes gradient variance, gradient-norm variation, and loss variation per epoch. A rule-based controller uses 15-epoch sliding-window statistics, architecture-specific thresholds calibrated from a fixed-batch profiling run, a 1.5x growth factor, a 0.8x rollback factor, batch bounds of 16-2048, and a cooldown between decisions. The controller chooses increase, rollback, or hold.
 
 ### 3. Findings and evidence
 
-The reported gains are architecture-dependent: lightweight and medium-depth models obtain 45–62% training speedups with 1–7% accuracy improvements, while ResNet-50 and ViT-B16 show weaker or more variable benefits.
+On ResNet-18/50, DenseNet-121, EfficientNet-B0, MobileNet-V3, and ViT-B16 over CIFAR-10/100, fixed-batch comparison shows 36-62% speedups with accuracy gains in 9/12 configuration pairs. DenseNet-121 on CIFAR-100 reports +3.24 percentage points and 62.4% speedup; MobileNet-V3 on CIFAR-10 reports +6.98 points and 50.3% speedup. ViT-B16 gains only 5.1-8.3% speedup and ResNet-50 is seed-sensitive. Signal computation is reported below 1% of wall-clock training time.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The study focuses on CIFAR-10/CIFAR-100 and six image-classification architectures.
+**Limitations:** The evaluation is CIFAR-scale, uses six architectures, one NVIDIA H100, fixed SGD/learning-rate settings, and no distributed training. The empirical stability taxonomy may not transfer to ConvNeXt, CoAtNet, other deep/hybrid families, or other modalities. Thresholds require a 100-epoch fixed-batch profiling run and are not universally transferable.
 
-**Future work:** Future work should test larger datasets, modern language and vision models, distributed training, and workload-level energy or cost outcomes.
+**Future work:** Extend evaluation to ImageNet, distributed training, NLP, and reinforcement learning; infer thresholds with meta-learning or transfer from architecture features; study joint batch-size/learning-rate adaptation; and formalize links between gradient statistics, smoothness, and adaptive behavior.
 
 ## Abstract
 
@@ -48,11 +48,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when studying adaptive batch-size scheduling for neural-network training.
+Cite this paper when your work uses or compares empirical evidence that adaptive batch-size scheduling is architecture-dependent rather than universally transferable.
 
-- Architecture-aware decisions about when and how to change batch size.
-- Training-stability or gradient-variance signals for scheduling.
-- Batch-size effects across heterogeneous neural-network architectures.
+- empirical evidence that adaptive batch-size scheduling is architecture-dependent rather than universally transferable.
+- the DEBA design: multi-signal gradient monitoring, fixed-batch stability profiling, architecture-specific thresholds, and cooldown-controlled increase/rollback decisions.
+- the specific ablation result that short cooldowns and stale full-history statistics can cause decision thrashing, accuracy loss, or speedup collapse.
 
 ## Citation
 
@@ -79,7 +79,7 @@ F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architectu
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: official arXiv abstract and PDF page 2511.03809; DBLP/Scholar record matched by title and authors; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

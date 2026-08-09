@@ -23,14 +23,14 @@
     "doi": "10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "Cloud platform paper PDF reviewed on 2026-08-06; abstract not reproduced because reuse permission for the publisher version was not established.",
   "summary": {
-    "core_contribution": "This work investigates Cloud Platform Performance Evaluation Using Multi-level Execution Tracing in the context of software performance and systems analysis.",
-    "problem": "Cloud-platform performance depends on interactions across application, runtime, and operating-system layers.",
-    "method": "The paper uses multi-level execution tracing to evaluate cloud-platform performance.",
-    "findings": "It contributes a cross-level measurement perspective; platform and workload results require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Measure cloud heterogeneity, virtualization effects, and observability cost at scale."
+    "core_contribution": "The paper correlates LTTng traces across OpenStack services, QEMU/KVM, network components, and host kernels to diagnose cloud-platform performance problems.",
+    "problem": "Cloud-service performance failures span application, virtualization, host-kernel, and network layers, so a single-layer view cannot reliably explain migration or resource-interference delays.",
+    "method": "The approach adds LTTng-UST Python probes for OpenStack Nova, traces QEMU/KVM and host kernels, adds Neutron/Open vSwitch tracepoints with packet identifiers, and synchronizes the streams in Trace Compass. VM activity is linked to the Nova instance, QEMU process, and kernel scheduling/preemption evidence.",
+    "findings": "The live-migration case records Nova, QEMU, controller, and source/destination host traces. Reported total migration times include 166.12 seconds in the low-interference case and 169.320 seconds with interference. Traces expose CPU preemption and co-located VM interference as causes of migration slowdown and allow packet and service behavior to be followed across layers.",
+    "limitations": "The evaluation is a focused OpenStack/VM-migration case study and does not establish general cloud-wide overhead or portability across platforms. The conclusion presents the method as extensible rather than universally validated.",
+    "future_work": "Apply the cross-layer method to other hard-to-detect cloud problems, including security flaws, using kernel, network, and application perspectives."
   },
   "tags": [
     "system-tracing",
@@ -40,9 +40,18 @@
   ],
   "keywords": [
     "cloud platforms",
-    "multilevel execution tracing",
-    "cloud performance",
-    "resource behavior"
+    "multi-level execution tracing",
+    "LTTng",
+    "LTTng-UST",
+    "OpenStack Nova",
+    "Neutron",
+    "QEMU",
+    "KVM",
+    "Open vSwitch",
+    "Trace Compass",
+    "live VM migration",
+    "preemption",
+    "VM interference"
   ],
   "versions": [
     {
@@ -68,19 +77,23 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when correlating OpenStack, virtualization, network, and host-kernel traces for cloud performance diagnosis.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "LTTng/LTTng-UST probes for Nova, QEMU/KVM, Neutron, Open vSwitch, and host kernels.",
+      "Trace Compass synchronization of VM, service, packet, scheduling, and preemption evidence.",
+      "Live-VM-migration analysis that attributes slowdown to CPU preemption and co-located VM interference."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Cloud platform PDF pp. 1-5: LTTng/LTTng-UST, Nova/QEMU/KVM/Neutron/Open vSwitch tracing, correlation, and Trace Compass views",
+      "Cloud platform PDF pp. 5-6: live-migration procedure, 166.12/169.320-second results, preemption and VM-interference diagnosis",
+      "Cloud platform PDF p. 6: conclusion and future-work boundary",
+      "local cloud-platform PDF hash verified in pdf-evidence/notes/cloud-platform-performance-multilevel-tracing.md and pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -91,6 +104,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

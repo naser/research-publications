@@ -11,25 +11,25 @@
   ],
   "publication": {
     "year": 2024,
-    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
-    "type": "research paper"
+    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE) Companion",
+    "type": "conference paper"
   },
-  "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1145/3629527.3651842",
   "source_record_id": "network-analysis-of-microservices-a-case-study-on-alibaba-production-clusters-0817c2ae9a",
   "identifiers": {
     "doi": "10.1145/3629527.3651842"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
   "summary": {
-    "core_contribution": "This work investigates Network Analysis of Microservices: A Case Study on Alibaba Production Clusters in the context of software performance and systems analysis.",
-    "problem": "Large microservice deployments create complex interaction networks that are difficult to understand from isolated service metrics.",
-    "method": "The paper applies network analysis to microservice interactions in Alibaba production clusters.",
-    "findings": "It provides a production-cluster case-study perspective; network construction and results require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Study temporal evolution, causal diagnosis, and operational use of network-derived signals."
+    "core_contribution": "The paper applies graph community detection and service-graph clustering to expose recurring microservice communication structures in an Alibaba production-cluster snapshot.",
+    "problem": "Large microservice deployments contain complex call relationships whose structure is difficult to inspect directly. The paper studies graph analysis for exposing communities, dependencies, and similarities among service call graphs.",
+    "method": "From an Alibaba production snapshot, the authors retain upper- and downstream-microservice identifiers plus service labels, remove unacceptable rows, construct one call graph per service, detect communities, and cluster graph structures. Greedy Modularity, Louvain, Infomap, and Label Propagation are compared; K-means groups service graphs using node/edge features.",
+    "findings": "The one-hour snapshot contains more than 260 million call records, more than 28,000 microservices, and a network spanning about 10,000 bare-metal nodes. Service graphs with at least 50 requests are retained and 300 are randomly selected. On a sample exceeding 13 million records, Louvain has silhouette 0.71 and modularity 0.67, above the alternatives; varying the seed from 0 to 1000 selects the highest-modularity seed. Elbow analysis selects K=5 and graph clustering obtains silhouette 0.6141.",
+    "limitations": "Only 300 service graphs and a small set of call-graph attributes are analyzed; response time is not included in edges. The paper does not show causal bottleneck localization, performance improvement, or validation over the full cluster snapshot. Tracer, trace version/format, OS, kernel, runtime, hardware specifications, and replication details are unknown.",
+    "future_work": "Add response-time attributes, scale to larger data, compare or combine more community/clustering methods, and predict future network behavior/community formation."
   },
   "tags": [
     "microservices",
@@ -40,8 +40,15 @@
   "keywords": [
     "microservice networks",
     "Alibaba production clusters",
-    "network analysis",
-    "service interactions"
+    "service call graphs",
+    "community detection",
+    "Louvain",
+    "Infomap",
+    "Label Propagation",
+    "graph clustering",
+    "K-Means",
+    "silhouette score",
+    "modularity"
   ],
   "versions": [
     {
@@ -53,33 +60,46 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-acm-pdf",
+      "label": "Public ACM PDF",
+      "relation": "source-record",
+      "title": "Network Analysis of Microservices: A Case Study on Alibaba Production Clusters",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3629527.3651842",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3629527.3651842",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target. The external source PDF is linked for readers; no PDF is redistributed in this repository.",
     "license": null
   },
   "resources": {
-    "code": null,
+    "code": "https://github.com/ghazalkhb/ICPE2024_DataChallenge",
     "data": null,
     "slides": null,
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares applying community detection to Alibaba-scale microservice call graphs.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "applying community detection to Alibaba-scale microservice call graphs.",
+      "the Louvain-versus-Greedy-Modularity/Infomap/Label-Propagation comparison with coverage, modularity, and silhouette metrics.",
+      "the K-means service-graph similarity workflow with elbow-selected K=5 and silhouette 0.6141.",
+      "as structural-dependency evidence, not as a causal latency or bottleneck-improvement result."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
-      "DBLP/DOI bibliographic record for 10.1145/3629527.3651842",
-      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Private full PDF read: pdf-evidence/notes/network-analysis-microservices-alibaba.md",
+      "Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering",
+      "Network-analysis PDF pp. 3-5: structural findings, limitations, future work, and implementation repository",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +110,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

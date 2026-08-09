@@ -15,7 +15,7 @@
     "type": "research paper"
   },
   "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1109/syscon.2018.8369613",
   "source_record_id": "high-latency-cause-detection-using-multilevel-dynamic-analysis-0af4780c31",
   "identifiers": {
@@ -24,12 +24,12 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work investigates High latency cause detection using multilevel dynamic analysis in the context of software performance and systems analysis.",
-    "problem": "High-latency requests require causal evidence across application and system layers.",
-    "method": "The work applies multilevel dynamic analysis to detect causes associated with high latency.",
-    "findings": "It establishes an early multilevel latency-diagnosis approach; exact experiments require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Revisit the method for distributed and cloud-native workloads with modern tracing standards."
+    "core_contribution": "The paper correlates PHP user-space events with LTTng kernel events in a unified multilevel model to explain high-latency web requests.",
+    "problem": "Web-request latency is caused by interactions among application code, runtime compilation/cache behavior, synchronization, scheduling, and I/O; a user-space trace alone cannot identify all causes.",
+    "method": "Instrument PHP and correlate its call/compile events with LTTng-UST and kernel states in a common timestamped model. Mapping rules and an FSM reconstruct PHP call-stack state; synchronized views and a Critical Path View expose blocking and preemption.",
+    "findings": "The simple example identifies compile/cache time, while the Drupal example identifies OPcache shared-memory lock contention that is invisible in PHP-only analysis. Minimal cross-layer tracing limits overhead to below 7.5% in the reported client sweep.",
+    "limitations": "The implementation and evaluation are PHP-specific; the paper does not establish transferability to other runtimes or web stacks. Full tracing has substantial throughput cost, and the compile percentage is case-specific.",
+    "future_work": "Add mapping rules and views, and investigate machine-learning-based predictive analytics, as stated by the authors."
   },
   "tags": [
     "system-tracing",
@@ -41,7 +41,11 @@
     "high latency",
     "dynamic analysis",
     "multilevel analysis",
-    "latency causes"
+    "latency causes",
+    "LTTng",
+    "LTTng-UST",
+    "Trace Compass",
+    "OPcache contention"
   ],
   "versions": [
     {
@@ -53,11 +57,21 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "High latency cause detection using multilevel dynamic analysis",
+      "url": "https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf",
+      "pdf_url": "https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
     "license": null
   },
   "resources": {
@@ -67,19 +81,23 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares multilevel PHP/LTTng/kernel correlation that distinguishes application execution, compilation/cache, scheduling, and blocking states.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For multilevel PHP/LTTng/kernel correlation that distinguishes application execution, compilation/cache, scheduling, and blocking states.",
+      "For the OPcache shared-memory lock-contention diagnosis in a Drupal/ApacheBench workload.",
+      "For the measured overhead tradeoff between full tracing and a minimal syscall/process-scheduling configuration."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "High latency PDF pp. 1-5: problem, LTTng/LTTng-UST instrumentation, state model, and environment",
+      "High latency PDF pp. 5, 8-9: PHP/Drupal use cases, OPcache contention, throughput, and tracing overhead",
+      "High latency PDF p. 9: validity threats and conclusion/future-work boundary",
+      "local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +108,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

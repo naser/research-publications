@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "integrated-modeling-tool-state-machine-trace",
+  "page_url": "https://naser.github.io/research-publications/papers/integrated-modeling-tool-state-machine-trace/",
+  "title": "Integrated Modeling Tool for Indexing and Analyzing State Machine Trace",
+  "title_variants": [],
+  "authors": [
+    "Simon Delisle",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2021,
+    "venue": "2021 IEEE International Symposium on Networks, Computers and Communications (ISNCC)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/ISNCC52172.2021.9615814",
+  "source_record_id": "integrated-modeling-tool-for-indexing-and-analyzing-state-machine-trace-b450898ee2",
+  "identifiers": {
+    "doi": "10.1109/ISNCC52172.2021.9615814"
+  },
+  "abstract": "The accessible abstract describes a modeled state representation with a special-purpose database, filtering/highlighting, and Gantt/XY views for Linux and Windows traces.",
+  "abstract_source": "Abstract mirror and authoritative metadata, paraphrased; full text not obtained.",
+  "summary": {
+    "core_contribution": "The abstract presents an integrated tool for indexing, querying, and visualizing state-machine traces.",
+    "problem": "Large state-machine traces need structured indexing and interactive views so analysts can filter and inspect state intervals efficiently.",
+    "method": "At abstract level, the tool models states, stores them in a special-purpose database, and provides filtering/highlighting with Gantt and XY visualizations for Linux and Windows examples.",
+    "findings": "The abstract indicates that the tool supports the described trace views; no scale, latency, or comparative metric is verified.",
+    "limitations": "The exact data model, storage engine, workloads, measurements, and paper-specific threats to validity remain unverified.",
+    "future_work": "The paper-specific future-work section remains unverified."
+  },
+  "tags": [
+    "trace-analysis",
+    "trace-visualization",
+    "trace-abstraction",
+    "performance-analysis"
+  ],
+  "keywords": [
+    "state-machine traces",
+    "trace indexing",
+    "special-purpose database",
+    "Gantt chart",
+    "XY view",
+    "trace filtering"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Integrated Modeling Tool for Indexing and Analyzing State Machine Trace",
+      "url": "https://doi.org/10.1109/ISNCC52172.2021.9615814",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "dblp-record",
+      "label": "DBLP record",
+      "relation": "source-record",
+      "title": "Integrated Modeling Tool for Indexing and Analyzing State Machine Trace",
+      "url": "https://dblp.org/rec/conf/isncc/DelisleED21",
+      "pdf_url": null,
+      "status": "public_source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "DOI, DBLP, and an abstract mirror verify the record. Abstract-level visualization claims are retained, but no body-level benchmark or implementation detail is asserted.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814",
+      "DBLP record: https://dblp.org/rec/conf/isncc/DelisleED21",
+      "Private batch report: reports/parallel-batch-03.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

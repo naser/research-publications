@@ -1,0 +1,1 @@
+N. Ezzati-Jivan and M. R. Dagenais, "Multiscale Navigation in Large Trace Data," in 2014 IEEE 27th Canadian Conference on Electrical and Computer Engineering (CCECE), 2014, doi: 10.1109/CCECE.2014.6901019

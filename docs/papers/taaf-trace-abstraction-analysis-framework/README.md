@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Kernel and application traces can be massive, while existing tools depend on predefined analyses or custom scripts. This makes ad hoc questions slow and error-prone for analysts without deep system expertise.
+Kernel and large-application traces are too large, multidimensional, and temporally structured for direct manual inspection or raw LLM ingestion. Existing stateful tools support predefined queries, but flexible questions still require domain-specific scripts and expert knowledge.
 
 ### 2. Method and contribution
 
-TAAF builds a time-indexed knowledge graph from trace events and extracts query-specific subgraphs. An LLM interprets those subgraphs to answer natural-language questions. The paper introduces the TraceQA-100 benchmark grounded in real kernel traces.
+TAAF implements a three-layer trace-to-answer pipeline: LTTng events are transformed into a time-indexed Trace Compass-style State System; a natural-language query selects a compact temporal knowledge graph with typed entities, weighted relations, and time scope; a schema-conditioned LLM answers from the graph. The pipeline is evaluated with TraceQA-100, a benchmark of expert-authored questions over real kernel traces.
 
 ### 3. Findings and evidence
 
-Across three LLMs and multiple temporal settings, the reported results improve answer accuracy by up to 31.2%, especially for multi-hop and causal questions. The analysis also documents cases where graph grounding remains insufficient.
+TraceQA-100 contains 100 questions in explanatory, multiple-choice, and true/false formats, split across single- and multi-hop reasoning. Across the core GPT-4.1 nano/GPT-4o/o4-mini grid and 1/10/100-second windows, graph grounding improves weighted accuracy by a reported mean 21.5 percentage points and up to 31.17 points; o4-mini with TAAF reaches 95.5% at 1 second and 90.17% at 100 seconds. Supplying the graph schema adds 8.1 points in the focused GPT-4o test.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The approach depends on trace representation quality, graph construction choices, LLM reliability, and benchmark coverage.
+**Limitations:** The benchmark is hand-crafted from SciMark 2.0 traces under Linux and uses a three-level score, author labeling, three samples per configuration, API models, and a raw-State-System baseline only. Long windows, explanatory multi-hop arithmetic, global queries, model drift, and other kernels/workloads remain difficult. The methods section accounts for 5,400 Phase-1 plus 2,100 Phase-2 outputs (7,500), while the conclusion says 7,800; preserve this as an unresolved paper-internal inconsistency.
 
-**Future work:** Future work should evaluate more systems, cost and latency, robustness to incomplete traces, and safe integration into operational diagnosis.
+**Future work:** Broaden question generation and annotation, use finer numeric-tolerance metrics and independent raters, support temporal/production-scale traces, hierarchical or retrieval-based prompting, autonomous-agent integration, and optimize KG construction with partitioning, streaming, batching, and early exit.
 
 ## Abstract
 
@@ -49,11 +49,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when combining trace abstraction, knowledge graphs, and LLM-supported analysis.
+Cite this paper when your work uses or compares the State System -> query-specific temporal knowledge graph -> LLM architecture for grounded kernel-trace question answering.
 
-- Time-indexed knowledge graphs for representing execution traces.
-- Natural-language trace queries and multi-hop reasoning.
-- LLM-assisted observability and explanation of large trace datasets.
+- the State System -> query-specific temporal knowledge graph -> LLM architecture for grounded kernel-trace question answering.
+- TraceQA-100, including expert-authored temporal, multi-entity, numeric, single-hop, and multi-hop questions over SciMark 2.0 kernel traces.
+- the measured benefit of graph grounding, especially the reported +21.5-point mean gain and up-to +31.17-point gain over raw State-System output.
+- the schema and temporal-window ablations when discussing how explicit structure and shorter windows affect LLM trace reasoning.
 
 ## Citation
 
@@ -80,7 +81,7 @@ A. Ezaz, G. Khodabandeh, M. Babaei, and N. Ezzati-Jivan, "TAAF: A Trace Abstract
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: official arXiv abstract, metadata, and PDF page 2601.02632; arXiv page comment containing the ICSE 2026 acceptance and ACM DOI; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

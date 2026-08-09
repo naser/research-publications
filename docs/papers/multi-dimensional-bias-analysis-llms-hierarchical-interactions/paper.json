@@ -1,0 +1,111 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "multi-dimensional-bias-analysis-llms-hierarchical-interactions",
+  "page_url": "https://naser.github.io/research-publications/papers/multi-dimensional-bias-analysis-llms-hierarchical-interactions/",
+  "title": "Multi-Dimensional Bias Analysis in LLMs Using Hierarchical and Interaction Models",
+  "title_variants": [],
+  "authors": [
+    "Basil Syed",
+    "Daniel Arana Charlebois",
+    "Naser Ezzati-Jivan",
+    "Leila Tahmooresnejad",
+    "Anteneh Ayanso"
+  ],
+  "publication": {
+    "year": 2025,
+    "venue": "AMCIS 2025, Data Science / SIG DSA (ERF)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_with_public_abstract",
+  "canonical_source_url": "https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/",
+  "source_record_id": "multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27",
+  "identifiers": {
+    "doi": null
+  },
+  "abstract": "The official abstract describes a five-layer framework for analyzing interacting bias dimensions in large language models, with ChatGPT and Gemini used as illustrative systems and context-dependent ranking of bias dimensions.",
+  "abstract_source": "AIS Electronic Library official abstract, paraphrased; full paper not obtained.",
+  "summary": {
+    "core_contribution": "The abstract proposes a multi-dimensional, hierarchical view of LLM bias that accounts for direct propagation, cascading effects, and feedback loops.",
+    "problem": "Single-axis bias checks can miss interactions among data, algorithmic, surface-level, operational, and societal influences.",
+    "method": "At abstract level, the framework organizes analysis into five layers—Data, Algorithmic, Surface-Level, Operational, and Societal Influence—and describes context-dependent ranking of bias dimensions. The detailed statistical model and dataset are not verified.",
+    "findings": "The abstract names ChatGPT and Gemini as illustrative case-study systems and claims that the framework can dynamically rank bias dimensions by context. No numeric result is asserted without the full paper.",
+    "limitations": "The full PDF, complete page range, statistical procedure, data, baselines, and quantitative results were not available in this audit.",
+    "future_work": "The paper-specific future-work section remains unverified and should be added after full-text retrieval."
+  },
+  "tags": [
+    "machine-learning",
+    "multimodal-ai",
+    "benchmark-datasets"
+  ],
+  "keywords": [
+    "LLM bias",
+    "hierarchical bias analysis",
+    "interaction effects",
+    "ChatGPT",
+    "Gemini",
+    "bias dimensions",
+    "data bias",
+    "algorithmic bias",
+    "societal bias"
+  ],
+  "versions": [
+    {
+      "id": "institutional-publication-record",
+      "label": "Institutional publication record",
+      "relation": "version-of-record",
+      "title": "Multi-Dimensional Bias Analysis in LLMs Using Hierarchical and Interaction Models",
+      "url": "https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/",
+      "pdf_url": null,
+      "status": "publication_signal",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "official-abstract-page",
+      "label": "Official abstract page",
+      "relation": "source-record",
+      "title": "Multi-Dimensional Bias Analysis in LLMs Using Hierarchical and Interaction Models",
+      "url": "https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/",
+      "pdf_url": null,
+      "status": "public_abstract",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_abstract",
+    "note": "The official AIS page verifies the paper and abstract-level contribution. The full PDF was blocked under normal access, so detailed statistics and implementation claims are not asserted.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "institutional-publication-record"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Official AIS paper and abstract page: https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/",
+      "DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25",
+      "Private evidence note: papers/multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27/pdf-evidence/notes/parallel-batch-01-multi-dimensional-bias-llm.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

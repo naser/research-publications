@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "cnn-bilstm-rpl-attacks-iot-smart-grid",
+  "page_url": "https://naser.github.io/research-publications/papers/cnn-bilstm-rpl-attacks-iot-smart-grid/",
+  "title": "CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track)",
+  "title_variants": [],
+  "authors": [
+    "Yue Guan",
+    "Morteza Noferesti",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2023,
+    "venue": "ACM/IFIP/USENIX Middleware 2023 Industry Track",
+    "type": "industry-track paper"
+  },
+  "publication_type": "industry-track paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1145/3626562.3626832",
+  "source_record_id": "cnn-bilstm-based-classification-of-rpl-attacks-in-iot-smart-grid-networks-industry-track-c3af27dc70",
+  "identifiers": {
+    "doi": "10.1145/3626562.3626832"
+  },
+  "abstract": null,
+  "abstract_source": null,
+  "summary": {
+    "core_contribution": "The verified record identifies this work as a Middleware 2023 industry-track paper on RPL-attack classification, but the full technical contribution was not available in the captured sources.",
+    "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
+    "method": "No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.",
+    "findings": "No page-grounded quantitative or qualitative findings were verified in this audit.",
+    "limitations": "The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.",
+    "future_work": "The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained."
+  },
+  "tags": [
+    "iot-security",
+    "deep-learning-systems",
+    "machine-learning",
+    "anomaly-detection"
+  ],
+  "keywords": [
+    "RPL attacks",
+    "IoT smart grid",
+    "CNN-BiLSTM",
+    "routing attacks",
+    "intrusion detection",
+    "Middleware 2023"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track)",
+      "url": "https://doi.org/10.1145/3626562.3626832",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "dblp-record",
+      "label": "DBLP record",
+      "relation": "source-record",
+      "title": "CNN-BiLSTM-Based Classification of RPL Attacks in IoT Smart Grid Networks (Industry Track)",
+      "url": "https://dblp.org/rec/conf/middleware/GuanNE23",
+      "pdf_url": null,
+      "status": "public_source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "DBLP, DOI metadata, and the author publication record verify the item. No abstract or full text was accessible, so no model, dataset, or result claim is made.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "DOI: https://doi.org/10.1145/3626562.3626832",
+      "DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23",
+      "Private batch report: reports/parallel-batch-02.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "enhanced-state-history-tree-esht-a-stateful-data-structure-for-analysis-of-highly-parallel-syste",
+  "page_url": "https://naser.github.io/research-publications/papers/enhanced-state-history-tree-esht-a-stateful-data-structure-for-analysis-of-highly-parallel-syste/",
+  "title": "Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces",
+  "title_variants": [],
+  "authors": [
+    "Loic Prieur-Drevon",
+    "Raphael Beamonte",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2016,
+    "venue": "IEEE BigData Congress",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1109/BigDataCongress.2016.19",
+  "source_record_id": "enhanced-state-history-tree-esht-a-stateful-data-structure-for-analysis-of-highly-parallel-syste-1d7dbd1c5a",
+  "identifiers": {
+    "doi": "10.1109/BigDataCongress.2016.19"
+  },
+  "abstract": null,
+  "abstract_source": "Institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
+  "summary": {
+    "core_contribution": "eSHT redesigns the State History Tree to store and query highly parallel trace intervals more compactly and with shallower trees.",
+    "problem": "Highly parallel traces can contain billions of events. The original state history tree becomes sparse and deep when many thread-related attributes begin together, increasing disk use, construction cost, query cost, and memory pressure.",
+    "method": "eSHT is an external-memory interval/state data structure that allows overlapping sibling ranges, stores attribute-key and child bounds, and supports subtree-oriented and multithreaded query traversal. The paper integrates the state model with Trace Compass.",
+    "findings": "On the 10,000-thread stress trace, eSHT reduced nodes and disk size by about 88%, reduced depth by 96.6%, raised node fill from 9% to 95%, and roughly halved average build time. The broader synthetic study reports roughly 2x single-query speedup and much larger full-query speedup.",
+    "limitations": "The strongest numbers come from a pathological 10,000-thread case and synthetic attribute scaling; the paper does not establish equivalent gains across all real workloads or query types. The full-query result is reported from a figure rather than a single exact tabulated value.",
+    "future_work": "Improve construction and overlap handling, investigate R-tree-like properties, and complete Trace Compass integration so the data-structure gains are exposed in the user workflow."
+  },
+  "tags": [
+    "kernel-tracing",
+    "trace-analysis",
+    "performance-optimization",
+    "multicore-systems",
+    "resource-analysis"
+  ],
+  "keywords": [
+    "Enhanced State History Tree",
+    "eSHT",
+    "State History Tree",
+    "interval data",
+    "external-memory indexing",
+    "LTTng 2.7.0",
+    "Trace Compass",
+    "Linux kernel 4.3.0",
+    "parallel traces",
+    "node fill",
+    "tree depth",
+    "query optimization"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces",
+      "url": "https://doi.org/10.1109/BigDataCongress.2016.19",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "institutional-full-text",
+      "label": "Institutional full text",
+      "relation": "source-record",
+      "title": "Enhanced State History Tree (eSHT): A Stateful Data Structure for Analysis of Highly Parallel System Traces",
+      "url": "https://publications.polymtl.ca/2994/1/2016_Prieur-Drevon_Enhanced_state_history_tree_eSHT.pdf",
+      "pdf_url": "https://publications.polymtl.ca/2994/1/2016_Prieur-Drevon_Enhanced_state_history_tree_eSHT.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the institutional source link is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares an external-memory state-history/interval-tree design that removes the consecutive-sibling restriction to handle highly parallel traces.",
+    "points": [
+      "For an external-memory state-history/interval-tree design that removes the consecutive-sibling restriction to handle highly parallel traces.",
+      "For the 10,000-thread result showing sparse SHT degeneration and eSHT reductions in node count, disk size, depth, and build time.",
+      "For the use of bounds and subtree-level parallel traversal to accelerate state queries in Trace Compass-style analysis."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "eSHT PDF: LTTng 2.7.0/Linux 4.3.0/Trace Compass environment, synthetic many-thread workload, and 1,000-1,000,000-attribute scale",
+      "eSHT PDF: SHT/eSHT build, node, disk, fill, depth, query, and one-million-attribute results",
+      "eSHT PDF: stress-case limitation and build/overlap/Trace Compass future work",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

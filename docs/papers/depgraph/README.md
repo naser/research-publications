@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Performance debugging in multi-core systems is difficult when blocking dependencies cross thread and resource boundaries. Conventional traces contain the evidence but do not directly show which dependencies account for the delay.
+System-level traces expose waiting and resource interactions, but conventional analysis does not present a compact causal view of why requests are delayed across threads and resources.
 
 ### 2. Method and contribution
 
-The method uses the Linux Tracing Toolkit: next generation (LTTng) tracer, including LTTng 2.11 in the evaluation, to collect kernel and system-call traces. It converts timestamped events into execution states such as running, runnable, blocked, and interrupted; constructs a Waiting Dependency Graph over threads and resources; and compares graphs from normal and slow executions to localize the blocking dependencies behind latency.
+DepGraph collects LTTng kernel events, reconstructs process/resource states in a state database, recursively builds duration-weighted Waiting Dependency Graphs, groups executions with k-means, and compares representative graphs to expose direct and indirect dependencies.
 
 ### 3. Findings and evidence
 
-Three performance anomalies were analyzed: Apache/PHP lock contention, CPU contention in a real-time Cyclictest workload, and disk contention affecting Apache requests. The evaluation used Ubuntu 16.04.6 LTS with a 64-bit 4.15.0-62 kernel on a quad-core Intel Core i7-6700K workstation, with sysbench CPU, IO, and mixed profiles. In 50 executions, the dependency-tracing configuration - the paper's method - had worst-case overhead below 10.1%; full tracing was more expensive for IO-heavy workloads. Trace analysis used Babeltrace 3 to decode CTF data.
+The method identified lock contention in a slow Apache/PHP request, CPU/interruption contention in Cyclictest, and disk contention in Apache workloads. Across Sysbench CPU/IO/mixed workloads, dependency tracing stayed within 10.1% relative duration overhead; Babeltrace 3 decoding and graph analysis remained measurable but practical on the test machine.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The evidence is based on selected use cases and a particular tracing pipeline.
+**Limitations:** The study uses one Linux machine and selected workloads/use cases. The graph is primarily an off-CPU/resource-waiting abstraction; broad portability, distributed/network causal analysis, and causal validation beyond graph comparison are unknown.
 
-**Future work:** Future work should test broader workloads, automate more of the causal explanation, and evaluate portability across operating systems and hardware configurations.
+**Future work:** Extend the graph model and evaluation to broader systems, workloads, and distributed/network settings; reduce state/decoding cost and improve automated interpretation of graph differences.
 
 ## Abstract
 
@@ -49,11 +49,12 @@ This paper addresses the challenge of understanding the waiting dependencies bet
 
 ## When to cite this paper
 
-Cite this paper when its method or evidence is relevant to multicore performance diagnosis.
+Cite this paper when your work uses or compares waiting Dependency Graphs that unify thread and resource waiting causes.
 
-- Waiting-dependency graphs for localizing bottlenecks across threads and resources.
-- LTTng-based kernel and system-call tracing for explaining blocking dependencies.
-- Production-oriented tracing and analysis overhead for performance diagnosis.
+- For Waiting Dependency Graphs that unify thread and resource waiting causes.
+- For distinguishing direct wakeup dependencies from indirect CPU/disk contention dependencies in kernel traces.
+- For grouping executions with k-means and comparing representative dependency graphs.
+- For the measured worst-case 10.1% dependency-tracing overhead on the stated Sysbench setup.
 
 ## Citation
 
@@ -80,7 +81,7 @@ N. Ezzati-Jivan, Q. Fournier, M. R. Dagenais, and A. Hamou-Lhadj, "DepGraph: Loc
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

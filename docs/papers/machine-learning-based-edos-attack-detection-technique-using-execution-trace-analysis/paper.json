@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "machine-learning-based-edos-attack-detection-technique-using-execution-trace-analysis",
+  "page_url": "https://naser.github.io/research-publications/papers/machine-learning-based-edos-attack-detection-technique-using-execution-trace-analysis/",
+  "title": "Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis",
+  "title_variants": [],
+  "authors": [
+    "Hossein Abbasi",
+    "Naser Ezzati-Jivan",
+    "Martine Bellaiche",
+    "Chamseddine Talhi",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2019,
+    "venue": "Journal of Hardware and Systems Security",
+    "type": "journal article"
+  },
+  "publication_type": "journal article",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1007/s41635-018-0061-2",
+  "source_record_id": "machine-learning-based-edos-attack-detection-technique-using-execution-trace-analysis-d9c7d7ed89",
+  "identifiers": {
+    "doi": "10.1007/s41635-018-0061-2"
+  },
+  "abstract": "Economic Denial of Sustainability (EDoS) attacks can cause cloud customers to pay for malicious resource consumption. The paper proposes a framework that learns normal and abnormal virtual-machine behavior and allocates extra resources only to VMs classified as normal, limiting attack propagation and resource misuse.",
+  "abstract_source": "Public accepted-manuscript PDF reviewed locally; abstract paraphrased for this catalog.",
+  "summary": {
+    "core_contribution": "The paper combines execution-trace and virtual-machine metrics with machine learning to detect EDoS behavior and restrict resource expansion to apparently normal VMs.",
+    "problem": "EDoS attacks can make a pay-per-use cloud allocate additional resources to malicious traffic, causing cost escalation; packet-level similarity makes simple traffic rules inadequate.",
+    "method": "A hypervisor/VM monitoring framework collects an 18-feature execution/resource profile with LTTng and standard host tools, updates normal behavior with an exponential moving average, classifies traffic with a generic ML decision unit, and allocates extra resources only to traffic classified as normal. It also compares attack-specific C1/C2/C3 baselines with WEKA MLP and SMO/SVM models.",
+    "findings": "In the stated two-VM experiment, MLP reported 97.06% correct traffic and SMO/SVM reported no incorrect test instances under the 65/35 split. The framework is plotted above Snort in an approximate comparison, but mixed attacks reduce accuracy and the paper supplies no public corpus size or independent benchmark.",
+    "limitations": "OS, kernel, hardware, corpus size, and public dataset identifier are unknown. The evaluation uses a small controlled setup and attack generators/tools; the reported test percentages should not be generalized to production traffic. Simultaneous attack classes are explicitly difficult.",
+    "future_work": "Weight metrics, predict/detect additional attack classes automatically, add real-world traffic, and expand the feature set."
+  },
+  "tags": [
+    "anomaly-detection",
+    "kernel-tracing",
+    "machine-learning",
+    "performance-analysis",
+    "resource-analysis",
+    "system-tracing"
+  ],
+  "keywords": [
+    "Economic Denial of Sustainability",
+    "EDoS",
+    "DDoS",
+    "cloud computing",
+    "execution trace analysis",
+    "LTTng",
+    "QEMU",
+    "KVM",
+    "Apache",
+    "MySQL",
+    "HTTPFlooder",
+    "LoadRunner",
+    "WEKA",
+    "multilayer perceptron",
+    "SVM",
+    "Snort"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis",
+      "url": "https://doi.org/10.1007/s41635-018-0061-2",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-accepted-manuscript-record",
+      "label": "Public accepted manuscript record",
+      "relation": "source-record",
+      "title": "Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis",
+      "url": "https://publications.polymtl.ca/4211/",
+      "pdf_url": null,
+      "status": "public_source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the institutional accepted-manuscript page is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares an 18-feature VM resource/traffic profile used to gate EDoS-related resource allocation.",
+    "points": [
+      "For an 18-feature VM resource/traffic profile used to gate EDoS-related resource allocation.",
+      "For combining kernel-trace packet information with hypervisor and standard host metrics in EDoS detection.",
+      "For the small WEKA MLP-versus-SMO/SVM comparison and its 65/35 evaluation protocol.",
+      "For the explicit failure mode in which simultaneous HTTP and database attacks resemble heavy normal traffic."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Private accepted-manuscript PDF: EDoS threat types, VM resource-allocation framework, and 18-feature machine-learning pipeline",
+      "Private PDF: QEMU/KVM, Apache/MySQL, LTTng and monitoring tools, classifier split, accuracy, runtime, and Snort comparison",
+      "Private PDF: small-prototype, mixed-attack, and generalization limitations",
+      "Public PolyPublie accepted-manuscript record: https://publications.polymtl.ca/4211/",
+      "Local PDF hash and extracted text are recorded in pdf-evidence/extraction-manifest.json"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

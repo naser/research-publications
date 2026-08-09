@@ -1,1 +1,1 @@
-Chakraborty, P., Ezzati-Jivan, N., Azhari, S. V., & Tetreault, F. (2023). AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy. IEEE International Conference on Big Data. https://doi.org/10.1109/bigdata59044.2023.10386937
+Chakraborty, P., Ezzati-Jivan, N., Azhari, V., & Tetreault, F. (2023). AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy. IEEE International Conference on Big Data. https://doi.org/10.1109/bigdata59044.2023.10386937

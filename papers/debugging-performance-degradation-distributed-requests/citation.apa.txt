@@ -1,1 +1,1 @@
-Ezzati-Jivan, N., Daoud, H., Dagenais, M. R., & Zhang, Y. (2021). Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis. International Journal of Computer and Information Sciences. https://doi.org/10.1155/2021/8478076
+Ezzati-Jivan, N., Daoud, H., & Dagenais, M. R. (2021). Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis. Wireless Communications and Mobile Computing. https://doi.org/10.1155/2021/8478076

@@ -1,0 +1,116 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "a-flexible-data-driven-approach-for-execution-trace-filtering",
+  "page_url": "https://naser.github.io/research-publications/papers/a-flexible-data-driven-approach-for-execution-trace-filtering/",
+  "title": "A Flexible Data-Driven Approach for Execution Trace Filtering",
+  "title_variants": [],
+  "authors": [
+    "Kadjo Gwandy Kouame",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2015,
+    "venue": "IEEE BigData Congress",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1109/BigDataCongress.2015.112",
+  "source_record_id": "a-flexible-data-driven-approach-for-execution-trace-filtering-77c4911c56",
+  "identifiers": {
+    "doi": "10.1109/BigDataCongress.2015.112"
+  },
+  "abstract": null,
+  "abstract_source": "Institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
+  "summary": {
+    "core_contribution": "The paper provides a declarative XML/state-machine approach for flexible filtering and synthetic-event generation over large kernel traces.",
+    "problem": "Large execution traces contain many irrelevant events, while hard-coded filters cannot flexibly express changing event combinations, temporal constraints, or late-arriving events (pp. 2-3).",
+    "method": "Users define XML FSMs with transition inputs and actions. XML is converted into Java models and executed in a Trace Compass plug-in over a generic state-system/interval-tree container. Inputs may be raw/synthetic events or event/time conditions; actions can change state, emit synthetic events, start FSMs, or trigger UI selections (pp. 3-5).",
+    "findings": "The SYN-flood example uses two coexisting FSMs, a 3-second timeout, and a 100-attempt threshold. hping3 generates the workload; LTTng 2.4.0 records inet and kernel events on Ubuntu 14.10/Linux 3.13.0-43 with Apache. The trace yields 569 half-open-connection synthetic events and one SYN-flood event. For a 150 MB trace, XML model construction averages 70.092 s versus 67.663 s for a hard-coded Java model (pp. 6-7, Table I).",
+    "limitations": "Runtime grows with active scenarios and condition checks; the example can process about 1,707 conditions per event. Complex FSMs are harder to understand/debug, and the paper says comprehensive performance evaluation was not yet possible (p. 7).",
+    "future_work": "Add more patterns, optimize execution, and refine the XML language and user-facing analysis support (p. 7, conclusion)."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "trace-filtering",
+    "trace-abstraction",
+    "trace-analysis"
+  ],
+  "keywords": [
+    "execution trace filtering",
+    "LTTng 2.4.0",
+    "Trace Compass",
+    "finite-state machine",
+    "declarative analysis",
+    "synthetic events",
+    "SYN flood",
+    "hping3",
+    "state system",
+    "XML modeling",
+    "kernel tracing"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "A Flexible Data-Driven Approach for Execution Trace Filtering",
+      "url": "https://doi.org/10.1109/BigDataCongress.2015.112",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "institutional-full-text",
+      "label": "Institutional full text",
+      "relation": "source-record",
+      "title": "A Flexible Data-Driven Approach for Execution Trace Filtering",
+      "url": "https://publications.polymtl.ca/2985/1/2015_Kouame_Flexible_data-driven_approach_execution_trace.pdf",
+      "pdf_url": "https://publications.polymtl.ca/2985/1/2015_Kouame_Flexible_data-driven_approach_execution_trace.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the institutional source link is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares declarative XML FSMs for user-defined trace filtering and synthetic-event generation.",
+    "points": [
+      "Declarative XML FSMs for user-defined trace filtering and synthetic-event generation.",
+      "A generic state-system container that exposes internal matcher state for analysis and debugging.",
+      "The LTTng/Trace Compass SYN-flood pattern with timeout and half-open-connection threshold semantics.",
+      "The measured one-time XML-to-Java model-construction overhead and the 1,707-condition-per-event scaling concern."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Flexible filtering PDF: XML FSM architecture, Trace Compass/state-system execution, raw/synthetic event support, and UI integration",
+      "Flexible filtering PDF: LTTng 2.4.0, Ubuntu 14.10, kernel 3.13.0-43, hping3 SYN-flood workload, thresholds, synthetic-event counts, and XML/Java timings",
+      "Flexible filtering PDF: condition-check/runtime and understandability limitations plus future work",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

@@ -3,6 +3,8 @@
 Papers tagged **system-tracing**.
 
 - [A declarative framework for stateful analysis of execution traces](../papers/declarative-framework-stateful-trace-analysis/README.md) - 2017
+- [A Flexible Data-Driven Approach for Execution Trace Filtering](../papers/a-flexible-data-driven-approach-for-execution-trace-filtering/README.md) - 2015
+- [A Stateful Approach to Generate Synthetic Events from Kernel Traces](../papers/a-stateful-approach-to-generate-synthetic-events-from-kernel-traces/README.md) - 2012
 - [AltOOM: A Data-driven Out of Memory Root Cause Identification Strategy](../papers/altoom-out-of-memory-root-cause/README.md) - 2023
 - [Automated Cause Analysis of Latency Outliers Using System-Level Dependency Graphs](../papers/automated-cause-analysis-latency-outliers/README.md) - 2021
 - [Automated Generation of Model-Based Constraints for Common Multi-core and Real-Time Applications Using Execution Tracing](../papers/model-based-constraints-execution-tracing/README.md) - 2021
@@ -12,19 +14,31 @@ Papers tagged **system-tracing**.
 - [Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications](../papers/combining-distributed-kernel-tracing-cloud/README.md) - 2021
 - [Container Workload Characterization Through Host System Tracing](../papers/container-workload-characterization-host-tracing/README.md) - 2021
 - [Debugging of Performance Degradation in Distributed Requests Handling Using Multilevel Trace Analysis](../papers/debugging-performance-degradation-distributed-requests/README.md) - 2021
+- [Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization](../papers/distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu/README.md) - 2021
 - [DTraComp: Comparing distributed execution traces for understanding intermittent latency sources](../papers/dtracomp-distributed-trace-comparison/README.md) - 2026
 - [Efficient Cloud Tracing: From Very High Level to Very Low Level](../papers/efficient-cloud-tracing-levels/README.md) - 2018
+- [Efficient Detection of Communication-related Performance Anti-patterns in Microservices](../papers/efficient-communication-performance-antipattern-detection-microservices/README.md) - 2025
+- [Efficient Heap Monitoring Tool for Memory Leak Detection and Root-cause Analysis](../papers/efficient-heap-monitoring-memory-leak-root-cause/README.md) - 2021
 - [Efficient Large-Scale Heterogeneous Debugging Using Dynamic Tracing](../papers/heterogeneous-debugging-dynamic-tracing/README.md) - 2019
-- [Efficient Unsupervised Latency Culprit Ranking in Distributed Traces with GNN and Critical Path Analysis](../papers/efficient-unsupervised-latency-culprit-ranking/README.md) - 2024
+- [EMD-SCS: A Dynamic Behavioral Approach for Early Malware Detection with Sonification of System Call Sequences](../papers/emd-scs-malware-detection-sonification-system-calls/README.md) - 2023
 - [Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach](../papers/enhancing-performance-engineering-with-kernel-events/README.md) - 2024
+- [Execution Trace Reconstruction Using Diffusion-Based Generative Models](../papers/execution-trace-reconstruction-using-diffusion-based-generative-models/README.md) - 2025
 - [Execution trace-based model verification to analyze multicore and real-time systems](../papers/execution-trace-model-verification-multicore/README.md) - 2022
 - [Hardware-Assisted Software Event Tracing](../papers/hardware-assisted-software-event-tracing/README.md) - 2017
 - [High latency cause detection using multilevel dynamic analysis](../papers/high-latency-cause-detection-multilevel-analysis/README.md) - 2018
 - [HybridRCA: Lightweight Critical-Path-Aware Hybrid Tracing for Root-Cause Analysis in Production Microservices](../papers/hybridrca-critical-path-aware-tracing/README.md) - 2025
 - [LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models](../papers/lmat-adaptive-tracing-language-models/README.md) - 2026
+- [Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis](../papers/machine-learning-based-edos-attack-detection-technique-using-execution-trace-analysis/README.md) - 2019
+- [Malware System Calls Detection Using Hybrid System](../papers/malware-system-calls-detection-using-hybrid-system/README.md) - 2021
+- [Multi-level Adaptive Execution Tracing for Efficient Performance Analysis](../papers/multi-level-adaptive-execution-tracing-performance-analysis/README.md) - 2023
 - [Multi-Level Execution Trace Based Lock Contention Analysis](../papers/multilevel-trace-lock-contention/README.md) - 2020
+- [Multi-scale Navigation of Large Trace Data: A Survey](../papers/multi-scale-navigation-of-large-trace-data-a-survey/README.md) - 2017
 - [Multilayer Virtualized Systems Analysis with Kernel Tracing](../papers/multilayer-virtualized-systems-kernel-tracing/README.md) - 2016
 - [N-Lane Bridge Performance Antipattern Analysis Using System-Level Execution Tracing](../papers/n-lane-bridge-performance-antipatterns/README.md) - 2022
-- [Performance anomaly detection through sequence alignment of system-level traces](../papers/performance-anomaly-detection-sequence-alignment/README.md) - 2022
+- [Performance Anomaly Detection through Sequence Alignment of System-Level Traces](../papers/performance-anomaly-detection-sequence-alignment/README.md) - 2022
+- [Poster Paper: Operating System Support for Applications Performance Analysis](../papers/operating-system-support-applications-performance-analysis-poster/README.md) - 2022
+- [Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring](../papers/resource-life-cycle-aware-noise-detection-kernel-events/README.md) - 2024
+- [SynthLogAI: Generative AI for Synthetic Linux Log Generation and Evaluation](../papers/synthlogai-synthetic-linux-log-generation/README.md) - 2025
+- [System Execution Path Profiling Using Hardware Performance Counters](../papers/system-execution-path-profiling-hardware-counters/README.md) - 2021
 - [Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models](../papers/toward-adaptive-tracing-language-models/README.md) - 2024
 - [TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models](../papers/tracesynth-kernel-trace-generation/README.md) - 2026

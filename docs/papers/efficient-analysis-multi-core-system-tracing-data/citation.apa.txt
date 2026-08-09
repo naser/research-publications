@@ -1,0 +1,1 @@
+Ezzati-Jivan, N., & Dagenais, M. R. (2012). An Efficient Analysis Approach for Multi-Core System Tracing Data. 16th IASTED International Conference on Software Engineering and Applications (SEA 2012). https://doi.org/10.2316/P.2012.790-053

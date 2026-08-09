@@ -1,1 +1,1 @@
-K. Darvishi, M. Noferesti, and N. Ezzati-Jivan, "Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2024, doi: 10.1145/3639476.3639778
+K. Darvishi, M. Noferesti, and N. Ezzati-Jivan, "Toward Adaptive Tracing: Efficient System Behavior Analysis using Language Models," in 2024 IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER), 2024, doi: 10.1145/3639476.3639778

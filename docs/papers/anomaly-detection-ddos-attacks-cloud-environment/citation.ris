@@ -1,0 +1,13 @@
+TY  - JOUR
+AU  - Abbasi, Hossein
+AU  - Ezzati-Jivan, Naser
+AU  - Bellaiche, Martine
+AU  - Talhi, Chamseddine
+AU  - Dagenais, Michel R.
+TI  - The Use of Anomaly Detection for the Detection of Different Types of DDoS Attacks in Cloud Environment
+PY  - 2021
+T2  - Journal of Hardware and Systems Security
+AB  - The accessible Springer preview associates the paper with a unified anomaly-detection approach for bandwidth-, application-, and connection-exhaustion DDoS groups, using CUSUM-style change detection and representative HTTP, database/application, and TCP SYN-flood attacks.
+DO  - 10.1007/s41635-021-00119-z
+UR  - https://doi.org/10.1007/s41635-021-00119-z
+ER  -

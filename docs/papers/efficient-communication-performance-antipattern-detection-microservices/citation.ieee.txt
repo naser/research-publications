@@ -1,0 +1,1 @@
+M. Nourollahi, N. Ezzati-Jivan, A. Belkheiri, and M. Dagenais, "Efficient Detection of Communication-related Performance Anti-patterns in Microservices," in Authorea preprint, 2025, doi: 10.22541/au.175533132.24109345/v1

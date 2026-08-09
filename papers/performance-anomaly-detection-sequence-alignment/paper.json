@@ -2,7 +2,7 @@
   "schema_version": "0.4.0",
   "paper_id": "performance-anomaly-detection-sequence-alignment",
   "page_url": "https://naser.github.io/research-publications/papers/performance-anomaly-detection-sequence-alignment/",
-  "title": "Performance anomaly detection through sequence alignment of system-level traces",
+  "title": "Performance Anomaly Detection through Sequence Alignment of System-Level Traces",
   "title_variants": [],
   "authors": [
     "Madeline Janecek",
@@ -11,25 +11,25 @@
   ],
   "publication": {
     "year": 2022,
-    "venue": "ACM/SPEC International Conference on Performance Engineering (ICPE)",
-    "type": "research paper"
+    "venue": "30th International Conference on Program Comprehension (ICPC)",
+    "type": "conference paper"
   },
-  "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1145/3524610.3527898",
   "source_record_id": "performance-anomaly-detection-through-sequence-alignment-of-system-level-traces-e36cd46801",
   "identifiers": {
     "doi": "10.1145/3524610.3527898"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
   "summary": {
-    "core_contribution": "This work investigates Performance anomaly detection through sequence alignment of system-level traces in the context of software performance and systems analysis.",
-    "problem": "Anomalous executions may differ from normal executions in timing and event order, making simple threshold detection insufficient.",
-    "method": "The approach uses sequence alignment over system-level traces to compare executions and detect anomalous behavior.",
-    "findings": "The paper develops a trace-sequence-alignment direction for performance anomaly detection; quantitative findings require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Scale alignment, handle concurrency and sampling, and separate anomaly detection from root-cause explanation."
+    "core_contribution": "The framework combines critical-path extraction, coarse anomaly checks, OPTICS execution clustering, and MUSCLE multiple sequence alignment to localize performance differences in system-level traces.",
+    "problem": "Kernel traces provide detailed performance evidence but can contain millions of events and impose collection/analysis cost. The paper seeks offline, black-box anomaly detection and localization without application-specific instrumentation (pp. 1-2).",
+    "method": "LTTng records kernel events and contexts. sched_switch, sched_wakeup, interrupt entry/exit, high-resolution timer entry/exit, and softirq entry/exit events form execution states/graphs; blocking edges are recursively replaced by waking threads to obtain a critical path. Count vectors represent path structure and duration vectors represent performance. Average/probability checks identify coarse anomalies, OPTICS clusters execution types, silhouette scores pair sample and normal clusters, and MUSCLE aligns state strings with durations for localization (pp. 3-8).",
+    "findings": "The evaluation uses VirtualBox 6.1.18 VMs with two CPUs, Ubuntu 20.04.1, Linux kernel 5.8.0, and LTTng 2.11.2; the userspace case uses Python 3.8.5 and the container case uses Docker 20.10.7 with Ubuntu 20.04 images and GNU Wget (pp. 8-9). Over ten executions, no tracing averages 1,076.50 ms, full kernel tracing 1,329.26 ms (+23.479%), and minimal tracing 1,128.08 ms (+4.79145%) (p. 8, Table 1). The userspace case has about 100 normal and 10 bug-injected executions, 2-3 seconds longer on average, and 86.67% cluster assignment; the container case identifies a 10%-CPU restriction and short preempted states (pp. 8-10).",
+    "limitations": "Offline/post-mortem operation, dependence on normal comparison data and delimiters, threshold/clustering choices, and two controlled case studies limit generalization. The method localizes evidence but does not automatically prove a unique root cause.",
+    "future_work": "Add call-stack tracing for more precise root-cause localization and investigate deep-learning methods (p. 10)."
   },
   "tags": [
     "system-tracing",
@@ -39,25 +39,41 @@
   ],
   "keywords": [
     "sequence alignment",
+    "MUSCLE",
+    "OPTICS",
+    "critical path",
     "system-level traces",
     "performance anomalies",
-    "trace comparison"
+    "LTTng",
+    "Docker",
+    "execution clustering",
+    "trace overhead"
   ],
   "versions": [
     {
       "id": "published-version",
       "label": "Published version",
       "relation": "version-of-record",
-      "title": "Performance anomaly detection through sequence alignment of system-level traces",
+      "title": "Performance Anomaly Detection through Sequence Alignment of System-Level Traces",
       "url": "https://doi.org/10.1145/3524610.3527898",
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-acm-pdf",
+      "label": "Public ACM PDF",
+      "relation": "source-record",
+      "title": "Performance Anomaly Detection through Sequence Alignment of System-Level Traces",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3524610.3527898",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3524610.3527898",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target. The external source PDF is linked for readers; no PDF is redistributed in this repository.",
     "license": null
   },
   "resources": {
@@ -67,19 +83,23 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares black-box performance-anomaly detection from kernel traces using critical-path extraction instead of collecting all kernel events.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For black-box performance-anomaly detection from kernel traces using critical-path extraction instead of collecting all kernel events.",
+      "For the paired use of critical-path count vectors for execution-type clustering and duration vectors for performance comparison.",
+      "For MUSCLE-based multiple alignment that distinguishes abnormal critical-path states from normal long waits.",
+      "For the measured full-kernel (+23.479%) versus minimal-kernel (+4.79145%) tracing overhead comparison."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
-      "DBLP/DOI bibliographic record for 10.1145/3524610.3527898",
-      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Private full PDF read: pdf-evidence/notes/performance-anomaly-detection-sequence-alignment.md",
+      "Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment",
+      "Performance-anomaly PDF pp. 8-10: VirtualBox/Ubuntu/LTTng environment, overhead, Python case, Docker case, and diagnosis",
+      "Performance-anomaly PDF p. 10: conclusion and future work",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +110,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

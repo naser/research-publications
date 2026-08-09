@@ -1,0 +1,119 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "multi-scale-navigation-of-large-trace-data-a-survey",
+  "page_url": "https://naser.github.io/research-publications/papers/multi-scale-navigation-of-large-trace-data-a-survey/",
+  "title": "Multi-scale Navigation of Large Trace Data: A Survey",
+  "title_variants": [],
+  "authors": [
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2017,
+    "venue": "Concurrency and Computation: Practice and Experience",
+    "type": "survey article"
+  },
+  "publication_type": "survey article",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1002/cpe.4068",
+  "source_record_id": "multi-scale-navigation-of-large-trace-data-a-survey-bd8563e48f",
+  "identifiers": {
+    "doi": "10.1002/cpe.4068"
+  },
+  "abstract": "The survey organizes abstraction and visualization techniques that help analysts navigate long operating-system and kernel traces from overview to event-level evidence.",
+  "abstract_source": "Institutional accepted-version PDF reviewed; abstract paraphrased for this catalog.",
+  "summary": {
+    "core_contribution": "The survey provides a taxonomy and requirements-oriented comparison of techniques for collecting, abstracting, analyzing, visualizing, and navigating large execution traces.",
+    "problem": "Long-running and parallel executions produce traces too large for a single-resolution display; analysts need overview, semantic navigation, and evidence-preserving drill-down.",
+    "method": "Survey trace collection, maintenance, analysis, and visualization through four abstraction families and compare hierarchical, semantic, visual, and resource-oriented navigation mechanisms and data structures.",
+    "findings": "The literature offers complementary techniques rather than one universally dominant abstraction. Linking overview levels to concrete events, states, resources, and metrics is central to usable large-trace analysis.",
+    "limitations": "This paper synthesizes prior work and does not validate a new method, dataset, or benchmark. Its coverage and taxonomy are bounded by the selected literature and the paper's OS/kernel-oriented scope.",
+    "future_work": "Improve bidirectional links between abstraction levels, support issue-to-event drill-down, and advance trace models, data structures, and interactive visualization."
+  },
+  "tags": [
+    "trace-visualization",
+    "trace-abstraction",
+    "kernel-tracing",
+    "performance-analysis",
+    "system-tracing"
+  ],
+  "keywords": [
+    "trace navigation",
+    "multi-scale analysis",
+    "trace visualization",
+    "content abstraction",
+    "metric abstraction",
+    "visual abstraction",
+    "resource abstraction",
+    "semantic zoom",
+    "focus-plus-context",
+    "Trace Compass",
+    "Vampir",
+    "Jumpshot",
+    "SLOG",
+    "R-tree",
+    "quadtree",
+    "State History Tree"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Multi-scale Navigation of Large Trace Data: A Survey",
+      "url": "https://doi.org/10.1002/cpe.4068",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "institutional-full-text",
+      "label": "Institutional full text",
+      "relation": "source-record",
+      "title": "Multi-scale Navigation of Large Trace Data: A Survey",
+      "url": "https://publications.polymtl.ca/2980/",
+      "pdf_url": null,
+      "status": "source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the institutional source link is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares the four-part taxonomy of content/data, metric, visual, and resource abstraction in large-trace navigation.",
+    "points": [
+      "For the four-part taxonomy of content/data, metric, visual, and resource abstraction in large-trace navigation.",
+      "For a survey-backed comparison of semantic zoom, focus+context, hierarchical views, and linked drill-down.",
+      "For positioning SHT, SLOG, R-trees, and quadtrees as alternative trace-navigation/data-management structures."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Survey PDF: four abstraction families, multi-level views, semantic/physical zoom, focus-plus-context, and trace-data structures",
+      "Survey PDF: Trace Compass/LTTV, Vampir, Jumpshot, TuningFork, HPCToolkit, VTune, and metric examples",
+      "Survey PDF: complementary-techniques conclusion and bidirectional-link future direction",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

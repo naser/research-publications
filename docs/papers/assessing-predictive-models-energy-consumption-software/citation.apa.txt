@@ -1,0 +1,1 @@
+Zhang, T., Dipanzan, S. I., Tahmooresnejad, L., & Ezzati-Jivan, N. (2024). Assessing Predictive Models for Energy Consumption Across Varied Software Environments. 2024 IEEE International Conference on Big Data (BigData). https://doi.org/10.1109/BigData62323.2024.10825500

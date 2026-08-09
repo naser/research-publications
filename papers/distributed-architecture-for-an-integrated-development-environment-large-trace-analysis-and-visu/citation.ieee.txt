@@ -1,0 +1,1 @@
+Y. C. K. Piao, N. Ezzati-Jivan, and M. R. Dagenais, "Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization," Sensors, 2021, doi: 10.3390/s21165560

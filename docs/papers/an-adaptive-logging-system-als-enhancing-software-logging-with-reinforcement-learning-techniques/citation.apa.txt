@@ -1,0 +1,1 @@
+Tabrizi, A. K., Ezzati-Jivan, N., & Tetreault, F. (2024). An Adaptive Logging System (ALS): Enhancing Software Logging with Reinforcement Learning Techniques. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3629526.3645033

@@ -1,0 +1,112 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "iot-anomaly-intrusion-detection-poster-abstract",
+  "page_url": "https://naser.github.io/research-publications/papers/iot-anomaly-intrusion-detection-poster-abstract/",
+  "title": "Deep Learning Driven Anomaly Based Intrusion Detection System for IoT: Poster Abstract",
+  "title_variants": [
+    "Poster Paper: Deep Learning driven Anomaly based Intrusion Detection System for IoT"
+  ],
+  "authors": [
+    "Yue Guan",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2022,
+    "venue": "ACM/IFIP/USENIX Middleware 2022 Demos/Posters",
+    "type": "poster abstract"
+  },
+  "publication_type": "poster abstract",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1145/3565386.3565493",
+  "source_record_id": "deep-learning-driven-anomaly-based-intrusion-detection-system-for-iot-poster-abstract-e3d870b1d7",
+  "identifiers": {
+    "doi": "10.1145/3565386.3565493"
+  },
+  "abstract": null,
+  "abstract_source": null,
+  "summary": {
+    "core_contribution": "The poster proposes a hybrid IoT intrusion-detection pipeline with binary anomaly detection followed by multiclass attack classification.",
+    "problem": "The poster motivates anomaly/intrusion detection for growing IoT networks, arguing that existing methods may be poorly tuned and that large feature sets increase computation, memory, and training time (p. 1, \"Abstract/Introduction\").",
+    "method": "A hybrid pipeline uses a machine-learning binary classifier for normal/anomalous traffic and an RNN for multiclass attack-type classification. It applies SMOTE for imbalance, PSO feature selection, and hyperparameter tuning over loss, optimizer, batch size, and epochs (p. 1, \"Methodology\").",
+    "findings": "IoTID20 with 86 captured features is named. The conclusion claims that feature selection and balancing such as SMOTE and \"SMO\" can improve performance and execution time, but the poster reports no numeric accuracy, precision, recall, F-score, latency, split, baseline, hardware, or run count.",
+    "limitations": "Classifier names beyond \"machine learning binary classifier\" and \"RNN,\" software versions, traffic-generation procedure, hardware, train/test protocol, and numeric results are unknown. The methodology names PSO, while the conclusion says SMO; preserve this source inconsistency.",
+    "future_work": "More realistic datasets/attacks, other ML/DL models, GPU/cloud acceleration, and a high-performance GPU platform (p. 1, \"Future Work\")."
+  },
+  "tags": [
+    "iot-security",
+    "anomaly-detection",
+    "machine-learning",
+    "deep-learning-systems"
+  ],
+  "keywords": [
+    "IoTID20",
+    "RNN",
+    "SMOTE",
+    "PSO",
+    "binary classification",
+    "multiclass classification",
+    "IoT attacks",
+    "intrusion detection"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Deep Learning Driven Anomaly Based Intrusion Detection System for IoT: Poster Abstract",
+      "url": "https://doi.org/10.1145/3565386.3565493",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-poster-artifact",
+      "label": "Public poster artifact",
+      "relation": "source-record",
+      "title": "Deep Learning Driven Anomaly Based Intrusion Detection System for IoT: Poster Abstract",
+      "url": "https://naser.github.io/assets/IoT_MW2022Poster.pdf",
+      "pdf_url": "https://naser.github.io/assets/IoT_MW2022Poster.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "This record represents a two-page published poster-abstract item and its associated one-page poster artifact, not a full research-paper PDF.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares the poster-level proposal of a two-stage IoT IDS combining binary anomaly screening with RNN attack-type classification.",
+    "points": [
+      "For the poster-level proposal of a two-stage IoT IDS combining binary anomaly screening with RNN attack-type classification.",
+      "For the stated use of IoTID20/86 features with SMOTE and PSO feature selection in an IoT intrusion-detection pipeline.",
+      "For a research motivation/future-work citation on reducing IoT IDS feature-processing cost through selection, balancing, and GPU/cloud acceleration; do not cite it for a numeric performance result."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Private one-page poster read: pdf-evidence/notes/parallel-batch-02-deep-learning-driven-anomaly-based-intrusion-detection-system-for-iot-poster-abstract-e3d870b1d7.md",
+      "DOI/DBLP published item: https://doi.org/10.1145/3565386.3565493",
+      "Public poster source: https://naser.github.io/assets/IoT_MW2022Poster.pdf",
+      "Local poster hash verified: B1B4A85A9EB721BC9930119CF6CBF6797CA28B6F7525E21DD5633DF8138F1682"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

@@ -1,30 +1,30 @@
 # B-Perf: Black-box Performance Antipattern Detection Using System-level Execution Tracing
 
-**2026 | ACM/SPEC International Conference on Performance Engineering (ICPE) | research paper**
+**2026 | ACM/SPEC International Conference on Performance Engineering (ICPE) | conference paper**
 
 **Authors:** Morteza Noferesti, Mahsa Panahandeh, Naser Ezzati-Jivan
 
-**Core contribution:** B-Perf frames system-level execution traces as a basis for black-box performance-antipattern detection.
+**Core contribution:** B-Perf reconstructs execution, memory, and messaging behavior from Linux kernel-level traces and infers performance-antipattern indicators without requiring application source access or intrusive instrumentation.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Black-box systems expose performance symptoms without revealing application internals, making antipattern detection difficult.
+White-box performance-antipattern detection needs source access or application instrumentation. B-Perf asks whether system-level kernel events can expose execution, memory, and messaging antipatterns for black-box or binary-only targets.
 
 ### 2. Method and contribution
 
-The work uses system-level execution tracing as the observable signal for detecting performance antipatterns without requiring application instrumentation.
+B-Perf gathers LTTng kernel events, maps them to an abstract event model, reconstructs a Trace Compass-style state system and per-request critical paths, derives execution/memory/messaging projections, and applies trend-based inference over ordered workloads. It reports behavioral indicators rather than claiming strict classification.
 
 ### 3. Findings and evidence
 
-The paper presents a trace-based approach and evaluation for identifying performance antipatterns; exact rates and workload details require full-text review.
+Controlled paired programs distinguish One Lane Bridge through serialized critical paths and blocking, Excessive Dynamic Allocation through allocation/free churn and unstable memory, and Empty Semi Trucks through many small TCP messages, interrupts, and preemption. A Firefox case rises from roughly 30 seconds for one parallel window to 2.2 minutes for two and 5.7 minutes for three; the method flags execution serialization. CPU tracing overhead is below 0.01%, while the I/O microbenchmark loses about 7-8% throughput.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+**Limitations:** Kernel traces expose resource interaction but not fine-grained internal logic, algorithms, or purely application-level lock causes. The controlled programs isolate one antipattern at a time, the external validation is limited, the method is Linux/LTTng-focused, and the current pipeline is post-mortem. Indicators can be ambiguous under mixed behavior and background interference.
 
-**Future work:** Validate the detector across more operating systems, workloads, antipattern classes, and production environments.
+**Future work:** Validate larger industrial and multi-component systems; support online or near-real-time incremental state reconstruction and reporting; test other operating systems and tracing backends; and refine inference for overlapping antipatterns and mixed workloads.
 
 ## Abstract
 
@@ -34,11 +34,12 @@ Abstract not available in the captured sources.
 
 **Tags:** [kernel-tracing](../../topics/kernel-tracing.md) | [system-tracing](../../topics/system-tracing.md) | [performance-analysis](../../topics/performance-analysis.md) | [anomaly-detection](../../topics/anomaly-detection.md)
 
-**Keywords:** [performance antipatterns](../../keywords/performance-antipatterns.md) | [black-box detection](../../keywords/black-box-detection.md) | [system-level execution traces](../../keywords/system-level-execution-traces.md) | [performance diagnosis](../../keywords/performance-diagnosis.md)
+**Keywords:** [performance antipatterns](../../keywords/performance-antipatterns.md) | [black-box detection](../../keywords/black-box-detection.md) | [system-level execution traces](../../keywords/system-level-execution-traces.md) | [LTTng](../../keywords/lttng.md) | [Trace Compass](../../keywords/trace-compass.md) | [critical paths](../../keywords/critical-paths.md) | [resource contention](../../keywords/resource-contention.md) | [execution serialization](../../keywords/execution-serialization.md) | [allocation churn](../../keywords/allocation-churn.md) | [small-message overhead](../../keywords/small-message-overhead.md)
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1145/3777884.3797014) - published
+- [Public ACM PDF](https://dl.acm.org/doi/pdf/10.1145/3777884.3797014) | [PDF](https://dl.acm.org/doi/pdf/10.1145/3777884.3797014) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1145/3777884.3797014](https://doi.org/10.1145/3777884.3797014)
 
@@ -48,10 +49,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when your work uses or compares black-box detection of execution, memory, and messaging performance-antipattern indicators from kernel-level traces.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- black-box detection of execution, memory, and messaging performance-antipattern indicators from kernel-level traces.
+- the shared state-system representation that turns scheduling, synchronization, allocation, TCP, interrupt, and preemption events into cross-scope behavior projections.
+- the concrete LTTng evaluation of One Lane Bridge, Excessive Dynamic Allocation, and Empty Semi Trucks, including the low CPU-bound tracing overhead and I/O throughput trade-off.
+- the distinction between behavioral indication and definitive root-cause classification when kernel evidence is indirect or mixed.
 
 ## Citation
 
@@ -78,7 +81,7 @@ M. Noferesti, M. Panahandeh, and N. Ezzati-Jivan, "B-Perf: Black-box Performance
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1145/3777884.3797014; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: Private full PDF read: pdf-evidence/notes/b-perf-black-box-performance-antipatterns.md; B-Perf PDF pp. 4-7: LTTng event model, Trace Compass-style state reconstruction, tracepoints, environment, and workload protocol; B-Perf PDF pp. 7-10: One Lane Bridge, Excessive Dynamic Allocation, Empty Semi Trucks, Firefox/web validation, and overhead results; B-Perf PDF pp. 10-11: limitations, threats to validity, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -1,0 +1,11 @@
+TY  - JOUR
+AU  - Guan, Yue
+AU  - Noferesti, Morteza
+AU  - Ezzati-Jivan, Naser
+TI  - A Two-Tiered Framework for Anomaly Classification in IoT Networks Utilizing CNN-BiLSTM Model
+PY  - 2024
+T2  - Software Impacts
+AB  - The publisher abstract describes a two-tier IoT anomaly-classification framework in which a decision tree detects anomalies and a CNN-BiLSTM classifies anomaly types, with SMOTE for imbalance and PSO for feature selection.
+DO  - 10.1016/j.simpa.2024.100646
+UR  - https://doi.org/10.1016/j.simpa.2024.100646
+ER  -

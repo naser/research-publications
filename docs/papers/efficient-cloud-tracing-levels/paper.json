@@ -15,7 +15,7 @@
     "type": "research paper"
   },
   "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1109/icce.2018.8326353",
   "source_record_id": "efficient-cloud-tracing-from-very-high-level-to-very-low-level-eeebe3d16a",
   "identifiers": {
@@ -24,12 +24,12 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "The paper examines efficient cloud tracing across high-level application behavior and low-level system evidence.",
-    "problem": "Cloud performance diagnosis requires multiple levels of observation, but collecting all levels can impose substantial cost.",
-    "method": "The study organizes or combines tracing across high- and low-level cloud-system abstractions.",
-    "findings": "It contributes a multi-level cloud-tracing perspective; implementation and overhead results require full-text review.",
-    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
-    "future_work": "Compare adaptive collection policies, quantify cross-layer correlation cost, and test modern cloud platforms."
+    "core_contribution": "The paper correlates OpenStack Nova, QEMU/KVM, and host/guest kernel evidence to diagnose live-migration behavior across cloud-system layers.",
+    "problem": "A single cloud-management layer cannot explain migration downtime, resource contention, or the host/guest causes of a slow or failed VM migration.",
+    "method": "Build a multi-layer trace from Nova state/log events, QEMU/KVM migration stages, and host/guest LTTng kernel events; synchronize controller, source, and destination traces and inspect the result in Trace Compass.",
+    "findings": "The layered view connects Nova lifecycle states to QEMU migration stages and kernel scheduling, CPU, memory, I/O, and wait evidence. A colocated stress workload exposes slower migration and resource contention that high-level Nova events cannot explain.",
+    "limitations": "The evaluation is a small live-migration use-case study with missing hardware/software/run-count metadata. Table III conflicts with the surrounding prose for the middle experiment; integration should preserve the table values and flag the conflict rather than normalize it.",
+    "future_work": "Add richer Neutron and OpenDaylight/NFV request-flow evidence to cover the network-service path that is insufficiently represented in the current trace."
   },
   "tags": [
     "kernel-tracing",
@@ -41,7 +41,12 @@
     "cloud tracing",
     "high-level tracing",
     "low-level tracing",
-    "cross-layer observability"
+    "cross-layer observability",
+    "OpenStack Nova",
+    "QEMU",
+    "KVM",
+    "Trace Compass",
+    "live migration"
   ],
   "versions": [
     {
@@ -53,11 +58,21 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "Efficient Cloud Tracing: From Very High Level to Very Low Level",
+      "url": "https://publications.polymtl.ca/4201/1/2018_Bationo_Efficient_cloud_tracing_very_high.pdf",
+      "pdf_url": "https://publications.polymtl.ca/4201/1/2018_Bationo_Efficient_cloud_tracing_very_high.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
     "license": null
   },
   "resources": {
@@ -67,19 +82,23 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares correlating OpenStack Nova lifecycle events with QEMU/KVM live-migration stages and kernel resource evidence.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For correlating OpenStack Nova lifecycle events with QEMU/KVM live-migration stages and kernel resource evidence.",
+      "For a multi-layer cloud-tracing workflow that exposes contention hidden by Nova-level logs.",
+      "For the explicit distinction between high-level orchestration state and low-level QEMU/kernel evidence when diagnosing migration downtime or failure."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1109/icce.2018.8326353",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Efficient cloud tracing PDF pp. 1-5: OpenStack/Nova, QEMU/KVM, LTTng, Trace Compass, and cross-layer model",
+      "Efficient cloud tracing PDF pp. 5-6: live-migration procedure, interference conditions, and Table III results",
+      "Efficient cloud tracing PDF p. 7: network-evidence limitation and proposed Neutron/OpenDaylight future work",
+      "local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +109,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

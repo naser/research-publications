@@ -1,0 +1,1 @@
+Ezaz, A., Khodabandeh, G., & Ezzati-Jivan, N. (2024). Analyzing Performance Variability in Alibaba's Microservice Architecture: A Critical-Path-Based Perspective. ACM/SPEC ICPE Companion. https://doi.org/10.1145/3629527.3651845

@@ -1,0 +1,13 @@
+TY  - JOUR
+AU  - Abbasi, Hossein
+AU  - Ezzati-Jivan, Naser
+AU  - Bellaiche, Martine
+AU  - Talhi, Chamseddine
+AU  - Dagenais, Michel R.
+TI  - Machine Learning-Based EDoS Attack Detection Technique Using Execution Trace Analysis
+PY  - 2019
+T2  - Journal of Hardware and Systems Security
+AB  - Economic Denial of Sustainability (EDoS) attacks can cause cloud customers to pay for malicious resource consumption. The paper proposes a framework that learns normal and abnormal virtual-machine behavior and allocates extra resources only to VMs classified as normal, limiting attack propagation and resource misuse.
+DO  - 10.1007/s41635-018-0061-2
+UR  - https://doi.org/10.1007/s41635-018-0061-2
+ER  -

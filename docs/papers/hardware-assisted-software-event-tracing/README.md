@@ -4,27 +4,27 @@
 
 **Authors:** Adrien Vergé, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** This work investigates using hardware support to assist software event tracing.
+**Core contribution:** The paper designs and evaluates hardware-assisted alternatives to LTTng-UST for software-event and execution-path tracing, including STM/ETB, ETM/ETB, and a modified Perf/BTS path.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Software event tracing can perturb execution and become costly when event rates are high.
+Software event tracing can impose substantial delay and buffer-copy overhead, while hardware branch tracing provides low-level execution evidence but has different semantics, payload limits, and loss behavior.
 
 ### 2. Method and contribution
 
-The paper studies hardware-assisted mechanisms for collecting or supporting software-event traces.
+Compare LTTng-UST with ARM CoreSight STM/ETM/ETB and Intel BTS/modified Perf. The splice path moves BTS data through per-core ring buffers and subbuffers; STM carries software payloads and ETM supplies compressed branch execution.
 
 ### 3. Findings and evidence
 
-It addresses tracing efficiency through hardware assistance; architecture, event types, and measurements require full-text review.
+Hardware-assisted paths reduce tracing delay in the tested high-frequency loops. STM/ETB is especially effective for software payload tracing; ETM/ETB improves time over LTTng in its tested range; the splice design reduces the regular BTS/Perf penalty.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.
+**Limitations:** The stress runs intentionally use long loop traces and event rates up to the 10^5-10^6-events/s range, which are not representative of every application. STM payloads above about 60 bytes scale poorly, ETM can lose events at extreme rates, and BTS produces branch records rather than semantically equivalent software events.
 
-**Future work:** Evaluate newer processor facilities, portability, observability fidelity, and integration with kernel tracers.
+**Future work:** Integrate STM into LTTng and extend the approach to Freescale hardware and Intel Processor Trace.
 
 ## Abstract
 
@@ -34,11 +34,12 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [kernel-tracing](../../topics/kernel-tracing.md) | [trace-analysis](../../topics/trace-analysis.md) | [performance-engineering](../../topics/performance-engineering.md)
 
-**Keywords:** [hardware-assisted tracing](../../keywords/hardware-assisted-tracing.md) | [software events](../../keywords/software-events.md) | [event collection](../../keywords/event-collection.md) | [trace overhead](../../keywords/trace-overhead.md)
+**Keywords:** [hardware-assisted tracing](../../keywords/hardware-assisted-tracing.md) | [software events](../../keywords/software-events.md) | [event collection](../../keywords/event-collection.md) | [trace overhead](../../keywords/trace-overhead.md) | [ARM CoreSight](../../keywords/arm-coresight.md) | [STM](../../keywords/stm.md) | [ETM](../../keywords/etm.md) | [ETB](../../keywords/etb.md) | [Intel BTS](../../keywords/intel-bts.md) | [Perf](../../keywords/perf.md) | [LTTng-UST](../../keywords/lttng-ust.md)
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1002/cpe.4069) - published
+- [Public full text](https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf) | [PDF](https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1002/cpe.4069](https://doi.org/10.1002/cpe.4069)
 
@@ -48,10 +49,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when your work uses or compares the STM/ETB design that carries software-event payloads through hardware trace memory with much lower delay than LTTng-UST in the stress test.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- For the STM/ETB design that carries software-event payloads through hardware trace memory with much lower delay than LTTng-UST in the stress test.
+- For comparing software-event tracing, ETM compressed branch tracing, and BTS branch-pair tracing as distinct evidence modalities.
+- For the per-core splice/ring-buffer modification that reduces Perf/BTS copying overhead.
 
 ## Citation
 
@@ -78,7 +80,7 @@ A. Vergé, N. Ezzati-Jivan, and M. R. Dagenais, "Hardware-Assisted Software Even
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1002/cpe.4069; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: Crossref and local DBLP/venue metadata for 10.1002/cpe.4069; author identity matched to Naser Ezzati-Jivan in the local research catalog; Hardware-assisted tracing PDF pp. 1-4: problem, ARM CoreSight/Intel BTS design, platforms, and LTTng comparison; Hardware-assisted tracing PDF pp. 4-10: STM/ETM/BTS implementations, benchmark results, and modified Perf path; Hardware-assisted tracing PDF p. 10: conclusion, quantitative comparisons, and limitations; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

@@ -5,6 +5,7 @@ AU  - Dagenais, Michel R.
 TI  - Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications
 PY  - 2021
 T2  - Electronics
+AB  - Distributed tracing allows tracking user requests that span across multiple services and machines in a distributed application. However, typical cloud applications rely on abstraction layers that can hide the root cause of latency happening between processes or in the kernel. Because of its focus on high-level events, existing methodologies in applying distributed tracing can be limited when trying to detect complex contentions and relate them back to the originating requests. Cross-level analyses that include kernel-level events are necessary to debug problems as prevalent as mutex or disk contention, however cross-level analysis and associating events in the kernel and distributed tracing data is complex and can add a lot of overhead. This paper describes a new solution for combining distributed tracing with low-level software tracing in order to find the latency root cause better. We explain how we achieve a hybrid trace collection to capture and synchronize both kernel and distributed request events. Then, we present our design and implementation for a critical path analysis. We show that our analysis describes precisely how each request spends its time and what stands in its critical path while limiting overhead.
 DO  - 10.3390/electronics10212610
 UR  - https://doi.org/10.3390/electronics10212610
 ER  -

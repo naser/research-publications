@@ -1,0 +1,108 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "resource-life-cycle-aware-noise-detection-kernel-events",
+  "page_url": "https://naser.github.io/research-publications/papers/resource-life-cycle-aware-noise-detection-kernel-events/",
+  "title": "Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring",
+  "title_variants": [],
+  "authors": [
+    "Morteza Noferesti",
+    "Ben Grandy",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2024,
+    "venue": "2024 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/CASCON62161.2024.10838205",
+  "source_record_id": "resource-life-cycle-aware-noise-detection-via-kernel-event-monitoring-45cb42052d",
+  "identifiers": {
+    "doi": "10.1109/CASCON62161.2024.10838205"
+  },
+  "abstract": "The available synopsis describes passive kernel-event monitoring and alignment of CPU, disk, and network request life cycles for noise detection; detailed evaluation was not captured.",
+  "abstract_source": "CASCON metadata and author synopsis, paraphrased; full text not obtained.",
+  "summary": {
+    "core_contribution": "The accessible synopsis identifies a passive kernel-event approach for detecting noise by aligning resource request life cycles.",
+    "problem": "Performance observations can contain resource-related noise that is difficult to distinguish without correlating low-level request activity across CPU, disk, and network resources.",
+    "method": "Only the high-level passive-monitoring and resource-life-cycle alignment idea is verified. The exact tracer, event set, detector, workload, and ground truth are not asserted.",
+    "findings": "No page-grounded metric or quantitative result was available in the captured sources.",
+    "limitations": "Full-text evidence is required to verify implementation, evaluation scope, detector thresholds, and external validity.",
+    "future_work": "The paper-specific future-work section remains unverified."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "anomaly-detection",
+    "performance-analysis"
+  ],
+  "keywords": [
+    "kernel event monitoring",
+    "resource life cycle",
+    "noise detection",
+    "CPU requests",
+    "disk requests",
+    "network requests"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring",
+      "url": "https://doi.org/10.1109/CASCON62161.2024.10838205",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "cascon-program",
+      "label": "CASCON program",
+      "relation": "source-record",
+      "title": "Resource Life-Cycle Aware Noise Detection via Kernel Event Monitoring",
+      "url": "https://iccsse.github.io/CASCON2024/program/",
+      "pdf_url": null,
+      "status": "public_source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI and CASCON metadata verify the paper. An author synopsis supports the high-level monitoring topic, but the event set, detector, ground truth, and metrics require the full text.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "DOI: https://doi.org/10.1109/CASCON62161.2024.10838205",
+      "CASCON program: https://iccsse.github.io/CASCON2024/program/",
+      "J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217419132863",
+      "Private batch report: reports/parallel-batch-02.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

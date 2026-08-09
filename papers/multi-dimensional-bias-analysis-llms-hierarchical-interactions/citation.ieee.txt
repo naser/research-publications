@@ -1,0 +1,1 @@
+B. Syed, D. A. Charlebois, N. Ezzati-Jivan, L. Tahmooresnejad, and A. Ayanso, "Multi-Dimensional Bias Analysis in LLMs Using Hierarchical and Interaction Models," in AMCIS 2025, Data Science / SIG DSA (ERF), 2025, [Online]. Available: https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/

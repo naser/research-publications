@@ -15,7 +15,7 @@
     "type": "research paper"
   },
   "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1002/cpe.4069",
   "source_record_id": "hardware-assisted-software-event-tracing-adde2d2e93",
   "identifiers": {
@@ -24,12 +24,12 @@
   "abstract": null,
   "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
   "summary": {
-    "core_contribution": "This work investigates using hardware support to assist software event tracing.",
-    "problem": "Software event tracing can perturb execution and become costly when event rates are high.",
-    "method": "The paper studies hardware-assisted mechanisms for collecting or supporting software-event traces.",
-    "findings": "It addresses tracing efficiency through hardware assistance; architecture, event types, and measurements require full-text review.",
-    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
-    "future_work": "Evaluate newer processor facilities, portability, observability fidelity, and integration with kernel tracers."
+    "core_contribution": "The paper designs and evaluates hardware-assisted alternatives to LTTng-UST for software-event and execution-path tracing, including STM/ETB, ETM/ETB, and a modified Perf/BTS path.",
+    "problem": "Software event tracing can impose substantial delay and buffer-copy overhead, while hardware branch tracing provides low-level execution evidence but has different semantics, payload limits, and loss behavior.",
+    "method": "Compare LTTng-UST with ARM CoreSight STM/ETM/ETB and Intel BTS/modified Perf. The splice path moves BTS data through per-core ring buffers and subbuffers; STM carries software payloads and ETM supplies compressed branch execution.",
+    "findings": "Hardware-assisted paths reduce tracing delay in the tested high-frequency loops. STM/ETB is especially effective for software payload tracing; ETM/ETB improves time over LTTng in its tested range; the splice design reduces the regular BTS/Perf penalty.",
+    "limitations": "The stress runs intentionally use long loop traces and event rates up to the 10^5-10^6-events/s range, which are not representative of every application. STM payloads above about 60 bytes scale poorly, ETM can lose events at extreme rates, and BTS produces branch records rather than semantically equivalent software events.",
+    "future_work": "Integrate STM into LTTng and extend the approach to Freescale hardware and Intel Processor Trace."
   },
   "tags": [
     "system-tracing",
@@ -41,7 +41,14 @@
     "hardware-assisted tracing",
     "software events",
     "event collection",
-    "trace overhead"
+    "trace overhead",
+    "ARM CoreSight",
+    "STM",
+    "ETM",
+    "ETB",
+    "Intel BTS",
+    "Perf",
+    "LTTng-UST"
   ],
   "versions": [
     {
@@ -53,11 +60,21 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "Hardware-Assisted Software Event Tracing",
+      "url": "https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf",
+      "pdf_url": "https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
     "license": null
   },
   "resources": {
@@ -67,19 +84,23 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares the STM/ETB design that carries software-event payloads through hardware trace memory with much lower delay than LTTng-UST in the stress test.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For the STM/ETB design that carries software-event payloads through hardware trace memory with much lower delay than LTTng-UST in the stress test.",
+      "For comparing software-event tracing, ETM compressed branch tracing, and BTS branch-pair tracing as distinct evidence modalities.",
+      "For the per-core splice/ring-buffer modification that reduces Perf/BTS copying overhead."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.1002/cpe.4069",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Hardware-assisted tracing PDF pp. 1-4: problem, ARM CoreSight/Intel BTS design, platforms, and LTTng comparison",
+      "Hardware-assisted tracing PDF pp. 4-10: STM/ETM/BTS implementations, benchmark results, and modified Perf path",
+      "Hardware-assisted tracing PDF p. 10: conclusion, quantitative comparisons, and limitations",
+      "local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +111,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

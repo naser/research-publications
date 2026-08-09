@@ -1,0 +1,119 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu",
+  "page_url": "https://naser.github.io/research-publications/papers/distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu/",
+  "title": "Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization",
+  "title_variants": [],
+  "authors": [
+    "Yonni Chen Kuang Piao",
+    "Naser Ezzati-Jivan",
+    "Michel R. Dagenais"
+  ],
+  "publication": {
+    "year": 2021,
+    "venue": "Sensors",
+    "type": "journal article"
+  },
+  "publication_type": "journal article",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.3390/s21165560",
+  "source_record_id": "distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu-42c61cf1e0",
+  "identifiers": {
+    "doi": "10.3390/s21165560"
+  },
+  "abstract": null,
+  "abstract_source": "Open-access/institutional full-text PDF reviewed; abstract paraphrased for this catalog.",
+  "summary": {
+    "core_contribution": "The paper presents a modular client-server architecture for large-trace storage, analysis, and visualization inside an integrated development environment.",
+    "problem": "IDE trace analysis tools are difficult to integrate when trace storage, analysis, and visualization are monolithic, and large traces make browser transfer and rendering expensive.",
+    "method": "Use a modular distributed architecture with a Trace Analysis Server, Data Provider, API Gateway/service discovery, TASP REST API, generic Timegraph/XY models, JSON/GZip JSON/Protobuf serialization, and client throttling/caching; TraceScape provides the JavaScript client and PixiJS rendering.",
+    "findings": "On a 2.47 GB/approximately 75M-event trace, Protobuf generally reduced transfer and serialization overhead relative to JSON and GZip JSON, while GZip often minimized payload size. PixiJS rendered 25/200 timegraph rows in 6.79/68.67 ms, and the client/server penalty was generally tens of milliseconds rather than trace-scale processing time.",
+    "limitations": "The evaluation is local and focuses on selected XY/timegraph queries and browser rendering; small traces may not benefit. REST versus gRPC was not fully evaluated, request-volume stress and broader workloads are limited, and maintainability/flexibility claims are mainly architectural.",
+    "future_work": "Link trace views to IDE code problems, evaluate broader workloads and deployments, and compare additional transport/protocol choices such as gRPC."
+  },
+  "tags": [
+    "system-tracing",
+    "trace-analysis",
+    "observability",
+    "performance-optimization",
+    "multicore-systems"
+  ],
+  "keywords": [
+    "distributed architecture",
+    "Trace Compass",
+    "TraceScape",
+    "LTTng 2.10.3",
+    "Trace Analysis Server Protocol",
+    "TASP",
+    "Protobuf",
+    "GZip JSON",
+    "large traces",
+    "state models",
+    "trace visualization",
+    "PixiJS",
+    "Chart.js",
+    "HighCharts"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization",
+      "url": "https://doi.org/10.3390/s21165560",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization",
+      "url": "https://publications.polymtl.ca/9436/1/2021_Chen%20Kuang%20Piao_Distributed_Architecture_Integrated_Development_Environment.pdf",
+      "pdf_url": "https://publications.polymtl.ca/9436/1/2021_Chen%20Kuang%20Piao_Distributed_Architecture_Integrated_Development_Environment.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text or author-manuscript link is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": "https://github.com/cheninator/trace-scape",
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares a modular TASP architecture that separates trace storage, analysis services, APIs, and IDE visualization.",
+    "points": [
+      "For a modular TASP architecture that separates trace storage, analysis services, APIs, and IDE visualization.",
+      "For generic `Timegraph`/`XY` data models plus client throttling/caching for large trace views.",
+      "For Protobuf versus JSON/GZip JSON payload and latency trade-offs on a 2.47 GB, approximately 75M-event trace.",
+      "For PixiJS-based timegraph rendering measurements at 25 and 200 rows."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Sensors/institutional PDF: Trace Compass, TraceScape, LTTng 2.10.3, TASP, data providers, serialization, and visualization architecture",
+      "Sensors/institutional PDF: 2.47 GB/75-million-event trace, state-model sizes, serialization payload/overhead, request latency, and rendering measurements",
+      "Sensors/institutional PDF: small-trace, REST/gRPC, and qualitative-maintainability limitations plus future-work direction",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

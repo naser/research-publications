@@ -1,0 +1,12 @@
+TY  - CONF
+AU  - Montplaisir, Alexandre
+AU  - Ezzati-Jivan, Naser
+AU  - Wininger, Florian
+AU  - Dagenais, Michel R.
+TI  - Efficient Model to Query and Visualize the System States Extracted from Trace Data
+PY  - 2013
+T2  - Runtime Verification 2013 (RV 2013)
+AB  - The accessible chapter preview describes a tree-based model of system states and intervals extracted from traces, with online/offline operation and interactive analysis at approximately 1 TB trace scale.
+DO  - 10.1007/978-3-642-40787-1_13
+UR  - https://doi.org/10.1007/978-3-642-40787-1_13
+ER  -

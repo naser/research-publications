@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "multi-level-adaptive-execution-tracing-performance-analysis",
+  "page_url": "https://naser.github.io/research-publications/papers/multi-level-adaptive-execution-tracing-performance-analysis/",
+  "title": "Multi-level Adaptive Execution Tracing for Efficient Performance Analysis",
+  "title_variants": [
+    "Time-Series Trend-Based Multi-Level Adaptive Execution Tracing for Performance Analysis"
+  ],
+  "authors": [
+    "Mohammed Adib Khan",
+    "Naser Ezzati-Jivan"
+  ],
+  "publication": {
+    "year": 2023,
+    "venue": "2023 IEEE International Conference on Software Engineering and Research (SERA)",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_metadata_record",
+  "canonical_source_url": "https://doi.org/10.1109/SERA57763.2023.10197790",
+  "source_record_id": "multi-level-adaptive-execution-tracing-for-efficient-performance-analysis-811de9b4dd",
+  "identifiers": {
+    "doi": "10.1109/SERA57763.2023.10197790"
+  },
+  "abstract": "The available program synopsis describes dynamic kernel/application tracing guided by time-series trends with an emphasis on reducing tracing overhead; the exact trigger logic and evaluation were not captured.",
+  "abstract_source": "SERA program and author synopsis, paraphrased; full text not obtained.",
+  "summary": {
+    "core_contribution": "The accessible synopsis identifies a multi-level adaptive tracing approach that changes tracing intensity using time-series performance trends.",
+    "problem": "Always-on detailed tracing can impose overhead, while coarse tracing may miss performance changes; adaptive levels aim to balance coverage and cost.",
+    "method": "Only the high-level dynamic kernel/application tracing and trend-based adaptation are verified. The event set, trigger policy, workload, and measurement protocol require the paper.",
+    "findings": "The available synopsis signals low-overhead intent but provides no page-grounded numeric result.",
+    "limitations": "Full-text evidence is required to verify the tracer, adaptation thresholds, baseline, workload, and external validity.",
+    "future_work": "The paper-specific future-work section remains unverified."
+  },
+  "tags": [
+    "kernel-tracing",
+    "system-tracing",
+    "performance-analysis",
+    "adaptive-scheduling"
+  ],
+  "keywords": [
+    "adaptive execution tracing",
+    "time-series trends",
+    "multi-level tracing",
+    "kernel tracing",
+    "performance analysis",
+    "SERA 2023"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Multi-level Adaptive Execution Tracing for Efficient Performance Analysis",
+      "url": "https://doi.org/10.1109/SERA57763.2023.10197790",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "sera-program",
+      "label": "SERA program",
+      "relation": "source-record",
+      "title": "Multi-level Adaptive Execution Tracing for Efficient Performance Analysis",
+      "url": "https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf",
+      "pdf_url": null,
+      "status": "public_source_record",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_metadata_record",
+    "note": "The DOI/DBLP record and SERA program identify the same item; the program title is preserved as an alias. Full-text tracer details and measurements remain unverified.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "points": [
+      "The paper's method is directly relevant.",
+      "The paper's evidence or benchmark is directly relevant."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "DOI: https://doi.org/10.1109/SERA57763.2023.10197790",
+      "DBLP record: https://dblp.org/rec/conf/sera/KhanE23",
+      "SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf",
+      "Private batch report: reports/parallel-batch-02.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

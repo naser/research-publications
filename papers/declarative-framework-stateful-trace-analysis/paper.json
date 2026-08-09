@@ -12,36 +12,43 @@
   "publication": {
     "year": 2017,
     "venue": "Software Quality Journal",
-    "type": "research paper"
+    "type": "journal article"
   },
-  "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "publication_type": "journal article",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.1007/s11219-016-9311-0",
   "source_record_id": "a-declarative-framework-for-stateful-analysis-of-execution-traces-e10b439675",
   "identifiers": {
     "doi": "10.1007/s11219-016-9311-0"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "Abstract not reproduced; the four-part summary is paraphrased from the verified full text.",
   "summary": {
-    "core_contribution": "This work investigates A declarative framework for stateful analysis of execution traces in the context of software performance and systems analysis.",
-    "problem": "Stateful trace analyses are difficult to implement and reuse when analysis logic is embedded in procedural code.",
-    "method": "The paper introduces a declarative framework for expressing stateful analyses over execution traces.",
-    "findings": "It contributes a reusable abstraction for trace analysis; language and evaluation details require full-text review.",
-    "limitations": "The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.",
-    "future_work": "Extend the framework for distributed traces, streaming execution, and interoperable trace schemas."
+    "core_contribution": "The framework lets analysts define stateful trace analyses declaratively, using a generic state model and XML specifications that can drive storage, filtering, and visualization across trace formats.",
+    "problem": "Fixed trace viewers and hard-coded analyses do not scale to application-specific performance, security, or bottleneck questions and tie analyses to particular tracer formats.",
+    "method": "Define a generic interval-based state model and compile XML/XSD state specifications into reusable providers, filters, and visualizations backed by the State History Tree. The same style of model is demonstrated with LTTng/CTF and ETW.",
+    "findings": "Declarative specifications produce the same state-oriented views across Linux and Windows examples. Compiled Java and XML execution have similar measured times on 13.4 MiB and 100 MiB traces, while resolution-aware queries substantially lower display latency.",
+    "limitations": "The language cannot express unrestricted branching; filters are virtual and not persistent; query cost grows with state attributes; resolution sampling can lose detail and correctness. The examples are not a broad scalability or user study.",
+    "future_work": "Add critical-path analysis and more visualization types, and parallelize event parsing and state construction."
   },
   "tags": [
     "trace-analysis",
     "trace-abstraction",
     "performance-analysis",
-    "system-tracing"
+    "system-tracing",
+    "trace-visualization"
   ],
   "keywords": [
     "declarative trace analysis",
     "stateful analysis",
     "execution traces",
-    "trace queries"
+    "LTTng",
+    "ETW",
+    "State History Tree",
+    "XML",
+    "trace filtering",
+    "Gantt chart",
+    "critical-path analysis"
   ],
   "versions": [
     {
@@ -53,11 +60,21 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-polypublie-pdf",
+      "label": "Public PolyPublie PDF",
+      "relation": "source-record",
+      "title": "A declarative framework for stateful analysis of execution traces",
+      "url": "https://publications.polymtl.ca/2987/1/2017_Wininger_Declarative_framework_stateful_analysis_execution.pdf",
+      "pdf_url": "https://publications.polymtl.ca/2987/1/2017_Wininger_Declarative_framework_stateful_analysis_execution.pdf",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target. The external source PDF is linked for readers; no PDF is redistributed in this repository.",
     "license": null
   },
   "resources": {
@@ -67,19 +84,22 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares a declarative XML/XSD state-analysis language that compiles event handlers into reusable trace-state providers.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For a declarative XML/XSD state-analysis language that compiles event handlers into reusable trace-state providers.",
+      "For cross-tracer state visualization demonstrated with LTTng/CTF and Windows ETW.",
+      "For measured resolution-aware trace display, including the speed/detail tradeoff in Table III."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
-      "DBLP/DOI bibliographic record for 10.1007/s11219-016-9311-0",
-      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Private full PDF read: pdf-evidence/notes/declarative-framework-stateful-trace-analysis.md",
+      "Declarative-framework PDF pp. 2-7: problem, state model, State History Tree, XML language, event handlers, and filters",
+      "Declarative-framework PDF pp. 8-13: LTTng/ETW evaluation, 13.4/100 MiB traces, 25 repetitions, cross-platform examples, and resolution queries",
+      "Declarative-framework PDF p. 14: limitations and future work",
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +110,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

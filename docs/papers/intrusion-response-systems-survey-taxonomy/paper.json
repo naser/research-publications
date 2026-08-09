@@ -1,0 +1,113 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "intrusion-response-systems-survey-taxonomy",
+  "page_url": "https://naser.github.io/research-publications/papers/intrusion-response-systems-survey-taxonomy/",
+  "title": "Intrusion Response Systems: Survey and Taxonomy",
+  "title_variants": [],
+  "authors": [
+    "Alireza Shameli-Sendi",
+    "Naser Ezzati-Jivan",
+    "Masoume Jabbarifar",
+    "Michel Dagenais"
+  ],
+  "publication": {
+    "year": 2012,
+    "venue": "International Journal of Computer Science and Network Security",
+    "type": "journal article"
+  },
+  "publication_type": "journal article",
+  "status": "published_with_remote_full_text",
+  "canonical_source_url": "https://publications.polymtl.ca/14629/",
+  "source_record_id": "intrusion-response-systems-survey-and-taxonomy-152a6495d1",
+  "identifiers": {
+    "doi": null
+  },
+  "abstract": null,
+  "abstract_source": null,
+  "summary": {
+    "core_contribution": "This survey organizes intrusion-response systems around automation, response cost, decision evaluation, adjustment, execution, attack paths, and risk assessment.",
+    "problem": "Automated intrusion responses can damage services, resources, or users and may turn an attack response into a denial-of-service condition. The paper seeks a taxonomy that exposes these weaknesses and guides response selection (printed pp. 1-3, 10-12).",
+    "method": "This is a conceptual survey/taxonomy, not a new implementation. It classifies IRS by automation degree; alert inputs; response-cost factors; static, statically evaluated, or dynamically evaluated decisions; adaptive versus non-adaptive adjustment; and burst versus retroactive execution (pp. 1-8).",
+    "findings": "The synthesis identifies response cost, system state, response history, attack paths, risk assessment, and prediction as central design dimensions. No original dataset, benchmark, implementation, or quantitative evaluation was verified.",
+    "limitations": "Claims are conceptual and depend on the surveyed IRS literature. The paper does not provide a reproducible implementation or empirical benchmark; local binary evidence is unavailable.",
+    "future_work": "Online response-cost evaluation; response adaptation using history; grouped retroactive response; real single- and multi-step attack datasets; state-aware risk assessment; and attack-path-aware IRS (printed pp. 11-12)."
+  },
+  "tags": [
+    "anomaly-detection",
+    "root-cause-analysis",
+    "observability"
+  ],
+  "keywords": [
+    "intrusion response systems",
+    "response cost",
+    "automated response",
+    "NIDS",
+    "HIDS",
+    "IDMEF",
+    "adaptive response",
+    "retroactive response",
+    "attack paths",
+    "risk assessment"
+  ],
+  "versions": [
+    {
+      "id": "institutional-publication-record",
+      "label": "Institutional publication record",
+      "relation": "version-of-record",
+      "title": "Intrusion Response Systems: Survey and Taxonomy",
+      "url": "https://publications.polymtl.ca/14629/",
+      "pdf_url": null,
+      "status": "publication_signal",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "remote-full-text-source",
+      "label": "Remote full-text source",
+      "relation": "source-record",
+      "title": "Intrusion Response Systems: Survey and Taxonomy",
+      "url": "https://www.researchgate.net/profile/Alireza-Shameli-Sendi/publication/267917501_Intrusion_Response_Systems_Survey_and_Taxonomy/links/54da21270cf2970e4e7dc67c/Intrusion-Response-Systems-Survey-and-Taxonomy.pdf",
+      "pdf_url": null,
+      "status": "remote_full_text_read",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_remote_full_text",
+    "note": "The institutional record is the stable source link. The article was read from a remote public copy, but no local PDF or redistribution claim is made.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares the automation-degree taxonomy separating notification, manual, and automated intrusion response.",
+    "points": [
+      "The automation-degree taxonomy separating notification, manual, and automated intrusion response.",
+      "Response-cost-aware IRS design, including service/resource, user, privilege, and attack-category impacts.",
+      "The distinction between adaptive/non-adaptive and burst/retroactive response execution.",
+      "The concrete research agenda for real multi-step attack datasets, online cost evaluation, state-aware risk, and attack-path-aware response."
+    ],
+    "canonical_version_id": "institutional-publication-record"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Remote full text read: pdf-evidence/notes/parallel-batch-04-intrusion-response-systems-survey-and-taxonomy.md",
+      "Institutional record: https://publications.polymtl.ca/14629/",
+      "Remote article copy: https://www.researchgate.net/publication/267917501_Intrusion_Response_Systems_Survey_and_Taxonomy"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

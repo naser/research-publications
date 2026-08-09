@@ -1,1 +1,1 @@
-F. Wininger, N. Ezzati-Jivan, and M. R. Dagenais, "A declarative framework for stateful analysis of execution traces," in Software Quality Journal, 2017, doi: 10.1007/s11219-016-9311-0
+F. Wininger, N. Ezzati-Jivan, and M. R. Dagenais, "A declarative framework for stateful analysis of execution traces," Software Quality Journal, 2017, doi: 10.1007/s11219-016-9311-0

@@ -4,27 +4,27 @@
 
 **Authors:** Mahsa Panahandeh, Naser Ezzati-Jivan, Abdelwahab Hamou-Lhadj, James Miller
 
-**Core contribution:** This work investigates CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics in the context of software performance and systems analysis.
+**Core contribution:** CARE combines distributed traces and profiling metrics with graph- and spectrum-based analysis to localize performance root causes in microservices.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Root-cause analysis in distributed systems must combine request paths with changing execution context and resource behavior.
+Root-cause localization in microservices is difficult because service dependencies, request paths, execution context, and heterogeneous monitoring data interact; conventional methods can miss propagation patterns and contextual relationships.
 
 ### 2. Method and contribution
 
-CARE combines distributed-trace evidence with profiling metrics to identify context-dependent root causes.
+CARE builds service-call graphs from distributed traces, detects anomalous profiling metrics, clusters affected traces, ranks the contextual importance of services and service communities with graph analysis, and applies weighted spectrum-based fault localization. The evaluation compares regular spectrum analysis, MicroRank, TraceRCA, and HeMiRCA using Ochiai, M2, DStar2, and Russell-Rao risk formulas.
 
 ### 3. Findings and evidence
 
-The work contributes a context-aware RCA direction for distributed systems; quantitative results require full-text review.
+On TrainTicket, which contains 41 microservices and 242,259 traces across 200 fault scenarios, CARE reports top-1 accuracy of 79%-89% and top-5 accuracy of 94%-99%. On the China Mobile Zhejiang production dataset, the reported top-1 accuracy is 68%-72% and top-5 accuracy is 84%. For 11 double-root-cause scenarios, both causes are placed in the top two in 55% of cases and in the top five in 82% of cases.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+**Limitations:** The evaluation depends on the selected TrainTicket and China Mobile Zhejiang datasets and their fault-injection or anomaly-selection procedures. The paper also reports a mismatch for HeMiRCA on the production data because of mixed normal/anomalous traces, sparse anomalies, and missing caller-side metrics for some services.
 
-**Future work:** Assess online diagnosis, transfer across deployments, explanation quality, and robustness under trace sampling.
+**Future work:** Extend validation to broader production systems and more complex multi-root-cause scenarios, with richer context modeling and online diagnosis under trace sampling.
 
 ## Abstract
 
@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [microservices](../../topics/microservices.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [latency-analysis](../../topics/latency-analysis.md)
 
-**Keywords:** [distributed traces](../../keywords/distributed-traces.md) | [profiling metrics](../../keywords/profiling-metrics.md) | [context-aware RCA](../../keywords/context-aware-rca.md) | [microservice diagnosis](../../keywords/microservice-diagnosis.md)
+**Keywords:** [distributed traces](../../keywords/distributed-traces.md) | [profiling metrics](../../keywords/profiling-metrics.md) | [context-aware RCA](../../keywords/context-aware-rca.md) | [microservice diagnosis](../../keywords/microservice-diagnosis.md) | [TrainTicket](../../keywords/trainticket.md) | [spectrum-based fault localization](../../keywords/spectrum-based-fault-localization.md) | [PageRank](../../keywords/pagerank.md) | [China Mobile Zhejiang](../../keywords/china-mobile-zhejiang.md)
 
 ## Versions and source links
 
@@ -48,10 +48,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when combining distributed traces, profiling metrics, and context-aware spectrum analysis for microservice root-cause localization.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Graph-based ranking of service and community context from distributed traces.
+- Weighted spectrum-based localization using profiling anomalies and multiple risk formulas.
+- TrainTicket and China Mobile Zhejiang evaluations, including single- and double-root-cause scenarios.
 
 ## Citation
 
@@ -78,7 +79,7 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "CARE: Context Aw
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1109/tse.2025.3645143; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: DBLP/DOI bibliographic record for 10.1109/tse.2025.3645143; author identity matched to Naser Ezzati-Jivan in the local research catalog; CARE PDF pp. 1-2: problem, context-aware observability motivation, and contribution; CARE PDF pp. 3-10: service graphs, profiling metrics, trace clustering, graph ranking, and weighted spectrum analysis; CARE PDF pp. 9-12: baselines, TrainTicket and China Mobile Zhejiang datasets, metrics, accuracy results, and double-root-cause evaluation; CARE PDF pp. 11-12: HeMiRCA data mismatch and evaluation boundary; local CARE PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

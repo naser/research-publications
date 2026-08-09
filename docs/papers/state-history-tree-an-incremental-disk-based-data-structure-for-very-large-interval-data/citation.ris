@@ -1,0 +1,12 @@
+TY  - CONF
+AU  - Montplaisir-Goncalves, Alexandre
+AU  - Ezzati-Jivan, Naser
+AU  - Wininger, Florian
+AU  - Dagenais, Michel R.
+TI  - State History Tree: An Incremental Disk-Based Data Structure for Very Large Interval Data
+PY  - 2013
+T2  - IEEE International Conference on Social Computing
+AB  - The State History Tree is a disk-based structure for incrementally arriving, time-ordered interval data derived from LTTng system traces, designed to support very large histories.
+DO  - 10.1109/SocialCom.2013.107
+UR  - https://doi.org/10.1109/SocialCom.2013.107
+ER  -

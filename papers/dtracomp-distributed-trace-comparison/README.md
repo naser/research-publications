@@ -78,7 +78,7 @@ M. Ekhlasi, F. F. Daneshgar, M. Dagenais, M. Lamothe, N. Ezzati-Jivan, and M. Kh
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112990; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
 - Machine-readable record: [paper.json](./paper.json)

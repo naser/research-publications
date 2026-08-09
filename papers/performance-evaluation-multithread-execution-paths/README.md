@@ -78,7 +78,7 @@ M. Rezazadeh, N. Ezzati-Jivan, S. V. Azhari, and M. R. Dagenais, "Performance Ev
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: Crossref and local DBLP/venue metadata for 10.1016/j.peva.2022.102289; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
 - Machine-readable record: [paper.json](./paper.json)

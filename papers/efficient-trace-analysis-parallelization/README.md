@@ -4,27 +4,27 @@
 
 **Authors:** Fabien Reumont-Locke, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** This work investigates Efficient Methods for Trace Analysis Parallelization in the context of software performance and systems analysis.
+**Core contribution:** The paper partitions Common Trace Format streams into balanced workloads, resolves cross-chunk state dependencies, and parallelizes stateful trace analyses with low synchronization cost.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Large execution traces make sequential analysis a bottleneck in performance-debugging workflows.
+Stateful analysis of LTTng/CTF traces is difficult to scale because stream and state dependencies constrain parallel work, while trace density and storage speed create load imbalance.
 
 ### 2. Method and contribution
 
-The work investigates parallel methods for accelerating trace analysis.
+A hybrid packet-index/time partition divides trace streams into approximately balanced chunks. Workers initialize local state, analyze independently, and merge state chronologically; thread migrations are handled as inter-stream dependencies. The implementation uses Babeltrace/CTF decoding, OpenMP/TBB-style parallel execution, and QtConcurrent map/reduce in the real analyses.
 
 ### 3. Findings and evidence
 
-It addresses analysis scalability through parallelization; speedups and workload details require full-text review.
+Three analyses-event count, CPU active time, and I/O-scale substantially on SSD storage. On the 44,897,970-event trace, 32 threads achieved 14.73x, 14.12x, and 18.15x speedup respectively; the corresponding efficiencies were 46.0%, 44.1%, and 56.7%. Storage and decoder overhead limit scaling beyond that point.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+**Limitations:** The evaluation combines a synthetic simulation with one 8-core trace and a small set of storage devices; the analyses are not a broad workload benchmark. The paper reports non-pipelined memory-operation and decoding bottlenecks, and no distributed or live deployment evaluation.
 
-**Future work:** Study distributed analysis, reproducible benchmarks, and parallel stateful analyses.
+**Future work:** Improve Babeltrace decoding and copying/locking, parallelize kernel memory operations and State History Tree output, and extend the design to distributed and live trace analysis.
 
 ## Abstract
 
@@ -34,11 +34,12 @@ Abstract not available in the captured sources.
 
 **Tags:** [trace-analysis](../../topics/trace-analysis.md) | [performance-engineering](../../topics/performance-engineering.md) | [multicore-systems](../../topics/multicore-systems.md) | [performance-optimization](../../topics/performance-optimization.md)
 
-**Keywords:** [trace analysis](../../keywords/trace-analysis.md) | [parallelization](../../keywords/parallelization.md) | [analysis scalability](../../keywords/analysis-scalability.md) | [multicore processing](../../keywords/multicore-processing.md)
+**Keywords:** [trace analysis](../../keywords/trace-analysis.md) | [parallelization](../../keywords/parallelization.md) | [analysis scalability](../../keywords/analysis-scalability.md) | [multicore processing](../../keywords/multicore-processing.md) | [CTF](../../keywords/ctf.md) | [Babeltrace](../../keywords/babeltrace.md) | [LTTng](../../keywords/lttng.md) | [parallel efficiency](../../keywords/parallel-efficiency.md) | [State History Tree](../../keywords/state-history-tree.md)
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1007/s10766-019-00631-4) - published
+- [Public full text](https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf) | [PDF](https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1007/s10766-019-00631-4](https://doi.org/10.1007/s10766-019-00631-4)
 
@@ -48,10 +49,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when your work uses or compares packet-index/time hybrid partitioning of stateful CTF trace analysis.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- For packet-index/time hybrid partitioning of stateful CTF trace analysis.
+- For local-state plus chronological-merge handling of trace dependencies and thread migrations.
+- For the measured 32-thread SSD results: 18.15x I/O speedup and 56.7% I/O efficiency on a 44.9M-event trace.
+- For the diagnosis that decoder copying/locks and Linux memory-operation serialization, rather than only raw disk bandwidth, constrain scaling.
 
 ## Citation
 
@@ -78,7 +81,7 @@ F. Reumont-Locke, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Methods for Tr
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1007/s10766-019-00631-4; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: DBLP/DOI bibliographic record for 10.1007/s10766-019-00631-4; author identity matched to Naser Ezzati-Jivan in the local research catalog; Efficient parallelization PDF pp. 1-5: CTF/Babeltrace model, partitioning, state dependencies, and proposed map/reduce design; Efficient parallelization PDF pp. 8-11: storage devices, 44,897,970-event trace, three analyses, speedups, and efficiencies; Efficient parallelization PDF pp. 11-12: decoding and State History Tree limitations and future work; local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

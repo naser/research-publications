@@ -4,27 +4,27 @@
 
 **Authors:** Maryam Ekhlasi, Arnaud Fiorini, Michel R. Dagenais, Naser Ezzati-Jivan, Maxime Lamothe
 
-**Core contribution:** This work studies hybridrca: lightweight critical-path-aware hybrid tracing for root-cause analysis in production microservices in the context of software performance and systems analysis.
+**Core contribution:** HybridRCA combines critical-path-aware span analysis with targeted kernel metrics to reduce production trace volume while preserving root-cause localization evidence.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Production RCA needs detailed evidence but cannot afford the overhead of collecting every trace signal.
+Production microservices generate too many spans and low-level events for full-granularity storage and diagnosis, yet root-cause analysis still needs evidence about the execution context that causes latency.
 
 ### 2. Method and contribution
 
-HybridRCA combines critical-path awareness with hybrid tracing to focus collection and analysis on diagnostically relevant execution.
+The pipeline groups similar traces, structures requests, extracts each request's critical path, builds a critical-path span graph, applies Personalized PageRank and weighted spectrum-based fault localization, and triggers LTTng collection of CPU, memory, and I/O-wait metrics only for targeted processes or threads. The evaluation uses OpenTracing-instrumented applications and LTTng 2.13.9-1; Perf is mentioned as a low-level tracing tool but is not the reported primary collector.
 
 ### 3. Findings and evidence
 
-The paper proposes a lightweight production-oriented RCA design; exact overhead and accuracy require full-text review.
+The paper evaluates HotROD, TrainTicket, OnlineBoutique, and a reproduced TiDB scenario. The abstract reports average recall improvement of 0.45%, up to 22.6% fewer spans, and more than 99% kernel-level storage reduction; the conclusion separately reports 5.7% average top-1 recall improvement, up to 0.45% precision improvement, 22.3% fewer spans, and more than 99% storage reduction. The evaluation includes 56 injected faults across TrainTicket and OnlineBoutique and reports single- and two-root-cause precision/recall/F1 results.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+**Limitations:** Critical-path-only collection can miss local latency that does not affect end-to-end latency; the anomaly detector assumes most behavior is normal; and the baselines were reimplemented. The evidence is still a benchmark and reproduced-case evaluation rather than a broad live-traffic deployment.
 
-**Future work:** Validate under diverse traffic, failures, sampling policies, and multi-cluster deployments.
+**Future work:** Extend validation to live traffic, streaming alerts, container and network metadata, long-running asynchronous requests, and multi-tenant noise.
 
 ## Abstract
 
@@ -34,7 +34,7 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [microservices](../../topics/microservices.md) | [root-cause-analysis](../../topics/root-cause-analysis.md) | [latency-analysis](../../topics/latency-analysis.md)
 
-**Keywords:** [critical path](../../keywords/critical-path.md) | [hybrid tracing](../../keywords/hybrid-tracing.md) | [production microservices](../../keywords/production-microservices.md) | [lightweight RCA](../../keywords/lightweight-rca.md)
+**Keywords:** [critical path](../../keywords/critical-path.md) | [hybrid tracing](../../keywords/hybrid-tracing.md) | [production microservices](../../keywords/production-microservices.md) | [LTTng](../../keywords/lttng.md) | [OpenTracing](../../keywords/opentracing.md) | [Personalized PageRank](../../keywords/personalized-pagerank.md) | [weighted spectrum-based fault localization](../../keywords/weighted-spectrum-based-fault-localization.md) | [HotROD](../../keywords/hotrod.md) | [TrainTicket](../../keywords/trainticket.md) | [OnlineBoutique](../../keywords/onlineboutique.md) | [TiDB](../../keywords/tidb.md) | [SysBench](../../keywords/sysbench.md) | [kernel-level storage](../../keywords/kernel-level-storage.md)
 
 ## Versions and source links
 
@@ -48,10 +48,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when reducing production microservice tracing while retaining critical-path evidence for root-cause analysis.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Critical-path extraction with Personalized PageRank and weighted spectrum-based localization.
+- LTTng-triggered collection of targeted CPU, memory, and I/O-wait metrics for suspicious processes or spans.
+- HotROD, TrainTicket, OnlineBoutique, and TiDB evaluations with trace-volume and kernel-storage reductions.
 
 ## Citation
 
@@ -78,7 +79,7 @@ M. Ekhlasi, A. Fiorini, M. R. Dagenais, N. Ezzati-Jivan, and M. Lamothe, "Hybrid
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1109/icsme64153.2025.00056; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: DBLP/DOI bibliographic record for 10.1109/icsme64153.2025.00056; author identity matched to Naser Ezzati-Jivan in the local research catalog; HybridRCA PDF pp. 1-6: critical-path extraction, Personalized PageRank, weighted spectrum analysis, targeted metrics, and clock synchronization; HybridRCA PDF pp. 7-10: LTTng 2.13.9-1 environment, HotROD/TrainTicket/OnlineBoutique/TiDB workloads, injected faults, accuracy, trace-volume, and storage results; HybridRCA PDF p. 10: limitations and future-work boundary; local HybridRCA PDF hash verified in pdf-evidence/notes/hybridrca-critical-path-aware-tracing.md and pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

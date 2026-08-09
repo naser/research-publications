@@ -27,11 +27,11 @@
   "abstract_source": "arXiv:2103.04933 abstract; public preprint version",
   "summary": {
     "core_contribution": "DepGraph uses system-level tracing to expose the waiting dependencies that divide a task's execution time across threads and hardware resources.",
-    "problem": "Performance debugging in multi-core systems is difficult when blocking dependencies cross thread and resource boundaries. Conventional traces contain the evidence but do not directly show which dependencies account for the delay.",
-    "method": "The method uses the Linux Tracing Toolkit: next generation (LTTng) tracer, including LTTng 2.11 in the evaluation, to collect kernel and system-call traces. It converts timestamped events into execution states such as running, runnable, blocked, and interrupted; constructs a Waiting Dependency Graph over threads and resources; and compares graphs from normal and slow executions to localize the blocking dependencies behind latency.",
-    "findings": "Three performance anomalies were analyzed: Apache/PHP lock contention, CPU contention in a real-time Cyclictest workload, and disk contention affecting Apache requests. The evaluation used Ubuntu 16.04.6 LTS with a 64-bit 4.15.0-62 kernel on a quad-core Intel Core i7-6700K workstation, with sysbench CPU, IO, and mixed profiles. In 50 executions, the dependency-tracing configuration - the paper's method - had worst-case overhead below 10.1%; full tracing was more expensive for IO-heavy workloads. Trace analysis used Babeltrace 3 to decode CTF data.",
-    "limitations": "The evidence is based on selected use cases and a particular tracing pipeline.",
-    "future_work": "Future work should test broader workloads, automate more of the causal explanation, and evaluate portability across operating systems and hardware configurations."
+    "problem": "System-level traces expose waiting and resource interactions, but conventional analysis does not present a compact causal view of why requests are delayed across threads and resources.",
+    "method": "DepGraph collects LTTng kernel events, reconstructs process/resource states in a state database, recursively builds duration-weighted Waiting Dependency Graphs, groups executions with k-means, and compares representative graphs to expose direct and indirect dependencies.",
+    "findings": "The method identified lock contention in a slow Apache/PHP request, CPU/interruption contention in Cyclictest, and disk contention in Apache workloads. Across Sysbench CPU/IO/mixed workloads, dependency tracing stayed within 10.1% relative duration overhead; Babeltrace 3 decoding and graph analysis remained measurable but practical on the test machine.",
+    "limitations": "The study uses one Linux machine and selected workloads/use cases. The graph is primarily an off-CPU/resource-waiting abstraction; broad portability, distributed/network causal analysis, and causal validation beyond graph comparison are unknown.",
+    "future_work": "Extend the graph model and evaluation to broader systems, workloads, and distributed/network settings; reduce state/decoding cost and improve automated interpretation of graph differences."
   },
   "tags": [
     "kernel-tracing",
@@ -80,16 +80,17 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its method or evidence is relevant to multicore performance diagnosis.",
+    "when_to_cite": "Cite this paper when your work uses or compares waiting Dependency Graphs that unify thread and resource waiting causes.",
     "points": [
-      "Waiting-dependency graphs for localizing bottlenecks across threads and resources.",
-      "LTTng-based kernel and system-call tracing for explaining blocking dependencies.",
-      "Production-oriented tracing and analysis overhead for performance diagnosis."
+      "For Waiting Dependency Graphs that unify thread and resource waiting causes.",
+      "For distinguishing direct wakeup dependencies from indirect CPU/disk contention dependencies in kernel traces.",
+      "For grouping executions with k-means and comparing representative dependency graphs.",
+      "For the measured worst-case 10.1% dependency-tracing overhead on the stated Sysbench setup."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "DBLP and IEEE metadata for the published paper",
       "official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3",
@@ -104,6 +105,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

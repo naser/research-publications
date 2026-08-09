@@ -15,33 +15,48 @@
     "type": "research paper"
   },
   "publication_type": "research paper",
-  "status": "published_metadata_record",
+  "status": "published_with_public_full_text",
   "canonical_source_url": "https://doi.org/10.3390/electronics10212610",
   "source_record_id": "combining-distributed-and-kernel-tracing-for-performance-analysis-of-cloud-applications-4453f8bab8",
   "identifiers": {
     "doi": "10.3390/electronics10212610"
   },
-  "abstract": null,
-  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract": "Distributed tracing allows tracking user requests that span across multiple services and machines in a distributed application. However, typical cloud applications rely on abstraction layers that can hide the root cause of latency happening between processes or in the kernel. Because of its focus on high-level events, existing methodologies in applying distributed tracing can be limited when trying to detect complex contentions and relate them back to the originating requests. Cross-level analyses that include kernel-level events are necessary to debug problems as prevalent as mutex or disk contention, however cross-level analysis and associating events in the kernel and distributed tracing data is complex and can add a lot of overhead. This paper describes a new solution for combining distributed tracing with low-level software tracing in order to find the latency root cause better. We explain how we achieve a hybrid trace collection to capture and synchronize both kernel and distributed request events. Then, we present our design and implementation for a critical path analysis. We show that our analysis describes precisely how each request spends its time and what stands in its critical path while limiting overhead.",
+  "abstract_source": "Official MDPI full-text HTML, CC BY 4.0, reviewed 2026-08-06: https://www.mdpi.com/2079-9292/10/21/2610",
   "summary": {
-    "core_contribution": "This paper combines distributed tracing with kernel tracing to analyze cloud-application performance across software layers.",
-    "problem": "Distributed traces show request-level structure but may omit operating-system evidence needed to explain resource and scheduling effects.",
-    "method": "The approach correlates distributed-application trace information with kernel-level tracing for cross-layer performance analysis.",
-    "findings": "The paper contributes a combined tracing perspective for cloud applications; tracer configuration, correlation method, and measurements require full-text review.",
-    "limitations": "The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.",
-    "future_work": "Evaluate correlation accuracy, overhead, cloud heterogeneity, and compatibility with modern OpenTelemetry pipelines."
+    "core_contribution": "The paper combines Jaeger distributed traces with LTTng kernel and user-space events and extends critical-path analysis from threads to distributed requests so request latency can be related to low-level scheduling and resource behavior.",
+    "problem": "Distributed request spans identify application-level paths but can miss kernel scheduling, I/O, and CPU contention that explains hidden latency.",
+    "method": "Synchronize Jaeger spans with LTTng user-space/kernel events, decode CTF with Babeltrace, and analyze request critical paths in Trace Compass with cross-layer scheduling/resource states.",
+    "findings": "HotROD and Cassandra experiments show modest tracing overhead under the stated loads. The combined analysis identifies CPU wait/preemption in a Cassandra CPU-control-group case that Jaeger-only tracing cannot explain; a 500 MB trace can be analyzed in about 15 s.",
+    "limitations": "Evidence is remote HTML only; local PDF pages, local PDF hash, and visual PDF checks are unavailable. The evaluated services/workloads are HotROD and Cassandra, and the paper's future work identifies dashboard-triggered snapshots, work-queue/thread-pool tracking, network analysis, and multi-host extension as open areas.",
+    "future_work": "Trigger snapshots from a dashboard, improve tracking of user schedulers/work queues/thread pools, add network analysis, and extend the method across multiple hosts."
   },
   "tags": [
     "kernel-tracing",
     "system-tracing",
     "performance-analysis",
-    "observability"
+    "observability",
+    "lttng"
   ],
   "keywords": [
     "distributed tracing",
     "kernel tracing",
     "cloud applications",
-    "cross-layer performance analysis"
+    "cross-layer performance analysis",
+    "LTTng",
+    "Jaeger",
+    "Trace Compass",
+    "Babeltrace",
+    "Common Trace Format",
+    "HotROD",
+    "Cassandra",
+    "Apache ab",
+    "cassandra-stress",
+    "critical-path analysis",
+    "snapshot tracing",
+    "CPU control groups",
+    "liblttng-ust",
+    "request synchronization"
   ],
   "versions": [
     {
@@ -53,33 +68,49 @@
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
+    },
+    {
+      "id": "public-full-text",
+      "label": "Public full text",
+      "relation": "source-record",
+      "title": "Combining Distributed and Kernel Tracing for Performance Analysis of Cloud Applications",
+      "url": "https://www.mdpi.com/2079-9292/10/21/2610/pdf?version=1635235463",
+      "pdf_url": "https://www.mdpi.com/2079-9292/10/21/2610/pdf?version=1635235463",
+      "status": "public_full_text",
+      "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "The DOI is the canonical citation target; this catalog does not redistribute the publisher PDF.",
-    "license": null
+    "status": "published_with_public_full_text",
+    "note": "The MDPI article and PDF are externally linked under the article's CC BY 4.0 license; the PDF is not redistributed in this repository.",
+    "license": "CC-BY-4.0"
   },
   "resources": {
-    "code": null,
+    "code": "https://github.com/loicgelle/jaeger-go-lttng-instr",
     "data": null,
     "slides": null,
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when your work uses or compares synchronizing Jaeger spans with LTTng tracepoints carrying request IDs.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For synchronizing Jaeger spans with LTTng tracepoints carrying request IDs.",
+      "For extending thread critical paths into request critical paths with scheduler, I/O, and wait states.",
+      "For the HotROD/Cassandra overhead measurements and 500 MB/15 s analysis result.",
+      "For identifying CPU-control-group preemption/CPU wait as a distributed-service latency cause."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-03",
+    "metadata_verified_on": "2026-08-07",
     "metadata_source": [
       "Crossref and local DBLP/venue metadata for 10.3390/electronics10212610",
       "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "full-text summary pending source review"
+      "Official MDPI HTML, Abstract and Sections 1-3 (reviewed 2026-08-06): distributed/kernel tracing motivation, LTTng/Jaeger/Trace Compass stack, patched Java and Go clients, synchronization events, and request critical-path construction.",
+      "Official MDPI HTML, Section 4 and Sections 4.1-4.1.2: i7-7820X/32 GB environment, HotROD 10,000-request evaluation, Cassandra 1,000,000-read/write evaluation, sampling configurations, and overhead bounds.",
+      "Official MDPI HTML, Sections 4.2-4.4: approximately 15-second analysis for 500 MB/20-30-second traces, 1% CPU-control-group use case, 2-second versus approximately 5-millisecond request latency, recurring 100-ms preemption, and transferability limits.",
+      "Official MDPI HTML, Section 5 and Data Availability Statement: dashboard-triggered snapshots, user-level scheduler/thread-pool tracking, network analysis, multi-host extension, CC BY 4.0 license, and https://github.com/loicgelle/jaeger-go-lttng-instr.",
+      "The official MDPI PDF URL was verified from the article's citation_pdf_url metadata, but Chrome's PDF endpoint was blocked by an interstitial in this run; no local PDF hash is claimed."
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "source-grounded catalog review; author approval pending",
@@ -90,6 +121,6 @@
     "phase": 2,
     "batch_label": "expanded forty-paper release",
     "status": "included_in_expanded_catalog",
-    "selected_at": "2026-08-03"
+    "selected_at": "2026-08-07"
   }
 }

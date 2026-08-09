@@ -1,0 +1,119 @@
+{
+  "schema_version": "0.4.0",
+  "paper_id": "rethinking-performance-debugging-from-optimization-to-collaborative-reasoning",
+  "page_url": "https://naser.github.io/research-publications/papers/rethinking-performance-debugging-from-optimization-to-collaborative-reasoning/",
+  "title": "Rethinking Performance Debugging: From Optimization to Collaborative Reasoning",
+  "title_variants": [],
+  "authors": [
+    "Mahsa Panahandeh",
+    "Naser Ezzati-Jivan",
+    "Abdelwahab Hamou-Lhadj"
+  ],
+  "publication": {
+    "year": 2026,
+    "venue": "SIGSOFT FSE Companion",
+    "type": "conference paper"
+  },
+  "publication_type": "conference paper",
+  "status": "published_with_public_full_text",
+  "canonical_source_url": "https://doi.org/10.1145/3803437.3805578",
+  "source_record_id": "rethinking-performance-debugging-from-optimization-to-collaborative-reasoning-9cc02d2ed6",
+  "identifiers": {
+    "doi": "10.1145/3803437.3805578"
+  },
+  "abstract": "The paper argues that microservice performance debugging should preserve and empirically challenge multiple evidence-grounded explanations under uncertainty instead of optimizing for one opaque root-cause answer.",
+  "abstract_source": "Public author manuscript and private downloaded copy reviewed; abstract paraphrased.",
+  "summary": {
+    "core_contribution": "The paper reframes performance debugging as collaborative reasoning over multiple evidence-grounded hypotheses rather than optimization for one supposedly best explanation.",
+    "problem": "Optimization-centric performance debugging collapses diagnosis into one best root cause. That framing is brittle when traces are incomplete, failures interact, and engineers must compare uncertain explanations and decide what to investigate.",
+    "method": "The paper proposes a reasoning-centered architecture with three separated roles: semantic hypothesis generation, empirical evidence critique, and hypothesis curation. AgentDebug instantiates the roles with Gemini 2.5 Flash, trace-level precision/recall/F1 plus CART over operational features such as RPC-latency percentiles and deviation magnitudes, and a coordinator that selects a diverse Pareto-optimal set of hypotheses as a persistent Reasoning Surface.",
+    "findings": "In an exploratory study of 200 datasets from Train-Ticket and E-Shopper, with about 2.1 million RPC traces and about 20% degraded traces, AgentDebug averages F1 0.729 versus DeLag's 0.784 and has a median time ratio of 2.34x in its favor. Under DS2-DS4 stress, AgentDebug reaches F1 0.776 versus 0.769 on Train-Ticket and 0.827 versus 0.797 on E-Shopper, outperforming DeLag in four of six stressed configurations. An illustrative surface entry reports precision 0.83, recall 0.42, F1 0.56, and 42% degraded-request coverage.",
+    "limitations": "This is a five-page conceptual paper with an early instantiation, not a finalized general-purpose debugging algorithm. It focuses on microservice performance debugging, uses benchmark-derived exploratory data, and does not evaluate human decision quality, uncertainty metrics, explanation diversity, or a principled switch between optimization and reasoning workflows.",
+    "future_work": "Develop evaluation measures for uncertainty exposure, explanation diversity, and decision support; determine when systems should switch between optimization and deeper reasoning; and extend the framework to fault localization, regression debugging, and configuration diagnosis."
+  },
+  "tags": [
+    "performance-analysis",
+    "microservices",
+    "llm-assisted-analysis",
+    "root-cause-analysis",
+    "observability"
+  ],
+  "keywords": [
+    "performance debugging",
+    "collaborative reasoning",
+    "AgentDebug",
+    "Reasoning Surface",
+    "hypothesis generation",
+    "hypothesis critique",
+    "hypothesis curation",
+    "Gemini 2.5 Flash",
+    "CART",
+    "DeLag",
+    "Train-Ticket",
+    "E-Shopper",
+    "fault injection",
+    "RPC latency",
+    "Pareto-optimal hypotheses"
+  ],
+  "versions": [
+    {
+      "id": "published-version",
+      "label": "Published version",
+      "relation": "version-of-record",
+      "title": "Rethinking Performance Debugging: From Optimization to Collaborative Reasoning",
+      "url": "https://doi.org/10.1145/3803437.3805578",
+      "pdf_url": null,
+      "status": "published",
+      "canonical_for_citation": true
+    },
+    {
+      "id": "public-author-manuscript",
+      "label": "Public author manuscript",
+      "relation": "source-record",
+      "title": "Rethinking Performance Debugging: From Optimization to Collaborative Reasoning",
+      "url": "https://www.researchgate.net/publication/402678924_Rethinking_Performance_Debugging_From_Optimization_to_Collaborative_Reasoning",
+      "pdf_url": null,
+      "status": "public_full_text",
+      "canonical_for_citation": false
+    }
+  ],
+  "access": {
+    "status": "published_with_public_full_text",
+    "note": "The DOI is the canonical citation target; the public full-text or author-manuscript link is external and the PDF is not redistributed here.",
+    "license": null
+  },
+  "resources": {
+    "code": null,
+    "data": null,
+    "slides": null,
+    "demo": null
+  },
+  "citation_guidance": {
+    "when_to_cite": "Cite this paper when your work uses or compares the Reasoning Surface concept: a persistent, diverse set of empirically challenged performance hypotheses rather than a single root-cause output.",
+    "points": [
+      "the Reasoning Surface concept: a persistent, diverse set of empirically challenged performance hypotheses rather than a single root-cause output.",
+      "role-separated debugging that combines LLM hypothesis generation, trace-level evidence critique, and Pareto-based hypothesis curation.",
+      "the AgentDebug-versus-DeLag stress comparison on Train-Ticket and E-Shopper, especially the precision/recall trade-off under DS2-DS4."
+    ],
+    "canonical_version_id": "published-version"
+  },
+  "provenance": {
+    "metadata_verified_on": "2026-08-07",
+    "metadata_source": [
+      "Public author manuscript: AgentDebug roles, Reasoning Surface, Gemini 2.5 Flash, CART critique, and Pareto-style curation",
+      "Public author manuscript: 200 datasets, Train-Ticket/E-Shopper, 2.1 million RPC traces, fault regimes, F1 results, convergence ratio, and API cost",
+      "Public author manuscript: optimization-versus-reasoning boundary and future-work discussion",
+      "Publication DOI and DBLP identity verified; private five-page ResearchGate author manuscript read and SHA-256 verified as 9fad98132e1dd1c06f885bf6b033c80691bd067a3f7c31f7f27841d9b9d4c308; private evidence note: pdf-evidence/notes/rethinking-performance-debugging-agentdebug.md"
+    ],
+    "summary_written_by": "AI-assisted",
+    "summary_verified_by": "source-grounded catalog review; author approval pending",
+    "linked_preprint_record": null,
+    "author_order_note": null
+  },
+  "batch": {
+    "phase": 2,
+    "batch_label": "expanded forty-paper release",
+    "status": "included_in_expanded_catalog",
+    "selected_at": "2026-08-07"
+  }
+}

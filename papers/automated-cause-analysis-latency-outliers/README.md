@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Latency problems in runtime systems are difficult to diagnose because logging and tracing often require manual inspection of many requests and their internal interactions.
+Latency outliers in distributed/request-oriented software are difficult to triage because their causes may be hidden in thread and resource waiting relationships in system-level traces.
 
 ### 2. Method and contribution
 
-Each request is represented through a dependency graph describing interactions among threads and system resources. Density-based models and statistical calculations are then used to identify outliers before comparing their graph structures to locate suspicious dependencies.
+Build waiting-dependency graphs from LTTng traces, embed graphs with Graph2Vec, detect unusual requests or graph regions using Z-score, k-NN, DBSCAN, or OPTICS, then merge and compare representative graphs to expose causal waiting nodes.
 
 ### 3. Findings and evidence
 
-The evaluation reports outlier-detection accuracy above 97%, suggesting that the approach can identify latency anomalies with limited manual screening in industry-oriented settings.
+On 697 Apache/PHP/MySQL requests labeled by a 200 ms expert threshold, Z-score had the best printed result (98.1% accuracy, 55.0% precision, 73.3% recall, 62.9% F1), while the other methods had lower precision/recall despite >97% accuracy. A representative outlier exposed CPU waiting (waitcpu) and Xorg contention. Computation costs were dominated by graph construction and embedding.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The reported evidence is tied to the evaluated traces, models, and deployment conditions.
+**Limitations:** There is no ground-truth latency-cause dataset; labels are threshold/expert derived and some detected outliers may be unrelated to latency. Graph2Vec size and hyperparameters can overfit, and the method focuses on off-CPU/resource waits rather than user-space function detail or on-CPU causality.
 
-**Future work:** Future work should test broader distributed workloads, quantify explanation quality separately from detection accuracy, and evaluate continuous online operation.
+**Future work:** Reduce Graph2Vec size while retaining accuracy, improve training time, use more graphs, and extend analysis beyond the current off-CPU representation.
 
 ## Abstract
 
@@ -49,11 +49,12 @@ Detecting performance issues and identifying their root causes in the runtime is
 
 ## When to cite this paper
 
-Cite this paper when automating latency-outlier detection and diagnosis.
+Cite this paper when your work uses or compares graph2Vec embeddings of waiting-dependency graphs as a latency-outlier screening method.
 
-- System-level dependency graphs for latency-outlier analysis.
-- Density-based models and statistical screening of abnormal requests.
-- Automated localization of dependencies associated with latency anomalies.
+- For Graph2Vec embeddings of waiting-dependency graphs as a latency-outlier screening method.
+- For comparing DBSCAN, OPTICS, k-NN, and Z-score on threshold-derived latency labels with the reported precision/recall trade-off.
+- For merging and comparing representative DepGraphs to expose CPU-wait/Xorg contention.
+- For the measured cost boundary: 32.391 s graph construction, 11.608 s Graph2Vec, and ≤10.1% method tracing overhead in the stated setup.
 
 ## Citation
 
@@ -80,7 +81,7 @@ S. Patel, B. Park, N. Ezzati-Jivan, and Q. Fournier, "Automated Cause Analysis o
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2207.06515; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

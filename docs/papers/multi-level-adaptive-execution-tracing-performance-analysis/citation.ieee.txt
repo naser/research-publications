@@ -1,0 +1,1 @@
+M. A. Khan and N. Ezzati-Jivan, "Multi-level Adaptive Execution Tracing for Efficient Performance Analysis," in 2023 IEEE International Conference on Software Engineering and Research (SERA), 2023, doi: 10.1109/SERA57763.2023.10197790

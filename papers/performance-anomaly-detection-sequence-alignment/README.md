@@ -1,30 +1,30 @@
-# Performance anomaly detection through sequence alignment of system-level traces
+# Performance Anomaly Detection through Sequence Alignment of System-Level Traces
 
-**2022 | ACM/SPEC International Conference on Performance Engineering (ICPE) | research paper**
+**2022 | 30th International Conference on Program Comprehension (ICPC) | conference paper**
 
 **Authors:** Madeline Janecek, Naser Ezzati-Jivan, Abdelwahab Hamou-Lhadj
 
-**Core contribution:** This work investigates Performance anomaly detection through sequence alignment of system-level traces in the context of software performance and systems analysis.
+**Core contribution:** The framework combines critical-path extraction, coarse anomaly checks, OPTICS execution clustering, and MUSCLE multiple sequence alignment to localize performance differences in system-level traces.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Anomalous executions may differ from normal executions in timing and event order, making simple threshold detection insufficient.
+Kernel traces provide detailed performance evidence but can contain millions of events and impose collection/analysis cost. The paper seeks offline, black-box anomaly detection and localization without application-specific instrumentation (pp. 1-2).
 
 ### 2. Method and contribution
 
-The approach uses sequence alignment over system-level traces to compare executions and detect anomalous behavior.
+LTTng records kernel events and contexts. sched_switch, sched_wakeup, interrupt entry/exit, high-resolution timer entry/exit, and softirq entry/exit events form execution states/graphs; blocking edges are recursively replaced by waking threads to obtain a critical path. Count vectors represent path structure and duration vectors represent performance. Average/probability checks identify coarse anomalies, OPTICS clusters execution types, silhouette scores pair sample and normal clusters, and MUSCLE aligns state strings with durations for localization (pp. 3-8).
 
 ### 3. Findings and evidence
 
-The paper develops a trace-sequence-alignment direction for performance anomaly detection; quantitative findings require full-text review.
+The evaluation uses VirtualBox 6.1.18 VMs with two CPUs, Ubuntu 20.04.1, Linux kernel 5.8.0, and LTTng 2.11.2; the userspace case uses Python 3.8.5 and the container case uses Docker 20.10.7 with Ubuntu 20.04 images and GNU Wget (pp. 8-9). Over ten executions, no tracing averages 1,076.50 ms, full kernel tracing 1,329.26 ms (+23.479%), and minimal tracing 1,128.08 ms (+4.79145%) (p. 8, Table 1). The userspace case has about 100 normal and 10 bug-injected executions, 2-3 seconds longer on average, and 86.67% cluster assignment; the container case identifies a 10%-CPU restriction and short preempted states (pp. 8-10).
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current public record captures bibliographic metadata but not the paper's full text; quantitative claims and implementation details should be added after PDF or author-manuscript review.
+**Limitations:** Offline/post-mortem operation, dependence on normal comparison data and delimiters, threshold/clustering choices, and two controlled case studies limit generalization. The method localizes evidence but does not automatically prove a unique root cause.
 
-**Future work:** Scale alignment, handle concurrency and sampling, and separate anomaly detection from root-cause explanation.
+**Future work:** Add call-stack tracing for more precise root-cause localization and investigate deep-learning methods (p. 10).
 
 ## Abstract
 
@@ -34,11 +34,12 @@ Abstract not available in the captured sources.
 
 **Tags:** [system-tracing](../../topics/system-tracing.md) | [anomaly-detection](../../topics/anomaly-detection.md) | [performance-analysis](../../topics/performance-analysis.md) | [trace-analysis](../../topics/trace-analysis.md)
 
-**Keywords:** [sequence alignment](../../keywords/sequence-alignment.md) | [system-level traces](../../keywords/system-level-traces.md) | [performance anomalies](../../keywords/performance-anomalies.md) | [trace comparison](../../keywords/trace-comparison.md)
+**Keywords:** [sequence alignment](../../keywords/sequence-alignment.md) | [MUSCLE](../../keywords/muscle.md) | [OPTICS](../../keywords/optics.md) | [critical path](../../keywords/critical-path.md) | [system-level traces](../../keywords/system-level-traces.md) | [performance anomalies](../../keywords/performance-anomalies.md) | [LTTng](../../keywords/lttng.md) | [Docker](../../keywords/docker.md) | [execution clustering](../../keywords/execution-clustering.md) | [trace overhead](../../keywords/trace-overhead.md)
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1145/3524610.3527898) - published
+- [Public ACM PDF](https://dl.acm.org/doi/pdf/10.1145/3524610.3527898) | [PDF](https://dl.acm.org/doi/pdf/10.1145/3524610.3527898) - public_full_text
 
 **Canonical source:** [https://doi.org/10.1145/3524610.3527898](https://doi.org/10.1145/3524610.3527898)
 
@@ -48,27 +49,29 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when your work uses or compares black-box performance-anomaly detection from kernel traces using critical-path extraction instead of collecting all kernel events.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- For black-box performance-anomaly detection from kernel traces using critical-path extraction instead of collecting all kernel events.
+- For the paired use of critical-path count vectors for execution-type clustering and duration vectors for performance comparison.
+- For MUSCLE-based multiple alignment that distinguishes abnormal critical-path states from normal long waits.
+- For the measured full-kernel (+23.479%) versus minimal-kernel (+4.79145%) tracing overhead comparison.
 
 ## Citation
 
 ### APA 7
 
-Janecek, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2022). Performance anomaly detection through sequence alignment of system-level traces. ACM/SPEC International Conference on Performance Engineering (ICPE). https://doi.org/10.1145/3524610.3527898
+Janecek, M., Ezzati-Jivan, N., & Hamou-Lhadj, A. (2022). Performance Anomaly Detection through Sequence Alignment of System-Level Traces. 30th International Conference on Program Comprehension (ICPC). https://doi.org/10.1145/3524610.3527898
 
 ### IEEE
 
-M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance anomaly detection through sequence alignment of system-level traces," in ACM/SPEC International Conference on Performance Engineering (ICPE), 2022, doi: 10.1145/3524610.3527898
+M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance Anomaly Detection through Sequence Alignment of System-Level Traces," in 30th International Conference on Program Comprehension (ICPC), 2022, doi: 10.1145/3524610.3527898
 
 ```bibtex
 @inproceedings{ezzatiJivan2022performanceanomaly,
   author = {Madeline Janecek and Naser Ezzati-Jivan and Abdelwahab Hamou-Lhadj},
-  title = {Performance anomaly detection through sequence alignment of system-level traces},
+  title = {Performance Anomaly Detection through Sequence Alignment of System-Level Traces},
   year = {2022},
-  booktitle = {ACM/SPEC International Conference on Performance Engineering (ICPE)},
+  booktitle = {30th International Conference on Program Comprehension (ICPC)},
   doi = {10.1145/3524610.3527898},
   url = {https://doi.org/10.1145/3524610.3527898}
 }
@@ -78,7 +81,7 @@ M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance anomaly detection 
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1145/3524610.3527898; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Metadata sources: Private full PDF read: pdf-evidence/notes/performance-anomaly-detection-sequence-alignment.md; Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment; Performance-anomaly PDF pp. 8-10: VirtualBox/Ubuntu/LTTng environment, overhead, Python case, Docker case, and diagnosis; Performance-anomaly PDF p. 10: conclusion and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

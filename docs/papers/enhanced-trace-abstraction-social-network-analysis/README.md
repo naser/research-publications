@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Kernel-level tracing provides detailed execution evidence but also produces very large, noisy datasets that are difficult to inspect directly.
+Large execution traces expose many thread interactions, making it difficult to retain a concise, useful view while filtering irrelevant activity.
 
 ### 2. Method and contribution
 
-LTTng collects trace data, Trace Compass and scripting extract thread interactions, the interactions form a directed weighted graph, Louvain partitions the graph into communities, and PageRank ranks important threads within each community.
+Collect LTTng kernel events, construct a weighted directed thread-interaction graph, detect communities with Louvain, rank important nodes with within-community PageRank, and apply the resulting abstraction/filter through Trace Compass EASE.
 
 ### 3. Findings and evidence
 
-The reported use cases support trace filtering and virtual-machine clustering. The evaluation reports 14 ns per enabled event, a 5.3% slowdown, 509 threads, 6,015 interactions, a 316 MB trace, and 1,599 ms for metric extraction.
+On the reported Ubuntu/LTTng trace, the method processed 509 threads and 6,015 distinct interactions from a 316 MB trace, with 1,599 ms extraction time and 5.3% overall slowdown. The paper demonstrates trace filtering; VM clustering is only an abstract-level claim in this evidence boundary.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The evaluation uses a small number of use cases and a particular LTTng/Trace Compass workflow.
+**Limitations:** This is a three-page short paper with one small evaluation, no systematic abstraction baseline, and no reported filtering-quality metric. Workload details, parameter sensitivity, and a VM-clustering evaluation are unknown.
 
-**Future work:** Future work should evaluate more workloads, larger traces, automatic parameter selection, and more systematic comparisons with trace-abstraction baselines.
+**Future work:** Validate the abstraction across workloads, compare filtering baselines, quantify information loss/usefulness, and provide the missing VM-clustering method and evaluation if that use case is retained.
 
 ## Abstract
 
@@ -49,11 +49,12 @@ This paper applies social-network-analysis techniques to system execution traces
 
 ## When to cite this paper
 
-Cite this paper when applying graph-analysis methods to execution-trace abstraction.
+Cite this paper when your work uses or compares applying Louvain community detection to thread-interaction graphs for trace abstraction.
 
-- Community detection for grouping interacting execution entities.
-- PageRank-style prioritization of important trace interactions.
-- Trace filtering and abstraction for system-performance analysis.
+- For applying Louvain community detection to thread-interaction graphs for trace abstraction.
+- For PageRank-based prioritization of important threads inside interaction communities.
+- For a Trace Compass EASE script that turns the graph abstraction into a global trace filter.
+- For the concrete 5.3% slowdown, 316 MB trace, 509-thread, and 1,599 ms extraction measurements; not for a validated VM-clustering result.
 
 ## Citation
 
@@ -79,7 +80,7 @@ J. Wang and N. Ezzati-Jivan, "Enhanced Execution Trace Abstraction Approach Usin
 
 ## Record provenance
 
-- Metadata verified: 2026-08-03
+- Metadata verified: 2026-08-07
 - Summary status: source-grounded catalog review; author approval pending
 - Metadata sources: public PDF URL observed from DBLP-linked source; PDF downloaded locally and verified with %PDF- signature; first three pages extracted for summary verification
 - Machine-readable record: [paper.json](./paper.json)
