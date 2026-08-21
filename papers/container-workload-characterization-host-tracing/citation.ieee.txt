@@ -1,1 +1,1 @@
-M. Janecek, N. Ezzati-Jivan, and S. V. Azhari, "Container Workload Characterization Through Host System Tracing," in IEEE International Conference on Cloud Computing Technology and Science (CloudCom), pp. 9-19, 2021, doi: 10.1109/ic2e52221.2021.00015
+M. Janecek, N. Ezzati-Jivan, and S. V. Azhari, "Container Workload Characterization Through Host System Tracing," in 2021 IEEE International Conference on Cloud Engineering (IC2E), pp. 9-19, 2021, doi: 10.1109/ic2e52221.2021.00015

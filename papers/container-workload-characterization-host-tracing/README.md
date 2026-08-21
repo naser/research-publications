@@ -1,6 +1,6 @@
 # Container Workload Characterization Through Host System Tracing
 
-**2021 | IEEE International Conference on Cloud Computing Technology and Science (CloudCom) | conference paper**
+**2021 | 2021 IEEE International Conference on Cloud Engineering (IC2E) | conference paper**
 
 **Authors:** Madeline Janecek, Naser Ezzati-Jivan, Seyed Vahid Azhari
 
@@ -58,18 +58,18 @@ Cite this paper when characterizing container workloads from host-level tracing 
 
 ### APA 7
 
-Janecek, M., Ezzati-Jivan, N., & Azhari, S. V. (2021). Container Workload Characterization Through Host System Tracing. In IEEE International Conference on Cloud Computing Technology and Science (CloudCom) (pp. 9-19). https://doi.org/10.1109/ic2e52221.2021.00015
+Janecek, M., Ezzati-Jivan, N., & Azhari, S. V. (2021). Container Workload Characterization Through Host System Tracing. In 2021 IEEE International Conference on Cloud Engineering (IC2E) (pp. 9-19). https://doi.org/10.1109/ic2e52221.2021.00015
 
 ### IEEE
 
-M. Janecek, N. Ezzati-Jivan, and S. V. Azhari, "Container Workload Characterization Through Host System Tracing," in IEEE International Conference on Cloud Computing Technology and Science (CloudCom), pp. 9-19, 2021, doi: 10.1109/ic2e52221.2021.00015
+M. Janecek, N. Ezzati-Jivan, and S. V. Azhari, "Container Workload Characterization Through Host System Tracing," in 2021 IEEE International Conference on Cloud Engineering (IC2E), pp. 9-19, 2021, doi: 10.1109/ic2e52221.2021.00015
 
 ```bibtex
 @inproceedings{ezzatiJivan2021containerworkload,
   author = {Madeline Janecek and Naser Ezzati-Jivan and Seyed Vahid Azhari},
   title = {Container Workload Characterization Through Host System Tracing},
   year = {2021},
-  booktitle = {IEEE International Conference on Cloud Computing Technology and Science (CloudCom)},
+  booktitle = {2021 IEEE International Conference on Cloud Engineering (IC2E)},
   pages = {9-19},
   publisher = {IEEE},
   doi = {10.1109/ic2e52221.2021.00015},
