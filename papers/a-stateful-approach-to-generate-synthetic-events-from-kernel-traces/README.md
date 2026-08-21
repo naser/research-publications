@@ -39,7 +39,7 @@ The paper presents a stateful approach that maps low-level LTTng events to seman
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1155/2012/140368) - published
-- [Public full text](https://publications.polymtl.ca/4861/1/2012_Ezzati-Jivan_Stateful_approach_generate_synthetic_events.pdf) | [PDF](https://publications.polymtl.ca/4861/1/2012_Ezzati-Jivan_Stateful_approach_generate_synthetic_events.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/4861/) | [PDF](https://publications.polymtl.ca/4861/1/2012_Ezzati-Jivan_Stateful_approach_generate_synthetic_events.pdf) - public_published_full_text
 
 **Canonical source:** [https://doi.org/10.1155/2012/140368](https://doi.org/10.1155/2012/140368)
 
@@ -87,5 +87,5 @@ N. Ezzati-Jivan and M. R. Dagenais, "A Stateful Approach to Generate Synthetic E
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: A Stateful Approach PDF: LTTng, semantic-event mapping, modeled state, finite-state patterns, and Java prototype; A Stateful Approach PDF: 25 MB-10,000 MB traces, 621,132,167/159,023,500/2,247,225 event counts, and reported analysis times; A Stateful Approach PDF: limitations, missing state changes, pattern-library boundary, and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the open-access Hindawi published version.
 - Machine-readable record: [paper.json](./paper.json)

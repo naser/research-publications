@@ -43,8 +43,8 @@
     "crossref_type": "proceedings-article"
   },
   "publication_type": "research paper",
-  "status": "published_with_public_full_text",
-  "canonical_source_url": "https://doi.org/10.1109/syscon.2018.8369613",
+  "status": "public_accepted_manuscript",
+  "canonical_source_url": "https://doi.org/10.1109/SYSCON.2018.8369613",
   "source_record_id": "high-latency-cause-detection-using-multilevel-dynamic-analysis-0af4780c31",
   "identifiers": {
     "doi": "10.1109/syscon.2018.8369613"
@@ -67,22 +67,13 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613"
+        "note": "PolyPublie repository record identity matched to the catalog title and author record"
       },
       {
-        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+        "note": "public PDF downloaded locally and %PDF- signature verified"
       },
       {
-        "note": "High latency PDF pp. 1-5: problem, LTTng/LTTng-UST instrumentation, state model, and environment"
-      },
-      {
-        "note": "High latency PDF pp. 5, 8-9: PHP/Drupal use cases, OPcache contention, throughput, and tracing overhead"
-      },
-      {
-        "note": "High latency PDF p. 9: validity threats and conclusion/future-work boundary"
-      },
-      {
-        "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+        "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
       }
     ]
   },
@@ -116,25 +107,25 @@
       "label": "Published version",
       "relation": "version-of-record",
       "title": "High latency cause detection using multilevel dynamic analysis",
-      "url": "https://doi.org/10.1109/syscon.2018.8369613",
+      "url": "https://doi.org/10.1109/SYSCON.2018.8369613",
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
     },
     {
-      "id": "public-full-text",
-      "label": "Public full text",
-      "relation": "source-record",
+      "id": "public-institutional-full-text",
+      "label": "Public institutional full text",
+      "relation": "accepted-manuscript",
       "title": "High latency cause detection using multilevel dynamic analysis",
-      "url": "https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf",
+      "url": "https://publications.polymtl.ca/4203/",
       "pdf_url": "https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf",
-      "status": "public_full_text",
+      "status": "public_accepted_manuscript",
       "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_with_public_full_text",
-    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
+    "status": "public_accepted_manuscript",
+    "note": "PolyPublie cover sheet identifies this as the IEEE accepted version.",
     "license": null
   },
   "resources": {
@@ -155,12 +146,9 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613",
-      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "High latency PDF pp. 1-5: problem, LTTng/LTTng-UST instrumentation, state model, and environment",
-      "High latency PDF pp. 5, 8-9: PHP/Drupal use cases, OPcache contention, throughput, and tracing overhead",
-      "High latency PDF p. 9: validity threats and conclusion/future-work boundary",
-      "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      "PolyPublie repository record identity matched to the catalog title and author record",
+      "public PDF downloaded locally and %PDF- signature verified",
+      "PolyPublie cover sheet identifies this as the IEEE accepted version."
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

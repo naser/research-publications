@@ -9,7 +9,7 @@ Papers tagged **observability**.
 - [Decoding Log Parsing Challenges: A Comprehensive Taxonomy for Actionable Solutions](../papers/decoding-log-parsing-challenges-taxonomy/README.md) - 2024
 - [Developing a Taxonomy for Advanced Log Parsing Techniques](../papers/developing-a-taxonomy-for-advanced-log-parsing-techniques/README.md) - 2025
 - [Distributed Architecture for an Integrated Development Environment, Large Trace Analysis, and Visualization](../papers/distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu/README.md) - 2021
-- [Efficient Cloud Tracing: From Very High Level to Very Low Level](../papers/efficient-cloud-tracing-levels/README.md) - 2018
+- [Efficient cloud tracing: From very high level to very low level](../papers/efficient-cloud-tracing-levels/README.md) - 2018
 - [Enhancing empirical software performance engineering research with kernel-level events: A comprehensive system tracing approach](../papers/enhancing-performance-engineering-with-kernel-events/README.md) - 2024
 - [Intrusion Response Systems: Survey and Taxonomy](../papers/intrusion-response-systems-survey-taxonomy/README.md) - 2012
 - [LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models](../papers/lmat-adaptive-tracing-language-models/README.md) - 2026

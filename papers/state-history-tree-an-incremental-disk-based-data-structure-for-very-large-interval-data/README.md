@@ -39,7 +39,7 @@ The State History Tree is a disk-based structure for incrementally arriving, tim
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1109/SocialCom.2013.107) - published
-- [Public accepted full text](https://publications.polymtl.ca/2983/1/2013_Montplaisir-Gon%C3%A7alves_State_history_tree_incremental_disk-based.pdf) | [PDF](https://publications.polymtl.ca/2983/1/2013_Montplaisir-Gon%C3%A7alves_State_history_tree_incremental_disk-based.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/2983/) | [PDF](https://publications.polymtl.ca/2983/1/2013_Montplaisir-Gon%C3%A7alves_State_history_tree_incremental_disk-based.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1109/SocialCom.2013.107](https://doi.org/10.1109/SocialCom.2013.107)
 
@@ -85,5 +85,5 @@ A. Montplaisir-Goncalves, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Sta
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design; State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons; State History Tree PDF: chronological-insertion limitation and conclusion boundary; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the IEEE accepted version.
 - Machine-readable record: [paper.json](./paper.json)

@@ -39,7 +39,7 @@ Abstract not available in the captured sources.
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1007/s10766-019-00631-4) - published
-- [Public full text](https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf) | [PDF](https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/4212/) | [PDF](https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1007/s10766-019-00631-4](https://doi.org/10.1007/s10766-019-00631-4)
 
@@ -88,5 +88,5 @@ F. Reumont-Locke, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Methods for Tr
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1007/s10766-019-00631-4; author identity matched to Naser Ezzati-Jivan in the local research catalog; Efficient parallelization PDF pp. 1-5: CTF/Babeltrace model, partitioning, state dependencies, and proposed map/reduce design; Efficient parallelization PDF pp. 8-11: storage devices, 44,897,970-event trace, three analyses, speedups, and efficiencies; Efficient parallelization PDF pp. 11-12: decoding and State History Tree limitations and future work; local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the post-peer-review, pre-copyedit Springer version.
 - Machine-readable record: [paper.json](./paper.json)

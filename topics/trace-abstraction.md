@@ -9,5 +9,5 @@ Papers tagged **trace-abstraction**.
 - [Efficient Model to Query and Visualize the System States Extracted from Trace Data](../papers/efficient-model-query-visualize-system-states-traces/README.md) - 2013
 - [Enhanced Execution Trace Abstraction Approach Using Social Network Analysis Methods](../papers/enhanced-trace-abstraction-social-network-analysis/README.md) - 2020
 - [Integrated Modeling Tool for Indexing and Analyzing State Machine Trace](../papers/integrated-modeling-tool-state-machine-trace/README.md) - 2021
-- [Multi-scale Navigation of Large Trace Data: A Survey](../papers/multi-scale-navigation-of-large-trace-data-a-survey/README.md) - 2017
+- [Multi-scale navigation of large trace data: A survey](../papers/multi-scale-navigation-of-large-trace-data-a-survey/README.md) - 2017
 - [Multiscale Navigation in Large Trace Data](../papers/multiscale-navigation-large-trace-data/README.md) - 2014

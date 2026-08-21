@@ -4,42 +4,42 @@
 
 **Authors:** Francis Giraldeau, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** The program abstract identifies a method for profiling execution paths from sampled hardware performance counters.
+**Core contribution:** The work bridges kernel-level hardware-counter sampling and user-space interpreter state so execution-path profiling can attribute performance evidence to interpreted code.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Execution-path behavior and performance variation can be difficult to observe without relating hardware-counter activity to program paths.
+Kernel execution paths expose where distributed or heterogeneous tasks wait, but hardware-counter samples normally identify native instructions and lose the connection to interpreted-language statements; profiling inside the kernel also risks violating runtime isolation and NMI-time constraints.
 
 ### 2. Method and contribution
 
-The abstract reports counter sampling every 100,000 cycles, user-space interrupt signaling, and critical-path profiling; the exact counters, instrumentation, and analysis are not verified.
+The related public chapter uses Linux perf to receive PMU overflow notifications in the kernel NMI handler, forwards an event to user space with a signal, and implements PyPMU for CPython. User-space code records interpreter/call-stack state; LTTng-UST writes the samples to a ring buffer, while online and offline libunwind-based stack recovery are compared. The chapter also relates the profiler to kernel-trace execution paths and reports an evaluation on an Intel i7-4770 system with 16 GB RAM, Ubuntu 14.04, and Linux 3.13.
 
 ### 3. Findings and evidence
 
-The program mentions a CPython comparison, but no page-grounded metric or result is available.
+The related chapter reports 0.1% RMS profile error on its calibrated function benchmark, 2.93 microseconds average event-forwarding cost over 10^6 samples, and 4.15 microseconds for counter management and signal setup. It reports online unwinding as preferable under the tested depth limit, LTTng-UST as at least 25 times faster than built-in Python traceback recording, and approximately 25% lower trace storage in that comparison. These measurements come from the public thesis chapter and are not claimed as independently rechecked against the IEEE SysCon PDF.
 
 ### 4. Limitations and future directions
 
-**Limitations:** Full-text evidence is required to verify the counter set, overhead, workloads, baselines, and validity conditions.
+**Limitations:** The original Overleaf project contained an extraneous compile-log fragment; a separate cleanup copy removed it, recompiled successfully, and added the IEEE author-manuscript notice. The signed SysCon publication agreement and any venue-specific self-archiving wording were not independently inspected. The public full-text route remains a related 2015 thesis chapter rather than the standalone IEEE SysCon manuscript. The evaluation is centered on CPython, one Linux environment, synthetic/calibrated profiling workloads, and the reported monitoring comparisons; broader runtimes, hardware generations, and production distributed workloads remain unverified.
 
-**Future work:** The paper-specific future-work section remains unverified.
+**Future work:** The chapter identifies integration with task-execution-path extraction and Trace Compass, support for additional runtimes, replacing signals with user-level interrupts, handling signal-blocking limitations, and reducing redundant call-stack trace data as future directions.
 
 ## Abstract
 
-The official program abstract describes critical-path profiling using hardware-counter samples every 100,000 cycles, user-space interrupt signaling, and comparison with CPython behavior.
+The related public chapter describes low-intrusion execution-path profiling that forwards hardware performance-counter overflows from the kernel to user space, where a CPython profiler records interpreted-code call stacks and LTTng-UST stores the samples.
 
 ## Topics and keywords
 
 **Tags:** [performance-analysis](../../topics/performance-analysis.md) | [resource-analysis](../../topics/resource-analysis.md) | [multicore-systems](../../topics/multicore-systems.md) | [system-tracing](../../topics/system-tracing.md)
 
-**Keywords:** [execution paths](../../keywords/execution-paths.md) | hardware performance counters | critical-path profiling | CPython | sampling | SysCon 2021
+**Keywords:** [execution paths](../../keywords/execution-paths.md) | hardware performance counters | critical-path profiling | CPython | PyPMU | Linux perf | perf NMI | [LTTng-UST](../../keywords/lttng-ust.md) | libunwind | sampling | SysCon 2021
 
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1109/SYSCON48628.2021.9447121) - published
-- [Official SysCon program](https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf) - public_source_record
+- [Related public thesis chapter plus cleaned local Overleaf manuscript candidate with IEEE rights notice](https://core.ac.uk/download/pdf/213619806.pdf) | [PDF](https://core.ac.uk/download/pdf/213619806.pdf) - public_related_full_text
 
 **Canonical source:** [https://doi.org/10.1109/SYSCON48628.2021.9447121](https://doi.org/10.1109/SYSCON48628.2021.9447121)
 
@@ -82,6 +82,6 @@ F. Giraldeau, N. Ezzati-Jivan, and M. R. Dagenais, "System Execution Path Profil
 ## Record provenance
 
 - Metadata verified: 2026-08-09
-- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/SYSCON48628.2021.9447121; DBLP record: https://dblp.org/rec/conf/syscon/GiraldeauJD21; Official SysCon program: https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf; Private batch report: reports/parallel-batch-03.md
+- Summary status: full-text-grounded catalog review; author approval pending
+- Metadata sources: DOI: https://doi.org/10.1109/SYSCON48628.2021.9447121; DBLP record: https://dblp.org/rec/conf/syscon/GiraldeauJD21; Official SysCon program: https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf; Public thesis PDF, Chapter 6 pp. 93--110: https://core.ac.uk/download/pdf/213619806.pdf; Public thesis pp. 93--96: problem, PMU/perf-NMI architecture, PyPMU contributions, and interpreter boundary; Public thesis pp. 101--106: accuracy, event-forwarding cost, stack unwinding, LTTng-UST comparison, and profiling overhead; Public thesis pp. 109--110: Trace Compass integration, user-level interrupt direction, signal limitations, and conclusion; Overleaf project: https://www.overleaf.com/project/5e01a488862790000145cf86; Original Overleaf PDF: 8 pages; exact title/authors/abstract matched, but an extraneous compile-log fragment was embedded in the body; Separate cleanup Overleaf copy: source fragment replaced, IEEE author-manuscript notice added, recompiled successfully, and cleaned 8-page PDF inspected on first and final pages; Rights gate: agreement-specific SysCon self-archiving terms still require confirmation before arXiv submission; do not use the IEEE Version of Record; Private batch report: reports/parallel-batch-03.md
 - Machine-readable record: [paper.json](./paper.json)

@@ -39,7 +39,7 @@ Abstract not available in the captured sources.
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1007/s11219-016-9311-0) - published
-- [Public PolyPublie PDF](https://publications.polymtl.ca/2987/1/2017_Wininger_Declarative_framework_stateful_analysis_execution.pdf) | [PDF](https://publications.polymtl.ca/2987/1/2017_Wininger_Declarative_framework_stateful_analysis_execution.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/2987/) | [PDF](https://publications.polymtl.ca/2987/1/2017_Wininger_Declarative_framework_stateful_analysis_execution.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1007/s11219-016-9311-0](https://doi.org/10.1007/s11219-016-9311-0)
 
@@ -87,5 +87,5 @@ F. Wininger, N. Ezzati-Jivan, and M. R. Dagenais, "A declarative framework for s
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Private full PDF read: pdf-evidence/notes/declarative-framework-stateful-trace-analysis.md; Declarative-framework PDF pp. 2-7: problem, state model, State History Tree, XML language, event handlers, and filters; Declarative-framework PDF pp. 8-13: LTTng/ETW evaluation, 13.4/100 MiB traces, 25 repetitions, cross-platform examples, and resolution queries; Declarative-framework PDF p. 14: limitations and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the post-peer-review, pre-copyedit Springer version.
 - Machine-readable record: [paper.json](./paper.json)

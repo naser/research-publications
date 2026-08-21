@@ -1,4 +1,4 @@
-# Multi-scale Navigation of Large Trace Data: A Survey
+# Multi-scale navigation of large trace data: A survey
 
 **2017 | Concurrency and Computation: Practice and Experience | survey article**
 
@@ -39,7 +39,7 @@ The survey organizes abstraction and visualization techniques that help analysts
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1002/cpe.4068) - published
-- [Institutional full text](https://publications.polymtl.ca/2980/) - source_record
+- [Public institutional full text](https://publications.polymtl.ca/2980/) | [PDF](https://publications.polymtl.ca/2980/1/2017_Ezzati-Jivan_Multi-scale_navigation_large_trace_data.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1002/cpe.4068](https://doi.org/10.1002/cpe.4068)
 
@@ -59,16 +59,16 @@ Cite this paper when your work uses or compares the four-part taxonomy of conten
 
 ### APA 7
 
-Ezzati-Jivan, N., & Dagenais, M. R. (2017). Multi-scale Navigation of Large Trace Data: A Survey. Concurrency and Computation: Practice and Experience, 29(10), e4068. https://doi.org/10.1002/cpe.4068
+Ezzati-Jivan, N., & Dagenais, M. R. (2017). Multi-scale navigation of large trace data: A survey. Concurrency and Computation: Practice and Experience, 29(10), e4068. https://doi.org/10.1002/cpe.4068
 
 ### IEEE
 
-N. Ezzati-Jivan and M. R. Dagenais, "Multi-scale Navigation of Large Trace Data: A Survey," Concurrency and Computation: Practice and Experience, vol. 29, no. 10, 2017, doi: 10.1002/cpe.4068
+N. Ezzati-Jivan and M. R. Dagenais, "Multi-scale navigation of large trace data: A survey," Concurrency and Computation: Practice and Experience, vol. 29, no. 10, 2017, doi: 10.1002/cpe.4068
 
 ```bibtex
 @article{ezzatiJivan2017multiscale,
   author = {Naser Ezzati-Jivan and Michel R. Dagenais},
-  title = {Multi-scale Navigation of Large Trace Data: A Survey},
+  title = {Multi-scale navigation of large trace data: A survey},
   year = {2017},
   journal = {Concurrency and Computation: Practice and Experience},
   volume = {29},
@@ -87,5 +87,5 @@ N. Ezzati-Jivan and M. R. Dagenais, "Multi-scale Navigation of Large Trace Data:
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Survey PDF: four abstraction families, multi-level views, semantic/physical zoom, focus-plus-context, and trace-data structures; Survey PDF: Trace Compass/LTTV, Vampir, Jumpshot, TuningFork, HPCToolkit, VTune, and metric examples; Survey PDF: complementary-techniques conclusion and bidirectional-link future direction; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms.
 - Machine-readable record: [paper.json](./paper.json)

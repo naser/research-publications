@@ -38,10 +38,10 @@ Abstract not available in the captured sources.
 
 ## Versions and source links
 
-- [Published version](https://doi.org/10.1109/w-ficloud.2016.18) - published
-- [Public full text](https://publications.polymtl.ca/2988/1/2016_Biancheri_Multilayer_virtualized_systems_analysis_kernel.pdf) | [PDF](https://publications.polymtl.ca/2988/1/2016_Biancheri_Multilayer_virtualized_systems_analysis_kernel.pdf) - public_full_text
+- [Published version](https://doi.org/10.1109/W-FiCloud.2016.18) - published
+- [Public institutional full text](https://publications.polymtl.ca/2988/) | [PDF](https://publications.polymtl.ca/2988/1/2016_Biancheri_Multilayer_virtualized_systems_analysis_kernel.pdf) - public_accepted_manuscript
 
-**Canonical source:** [https://doi.org/10.1109/w-ficloud.2016.18](https://doi.org/10.1109/w-ficloud.2016.18)
+**Canonical source:** [https://doi.org/10.1109/W-FiCloud.2016.18](https://doi.org/10.1109/W-FiCloud.2016.18)
 
 ## Identifiers
 
@@ -74,7 +74,7 @@ C. Biancheri, N. Ezzati-Jivan, and M. R. Dagenais, "Multilayer Virtualized Syste
   pages = {1-6},
   publisher = {IEEE},
   doi = {10.1109/w-ficloud.2016.18},
-  url = {https://doi.org/10.1109/w-ficloud.2016.18}
+  url = {https://doi.org/10.1109/W-FiCloud.2016.18}
 }
 ```
 
@@ -84,5 +84,5 @@ C. Biancheri, N. Ezzati-Jivan, and M. R. Dagenais, "Multilayer Virtualized Syste
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/w-ficloud.2016.18; author identity matched to Naser Ezzati-Jivan in the local research catalog; Multilayer virtualization PDF pp. 1-4: problem, LTTng/KVM trace events, synchronization, State History Tree, and FVM view; Multilayer virtualization PDF pp. 4-7: process-preemption and hypervisor I/O-interruption use cases and evaluation discussion; Multilayer virtualization PDF p. 7: conclusion, reuse of tools, and parallel-analysis boundary; local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the IEEE accepted version.
 - Machine-readable record: [paper.json](./paper.json)

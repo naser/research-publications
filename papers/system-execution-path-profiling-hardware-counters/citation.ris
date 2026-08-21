@@ -5,7 +5,7 @@ AU  - Dagenais, Michel R.
 TI  - System Execution Path Profiling Using Hardware Performance Counters
 PY  - 2021
 T2  - 2021 IEEE International Systems Conference (SysCon)
-AB  - The official program abstract describes critical-path profiling using hardware-counter samples every 100,000 cycles, user-space interrupt signaling, and comparison with CPython behavior.
+AB  - The related public chapter describes low-intrusion execution-path profiling that forwards hardware performance-counter overflows from the kernel to user space, where a CPython profiler records interpreted-code call stacks and LTTng-UST stores the samples.
 SP  - 1
 EP  - 8
 PB  - IEEE

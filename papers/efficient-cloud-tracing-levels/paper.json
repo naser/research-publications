@@ -2,7 +2,7 @@
   "schema_version": "0.6.0",
   "paper_id": "efficient-cloud-tracing-levels",
   "page_url": "https://naser.github.io/research-publications/papers/efficient-cloud-tracing-levels/",
-  "title": "Efficient Cloud Tracing: From Very High Level to Very Low Level",
+  "title": "Efficient cloud tracing: From very high level to very low level",
   "title_variants": [],
   "authors": [
     "Yves J. Bationo",
@@ -43,8 +43,8 @@
     "crossref_type": "proceedings-article"
   },
   "publication_type": "research paper",
-  "status": "published_with_public_full_text",
-  "canonical_source_url": "https://doi.org/10.1109/icce.2018.8326353",
+  "status": "public_accepted_manuscript",
+  "canonical_source_url": "https://doi.org/10.1109/ICCE.2018.8326353",
   "source_record_id": "efficient-cloud-tracing-from-very-high-level-to-very-low-level-eeebe3d16a",
   "identifiers": {
     "doi": "10.1109/icce.2018.8326353"
@@ -67,22 +67,13 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "Crossref and local DBLP/venue metadata for 10.1109/icce.2018.8326353"
+        "note": "PolyPublie repository record identity matched to the catalog title and author record"
       },
       {
-        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+        "note": "public PDF downloaded locally and %PDF- signature verified"
       },
       {
-        "note": "Efficient cloud tracing PDF pp. 1-5: OpenStack/Nova, QEMU/KVM, LTTng, Trace Compass, and cross-layer model"
-      },
-      {
-        "note": "Efficient cloud tracing PDF pp. 5-6: live-migration procedure, interference conditions, and Table III results"
-      },
-      {
-        "note": "Efficient cloud tracing PDF p. 7: network-evidence limitation and proposed Neutron/OpenDaylight future work"
-      },
-      {
-        "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+        "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
       }
     ]
   },
@@ -116,26 +107,26 @@
       "id": "published-version",
       "label": "Published version",
       "relation": "version-of-record",
-      "title": "Efficient Cloud Tracing: From Very High Level to Very Low Level",
-      "url": "https://doi.org/10.1109/icce.2018.8326353",
+      "title": "Efficient cloud tracing: From very high level to very low level",
+      "url": "https://doi.org/10.1109/ICCE.2018.8326353",
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
     },
     {
-      "id": "public-full-text",
-      "label": "Public full text",
-      "relation": "source-record",
-      "title": "Efficient Cloud Tracing: From Very High Level to Very Low Level",
-      "url": "https://publications.polymtl.ca/4201/1/2018_Bationo_Efficient_cloud_tracing_very_high.pdf",
+      "id": "public-institutional-full-text",
+      "label": "Public institutional full text",
+      "relation": "accepted-manuscript",
+      "title": "Efficient cloud tracing: From very high level to very low level",
+      "url": "https://publications.polymtl.ca/4201/",
       "pdf_url": "https://publications.polymtl.ca/4201/1/2018_Bationo_Efficient_cloud_tracing_very_high.pdf",
-      "status": "public_full_text",
+      "status": "public_accepted_manuscript",
       "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_with_public_full_text",
-    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
+    "status": "public_accepted_manuscript",
+    "note": "PolyPublie cover sheet identifies this as the IEEE accepted version.",
     "license": null
   },
   "resources": {
@@ -156,12 +147,9 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "Crossref and local DBLP/venue metadata for 10.1109/icce.2018.8326353",
-      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "Efficient cloud tracing PDF pp. 1-5: OpenStack/Nova, QEMU/KVM, LTTng, Trace Compass, and cross-layer model",
-      "Efficient cloud tracing PDF pp. 5-6: live-migration procedure, interference conditions, and Table III results",
-      "Efficient cloud tracing PDF p. 7: network-evidence limitation and proposed Neutron/OpenDaylight future work",
-      "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      "PolyPublie repository record identity matched to the catalog title and author record",
+      "public PDF downloaded locally and %PDF- signature verified",
+      "PolyPublie cover sheet identifies this as the IEEE accepted version."
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",
