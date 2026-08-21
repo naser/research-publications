@@ -50,40 +50,40 @@
     "doi": "10.1109/ACDSA65407.2025.11166430"
   },
   "abstract": null,
-  "abstract_source": null,
+  "abstract_source": "OpenAlex abstract metadata and IEEE record reviewed; abstract not reproduced because reuse permission for the publisher version was not established.",
   "abstract_available": false,
   "scholar_eligibility": {
     "eligible": false,
     "basis": "not-eligible",
     "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
   },
-  "description": "The verified record identifies this work as a 2025 ACDSA paper on semantic video retrieval, but the full technical contribution was not available in the captured sources.",
+  "description": "The paper presents an AI video-retrieval pipeline that combines speech transcription, frame captioning, multimodal embeddings, and timestamped semantic search.",
   "evidence_level": "metadata-or-abstract-reviewed",
   "evidence": {
-    "source_basis": "metadata-only",
-    "coverage": "bibliographic metadata",
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
-    "verified_on": "2026-08-09",
+    "verified_on": "2026-08-21",
     "sources": [
       {
         "note": "IEEE record: https://ieeexplore.ieee.org/document/11166430/"
       },
       {
-        "note": "DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430"
+        "note": "DOI record: https://doi.org/10.1109/ACDSA65407.2025.11166430"
       },
       {
-        "note": "Additional review evidence was used; working files are not distributed"
+        "note": "OpenAlex abstract metadata reviewed for method and claimed qualitative findings; full text still needed"
       }
     ]
   },
   "summary": {
-    "core_contribution": "The verified record identifies this work as a 2025 ACDSA paper on semantic video retrieval, but the full technical contribution was not available in the captured sources.",
-    "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
-    "method": "No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.",
-    "findings": "No page-grounded quantitative or qualitative findings were verified in this audit.",
-    "limitations": "The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.",
-    "future_work": "The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained."
+    "core_contribution": "The paper presents an AI video-retrieval pipeline that combines speech transcription, frame captioning, multimodal embeddings, and timestamped semantic search.",
+    "problem": "Keyword-based and manually tagged video search cannot reliably retrieve segments that semantically match natural-language queries, while multimodal indexing must remain usable for real-time uploads and scalable retrieval.",
+    "method": "The public abstract describes Whisper-Timestamped for speech transcription, BLIP for frame captioning, Sentence Transformers for embedding generation, Django for application integration, and TXTAI for indexing. Uploaded videos are transcribed, sampled frames are captioned, and the multimodal information is organized as JSON for semantic retrieval.",
+    "findings": "The abstract reports improved retrieval relevance, timestamp precision, and usability relative to traditional search. It does not expose dataset size, baselines, or numeric scores in the captured public record.",
+    "limitations": "The complete paper was not obtained, so the video corpus, sampling rate, embedding configuration, evaluation protocol, and error analysis remain unverified.",
+    "future_work": "The abstract identifies OCR, object detection, and action recognition as extension directions; the paper-specific future-work section remains unverified."
   },
   "tags": [
     "multimodal-ai",
@@ -131,19 +131,20 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when combining speech, frame captions, and sentence embeddings for timestamped semantic video retrieval.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "Whisper-Timestamped speech transcription and BLIP frame captioning in one retrieval pipeline.",
+      "Sentence Transformer embeddings with JSON/TXTAI indexing for natural-language video search.",
+      "Timestamp precision and multimodal retrieval relevance in an integrated Django system."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-09",
+    "metadata_verified_on": "2026-08-21",
     "metadata_source": [
       "IEEE record: https://ieeexplore.ieee.org/document/11166430/",
-      "DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430",
-      "Additional review evidence was used; working files are not distributed"
+      "DOI record: https://doi.org/10.1109/ACDSA65407.2025.11166430",
+      "OpenAlex abstract metadata reviewed for method and claimed qualitative findings; full text still needed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",

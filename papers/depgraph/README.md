@@ -85,5 +85,5 @@ N. Ezzati-Jivan, Q. Fournier, M. R. Dagenais, and A. Hamou-Lhadj, "DepGraph: Loc
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
+- Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3; local PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

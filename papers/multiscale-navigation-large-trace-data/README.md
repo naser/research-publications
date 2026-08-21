@@ -4,27 +4,27 @@
 
 **Authors:** Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** The abstract presents multiscale navigation for large trace data through hierarchical storage and interactive zoomable visualization.
+**Core contribution:** The paper organizes large trace logs hierarchically and provides an interactive zoomable timeline for navigating between coarse and detailed levels of trace information.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Trace logs can be too large for direct inspection, so analysts need to move between coarse and detailed views without loading or rendering everything at once.
+Very large traces are difficult to inspect directly; analysts need to start with an overview and move to lower-level evidence without rendering or loading every event at once.
 
 ### 2. Method and contribution
 
-At abstract level, the approach uses hierarchical trace-log management, an interactive zoomable timeline, and semantic and physical zoom operations.
+The public abstract describes hierarchical trace-log management, semantic/data zooming, physical/visual zooming, and a timeline view that displays a coarser layer first before navigation into finer layers. Institutional metadata connects the approach to state-system modeling.
 
 ### 3. Findings and evidence
 
-The abstract supports the navigation concept but provides no page-grounded scalability or usability metric.
+The public abstract reports an interactive multilevel navigation view, but no page-grounded trace size, latency, usability, or comparison result was available.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The storage implementation, trace format, dataset size, interaction study, and performance measurements remain unverified.
+**Limitations:** The full paper was not obtained; the hierarchy construction, trace format, aggregation policy, rendering cost, and evaluation protocol remain unverified.
 
-**Future work:** The paper-specific future-work section remains unverified.
+**Future work:** Obtain the accepted manuscript or paper PDF and verify the authors' future work, especially scalability, bidirectional drill-down, and interactive evaluation.
 
 ## Abstract
 
@@ -49,10 +49,11 @@ The accessible abstract describes hierarchical trace-log management with an inte
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when navigating large trace logs through hierarchical data and semantic/physical zooming.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Coarse-layer-first trace exploration with an interactive zoomable timeline.
+- Semantic/data zooming separated from physical/visual zooming.
+- Hierarchical trace navigation as a precursor to drill-down performance diagnosis.
 
 ## Citation
 
@@ -81,7 +82,7 @@ N. Ezzati-Jivan and M. R. Dagenais, "Multiscale Navigation in Large Trace Data,"
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: PolyPublie record: https://publications.polymtl.ca/12410/; DOI: https://doi.org/10.1109/CCECE.2014.6901019; DBLP record: https://dblp.org/rec/conf/ccece/JivanD14.html; Additional review evidence was used; working files are not distributed
+- Metadata sources: DOI: https://doi.org/10.1109/CCECE.2014.6901019; Public abstract mirror: https://www.researchgate.net/publication/289982421_Efficient_Model_to_Query_and_Visualize_the_System_States_Extracted_from_Trace_Data; Institutional archive: https://ahls.dorsal.polymtl.ca/node/179.html; Full paper PDF still needed for page-grounded technical and quantitative enrichment
 - Machine-readable record: [paper.json](./paper.json)

@@ -67,7 +67,7 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "Full text was reviewed; working copy is not distributed"
+        "note": "Private full PDF read: pdf-evidence/notes/network-analysis-microservices-alibaba.md"
       },
       {
         "note": "Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering"
@@ -76,7 +76,7 @@
         "note": "Network-analysis PDF pp. 3-5: structural findings, limitations, future work, and implementation repository"
       },
       {
-        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
       }
     ]
   },
@@ -153,10 +153,10 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "Full text was reviewed; working copy is not distributed",
+      "Private full PDF read: pdf-evidence/notes/network-analysis-microservices-alibaba.md",
       "Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering",
       "Network-analysis PDF pp. 3-5: structural findings, limitations, future work, and implementation repository",
-      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

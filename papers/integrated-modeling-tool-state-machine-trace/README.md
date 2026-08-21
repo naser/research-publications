@@ -4,27 +4,27 @@
 
 **Authors:** Simon Delisle, Naser Ezzati-Jivan, Michel R. Dagenais
 
-**Core contribution:** The abstract presents an integrated tool for indexing, querying, and visualizing state-machine traces.
+**Core contribution:** The paper presents a state-machine modeling tool for creating user-defined, data-driven trace analyses from combined kernel-space and user-space execution events.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Built-in trace analyses and XML specifications can be inflexible or difficult for analysts to write and maintain. The paper presents a user-oriented model-driven way to define state-machine analyses for Trace Compass without repeatedly implementing Java/XML analysis logic.
+Comprehensive execution tracing creates large files containing irrelevant events, while existing user-defined analysis tools can require complex domain-specific scripts and make it difficult to specify exactly what to capture.
 
 ### 2. Method and contribution
 
-The tool is an EMF/Graphiti plugin for Trace Compass. Analysts define a UML-style subset of state machines with states, transitions, event conditions, and Boolean AND/OR/NOT expressions; the tool translates the model to an analysis representation over the disk-based State History Tree. It supports LTTng and LTTng-UST Common Trace Format events and can combine kernel and user-level state histories in views.
+The public abstract describes a state-machine model that combines kernel and user-space events to automatically generate event-based analyses for user requirements. The tool is designed to simplify analysis creation and supports multi-level dynamic tracing in Linux-kernel use cases.
 
 ### 3. Findings and evidence
 
-A Linux kernel use case defines 14 states, 36 transitions, and 9 conditions; the corresponding XML representation contains 525 attributes while the graphical model contains 594. A Trace Compass internal-request use case defines 7 states, 11 transitions, and 5 conditions; its XML contains 196 attributes versus 261 in the model. A custom model identifies requests that enter a never-ending/bad state and provides a user-facing visualization without recompiling the traced application.
+The authors report demonstrations of efficiency, effectiveness, and simplicity through real multi-level dynamic execution-tracing use cases. The captured public metadata does not expose the event schema, storage engine, workload, or numeric results.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The evaluation is qualitative and consists of two use cases. It does not establish broad performance, usability, or model-authoring benchmarks, and the current tool still transforms the graphical model into XML internally. The paper's examples show expressiveness and workflow value rather than automated root-cause accuracy.
+**Limitations:** The complete paper was not obtained; exact model semantics, supported tracers, data structures, evaluation protocol, and reproducibility artifacts remain unverified.
 
-**Future work:** The authors propose trace validation, highlighting the events and transitions responsible for state changes, better model/file management, direct model execution instead of XML conversion, and model-validation support.
+**Future work:** Verify the paper-specific future-work section and evaluate the modeling workflow on larger traces, more operating systems, and analysts with different levels of tracing expertise.
 
 ## Abstract
 
@@ -39,7 +39,7 @@ The accessible abstract describes a modeled state representation with a special-
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1109/ISNCC52172.2021.9615814) - published
-- [DBLP record](https://dblp.org/rec/conf/isncc/DelisleED21) - public_source_record
+- [PolyPublie institutional publication record](https://publications.polymtl.ca/50159/) - public_source_record
 
 **Canonical source:** [https://doi.org/10.1109/ISNCC52172.2021.9615814](https://doi.org/10.1109/ISNCC52172.2021.9615814)
 
@@ -49,12 +49,11 @@ The accessible abstract describes a modeled state representation with a special-
 
 ## When to cite this paper
 
-Cite this paper when using graphical state-machine models to define Trace Compass analyses over LTTng/CTF traces.
+Cite this paper when building user-defined state-machine analyses over combined kernel and user-space execution traces.
 
-- For a Graphiti/EMF model-driven alternative to hand-authored XML trace analyses.
-- For Boolean transition conditions and State History Tree-backed state-machine views.
-- For the kernel and internal-request use cases and their model/XML size comparison.
-- For trace validation, bad-state detection, and user-facing model-based analysis.
+- State-machine modeling for data-driven trace analysis.
+- Automatic generation of event-based analyses from user requirements.
+- Multi-level Linux kernel tracing use cases with the detailed implementation boundary marked as pending.
 
 ## Citation
 
@@ -83,7 +82,7 @@ S. Delisle, N. Ezzati-Jivan, and M. R. Dagenais, "Integrated Modeling Tool for I
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
-- Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Exact author manuscript/submitted-paper PDF reviewed for the published record: Integrated Modeling Tool for Indexing and Analyzing State Machine Trace, DOI 10.1109/ISNCC52172.2021.9615814.; Graphiti/EMF design, LTTng/CTF support, State History Tree integration, both use cases, and the model/XML attribute counts were checked against the inspected paper.
+- Metadata verified: 2026-08-21
+- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
+- Metadata sources: DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814; PolyPublie institutional record: https://publications.polymtl.ca/50159/; OpenAlex abstract metadata reviewed for state-machine modeling and multi-level kernel/user-space analysis; full text still needed
 - Machine-readable record: [paper.json](./paper.json)

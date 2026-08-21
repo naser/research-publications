@@ -28,7 +28,7 @@ The case study localized application-level session/statistics work and disk queu
 
 ## Abstract
 
-Abstract not available in the captured sources.
+Root cause identification of performance degradation within distributed systems is often a difficult and time-consuming task, yet it is crucial for maintaining high performance. In this paper, we present an execution trace-driven solution that reduces the efforts required to investigate, debug, and solve performance problems found in multinode distributed systems. The proposed approach employs a unified analysis method to represent trace data collected from the user-space level to the hardware level of involved nodes, allowing for efficient and effective root cause analysis. This solution works by extracting performance metrics and state information from trace data collected at user-space, kernel, and network levels. The multisource trace data is then synchronized and structured in a multidimensional data store, which is designed specifically for this kind of data. A posteriori analysis using a top-down approach is then used to investigate performance problems and detect their root causes. In this paper, we apply this generic framework to analyze trace data collected from the execution of the web server, database server, and application servers in a distributed LAMP (Linux, Apache, MySQL, and PHP) Stack. Using industrial level use cases, we show that the proposed framework can investigate root causes, address unusual latency, and improve base latency by 70%. This is achieved with minimal tracing overhead that does not significantly impact performance, together with O(log n) query response times for efficient analysis.
 
 ## Topics and keywords
 
@@ -90,7 +90,7 @@ N. Ezzati-Jivan, H. Daoud, and M. R. Dagenais, "Debugging of Performance Degrada
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Full text was reviewed; working copy is not distributed; Debugging paper pp. 1-10: LTTng, LAMP probes, multihost synchronization, State History Tree, data model, and top-down algorithm; Debugging paper pp. 11-13: MediaWiki/WordPress/MariaDB and unusual-latency use cases, cache analysis, and disk contention diagnosis; Debugging paper pp. 14-16: ApacheBench environment, tracing overhead, state-store/PostgreSQL comparison, conclusion, and future work; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
+- Metadata sources: Official Wiley article and abstract: https://onlinelibrary.wiley.com/doi/10.1155/2021/8478076; Crossref license metadata identifies CC BY 4.0: https://api.crossref.org/works/10.1155%2F2021%2F8478076; Full paper evidence ledger and local PDF hash verified in pdf-evidence/notes/debugging-performance-degradation-distributed-requests.md
 - Machine-readable record: [paper.json](./paper.json)

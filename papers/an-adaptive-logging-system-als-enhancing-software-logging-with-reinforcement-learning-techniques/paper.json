@@ -76,7 +76,7 @@
         "note": "ICPE ALS PDF: Python/dynamic-feature/agent-scope limitations and stated future work"
       },
       {
-        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
       }
     ]
   },
@@ -161,7 +161,7 @@
       "ICPE ALS PDF: Python AST, GitHub/PyGithub/git, 12 static features, bug classes, Stable-Baselines, and DQN/A2C/PPO selection",
       "ICPE ALS PDF: 17 Apache/Django projects, 93,484 functions, 4,235 files, eight-episode evaluation, and reward stability findings",
       "ICPE ALS PDF: Python/dynamic-feature/agent-scope limitations and stated future work",
-      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

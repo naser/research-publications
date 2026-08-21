@@ -5,6 +5,7 @@ AU  - Ezzati-Jivan, Naser
 TI  - Optimization Strategies for Enhancing Resource Efficiency in Transformers & Large Language Models
 PY  - 2025
 T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+AB  - Advancements in Natural Language Processing are heavily reliant on the Transformer architecture, whose improvements come at substantial resource costs due to ever-growing model sizes. This study explores optimization techniques, including Quantization, Knowledge Distillation, and Pruning, focusing on energy and computational efficiency while retaining performance. Among standalone methods, 4-bit Quantization significantly reduces energy use with minimal accuracy loss. Hybrid approaches, like NVIDIA's Minitron approach combining KD and Structured Pruning, further demonstrate promising trade-offs between size reduction and accuracy retention. A novel optimization equation is introduced, offering a flexible framework for comparing various methods. Through the investigation of these compression methods, we provide valuable insights for developing more sustainable and efficient LLMs, shining a light on the often-ignored concern of energy efficiency.
 SP  - 105
 EP  - 112
 PB  - ACM

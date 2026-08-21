@@ -82,7 +82,7 @@
         "note": "Zenodo dataset DOI and author-hosted PDF recorded as public resources"
       },
       {
-        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
       }
     ]
   },
@@ -164,7 +164,7 @@
       "ICPC log-parsing-errors PDF: four LogHub datasets, four parsers, 8,000 labelled events, nine categories, and error-count method",
       "ICPC log-parsing-errors PDF: 523 errors, 65.51% tokenization-related share, 28.5% regex share, per-category values, and HealthApp/OpenStack examples",
       "Zenodo dataset DOI and author-hosted PDF recorded as public resources",
-      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

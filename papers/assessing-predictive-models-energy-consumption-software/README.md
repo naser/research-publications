@@ -4,27 +4,27 @@
 
 **Authors:** Tong Zhang, Sarwat Islam Dipanzan, Leila Tahmooresnejad, Naser Ezzati-Jivan
 
-**Core contribution:** The verified record identifies this work as a 2024 IEEE Big Data paper on software energy prediction, but the full technical contribution was not available in the captured sources.
+**Core contribution:** The paper evaluates software-energy prediction models that combine performance-counter events and system-call data across varied software environments.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.
+Energy models can change substantially with feature selection, operating-system behavior, and the target application, making cross-application energy prediction difficult to trust.
 
 ### 2. Method and contribution
 
-No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.
+The public abstract describes linear regression, multilayer perceptrons, and random forests calibrated against empirical energy measurements obtained with Perf. The study compares event-based and other feature representations across multiple software scenarios and evaluates performance on unseen datasets.
 
 ### 3. Findings and evidence
 
-No page-grounded quantitative or qualitative findings were verified in this audit.
+The abstract reports robust prediction across diverse scenarios and particularly promising transfer to unseen datasets for event-based models, while cross-application efficacy remains challenging. The captured public record does not expose exact scores, hardware, or workload counts.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.
+**Limitations:** The full paper was not obtained, so the energy-measurement setup, counter set, operating systems, model hyperparameters, and cross-application split remain unverified.
 
-**Future work:** The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained.
+**Future work:** The abstract leaves cross-application generalization as an open issue; the paper-specific future-work section and independent reproduction requirements remain to be reviewed from the full text.
 
 ## Abstract
 
@@ -49,10 +49,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when evaluating software-energy models built from Perf counters and system-call features across applications.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Linear regression, multilayer perceptron, and random-forest energy predictors.
+- Calibration against empirical Perf-based energy measurements.
+- Cross-application and unseen-dataset generalization limits for event-based models.
 
 ## Citation
 
@@ -81,7 +82,7 @@ T. Zhang, S. I. Dipanzan, L. Tahmooresnejad, and N. Ezzati-Jivan, "Assessing Pre
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/10825500/; DOI: https://doi.org/10.1109/BigData62323.2024.10825500; Additional review evidence was used; working files are not distributed
+- Metadata sources: IEEE record and DOI: https://doi.org/10.1109/BigData62323.2024.10825500; Public ResearchGate record with abstract context: https://www.researchgate.net/publication/388090793_Assessing_Predictive_Models_for_Energy_Consumption_Across_Varied_Software_Environments; OpenAlex abstract metadata reviewed for model families, Perf calibration, and cross-application findings; full text still needed
 - Machine-readable record: [paper.json](./paper.json)

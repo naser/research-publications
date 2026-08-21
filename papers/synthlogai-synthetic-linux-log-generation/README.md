@@ -4,27 +4,27 @@
 
 **Authors:** Hridoy Rahman, Naser Ezzati-Jivan, Blessing Ogbuokiri
 
-**Core contribution:** The verified record identifies this work as a 2025 CASCON paper on generative AI for Linux logs, but the full technical contribution was not available in the captured sources.
+**Core contribution:** SynthLogAI benchmarks generative models for producing synthetic Linux kernel logs from LTTng traces, comparing fidelity, utility, and privacy trade-offs across model families.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.
+System-log data can be difficult to share because of privacy and operational sensitivity, yet reproducible testing and training require realistic synthetic logs with preserved structure and useful event behavior.
 
 ### 2. Method and contribution
 
-No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.
+The public summary describes CTGAN, LSTM, and GPT-2 models trained on LTTng traces, alongside prompt-based GPT-3.5 Turbo, GPT-4.1 Mini, and o4 Mini systems. Evaluation uses event sets of 1K, 10K, and 100K records and compares fidelity, utility, and privacy.
 
 ### 3. Findings and evidence
 
-No page-grounded quantitative or qualitative findings were verified in this audit.
+The public summary reports that CTGAN offers the best balance of fidelity and utility, while LLMs provide stronger privacy but exhibit numeric drift and structural inconsistencies. The full paper is needed for exact metrics, preprocessing, baselines, and statistical testing.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.
+**Limitations:** The publisher PDF was not obtained; the available evidence is a public abstract mirror and author presentation summary. Model prompts, trace schema, evaluation metrics, and generalization across kernels/workloads remain unverified.
 
-**Future work:** The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained.
+**Future work:** Obtain the author or accepted manuscript and verify the benchmark protocol, additional trace distributions, privacy tests, and downstream log-analysis utility.
 
 ## Abstract
 
@@ -49,10 +49,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when benchmarking generative models for privacy-aware synthetic Linux or LTTng log generation.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Comparison of CTGAN, LSTM, GPT-2, and prompt-based LLMs for synthetic kernel logs.
+- Fidelity, utility, and privacy as separate evaluation dimensions.
+- The 1K/10K/100K event-scale comparison and the reported CTGAN-versus-LLM trade-off.
 
 ## Citation
 
@@ -81,7 +82,7 @@ H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "SynthLogAI: Generative AI for Syn
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344303/; CASCON schedule: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation; Additional review evidence was used; working files are not distributed
+- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344303/; CASCON 2025 paper page: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation; Public abstract mirror with model families, event sizes, and qualitative results: https://eurekamag.com/research/104/995/104995750.php; Author presentation summary reviewed; full paper still needed
 - Machine-readable record: [paper.json](./paper.json)

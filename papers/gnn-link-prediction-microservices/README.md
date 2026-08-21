@@ -28,7 +28,7 @@ On the evaluated Alibaba 2022 Cluster Trace slice, the proposed temporal GAT rep
 
 ## Abstract
 
-Abstract not available in the captured sources.
+Managing microservice architectures in distributed systems is complex and resource intensive due to the high frequency and dynamic nature of inter service interactions. Accurate prediction of these future interactions can enhance adaptive monitoring, enabling proactive maintenance and resolution of potential performance issues before they escalate. This study introduces a Graph Neural Network (GNN) based approach, specifically using a Graph Attention Network (GAT), for link prediction in microservice Call Graphs. Unlike social networks, where interactions tend to occur sporadically and are often less frequent, microservice Call Graphs involve highly frequent and time sensitive interactions that are essential to operational performance. Our approach leverages temporal segmentation, advanced negative sampling, and GATs attention mechanisms to model these complex interactions accurately. Using real world data, we evaluate our model across performance metrics such as AUC, Precision, Recall, and F1 Score, demonstrating its high accuracy and robustness in predicting microservice interactions. Our findings support the potential of GNNs for proactive monitoring in distributed systems, paving the way for applications in adaptive resource management and performance optimization.
 
 ## Topics and keywords
 
@@ -83,7 +83,7 @@ G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2501.15019; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
+- Metadata sources: Official arXiv abstract and metadata: https://arxiv.org/abs/2501.15019; ACM DOI record: https://doi.org/10.1145/3676151.3719362; Local paper PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

@@ -4,27 +4,27 @@
 
 **Authors:** Mohammed Adib Khan, Naser Ezzati-Jivan
 
-**Core contribution:** The accessible synopsis identifies a multi-level adaptive tracing approach that changes tracing intensity using time-series performance trends.
+**Core contribution:** The paper proposes adaptive execution tracing that chooses both which components to instrument and when to collect them, aiming to retain diagnostic coverage while reducing noise and overhead.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Always-on detailed tracing can impose overhead, while coarse tracing may miss performance changes; adaptive levels aim to balance coverage and cost.
+Fixed tracing instrumentation can miss the component that contains a performance problem, while broad always-on coverage produces unnecessary trace volume and noise.
 
 ### 2. Method and contribution
 
-Only the high-level dynamic kernel/application tracing and trend-based adaptation are verified. The event set, trigger policy, workload, and measurement protocol require the paper.
+The public abstract frames the approach around kernel- and user-space tracing using tools such as ftrace, strace, DTrace, or LTTng. The proposed controller dynamically decides the tracing scope and timing rather than applying a preset instrumentation policy.
 
 ### 3. Findings and evidence
 
-The available synopsis signals low-overhead intent but provides no page-grounded numeric result.
+The case-study synopsis reports dynamic handling of kernel- and application-level instrumentation with low overhead, but no numeric overhead, workload, trigger rule, or accuracy result was available in the captured sources.
 
 ### 4. Limitations and future directions
 
-**Limitations:** Full-text evidence is required to verify the tracer, adaptation thresholds, baseline, workload, and external validity.
+**Limitations:** The full paper was not obtained; tracer implementation, adaptation thresholds, state representation, workload coverage, and comparison against fixed tracing remain unverified.
 
-**Future work:** The paper-specific future-work section remains unverified.
+**Future work:** Verify the paper-specific future-work section and evaluate adaptation under rare faults, changing workloads, and multi-host distributed traces.
 
 ## Abstract
 
@@ -49,10 +49,11 @@ The available program synopsis describes dynamic kernel/application tracing guid
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when selecting both tracing scope and collection timing dynamically across kernel and application layers.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Adaptive decisions about what to trace and when to trace.
+- The coverage-versus-noise trade-off in fixed kernel/application instrumentation.
+- Low-overhead adaptive tracing as an abstract-level result pending full-text verification.
 
 ## Citation
 
@@ -85,7 +86,7 @@ M. A. Khan and N. Ezzati-Jivan, "Multi-level Adaptive Execution Tracing for Effi
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/SERA57763.2023.10197790; DBLP record: https://dblp.org/rec/conf/sera/KhanE23; SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf; Additional review evidence was used; working files are not distributed
+- Metadata sources: DOI: https://doi.org/10.1109/SERA57763.2023.10197790; DBLP record: https://dblp.org/rec/conf/sera/KhanE23; SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf; OpenAlex abstract metadata reviewed for adaptive scope/timing and low-overhead claim; full text still needed
 - Machine-readable record: [paper.json](./paper.json)

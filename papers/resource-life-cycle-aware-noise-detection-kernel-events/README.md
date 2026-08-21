@@ -4,27 +4,27 @@
 
 **Authors:** Morteza Noferesti, Ben Grandy, Naser Ezzati-Jivan
 
-**Core contribution:** The accessible synopsis identifies a passive kernel-event approach for detecting noise by aligning resource request life cycles.
+**Core contribution:** The work detects and localizes performance noise by passively monitoring kernel events and aligning CPU, disk, and network activity with each resource request's life cycle.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Performance observations can contain resource-related noise that is difficult to distinguish without correlating low-level request activity across CPU, disk, and network resources.
+Noise sources have different causes and phases, but intrusive monitoring can alter the execution being measured and aggregate metrics can hide the exact phase responsible for the disturbance.
 
 ### 2. Method and contribution
 
-Only the high-level passive-monitoring and resource-life-cycle alignment idea is verified. The exact tracer, event set, detector, workload, and ground truth are not asserted.
+The public abstract describes passive kernel-event collection without modifying system execution, computation of resource metrics aligned with request life-cycle phases, and visualization for pattern, anomaly, and root-cause inspection across CPU, disk, and network requests.
 
 ### 3. Findings and evidence
 
-No page-grounded metric or quantitative result was available in the captured sources.
+The abstract reports validation across diverse test cases and claims efficient, accurate identification of noise and its responsible life-cycle phase. Numeric accuracy, workloads, event set, and ground truth are not exposed in the captured public sources.
 
 ### 4. Limitations and future directions
 
-**Limitations:** Full-text evidence is required to verify implementation, evaluation scope, detector thresholds, and external validity.
+**Limitations:** The publisher PDF was not obtained, so the tracer/version, resource-event definitions, injected-noise protocol, baselines, and external validity remain unverified.
 
-**Future work:** The paper-specific future-work section remains unverified.
+**Future work:** Obtain the paper or accepted manuscript and verify the detector thresholds, workload diversity, real-time behavior, and author-stated future work.
 
 ## Abstract
 
@@ -49,10 +49,11 @@ The available synopsis describes passive kernel-event monitoring and alignment o
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when aligning passive kernel-event evidence with CPU, disk, and network request life cycles for noise diagnosis.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Non-intrusive kernel-event collection for performance-noise detection.
+- Resource life-cycle phases as the unit of noise localization.
+- Visualization-supported identification of the phase responsible for a resource disturbance.
 
 ## Citation
 
@@ -81,7 +82,7 @@ M. Noferesti, B. Grandy, and N. Ezzati-Jivan, "Resource Life-Cycle Aware Noise D
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838205; CASCON program: https://iccsse.github.io/CASCON2024/program/; J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217419132863; Additional review evidence was used; working files are not distributed
+- Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838205; CASCON 2024 program: https://iccsse.github.io/CASCON2024/program/; Public author synopsis: https://ca.linkedin.com/in/bengrandy; OpenAlex abstract metadata reviewed for passive monitoring and life-cycle method; full text still needed
 - Machine-readable record: [paper.json](./paper.json)

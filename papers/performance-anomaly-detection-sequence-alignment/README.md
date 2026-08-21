@@ -85,5 +85,5 @@ M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Performance Anomaly Detection 
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Full text was reviewed; working copy is not distributed; Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment; Performance-anomaly PDF pp. 8-10: VirtualBox/Ubuntu/LTTng environment, overhead, Python case, Docker case, and diagnosis; Performance-anomaly PDF p. 10: conclusion and future work; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
+- Metadata sources: Private full PDF read: pdf-evidence/notes/performance-anomaly-detection-sequence-alignment.md; Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment; Performance-anomaly PDF pp. 8-10: VirtualBox/Ubuntu/LTTng environment, overhead, Python case, Docker case, and diagnosis; Performance-anomaly PDF p. 10: conclusion and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

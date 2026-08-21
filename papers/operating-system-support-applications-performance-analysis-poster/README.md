@@ -4,27 +4,27 @@
 
 **Authors:** Riley VanDonge, Naser Ezzati-Jivan
 
-**Core contribution:** The verified record identifies this work as a 2022 IC2E poster paper on operating-system support for performance analysis, but the full technical contribution was not available in the captured sources.
+**Core contribution:** The poster presents system-level execution tracing for detecting the One-Lane Bridge performance antipattern in multithreaded applications.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.
+Existing performance-antipattern detection may not examine operating-system-wide resources and can therefore rely on imprecise metrics when diagnosing multithreaded performance problems.
 
 ### 2. Method and contribution
 
-No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.
+The public abstract describes a system-level execution-tracing method that observes operating-system resources and applies it to an open-source multithreaded application. The exact tracer, event set, critical-path analysis, and classification rule require the poster or paper text.
 
 ### 3. Findings and evidence
 
-No page-grounded quantitative or qualitative findings were verified in this audit.
+The reported case study diagnoses performance issues in the target application, but the public abstract does not expose the workload parameters or quantitative results.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.
+**Limitations:** This is a poster paper and the full text was not obtained; implementation details, measurements, and threat-to-validity boundaries remain unverified.
 
-**Future work:** The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained.
+**Future work:** Obtain the poster PDF and verify the authors' future work, then evaluate the method across additional One-Lane Bridge cases and operating-system configurations.
 
 ## Abstract
 
@@ -49,10 +49,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this poster when applying system-level execution tracing to One-Lane Bridge performance-antipattern detection.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Operating-system-wide evidence rather than application-only performance metrics.
+- System-level tracing of a multithreaded open-source application.
+- A poster-level One-Lane Bridge diagnosis whose detailed measurements require the source PDF.
 
 ## Citation
 
@@ -81,7 +82,7 @@ R. VanDonge and N. Ezzati-Jivan, "Poster Paper: Operating System Support for App
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/IC2E55432.2022.00039; DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22; Additional review evidence was used; working files are not distributed
+- Metadata sources: DOI: https://doi.org/10.1109/IC2E55432.2022.00039; DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22; OpenAlex abstract metadata reviewed for the system-level tracing and One-Lane Bridge case; full text still needed
 - Machine-readable record: [paper.json](./paper.json)

@@ -90,5 +90,5 @@ M. Panahandeh, N. Ezzati-Jivan, A. Hamou-Lhadj, and J. Miller, "Efficient Unsupe
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Full text was reviewed; working copy is not distributed; Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split; Efficient culprit-ranking PDF pp. 4-5: benchmark accuracy, Top-k results, training/test speed comparison, limitations, and artifact link; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
+- Metadata sources: Private full PDF read: pdf-evidence/notes/efficient-unsupervised-latency-culprit-ranking.md; Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split; Efficient culprit-ranking PDF pp. 4-5: benchmark accuracy, Top-k results, training/test speed comparison, limitations, and artifact link; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

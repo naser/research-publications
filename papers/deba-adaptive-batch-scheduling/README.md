@@ -28,7 +28,7 @@ On ResNet-18/50, DenseNet-121, EfficientNet-B0, MobileNet-V3, and ViT-B16 over C
 
 ## Abstract
 
-Abstract not available in the captured sources.
+Adaptive batch size methods aim to accelerate neural network training, but existing approaches apply identical adaptation strategies across all architectures, assuming a one-size-fits-all solution. We introduce DEBA (Dynamic Efficient Batch Adaptation), an adaptive batch scheduler that monitors gradient variance, gradient norm variation and loss variation to guide batch size adaptations. Through systematic evaluation across six architectures (ResNet-18/50, DenseNet-121, EfficientNet-B0, MobileNet-V3, ViT-B16) on CIFAR-10 and CIFAR-100, with five random seeds per configuration, we demonstrate that the architecture fundamentally determines adaptation efficacy. Lightweight and medium-depth architectures achieve 45-62% training speedup with simultaneous accuracy improvements of 1-7%; ResNet-18 shows 36-43% speedup and accuracy gains, while ResNet-50 has high variance and occasional degradation. ViT-B16 shows minimal speedup despite maintaining accuracy. The paper introduces gradient-stability measures for predicting which architectures benefit, and reports that sliding-window statistics and cooldown periods of at least five epochs are important design choices.
 
 ## Topics and keywords
 
@@ -80,7 +80,7 @@ F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architectu
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: official arXiv abstract and PDF page 2511.03809; DBLP/Scholar record matched by title and authors; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
+- Metadata sources: Official arXiv abstract and metadata: https://arxiv.org/abs/2511.03809; arXiv page publication/acceptance metadata checked; Local paper PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

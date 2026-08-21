@@ -43,14 +43,14 @@
     "crossref_type": "proceedings-article"
   },
   "publication_type": "conference paper",
-  "status": "published_metadata_record",
+  "status": "published_with_public_source_record",
   "canonical_source_url": "https://doi.org/10.1109/ISNCC52172.2021.9615814",
   "source_record_id": "integrated-modeling-tool-for-indexing-and-analyzing-state-machine-trace-b450898ee2",
   "identifiers": {
     "doi": "10.1109/ISNCC52172.2021.9615814"
   },
   "abstract": "The accessible abstract describes a modeled state representation with a special-purpose database, filtering/highlighting, and Gantt/XY views for Linux and Windows traces.",
-  "abstract_source": "Abstract mirror and authoritative metadata, paraphrased; full text not obtained.",
+  "abstract_source": "OpenAlex abstract metadata and institutional metadata reviewed; abstract not reproduced because reuse permission was not established.",
   "abstract_available": true,
   "scholar_eligibility": {
     "eligible": false,
@@ -58,29 +58,32 @@
     "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
   },
   "description": "The accessible abstract describes a modeled state representation with a special-purpose database, filtering/highlighting, and Gantt/XY views for Linux and Windows traces.",
-  "evidence_level": "full-text-reviewed",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "evidence": {
-    "source_basis": "full-text-reviewed",
-    "coverage": "material paper sections",
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
-    "verified_on": "2026-08-09",
+    "verified_on": "2026-08-21",
     "sources": [
       {
-        "note": "Exact author manuscript/submitted-paper PDF reviewed for the published record: Integrated Modeling Tool for Indexing and Analyzing State Machine Trace, DOI 10.1109/ISNCC52172.2021.9615814."
+        "note": "DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814"
       },
       {
-        "note": "Graphiti/EMF design, LTTng/CTF support, State History Tree integration, both use cases, and the model/XML attribute counts were checked against the inspected paper."
+        "note": "PolyPublie institutional record: https://publications.polymtl.ca/50159/"
+      },
+      {
+        "note": "OpenAlex abstract metadata reviewed for state-machine modeling and multi-level kernel/user-space analysis; full text still needed"
       }
     ]
   },
   "summary": {
-    "core_contribution": "The abstract presents an integrated tool for indexing, querying, and visualizing state-machine traces.",
-    "problem": "Built-in trace analyses and XML specifications can be inflexible or difficult for analysts to write and maintain. The paper presents a user-oriented model-driven way to define state-machine analyses for Trace Compass without repeatedly implementing Java/XML analysis logic.",
-    "method": "The tool is an EMF/Graphiti plugin for Trace Compass. Analysts define a UML-style subset of state machines with states, transitions, event conditions, and Boolean AND/OR/NOT expressions; the tool translates the model to an analysis representation over the disk-based State History Tree. It supports LTTng and LTTng-UST Common Trace Format events and can combine kernel and user-level state histories in views.",
-    "findings": "A Linux kernel use case defines 14 states, 36 transitions, and 9 conditions; the corresponding XML representation contains 525 attributes while the graphical model contains 594. A Trace Compass internal-request use case defines 7 states, 11 transitions, and 5 conditions; its XML contains 196 attributes versus 261 in the model. A custom model identifies requests that enter a never-ending/bad state and provides a user-facing visualization without recompiling the traced application.",
-    "limitations": "The evaluation is qualitative and consists of two use cases. It does not establish broad performance, usability, or model-authoring benchmarks, and the current tool still transforms the graphical model into XML internally. The paper's examples show expressiveness and workflow value rather than automated root-cause accuracy.",
-    "future_work": "The authors propose trace validation, highlighting the events and transitions responsible for state changes, better model/file management, direct model execution instead of XML conversion, and model-validation support."
+    "core_contribution": "The paper presents a state-machine modeling tool for creating user-defined, data-driven trace analyses from combined kernel-space and user-space execution events.",
+    "problem": "Comprehensive execution tracing creates large files containing irrelevant events, while existing user-defined analysis tools can require complex domain-specific scripts and make it difficult to specify exactly what to capture.",
+    "method": "The public abstract describes a state-machine model that combines kernel and user-space events to automatically generate event-based analyses for user requirements. The tool is designed to simplify analysis creation and supports multi-level dynamic tracing in Linux-kernel use cases.",
+    "findings": "The authors report demonstrations of efficiency, effectiveness, and simplicity through real multi-level dynamic execution-tracing use cases. The captured public metadata does not expose the event schema, storage engine, workload, or numeric results.",
+    "limitations": "The complete paper was not obtained; exact model semantics, supported tracers, data structures, evaluation protocol, and reproducibility artifacts remain unverified.",
+    "future_work": "Verify the paper-specific future-work section and evaluate the modeling workflow on larger traces, more operating systems, and analysts with different levels of tracing expertise."
   },
   "tags": [
     "trace-analysis",
@@ -108,19 +111,19 @@
       "canonical_for_citation": true
     },
     {
-      "id": "dblp-record",
-      "label": "DBLP record",
+      "id": "polypublie-institutional-publication-record",
+      "label": "PolyPublie institutional publication record",
       "relation": "source-record",
       "title": "Integrated Modeling Tool for Indexing and Analyzing State Machine Trace",
-      "url": "https://dblp.org/rec/conf/isncc/DelisleED21",
+      "url": "https://publications.polymtl.ca/50159/",
       "pdf_url": null,
       "status": "public_source_record",
       "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_metadata_record",
-    "note": "DOI, DBLP, and an abstract mirror verify the record. Abstract-level visualization claims are retained, but no body-level benchmark or implementation detail is asserted.",
+    "status": "published_with_public_source_record",
+    "note": "DOI, DBLP, the official proceedings table of contents, and the PolyPublie institutional record verify the paper. The PolyPublie page did not expose a verified manuscript PDF in this check; abstract-level claims remain separate from the locally inspected Overleaf AAM.",
     "license": null
   },
   "resources": {
@@ -130,23 +133,23 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when using graphical state-machine models to define Trace Compass analyses over LTTng/CTF traces.",
+    "when_to_cite": "Cite this paper when building user-defined state-machine analyses over combined kernel and user-space execution traces.",
     "points": [
-      "For a Graphiti/EMF model-driven alternative to hand-authored XML trace analyses.",
-      "For Boolean transition conditions and State History Tree-backed state-machine views.",
-      "For the kernel and internal-request use cases and their model/XML size comparison.",
-      "For trace validation, bad-state detection, and user-facing model-based analysis."
+      "State-machine modeling for data-driven trace analysis.",
+      "Automatic generation of event-based analyses from user requirements.",
+      "Multi-level Linux kernel tracing use cases with the detailed implementation boundary marked as pending."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-09",
+    "metadata_verified_on": "2026-08-21",
     "metadata_source": [
-      "Exact author manuscript/submitted-paper PDF reviewed for the published record: Integrated Modeling Tool for Indexing and Analyzing State Machine Trace, DOI 10.1109/ISNCC52172.2021.9615814.",
-      "Graphiti/EMF design, LTTng/CTF support, State History Tree integration, both use cases, and the model/XML attribute counts were checked against the inspected paper."
+      "DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814",
+      "PolyPublie institutional record: https://publications.polymtl.ca/50159/",
+      "OpenAlex abstract metadata reviewed for state-machine modeling and multi-level kernel/user-space analysis; full text still needed"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },

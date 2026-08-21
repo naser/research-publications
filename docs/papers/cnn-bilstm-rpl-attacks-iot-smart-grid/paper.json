@@ -50,21 +50,21 @@
     "doi": "10.1145/3626562.3626832"
   },
   "abstract": null,
-  "abstract_source": null,
+  "abstract_source": "OpenAlex abstract metadata reviewed; publisher abstract not reproduced because reuse permission was not established.",
   "abstract_available": false,
   "scholar_eligibility": {
     "eligible": false,
     "basis": "not-eligible",
     "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
   },
-  "description": "The verified record identifies this work as a Middleware 2023 industry-track paper on RPL-attack classification, but the full technical contribution was not available in the captured sources.",
+  "description": "The paper evaluates a CNN-BiLSTM classifier for detecting and classifying RPL routing attacks in industrial IoT smart-grid networks.",
   "evidence_level": "metadata-or-abstract-reviewed",
   "evidence": {
-    "source_basis": "metadata-only",
-    "coverage": "bibliographic metadata",
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
-    "verified_on": "2026-08-09",
+    "verified_on": "2026-08-21",
     "sources": [
       {
         "note": "DOI: https://doi.org/10.1145/3626562.3626832"
@@ -73,17 +73,17 @@
         "note": "DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23"
       },
       {
-        "note": "Additional review evidence was used; working files are not distributed"
+        "note": "OpenAlex abstract metadata reviewed for scenarios, SMOTE, model comparison, and reported metrics; full text still needed"
       }
     ]
   },
   "summary": {
-    "core_contribution": "The verified record identifies this work as a Middleware 2023 industry-track paper on RPL-attack classification, but the full technical contribution was not available in the captured sources.",
-    "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
-    "method": "No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.",
-    "findings": "No page-grounded quantitative or qualitative findings were verified in this audit.",
-    "limitations": "The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.",
-    "future_work": "The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained."
+    "core_contribution": "The paper evaluates a CNN-BiLSTM classifier for detecting and classifying RPL routing attacks in industrial IoT smart-grid networks.",
+    "problem": "RPL-based smart-grid IoT networks combine resource constraints with broad connectivity, making them exposed to routing attacks and class imbalance in attack data.",
+    "method": "The public abstract describes preprocessing and feature enhancement, SMOTE for class balancing, and comparison of the CNN-BiLSTM model with seven deep-learning and traditional classifiers. Two scenarios are used: a simulated IIoT network with multiple RPL attacks and a dataset from nine commercial IoT devices infected by two botnets.",
+    "findings": "For the simulated scenario, the abstract reports 91% accuracy, 89% precision, and 89% recall. For the commercial-device dataset, it reports 90% accuracy, 89% precision, 90% recall, and 89% F1. Exact attack labels, split protocol, and model configuration require the full paper.",
+    "limitations": "The full paper was not obtained; the record does not yet verify the simulator, device telemetry, attack duration, cross-device split, or whether the reported comparison controls class imbalance consistently.",
+    "future_work": "Validate across additional RPL implementations and larger real deployments, and review the paper-specific future-work section when the full text is available."
   },
   "tags": [
     "iot-security",
@@ -133,19 +133,20 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when classifying RPL attacks in industrial IoT smart-grid networks with CNN-BiLSTM models.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "SMOTE and feature enhancement for imbalanced RPL-attack data.",
+      "Comparison across a simulated IIoT scenario and nine commercial IoT devices infected by botnets.",
+      "The reported 90-91% accuracy range and precision/recall/F1 results."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-09",
+    "metadata_verified_on": "2026-08-21",
     "metadata_source": [
       "DOI: https://doi.org/10.1145/3626562.3626832",
       "DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23",
-      "Additional review evidence was used; working files are not distributed"
+      "OpenAlex abstract metadata reviewed for scenarios, SMOTE, model comparison, and reported metrics; full text still needed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",

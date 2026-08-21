@@ -82,5 +82,5 @@ N. E. Jivan, A. S. Sendi, N. Nematbakhsh, and M. Dagenais, "High Performance Int
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Additional full-text evidence was reviewed; working files are not distributed; Article printed pp. 32-37 in the public combined ICIMP proceedings PDF; Local PDF hash verified: F4F01012F90BB07B08926F1AF8AED9CC0211177450BD1ABCB70DF3C87E37D94; Institutional record: https://publications.polymtl.ca/16917/
+- Metadata sources: Private full proceedings evidence note: pdf-evidence/notes/parallel-batch-04-high-performance-internet-connection-filtering-through-an-in-kernel-architecture.md; Article printed pp. 32-37 in the public combined ICIMP proceedings PDF; Local PDF hash verified: F4F01012F90BB07B08926F1AF8AED9CC0211177450BD1ABCB70DF3C87E37D94; Institutional record: https://publications.polymtl.ca/16917/
 - Machine-readable record: [paper.json](./paper.json)

@@ -76,7 +76,7 @@
         "note": "ICSE published PDF: controlled-loss limitation, functional-plausibility example, and future work"
       },
       {
-        "note": "Thesis/manuscript and published-paper versions were checked separately; working copies are not distributed"
+        "note": "Local thesis/manuscript and published-paper PDF are retained as distinct version evidence; local hashes are recorded in pdf-evidence/extraction-manifest.json"
       }
     ]
   },
@@ -161,7 +161,7 @@
       "ICSE published PDF: nine PTS workloads, PTS 6.2.2, LTTng 2.8, Debian kernel, Xeon/32 GB/SSD platform, and 32 runs per benchmark",
       "ICSE published PDF: integer event encoding, DiffWave/SSSDS4/SSSDSA/CSDIS4 configurations, blackout protocol, accuracy, perfect rate, ROUGE-L, and LSTM baseline",
       "ICSE published PDF: controlled-loss limitation, functional-plausibility example, and future work",
-      "Thesis/manuscript and published-paper versions were checked separately; working copies are not distributed"
+      "Local thesis/manuscript and published-paper PDF are retained as distinct version evidence; local hashes are recorded in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

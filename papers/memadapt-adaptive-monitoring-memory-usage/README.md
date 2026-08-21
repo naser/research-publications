@@ -4,27 +4,27 @@
 
 **Authors:** Pranjal Chakraborty, Majid Babaei, Leila Tahmooresnejad, Naser Ezzati-Jivan
 
-**Core contribution:** The accessible synopsis identifies MemAdapt as an adaptive memory-monitoring approach designed for irregularly sampled observations.
+**Core contribution:** MemAdapt models irregular memory-usage observations and uses forecasting to choose sampling rates that better balance monitoring accuracy and collection cost.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Memory monitoring may produce irregular samples, making conventional regularly sampled forecasting and monitoring assumptions unreliable.
+Memory monitoring often produces irregularly sampled data, but conventional forecasting assumes regular samples; a fixed sampling rate can waste resources or miss useful changes.
 
 ### 2. Method and contribution
 
-Only the synopsis-level theme—adaptive monitoring and irregularly sampled data—is verified. The sampling policy, forecasting model, workload, and baseline are not asserted.
+The public abstract describes a framework relating sampling frequency to expected memory-usage estimation, together with irregular-time forecasting models. An ODE-RNN predicts future usage and estimates an appropriate sampling rate from historical observations with varying sampling frequencies.
 
 ### 3. Findings and evidence
 
-No numeric result, dataset, or reproducible comparison was available in the captured sources.
+The abstract reports that ODE-RNN predicts sampling rates within 5% of the ideal rate with 78.5% accuracy, that longer lookback periods improve forecasting, and that the adaptive policy uses the forecast to approximate ideal sampling rates. The full evaluation configuration remains unverified.
 
 ### 4. Limitations and future directions
 
-**Limitations:** Full-text technical enrichment remains pending, including the exact sampling-frequency framework and evaluation protocol.
+**Limitations:** The publisher PDF was not obtained, so the memory workload, baseline policies, sampling distribution, training/test split, and operational overhead remain unverified.
 
-**Future work:** The paper-specific future-work section remains unverified.
+**Future work:** Evaluate the adaptive policy on longer-running production workloads and under abrupt memory-pressure changes; confirm the authors' specific future-work section from the full paper.
 
 ## Abstract
 
@@ -49,10 +49,11 @@ The available author synopsis describes an adaptive memory-monitoring approach b
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when forecasting irregular memory-usage observations and adapting monitoring frequency.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- ODE-RNN forecasting for irregularly sampled memory data.
+- Sampling-frequency selection as an explicit monitoring-accuracy/resource trade-off.
+- The reported 78.5% accuracy for predicting sampling rates within 5% of the ideal rate.
 
 ## Citation
 
@@ -81,7 +82,7 @@ P. Chakraborty, M. Babaei, L. Tahmooresnejad, and N. Ezzati-Jivan, "MemAdapt: Ad
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838037; CASCON program: https://iccsse.github.io/CASCON2024/program/; Author synopsis: https://majidbabaei.com/; Additional review evidence was used; working files are not distributed
+- Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838037; CASCON 2024 program: https://iccsse.github.io/CASCON2024/program/; Author synopsis: https://majidbabaei.com/; OpenAlex abstract metadata reviewed for ODE-RNN and 78.5% result; full text still needed
 - Machine-readable record: [paper.json](./paper.json)

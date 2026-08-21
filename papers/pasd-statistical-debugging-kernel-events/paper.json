@@ -64,23 +64,32 @@
     "coverage": "material paper sections",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
-    "verified_on": "2026-08-09",
+    "verified_on": "2026-08-21",
     "sources": [
       {
-        "note": "Exact full paper PDF reviewed: PASD, IEEE SCAM 2023, DOI 10.1109/SCAM59687.2023.00025."
+        "note": "IEEE/DBLP metadata for 10.1109/scam59687.2023.00025"
       },
       {
-        "note": "Perf event set, threshold equations, function indicators, all three case studies, trace sizes, and offline analysis timings were checked against the paper."
+        "note": "PASD PDF pp. 1-5: kernel-event tracing, Perf call stacks, metric thresholds, statistical debugging, and suspect ranking"
+      },
+      {
+        "note": "PASD PDF pp. 6-9: Firefox and ls cases, reported functions, data volumes, and offline analysis cost"
+      },
+      {
+        "note": "PASD PDF pp. 9-10: limitations and future-work boundary"
+      },
+      {
+        "note": "Local PDF hash verified in pdf-evidence/notes/pasd-statistical-debugging-kernel-events.md and extraction-manifest.json"
       }
     ]
   },
   "summary": {
     "core_contribution": "PASD uses Linux kernel-event traces, Perf call stacks, and statistical debugging to rank functions associated with performance problems without application-source instrumentation.",
-    "problem": "Performance problems may be visible only in runtime behavior and may require function-level explanation, but source instrumentation and machine-learning models can add overhead or miss the dynamic kernel context. PASD asks whether kernel events and call stacks can support statistical debugging without instrumenting application source code.",
-    "method": "PASD collects kernel events and call stacks with Perf, including system calls such as futex, scheduler wakeup/switch, interrupt and softirq events, block-layer request events, and network receive events. It defines duration-based success and failure thresholds from the mean and standard deviation of system-call durations, then assigns each function D-Success, D-Failed, O-Success, and O-Failed indicators. A function is ranked by Increase = Failure - Context, where Failure is its failed-context proportion and Context is its occurrence in failed executions. The analysis preserves negative Increase values because interactions and runtime predicates can make a function less suspicious.",
-    "findings": "Three Firefox/GNU utility case studies demonstrate the workflow. For Firefox CSS animation Bug 1637586, a 30-second Perf trace contains 38,418 call stacks and 1,316 unique functions; the highest-ranked WebRenderCommandBuilder functions agree with the reported bug area. A Tripadvisor CPU case produces 398,297 call stacks in 110 seconds and ranks gethostbyaddr_r, pthread_cond_signal, and getifaddrs_internal, pointing to network/retry and thread behavior. A slow colored GNU ls case analyzes 276,412 call-stack records and connects the latency to metadata operations such as statfs and fstatat. Offline analysis of 1,000 events takes reported averages of 54–330 ms across the cases.",
-    "limitations": "The method depends on the chosen event set, duration thresholds, call-stack quality, and the interpretation of ranked functions. The case studies are small, issue-driven examples rather than a broad benchmark, and the paper reports marginal collection cost without an end-to-end production overhead study. Ranking is evidence for investigation, not proof that the top function is the sole causal fix.",
-    "future_work": "The authors identify reducing manual intervention, increasing automation, using machine learning to predict performance and configure tracing dynamically, and extending the method to database systems, servers, and parallel software."
+    "problem": "Application instrumentation may be unavailable or intrusive, while kernel-event behavior and call stacks contain evidence about functions correlated with performance degradation.",
+    "method": "PASD traces Linux tracepoints such as sched_switch, IRQ, block-I/O, and network events and collects call stacks with perf record -g. It defines event-interval metrics, labels successful/failed and normal/abnormal observations, computes Failure, Context, and Increase statistics, ranks functions by Increase, and prunes the bottom 15%.",
+    "findings": "Three cases cover Firefox CSS-animation Bug 1637586, Firefox Tripadvisor CPU-exhaustion Bug 1565019, and slow ls in very large directories. The analysis identifies WebRenderCommandBuilder functions for the first case, gethostbyaddr_r/pthread_cond_signal/getifaddrs_internal among the top functions for the second, and GI statfs/do lstat/print color indicator in the ls case. Reported offline analysis times are about 173, 330, and 54 ms per 1,000 events for the three cases.",
+    "limitations": "The evidence consists of three reproduced bug cases and does not establish broad workload, kernel-version, or online-diagnosis generalization. The collection is low-level and source-free, but the reported cases still rely on call-stack symbols and selected trace events.",
+    "future_work": "Reduce manual intervention, use machine learning to predict performance and configure tracing dynamically, and evaluate databases, servers, parallel processing, and other complex systems."
   },
   "tags": [
     "kernel-tracing",
@@ -126,20 +135,22 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when your work performs statistical debugging from kernel events and call stacks without instrumenting application source code.",
+    "when_to_cite": "Cite this paper when using kernel events and Perf call stacks for source-free statistical performance debugging.",
     "points": [
-      "For the Failure, Context, and Increase indicators used to rank suspicious functions.",
-      "For thresholding system-call duration into successful, failed, and ambiguous executions.",
-      "For Perf-based analysis of scheduler, futex, block, interrupt, network, and syscall evidence.",
-      "For the Firefox and GNU ls case studies, with the reported call-stack volumes and analysis times."
+      "Linux tracepoints and perf record -g for collecting kernel-event and call-stack evidence.",
+      "Threshold-based Failure, Context, and Increase statistics for ranking suspicious functions.",
+      "Firefox and ls bug-case studies with reported offline analysis cost per 1,000 events."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-09",
+    "metadata_verified_on": "2026-08-21",
     "metadata_source": [
-      "Exact full paper PDF reviewed: PASD, IEEE SCAM 2023, DOI 10.1109/SCAM59687.2023.00025.",
-      "Perf event set, threshold equations, function indicators, all three case studies, trace sizes, and offline analysis timings were checked against the paper."
+      "IEEE/DBLP metadata for 10.1109/scam59687.2023.00025",
+      "PASD PDF pp. 1-5: kernel-event tracing, Perf call stacks, metric thresholds, statistical debugging, and suspect ranking",
+      "PASD PDF pp. 6-9: Firefox and ls cases, reported functions, data volumes, and offline analysis cost",
+      "PASD PDF pp. 9-10: limitations and future-work boundary",
+      "Local PDF hash verified in pdf-evidence/notes/pasd-statistical-debugging-kernel-events.md and extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

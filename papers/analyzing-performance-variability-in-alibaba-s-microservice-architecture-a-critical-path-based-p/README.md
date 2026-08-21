@@ -90,5 +90,5 @@ A. Ezaz, G. Khodabandeh, and N. Ezzati-Jivan, "Analyzing Performance Variability
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: ICPE Companion PDF: Alibaba cluster-trace-microservices-v2022 preprocessing, critical-path extraction, 20 intervals, and 10-times-mean variability rule; ICPE Companion PDF: nearly 20,000 services, 40,062,862 trace IDs, 91,704 critical paths, 1,891 high-variance interactions, and four patterns; Author-linked analysis repository and Alibaba dataset URL recorded as reproducibility resources; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
+- Metadata sources: ICPE Companion PDF: Alibaba cluster-trace-microservices-v2022 preprocessing, critical-path extraction, 20 intervals, and 10-times-mean variability rule; ICPE Companion PDF: nearly 20,000 services, 40,062,862 trace IDs, 91,704 critical paths, 1,891 high-variance interactions, and four patterns; Author-linked analysis repository and Alibaba dataset URL recorded as reproducibility resources; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

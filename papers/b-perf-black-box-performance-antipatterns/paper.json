@@ -69,7 +69,7 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "Full text was reviewed; working copy is not distributed"
+        "note": "Private full PDF read: pdf-evidence/notes/b-perf-black-box-performance-antipatterns.md"
       },
       {
         "note": "B-Perf PDF pp. 4-7: LTTng event model, Trace Compass-style state reconstruction, tracepoints, environment, and workload protocol"
@@ -84,7 +84,7 @@
         "note": "ICPE 2026 accepted-papers page labels the conference-hosted PDF as the B-Perf Pre-Print; downloaded PDF is byte-identical to the locally reviewed evidence (SHA-256 FE38962FD4ACF91F760AC51907207F2569B99A172CEFE8D2B8D1393B547A6003)"
       },
       {
-        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
       }
     ]
   },
@@ -160,12 +160,12 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "Full text was reviewed; working copy is not distributed",
+      "Private full PDF read: pdf-evidence/notes/b-perf-black-box-performance-antipatterns.md",
       "B-Perf PDF pp. 4-7: LTTng event model, Trace Compass-style state reconstruction, tracepoints, environment, and workload protocol",
       "B-Perf PDF pp. 7-10: One Lane Bridge, Excessive Dynamic Allocation, Empty Semi Trucks, Firefox/web validation, and overhead results",
       "B-Perf PDF pp. 10-11: limitations, threats to validity, and future work",
       "ICPE 2026 accepted-papers page labels the conference-hosted PDF as the B-Perf Pre-Print; downloaded PDF is byte-identical to the locally reviewed evidence (SHA-256 FE38962FD4ACF91F760AC51907207F2569B99A172CEFE8D2B8D1393B547A6003)",
-      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

@@ -80,7 +80,7 @@
         "note": "official arXiv abstract and PDF page 2103.04954"
       },
       {
-        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+        "note": "local PDF hash verified in the working catalog"
       }
     ]
   },
@@ -154,7 +154,7 @@
     "metadata_source": [
       "DBLP and IEEE metadata for the published paper",
       "official arXiv abstract and PDF page 2103.04954",
-      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+      "local PDF hash verified in the working catalog"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

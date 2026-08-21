@@ -12,8 +12,8 @@
     "research_profile_url": "https://naser.github.io/tabs/research/"
   },
   "record_count": 89,
-  "full_text_reviewed_count": 68,
-  "full_text_pending_count": 21,
+  "full_text_reviewed_count": 67,
+  "full_text_pending_count": 22,
   "batch": "expanded-catalog-release",
   "records": [
     {
@@ -90,7 +90,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Full text was reviewed; working copy is not distributed"
+            "note": "Private full PDF read: pdf-evidence/notes/b-perf-black-box-performance-antipatterns.md"
           },
           {
             "note": "B-Perf PDF pp. 4-7: LTTng event model, Trace Compass-style state reconstruction, tracepoints, environment, and workload protocol"
@@ -105,7 +105,7 @@
             "note": "ICPE 2026 accepted-papers page labels the conference-hosted PDF as the B-Perf Pre-Print; downloaded PDF is byte-identical to the locally reviewed evidence (SHA-256 FE38962FD4ACF91F760AC51907207F2569B99A172CEFE8D2B8D1393B547A6003)"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -374,23 +374,23 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "This work investigates DTraComp: Comparing distributed execution traces for understanding intermittent latency sources in the context of software performance and systems analysis.",
+      "description": "DTraComp compares groups of distributed executions with trace synchronization, filtering, and graph-oriented visualization to localize intermittent latency causes across service and kernel layers.",
       "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1016/j.jss.2026.112990"
+            "note": "Official Journal of Systems and Software article page and abstract: https://www.sciencedirect.com/science/article/pii/S0164121226002232"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "Public abstract-page results include five use cases, LTTng overhead, 20 GB trace tests, and linear scaling"
           },
           {
-            "note": "full-text summary pending source review"
+            "note": "Local Authorea presentation reviewed; it is not treated as the journal article: pdf-evidence/notes/dtracomp-distributed-trace-comparison.md"
           }
         ]
       },
@@ -775,7 +775,7 @@
             "note": "Public author manuscript: optimization-versus-reasoning boundary and future-work discussion"
           },
           {
-            "note": "Publication DOI and DBLP identity verified; Author manuscript was reviewed; Additional review evidence was used; working files are not distributed"
+            "note": "Publication DOI and DBLP identity verified; private five-page ResearchGate author manuscript read and SHA-256 verified as 9fad98132e1dd1c06f885bf6b033c80691bd067a3f7c31f7f27841d9b9d4c308; private evidence note: pdf-evidence/notes/rethinking-performance-debugging-agentdebug.md"
           }
         ]
       },
@@ -888,29 +888,29 @@
       "page_url": "https://naser.github.io/research-publications/papers/taaf-trace-abstraction-analysis-framework/",
       "canonical_source_url": "https://doi.org/10.1145/3744916.3787832",
       "status": "public_arxiv_preprint_with_publication_signal",
-      "abstract_available": false,
+      "abstract_available": true,
       "scholar_eligibility": {
-        "eligible": false,
-        "basis": "not-eligible",
-        "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+        "eligible": true,
+        "basis": "complete-visible-author-abstract",
+        "note": "The page displays the complete verified author abstract."
       },
-      "description": "TAAF combines time-indexed knowledge graphs with large language models to turn large execution traces into queryable, actionable explanations.",
+      "description": "Execution traces are a critical source of information for understanding, debugging, and optimizing complex software systems. However, traces from OS kernels or large-scale applications like Chrome or MySQL are massive and difficult to analyze. Existing tools rely on predefined analyses, and custom insights often require writing domain-specific scripts, which is an error-prone and time-consuming task. This paper introduces TAAF (Trace Abstraction and Analysis Framework), a novel approach that combines time-indexing, knowledge graphs (KGs), and large language models (LLMs) to transform raw trace data into actionable insights. TAAF constructs a time-indexed KG from trace events to capture relationships among entities such as threads, CPUs, and system resources. An LLM then interprets query-specific subgraphs to answer natural-language questions, reducing the need for manual inspection and deep system expertise. To evaluate TAAF, the authors introduce TraceQA-100, a benchmark of 100 questions grounded in real kernel traces. Experiments across three LLMs and multiple temporal settings show that TAAF improves answer accuracy by up to 31.2%, particularly in multi-hop and causal reasoning tasks. The paper also analyzes where graph-grounded reasoning helps and where limitations remain.",
       "evidence_level": "full-text-reviewed",
       "evidence": {
         "source_basis": "full-text-reviewed",
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "official arXiv abstract, metadata, and PDF page 2601.02632"
+            "note": "Official arXiv abstract and metadata: https://arxiv.org/abs/2601.02632"
           },
           {
-            "note": "arXiv page comment containing the ICSE 2026 acceptance and ACM DOI"
+            "note": "ACM DOI listed as related publication signal on the arXiv page: https://doi.org/10.1145/3744916.3787832"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local paper PDF hash verified in the working catalog"
           }
         ]
       },
@@ -1034,7 +1034,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Full text was reviewed; working copy is not distributed"
+            "note": "Private full PDF read: pdf-evidence/notes/tracesynth-kernel-trace-generation.md"
           },
           {
             "note": "TraceSynth PDF pp. 3-5: LTTng collection, six-channel representation, diffusion model, and invariant repair"
@@ -1046,7 +1046,7 @@
             "note": "TraceSynth PDF pp. 10-11: limitations and future work"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -1151,23 +1151,23 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "The verified record identifies this work as a 2025 ACDSA paper on semantic video retrieval, but the full technical contribution was not available in the captured sources.",
+      "description": "The paper presents an AI video-retrieval pipeline that combines speech transcription, frame captioning, multimodal embeddings, and timestamped semantic search.",
       "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
             "note": "IEEE record: https://ieeexplore.ieee.org/document/11166430/"
           },
           {
-            "note": "DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430"
+            "note": "DOI record: https://doi.org/10.1109/ACDSA65407.2025.11166430"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "OpenAlex abstract metadata reviewed for method and claimed qualitative findings; full text still needed"
           }
         ]
       },
@@ -1291,7 +1291,7 @@
             "note": "ICPC taxonomy PDF: limitations and hybrid/adaptive-parser future directions"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -1420,7 +1420,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Remote full preprint was reviewed; working note is not distributed"
+            "note": "Remote full preprint read: pdf-evidence/notes/parallel-batch-01-efficient-communication-anti-patterns.md"
           },
           {
             "note": "Authorea DOI: https://doi.org/10.22541/au.175533132.24109345/v1"
@@ -1552,7 +1552,7 @@
             "note": "Public abstract metadata mirror: https://eurekamag.com/research/104/995/104995729.php"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "Private evidence report: reports/agent-batch-01.md"
           }
         ]
       },
@@ -1676,7 +1676,7 @@
             "note": "ICSE published PDF: controlled-loss limitation, functional-plausibility example, and future work"
           },
           {
-            "note": "Thesis/manuscript and published-paper versions were checked separately; working copies are not distributed"
+            "note": "Local thesis/manuscript and published-paper PDF are retained as distinct version evidence; local hashes are recorded in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -1806,13 +1806,22 @@
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Exact full paper PDF reviewed: HybridRCA, IEEE ICSME 2025, DOI 10.1109/ICSME64153.2025.00056."
+            "note": "IEEE/DBLP metadata for 10.1109/icsme64153.2025.00056"
           },
           {
-            "note": "Technical details verified from the paper's instrumentation, method, evaluation, and limitations sections, including LTTng, Perf, OpenTelemetry-compatible tracing, critical-path extraction, PageRank/Tarantula ranking, benchmark composition, and reported tables."
+            "note": "HybridRCA PDF pp. 1-6: critical-path extraction, Personalized PageRank, weighted spectrum analysis, targeted metrics, and clock synchronization"
+          },
+          {
+            "note": "HybridRCA PDF pp. 7-10: LTTng 2.13.9-1, HotROD/TrainTicket/OnlineBoutique/TiDB workloads, injected faults, accuracy, trace-volume, and storage results"
+          },
+          {
+            "note": "HybridRCA PDF p. 10: limitations and future-work boundary"
+          },
+          {
+            "note": "Local PDF hash verified in pdf-evidence/notes/hybridrca-critical-path-aware-tracing.md and extraction-manifest.json"
           }
         ]
       },
@@ -1939,7 +1948,7 @@
             "note": "DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "Private evidence note: papers/multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27/pdf-evidence/notes/parallel-batch-01-multi-dimensional-bias-llm.md"
           }
         ]
       },
@@ -2037,29 +2046,29 @@
       "page_url": "https://naser.github.io/research-publications/papers/deba-adaptive-batch-scheduling/",
       "canonical_source_url": "https://arxiv.org/abs/2511.03809",
       "status": "public_arxiv_preprint",
-      "abstract_available": false,
+      "abstract_available": true,
       "scholar_eligibility": {
-        "eligible": false,
-        "basis": "not-eligible",
-        "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+        "eligible": true,
+        "basis": "complete-visible-author-abstract",
+        "note": "The page displays the complete verified author abstract."
       },
-      "description": "DEBA is an architecture-aware adaptive batch scheduler that uses training-stability signals to decide when and how to change batch size.",
+      "description": "Adaptive batch size methods aim to accelerate neural network training, but existing approaches apply identical adaptation strategies across all architectures, assuming a one-size-fits-all solution. We introduce DEBA (Dynamic Efficient Batch Adaptation), an adaptive batch scheduler that monitors gradient variance, gradient norm variation and loss variation to guide batch size adaptations. Through systematic evaluation across six architectures (ResNet-18/50, DenseNet-121, EfficientNet-B0, MobileNet-V3, ViT-B16) on CIFAR-10 and CIFAR-100, with five random seeds per configuration, we demonstrate that the architecture fundamentally determines adaptation efficacy. Lightweight and medium-depth architectures achieve 45-62% training speedup with simultaneous accuracy improvements of 1-7%; ResNet-18 shows 36-43% speedup and accuracy gains, while ResNet-50 has high variance and occasional degradation. ViT-B16 shows minimal speedup despite maintaining accuracy. The paper introduces gradient-stability measures for predicting which architectures benefit, and reports that sliding-window statistics and cooldown periods of at least five epochs are important design choices.",
       "evidence_level": "full-text-reviewed",
       "evidence": {
         "source_basis": "full-text-reviewed",
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "official arXiv abstract and PDF page 2511.03809"
+            "note": "Official arXiv abstract and metadata: https://arxiv.org/abs/2511.03809"
           },
           {
-            "note": "DBLP/Scholar record matched by title and authors"
+            "note": "arXiv page publication/acceptance metadata checked"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local paper PDF hash verified in the working catalog"
           }
         ]
       },
@@ -2148,32 +2157,29 @@
       "page_url": "https://naser.github.io/research-publications/papers/optimization-transformers-llms/",
       "canonical_source_url": "https://doi.org/10.1145/3676151.3719379",
       "status": "public_preprint_and_published_record",
-      "abstract_available": false,
+      "abstract_available": true,
       "scholar_eligibility": {
-        "eligible": false,
-        "basis": "not-eligible",
-        "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+        "eligible": true,
+        "basis": "complete-visible-author-abstract",
+        "note": "The page displays the complete verified author abstract."
       },
-      "description": "The paper compares compression and optimization strategies for reducing the resource cost of Transformer and large-language-model workloads while retaining useful accuracy.",
+      "description": "Advancements in Natural Language Processing are heavily reliant on the Transformer architecture, whose improvements come at substantial resource costs due to ever-growing model sizes. This study explores optimization techniques, including Quantization, Knowledge Distillation, and Pruning, focusing on energy and computational efficiency while retaining performance. Among standalone methods, 4-bit Quantization significantly reduces energy use with minimal accuracy loss. Hybrid approaches, like NVIDIA's Minitron approach combining KD and Structured Pruning, further demonstrate promising trade-offs between size reduction and accuracy retention. A novel optimization equation is introduced, offering a flexible framework for comparing various methods. Through the investigation of these compression methods, we provide valuable insights for developing more sustainable and efficient LLMs, shining a light on the often-ignored concern of energy efficiency.",
       "evidence_level": "full-text-reviewed",
       "evidence": {
         "source_basis": "full-text-reviewed",
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "DBLP and ACM DOI metadata"
+            "note": "Official arXiv abstract and metadata: https://arxiv.org/abs/2502.00046"
           },
           {
-            "note": "official arXiv abstract and PDF page 2502.00046"
+            "note": "ACM DOI record: https://doi.org/10.1145/3676151.3719379"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
-          },
-          {
-            "note": "author-order discrepancy explicitly retained"
+            "note": "Local paper PDF hash verified in the working catalog"
           }
         ]
       },
@@ -2275,23 +2281,26 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "The verified record identifies this work as a 2025 CASCON paper on generative AI for Linux logs, but the full technical contribution was not available in the captured sources.",
+      "description": "SynthLogAI benchmarks generative models for producing synthetic Linux kernel logs from LTTng traces, comparing fidelity, utility, and privacy trade-offs across model families.",
       "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
             "note": "IEEE record: https://ieeexplore.ieee.org/document/11344303/"
           },
           {
-            "note": "CASCON schedule: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation"
+            "note": "CASCON 2025 paper page: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "Public abstract mirror with model families, event sizes, and qualitative results: https://eurekamag.com/research/104/995/104995750.php"
+          },
+          {
+            "note": "Author presentation summary reviewed; full paper still needed"
           }
         ]
       },
@@ -2392,29 +2401,29 @@
       "page_url": "https://naser.github.io/research-publications/papers/gnn-link-prediction-microservices/",
       "canonical_source_url": "https://doi.org/10.1145/3676151.3719362",
       "status": "public_preprint_and_published_record",
-      "abstract_available": false,
+      "abstract_available": true,
       "scholar_eligibility": {
-        "eligible": false,
-        "basis": "not-eligible",
-        "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+        "eligible": true,
+        "basis": "complete-visible-author-abstract",
+        "note": "The page displays the complete verified author abstract."
       },
-      "description": "The paper applies graph attention networks to predict future interactions in microservice call graphs, supporting proactive monitoring.",
+      "description": "Managing microservice architectures in distributed systems is complex and resource intensive due to the high frequency and dynamic nature of inter service interactions. Accurate prediction of these future interactions can enhance adaptive monitoring, enabling proactive maintenance and resolution of potential performance issues before they escalate. This study introduces a Graph Neural Network (GNN) based approach, specifically using a Graph Attention Network (GAT), for link prediction in microservice Call Graphs. Unlike social networks, where interactions tend to occur sporadically and are often less frequent, microservice Call Graphs involve highly frequent and time sensitive interactions that are essential to operational performance. Our approach leverages temporal segmentation, advanced negative sampling, and GATs attention mechanisms to model these complex interactions accurately. Using real world data, we evaluate our model across performance metrics such as AUC, Precision, Recall, and F1 Score, demonstrating its high accuracy and robustness in predicting microservice interactions. Our findings support the potential of GNNs for proactive monitoring in distributed systems, paving the way for applications in adaptive resource management and performance optimization.",
       "evidence_level": "full-text-reviewed",
       "evidence": {
         "source_basis": "full-text-reviewed",
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "DBLP and ACM DOI metadata"
+            "note": "Official arXiv abstract and metadata: https://arxiv.org/abs/2501.15019"
           },
           {
-            "note": "official arXiv abstract and PDF page 2501.15019"
+            "note": "ACM DOI record: https://doi.org/10.1145/3676151.3719362"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local paper PDF hash verified in the working catalog"
           }
         ]
       },
@@ -2539,7 +2548,7 @@
             "note": "DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md"
           }
         ]
       },
@@ -2660,7 +2669,7 @@
             "note": "ICPE ALS PDF: Python/dynamic-feature/agent-scope limitations and stated future work"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -2790,7 +2799,7 @@
             "note": "Author-linked analysis repository and Alibaba dataset URL recorded as reproducibility resources"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -2902,23 +2911,23 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "The verified record identifies this work as a 2024 IEEE Big Data paper on software energy prediction, but the full technical contribution was not available in the captured sources.",
+      "description": "The paper evaluates software-energy prediction models that combine performance-counter events and system-call data across varied software environments.",
       "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "IEEE record: https://ieeexplore.ieee.org/document/10825500/"
+            "note": "IEEE record and DOI: https://doi.org/10.1109/BigData62323.2024.10825500"
           },
           {
-            "note": "DOI: https://doi.org/10.1109/BigData62323.2024.10825500"
+            "note": "Public ResearchGate record with abstract context: https://www.researchgate.net/publication/388090793_Assessing_Predictive_Models_for_Energy_Consumption_Across_Varied_Software_Environments"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "OpenAlex abstract metadata reviewed for model families, Perf calibration, and cross-application findings; full text still needed"
           }
         ]
       },
@@ -3161,7 +3170,7 @@
             "note": "ICPE Companion WIP PDF: preliminary-evaluation limitation and future-work scope"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -3303,7 +3312,7 @@
             "note": "DOI: https://doi.org/10.1145/3639478.3643523"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "Private batch report: reports/parallel-batch-02.md"
           }
         ]
       },
@@ -3430,7 +3439,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Full text was reviewed; working copy is not distributed"
+            "note": "Private full PDF read: pdf-evidence/notes/efficient-unsupervised-latency-culprit-ranking.md"
           },
           {
             "note": "Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split"
@@ -3439,7 +3448,7 @@
             "note": "Efficient culprit-ranking PDF pp. 4-5: benchmark accuracy, Top-k results, training/test speed comparison, limitations, and artifact link"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -3540,32 +3549,26 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "The work presents a reusable system-tracing artifact and workflow for bringing Linux kernel-level events into empirical software performance-engineering studies, with raw traces, analysis reports, and setup material.",
+      "description": "The paper contributes a reusable kernel-event and system-call artifact for empirical software performance engineering, together with workloads, injected noise, and analysis applications.",
       "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1016/j.jss.2024.112117"
+            "note": "Official ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S0164121224001626"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "Public article page reports the 24,263,691-event artifact, light/heavy loads, four injected noise classes, and three applications"
           },
           {
-            "note": "Authors' artifact README: LTTng collection, Ubuntu 22.04.2, Elasticsearch/Kibana workflow, twelve workload reports, four simulated noise types, and three intended applications"
+            "note": "Author artifact repository: https://github.com/mnoferestibrocku/dataset-repo"
           },
           {
-            "note": "Authors' artifact README: 24,263,691 raw events, event fields, tracepoint use, installation scripts, and reproducibility instructions"
-          },
-          {
-            "note": "Authors' artifact system-info.txt: host, Ubuntu/kernel, CPU, GPU, memory, and storage environment for the published artifact run"
-          },
-          {
-            "note": "No local publication PDF hash is claimed; publisher/SSRN full-text retrieval was blocked during this run"
+            "note": "Full publication text was not obtained; details remain abstract/article-page grounded"
           }
         ]
       },
@@ -3679,19 +3682,19 @@
         "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
             "note": "DOI: https://doi.org/10.1109/CASCON62161.2024.10838037"
           },
           {
-            "note": "CASCON program: https://iccsse.github.io/CASCON2024/program/"
+            "note": "CASCON 2024 program: https://iccsse.github.io/CASCON2024/program/"
           },
           {
             "note": "Author synopsis: https://majidbabaei.com/"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "OpenAlex abstract metadata reviewed for ODE-RNN and 78.5% result; full text still needed"
           }
         ]
       },
@@ -3802,7 +3805,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Full text was reviewed; working copy is not distributed"
+            "note": "Private full PDF read: pdf-evidence/notes/network-analysis-microservices-alibaba.md"
           },
           {
             "note": "Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering"
@@ -3811,7 +3814,7 @@
             "note": "Network-analysis PDF pp. 3-5: structural findings, limitations, future work, and implementation repository"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -3924,29 +3927,29 @@
       "page_url": "https://naser.github.io/research-publications/papers/picturing-ambiguity-winograd-schema/",
       "canonical_source_url": "https://aclanthology.org/2024.acl-long.22/",
       "status": "public_preprint_and_published_record",
-      "abstract_available": false,
+      "abstract_available": true,
       "scholar_eligibility": {
-        "eligible": false,
-        "basis": "not-eligible",
-        "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+        "eligible": true,
+        "basis": "complete-visible-author-abstract",
+        "note": "The page displays the complete verified author abstract."
       },
-      "description": "The paper introduces WinoVis, a multimodal benchmark and analysis framework for testing pronoun disambiguation in text-to-image models.",
+      "description": "Large Language Models (LLMs) have demonstrated remarkable success in tasks like the Winograd Schema Challenge (WSC), showcasing advanced textual common-sense reasoning. However, applying this reasoning to multimodal domains, where understanding text and images together is essential, remains a substantial challenge. To address this, we introduce WinoVis, a novel dataset specifically designed to probe text-to-image models on pronoun disambiguation within multimodal contexts. Utilizing GPT-4 for prompt generation and Diffusion Attentive Attribution Maps (DAAM) for heatmap analysis, we propose a novel evaluation framework that isolates the models' ability in pronoun disambiguation from other visual processing challenges. Evaluation of successive model versions reveals that, despite incremental advancements, Stable Diffusion 2.0 achieves a precision of 56.7% on WinoVis, only marginally surpassing random guessing. Further error analysis identifies important areas for future research aimed at advancing text-to-image models in their ability to interpret and interact with the complex visual world.",
       "evidence_level": "full-text-reviewed",
       "evidence": {
         "source_basis": "full-text-reviewed",
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "ACL Anthology and DOI metadata"
+            "note": "Official arXiv abstract and metadata: https://arxiv.org/abs/2405.16277"
           },
           {
-            "note": "official arXiv abstract and PDF page 2405.16277"
+            "note": "ACL Anthology published record: https://aclanthology.org/2024.acl-long.22/"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local paper PDF hash verified in the working catalog"
           }
         ]
       },
@@ -4054,19 +4057,19 @@
         "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
             "note": "DOI: https://doi.org/10.1109/CASCON62161.2024.10838205"
           },
           {
-            "note": "CASCON program: https://iccsse.github.io/CASCON2024/program/"
+            "note": "CASCON 2024 program: https://iccsse.github.io/CASCON2024/program/"
           },
           {
-            "note": "J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217419132863"
+            "note": "Public author synopsis: https://ca.linkedin.com/in/bengrandy"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "OpenAlex abstract metadata reviewed for passive monitoring and life-cycle method; full text still needed"
           }
         ]
       },
@@ -4195,7 +4198,7 @@
             "note": "Toward Adaptive Tracing PDF p. 5: future-work and model-update boundary"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "local Toward Adaptive Tracing PDF hash verified in pdf-evidence/notes/toward-adaptive-tracing-language-models.md and pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -4320,13 +4323,16 @@
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Exact full paper PDF reviewed: ALTOOM, IEEE BigData 2023, DOI 10.1109/BigData59044.2023.10386937."
+            "note": "IEEE/DBLP metadata for 10.1109/bigdata59044.2023.10386937"
           },
           {
-            "note": "Metrics, sampling interval, model results, feature filtration, pressure-generation protocol, Firefox reproduction, root-cause burst results, and limitations were checked against the paper's tables and evaluation text."
+            "note": "AltOOM PDF pp. 1, 4-10: perf/sar collection, 34 metrics, 85% threshold, prediction models, burst ranking, evaluation tables, limitations, and future work"
+          },
+          {
+            "note": "Local PDF hash verified in pdf-evidence/notes/altoom-out-of-memory-root-cause.md and extraction-manifest.json"
           }
         ]
       },
@@ -4420,14 +4426,14 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "The verified record identifies this work as a Middleware 2023 industry-track paper on RPL-attack classification, but the full technical contribution was not available in the captured sources.",
+      "description": "The paper evaluates a CNN-BiLSTM classifier for detecting and classifying RPL routing attacks in industrial IoT smart-grid networks.",
       "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
             "note": "DOI: https://doi.org/10.1145/3626562.3626832"
@@ -4436,7 +4442,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "OpenAlex abstract metadata reviewed for scenarios, SMOTE, model comparison, and reported metrics; full text still needed"
           }
         ]
       },
@@ -4543,14 +4549,14 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "The verified record identifies this work as a TrustCom 2023 paper on system-call sonification for malware detection, but the full technical contribution was not available in the captured sources.",
+      "description": "EMD-SCS performs early malware detection from system-call sequences by predicting future calls with an LSTM, scoring the prediction with BLEU and Hamming distance, and sonifying the result for human monitoring.",
       "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
             "note": "DOI: https://doi.org/10.1109/TRUSTCOM60117.2023.00235"
@@ -4559,10 +4565,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/trustcom/BhardwajNJE23"
           },
           {
-            "note": "J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202402237338978432"
-          },
-          {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "OpenAlex abstract metadata reviewed for LSTM, BLEU/Hamming, ADFA-LD, and reported metrics; full text still needed"
           }
         ]
       },
@@ -4683,7 +4686,7 @@
             "note": "Author code/data repository linked by the paper"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -4792,7 +4795,7 @@
         "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
             "note": "DOI: https://doi.org/10.1109/SERA57763.2023.10197790"
@@ -4804,7 +4807,7 @@
             "note": "SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "OpenAlex abstract metadata reviewed for adaptive scope/timing and low-overhead claim; full text still needed"
           }
         ]
       },
@@ -4912,13 +4915,22 @@
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Exact full paper PDF reviewed: PASD, IEEE SCAM 2023, DOI 10.1109/SCAM59687.2023.00025."
+            "note": "IEEE/DBLP metadata for 10.1109/scam59687.2023.00025"
           },
           {
-            "note": "Perf event set, threshold equations, function indicators, all three case studies, trace sizes, and offline analysis timings were checked against the paper."
+            "note": "PASD PDF pp. 1-5: kernel-event tracing, Perf call stacks, metric thresholds, statistical debugging, and suspect ranking"
+          },
+          {
+            "note": "PASD PDF pp. 6-9: Firefox and ls cases, reported functions, data volumes, and offline analysis cost"
+          },
+          {
+            "note": "PASD PDF pp. 9-10: limitations and future-work boundary"
+          },
+          {
+            "note": "Local PDF hash verified in pdf-evidence/notes/pasd-statistical-debugging-kernel-events.md and extraction-manifest.json"
           }
         ]
       },
@@ -5020,7 +5032,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Full text was reviewed; working copy is not distributed"
+            "note": "Private full PDF read: pdf-evidence/notes/parallel-batch-02-software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste-bd15de158b.md"
           },
           {
             "note": "Software Mining PDF pp. 1-4: JMH, 586 results from 30 Java projects, srcML/Lizard features, steady-state labels, group counts, and Apriori confidences"
@@ -5160,7 +5172,7 @@
             "note": "Zenodo dataset DOI and author-hosted PDF recorded as public resources"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -5287,7 +5299,7 @@
             "note": "Paper-linked code/results repository recorded as a public resource"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -5399,7 +5411,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "One-page poster was reviewed; working copy is not distributed"
+            "note": "Private one-page poster read: pdf-evidence/notes/parallel-batch-02-deep-learning-driven-anomaly-based-intrusion-detection-system-for-iot-poster-abstract-e3d870b1d7.md"
           },
           {
             "note": "DOI/DBLP published item: https://doi.org/10.1145/3565386.3565493"
@@ -5515,37 +5527,28 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "The paper combines model-based quantitative constraints with user-space and kernel execution traces to automatically identify likely causes of real-time and multicore constraint violations.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1002/cpe.6974"
+            "note": "Wiley publisher full-text viewer pp. 1-3: problem, LTTng/LTTng-UST selection, CTF/common-clock rationale, and related tools"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "Wiley publisher full-text viewer pp. 4-13: state-machine model, constraint statuses, 95%/5% sampling, reservoir sampling, interval-set comparison, and responsibility scores"
           },
           {
-            "note": "Publisher full text viewer pp. 1-3: problem, LTTng/LTTng-UST selection, CTF/common-clock rationale, and related tracing/model-analysis tools"
+            "note": "Wiley publisher full-text viewer pp. 13-20: JACK2, wakelock, user-space, and cyclictest case studies"
           },
           {
-            "note": "Publisher full text viewer pp. 4-13: state-machine model, constraint statuses, 95%/5% sampling, reservoir sampling, interval-set extraction, distance/weight/differential analysis, and responsibility scores"
+            "note": "Wiley publisher full-text viewer pp. 20-24: i7-4790/32 GiB platform, trace sizes, 100-run sampling comparison, analysis timings, and scalability"
           },
           {
-            "note": "Publisher full text viewer pp. 13-20: JACK2, wakelock, userspace, and cyclictest case studies, including 96.65%/96.51% JACK2 attribution and the Jetson/HDMI cyclictest diagnosis"
-          },
-          {
-            "note": "Publisher full text viewer pp. 20-24: i7-4790/32 GiB platform, trace sizes, 100-run sampling comparison, analysis timings, and scalability"
-          },
-          {
-            "note": "Publisher full text viewer p. 25: conclusion, data-availability statement, and future direction"
-          },
-          {
-            "note": "No local PDF hash is claimed: the Wiley PDF link redirected to an abstract/access page and the ResearchGate publisher viewer exposed the full 26-page text but did not provide a downloadable file in this run."
+            "note": "Wiley publisher full-text viewer p. 25: conclusion and future direction; no local PDF hash claimed"
           }
         ]
       },
@@ -5648,13 +5651,22 @@
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Exact full paper PDF reviewed: N-Lane Bridge, IEEE SCAM 2022, DOI 10.1109/SCAM55253.2022.00015."
+            "note": "IEEE/DBLP metadata for 10.1109/scam55253.2022.00015"
           },
           {
-            "note": "LTTng version, workload escalation, statistical test, Firefox and InDebitO cases, latency decomposition, and overhead measurements were checked against the paper's setup and results."
+            "note": "N-Lane Bridge PDF pp. 1-7: OLB/NLB definitions, LTTng 2.12.3, Trace Compass, tracepoints, critical-path and response-time method"
+          },
+          {
+            "note": "N-Lane Bridge PDF pp. 7-9: Firefox 65.0/PDF.js and InDebitO cases, latency causes, and NLB classification"
+          },
+          {
+            "note": "N-Lane Bridge PDF pp. 9-10: CPU/I/O overhead, trace sizes, offline analysis cost, threats, and future work"
+          },
+          {
+            "note": "Local PDF hash verified in pdf-evidence/notes/n-lane-bridge-performance-antipatterns.md and extraction-manifest.json"
           }
         ]
       },
@@ -5764,7 +5776,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Full text was reviewed; working copy is not distributed"
+            "note": "Private full PDF read: pdf-evidence/notes/performance-anomaly-detection-sequence-alignment.md"
           },
           {
             "note": "Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment"
@@ -5776,7 +5788,7 @@
             "note": "Performance-anomaly PDF p. 10: conclusion and future work"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -5889,20 +5901,23 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "This work investigates execution-path analysis as a way to evaluate complex multi-thread applications.",
-      "evidence_level": "full-text-reviewed",
+      "description": "The paper unifies Chromium application-level and Linux kernel-level traces into an execution-path model for locating sporadic latency causes in complex multithreaded applications.",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "full-text-reviewed",
-        "coverage": "material paper sections",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Complete author author-manuscript manuscript source reviewed for the published record: Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis, Performance Evaluation 2022, DOI 10.1016/j.peva.2022.102289."
+            "note": "Official Performance Evaluation article page and abstract: https://www.sciencedirect.com/science/article/pii/S0166531622000049"
           },
           {
-            "note": "The abstract, LTTng/LTTng-UST collection method, Chromium Execution Graph Construction algorithm, three jank cases, experimental environment, overhead figure values, limitations, and conclusion were checked against the source."
+            "note": "Public article text identifies Chromium, application/kernel collection, unified modeling, LTTng instrumentation, and three performance-bug cases"
+          },
+          {
+            "note": "Full paper PDF or accepted manuscript still needed for page-grounded technical and quantitative enrichment"
           }
         ]
       },
@@ -5986,14 +6001,14 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "The verified record identifies this work as a 2022 IC2E poster paper on operating-system support for performance analysis, but the full technical contribution was not available in the captured sources.",
+      "description": "The poster presents system-level execution tracing for detecting the One-Lane Bridge performance antipattern in multithreaded applications.",
       "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
             "note": "DOI: https://doi.org/10.1109/IC2E55432.2022.00039"
@@ -6002,7 +6017,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "OpenAlex abstract metadata reviewed for the system-level tracing and One-Lane Bridge case; full text still needed"
           }
         ]
       },
@@ -6124,7 +6139,7 @@
             "note": "official arXiv abstract and PDF page 2207.06515"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "local PDF hash verified in the working catalog"
           }
         ]
       },
@@ -6235,13 +6250,22 @@
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Exact full paper PDF reviewed: Model-Based Constraints, International Journal of Parallel Programming 2021, DOI 10.1007/s10766-020-00689-5."
+            "note": "Crossref and local DBLP/venue metadata for 10.1007/s10766-020-00689-5"
           },
           {
-            "note": "The LTTng-based workflow extraction, state-machine construction, three case studies, inferred timing values, model-build cost, and limitations were checked against the paper."
+            "note": "Model-constraints PDF pp. 1-2, 5-17: user-space/kernel scope, LTTng cyclictest case, per-thread/LCS workflow generation, adaptive constraints, and case-study detections"
+          },
+          {
+            "note": "Model-constraints PDF pp. 21-30: hardware, trace sizes, runtime/scalability, and full-cyclictest approximately 7-minute result"
+          },
+          {
+            "note": "Model-constraints PDF p. 30: limitation and future-work boundary"
+          },
+          {
+            "note": "Local PDF hash verified in pdf-evidence/notes/model-based-constraints-execution-tracing.md and extraction-manifest.json"
           }
         ]
       },
@@ -6448,7 +6472,7 @@
       ],
       "publication": {
         "year": 2021,
-        "venue": "2021 IEEE International Conference on Cloud Engineering (IC2E)",
+        "venue": "IEEE International Conference on Cloud Computing Technology and Science (CloudCom)",
         "type": "conference paper",
         "publication_date": "2021-10",
         "online_date": null,
@@ -6489,13 +6513,22 @@
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Exact full paper PDF reviewed: Container Workload Characterization, IEEE IC2E 2021, DOI 10.1109/IC2E52221.2021.00015."
+            "note": "IEEE/DOI metadata for 10.1109/ic2e52221.2021.00015"
           },
           {
-            "note": "LTTng contexts and tracepoints, Docker setup, two-stage clustering, cluster interpretations, overhead, and clustering-runtime results were checked against the paper."
+            "note": "Container workload PDF pp. 1-4: host-only motivation, LTTng, pid_ns/tid attribution, and state extraction"
+          },
+          {
+            "note": "Container workload PDF pp. 4-9: PageRank feature selection, vectorization, two-stage K-Means, workloads, and silhouette result"
+          },
+          {
+            "note": "Container workload PDF pp. 9-10: required tracepoints, 21.62% versus 3.6% overhead, limitations, and future work"
+          },
+          {
+            "note": "Local PDF hash verified in pdf-evidence/notes/container-workload-characterization-host-tracing.md and extraction-manifest.json"
           }
         ]
       },
@@ -6591,35 +6624,29 @@
       "page_url": "https://naser.github.io/research-publications/papers/debugging-performance-degradation-distributed-requests/",
       "canonical_source_url": "https://doi.org/10.1155/2021/8478076",
       "status": "published_with_public_full_text",
-      "abstract_available": false,
+      "abstract_available": true,
       "scholar_eligibility": {
-        "eligible": false,
-        "basis": "not-eligible",
-        "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+        "eligible": true,
+        "basis": "complete-visible-author-abstract",
+        "note": "The page displays the complete verified author abstract."
       },
-      "description": "The paper correlates LTTng traces from user space through kernel, storage, network, and multiple hosts in a disk-backed state model, enabling top-down diagnosis of distributed request latency.",
+      "description": "Root cause identification of performance degradation within distributed systems is often a difficult and time-consuming task, yet it is crucial for maintaining high performance. In this paper, we present an execution trace-driven solution that reduces the efforts required to investigate, debug, and solve performance problems found in multinode distributed systems. The proposed approach employs a unified analysis method to represent trace data collected from the user-space level to the hardware level of involved nodes, allowing for efficient and effective root cause analysis. This solution works by extracting performance metrics and state information from trace data collected at user-space, kernel, and network levels. The multisource trace data is then synchronized and structured in a multidimensional data store, which is designed specifically for this kind of data. A posteriori analysis using a top-down approach is then used to investigate performance problems and detect their root causes. In this paper, we apply this generic framework to analyze trace data collected from the execution of the web server, database server, and application servers in a distributed LAMP (Linux, Apache, MySQL, and PHP) Stack. Using industrial level use cases, we show that the proposed framework can investigate root causes, address unusual latency, and improve base latency by 70%. This is achieved with minimal tracing overhead that does not significantly impact performance, together with O(log n) query response times for efficient analysis.",
       "evidence_level": "full-text-reviewed",
       "evidence": {
         "source_basis": "full-text-reviewed",
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Full text was reviewed; working copy is not distributed"
+            "note": "Official Wiley article and abstract: https://onlinelibrary.wiley.com/doi/10.1155/2021/8478076"
           },
           {
-            "note": "Debugging paper pp. 1-10: LTTng, LAMP probes, multihost synchronization, State History Tree, data model, and top-down algorithm"
+            "note": "Crossref license metadata identifies CC BY 4.0: https://api.crossref.org/works/10.1155%2F2021%2F8478076"
           },
           {
-            "note": "Debugging paper pp. 11-13: MediaWiki/WordPress/MariaDB and unusual-latency use cases, cache analysis, and disk contention diagnosis"
-          },
-          {
-            "note": "Debugging paper pp. 14-16: ApacheBench environment, tracing overhead, state-store/PostgreSQL comparison, conclusion, and future work"
-          },
-          {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Full paper evidence ledger and local PDF hash verified in pdf-evidence/notes/debugging-performance-degradation-distributed-requests.md"
           }
         ]
       },
@@ -6722,29 +6749,29 @@
       "page_url": "https://naser.github.io/research-publications/papers/distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu/",
       "canonical_source_url": "https://doi.org/10.3390/s21165560",
       "status": "public_published_full_text",
-      "abstract_available": false,
+      "abstract_available": true,
       "scholar_eligibility": {
-        "eligible": false,
-        "basis": "not-eligible",
-        "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+        "eligible": true,
+        "basis": "complete-visible-author-abstract",
+        "note": "The page displays the complete verified author abstract."
       },
-      "description": "The paper presents a modular client-server architecture for large-trace storage, analysis, and visualization inside an integrated development environment.",
+      "description": "Integrated development environments (IDEs) provide many useful tools such as a code editor, a compiler, and a debugger for creating software. These tools are highly sophisticated, and their development requires a significant effort. Traditionally, an IDE supports different programming languages via plugins that are not usually reusable in other IDEs. Given the high complexity and constant evolution of popular programming languages, such as C++ and even Java, the effort to update those plugins has become unbearable. Thus, recent work aims to modularize IDEs and reuse the existing parser implementation directly in compilers. However, when IDE debugging tools are insufficient at detecting performance defects in large and multithreaded systems, developers must use tracing and trace visualization tools in their software development process. Those tools are often standalone applications and do not interoperate with the new modular IDEs, thus losing the power and the benefits of many features provided by the IDE. The structure and use cases of tracing tools, with the potentially massive execution traces, significantly differ from the other tools in IDEs. Thus, it is a considerable challenge to integrate them into the new modular IDEs. In this paper, we propose an efficient modular client-server architecture for trace analysis and visualization that solves those problems. The proposed architecture is well suited for performance analysis on Internet of Things (IoT) devices, where resource limitations often prohibit data collection, processing, and visualization all on the same device. The experimental evaluation demonstrated that our proposed flexible and reusable solution is scalable and has a small acceptable performance overhead compared to the standalone approach.",
       "evidence_level": "full-text-reviewed",
       "evidence": {
         "source_basis": "full-text-reviewed",
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "PolyPublie repository record identity matched to the catalog title and author record"
+            "note": "Official Sensors article and abstract: https://www.mdpi.com/1424-8220/21/16/5560"
           },
           {
-            "note": "public PDF downloaded locally and %PDF- signature verified"
+            "note": "MDPI open-access policy and CC BY reuse terms: https://www.mdpi.com/about/openaccess"
           },
           {
-            "note": "PolyPublie record identifies this as the published MDPI version and displays CC BY 4.0."
+            "note": "Local published-paper PDF hash verified in the working catalog"
           }
         ]
       },
@@ -6860,14 +6887,14 @@
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "The verified record identifies this work as a BigData 2021 paper on heap monitoring and memory-leak diagnosis, but the full technical contribution was not available in the captured sources.",
+      "description": "The paper proposes heap-growth analysis that records malloc, calloc, and realloc allocations and identifies memory leaks from a developer-defined threshold using a final summary snapshot.",
       "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
             "note": "DOI: https://doi.org/10.1109/BigData52589.2021.9671473"
@@ -6876,7 +6903,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/bigdataconf/AzhariBET21"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "OpenAlex abstract metadata reviewed for allocation capture, threshold analysis, and one-snapshot comparison; full text still needed"
           }
         ]
       },
@@ -6969,7 +6996,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/integrated-modeling-tool-state-machine-trace/",
       "canonical_source_url": "https://doi.org/10.1109/ISNCC52172.2021.9615814",
-      "status": "published_metadata_record",
+      "status": "published_with_public_source_record",
       "abstract_available": true,
       "scholar_eligibility": {
         "eligible": false,
@@ -6977,19 +7004,22 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "The accessible abstract describes a modeled state representation with a special-purpose database, filtering/highlighting, and Gantt/XY views for Linux and Windows traces.",
-      "evidence_level": "full-text-reviewed",
+      "evidence_level": "metadata-or-abstract-reviewed",
       "evidence": {
-        "source_basis": "full-text-reviewed",
-        "coverage": "material paper sections",
+        "source_basis": "abstract-and-metadata-reviewed",
+        "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Exact author manuscript/submitted-paper PDF reviewed for the published record: Integrated Modeling Tool for Indexing and Analyzing State Machine Trace, DOI 10.1109/ISNCC52172.2021.9615814."
+            "note": "DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814"
           },
           {
-            "note": "Graphiti/EMF design, LTTng/CTF support, State History Tree integration, both use cases, and the model/XML attribute counts were checked against the inspected paper."
+            "note": "PolyPublie institutional record: https://publications.polymtl.ca/50159/"
+          },
+          {
+            "note": "OpenAlex abstract metadata reviewed for state-machine modeling and multi-level kernel/user-space analysis; full text still needed"
           }
         ]
       },
@@ -7004,11 +7034,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "dblp-record",
-          "label": "DBLP record",
+          "id": "polypublie-institutional-publication-record",
+          "label": "PolyPublie institutional publication record",
           "relation": "source-record",
           "status": "public_source_record",
-          "url": "https://dblp.org/rec/conf/isncc/DelisleED21",
+          "url": "https://publications.polymtl.ca/50159/",
           "pdf_url": null,
           "canonical_for_citation": false
         }
@@ -7103,7 +7133,7 @@
             "note": "Malware system-call PDF: virtualization/generalization limitation, count-vector boundary, dropout inconsistency, and future work"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/notes/malware-system-calls-detection-using-hybrid-system.md and pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -7243,19 +7273,19 @@
             "note": "Public thesis pp. 109--110: Trace Compass integration, user-level interrupt direction, signal limitations, and conclusion"
           },
           {
-            "note": "Author-manuscript source was reviewed; project link is not distributed"
+            "note": "Overleaf project: https://www.overleaf.com/project/5e01a488862790000145cf86"
           },
           {
-            "note": "Author-manuscript PDF: 8 pages; exact title/authors/abstract matched, with a compile-log fragment identified in the inspected copy"
+            "note": "Original Overleaf PDF: 8 pages; exact title/authors/abstract matched, but an extraneous compile-log fragment was embedded in the body"
           },
           {
-            "note": "Cleaned author-manuscript copy: source fragment removed, author-manuscript notice added, recompiled successfully, and first/final pages inspected"
+            "note": "Separate cleanup Overleaf copy: source fragment replaced, IEEE author-manuscript notice added, recompiled successfully, and cleaned 8-page PDF inspected on first and final pages"
           },
           {
-            "note": "Rights boundary: agreement-specific SysCon self-archiving terms still require confirmation; do not use the IEEE Version of Record"
+            "note": "Rights gate: agreement-specific SysCon self-archiving terms still require confirmation before arXiv submission; do not use the IEEE Version of Record"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "Private batch report: reports/parallel-batch-03.md"
           }
         ]
       },
@@ -7270,8 +7300,8 @@
           "canonical_for_citation": true
         },
         {
-          "id": "related-public-thesis-chapter-and-author-manuscript-evidence",
-          "label": "Related public thesis chapter and author-manuscript evidence",
+          "id": "related-public-thesis-chapter-plus-cleaned-local-overleaf-manuscript-candidate-with-ieee-rights-notice",
+          "label": "Related public thesis chapter plus cleaned local Overleaf manuscript candidate with IEEE rights notice",
           "relation": "source-record",
           "status": "public_related_full_text",
           "url": "https://core.ac.uk/download/pdf/213619806.pdf",
@@ -7392,7 +7422,7 @@
             "note": "DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21"
           },
           {
-            "note": "Official Springer preview read during review; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; Additional review evidence was used; working files are not distributed"
+            "note": "Official Springer preview read privately; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; private evidence report: reports/agent-batch-04.md"
           }
         ]
       },
@@ -7507,13 +7537,22 @@
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Exact full paper PDF reviewed: Cloud Platform Performance Analysis, IEEE iThings/GreenCom/CPSCom/SmartData/Cybermatics 2020, DOI 10.1109/iThings-GreenCom-CPSCom-SmartData-Cybermatics50389.2020.00063."
+            "note": "IEEE/DOI metadata for 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063"
           },
           {
-            "note": "OpenStack probe coverage, Open vSwitch packet events, live-migration measurements, and the resource-interference case were checked against the paper's figures and tables."
+            "note": "Cloud platform PDF pp. 1-5: LTTng/LTTng-UST, Nova/QEMU/KVM/Neutron/Open vSwitch tracing, correlation, and Trace Compass views"
+          },
+          {
+            "note": "Cloud platform PDF pp. 5-6: live-migration procedure, 166.12/169.320-second results, preemption, and VM-interference diagnosis"
+          },
+          {
+            "note": "Cloud platform PDF p. 6: conclusion and future-work boundary"
+          },
+          {
+            "note": "Local PDF hash verified in pdf-evidence/notes/cloud-platform-performance-multilevel-tracing.md and extraction-manifest.json"
           }
         ]
       },
@@ -7635,7 +7674,7 @@
             "note": "official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "local PDF hash verified in the working catalog"
           }
         ]
       },
@@ -7859,13 +7898,19 @@
         "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "Exact full paper PDF reviewed: Multilevel Trace Analysis of Lock Contention, IEEE ISSREW 2020, DOI 10.1109/ISSREW51248.2020.00068."
+            "note": "Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068"
           },
           {
-            "note": "LTTng/Trace Compass versions, LD_PRELOAD instrumentation, State System representation, views, overhead levels, and Apache/C++ cases were checked against the paper."
+            "note": "Lock-contention PDF pp. 1-4: LTTng 2.10, Trace Compass 4, LD_PRELOAD Pthreads wrappers, event sets, state system, graph, and active-path algorithm"
+          },
+          {
+            "note": "Lock-contention PDF pp. 4-6: visualization views, C++/Pthreads overhead, Apache/OPcache case, and analysis boundary"
+          },
+          {
+            "note": "Local PDF hash verified in pdf-evidence/notes/multilevel-trace-lock-contention.md and extraction-manifest.json"
           }
         ]
       },
@@ -8135,7 +8180,7 @@
             "note": "official arXiv abstract and PDF page 2103.04954"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "local PDF hash verified in the working catalog"
           }
         ]
       },
@@ -9857,19 +9902,19 @@
         "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
-          {
-            "note": "PolyPublie record: https://publications.polymtl.ca/12410/"
-          },
           {
             "note": "DOI: https://doi.org/10.1109/CCECE.2014.6901019"
           },
           {
-            "note": "DBLP record: https://dblp.org/rec/conf/ccece/JivanD14.html"
+            "note": "Public abstract mirror: https://www.researchgate.net/publication/289982421_Efficient_Model_to_Query_and_Visualize_the_System_States_Extracted_from_Trace_Data"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "Institutional archive: https://ahls.dorsal.polymtl.ca/node/179.html"
+          },
+          {
+            "note": "Full paper PDF still needed for page-grounded technical and quantitative enrichment"
           }
         ]
       },
@@ -10121,7 +10166,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/rv/MontplaisirJWD13.html"
           },
           {
-            "note": "Official Springer preview read during review; SHA-256 1f03c9225de8d032f7015b076dd48c7805897c006cb226016baa0e9b01eb621d; Additional review evidence was used; working files are not distributed"
+            "note": "Official Springer preview read privately; SHA-256 1f03c9225de8d032f7015b076dd48c7805897c006cb226016baa0e9b01eb621d; private evidence report: reports/agent-batch-04.md"
           }
         ]
       },
@@ -10230,19 +10275,19 @@
         "coverage": "abstract and bibliographic metadata",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
-        "verified_on": "2026-08-09",
+        "verified_on": "2026-08-21",
         "sources": [
           {
-            "note": "PolyPublie record: https://publications.polymtl.ca/13939/"
+            "note": "DOI: https://doi.org/10.1109/CCECE.2013.6567826"
           },
           {
-            "note": "DOI: https://doi.org/10.1109/CCECE.2013.6567826"
+            "note": "Public abstract mirror: https://www.researchgate.net/publication/261380133_Multilevel_label_placement_for_execution_trace_events"
           },
           {
             "note": "DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "Full paper PDF still needed for page-grounded technical and quantitative enrichment"
           }
         ]
       },
@@ -10602,7 +10647,7 @@
             "note": "PolyPublie institutional record: https://publications.polymtl.ca/15433/"
           },
           {
-            "note": "Additional review evidence was used; working files are not distributed"
+            "note": "Private evidence note: pdf-evidence/notes/parallel-batch-04-an-efficient-analysis-approach-for-multi-core-system-tracing-data.md"
           }
         ]
       },
@@ -10720,7 +10765,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Remote full text read: additional review evidence"
+            "note": "Remote full text read: pdf-evidence/notes/parallel-batch-04-intrusion-response-systems-survey-and-taxonomy.md"
           },
           {
             "note": "Institutional record: https://publications.polymtl.ca/14629/"
@@ -10846,7 +10891,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Additional full-text evidence was reviewed; working files are not distributed"
+            "note": "Private full proceedings evidence note: pdf-evidence/notes/parallel-batch-04-high-performance-internet-connection-filtering-through-an-in-kernel-architecture.md"
           },
           {
             "note": "Article printed pp. 32-37 in the public combined ICIMP proceedings PDF"
@@ -10993,7 +11038,7 @@
             "note": "L-SYNCng PDF: conclusion and dynamic-network future-work statement"
           },
           {
-            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
           }
         ]
       },
@@ -11112,7 +11157,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Additional full-text evidence was reviewed; working files are not distributed"
+            "note": "Private full PDF evidence note: pdf-evidence/notes/parallel-batch-04-new-approach-for-automated-categorizing-and-finding-similarities-in-online-persian-news.md"
           },
           {
             "note": "Springer version-of-record metadata: https://link.springer.com/chapter/10.1007/978-3-642-16032-5_11"

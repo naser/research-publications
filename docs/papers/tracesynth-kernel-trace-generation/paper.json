@@ -79,7 +79,7 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "Full text was reviewed; working copy is not distributed"
+        "note": "Private full PDF read: pdf-evidence/notes/tracesynth-kernel-trace-generation.md"
       },
       {
         "note": "TraceSynth PDF pp. 3-5: LTTng collection, six-channel representation, diffusion model, and invariant repair"
@@ -91,7 +91,7 @@
         "note": "TraceSynth PDF pp. 10-11: limitations and future work"
       },
       {
-        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
       }
     ]
   },
@@ -167,11 +167,11 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "Full text was reviewed; working copy is not distributed",
+      "Private full PDF read: pdf-evidence/notes/tracesynth-kernel-trace-generation.md",
       "TraceSynth PDF pp. 3-5: LTTng collection, six-channel representation, diffusion model, and invariant repair",
       "TraceSynth PDF pp. 6-10: Nibicluster/Phoronix workloads, DDIM generation, next-event metrics, context-length and channel ablations",
       "TraceSynth PDF pp. 10-11: limitations and future work",
-      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",
