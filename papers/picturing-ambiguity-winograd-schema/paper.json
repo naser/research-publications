@@ -62,31 +62,31 @@
     "doi": "10.18653/v1/2024.acl-long.22",
     "arxiv": "2405.16277"
   },
-  "abstract": null,
-  "abstract_source": "arXiv:2405.16277 abstract; public preprint version",
-  "abstract_available": false,
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable success in tasks like the Winograd Schema Challenge (WSC), showcasing advanced textual common-sense reasoning. However, applying this reasoning to multimodal domains, where understanding text and images together is essential, remains a substantial challenge. To address this, we introduce WinoVis, a novel dataset specifically designed to probe text-to-image models on pronoun disambiguation within multimodal contexts. Utilizing GPT-4 for prompt generation and Diffusion Attentive Attribution Maps (DAAM) for heatmap analysis, we propose a novel evaluation framework that isolates the models' ability in pronoun disambiguation from other visual processing challenges. Evaluation of successive model versions reveals that, despite incremental advancements, Stable Diffusion 2.0 achieves a precision of 56.7% on WinoVis, only marginally surpassing random guessing. Further error analysis identifies important areas for future research aimed at advancing text-to-image models in their ability to interpret and interact with the complex visual world.",
+  "abstract_source": "Official arXiv:2405.16277 abstract; public preprint version; ACL Anthology record cross-checked.",
+  "abstract_available": true,
   "scholar_eligibility": {
-    "eligible": false,
-    "basis": "not-eligible",
-    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+    "eligible": true,
+    "basis": "complete-visible-author-abstract",
+    "note": "The page displays the complete verified author abstract."
   },
-  "description": "The paper introduces WinoVis, a multimodal benchmark and analysis framework for testing pronoun disambiguation in text-to-image models.",
+  "description": "Large Language Models (LLMs) have demonstrated remarkable success in tasks like the Winograd Schema Challenge (WSC), showcasing advanced textual common-sense reasoning. However, applying this reasoning to multimodal domains, where understanding text and images together is essential, remains a substantial challenge. To address this, we introduce WinoVis, a novel dataset specifically designed to probe text-to-image models on pronoun disambiguation within multimodal contexts. Utilizing GPT-4 for prompt generation and Diffusion Attentive Attribution Maps (DAAM) for heatmap analysis, we propose a novel evaluation framework that isolates the models' ability in pronoun disambiguation from other visual processing challenges. Evaluation of successive model versions reveals that, despite incremental advancements, Stable Diffusion 2.0 achieves a precision of 56.7% on WinoVis, only marginally surpassing random guessing. Further error analysis identifies important areas for future research aimed at advancing text-to-image models in their ability to interpret and interact with the complex visual world.",
   "evidence_level": "full-text-reviewed",
   "evidence": {
     "source_basis": "full-text-reviewed",
     "coverage": "material paper sections",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
-    "verified_on": "2026-08-09",
+    "verified_on": "2026-08-21",
     "sources": [
       {
-        "note": "ACL Anthology and DOI metadata"
+        "note": "Official arXiv abstract and metadata: https://arxiv.org/abs/2405.16277"
       },
       {
-        "note": "official arXiv abstract and PDF page 2405.16277"
+        "note": "ACL Anthology published record: https://aclanthology.org/2024.acl-long.22/"
       },
       {
-        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+        "note": "Local paper PDF hash verified in the working catalog"
       }
     ]
   },
@@ -156,11 +156,11 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-09",
+    "metadata_verified_on": "2026-08-21",
     "metadata_source": [
-      "ACL Anthology and DOI metadata",
-      "official arXiv abstract and PDF page 2405.16277",
-      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+      "Official arXiv abstract and metadata: https://arxiv.org/abs/2405.16277",
+      "ACL Anthology published record: https://aclanthology.org/2024.acl-long.22/",
+      "Local paper PDF hash verified in the working catalog"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

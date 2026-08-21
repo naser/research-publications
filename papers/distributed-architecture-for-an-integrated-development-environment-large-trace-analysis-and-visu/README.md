@@ -28,7 +28,7 @@ On a 2.47 GB/approximately 75M-event trace, Protobuf generally reduced transfer 
 
 ## Abstract
 
-Abstract not available in the captured sources.
+Integrated development environments (IDEs) provide many useful tools such as a code editor, a compiler, and a debugger for creating software. These tools are highly sophisticated, and their development requires a significant effort. Traditionally, an IDE supports different programming languages via plugins that are not usually reusable in other IDEs. Given the high complexity and constant evolution of popular programming languages, such as C++ and even Java, the effort to update those plugins has become unbearable. Thus, recent work aims to modularize IDEs and reuse the existing parser implementation directly in compilers. However, when IDE debugging tools are insufficient at detecting performance defects in large and multithreaded systems, developers must use tracing and trace visualization tools in their software development process. Those tools are often standalone applications and do not interoperate with the new modular IDEs, thus losing the power and the benefits of many features provided by the IDE. The structure and use cases of tracing tools, with the potentially massive execution traces, significantly differ from the other tools in IDEs. Thus, it is a considerable challenge to integrate them into the new modular IDEs. In this paper, we propose an efficient modular client-server architecture for trace analysis and visualization that solves those problems. The proposed architecture is well suited for performance analysis on Internet of Things (IoT) devices, where resource limitations often prohibit data collection, processing, and visualization all on the same device. The experimental evaluation demonstrated that our proposed flexible and reusable solution is scalable and has a small acceptable performance overhead compared to the standalone approach.
 
 ## Topics and keywords
 
@@ -90,7 +90,7 @@ Y. C. K. Piao, N. Ezzati-Jivan, and M. R. Dagenais, "Distributed Architecture fo
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie record identifies this as the published MDPI version and displays CC BY 4.0.
+- Metadata sources: Official Sensors article and abstract: https://www.mdpi.com/1424-8220/21/16/5560; MDPI open-access policy and CC BY reuse terms: https://www.mdpi.com/about/openaccess; Local published-paper PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)

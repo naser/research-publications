@@ -4,27 +4,27 @@
 
 **Authors:** Yue Guan, Morteza Noferesti, Naser Ezzati-Jivan
 
-**Core contribution:** The verified record identifies this work as a Middleware 2023 industry-track paper on RPL-attack classification, but the full technical contribution was not available in the captured sources.
+**Core contribution:** The paper evaluates a CNN-BiLSTM classifier for detecting and classifying RPL routing attacks in industrial IoT smart-grid networks.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.
+RPL-based smart-grid IoT networks combine resource constraints with broad connectivity, making them exposed to routing attacks and class imbalance in attack data.
 
 ### 2. Method and contribution
 
-No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.
+The public abstract describes preprocessing and feature enhancement, SMOTE for class balancing, and comparison of the CNN-BiLSTM model with seven deep-learning and traditional classifiers. Two scenarios are used: a simulated IIoT network with multiple RPL attacks and a dataset from nine commercial IoT devices infected by two botnets.
 
 ### 3. Findings and evidence
 
-No page-grounded quantitative or qualitative findings were verified in this audit.
+For the simulated scenario, the abstract reports 91% accuracy, 89% precision, and 89% recall. For the commercial-device dataset, it reports 90% accuracy, 89% precision, 90% recall, and 89% F1. Exact attack labels, split protocol, and model configuration require the full paper.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.
+**Limitations:** The full paper was not obtained; the record does not yet verify the simulator, device telemetry, attack duration, cross-device split, or whether the reported comparison controls class imbalance consistently.
 
-**Future work:** The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained.
+**Future work:** Validate across additional RPL implementations and larger real deployments, and review the paper-specific future-work section when the full text is available.
 
 ## Abstract
 
@@ -49,10 +49,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when classifying RPL attacks in industrial IoT smart-grid networks with CNN-BiLSTM models.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- SMOTE and feature enhancement for imbalanced RPL-attack data.
+- Comparison across a simulated IIoT scenario and nine commercial IoT devices infected by botnets.
+- The reported 90-91% accuracy range and precision/recall/F1 results.
 
 ## Citation
 
@@ -81,7 +82,7 @@ Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "CNN-BiLSTM-Based Classification of 
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1145/3626562.3626832; DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23; Additional review evidence was used; working files are not distributed
+- Metadata sources: DOI: https://doi.org/10.1145/3626562.3626832; DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23; OpenAlex abstract metadata reviewed for scenarios, SMOTE, model comparison, and reported metrics; full text still needed
 - Machine-readable record: [paper.json](./paper.json)

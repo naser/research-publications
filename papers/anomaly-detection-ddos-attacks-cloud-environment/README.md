@@ -86,5 +86,5 @@ H. Abbasi, N. Ezzati-Jivan, M. Bellaiche, C. Talhi, and M. R. Dagenais, "The Use
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1007/s41635-021-00119-z; DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21; Official Springer preview read during review; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; Additional review evidence was used; working files are not distributed
+- Metadata sources: DOI: https://doi.org/10.1007/s41635-021-00119-z; DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21; Official Springer preview read privately; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; private evidence report: reports/agent-batch-04.md
 - Machine-readable record: [paper.json](./paper.json)

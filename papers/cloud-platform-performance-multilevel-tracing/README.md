@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Cloud performance failures cross application, virtualization, kernel, and network layers. Looking at only OpenStack service logs or only host traces can hide scheduler interference, virtual-switch behavior, packet-path changes, or live-migration delays.
+Cloud-service performance failures span application, virtualization, host-kernel, and network layers, so a single-layer view cannot reliably explain migration or resource-interference delays.
 
 ### 2. Method and contribution
 
-The paper combines LTTng kernel and user-space tracing, LTTng-UST Python bindings, custom OpenStack probes, and Trace Compass synchronization and visualization. The modeled layers include the host kernel, KVM/QEMU virtualization, Open vSwitch, and OpenStack Nova/Neutron services. Nova lifecycle and scheduler events are correlated with VM state; Open vSwitch packet tracepoints such as ovs_vport_receive, ovs_upcall_start/end, and ovs_vport_send are linked using packet identifiers to distinguish fast and slow paths. Live migration traces combine controller, source, destination, Nova, QEMU, and kernel events.
+The approach adds LTTng-UST Python probes for OpenStack Nova, traces QEMU/KVM and host kernels, adds Neutron/Open vSwitch tracepoints with packet identifiers, and synchronizes the streams in Trace Compass. VM activity is linked to the Nova instance, QEMU process, and kernel scheduling/preemption evidence.
 
 ### 3. Findings and evidence
 
-The network analysis shows that slow-path processing increases during network reconfiguration or flow-cache eviction and that host CPU contention can delay ovs-vswitchd. In live-migration tests, the reported total migration time is about 166.12–169.32 seconds for successful cases, with a failed middle case; the multilevel view attributes VM delays to co-located stress, vCPU wait, and preemption. The analysis therefore exposes resource interference and suggests VM-priority changes that would not be justified from a single OpenStack log stream.
+The live-migration case records Nova, QEMU, controller, and source/destination host traces. Reported total migration times include 166.12 seconds in the low-interference case and 169.320 seconds with interference. Traces expose CPU preemption and co-located VM interference as causes of migration slowdown and allow packet and service behavior to be followed across layers.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The evaluation is a small OpenStack/VM testbed with selected migration and networking scenarios; it is not a broad cloud workload benchmark. Trace correlation depends on available service probes, kernel events, and clock/synchronization assumptions. The reported diagnosis identifies cross-layer evidence and likely interference but does not provide an automated accuracy metric or a complete remediation system.
+**Limitations:** The evaluation is a focused OpenStack/VM-migration case study and does not establish general cloud-wide overhead or portability across platforms. The conclusion presents the method as extensible rather than universally validated.
 
-**Future work:** The authors identify applying the multilevel tracing methodology to security flaws and other hard-to-detect cross-layer cloud problems.
+**Future work:** Apply the cross-layer method to other hard-to-detect cloud problems, including security flaws, using kernel, network, and application perspectives.
 
 ## Abstract
 
@@ -48,12 +48,11 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when diagnosing OpenStack cloud performance across service, virtual-machine, virtual-switch, and host-kernel layers.
+Cite this paper when correlating OpenStack, virtualization, network, and host-kernel traces for cloud performance diagnosis.
 
-- For combining LTTng/LTTng-UST, OpenStack probes, QEMU/KVM, Open vSwitch, and Trace Compass.
-- For packet-ID correlation of Open vSwitch fast/slow paths with kernel scheduling evidence.
-- For cross-layer live-migration timing and VM-interference analysis.
-- For motivating security or performance diagnosis that cannot be explained by a single service log.
+- LTTng/LTTng-UST probes for Nova, QEMU/KVM, Neutron, Open vSwitch, and host kernels.
+- Trace Compass synchronization of VM, service, packet, scheduling, and preemption evidence.
+- Live-VM-migration analysis that attributes slowdown to CPU preemption and co-located VM interference.
 
 ## Citation
 
@@ -82,7 +81,7 @@ Y. J. Bationo, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Cloud Platform Pe
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Exact full paper PDF reviewed: Cloud Platform Performance Analysis, IEEE iThings/GreenCom/CPSCom/SmartData/Cybermatics 2020, DOI 10.1109/iThings-GreenCom-CPSCom-SmartData-Cybermatics50389.2020.00063.; OpenStack probe coverage, Open vSwitch packet events, live-migration measurements, and the resource-interference case were checked against the paper's figures and tables.
+- Metadata sources: IEEE/DOI metadata for 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063; Cloud platform PDF pp. 1-5: LTTng/LTTng-UST, Nova/QEMU/KVM/Neutron/Open vSwitch tracing, correlation, and Trace Compass views; Cloud platform PDF pp. 5-6: live-migration procedure, 166.12/169.320-second results, preemption, and VM-interference diagnosis; Cloud platform PDF p. 6: conclusion and future-work boundary; Local PDF hash verified in pdf-evidence/notes/cloud-platform-performance-multilevel-tracing.md and extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

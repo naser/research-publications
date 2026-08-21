@@ -92,5 +92,5 @@ A. K. Tabrizi and N. Ezzati-Jivan, "Software Mining - Investigating Correlation 
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Full text was reviewed; working copy is not distributed; Software Mining PDF pp. 1-4: JMH, 586 results from 30 Java projects, srcML/Lizard features, steady-state labels, group counts, and Apriori confidences; Local PDF hash verified: D883BDDA4B750A791CF29D206A9FD20C3E75F6BF21276761B563206134FF43DC; Public source: https://research.spec.org/icpe_proceedings/2023/companion/p107.pdf
+- Metadata sources: Private full PDF read: pdf-evidence/notes/parallel-batch-02-software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste-bd15de158b.md; Software Mining PDF pp. 1-4: JMH, 586 results from 30 Java projects, srcML/Lizard features, steady-state labels, group counts, and Apriori confidences; Local PDF hash verified: D883BDDA4B750A791CF29D206A9FD20C3E75F6BF21276761B563206134FF43DC; Public source: https://research.spec.org/icpe_proceedings/2023/companion/p107.pdf
 - Machine-readable record: [paper.json](./paper.json)

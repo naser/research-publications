@@ -4,27 +4,27 @@
 
 **Authors:** Naser Ezzati-Jivan, Alireza Shameli-Sendi, Michel R. Dagenais
 
-**Core contribution:** The abstract identifies an automatic multilevel label-placement method for execution-trace visualizations.
+**Core contribution:** The paper develops automatic label-placement algorithms for points and lines in execution-trace visualizations, using both topological and semantic relationships among trace items.
 
 ## Four-part research summary
 
 ### 1. Problem and motivation
 
-Dense trace visualizations can become unreadable when labels overlap or obscure event points and lines.
+Dense trace views become unreadable when labels overlap or obscure event objects; a useful layout must maximize the number of labels while preserving assignment quality across multiple abstraction levels.
 
 ### 2. Method and contribution
 
-Only the abstract-level automatic placement objective is verified; the layout algorithm, trace representation, and evaluation are not asserted.
+The public abstract describes algorithms that consider level of detail, repetitiveness, and other relationships among trace items, support multiple labels per item, and target both quantitative coverage and qualitative placement quality.
 
 ### 3. Findings and evidence
 
-No page-grounded metric, comparison, or user-study result was available.
+The authors report implementation on different input traces and improved labeling success rate and assignment quality when relationships among data items are considered. Exact trace sizes, baselines, and metrics require the full paper.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The full paper was not obtained, so layout quality, scalability, and interaction conditions remain unverified.
+**Limitations:** The full paper was not obtained; the layout objective, optimization algorithm, trace-view integration, and scalability remain unverified.
 
-**Future work:** The paper-specific future-work section remains unverified.
+**Future work:** Obtain the paper or accepted manuscript and verify the future-work section, including interaction, dense-scale rendering, and evaluation with trace analysts.
 
 ## Abstract
 
@@ -49,10 +49,11 @@ The accessible abstract describes automatic label placement for points and lines
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when placing multiple labels on dense execution-trace visualizations using semantic and topological relationships.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- Automatic label assignment for point and line trace items.
+- Level-of-detail and repetitiveness relationships in layout decisions.
+- Reported improvements in labeling success and assignment quality across input traces.
 
 ## Citation
 
@@ -81,7 +82,7 @@ N. Ezzati-Jivan, A. Shameli-Sendi, and M. R. Dagenais, "Multilevel Label Placeme
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: PolyPublie record: https://publications.polymtl.ca/13939/; DOI: https://doi.org/10.1109/CCECE.2013.6567826; DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html; Additional review evidence was used; working files are not distributed
+- Metadata sources: DOI: https://doi.org/10.1109/CCECE.2013.6567826; Public abstract mirror: https://www.researchgate.net/publication/261380133_Multilevel_label_placement_for_execution_trace_events; DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html; Full paper PDF still needed for page-grounded technical and quantitative enrichment
 - Machine-readable record: [paper.json](./paper.json)

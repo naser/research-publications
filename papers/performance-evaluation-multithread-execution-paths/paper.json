@@ -58,37 +58,40 @@
     "doi": "10.1016/j.peva.2022.102289"
   },
   "abstract": null,
-  "abstract_source": "No public abstract captured in the current local catalog; summary limited to verified bibliographic metadata and the paper title.",
+  "abstract_source": "Official ScienceDirect abstract and article page reviewed; author abstract not reproduced because reuse permission for the version of record was not established.",
   "abstract_available": false,
   "scholar_eligibility": {
     "eligible": false,
     "basis": "not-eligible",
     "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
   },
-  "description": "This work investigates execution-path analysis as a way to evaluate complex multi-thread applications.",
-  "evidence_level": "full-text-reviewed",
+  "description": "The paper unifies Chromium application-level and Linux kernel-level traces into an execution-path model for locating sporadic latency causes in complex multithreaded applications.",
+  "evidence_level": "metadata-or-abstract-reviewed",
   "evidence": {
-    "source_basis": "full-text-reviewed",
-    "coverage": "material paper sections",
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
-    "verified_on": "2026-08-09",
+    "verified_on": "2026-08-21",
     "sources": [
       {
-        "note": "Complete author author-manuscript manuscript source reviewed for the published record: Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis, Performance Evaluation 2022, DOI 10.1016/j.peva.2022.102289."
+        "note": "Official Performance Evaluation article page and abstract: https://www.sciencedirect.com/science/article/pii/S0166531622000049"
       },
       {
-        "note": "The abstract, LTTng/LTTng-UST collection method, Chromium Execution Graph Construction algorithm, three jank cases, experimental environment, overhead figure values, limitations, and conclusion were checked against the source."
+        "note": "Public article text identifies Chromium, application/kernel collection, unified modeling, LTTng instrumentation, and three performance-bug cases"
+      },
+      {
+        "note": "Full paper PDF or accepted manuscript still needed for page-grounded technical and quantitative enrichment"
       }
     ]
   },
   "summary": {
-    "core_contribution": "This work investigates execution-path analysis as a way to evaluate complex multi-thread applications.",
-    "problem": "Rare latency problems in complex multithreaded applications are difficult to reproduce and often depend on interactions among application tasks, threads, scheduling, locks, interrupts, and memory or I/O. Chromium's built-in tracer provides user-level visibility but has millisecond timing, finite-buffer limitations, and little kernel scheduling context.",
-    "method": "The paper presents a Chromium-focused multilevel tracing and analysis pipeline. Chromium user events are redirected into LTTng's Common Trace Format, while LTTng collects synchronized kernel events with nanosecond timestamps; the implementation adds an LTTng exporter and converts begin/end events into analyzable durations. Trace Compass supplies the state-system and kernel critical-path infrastructure. The Chromium Execution Graph Construction algorithm extends the graph with user-level task events such as TakeTask, RunTask, OnTaskStarted/Completed, navigation, mouse, and keyboard events, and combines them with scheduler, timer, interrupt, softirq, and network events. An XML analysis fills user-level detail into the kernel critical path for root-cause inspection.",
-    "findings": "Three Chromium jank cases are reproduced. A GPU-related case exposes 100–400 ms membarrier calls on the main thread and traces the cause to the slow RCU/liburcu path fixed in later versions. A second view shows long UI-thread futex waits caused by lock contention with Chrome_IO. A close-tab case reports a 911 ms stall, approximately 2,700 queued tasks, and numerous page faults; the combined view links the latency to renderer-process swapping and slow disk reads, which user-level Chromium traces alone could not explain. The evaluation uses an Intel Core i7-7820X/32 GB/Ubuntu 16.04.6/Kernel 4.15 system, LTTng 2.11, and Chromium 73.0.3672.0. Opening-tab averages for 50–200 executions rise from 46–110 ms without tracing to 62–147 ms for the heaviest multilevel configuration, with full-range error bars reported in the source.",
-    "limitations": "This is a methodology and case-study evaluation rather than a broad benchmark of Chromium versions or applications. The data collection and critical-path pipeline require application-specific Chromium adaptation and selected event sets; other applications may have different security, task, and synchronization mechanisms. The paper focuses on latency/jank and does not address non-performance functional failures. The inspected evidence is a complete author manuscript source rather than a publisher PDF, so exact version-specific implementation details should be cited with that boundary.",
-    "future_work": "The authors propose machine-learning methods to group similar janks and compare their call stacks with normal executions. They also identify memory-leak detection as an unaddressed application of the framework."
+    "core_contribution": "The paper unifies Chromium application-level and Linux kernel-level traces into an execution-path model for locating sporadic latency causes in complex multithreaded applications.",
+    "problem": "Sporadic latency in multithreaded applications can arise from application code, thread imbalance, lock contention, resource contention, or system overload. Chromium's built-in tracer provides useful application information but does not expose the kernel scheduling and resource context needed for many diagnoses.",
+    "method": "The public article describes simultaneous collection of application and operating-system data, including browser actions and function-level execution together with kernel scheduling, memory, and lock-contention evidence. The collected multilevel data are translated into a unified model, then used for kernel-level control-flow analysis of user-level browser actions; the public page also identifies LTTng instrumentation for Chromium.",
+    "findings": "The article reports three Chromium performance-bug case studies in which the method detected latency problems and identified their main causes. The public abstract does not expose the complete metric tables or evaluation protocol, so no additional numerical claim is made here.",
+    "limitations": "The publicly accessible evidence is the article abstract/page rather than the complete PDF. The validated workload is Chromium, and transfer to other complex multithreaded applications remains a methodological claim rather than a broad comparative result.",
+    "future_work": "The abstract indicates that the methodology is intended to adapt to other complex multithreaded applications; the paper-specific future-work section and broader cross-application evaluation remain unverified."
   },
   "tags": [
     "performance-analysis",
@@ -126,23 +129,23 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when combining Chromium user-level events with LTTng kernel evidence to explain multithreaded browser latency and jank.",
+    "when_to_cite": "Cite this paper when correlating application and kernel traces to diagnose sporadic latency in complex multithreaded applications.",
     "points": [
-      "For redirecting Chromium trace events into synchronized LTTng/CTF data and using Trace Compass for analysis.",
-      "For extending a kernel execution graph and critical path with Chromium task, navigation, input, and user-action states.",
-      "For the membarrier, UI/Chrome_IO futex contention, and close-tab page-fault case studies.",
-      "For the application-specific instrumentation and controlled Chromium/LTTng overhead boundary."
+      "Unified application/kernel execution-path modeling for Chromium-style workloads.",
+      "LTTng-based instrumentation that adds kernel scheduling and resource context to application tracing.",
+      "The three Chromium performance-bug case studies and their root-cause-analysis framing."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-09",
+    "metadata_verified_on": "2026-08-21",
     "metadata_source": [
-      "Complete author author-manuscript manuscript source reviewed for the published record: Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis, Performance Evaluation 2022, DOI 10.1016/j.peva.2022.102289.",
-      "The abstract, LTTng/LTTng-UST collection method, Chromium Execution Graph Construction algorithm, three jank cases, experimental environment, overhead figure values, limitations, and conclusion were checked against the source."
+      "Official Performance Evaluation article page and abstract: https://www.sciencedirect.com/science/article/pii/S0166531622000049",
+      "Public article text identifies Chromium, application/kernel collection, unified modeling, LTTng instrumentation, and three performance-bug cases",
+      "Full paper PDF or accepted manuscript still needed for page-grounded technical and quantitative enrichment"
     ],
     "summary_written_by": "AI-assisted",
-    "summary_verified_by": "full-text-grounded catalog review; author approval pending",
+    "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",
     "linked_preprint_record": null,
     "author_order_note": null
   },

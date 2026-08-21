@@ -6,6 +6,7 @@ AU  - Ezzati-Jivan, Naser
 TI  - Utilizing Graph Neural Networks for Effective Link Prediction in Microservice Architectures
 PY  - 2025
 T2  - ACM/SPEC International Conference on Performance Engineering (ICPE)
+AB  - Managing microservice architectures in distributed systems is complex and resource intensive due to the high frequency and dynamic nature of inter service interactions. Accurate prediction of these future interactions can enhance adaptive monitoring, enabling proactive maintenance and resolution of potential performance issues before they escalate. This study introduces a Graph Neural Network (GNN) based approach, specifically using a Graph Attention Network (GAT), for link prediction in microservice Call Graphs. Unlike social networks, where interactions tend to occur sporadically and are often less frequent, microservice Call Graphs involve highly frequent and time sensitive interactions that are essential to operational performance. Our approach leverages temporal segmentation, advanced negative sampling, and GATs attention mechanisms to model these complex interactions accurately. Using real world data, we evaluate our model across performance metrics such as AUC, Precision, Recall, and F1 Score, demonstrating its high accuracy and robustness in predicting microservice interactions. Our findings support the potential of GNNs for proactive monitoring in distributed systems, paving the way for applications in adaptive resource management and performance optimization.
 SP  - 19
 EP  - 30
 PB  - ACM

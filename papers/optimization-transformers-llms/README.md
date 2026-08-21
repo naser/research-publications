@@ -28,7 +28,7 @@ On GPT-2 125M, 4-bit quantization increases perplexity 3.79%, runtime 4.86%, and
 
 ## Abstract
 
-Abstract not available in the captured sources.
+Advancements in Natural Language Processing are heavily reliant on the Transformer architecture, whose improvements come at substantial resource costs due to ever-growing model sizes. This study explores optimization techniques, including Quantization, Knowledge Distillation, and Pruning, focusing on energy and computational efficiency while retaining performance. Among standalone methods, 4-bit Quantization significantly reduces energy use with minimal accuracy loss. Hybrid approaches, like NVIDIA's Minitron approach combining KD and Structured Pruning, further demonstrate promising trade-offs between size reduction and accuracy retention. A novel optimization equation is introduced, offering a flexible framework for comparing various methods. Through the investigation of these compression methods, we provide valuable insights for developing more sustainable and efficient LLMs, shining a light on the often-ignored concern of energy efficiency.
 
 ## Topics and keywords
 
@@ -86,9 +86,9 @@ T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Optimization Strategies f
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2502.00046; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed; author-order discrepancy explicitly retained
+- Metadata sources: Official arXiv abstract and metadata: https://arxiv.org/abs/2502.00046; ACM DOI record: https://doi.org/10.1145/3676151.3719379; Local paper PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)
 
 > Metadata note: The published-record metadata is used for citation order; the arXiv page presents a different author ordering, so the versions should remain distinguishable.

@@ -52,34 +52,31 @@
     "doi": "10.1145/3676151.3719379",
     "arxiv": "2502.00046"
   },
-  "abstract": null,
-  "abstract_source": "arXiv:2502.00046 abstract; public preprint version",
-  "abstract_available": false,
+  "abstract": "Advancements in Natural Language Processing are heavily reliant on the Transformer architecture, whose improvements come at substantial resource costs due to ever-growing model sizes. This study explores optimization techniques, including Quantization, Knowledge Distillation, and Pruning, focusing on energy and computational efficiency while retaining performance. Among standalone methods, 4-bit Quantization significantly reduces energy use with minimal accuracy loss. Hybrid approaches, like NVIDIA's Minitron approach combining KD and Structured Pruning, further demonstrate promising trade-offs between size reduction and accuracy retention. A novel optimization equation is introduced, offering a flexible framework for comparing various methods. Through the investigation of these compression methods, we provide valuable insights for developing more sustainable and efficient LLMs, shining a light on the often-ignored concern of energy efficiency.",
+  "abstract_source": "Official arXiv:2502.00046 abstract; public preprint version; ACM/DBLP metadata cross-checked.",
+  "abstract_available": true,
   "scholar_eligibility": {
-    "eligible": false,
-    "basis": "not-eligible",
-    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+    "eligible": true,
+    "basis": "complete-visible-author-abstract",
+    "note": "The page displays the complete verified author abstract."
   },
-  "description": "The paper compares compression and optimization strategies for reducing the resource cost of Transformer and large-language-model workloads while retaining useful accuracy.",
+  "description": "Advancements in Natural Language Processing are heavily reliant on the Transformer architecture, whose improvements come at substantial resource costs due to ever-growing model sizes. This study explores optimization techniques, including Quantization, Knowledge Distillation, and Pruning, focusing on energy and computational efficiency while retaining performance. Among standalone methods, 4-bit Quantization significantly reduces energy use with minimal accuracy loss. Hybrid approaches, like NVIDIA's Minitron approach combining KD and Structured Pruning, further demonstrate promising trade-offs between size reduction and accuracy retention. A novel optimization equation is introduced, offering a flexible framework for comparing various methods. Through the investigation of these compression methods, we provide valuable insights for developing more sustainable and efficient LLMs, shining a light on the often-ignored concern of energy efficiency.",
   "evidence_level": "full-text-reviewed",
   "evidence": {
     "source_basis": "full-text-reviewed",
     "coverage": "material paper sections",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
-    "verified_on": "2026-08-09",
+    "verified_on": "2026-08-21",
     "sources": [
       {
-        "note": "DBLP and ACM DOI metadata"
+        "note": "Official arXiv abstract and metadata: https://arxiv.org/abs/2502.00046"
       },
       {
-        "note": "official arXiv abstract and PDF page 2502.00046"
+        "note": "ACM DOI record: https://doi.org/10.1145/3676151.3719379"
       },
       {
-        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
-      },
-      {
-        "note": "author-order discrepancy explicitly retained"
+        "note": "Local paper PDF hash verified in the working catalog"
       }
     ]
   },
@@ -149,12 +146,11 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-09",
+    "metadata_verified_on": "2026-08-21",
     "metadata_source": [
-      "DBLP and ACM DOI metadata",
-      "official arXiv abstract and PDF page 2502.00046",
-      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed",
-      "author-order discrepancy explicitly retained"
+      "Official arXiv abstract and metadata: https://arxiv.org/abs/2502.00046",
+      "ACM DOI record: https://doi.org/10.1145/3676151.3719379",
+      "Local paper PDF hash verified in the working catalog"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

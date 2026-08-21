@@ -89,5 +89,5 @@ G. Khodabandeh, A. Ezaz, and N. Ezzati-Jivan, "Network Analysis of Microservices
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Full text was reviewed; working copy is not distributed; Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering; Network-analysis PDF pp. 3-5: structural findings, limitations, future work, and implementation repository; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
+- Metadata sources: Private full PDF read: pdf-evidence/notes/network-analysis-microservices-alibaba.md; Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering; Network-analysis PDF pp. 3-5: structural findings, limitations, future work, and implementation repository; Local PDF hash verified in pdf-evidence/extraction-manifest.json
 - Machine-readable record: [paper.json](./paper.json)

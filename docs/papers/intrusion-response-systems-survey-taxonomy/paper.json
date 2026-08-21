@@ -73,7 +73,7 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "Remote full text read: additional review evidence"
+        "note": "Remote full text read: pdf-evidence/notes/parallel-batch-04-intrusion-response-systems-survey-and-taxonomy.md"
       },
       {
         "note": "Institutional record: https://publications.polymtl.ca/14629/"
@@ -154,7 +154,7 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "Remote full text read: additional review evidence",
+      "Remote full text read: pdf-evidence/notes/parallel-batch-04-intrusion-response-systems-survey-and-taxonomy.md",
       "Institutional record: https://publications.polymtl.ca/14629/",
       "Remote article copy: https://www.researchgate.net/publication/267917501_Intrusion_Response_Systems_Survey_and_Taxonomy"
     ],

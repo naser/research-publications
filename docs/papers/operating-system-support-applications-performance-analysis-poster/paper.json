@@ -44,21 +44,21 @@
     "doi": "10.1109/IC2E55432.2022.00039"
   },
   "abstract": null,
-  "abstract_source": null,
+  "abstract_source": "OpenAlex abstract metadata reviewed; publisher abstract not reproduced because reuse permission was not established.",
   "abstract_available": false,
   "scholar_eligibility": {
     "eligible": false,
     "basis": "not-eligible",
     "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
   },
-  "description": "The verified record identifies this work as a 2022 IC2E poster paper on operating-system support for performance analysis, but the full technical contribution was not available in the captured sources.",
+  "description": "The poster presents system-level execution tracing for detecting the One-Lane Bridge performance antipattern in multithreaded applications.",
   "evidence_level": "metadata-or-abstract-reviewed",
   "evidence": {
-    "source_basis": "metadata-only",
-    "coverage": "bibliographic metadata",
+    "source_basis": "abstract-and-metadata-reviewed",
+    "coverage": "abstract and bibliographic metadata",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
-    "verified_on": "2026-08-09",
+    "verified_on": "2026-08-21",
     "sources": [
       {
         "note": "DOI: https://doi.org/10.1109/IC2E55432.2022.00039"
@@ -67,17 +67,17 @@
         "note": "DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22"
       },
       {
-        "note": "Additional review evidence was used; working files are not distributed"
+        "note": "OpenAlex abstract metadata reviewed for the system-level tracing and One-Lane Bridge case; full text still needed"
       }
     ]
   },
   "summary": {
-    "core_contribution": "The verified record identifies this work as a 2022 IC2E poster paper on operating-system support for performance analysis, but the full technical contribution was not available in the captured sources.",
-    "problem": "A paper-specific problem statement is not asserted from title or bibliographic metadata alone; the full text is still required.",
-    "method": "No method, tool, dataset, workload, or implementation detail is asserted because the full text was not obtained.",
-    "findings": "No page-grounded quantitative or qualitative findings were verified in this audit.",
-    "limitations": "The record is intentionally limited to verified identity and bibliographic evidence; it is not a substitute for reading the paper.",
-    "future_work": "The paper's future-work section remains unverified and should be added after a legal full-text copy is obtained."
+    "core_contribution": "The poster presents system-level execution tracing for detecting the One-Lane Bridge performance antipattern in multithreaded applications.",
+    "problem": "Existing performance-antipattern detection may not examine operating-system-wide resources and can therefore rely on imprecise metrics when diagnosing multithreaded performance problems.",
+    "method": "The public abstract describes a system-level execution-tracing method that observes operating-system resources and applies it to an open-source multithreaded application. The exact tracer, event set, critical-path analysis, and classification rule require the poster or paper text.",
+    "findings": "The reported case study diagnoses performance issues in the target application, but the public abstract does not expose the workload parameters or quantitative results.",
+    "limitations": "This is a poster paper and the full text was not obtained; implementation details, measurements, and threat-to-validity boundaries remain unverified.",
+    "future_work": "Obtain the poster PDF and verify the authors' future work, then evaluate the method across additional One-Lane Bridge cases and operating-system configurations."
   },
   "tags": [
     "performance-analysis",
@@ -125,19 +125,20 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this poster when applying system-level execution tracing to One-Lane Bridge performance-antipattern detection.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "Operating-system-wide evidence rather than application-only performance metrics.",
+      "System-level tracing of a multithreaded open-source application.",
+      "A poster-level One-Lane Bridge diagnosis whose detailed measurements require the source PDF."
     ],
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-09",
+    "metadata_verified_on": "2026-08-21",
     "metadata_source": [
       "DOI: https://doi.org/10.1109/IC2E55432.2022.00039",
       "DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22",
-      "Additional review evidence was used; working files are not distributed"
+      "OpenAlex abstract metadata reviewed for the system-level tracing and One-Lane Bridge case; full text still needed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",

@@ -51,31 +51,31 @@
   "identifiers": {
     "doi": "10.3390/s21165560"
   },
-  "abstract": null,
-  "abstract_source": "Open-access/institutional full-text PDF reviewed; abstract paraphrased for this catalog.",
-  "abstract_available": false,
+  "abstract": "Integrated development environments (IDEs) provide many useful tools such as a code editor, a compiler, and a debugger for creating software. These tools are highly sophisticated, and their development requires a significant effort. Traditionally, an IDE supports different programming languages via plugins that are not usually reusable in other IDEs. Given the high complexity and constant evolution of popular programming languages, such as C++ and even Java, the effort to update those plugins has become unbearable. Thus, recent work aims to modularize IDEs and reuse the existing parser implementation directly in compilers. However, when IDE debugging tools are insufficient at detecting performance defects in large and multithreaded systems, developers must use tracing and trace visualization tools in their software development process. Those tools are often standalone applications and do not interoperate with the new modular IDEs, thus losing the power and the benefits of many features provided by the IDE. The structure and use cases of tracing tools, with the potentially massive execution traces, significantly differ from the other tools in IDEs. Thus, it is a considerable challenge to integrate them into the new modular IDEs. In this paper, we propose an efficient modular client-server architecture for trace analysis and visualization that solves those problems. The proposed architecture is well suited for performance analysis on Internet of Things (IoT) devices, where resource limitations often prohibit data collection, processing, and visualization all on the same device. The experimental evaluation demonstrated that our proposed flexible and reusable solution is scalable and has a small acceptable performance overhead compared to the standalone approach.",
+  "abstract_source": "Official Sensors article abstract; CC BY 4.0 open-access article page.",
+  "abstract_available": true,
   "scholar_eligibility": {
-    "eligible": false,
-    "basis": "not-eligible",
-    "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
+    "eligible": true,
+    "basis": "complete-visible-author-abstract",
+    "note": "The page displays the complete verified author abstract."
   },
-  "description": "The paper presents a modular client-server architecture for large-trace storage, analysis, and visualization inside an integrated development environment.",
+  "description": "Integrated development environments (IDEs) provide many useful tools such as a code editor, a compiler, and a debugger for creating software. These tools are highly sophisticated, and their development requires a significant effort. Traditionally, an IDE supports different programming languages via plugins that are not usually reusable in other IDEs. Given the high complexity and constant evolution of popular programming languages, such as C++ and even Java, the effort to update those plugins has become unbearable. Thus, recent work aims to modularize IDEs and reuse the existing parser implementation directly in compilers. However, when IDE debugging tools are insufficient at detecting performance defects in large and multithreaded systems, developers must use tracing and trace visualization tools in their software development process. Those tools are often standalone applications and do not interoperate with the new modular IDEs, thus losing the power and the benefits of many features provided by the IDE. The structure and use cases of tracing tools, with the potentially massive execution traces, significantly differ from the other tools in IDEs. Thus, it is a considerable challenge to integrate them into the new modular IDEs. In this paper, we propose an efficient modular client-server architecture for trace analysis and visualization that solves those problems. The proposed architecture is well suited for performance analysis on Internet of Things (IoT) devices, where resource limitations often prohibit data collection, processing, and visualization all on the same device. The experimental evaluation demonstrated that our proposed flexible and reusable solution is scalable and has a small acceptable performance overhead compared to the standalone approach.",
   "evidence_level": "full-text-reviewed",
   "evidence": {
     "source_basis": "full-text-reviewed",
     "coverage": "material paper sections",
     "summary_origin": "AI-assisted catalog editorial summary",
     "review_status": "catalog-reviewed; paper-author approval pending",
-    "verified_on": "2026-08-09",
+    "verified_on": "2026-08-21",
     "sources": [
       {
-        "note": "PolyPublie repository record identity matched to the catalog title and author record"
+        "note": "Official Sensors article and abstract: https://www.mdpi.com/1424-8220/21/16/5560"
       },
       {
-        "note": "public PDF downloaded locally and %PDF- signature verified"
+        "note": "MDPI open-access policy and CC BY reuse terms: https://www.mdpi.com/about/openaccess"
       },
       {
-        "note": "PolyPublie record identifies this as the published MDPI version and displays CC BY 4.0."
+        "note": "Local published-paper PDF hash verified in the working catalog"
       }
     ]
   },
@@ -135,7 +135,7 @@
   "access": {
     "status": "public_published_full_text",
     "note": "PolyPublie record identifies this as the published MDPI version and displays CC BY 4.0.",
-    "license": null
+    "license": "CC BY 4.0"
   },
   "resources": {
     "code": "https://github.com/cheninator/trace-scape",
@@ -154,11 +154,11 @@
     "canonical_version_id": "published-version"
   },
   "provenance": {
-    "metadata_verified_on": "2026-08-09",
+    "metadata_verified_on": "2026-08-21",
     "metadata_source": [
-      "PolyPublie repository record identity matched to the catalog title and author record",
-      "public PDF downloaded locally and %PDF- signature verified",
-      "PolyPublie record identifies this as the published MDPI version and displays CC BY 4.0."
+      "Official Sensors article and abstract: https://www.mdpi.com/1424-8220/21/16/5560",
+      "MDPI open-access policy and CC BY reuse terms: https://www.mdpi.com/about/openaccess",
+      "Local published-paper PDF hash verified in the working catalog"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

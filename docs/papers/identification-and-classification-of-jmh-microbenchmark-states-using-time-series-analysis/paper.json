@@ -76,7 +76,7 @@
         "note": "Author code/data repository linked by the paper"
       },
       {
-        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
       }
     ]
   },
@@ -157,7 +157,7 @@
       "ICPE Companion PDF: Matrix Profile, motifs/discords, PELT change points, Stumpy, Ruptures, and 30-iteration warmup protocol",
       "ICPE Companion PDF: JMH/Traini benchmark corpus, state-identification workflow, anomaly rule, and reported qualitative conclusions",
       "Author code/data repository linked by the paper",
-      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
+      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

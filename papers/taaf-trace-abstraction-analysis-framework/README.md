@@ -28,7 +28,7 @@ TraceQA-100 contains 100 questions in explanatory, multiple-choice, and true/fal
 
 ## Abstract
 
-Abstract not available in the captured sources.
+Execution traces are a critical source of information for understanding, debugging, and optimizing complex software systems. However, traces from OS kernels or large-scale applications like Chrome or MySQL are massive and difficult to analyze. Existing tools rely on predefined analyses, and custom insights often require writing domain-specific scripts, which is an error-prone and time-consuming task. This paper introduces TAAF (Trace Abstraction and Analysis Framework), a novel approach that combines time-indexing, knowledge graphs (KGs), and large language models (LLMs) to transform raw trace data into actionable insights. TAAF constructs a time-indexed KG from trace events to capture relationships among entities such as threads, CPUs, and system resources. An LLM then interprets query-specific subgraphs to answer natural-language questions, reducing the need for manual inspection and deep system expertise. To evaluate TAAF, the authors introduce TraceQA-100, a benchmark of 100 questions grounded in real kernel traces. Experiments across three LLMs and multiple temporal settings show that TAAF improves answer accuracy by up to 31.2%, particularly in multi-hop and causal reasoning tasks. The paper also analyzes where graph-grounded reasoning helps and where limitations remain.
 
 ## Topics and keywords
 
@@ -82,7 +82,7 @@ A. Ezaz, G. Khodabandeh, M. Babaei, and N. Ezzati-Jivan, "TAAF: A Trace Abstract
 
 ## Record provenance
 
-- Metadata verified: 2026-08-09
+- Metadata verified: 2026-08-21
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: official arXiv abstract, metadata, and PDF page 2601.02632; arXiv page comment containing the ICSE 2026 acceptance and ACM DOI; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
+- Metadata sources: Official arXiv abstract and metadata: https://arxiv.org/abs/2601.02632; ACM DOI listed as related publication signal on the arXiv page: https://doi.org/10.1145/3744916.3787832; Local paper PDF hash verified in the working catalog
 - Machine-readable record: [paper.json](./paper.json)
