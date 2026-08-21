@@ -39,7 +39,7 @@ Abstract not available in the captured sources.
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1109/BigDataCongress.2016.19) - published
-- [Institutional full text](https://publications.polymtl.ca/2994/1/2016_Prieur-Drevon_Enhanced_state_history_tree_eSHT.pdf) | [PDF](https://publications.polymtl.ca/2994/1/2016_Prieur-Drevon_Enhanced_state_history_tree_eSHT.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/2994/) | [PDF](https://publications.polymtl.ca/2994/1/2016_Prieur-Drevon_Enhanced_state_history_tree_eSHT.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1109/BigDataCongress.2016.19](https://doi.org/10.1109/BigDataCongress.2016.19)
 
@@ -84,5 +84,5 @@ L. Prieur-Drevon, R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Enhanced St
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: eSHT PDF: LTTng 2.7.0/Linux 4.3.0/Trace Compass environment, synthetic many-thread workload, and 1,000-1,000,000-attribute scale; eSHT PDF: SHT/eSHT build, node, disk, fill, depth, query, and one-million-attribute results; eSHT PDF: stress-case limitation and build/overlap/Trace Compass future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the IEEE accepted version.
 - Machine-readable record: [paper.json](./paper.json)

@@ -24,7 +24,7 @@ Standalone browse pages are created for keywords used by at least 2 papers. Ever
 - [LEC taxonomy](lec-taxonomy.md) (2 papers)
 - [LSTM](lstm.md) (4 papers)
 - [LTTng](lttng.md) (29 papers)
-- [LTTng-UST](lttng-ust.md) (5 papers)
+- [LTTng-UST](lttng-ust.md) (6 papers)
 - [LenMa](lenma.md) (2 papers)
 - [Linux kernel 2.6.38.6](linux-kernel-2-6-38-6.md) (2 papers)
 - [LogHub](loghub.md) (3 papers)

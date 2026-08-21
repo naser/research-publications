@@ -1,4 +1,4 @@
-# Hardware-Assisted Software Event Tracing
+# Hardware-assisted software event tracing
 
 **2017 | Concurrency and Computation: Practice and Experience | journal article**
 
@@ -39,7 +39,7 @@ Abstract not available in the captured sources.
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1002/cpe.4069) - published
-- [Public full text](https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf) | [PDF](https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/2981/) | [PDF](https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1002/cpe.4069](https://doi.org/10.1002/cpe.4069)
 
@@ -59,16 +59,16 @@ Cite this paper when your work uses or compares the STM/ETB design that carries 
 
 ### APA 7
 
-Vergé, A., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Hardware-Assisted Software Event Tracing. Concurrency and Computation: Practice and Experience, 29(10), e4069. https://doi.org/10.1002/cpe.4069
+Vergé, A., Ezzati-Jivan, N., & Dagenais, M. R. (2017). Hardware-assisted software event tracing. Concurrency and Computation: Practice and Experience, 29(10), e4069. https://doi.org/10.1002/cpe.4069
 
 ### IEEE
 
-A. Vergé, N. Ezzati-Jivan, and M. R. Dagenais, "Hardware-Assisted Software Event Tracing," Concurrency and Computation: Practice and Experience, vol. 29, no. 10, 2017, doi: 10.1002/cpe.4069
+A. Vergé, N. Ezzati-Jivan, and M. R. Dagenais, "Hardware-assisted software event tracing," Concurrency and Computation: Practice and Experience, vol. 29, no. 10, 2017, doi: 10.1002/cpe.4069
 
 ```bibtex
 @article{ezzatiJivan2017hardwareassisted,
   author = {Adrien Vergé and Naser Ezzati-Jivan and Michel R. Dagenais},
-  title = {Hardware-Assisted Software Event Tracing},
+  title = {Hardware-assisted software event tracing},
   year = {2017},
   journal = {Concurrency and Computation: Practice and Experience},
   volume = {29},
@@ -87,5 +87,5 @@ A. Vergé, N. Ezzati-Jivan, and M. R. Dagenais, "Hardware-Assisted Software Even
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1002/cpe.4069; author identity matched to Naser Ezzati-Jivan in the local research catalog; Hardware-assisted tracing PDF pp. 1-4: problem, ARM CoreSight/Intel BTS design, platforms, and LTTng comparison; Hardware-assisted tracing PDF pp. 4-10: STM/ETM/BTS implementations, benchmark results, and modified Perf path; Hardware-assisted tracing PDF p. 10: conclusion, quantitative comparisons, and limitations; local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms.
 - Machine-readable record: [paper.json](./paper.json)

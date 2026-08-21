@@ -12,8 +12,8 @@
     "research_profile_url": "https://naser.github.io/tabs/research/"
   },
   "record_count": 89,
-  "full_text_reviewed_count": 57,
-  "full_text_pending_count": 32,
+  "full_text_reviewed_count": 58,
+  "full_text_pending_count": 31,
   "batch": "expanded-catalog-release",
   "records": [
     {
@@ -6790,7 +6790,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/distributed-architecture-for-an-integrated-development-environment-large-trace-analysis-and-visu/",
       "canonical_source_url": "https://doi.org/10.3390/s21165560",
-      "status": "published_with_public_full_text",
+      "status": "public_published_full_text",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -6807,16 +6807,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Sensors/institutional PDF: Trace Compass, TraceScape, LTTng 2.10.3, TASP, data providers, serialization, and visualization architecture"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "Sensors/institutional PDF: 2.47 GB/75-million-event trace, state-model sizes, serialization payload/overhead, request latency, and rendering measurements"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Sensors/institutional PDF: small-trace, REST/gRPC, and qualitative-maintainability limitations plus future-work direction"
-          },
-          {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie record identifies this as the published MDPI version and displays CC BY 4.0."
           }
         ]
       },
@@ -6831,11 +6828,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "public-full-text",
-          "label": "Public full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/9436/1/2021_Chen%20Kuang%20Piao_Distributed_Architecture_Integrated_Development_Environment.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "version-of-record",
+          "status": "public_published_full_text",
+          "url": "https://publications.polymtl.ca/9436/",
           "pdf_url": "https://publications.polymtl.ca/9436/1/2021_Chen%20Kuang%20Piao_Distributed_Architecture_Integrated_Development_Environment.pdf",
           "canonical_for_citation": false
         }
@@ -7280,18 +7277,18 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/system-execution-path-profiling-hardware-counters/",
       "canonical_source_url": "https://doi.org/10.1109/SYSCON48628.2021.9447121",
-      "status": "published_metadata_record",
+      "status": "published_with_related_public_full_text",
       "abstract_available": true,
       "scholar_eligibility": {
         "eligible": false,
         "basis": "not-eligible",
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
-      "description": "The official program abstract describes critical-path profiling using hardware-counter samples every 100,000 cycles, user-space interrupt signaling, and comparison with CPython behavior.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "description": "The related public chapter describes low-intrusion execution-path profiling that forwards hardware performance-counter overflows from the kernel to user space, where a CPython profiler records interpreted-code call stacks and LTTng-UST stores the samples.",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "abstract-and-metadata-reviewed",
-        "coverage": "abstract and bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
@@ -7304,6 +7301,30 @@
           },
           {
             "note": "Official SysCon program: https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf"
+          },
+          {
+            "note": "Public thesis PDF, Chapter 6 pp. 93--110: https://core.ac.uk/download/pdf/213619806.pdf"
+          },
+          {
+            "note": "Public thesis pp. 93--96: problem, PMU/perf-NMI architecture, PyPMU contributions, and interpreter boundary"
+          },
+          {
+            "note": "Public thesis pp. 101--106: accuracy, event-forwarding cost, stack unwinding, LTTng-UST comparison, and profiling overhead"
+          },
+          {
+            "note": "Public thesis pp. 109--110: Trace Compass integration, user-level interrupt direction, signal limitations, and conclusion"
+          },
+          {
+            "note": "Overleaf project: https://www.overleaf.com/project/5e01a488862790000145cf86"
+          },
+          {
+            "note": "Original Overleaf PDF: 8 pages; exact title/authors/abstract matched, but an extraneous compile-log fragment was embedded in the body"
+          },
+          {
+            "note": "Separate cleanup Overleaf copy: source fragment replaced, IEEE author-manuscript notice added, recompiled successfully, and cleaned 8-page PDF inspected on first and final pages"
+          },
+          {
+            "note": "Rights gate: agreement-specific SysCon self-archiving terms still require confirmation before arXiv submission; do not use the IEEE Version of Record"
           },
           {
             "note": "Private batch report: reports/parallel-batch-03.md"
@@ -7321,12 +7342,12 @@
           "canonical_for_citation": true
         },
         {
-          "id": "official-syscon-program",
-          "label": "Official SysCon program",
+          "id": "related-public-thesis-chapter-plus-cleaned-local-overleaf-manuscript-candidate-with-ieee-rights-notice",
+          "label": "Related public thesis chapter plus cleaned local Overleaf manuscript candidate with IEEE rights notice",
           "relation": "source-record",
-          "status": "public_source_record",
-          "url": "https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf",
-          "pdf_url": null,
+          "status": "public_related_full_text",
+          "url": "https://core.ac.uk/download/pdf/213619806.pdf",
+          "pdf_url": "https://core.ac.uk/download/pdf/213619806.pdf",
           "canonical_for_citation": false
         }
       ],
@@ -7341,6 +7362,11 @@
         "hardware performance counters",
         "critical-path profiling",
         "CPython",
+        "PyPMU",
+        "Linux perf",
+        "perf NMI",
+        "LTTng-UST",
+        "libunwind",
         "sampling",
         "SysCon 2021"
       ]
@@ -8298,7 +8324,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/heterogeneous-debugging-dynamic-tracing/",
       "canonical_source_url": "https://doi.org/10.1016/j.sysarc.2019.02.016",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -8315,22 +8341,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Crossref and local DBLP/venue metadata for 10.1016/j.sysarc.2019.02.016"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Heterogeneous debugging PDF pp. 1-8: GDB/LTTng-UST architecture, trace buffering, views, filters, and GPU scope"
-          },
-          {
-            "note": "Heterogeneous debugging PDF pp. 12-13: Fedora/Intel/AMD environment, pbzip2 workload, tracepoint count, and performance comparison"
-          },
-          {
-            "note": "Heterogeneous debugging PDF p. 17: conclusion and reported 90% versus 3294% overhead comparison"
-          },
-          {
-            "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the accepted version and states the Elsevier CC-BY-NC-ND 4.0 terms."
           }
         ]
       },
@@ -8345,11 +8362,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "public-full-text",
-          "label": "Public full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/3817/12/2019_Nadeau_Efficient_large-scale_heterogeneous_debugging_dynamic.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/3817/",
           "pdf_url": "https://publications.polymtl.ca/3817/12/2019_Nadeau_Efficient_large-scale_heterogeneous_debugging_dynamic.pdf",
           "canonical_for_citation": false
         }
@@ -8431,7 +8448,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/efficient-trace-analysis-parallelization/",
       "canonical_source_url": "https://doi.org/10.1007/s10766-019-00631-4",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -8448,22 +8465,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1007/s10766-019-00631-4"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Efficient parallelization PDF pp. 1-5: CTF/Babeltrace model, partitioning, state dependencies, and proposed map/reduce design"
-          },
-          {
-            "note": "Efficient parallelization PDF pp. 8-11: storage devices, 44,897,970-event trace, three analyses, speedups, and efficiencies"
-          },
-          {
-            "note": "Efficient parallelization PDF pp. 11-12: decoding and State History Tree limitations and future work"
-          },
-          {
-            "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the post-peer-review, pre-copyedit Springer version."
           }
         ]
       },
@@ -8478,11 +8486,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "public-full-text",
-          "label": "Public full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/4212/",
           "pdf_url": "https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf",
           "canonical_for_citation": false
         }
@@ -8575,7 +8583,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/machine-learning-based-edos-attack-detection-technique-using-execution-trace-analysis/",
       "canonical_source_url": "https://doi.org/10.1007/s41635-018-0061-2",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": true,
       "scholar_eligibility": {
         "eligible": false,
@@ -8592,19 +8600,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private accepted-manuscript PDF: EDoS threat types, VM resource-allocation framework, and 18-feature machine-learning pipeline"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "Private PDF: QEMU/KVM, Apache/MySQL, LTTng and monitoring tools, classifier split, accuracy, runtime, and Snort comparison"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Private PDF: small-prototype, mixed-attack, and generalization limitations"
-          },
-          {
-            "note": "Public PolyPublie accepted-manuscript record: https://publications.polymtl.ca/4211/"
-          },
-          {
-            "note": "Local PDF hash and extracted text are recorded in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the post-peer-review, pre-copyedit Springer version."
           }
         ]
       },
@@ -8619,12 +8621,12 @@
           "canonical_for_citation": true
         },
         {
-          "id": "public-accepted-manuscript-record",
-          "label": "Public accepted manuscript record",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
           "relation": "accepted-manuscript",
-          "status": "public_source_record",
+          "status": "public_accepted_manuscript",
           "url": "https://publications.polymtl.ca/4211/",
-          "pdf_url": null,
+          "pdf_url": "https://publications.polymtl.ca/4211/1/2019_Abbasi_Machine_learning-based_EDoS_attack_detection.pdf",
           "canonical_for_citation": false
         }
       ],
@@ -8657,7 +8659,7 @@
     },
     {
       "paper_id": "efficient-cloud-tracing-levels",
-      "title": "Efficient Cloud Tracing: From Very High Level to Very Low Level",
+      "title": "Efficient cloud tracing: From very high level to very low level",
       "year": 2018,
       "authors": [
         "Yves J. Bationo",
@@ -8709,8 +8711,8 @@
         "ris": "papers/efficient-cloud-tracing-levels/citation.ris"
       },
       "page_url": "https://naser.github.io/research-publications/papers/efficient-cloud-tracing-levels/",
-      "canonical_source_url": "https://doi.org/10.1109/icce.2018.8326353",
-      "status": "published_with_public_full_text",
+      "canonical_source_url": "https://doi.org/10.1109/ICCE.2018.8326353",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -8727,22 +8729,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Crossref and local DBLP/venue metadata for 10.1109/icce.2018.8326353"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Efficient cloud tracing PDF pp. 1-5: OpenStack/Nova, QEMU/KVM, LTTng, Trace Compass, and cross-layer model"
-          },
-          {
-            "note": "Efficient cloud tracing PDF pp. 5-6: live-migration procedure, interference conditions, and Table III results"
-          },
-          {
-            "note": "Efficient cloud tracing PDF p. 7: network-evidence limitation and proposed Neutron/OpenDaylight future work"
-          },
-          {
-            "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
           }
         ]
       },
@@ -8752,16 +8745,16 @@
           "label": "Published version",
           "relation": "version-of-record",
           "status": "published",
-          "url": "https://doi.org/10.1109/icce.2018.8326353",
+          "url": "https://doi.org/10.1109/ICCE.2018.8326353",
           "pdf_url": null,
           "canonical_for_citation": true
         },
         {
-          "id": "public-full-text",
-          "label": "Public full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/4201/1/2018_Bationo_Efficient_cloud_tracing_very_high.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/4201/",
           "pdf_url": "https://publications.polymtl.ca/4201/1/2018_Bationo_Efficient_cloud_tracing_very_high.pdf",
           "canonical_for_citation": false
         }
@@ -8838,8 +8831,8 @@
         "ris": "papers/high-latency-cause-detection-multilevel-analysis/citation.ris"
       },
       "page_url": "https://naser.github.io/research-publications/papers/high-latency-cause-detection-multilevel-analysis/",
-      "canonical_source_url": "https://doi.org/10.1109/syscon.2018.8369613",
-      "status": "published_with_public_full_text",
+      "canonical_source_url": "https://doi.org/10.1109/SYSCON.2018.8369613",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -8856,22 +8849,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1109/syscon.2018.8369613"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "High latency PDF pp. 1-5: problem, LTTng/LTTng-UST instrumentation, state model, and environment"
-          },
-          {
-            "note": "High latency PDF pp. 5, 8-9: PHP/Drupal use cases, OPcache contention, throughput, and tracing overhead"
-          },
-          {
-            "note": "High latency PDF p. 9: validity threats and conclusion/future-work boundary"
-          },
-          {
-            "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
           }
         ]
       },
@@ -8881,16 +8865,16 @@
           "label": "Published version",
           "relation": "version-of-record",
           "status": "published",
-          "url": "https://doi.org/10.1109/syscon.2018.8369613",
+          "url": "https://doi.org/10.1109/SYSCON.2018.8369613",
           "pdf_url": null,
           "canonical_for_citation": true
         },
         {
-          "id": "public-full-text",
-          "label": "Public full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/4203/",
           "pdf_url": "https://publications.polymtl.ca/4203/1/2018_Ezzati-Jivan_High_latency_cause_detection_multilevel.pdf",
           "canonical_for_citation": false
         }
@@ -8970,7 +8954,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/declarative-framework-stateful-trace-analysis/",
       "canonical_source_url": "https://doi.org/10.1007/s11219-016-9311-0",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -8987,19 +8971,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full PDF read: pdf-evidence/notes/declarative-framework-stateful-trace-analysis.md"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "Declarative-framework PDF pp. 2-7: problem, state model, State History Tree, XML language, event handlers, and filters"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Declarative-framework PDF pp. 8-13: LTTng/ETW evaluation, 13.4/100 MiB traces, 25 repetitions, cross-platform examples, and resolution queries"
-          },
-          {
-            "note": "Declarative-framework PDF p. 14: limitations and future work"
-          },
-          {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the post-peer-review, pre-copyedit Springer version."
           }
         ]
       },
@@ -9014,11 +8992,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "public-polypublie-pdf",
-          "label": "Public PolyPublie PDF",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/2987/1/2017_Wininger_Declarative_framework_stateful_analysis_execution.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/2987/",
           "pdf_url": "https://publications.polymtl.ca/2987/1/2017_Wininger_Declarative_framework_stateful_analysis_execution.pdf",
           "canonical_for_citation": false
         }
@@ -9097,8 +9075,8 @@
         "ris": "papers/dynamic-trace-sampling-memory-usage/citation.ris"
       },
       "page_url": "https://naser.github.io/research-publications/papers/dynamic-trace-sampling-memory-usage/",
-      "canonical_source_url": "https://doi.org/10.1109/hpec.2017.8091061",
-      "status": "published_with_public_full_text",
+      "canonical_source_url": "https://doi.org/10.1109/HPEC.2017.8091061",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -9115,22 +9093,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1109/hpec.2017.8091061"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Dynamic sampling PDF pp. 1-5: problem, LTTng 2.8, kernel-module design, dynamic policy, and environment"
-          },
-          {
-            "note": "Dynamic sampling PDF pp. 5-7: benchmark, Firefox/Totem comparisons, overhead, event-count reduction, and correctness"
-          },
-          {
-            "note": "Dynamic sampling PDF p. 7: stated extension to other high-frequency kernel metrics"
-          },
-          {
-            "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
           }
         ]
       },
@@ -9140,16 +9109,16 @@
           "label": "Published version",
           "relation": "version-of-record",
           "status": "published",
-          "url": "https://doi.org/10.1109/hpec.2017.8091061",
+          "url": "https://doi.org/10.1109/HPEC.2017.8091061",
           "pdf_url": null,
           "canonical_for_citation": true
         },
         {
-          "id": "public-full-text",
-          "label": "Public full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/2979/1/2017_Daoud_Dynamic_trace-based_sampling_algorithm_memory.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/2979/",
           "pdf_url": "https://publications.polymtl.ca/2979/1/2017_Daoud_Dynamic_trace-based_sampling_algorithm_memory.pdf",
           "canonical_for_citation": false
         }
@@ -9174,7 +9143,7 @@
     },
     {
       "paper_id": "hardware-assisted-software-event-tracing",
-      "title": "Hardware-Assisted Software Event Tracing",
+      "title": "Hardware-assisted software event tracing",
       "year": 2017,
       "authors": [
         "Adrien Vergé",
@@ -9230,7 +9199,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/hardware-assisted-software-event-tracing/",
       "canonical_source_url": "https://doi.org/10.1002/cpe.4069",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -9247,22 +9216,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Crossref and local DBLP/venue metadata for 10.1002/cpe.4069"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Hardware-assisted tracing PDF pp. 1-4: problem, ARM CoreSight/Intel BTS design, platforms, and LTTng comparison"
-          },
-          {
-            "note": "Hardware-assisted tracing PDF pp. 4-10: STM/ETM/BTS implementations, benchmark results, and modified Perf path"
-          },
-          {
-            "note": "Hardware-assisted tracing PDF p. 10: conclusion, quantitative comparisons, and limitations"
-          },
-          {
-            "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms."
           }
         ]
       },
@@ -9277,11 +9237,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "public-full-text",
-          "label": "Public full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/2981/",
           "pdf_url": "https://publications.polymtl.ca/2981/1/2017_Verge_Hardware-assisted_software_event_tracing.pdf",
           "canonical_for_citation": false
         }
@@ -9308,7 +9268,7 @@
     },
     {
       "paper_id": "multi-scale-navigation-of-large-trace-data-a-survey",
-      "title": "Multi-scale Navigation of Large Trace Data: A Survey",
+      "title": "Multi-scale navigation of large trace data: A survey",
       "year": 2017,
       "authors": [
         "Naser Ezzati-Jivan",
@@ -9358,7 +9318,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/multi-scale-navigation-of-large-trace-data-a-survey/",
       "canonical_source_url": "https://doi.org/10.1002/cpe.4068",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": true,
       "scholar_eligibility": {
         "eligible": false,
@@ -9375,16 +9335,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Survey PDF: four abstraction families, multi-level views, semantic/physical zoom, focus-plus-context, and trace-data structures"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "Survey PDF: Trace Compass/LTTV, Vampir, Jumpshot, TuningFork, HPCToolkit, VTune, and metric examples"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Survey PDF: complementary-techniques conclusion and bidirectional-link future direction"
-          },
-          {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms."
           }
         ]
       },
@@ -9399,12 +9356,12 @@
           "canonical_for_citation": true
         },
         {
-          "id": "institutional-full-text",
-          "label": "Institutional full text",
-          "relation": "source-record",
-          "status": "source_record",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
           "url": "https://publications.polymtl.ca/2980/",
-          "pdf_url": null,
+          "pdf_url": "https://publications.polymtl.ca/2980/1/2017_Ezzati-Jivan_Multi-scale_navigation_large_trace_data.pdf",
           "canonical_for_citation": false
         }
       ],
@@ -9495,7 +9452,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/enhanced-state-history-tree-esht-a-stateful-data-structure-for-analysis-of-highly-parallel-syste/",
       "canonical_source_url": "https://doi.org/10.1109/BigDataCongress.2016.19",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -9512,16 +9469,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "eSHT PDF: LTTng 2.7.0/Linux 4.3.0/Trace Compass environment, synthetic many-thread workload, and 1,000-1,000,000-attribute scale"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "eSHT PDF: SHT/eSHT build, node, disk, fill, depth, query, and one-million-attribute results"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "eSHT PDF: stress-case limitation and build/overlap/Trace Compass future work"
-          },
-          {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
           }
         ]
       },
@@ -9536,11 +9490,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "institutional-full-text",
-          "label": "Institutional full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/2994/1/2016_Prieur-Drevon_Enhanced_state_history_tree_eSHT.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/2994/",
           "pdf_url": "https://publications.polymtl.ca/2994/1/2016_Prieur-Drevon_Enhanced_state_history_tree_eSHT.pdf",
           "canonical_for_citation": false
         }
@@ -9621,8 +9575,8 @@
         "ris": "papers/multilayer-virtualized-systems-kernel-tracing/citation.ris"
       },
       "page_url": "https://naser.github.io/research-publications/papers/multilayer-virtualized-systems-kernel-tracing/",
-      "canonical_source_url": "https://doi.org/10.1109/w-ficloud.2016.18",
-      "status": "published_with_public_full_text",
+      "canonical_source_url": "https://doi.org/10.1109/W-FiCloud.2016.18",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -9639,22 +9593,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Crossref and local DBLP/venue metadata for 10.1109/w-ficloud.2016.18"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Multilayer virtualization PDF pp. 1-4: problem, LTTng/KVM trace events, synchronization, State History Tree, and FVM view"
-          },
-          {
-            "note": "Multilayer virtualization PDF pp. 4-7: process-preemption and hypervisor I/O-interruption use cases and evaluation discussion"
-          },
-          {
-            "note": "Multilayer virtualization PDF p. 7: conclusion, reuse of tools, and parallel-analysis boundary"
-          },
-          {
-            "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
           }
         ]
       },
@@ -9664,16 +9609,16 @@
           "label": "Published version",
           "relation": "version-of-record",
           "status": "published",
-          "url": "https://doi.org/10.1109/w-ficloud.2016.18",
+          "url": "https://doi.org/10.1109/W-FiCloud.2016.18",
           "pdf_url": null,
           "canonical_for_citation": true
         },
         {
-          "id": "public-full-text",
-          "label": "Public full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/2988/1/2016_Biancheri_Multilayer_virtualized_systems_analysis_kernel.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/2988/",
           "pdf_url": "https://publications.polymtl.ca/2988/1/2016_Biancheri_Multilayer_virtualized_systems_analysis_kernel.pdf",
           "canonical_for_citation": false
         }
@@ -9753,7 +9698,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/a-flexible-data-driven-approach-for-execution-trace-filtering/",
       "canonical_source_url": "https://doi.org/10.1109/BigDataCongress.2015.112",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -9770,16 +9715,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Flexible filtering PDF: XML FSM architecture, Trace Compass/state-system execution, raw/synthetic event support, and UI integration"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "Flexible filtering PDF: LTTng 2.4.0, Ubuntu 14.10, kernel 3.13.0-43, hping3 SYN-flood workload, thresholds, synthetic-event counts, and XML/Java timings"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Flexible filtering PDF: condition-check/runtime and understandability limitations plus future work"
-          },
-          {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
           }
         ]
       },
@@ -9794,11 +9736,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "institutional-full-text",
-          "label": "Institutional full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/2985/1/2015_Kouame_Flexible_data-driven_approach_execution_trace.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/2985/",
           "pdf_url": "https://publications.polymtl.ca/2985/1/2015_Kouame_Flexible_data-driven_approach_execution_trace.pdf",
           "canonical_for_citation": false
         }
@@ -9826,7 +9768,7 @@
     },
     {
       "paper_id": "cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces",
-      "title": "Cube Data Model for Multilevel Statistics Computation of Live Execution Traces",
+      "title": "Cube data model for multilevel statistics computation of live execution traces",
       "year": 2015,
       "authors": [
         "Naser Ezzati-Jivan",
@@ -9876,7 +9818,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/",
       "canonical_source_url": "https://doi.org/10.1002/cpe.3272",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -9893,16 +9835,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Cube data model PDF: interval-form measures, dimension tree, history store, circular buffers, tilted time frame, cuboid choices, and query types"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "Cube data model PDF: LTTng/Linux 2.6.38.6, Java/Eclipse/Core i7/6 GB environment, workloads, 1,000 measures, three time levels, and 35 MB memory result"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Cube data model PDF: materialization trade-off, range-query behavior, limitations, and future work"
-          },
-          {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms."
           }
         ]
       },
@@ -9917,11 +9856,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "institutional-full-text",
-          "label": "Institutional full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/2984/1/2015_Ezzati-Jivan_Cube_data_model_multilevel_statistics.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/2984/",
           "pdf_url": "https://publications.polymtl.ca/2984/1/2015_Ezzati-Jivan_Cube_data_model_multilevel_statistics.pdf",
           "canonical_for_citation": false
         }
@@ -10064,7 +10003,7 @@
     },
     {
       "paper_id": "a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files",
-      "title": "A Framework to Compute Statistics of System Parameters from Very Large Trace Files",
+      "title": "A framework to compute statistics of system parameters from very large trace files",
       "year": 2013,
       "authors": [
         "Naser Ezzati-Jivan",
@@ -10113,7 +10052,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/a-framework-to-compute-statistics-of-system-parameters-from-very-large-trace-files/",
       "canonical_source_url": "https://doi.org/10.1145/2433140.2433151",
-      "status": "published_with_public_full_text",
+      "status": "public_author_version",
       "abstract_available": false,
       "scholar_eligibility": {
         "eligible": false,
@@ -10130,16 +10069,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Statistics framework PDF: LTTng/Linux 2.6.38.6, Java history/resource trees, granularity degree, interpolation, and query bounds"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "Statistics framework PDF: 1-40 GB traces, GD 1/100/500/1000, 20-run/100-interval query experiment, disk-size comparison, and hierarchy analysis"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "Statistics framework PDF: interpolation/precision, storage, online-construction limitations, and future work"
-          },
-          {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the author's ACM version and preserves the ACM non-redistribution notice."
           }
         ]
       },
@@ -10154,11 +10090,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "institutional-full-text",
-          "label": "Institutional full text",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
           "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/2954/1/2013_Ezzati-Jivan_Framework_compute_statistics_system_parameters.pdf",
+          "status": "public_author_version",
+          "url": "https://publications.polymtl.ca/2954/",
           "pdf_url": "https://publications.polymtl.ca/2954/1/2013_Ezzati-Jivan_Framework_compute_statistics_system_parameters.pdf",
           "canonical_for_citation": false
         }
@@ -10498,7 +10434,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/state-history-tree-an-incremental-disk-based-data-structure-for-very-large-interval-data/",
       "canonical_source_url": "https://doi.org/10.1109/SocialCom.2013.107",
-      "status": "published_with_public_full_text",
+      "status": "public_accepted_manuscript",
       "abstract_available": true,
       "scholar_eligibility": {
         "eligible": false,
@@ -10515,16 +10451,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "State History Tree PDF: LTTng-derived intervals, Java/TMF implementation, disk blocks, and query design"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "State History Tree PDF: Intel Core i7-920/6 GB platform, block-size study, 10-550 GB scale, query times, and comparisons"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "State History Tree PDF: chronological-insertion limitation and conclusion boundary"
-          },
-          {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the IEEE accepted version."
           }
         ]
       },
@@ -10539,11 +10472,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "public-accepted-full-text",
-          "label": "Public accepted full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/2983/1/2013_Montplaisir-Gon%C3%A7alves_State_history_tree_incremental_disk-based.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "accepted-manuscript",
+          "status": "public_accepted_manuscript",
+          "url": "https://publications.polymtl.ca/2983/",
           "pdf_url": "https://publications.polymtl.ca/2983/1/2013_Montplaisir-Gon%C3%A7alves_State_history_tree_incremental_disk-based.pdf",
           "canonical_for_citation": false
         }
@@ -10621,7 +10554,7 @@
       },
       "page_url": "https://naser.github.io/research-publications/papers/a-stateful-approach-to-generate-synthetic-events-from-kernel-traces/",
       "canonical_source_url": "https://doi.org/10.1155/2012/140368",
-      "status": "published_with_public_full_text",
+      "status": "public_published_full_text",
       "abstract_available": true,
       "scholar_eligibility": {
         "eligible": false,
@@ -10638,16 +10571,13 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "A Stateful Approach PDF: LTTng, semantic-event mapping, modeled state, finite-state patterns, and Java prototype"
+            "note": "PolyPublie repository record identity matched to the catalog title and author record"
           },
           {
-            "note": "A Stateful Approach PDF: 25 MB-10,000 MB traces, 621,132,167/159,023,500/2,247,225 event counts, and reported analysis times"
+            "note": "public PDF downloaded locally and %PDF- signature verified"
           },
           {
-            "note": "A Stateful Approach PDF: limitations, missing state changes, pattern-library boundary, and future work"
-          },
-          {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "PolyPublie cover sheet identifies this as the open-access Hindawi published version."
           }
         ]
       },
@@ -10662,11 +10592,11 @@
           "canonical_for_citation": true
         },
         {
-          "id": "public-full-text",
-          "label": "Public full text",
-          "relation": "source-record",
-          "status": "public_full_text",
-          "url": "https://publications.polymtl.ca/4861/1/2012_Ezzati-Jivan_Stateful_approach_generate_synthetic_events.pdf",
+          "id": "public-institutional-full-text",
+          "label": "Public institutional full text",
+          "relation": "version-of-record",
+          "status": "public_published_full_text",
+          "url": "https://publications.polymtl.ca/4861/",
           "pdf_url": "https://publications.polymtl.ca/4861/1/2012_Ezzati-Jivan_Stateful_approach_generate_synthetic_events.pdf",
           "canonical_for_citation": false
         }

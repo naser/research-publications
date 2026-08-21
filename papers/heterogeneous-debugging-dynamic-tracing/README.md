@@ -39,7 +39,7 @@ Abstract not available in the captured sources.
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1016/j.sysarc.2019.02.016) - published
-- [Public full text](https://publications.polymtl.ca/3817/12/2019_Nadeau_Efficient_large-scale_heterogeneous_debugging_dynamic.pdf) | [PDF](https://publications.polymtl.ca/3817/12/2019_Nadeau_Efficient_large-scale_heterogeneous_debugging_dynamic.pdf) - public_full_text
+- [Public institutional full text](https://publications.polymtl.ca/3817/) | [PDF](https://publications.polymtl.ca/3817/12/2019_Nadeau_Efficient_large-scale_heterogeneous_debugging_dynamic.pdf) - public_accepted_manuscript
 
 **Canonical source:** [https://doi.org/10.1016/j.sysarc.2019.02.016](https://doi.org/10.1016/j.sysarc.2019.02.016)
 
@@ -87,5 +87,5 @@ D. Nadeau, N. Ezzati-Jivan, and M. R. Dagenais, "Efficient Large-Scale Heterogen
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1016/j.sysarc.2019.02.016; author identity matched to Naser Ezzati-Jivan in the local research catalog; Heterogeneous debugging PDF pp. 1-8: GDB/LTTng-UST architecture, trace buffering, views, filters, and GPU scope; Heterogeneous debugging PDF pp. 12-13: Fedora/Intel/AMD environment, pbzip2 workload, tracepoint count, and performance comparison; Heterogeneous debugging PDF p. 17: conclusion and reported 90% versus 3294% overhead comparison; local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the accepted version and states the Elsevier CC-BY-NC-ND 4.0 terms.
 - Machine-readable record: [paper.json](./paper.json)

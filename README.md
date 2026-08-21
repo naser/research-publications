@@ -18,7 +18,6 @@ The catalog contains **89 records**. Records still awaiting full-text review exp
 - [Controlled vocabularies](./schemas/vocabularies.json)
 - [Crossref bibliography cache](./schemas/crossref-bibliography.json)
 - [Repository validator](./scripts/validate-github-repo.mjs)
-- [SEO metadata validator](./scripts/validate-seo.mjs)
 - [Citation file](./CITATION.cff)
 
 ## Record format

@@ -46,7 +46,7 @@
     "crossref_type": "journal-article"
   },
   "publication_type": "research paper",
-  "status": "published_with_public_full_text",
+  "status": "public_accepted_manuscript",
   "canonical_source_url": "https://doi.org/10.1007/s10766-019-00631-4",
   "source_record_id": "efficient-methods-for-trace-analysis-parallelization-d3d00d5f6f",
   "identifiers": {
@@ -70,22 +70,13 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "DBLP/DOI bibliographic record for 10.1007/s10766-019-00631-4"
+        "note": "PolyPublie repository record identity matched to the catalog title and author record"
       },
       {
-        "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
+        "note": "public PDF downloaded locally and %PDF- signature verified"
       },
       {
-        "note": "Efficient parallelization PDF pp. 1-5: CTF/Babeltrace model, partitioning, state dependencies, and proposed map/reduce design"
-      },
-      {
-        "note": "Efficient parallelization PDF pp. 8-11: storage devices, 44,897,970-event trace, three analyses, speedups, and efficiencies"
-      },
-      {
-        "note": "Efficient parallelization PDF pp. 11-12: decoding and State History Tree limitations and future work"
-      },
-      {
-        "note": "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+        "note": "PolyPublie cover sheet identifies this as the post-peer-review, pre-copyedit Springer version."
       }
     ]
   },
@@ -126,19 +117,19 @@
       "canonical_for_citation": true
     },
     {
-      "id": "public-full-text",
-      "label": "Public full text",
-      "relation": "source-record",
+      "id": "public-institutional-full-text",
+      "label": "Public institutional full text",
+      "relation": "accepted-manuscript",
       "title": "Efficient Methods for Trace Analysis Parallelization",
-      "url": "https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf",
+      "url": "https://publications.polymtl.ca/4212/",
       "pdf_url": "https://publications.polymtl.ca/4212/11/2019_Reumont-Locke_Efficient_methods_trace_analysis_parallelization.pdf",
-      "status": "public_full_text",
+      "status": "public_accepted_manuscript",
       "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_with_public_full_text",
-    "note": "The DOI is the canonical citation target; the public full-text link is an external source and is not redistributed here.",
+    "status": "public_accepted_manuscript",
+    "note": "PolyPublie cover sheet identifies this as the post-peer-review, pre-copyedit Springer version.",
     "license": null
   },
   "resources": {
@@ -160,12 +151,9 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "DBLP/DOI bibliographic record for 10.1007/s10766-019-00631-4",
-      "author identity matched to Naser Ezzati-Jivan in the local research catalog",
-      "Efficient parallelization PDF pp. 1-5: CTF/Babeltrace model, partitioning, state dependencies, and proposed map/reduce design",
-      "Efficient parallelization PDF pp. 8-11: storage devices, 44,897,970-event trace, three analyses, speedups, and efficiencies",
-      "Efficient parallelization PDF pp. 11-12: decoding and State History Tree limitations and future work",
-      "local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      "PolyPublie repository record identity matched to the catalog title and author record",
+      "public PDF downloaded locally and %PDF- signature verified",
+      "PolyPublie cover sheet identifies this as the post-peer-review, pre-copyedit Springer version."
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

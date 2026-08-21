@@ -38,10 +38,10 @@ Abstract not available in the captured sources.
 
 ## Versions and source links
 
-- [Published version](https://doi.org/10.1109/hpec.2017.8091061) - published
-- [Public full text](https://publications.polymtl.ca/2979/1/2017_Daoud_Dynamic_trace-based_sampling_algorithm_memory.pdf) | [PDF](https://publications.polymtl.ca/2979/1/2017_Daoud_Dynamic_trace-based_sampling_algorithm_memory.pdf) - public_full_text
+- [Published version](https://doi.org/10.1109/HPEC.2017.8091061) - published
+- [Public institutional full text](https://publications.polymtl.ca/2979/) | [PDF](https://publications.polymtl.ca/2979/1/2017_Daoud_Dynamic_trace-based_sampling_algorithm_memory.pdf) - public_accepted_manuscript
 
-**Canonical source:** [https://doi.org/10.1109/hpec.2017.8091061](https://doi.org/10.1109/hpec.2017.8091061)
+**Canonical source:** [https://doi.org/10.1109/HPEC.2017.8091061](https://doi.org/10.1109/HPEC.2017.8091061)
 
 ## Identifiers
 
@@ -74,7 +74,7 @@ H. Daoud, N. Ezzati-Jivan, and M. R. Dagenais, "Dynamic trace-based sampling alg
   pages = {1-7},
   publisher = {IEEE},
   doi = {10.1109/hpec.2017.8091061},
-  url = {https://doi.org/10.1109/hpec.2017.8091061}
+  url = {https://doi.org/10.1109/HPEC.2017.8091061}
 }
 ```
 
@@ -84,5 +84,5 @@ H. Daoud, N. Ezzati-Jivan, and M. R. Dagenais, "Dynamic trace-based sampling alg
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1109/hpec.2017.8091061; author identity matched to Naser Ezzati-Jivan in the local research catalog; Dynamic sampling PDF pp. 1-5: problem, LTTng 2.8, kernel-module design, dynamic policy, and environment; Dynamic sampling PDF pp. 5-7: benchmark, Firefox/Totem comparisons, overhead, event-count reduction, and correctness; Dynamic sampling PDF p. 7: stated extension to other high-frequency kernel metrics; local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: PolyPublie repository record identity matched to the catalog title and author record; public PDF downloaded locally and %PDF- signature verified; PolyPublie cover sheet identifies this as the IEEE accepted version.
 - Machine-readable record: [paper.json](./paper.json)

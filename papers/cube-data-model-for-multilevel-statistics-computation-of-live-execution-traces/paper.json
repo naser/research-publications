@@ -2,7 +2,7 @@
   "schema_version": "0.6.0",
   "paper_id": "cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces",
   "page_url": "https://naser.github.io/research-publications/papers/cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces/",
-  "title": "Cube Data Model for Multilevel Statistics Computation of Live Execution Traces",
+  "title": "Cube data model for multilevel statistics computation of live execution traces",
   "title_variants": [],
   "authors": [
     "Naser Ezzati-Jivan",
@@ -40,7 +40,7 @@
     "crossref_type": "journal-article"
   },
   "publication_type": "journal article",
-  "status": "published_with_public_full_text",
+  "status": "public_accepted_manuscript",
   "canonical_source_url": "https://doi.org/10.1002/cpe.3272",
   "source_record_id": "cube-data-model-for-multilevel-statistics-computation-of-live-execution-traces-893335c73f",
   "identifiers": {
@@ -64,16 +64,13 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "Cube data model PDF: interval-form measures, dimension tree, history store, circular buffers, tilted time frame, cuboid choices, and query types"
+        "note": "PolyPublie repository record identity matched to the catalog title and author record"
       },
       {
-        "note": "Cube data model PDF: LTTng/Linux 2.6.38.6, Java/Eclipse/Core i7/6 GB environment, workloads, 1,000 measures, three time levels, and 35 MB memory result"
+        "note": "public PDF downloaded locally and %PDF- signature verified"
       },
       {
-        "note": "Cube data model PDF: materialization trade-off, range-query behavior, limitations, and future work"
-      },
-      {
-        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+        "note": "PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms."
       }
     ]
   },
@@ -111,26 +108,26 @@
       "id": "published-version",
       "label": "Published version",
       "relation": "version-of-record",
-      "title": "Cube Data Model for Multilevel Statistics Computation of Live Execution Traces",
+      "title": "Cube data model for multilevel statistics computation of live execution traces",
       "url": "https://doi.org/10.1002/cpe.3272",
       "pdf_url": null,
       "status": "published",
       "canonical_for_citation": true
     },
     {
-      "id": "institutional-full-text",
-      "label": "Institutional full text",
-      "relation": "source-record",
-      "title": "Cube Data Model for Multilevel Statistics Computation of Live Execution Traces",
-      "url": "https://publications.polymtl.ca/2984/1/2015_Ezzati-Jivan_Cube_data_model_multilevel_statistics.pdf",
+      "id": "public-institutional-full-text",
+      "label": "Public institutional full text",
+      "relation": "accepted-manuscript",
+      "title": "Cube data model for multilevel statistics computation of live execution traces",
+      "url": "https://publications.polymtl.ca/2984/",
       "pdf_url": "https://publications.polymtl.ca/2984/1/2015_Ezzati-Jivan_Cube_data_model_multilevel_statistics.pdf",
-      "status": "public_full_text",
+      "status": "public_accepted_manuscript",
       "canonical_for_citation": false
     }
   ],
   "access": {
-    "status": "published_with_public_full_text",
-    "note": "The DOI is the canonical citation target; the institutional source link is external and the PDF is not redistributed here.",
+    "status": "public_accepted_manuscript",
+    "note": "PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms.",
     "license": null
   },
   "resources": {
@@ -152,10 +149,9 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "Cube data model PDF: interval-form measures, dimension tree, history store, circular buffers, tilted time frame, cuboid choices, and query types",
-      "Cube data model PDF: LTTng/Linux 2.6.38.6, Java/Eclipse/Core i7/6 GB environment, workloads, 1,000 measures, three time levels, and 35 MB memory result",
-      "Cube data model PDF: materialization trade-off, range-query behavior, limitations, and future work",
-      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      "PolyPublie repository record identity matched to the catalog title and author record",
+      "public PDF downloaded locally and %PDF- signature verified",
+      "PolyPublie cover sheet identifies this as the Wiley peer-reviewed accepted version and preserves Wiley self-archiving terms."
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",
