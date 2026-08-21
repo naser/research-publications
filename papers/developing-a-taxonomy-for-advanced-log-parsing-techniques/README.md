@@ -85,5 +85,5 @@ I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Developing a Taxo
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: ICPC taxonomy PDF: 16 LogHub datasets, 32,000 labelled events, eight parsers, 30 characteristics, and three taxonomy categories; ICPC taxonomy PDF: parser error counts, difficult token patterns, chi-square/effect-size results, and IPv6 exception; ICPC taxonomy PDF: limitations and hybrid/adaptive-parser future directions; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: ICPC taxonomy PDF: 16 LogHub datasets, 32,000 labelled events, eight parsers, 30 characteristics, and three taxonomy categories; ICPC taxonomy PDF: parser error counts, difficult token patterns, chi-square/effect-size results, and IPv6 exception; ICPC taxonomy PDF: limitations and hybrid/adaptive-parser future directions; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

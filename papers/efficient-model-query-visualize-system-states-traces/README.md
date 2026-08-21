@@ -85,5 +85,5 @@ A. Montplaisir, N. Ezzati-Jivan, F. Wininger, and M. R. Dagenais, "Efficient Mod
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: PolyPublie record: https://publications.polymtl.ca/13394/; DOI: https://doi.org/10.1007/978-3-642-40787-1_13; DBLP record: https://dblp.org/rec/conf/rv/MontplaisirJWD13.html; Official Springer preview read privately; SHA-256 1f03c9225de8d032f7015b076dd48c7805897c006cb226016baa0e9b01eb621d; private evidence report: reports/agent-batch-04.md
+- Metadata sources: PolyPublie record: https://publications.polymtl.ca/13394/; DOI: https://doi.org/10.1007/978-3-642-40787-1_13; DBLP record: https://dblp.org/rec/conf/rv/MontplaisirJWD13.html; Official Springer preview read during review; SHA-256 1f03c9225de8d032f7015b076dd48c7805897c006cb226016baa0e9b01eb621d; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

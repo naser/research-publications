@@ -83,5 +83,5 @@ H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "AI Video Retrieval: A Semantic Se
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11166430/; DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430; Private evidence note: papers/ai-video-retrieval-a-semantic-search-timestamp-alignment-system-b0d72f7cf3/pdf-evidence/notes/parallel-batch-01-ai-video-retrieval.md
+- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11166430/; DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

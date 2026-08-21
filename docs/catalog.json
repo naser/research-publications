@@ -12,8 +12,8 @@
     "research_profile_url": "https://naser.github.io/tabs/research/"
   },
   "record_count": 89,
-  "full_text_reviewed_count": 58,
-  "full_text_pending_count": 31,
+  "full_text_reviewed_count": 68,
+  "full_text_pending_count": 21,
   "batch": "expanded-catalog-release",
   "records": [
     {
@@ -90,7 +90,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full PDF read: pdf-evidence/notes/b-perf-black-box-performance-antipatterns.md"
+            "note": "Full text was reviewed; working copy is not distributed"
           },
           {
             "note": "B-Perf PDF pp. 4-7: LTTng event model, Trace Compass-style state reconstruction, tracepoints, environment, and workload protocol"
@@ -105,7 +105,7 @@
             "note": "ICPE 2026 accepted-papers page labels the conference-hosted PDF as the B-Perf Pre-Print; downloaded PDF is byte-identical to the locally reviewed evidence (SHA-256 FE38962FD4ACF91F760AC51907207F2569B99A172CEFE8D2B8D1393B547A6003)"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -775,7 +775,7 @@
             "note": "Public author manuscript: optimization-versus-reasoning boundary and future-work discussion"
           },
           {
-            "note": "Publication DOI and DBLP identity verified; private five-page ResearchGate author manuscript read and SHA-256 verified as 9fad98132e1dd1c06f885bf6b033c80691bd067a3f7c31f7f27841d9b9d4c308; private evidence note: pdf-evidence/notes/rethinking-performance-debugging-agentdebug.md"
+            "note": "Publication DOI and DBLP identity verified; Author manuscript was reviewed; Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -910,7 +910,7 @@
             "note": "arXiv page comment containing the ICSE 2026 acceptance and ACM DOI"
           },
           {
-            "note": "local PDF hash verified in the working catalog"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -1034,7 +1034,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full PDF read: pdf-evidence/notes/tracesynth-kernel-trace-generation.md"
+            "note": "Full text was reviewed; working copy is not distributed"
           },
           {
             "note": "TraceSynth PDF pp. 3-5: LTTng collection, six-channel representation, diffusion model, and invariant repair"
@@ -1046,7 +1046,7 @@
             "note": "TraceSynth PDF pp. 10-11: limitations and future work"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -1167,7 +1167,7 @@
             "note": "DOI: https://doi.org/10.1109/ACDSA65407.2025.11166430"
           },
           {
-            "note": "Private evidence note: papers/ai-video-retrieval-a-semantic-search-timestamp-alignment-system-b0d72f7cf3/pdf-evidence/notes/parallel-batch-01-ai-video-retrieval.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -1291,7 +1291,7 @@
             "note": "ICPC taxonomy PDF: limitations and hybrid/adaptive-parser future directions"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -1420,7 +1420,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Remote full preprint read: pdf-evidence/notes/parallel-batch-01-efficient-communication-anti-patterns.md"
+            "note": "Remote full preprint was reviewed; working note is not distributed"
           },
           {
             "note": "Authorea DOI: https://doi.org/10.22541/au.175533132.24109345/v1"
@@ -1552,7 +1552,7 @@
             "note": "Public abstract metadata mirror: https://eurekamag.com/research/104/995/104995729.php"
           },
           {
-            "note": "Private evidence report: reports/agent-batch-01.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -1676,7 +1676,7 @@
             "note": "ICSE published PDF: controlled-loss limitation, functional-plausibility example, and future work"
           },
           {
-            "note": "Local thesis/manuscript and published-paper PDF are retained as distinct version evidence; local hashes are recorded in pdf-evidence/extraction-manifest.json"
+            "note": "Thesis/manuscript and published-paper versions were checked separately; working copies are not distributed"
           }
         ]
       },
@@ -1800,31 +1800,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "HybridRCA combines critical-path-aware span analysis with targeted kernel metrics to reduce production trace volume while preserving root-cause localization evidence.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1109/icsme64153.2025.00056"
+            "note": "Exact full paper PDF reviewed: HybridRCA, IEEE ICSME 2025, DOI 10.1109/ICSME64153.2025.00056."
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
-          },
-          {
-            "note": "HybridRCA PDF pp. 1-6: critical-path extraction, Personalized PageRank, weighted spectrum analysis, targeted metrics, and clock synchronization"
-          },
-          {
-            "note": "HybridRCA PDF pp. 7-10: LTTng 2.13.9-1 environment, HotROD/TrainTicket/OnlineBoutique/TiDB workloads, injected faults, accuracy, trace-volume, and storage results"
-          },
-          {
-            "note": "HybridRCA PDF p. 10: limitations and future-work boundary"
-          },
-          {
-            "note": "local HybridRCA PDF hash verified in pdf-evidence/notes/hybridrca-critical-path-aware-tracing.md and pdf-evidence/extraction-manifest.json"
+            "note": "Technical details verified from the paper's instrumentation, method, evaluation, and limitations sections, including LTTng, Perf, OpenTelemetry-compatible tracing, critical-path extraction, PageRank/Tarantula ranking, benchmark composition, and reported tables."
           }
         ]
       },
@@ -1951,7 +1939,7 @@
             "note": "DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25"
           },
           {
-            "note": "Private evidence note: papers/multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27/pdf-evidence/notes/parallel-batch-01-multi-dimensional-bias-llm.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -2071,7 +2059,7 @@
             "note": "DBLP/Scholar record matched by title and authors"
           },
           {
-            "note": "local PDF hash verified in the working catalog"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -2182,7 +2170,7 @@
             "note": "official arXiv abstract and PDF page 2502.00046"
           },
           {
-            "note": "local PDF hash verified in the working catalog"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           },
           {
             "note": "author-order discrepancy explicitly retained"
@@ -2303,7 +2291,7 @@
             "note": "CASCON schedule: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation"
           },
           {
-            "note": "Private evidence note: papers/synthlogai-generative-ai-for-synthetic-linux-log-generation-and-evaluation-a00bad2d6b/pdf-evidence/notes/parallel-batch-01-synthlogai.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -2426,7 +2414,7 @@
             "note": "official arXiv abstract and PDF page 2501.15019"
           },
           {
-            "note": "local PDF hash verified in the working catalog"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -2551,7 +2539,7 @@
             "note": "DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646"
           },
           {
-            "note": "Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -2672,7 +2660,7 @@
             "note": "ICPE ALS PDF: Python/dynamic-feature/agent-scope limitations and stated future work"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -2802,7 +2790,7 @@
             "note": "Author-linked analysis repository and Alibaba dataset URL recorded as reproducibility resources"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -2930,7 +2918,7 @@
             "note": "DOI: https://doi.org/10.1109/BigData62323.2024.10825500"
           },
           {
-            "note": "Private evidence note: papers/assessing-predictive-models-for-energy-consumption-across-varied-software-environments-1da35b5bb9/pdf-evidence/notes/parallel-batch-01-energy-consumption-software-environments.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -3173,7 +3161,7 @@
             "note": "ICPE Companion WIP PDF: preliminary-evaluation limitation and future-work scope"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -3315,7 +3303,7 @@
             "note": "DOI: https://doi.org/10.1145/3639478.3643523"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-02.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -3442,7 +3430,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full PDF read: pdf-evidence/notes/efficient-unsupervised-latency-culprit-ranking.md"
+            "note": "Full text was reviewed; working copy is not distributed"
           },
           {
             "note": "Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split"
@@ -3451,7 +3439,7 @@
             "note": "Efficient culprit-ranking PDF pp. 4-5: benchmark accuracy, Top-k results, training/test speed comparison, limitations, and artifact link"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -3703,7 +3691,7 @@
             "note": "Author synopsis: https://majidbabaei.com/"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-02.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -3814,7 +3802,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full PDF read: pdf-evidence/notes/network-analysis-microservices-alibaba.md"
+            "note": "Full text was reviewed; working copy is not distributed"
           },
           {
             "note": "Network-analysis PDF pp. 1-3: Alibaba dataset scale, preprocessing, community algorithms, metrics, seed stability, and graph clustering"
@@ -3823,7 +3811,7 @@
             "note": "Network-analysis PDF pp. 3-5: structural findings, limitations, future work, and implementation repository"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -3958,7 +3946,7 @@
             "note": "official arXiv abstract and PDF page 2405.16277"
           },
           {
-            "note": "local PDF hash verified in the working catalog"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -4078,7 +4066,7 @@
             "note": "J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217419132863"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-02.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -4207,7 +4195,7 @@
             "note": "Toward Adaptive Tracing PDF p. 5: future-work and model-update boundary"
           },
           {
-            "note": "local Toward Adaptive Tracing PDF hash verified in pdf-evidence/notes/toward-adaptive-tracing-language-models.md and pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -4326,25 +4314,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "AltOOM combines early memory-pressure forecasting with selective process-level profiling to identify the process most responsible for an impending out-of-memory event.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937"
+            "note": "Exact full paper PDF reviewed: ALTOOM, IEEE BigData 2023, DOI 10.1109/BigData59044.2023.10386937."
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
-          },
-          {
-            "note": "AltOOM PDF pp. 1, 4-10: perf/sar collection, 34 metrics, 85% threshold, prediction models, burst ranking, evaluation tables, limitations, and future work"
-          },
-          {
-            "note": "local AltOOM PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Metrics, sampling interval, model results, feature filtration, pressure-generation protocol, Firefox reproduction, root-cause burst results, and limitations were checked against the paper's tables and evaluation text."
           }
         ]
       },
@@ -4454,7 +4436,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/middleware/GuanNE23"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-02.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -4580,7 +4562,7 @@
             "note": "J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202402237338978432"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-02.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -4701,7 +4683,7 @@
             "note": "Author code/data repository linked by the paper"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -4822,7 +4804,7 @@
             "note": "SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-02.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -4924,31 +4906,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "PASD uses Linux kernel-event traces, Perf call stacks, and statistical debugging to rank functions associated with performance problems without application-source instrumentation.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1109/scam59687.2023.00025"
+            "note": "Exact full paper PDF reviewed: PASD, IEEE SCAM 2023, DOI 10.1109/SCAM59687.2023.00025."
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
-          },
-          {
-            "note": "PASD PDF pp. 1-5: kernel-event tracing, Perf call stacks, metric thresholds, statistical debugging, and suspect ranking"
-          },
-          {
-            "note": "PASD PDF pp. 6-9: Firefox and ls cases, reported functions, data volumes, and offline analysis cost"
-          },
-          {
-            "note": "PASD PDF pp. 9-10: limitations and future-work boundary"
-          },
-          {
-            "note": "local PASD PDF hash verified in pdf-evidence/notes/pasd-statistical-debugging-kernel-events.md and pdf-evidence/extraction-manifest.json"
+            "note": "Perf event set, threshold equations, function indicators, all three case studies, trace sizes, and offline analysis timings were checked against the paper."
           }
         ]
       },
@@ -5050,7 +5020,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full PDF read: pdf-evidence/notes/parallel-batch-02-software-mining-investigating-correlation-between-source-code-features-and-michrobenchmark-s-ste-bd15de158b.md"
+            "note": "Full text was reviewed; working copy is not distributed"
           },
           {
             "note": "Software Mining PDF pp. 1-4: JMH, 586 results from 30 Java projects, srcML/Lizard features, steady-state labels, group counts, and Apriori confidences"
@@ -5190,7 +5160,7 @@
             "note": "Zenodo dataset DOI and author-hosted PDF recorded as public resources"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -5317,7 +5287,7 @@
             "note": "Paper-linked code/results repository recorded as a public resource"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -5429,7 +5399,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private one-page poster read: pdf-evidence/notes/parallel-batch-02-deep-learning-driven-anomaly-based-intrusion-detection-system-for-iot-poster-abstract-e3d870b1d7.md"
+            "note": "One-page poster was reviewed; working copy is not distributed"
           },
           {
             "note": "DOI/DBLP published item: https://doi.org/10.1145/3565386.3565493"
@@ -5672,31 +5642,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "N-Lane Bridge extends One-Lane Bridge analysis to active-resource bottlenecks and uses LTTng system-level traces to distinguish application-caused congestion from external interference.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Crossref and local DBLP/venue metadata for 10.1109/scam55253.2022.00015"
+            "note": "Exact full paper PDF reviewed: N-Lane Bridge, IEEE SCAM 2022, DOI 10.1109/SCAM55253.2022.00015."
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
-          },
-          {
-            "note": "N-Lane Bridge PDF pp. 1-7: OLB/NLB definitions, LTTng 2.12.3, Trace Compass, tracepoints, critical-path and response-time method"
-          },
-          {
-            "note": "N-Lane Bridge PDF pp. 7-9: Firefox 65.0/98.0.2 and InDebitO cases, latency causes, and NLB classification"
-          },
-          {
-            "note": "N-Lane Bridge PDF pp. 9-10: CPU/I/O overhead, trace sizes, offline analysis cost, threats, and future work"
-          },
-          {
-            "note": "local N-Lane Bridge PDF hash verified in pdf-evidence/notes/n-lane-bridge-performance-antipatterns.md and pdf-evidence/extraction-manifest.json"
+            "note": "LTTng version, workload escalation, statistical test, Firefox and InDebitO cases, latency decomposition, and overhead measurements were checked against the paper's setup and results."
           }
         ]
       },
@@ -5806,7 +5764,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full PDF read: pdf-evidence/notes/performance-anomaly-detection-sequence-alignment.md"
+            "note": "Full text was reviewed; working copy is not distributed"
           },
           {
             "note": "Performance-anomaly PDF pp. 2-8: LTTng, critical-path extraction, vectorization, average/probability tests, OPTICS, cluster pairing, and MUSCLE alignment"
@@ -5818,7 +5776,7 @@
             "note": "Performance-anomaly PDF p. 10: conclusion and future work"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -5932,22 +5890,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "This work investigates execution-path analysis as a way to evaluate complex multi-thread applications.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Crossref and local DBLP/venue metadata for 10.1016/j.peva.2022.102289"
+            "note": "Complete author author-manuscript manuscript source reviewed for the published record: Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis, Performance Evaluation 2022, DOI 10.1016/j.peva.2022.102289."
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
-          },
-          {
-            "note": "full-text summary pending source review"
+            "note": "The abstract, LTTng/LTTng-UST collection method, Chromium Execution Graph Construction algorithm, three jank cases, experimental environment, overhead figure values, limitations, and conclusion were checked against the source."
           }
         ]
       },
@@ -6047,7 +6002,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-02.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -6169,7 +6124,7 @@
             "note": "official arXiv abstract and PDF page 2207.06515"
           },
           {
-            "note": "local PDF hash verified in the working catalog"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -6274,31 +6229,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "The paper automatically builds an approximate workflow model and adaptive quantitative constraints from user-space and kernel execution traces, reducing manual model construction for real-time and multicore diagnosis.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Crossref and local DBLP/venue metadata for 10.1007/s10766-020-00689-5"
+            "note": "Exact full paper PDF reviewed: Model-Based Constraints, International Journal of Parallel Programming 2021, DOI 10.1007/s10766-020-00689-5."
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
-          },
-          {
-            "note": "Model-constraints PDF pp. 1-2, 5-17: user-space/kernel scope, LTTng cyclictest case, per-thread/LCS workflow generation, adaptive constraints, and case-study detections"
-          },
-          {
-            "note": "Model-constraints PDF pp. 21-30: hardware, trace sizes, runtime/scalability, and full-cyclictest approximately 7-minute result"
-          },
-          {
-            "note": "Model-constraints PDF p. 30: limitation and future-work boundary"
-          },
-          {
-            "note": "local model-constraints PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "The LTTng-based workflow extraction, state-machine construction, three case studies, inferred timing values, model-build cost, and limitations were checked against the paper."
           }
         ]
       },
@@ -6540,31 +6483,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "The paper characterizes container workloads from host-level LTTng traces by selecting important threads and clustering execution-state behavior without instrumenting the containers internally.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1109/ic2e52221.2021.00015"
+            "note": "Exact full paper PDF reviewed: Container Workload Characterization, IEEE IC2E 2021, DOI 10.1109/IC2E52221.2021.00015."
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
-          },
-          {
-            "note": "Container workload PDF pp. 1-4: host-only motivation, LTTng, pid_ns/tid attribution, and state extraction"
-          },
-          {
-            "note": "Container workload PDF pp. 4-9: PageRank feature selection, vectorization, two-stage K-Means, workloads, and silhouette result"
-          },
-          {
-            "note": "Container workload PDF pp. 9-10: required tracepoints, 21.62% versus 3.6% overhead, limitations, and future work"
-          },
-          {
-            "note": "local container-workload PDF hash verified in pdf-evidence/notes/container-workload-characterization-host-tracing.md and pdf-evidence/extraction-manifest.json"
+            "note": "LTTng contexts and tracepoints, Docker setup, two-stage clustering, cluster interpretations, overhead, and clustering-runtime results were checked against the paper."
           }
         ]
       },
@@ -6676,7 +6607,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full PDF read: pdf-evidence/notes/debugging-performance-degradation-distributed-requests.md"
+            "note": "Full text was reviewed; working copy is not distributed"
           },
           {
             "note": "Debugging paper pp. 1-10: LTTng, LAMP probes, multihost synchronization, State History Tree, data model, and top-down algorithm"
@@ -6688,7 +6619,7 @@
             "note": "Debugging paper pp. 14-16: ApacheBench environment, tracing overhead, state-store/PostgreSQL comparison, conclusion, and future work"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -6945,7 +6876,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/bigdataconf/AzhariBET21"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-03.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -7046,22 +6977,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "The accessible abstract describes a modeled state representation with a special-purpose database, filtering/highlighting, and Gantt/XY views for Linux and Windows traces.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "abstract-and-metadata-reviewed",
-        "coverage": "abstract and bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "DOI: https://doi.org/10.1109/ISNCC52172.2021.9615814"
+            "note": "Exact author manuscript/submitted-paper PDF reviewed for the published record: Integrated Modeling Tool for Indexing and Analyzing State Machine Trace, DOI 10.1109/ISNCC52172.2021.9615814."
           },
           {
-            "note": "DBLP record: https://dblp.org/rec/conf/isncc/DelisleED21"
-          },
-          {
-            "note": "Private batch report: reports/parallel-batch-03.md"
+            "note": "Graphiti/EMF design, LTTng/CTF support, State History Tree integration, both use cases, and the model/XML attribute counts were checked against the inspected paper."
           }
         ]
       },
@@ -7175,7 +7103,7 @@
             "note": "Malware system-call PDF: virtualization/generalization limitation, count-vector boundary, dropout inconsistency, and future work"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/notes/malware-system-calls-detection-using-hybrid-system.md and pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -7315,19 +7243,19 @@
             "note": "Public thesis pp. 109--110: Trace Compass integration, user-level interrupt direction, signal limitations, and conclusion"
           },
           {
-            "note": "Overleaf project: https://www.overleaf.com/project/5e01a488862790000145cf86"
+            "note": "Author-manuscript source was reviewed; project link is not distributed"
           },
           {
-            "note": "Original Overleaf PDF: 8 pages; exact title/authors/abstract matched, but an extraneous compile-log fragment was embedded in the body"
+            "note": "Author-manuscript PDF: 8 pages; exact title/authors/abstract matched, with a compile-log fragment identified in the inspected copy"
           },
           {
-            "note": "Separate cleanup Overleaf copy: source fragment replaced, IEEE author-manuscript notice added, recompiled successfully, and cleaned 8-page PDF inspected on first and final pages"
+            "note": "Cleaned author-manuscript copy: source fragment removed, author-manuscript notice added, recompiled successfully, and first/final pages inspected"
           },
           {
-            "note": "Rights gate: agreement-specific SysCon self-archiving terms still require confirmation before arXiv submission; do not use the IEEE Version of Record"
+            "note": "Rights boundary: agreement-specific SysCon self-archiving terms still require confirmation; do not use the IEEE Version of Record"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-03.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -7342,8 +7270,8 @@
           "canonical_for_citation": true
         },
         {
-          "id": "related-public-thesis-chapter-plus-cleaned-local-overleaf-manuscript-candidate-with-ieee-rights-notice",
-          "label": "Related public thesis chapter plus cleaned local Overleaf manuscript candidate with IEEE rights notice",
+          "id": "related-public-thesis-chapter-and-author-manuscript-evidence",
+          "label": "Related public thesis chapter and author-manuscript evidence",
           "relation": "source-record",
           "status": "public_related_full_text",
           "url": "https://core.ac.uk/download/pdf/213619806.pdf",
@@ -7464,7 +7392,7 @@
             "note": "DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21"
           },
           {
-            "note": "Official Springer preview read privately; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; private evidence report: reports/agent-batch-04.md"
+            "note": "Official Springer preview read during review; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -7573,31 +7501,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "The paper correlates LTTng traces across OpenStack services, QEMU/KVM, network components, and host kernels to diagnose cloud-platform performance problems.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "DBLP/DOI bibliographic record for 10.1109/ithings-greencom-cpscom-smartdata-cybermatics50389.2020.00063"
+            "note": "Exact full paper PDF reviewed: Cloud Platform Performance Analysis, IEEE iThings/GreenCom/CPSCom/SmartData/Cybermatics 2020, DOI 10.1109/iThings-GreenCom-CPSCom-SmartData-Cybermatics50389.2020.00063."
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
-          },
-          {
-            "note": "Cloud platform PDF pp. 1-5: LTTng/LTTng-UST, Nova/QEMU/KVM/Neutron/Open vSwitch tracing, correlation, and Trace Compass views"
-          },
-          {
-            "note": "Cloud platform PDF pp. 5-6: live-migration procedure, 166.12/169.320-second results, preemption and VM-interference diagnosis"
-          },
-          {
-            "note": "Cloud platform PDF p. 6: conclusion and future-work boundary"
-          },
-          {
-            "note": "local cloud-platform PDF hash verified in pdf-evidence/notes/cloud-platform-performance-multilevel-tracing.md and pdf-evidence/extraction-manifest.json"
+            "note": "OpenStack probe coverage, Open vSwitch packet events, live-migration measurements, and the resource-interference case were checked against the paper's figures and tables."
           }
         ]
       },
@@ -7719,7 +7635,7 @@
             "note": "official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3"
           },
           {
-            "note": "local PDF hash verified in the working catalog"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -7937,28 +7853,19 @@
         "note": "The page is a discovery record; it does not claim Google Scholar article-host eligibility."
       },
       "description": "The paper extends critical-path analysis across kernel and user-space lock events so contention from futexes, spinlocks, semaphores, and other synchronization mechanisms can be diagnosed without recompiling the application.",
-      "evidence_level": "metadata-or-abstract-reviewed",
+      "evidence_level": "full-text-reviewed",
       "evidence": {
-        "source_basis": "metadata-only",
-        "coverage": "bibliographic metadata",
+        "source_basis": "full-text-reviewed",
+        "coverage": "material paper sections",
         "summary_origin": "AI-assisted catalog editorial summary",
         "review_status": "catalog-reviewed; paper-author approval pending",
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068"
+            "note": "Exact full paper PDF reviewed: Multilevel Trace Analysis of Lock Contention, IEEE ISSREW 2020, DOI 10.1109/ISSREW51248.2020.00068."
           },
           {
-            "note": "author identity matched to Naser Ezzati-Jivan in the local research catalog"
-          },
-          {
-            "note": "Lock-contention PDF pp. 1-4: LTTng 2.10, Trace Compass 4, LD_PRELOAD Pthreads wrappers, event sets, state system, graph, and active-path algorithm"
-          },
-          {
-            "note": "Lock-contention PDF pp. 4-6: visualization views, C++/Pthreads overhead, Apache/OPcache case, and analysis boundary"
-          },
-          {
-            "note": "local lock-contention PDF hash verified in pdf-evidence/notes/multilevel-trace-lock-contention.md and pdf-evidence/extraction-manifest.json"
+            "note": "LTTng/Trace Compass versions, LD_PRELOAD instrumentation, State System representation, views, overhead levels, and Apache/C++ cases were checked against the paper."
           }
         ]
       },
@@ -8228,7 +8135,7 @@
             "note": "official arXiv abstract and PDF page 2103.04954"
           },
           {
-            "note": "local PDF hash verified in the working catalog"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -9962,7 +9869,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/ccece/JivanD14.html"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-03.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -10214,7 +10121,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/rv/MontplaisirJWD13.html"
           },
           {
-            "note": "Official Springer preview read privately; SHA-256 1f03c9225de8d032f7015b076dd48c7805897c006cb226016baa0e9b01eb621d; private evidence report: reports/agent-batch-04.md"
+            "note": "Official Springer preview read during review; SHA-256 1f03c9225de8d032f7015b076dd48c7805897c006cb226016baa0e9b01eb621d; Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -10335,7 +10242,7 @@
             "note": "DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html"
           },
           {
-            "note": "Private batch report: reports/parallel-batch-03.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -10695,7 +10602,7 @@
             "note": "PolyPublie institutional record: https://publications.polymtl.ca/15433/"
           },
           {
-            "note": "Private evidence note: pdf-evidence/notes/parallel-batch-04-an-efficient-analysis-approach-for-multi-core-system-tracing-data.md"
+            "note": "Additional review evidence was used; working files are not distributed"
           }
         ]
       },
@@ -10813,7 +10720,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Remote full text read: pdf-evidence/notes/parallel-batch-04-intrusion-response-systems-survey-and-taxonomy.md"
+            "note": "Remote full text read: additional review evidence"
           },
           {
             "note": "Institutional record: https://publications.polymtl.ca/14629/"
@@ -10939,7 +10846,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full proceedings evidence note: pdf-evidence/notes/parallel-batch-04-high-performance-internet-connection-filtering-through-an-in-kernel-architecture.md"
+            "note": "Additional full-text evidence was reviewed; working files are not distributed"
           },
           {
             "note": "Article printed pp. 32-37 in the public combined ICIMP proceedings PDF"
@@ -11086,7 +10993,7 @@
             "note": "L-SYNCng PDF: conclusion and dynamic-network future-work statement"
           },
           {
-            "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+            "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
           }
         ]
       },
@@ -11205,7 +11112,7 @@
         "verified_on": "2026-08-09",
         "sources": [
           {
-            "note": "Private full PDF evidence note: pdf-evidence/notes/parallel-batch-04-new-approach-for-automated-categorizing-and-finding-similarities-in-online-persian-news.md"
+            "note": "Additional full-text evidence was reviewed; working files are not distributed"
           },
           {
             "note": "Springer version-of-record metadata: https://link.springer.com/chapter/10.1007/978-3-642-16032-5_11"

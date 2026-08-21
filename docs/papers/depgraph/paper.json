@@ -80,7 +80,7 @@
         "note": "official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3"
       },
       {
-        "note": "local PDF hash verified in the working catalog"
+        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
       }
     ]
   },
@@ -153,7 +153,7 @@
     "metadata_source": [
       "DBLP and IEEE metadata for the published paper",
       "official arXiv abstract and DepGraph PDF pp. 3, 8-10: LTTng, event/state extraction, evaluation setup, tracing cost, and Babeltrace 3",
-      "local PDF hash verified in the working catalog"
+      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

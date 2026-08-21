@@ -89,5 +89,5 @@ I. Sedki, A. Hamou-Lhadj, O. A. Mohamed, and N. Ezzati-Jivan, "Towards a Classif
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: ICPC log-parsing-errors PDF: four LogHub datasets, four parsers, 8,000 labelled events, nine categories, and error-count method; ICPC log-parsing-errors PDF: 523 errors, 65.51% tokenization-related share, 28.5% regex share, per-category values, and HealthApp/OpenStack examples; Zenodo dataset DOI and author-hosted PDF recorded as public resources; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: ICPC log-parsing-errors PDF: four LogHub datasets, four parsers, 8,000 labelled events, nine categories, and error-count method; ICPC log-parsing-errors PDF: 523 errors, 65.51% tokenization-related share, 28.5% regex share, per-category values, and HealthApp/OpenStack examples; Zenodo dataset DOI and author-hosted PDF recorded as public resources; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

@@ -87,5 +87,5 @@ M. A. Khan and N. Ezzati-Jivan, "Multi-level Adaptive Execution Tracing for Effi
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/SERA57763.2023.10197790; DBLP record: https://dblp.org/rec/conf/sera/KhanE23; SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf; Private batch report: reports/parallel-batch-02.md
+- Metadata sources: DOI: https://doi.org/10.1109/SERA57763.2023.10197790; DBLP record: https://dblp.org/rec/conf/sera/KhanE23; SERA program: https://acisinternational.org/wp-content/uploads/2023/05/SERA-2023-Program-v81-1.pdf; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

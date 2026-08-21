@@ -87,5 +87,5 @@ Y. Guan, M. Noferesti, and N. Ezzati-Jivan, "A Two-Tiered Framework for Anomaly 
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344; Crossref DOI record verified 2026-08-09: the version of record is licensed CC BY 4.0; Public publisher PDF: https://www.sciencedirect.com/science/article/pii/S2665963824000344/pdfft?isDTMRedir=true&download=true; DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646; Private evidence note: papers/a-two-tiered-framework-for-anomaly-classification-in-iot-networks-utilizing-cnn-bilstm-model-1f6844c5dc/pdf-evidence/notes/parallel-batch-01-iot-anomaly-classification.md
+- Metadata sources: ScienceDirect article and abstract: https://www.sciencedirect.com/science/article/pii/S2665963824000344; Crossref DOI record verified 2026-08-09: the version of record is licensed CC BY 4.0; Public publisher PDF: https://www.sciencedirect.com/science/article/pii/S2665963824000344/pdfft?isDTMRedir=true&download=true; DOI metadata: https://doi.org/10.1016/j.simpa.2024.100646; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

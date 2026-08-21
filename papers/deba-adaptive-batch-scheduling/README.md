@@ -82,5 +82,5 @@ F. Belias, N. Ezzati-Jivan, and F. Khomh, "One Size Does Not Fit All: Architectu
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: official arXiv abstract and PDF page 2511.03809; DBLP/Scholar record matched by title and authors; local PDF hash verified in the working catalog
+- Metadata sources: official arXiv abstract and PDF page 2511.03809; DBLP/Scholar record matched by title and authors; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

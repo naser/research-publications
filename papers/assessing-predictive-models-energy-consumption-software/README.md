@@ -83,5 +83,5 @@ T. Zhang, S. I. Dipanzan, L. Tahmooresnejad, and N. Ezzati-Jivan, "Assessing Pre
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/10825500/; DOI: https://doi.org/10.1109/BigData62323.2024.10825500; Private evidence note: papers/assessing-predictive-models-for-energy-consumption-across-varied-software-environments-1da35b5bb9/pdf-evidence/notes/parallel-batch-01-energy-consumption-software-environments.md
+- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/10825500/; DOI: https://doi.org/10.1109/BigData62323.2024.10825500; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

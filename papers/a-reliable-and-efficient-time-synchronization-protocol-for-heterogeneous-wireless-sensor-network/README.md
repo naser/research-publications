@@ -87,5 +87,5 @@ M. Jabbarifar, A. Shameli-Sendi, A. Sadighian, N. Ezzati-Jivan, and M. R. Dagena
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: L-SYNCng PDF: protocol design, clustering, convex-hull offset/skew estimation, and comparison protocols; L-SYNCng PDF: NS-2.31, 100-node/1000 x 1000 m/100 m setup, ten runs, noise conditions, and plotted comparisons; L-SYNCng PDF: conclusion and dynamic-network future-work statement; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: L-SYNCng PDF: protocol design, clustering, convex-hull offset/skew estimation, and comparison protocols; L-SYNCng PDF: NS-2.31, 100-node/1000 x 1000 m/100 m setup, ten runs, noise conditions, and plotted comparisons; L-SYNCng PDF: conclusion and dynamic-network future-work statement; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

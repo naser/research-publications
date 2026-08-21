@@ -85,5 +85,5 @@ Y. Sehgal, S. Patel, M. Panahandeh, N. Ezzati-Jivan, and F. Tetreault, "TraceSyn
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Private full PDF read: pdf-evidence/notes/tracesynth-kernel-trace-generation.md; TraceSynth PDF pp. 3-5: LTTng collection, six-channel representation, diffusion model, and invariant repair; TraceSynth PDF pp. 6-10: Nibicluster/Phoronix workloads, DDIM generation, next-event metrics, context-length and channel ablations; TraceSynth PDF pp. 10-11: limitations and future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: Full text was reviewed; working copy is not distributed; TraceSynth PDF pp. 3-5: LTTng collection, six-channel representation, diffusion model, and invariant repair; TraceSynth PDF pp. 6-10: Nibicluster/Phoronix workloads, DDIM generation, next-event metrics, context-length and channel ablations; TraceSynth PDF pp. 10-11: limitations and future work; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

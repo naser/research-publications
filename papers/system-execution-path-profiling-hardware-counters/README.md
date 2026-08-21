@@ -22,7 +22,7 @@ The related chapter reports 0.1% RMS profile error on its calibrated function be
 
 ### 4. Limitations and future directions
 
-**Limitations:** The original Overleaf project contained an extraneous compile-log fragment; a separate cleanup copy removed it, recompiled successfully, and added the IEEE author-manuscript notice. The signed SysCon publication agreement and any venue-specific self-archiving wording were not independently inspected. The public full-text route remains a related 2015 thesis chapter rather than the standalone IEEE SysCon manuscript. The evaluation is centered on CPython, one Linux environment, synthetic/calibrated profiling workloads, and the reported monitoring comparisons; broader runtimes, hardware generations, and production distributed workloads remain unverified.
+**Limitations:** The public full-text route is a related 2015 thesis chapter rather than the standalone IEEE SysCon manuscript, and the signed SysCon self-archiving terms were not independently inspected. The evaluation is centered on CPython, one Linux environment, synthetic/calibrated profiling workloads, and the reported monitoring comparisons; broader runtimes, hardware generations, and production distributed workloads remain unverified.
 
 **Future work:** The chapter identifies integration with task-execution-path extraction and Trace Compass, support for additional runtimes, replacing signals with user-level interrupts, handling signal-blocking limitations, and reducing redundant call-stack trace data as future directions.
 
@@ -39,7 +39,7 @@ The related public chapter describes low-intrusion execution-path profiling that
 ## Versions and source links
 
 - [Published version](https://doi.org/10.1109/SYSCON48628.2021.9447121) - published
-- [Related public thesis chapter plus cleaned local Overleaf manuscript candidate with IEEE rights notice](https://core.ac.uk/download/pdf/213619806.pdf) | [PDF](https://core.ac.uk/download/pdf/213619806.pdf) - public_related_full_text
+- [Related public thesis chapter and author-manuscript evidence](https://core.ac.uk/download/pdf/213619806.pdf) | [PDF](https://core.ac.uk/download/pdf/213619806.pdf) - public_related_full_text
 
 **Canonical source:** [https://doi.org/10.1109/SYSCON48628.2021.9447121](https://doi.org/10.1109/SYSCON48628.2021.9447121)
 
@@ -49,10 +49,12 @@ The related public chapter describes low-intrusion execution-path profiling that
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when connecting hardware performance-counter samples and kernel execution paths to interpreted-language call stacks.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- For forwarding PMU overflow events from a kernel NMI path to user space without instrumenting every interpreted statement.
+- For the PyPMU/CPython design that records interpreter state and uses LTTng-UST for sample storage.
+- For comparing online and offline libunwind stack recovery and the reported event-forwarding cost.
+- For the explicit boundary between the related public thesis chapter and the IEEE SysCon version of record.
 
 ## Citation
 
@@ -83,5 +85,5 @@ F. Giraldeau, N. Ezzati-Jivan, and M. R. Dagenais, "System Execution Path Profil
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/SYSCON48628.2021.9447121; DBLP record: https://dblp.org/rec/conf/syscon/GiraldeauJD21; Official SysCon program: https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf; Public thesis PDF, Chapter 6 pp. 93--110: https://core.ac.uk/download/pdf/213619806.pdf; Public thesis pp. 93--96: problem, PMU/perf-NMI architecture, PyPMU contributions, and interpreter boundary; Public thesis pp. 101--106: accuracy, event-forwarding cost, stack unwinding, LTTng-UST comparison, and profiling overhead; Public thesis pp. 109--110: Trace Compass integration, user-level interrupt direction, signal limitations, and conclusion; Overleaf project: https://www.overleaf.com/project/5e01a488862790000145cf86; Original Overleaf PDF: 8 pages; exact title/authors/abstract matched, but an extraneous compile-log fragment was embedded in the body; Separate cleanup Overleaf copy: source fragment replaced, IEEE author-manuscript notice added, recompiled successfully, and cleaned 8-page PDF inspected on first and final pages; Rights gate: agreement-specific SysCon self-archiving terms still require confirmation before arXiv submission; do not use the IEEE Version of Record; Private batch report: reports/parallel-batch-03.md
+- Metadata sources: DOI: https://doi.org/10.1109/SYSCON48628.2021.9447121; DBLP record: https://dblp.org/rec/conf/syscon/GiraldeauJD21; Official SysCon program: https://events-siteplex.confcats.io/syscon2021/wp-content/uploads/sites/19/2021/04/syscon21-program.pdf; Public thesis PDF, Chapter 6 pp. 93--110: https://core.ac.uk/download/pdf/213619806.pdf; Public thesis pp. 93--96: problem, PMU/perf-NMI architecture, PyPMU contributions, and interpreter boundary; Public thesis pp. 101--106: accuracy, event-forwarding cost, stack unwinding, LTTng-UST comparison, and profiling overhead; Public thesis pp. 109--110: Trace Compass integration, user-level interrupt direction, signal limitations, and conclusion; Author-manuscript source was reviewed; project link is not distributed; Author-manuscript PDF: 8 pages; exact title/authors/abstract matched, with a compile-log fragment identified in the inspected copy; Cleaned author-manuscript copy: source fragment removed, author-manuscript notice added, recompiled successfully, and first/final pages inspected; Rights boundary: agreement-specific SysCon self-archiving terms still require confirmation; do not use the IEEE Version of Record; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

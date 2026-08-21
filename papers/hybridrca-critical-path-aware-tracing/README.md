@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Production microservices generate too many spans and low-level events for full-granularity storage and diagnosis, yet root-cause analysis still needs evidence about the execution context that causes latency.
+Production microservice traces can contain millions or billions of spans. Keeping every low-level event is expensive, while high-level spans alone can hide the kernel, scheduling, and resource causes of a latency anomaly. Parallel branches also make an all-span latency view misleading, and unsynchronized clocks can break cross-node diagnosis.
 
 ### 2. Method and contribution
 
-The pipeline groups similar traces, structures requests, extracts each request's critical path, builds a critical-path span graph, applies Personalized PageRank and weighted spectrum-based fault localization, and triggers LTTng collection of CPU, memory, and I/O-wait metrics only for targeted processes or threads. The evaluation uses OpenTracing-instrumented applications and LTTng 2.13.9-1; Perf is mentioned as a low-level tracing tool but is not the reported primary collector.
+HybridRCA combines a trace collector, request structuring, anomaly detection, and root-cause localization. It uses OpenTelemetry/OpenTracing/OpenCensus at the high level, LTTng and Perf at the low level, and Trace Compass for cross-node clock synchronization. A critical-path extractor handles parallel children and self-time by subtracting merged overlapping child intervals from parent duration; adjacent identical critical-path spans are aggregated. Anomalies are detected from successful-request latency bounds, then a critical-path graph is ranked with Personalized PageRank and a weighted Tarantula spectrum. The evaluation reports an LTTng-triggered path from application tracing to targeted CPU, memory, and I/O-wait collection.
 
 ### 3. Findings and evidence
 
-The paper evaluates HotROD, TrainTicket, OnlineBoutique, and a reproduced TiDB scenario. The abstract reports average recall improvement of 0.45%, up to 22.6% fewer spans, and more than 99% kernel-level storage reduction; the conclusion separately reports 5.7% average top-1 recall improvement, up to 0.45% precision improvement, 22.3% fewer spans, and more than 99% storage reduction. The evaluation includes 56 injected faults across TrainTicket and OnlineBoutique and reports single- and two-root-cause precision/recall/F1 results.
+The evaluation uses TrainTicket with 41 services, OnlineBoutique with 11 services, 56 injected faults, HotRod, and a TiDB issue scenario. On selected HotRod, TrainTicket, and OnlineBoutique cases, reported recall is 90–100%, precision is 85–97%, and F1 is 87–98%. The critical-path strategy reduces spans by about 22% in the reported experiments, while the listed kernel-storage examples reduce retained data by 99.57–99.98%. In the TiDB scenario, a SysBench workload reproduced an index-related latency increase from 4,397 ms to 7,663 ms and the method detected the degradation.
 
 ### 4. Limitations and future directions
 
-**Limitations:** Critical-path-only collection can miss local latency that does not affect end-to-end latency; the anomaly detector assumes most behavior is normal; and the baselines were reimplemented. The evidence is still a benchmark and reproduced-case evaluation rather than a broad live-traffic deployment.
+**Limitations:** A local spike that is not on the critical path can be missed, and critical-path diagnosis is less reliable when abnormal requests dominate the sample. The experiments emphasize public benchmarks and a synthetic TiDB reproduction, so production transfer may be affected by asynchronous requests, multi-tenant noise, network conditions, container runtime behavior, and clock synchronization. The paper also notes that some baselines were reimplemented from descriptions, which limits strict reproducibility of the comparison.
 
-**Future work:** Extend validation to live traffic, streaming alerts, container and network metadata, long-running asynchronous requests, and multi-tenant noise.
+**Future work:** The authors identify broader live-production deployment, streaming real-time alerts, container metadata and network telemetry, and improved support for long-running asynchronous requests and multi-tenant noise as next steps. A practical deployment lesson is to control clock drift because a few milliseconds of misalignment can associate events with the wrong root cause.
 
 ## Abstract
 
@@ -48,11 +48,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when reducing production microservice tracing while retaining critical-path evidence for root-cause analysis.
+Cite this paper when your work uses critical-path-aware hybrid tracing to reduce distributed trace volume while preserving a path toward kernel-level root-cause analysis.
 
-- Critical-path extraction with Personalized PageRank and weighted spectrum-based localization.
-- LTTng-triggered collection of targeted CPU, memory, and I/O-wait metrics for suspicious processes or spans.
-- HotROD, TrainTicket, OnlineBoutique, and TiDB evaluations with trace-volume and kernel-storage reductions.
+- For combining high-level OpenTelemetry-compatible spans with targeted LTTng/Perf collection.
+- For critical-path extraction over parallel microservice spans, including self-time and overlap handling.
+- For Personalized PageRank plus spectrum-based ranking of abnormal critical-path nodes.
+- For the TrainTicket, OnlineBoutique, HotRod, and TiDB evaluation and the reported span/storage reductions.
 
 ## Citation
 
@@ -82,6 +83,6 @@ M. Ekhlasi, A. Fiorini, M. R. Dagenais, N. Ezzati-Jivan, and M. Lamothe, "Hybrid
 ## Record provenance
 
 - Metadata verified: 2026-08-09
-- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1109/icsme64153.2025.00056; author identity matched to Naser Ezzati-Jivan in the local research catalog; HybridRCA PDF pp. 1-6: critical-path extraction, Personalized PageRank, weighted spectrum analysis, targeted metrics, and clock synchronization; HybridRCA PDF pp. 7-10: LTTng 2.13.9-1 environment, HotROD/TrainTicket/OnlineBoutique/TiDB workloads, injected faults, accuracy, trace-volume, and storage results; HybridRCA PDF p. 10: limitations and future-work boundary; local HybridRCA PDF hash verified in pdf-evidence/notes/hybridrca-critical-path-aware-tracing.md and pdf-evidence/extraction-manifest.json
+- Summary status: full-text-grounded catalog review; author approval pending
+- Metadata sources: Exact full paper PDF reviewed: HybridRCA, IEEE ICSME 2025, DOI 10.1109/ICSME64153.2025.00056.; Technical details verified from the paper's instrumentation, method, evaluation, and limitations sections, including LTTng, Perf, OpenTelemetry-compatible tracing, critical-path extraction, PageRank/Tarantula ranking, benchmark composition, and reported tables.
 - Machine-readable record: [paper.json](./paper.json)

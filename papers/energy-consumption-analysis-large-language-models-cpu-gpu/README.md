@@ -83,5 +83,5 @@ T. Zhang, L. Tahmooresnejad, and N. Ezzati-Jivan, "Energy Consumption Analysis o
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344465/; DOI: https://doi.org/10.1109/CASCON66301.2025.00056; Public abstract metadata mirror: https://eurekamag.com/research/104/995/104995729.php; Private evidence report: reports/agent-batch-01.md
+- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344465/; DOI: https://doi.org/10.1109/CASCON66301.2025.00056; Public abstract metadata mirror: https://eurekamag.com/research/104/995/104995729.php; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

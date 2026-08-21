@@ -83,5 +83,5 @@ M. Noferesti, B. Grandy, and N. Ezzati-Jivan, "Resource Life-Cycle Aware Noise D
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838205; CASCON program: https://iccsse.github.io/CASCON2024/program/; J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217419132863; Private batch report: reports/parallel-batch-02.md
+- Metadata sources: DOI: https://doi.org/10.1109/CASCON62161.2024.10838205; CASCON program: https://iccsse.github.io/CASCON2024/program/; J-GLOBAL record: https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202502217419132863; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

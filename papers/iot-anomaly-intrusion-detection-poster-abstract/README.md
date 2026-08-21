@@ -88,5 +88,5 @@ Y. Guan and N. Ezzati-Jivan, "Deep Learning Driven Anomaly Based Intrusion Detec
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Private one-page poster read: pdf-evidence/notes/parallel-batch-02-deep-learning-driven-anomaly-based-intrusion-detection-system-for-iot-poster-abstract-e3d870b1d7.md; DOI/DBLP published item: https://doi.org/10.1145/3565386.3565493; Public poster source: https://naser.github.io/assets/IoT_MW2022Poster.pdf; Local poster hash verified: B1B4A85A9EB721BC9930119CF6CBF6797CA28B6F7525E21DD5633DF8138F1682
+- Metadata sources: One-page poster was reviewed; working copy is not distributed; DOI/DBLP published item: https://doi.org/10.1145/3565386.3565493; Public poster source: https://naser.github.io/assets/IoT_MW2022Poster.pdf; Local poster hash verified: B1B4A85A9EB721BC9930119CF6CBF6797CA28B6F7525E21DD5633DF8138F1682
 - Machine-readable record: [paper.json](./paper.json)

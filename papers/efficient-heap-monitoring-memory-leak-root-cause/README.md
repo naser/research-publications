@@ -83,5 +83,5 @@ V. Azhari, S. Bhamra, N. Ezzati-Jivan, and F. Tetreault, "Efficient Heap Monitor
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/BigData52589.2021.9671473; DBLP record: https://dblp.org/rec/conf/bigdataconf/AzhariBET21; Private batch report: reports/parallel-batch-03.md
+- Metadata sources: DOI: https://doi.org/10.1109/BigData52589.2021.9671473; DBLP record: https://dblp.org/rec/conf/bigdataconf/AzhariBET21; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

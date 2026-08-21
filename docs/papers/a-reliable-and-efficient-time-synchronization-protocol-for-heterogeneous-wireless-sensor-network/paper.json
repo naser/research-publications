@@ -91,7 +91,7 @@
         "note": "L-SYNCng PDF: conclusion and dynamic-network future-work statement"
       },
       {
-        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
       }
     ]
   },
@@ -167,7 +167,7 @@
       "L-SYNCng PDF: protocol design, clustering, convex-hull offset/skew estimation, and comparison protocols",
       "L-SYNCng PDF: NS-2.31, 100-node/1000 x 1000 m/100 m setup, ten runs, noise conditions, and plotted comparisons",
       "L-SYNCng PDF: conclusion and dynamic-network future-work statement",
-      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",
