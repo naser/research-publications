@@ -80,5 +80,5 @@ B. Syed, D. A. Charlebois, N. Ezzati-Jivan, L. Tahmooresnejad, and A. Ayanso, "M
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: Official AIS paper and abstract page: https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/; DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25; Private evidence note: papers/multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27/pdf-evidence/notes/parallel-batch-01-multi-dimensional-bias-llm.md
+- Metadata sources: Official AIS paper and abstract page: https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/; DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

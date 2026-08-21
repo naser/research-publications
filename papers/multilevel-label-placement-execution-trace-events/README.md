@@ -83,5 +83,5 @@ N. Ezzati-Jivan, A. Shameli-Sendi, and M. R. Dagenais, "Multilevel Label Placeme
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: PolyPublie record: https://publications.polymtl.ca/13939/; DOI: https://doi.org/10.1109/CCECE.2013.6567826; DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html; Private batch report: reports/parallel-batch-03.md
+- Metadata sources: PolyPublie record: https://publications.polymtl.ca/13939/; DOI: https://doi.org/10.1109/CCECE.2013.6567826; DBLP record: https://dblp.org/rec/conf/ccece/JivanSD13.html; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

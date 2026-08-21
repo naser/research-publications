@@ -85,5 +85,5 @@ B. Park, M. Janecek, N. Ezzati-Jivan, Y. Li, and A. Emami, "Picturing Ambiguity:
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: ACL Anthology and DOI metadata; official arXiv abstract and PDF page 2405.16277; local PDF hash verified in the working catalog
+- Metadata sources: ACL Anthology and DOI metadata; official arXiv abstract and PDF page 2405.16277; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

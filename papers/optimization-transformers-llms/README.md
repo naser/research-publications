@@ -88,7 +88,7 @@ T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Optimization Strategies f
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2502.00046; local PDF hash verified in the working catalog; author-order discrepancy explicitly retained
+- Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2502.00046; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed; author-order discrepancy explicitly retained
 - Machine-readable record: [paper.json](./paper.json)
 
 > Metadata note: The published-record metadata is used for citation order; the arXiv page presents a different author ordering, so the versions should remain distinguishable.

@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Manual model and constraint construction for concurrent real-time applications requires substantial system knowledge and effort, even though low-overhead tracing provides the evidence needed for verification.
+Manually writing execution models and timing constraints for multicore and real-time traces is difficult and error-prone. The paper targets automatic, approximate model and constraint generation while retaining a human review step for correcting irrelevant or over-generalized constraints.
 
 ### 2. Method and contribution
 
-The method organizes trace events per thread, groups similar sequences with longest-common-subsequence matching using strict or flexible key-value matching, removes unneeded repetitions, builds a state model, and infers adaptive constraint operators and values from runtime timing distributions. The model is presented for user checking and correction; LTTng is explicitly used in the cyclictest case.
+The method organizes user-space and kernel events per thread, extracts common workflows with strict or flexible longest-common-subsequence matching, removes repeated material using suffix-tree/longest-repeated-substring processing, and builds a loop-oriented state machine. Workflows are merged and timing values are used to infer constraint thresholds and comparison operators. The case studies use LTTng traces from JACK2, cyclictest, and an in-kernel wakelock priority-inversion scenario.
 
 ### 3. Findings and evidence
 
-The generated model detects the JACK2 xrun, the cyclictest outlier, and the in-kernel wakelock priority inversion. For cyclictest, a manually set 3-ms deadline is inferred as about 2.685 ms. In the reported evaluation, model construction is dominant - about 7 minutes for full cyclictest - while traces range from 321 UST and 419,164 kernel events for JACK2 to 41,677 UST and 208,489 kernel events for cyclictest and 42 UST and 194,997 kernel events for wakelock.
+For JACK2 periodic ALSA execution, the automatically inferred deadline is about 22.062 ms versus a manually specified value below 23 ms; the generated model detects three of seven invalid constraints associated with xruns, or four of seven after removing non-deadline constraints. For cyclictest, the automatic deadline is about 2.685 ms versus a 3 ms manual constraint and detects an outlier. For the wakelock scenario, the inferred deadline is about 170.951 ms versus a manually chosen 200 ms and the model exposes the priority inversion. The evaluation reports a model-build time of roughly seven minutes for one cyclictest case and shows that restricting the trace can reduce construction cost.
 
 ### 4. Limitations and future directions
 
-**Limitations:** Generated models can contain extra constraints and still need user correction. The evaluation emphasizes common real-time cases with relatively simple loops and does not establish performance across more complex modeling requirements.
+**Limitations:** Generated models can contain irrelevant constraints and still require user review and correction. Matching and trace-processing cost grows with states, instances, threads, and workflows; high-event traces can make model construction expensive. Timing assumptions and the selected event set influence both inferred thresholds and detected violations, so the reported examples do not establish universal constraint accuracy.
 
-**Future work:** Build and detect models on the fly, compatible with LTTng flight-recorder mode.
+**Future work:** The authors propose on-the-fly model construction and detection compatible with the LTTng flight-recorder mode, which would move model generation and checking closer to online trace analysis.
 
 ## Abstract
 
@@ -48,11 +48,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when generating model-based real-time constraints or using user-space and kernel traces for multicore diagnosis.
+Cite this paper when automatically inferring execution models and timing constraints from multicore or real-time traces.
 
-- Automatic workflow extraction from per-thread traces using sequence matching.
-- Adaptive timing constraints inferred from runtime trace values.
-- LTTng-backed JACK2, cyclictest, and kernel-wakelock case studies.
+- For LCS-based workflow extraction, repeated-subsequence removal, and loop state-machine construction.
+- For inferring timing thresholds and operators from observed trace values while retaining human review.
+- For the JACK2, cyclictest, and wakelock priority-inversion case studies.
+- For the build-cost and constraint-overproduction limitations of automatic model generation.
 
 ## Citation
 
@@ -85,6 +86,6 @@ R. Beamonte, N. Ezzati-Jivan, and M. R. Dagenais, "Automated Generation of Model
 ## Record provenance
 
 - Metadata verified: 2026-08-09
-- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1007/s10766-020-00689-5; author identity matched to Naser Ezzati-Jivan in the local research catalog; Model-constraints PDF pp. 1-2, 5-17: user-space/kernel scope, LTTng cyclictest case, per-thread/LCS workflow generation, adaptive constraints, and case-study detections; Model-constraints PDF pp. 21-30: hardware, trace sizes, runtime/scalability, and full-cyclictest approximately 7-minute result; Model-constraints PDF p. 30: limitation and future-work boundary; local model-constraints PDF hash verified in pdf-evidence/extraction-manifest.json
+- Summary status: full-text-grounded catalog review; author approval pending
+- Metadata sources: Exact full paper PDF reviewed: Model-Based Constraints, International Journal of Parallel Programming 2021, DOI 10.1007/s10766-020-00689-5.; The LTTng-based workflow extraction, state-machine construction, three case studies, inferred timing values, model-build cost, and limitations were checked against the paper.
 - Machine-readable record: [paper.json](./paper.json)

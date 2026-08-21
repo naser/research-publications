@@ -50,7 +50,7 @@
     "doi": "10.1145/3803437.3805578"
   },
   "abstract": "The paper argues that microservice performance debugging should preserve and empirically challenge multiple evidence-grounded explanations under uncertainty instead of optimizing for one opaque root-cause answer.",
-  "abstract_source": "Public author manuscript and private downloaded copy reviewed; abstract paraphrased.",
+  "abstract_source": "Public author manuscript and an additional downloaded copy reviewed; abstract paraphrased.",
   "abstract_available": true,
   "scholar_eligibility": {
     "eligible": false,
@@ -76,7 +76,7 @@
         "note": "Public author manuscript: optimization-versus-reasoning boundary and future-work discussion"
       },
       {
-        "note": "Publication DOI and DBLP identity verified; private five-page ResearchGate author manuscript read and SHA-256 verified as 9fad98132e1dd1c06f885bf6b033c80691bd067a3f7c31f7f27841d9b9d4c308; private evidence note: pdf-evidence/notes/rethinking-performance-debugging-agentdebug.md"
+        "note": "Publication DOI and DBLP identity verified; Author manuscript was reviewed; Additional review evidence was used; working files are not distributed"
       }
     ]
   },
@@ -160,7 +160,7 @@
       "Public author manuscript: AgentDebug roles, Reasoning Surface, Gemini 2.5 Flash, CART critique, and Pareto-style curation",
       "Public author manuscript: 200 datasets, Train-Ticket/E-Shopper, 2.1 million RPC traces, fault regimes, F1 results, convergence ratio, and API cost",
       "Public author manuscript: optimization-versus-reasoning boundary and future-work discussion",
-      "Publication DOI and DBLP identity verified; private five-page ResearchGate author manuscript read and SHA-256 verified as 9fad98132e1dd1c06f885bf6b033c80691bd067a3f7c31f7f27841d9b9d4c308; private evidence note: pdf-evidence/notes/rethinking-performance-debugging-agentdebug.md"
+      "Publication DOI and DBLP identity verified; Author manuscript was reviewed; Additional review evidence was used; working files are not distributed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

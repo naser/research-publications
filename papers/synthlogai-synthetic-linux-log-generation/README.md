@@ -83,5 +83,5 @@ H. Rahman, N. Ezzati-Jivan, and B. Ogbuokiri, "SynthLogAI: Generative AI for Syn
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344303/; CASCON schedule: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation; Private evidence note: papers/synthlogai-generative-ai-for-synthetic-linux-log-generation-and-evaluation-a00bad2d6b/pdf-evidence/notes/parallel-batch-01-synthlogai.md
+- Metadata sources: IEEE record: https://ieeexplore.ieee.org/document/11344303/; CASCON schedule: https://conf.researchr.org/details/cascon-2025/technical-papers-track/34/SynthLogAI-Generative-AI-for-Synthetic-Linux-Log-Generation-and-Evaluation; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

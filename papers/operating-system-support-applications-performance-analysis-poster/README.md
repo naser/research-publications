@@ -83,5 +83,5 @@ R. VanDonge and N. Ezzati-Jivan, "Poster Paper: Operating System Support for App
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DOI: https://doi.org/10.1109/IC2E55432.2022.00039; DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22; Private batch report: reports/parallel-batch-02.md
+- Metadata sources: DOI: https://doi.org/10.1109/IC2E55432.2022.00039; DBLP record: https://dblp.org/rec/conf/ic2e/VanDongeE22; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

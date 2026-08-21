@@ -84,5 +84,5 @@ A. Ezaz, G. Khodabandeh, M. Babaei, and N. Ezzati-Jivan, "TAAF: A Trace Abstract
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: official arXiv abstract, metadata, and PDF page 2601.02632; arXiv page comment containing the ICSE 2026 acceptance and ACM DOI; local PDF hash verified in the working catalog
+- Metadata sources: official arXiv abstract, metadata, and PDF page 2601.02632; arXiv page comment containing the ICSE 2026 acceptance and ACM DOI; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

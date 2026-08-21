@@ -88,5 +88,5 @@ T. Wallace, B. M. Ombuki-Berman, and N. Ezzati-Jivan, "Identification and Classi
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: ICPE Companion PDF: Matrix Profile, motifs/discords, PELT change points, Stumpy, Ruptures, and 30-iteration warmup protocol; ICPE Companion PDF: JMH/Traini benchmark corpus, state-identification workflow, anomaly rule, and reported qualitative conclusions; Author code/data repository linked by the paper; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: ICPE Companion PDF: Matrix Profile, motifs/discords, PELT change points, Stumpy, Ruptures, and 30-iteration warmup protocol; ICPE Companion PDF: JMH/Traini benchmark corpus, state-identification workflow, anomaly rule, and reported qualitative conclusions; Author code/data repository linked by the paper; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

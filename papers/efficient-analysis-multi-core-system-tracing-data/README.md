@@ -82,5 +82,5 @@ N. Ezzati-Jivan and M. R. Dagenais, "An Efficient Analysis Approach for Multi-Co
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: ActaPress publisher abstract: https://m.actapress.com/Abstract.aspx?paperId=454815; PolyPublie institutional record: https://publications.polymtl.ca/15433/; Private evidence note: pdf-evidence/notes/parallel-batch-04-an-efficient-analysis-approach-for-multi-core-system-tracing-data.md
+- Metadata sources: ActaPress publisher abstract: https://m.actapress.com/Abstract.aspx?paperId=454815; PolyPublie institutional record: https://publications.polymtl.ca/15433/; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

@@ -83,5 +83,5 @@ N. Ezzati-Jivan and M. R. Dagenais, "Multiscale Navigation in Large Trace Data,"
 
 - Metadata verified: 2026-08-09
 - Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: PolyPublie record: https://publications.polymtl.ca/12410/; DOI: https://doi.org/10.1109/CCECE.2014.6901019; DBLP record: https://dblp.org/rec/conf/ccece/JivanD14.html; Private batch report: reports/parallel-batch-03.md
+- Metadata sources: PolyPublie record: https://publications.polymtl.ca/12410/; DOI: https://doi.org/10.1109/CCECE.2014.6901019; DBLP record: https://dblp.org/rec/conf/ccece/JivanD14.html; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

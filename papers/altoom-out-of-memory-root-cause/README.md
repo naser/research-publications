@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Linux's reactive OOM killer can terminate a high-memory process even when a lower-memory process is the one whose memory usage is growing; resource-constrained systems need earlier warning and lower-overhead process attribution.
+The Linux OOM killer is reactive and primarily score-based: it can terminate a high-memory process without identifying the process whose memory is growing abnormally. Continuous fine-grained process monitoring is itself costly, so the paper targets early system-level warning followed by focused root-cause identification.
 
 ### 2. Method and contribution
 
-AltOOM samples 34 system-level signals at 0.5-second intervals - 28 virtual-memory statistics, three memory-related system calls (brk, sbrk, and mmap), and three kernel events (kmalloc, mm_page_alloc, and vmscan) - using perf and sar. It labels pressure at %memused >= 85%, compares SVM, vanilla DNN, and bidirectional-LSTM predictors, filters 34 features to 15, then uses burst-collected process-level allocation signals and moving-average growth ranking after an alert.
+ALTOOM uses two phases. An offline-trained classifier predicts impending memory pressure from 34 system metrics sampled every 0.5 seconds: 28 VM statistics, three memory-related system calls (brk, sbrk, mmap), and three kernel events (kmalloc, mm_page_alloc, vmscan). When an alert fires, the runtime samples the top m memory-consuming processes in bursts and ranks the likely cause using normalized moving averages of resource growth. The study compares Linear SVC, a vanilla dense neural network, and a bidirectional LSTM, then filters features with a dual-network feature-ranking procedure.
 
 ### 3. Findings and evidence
 
-In the reported evaluation, the feature-filtered DNN reaches 0.82 accuracy for (n,k)=(4,3) and 0.81 for (3,3); the abstract reports 85% memory-pressure forecasting accuracy. AltOOM process identification reaches 0.56-0.83 as the burst count increases from 3 to 7, versus 0.42 for the Linux OOM killer. A Firefox PDF-preview case reports 0.83 and 0.79 forecasting accuracy for (4,3) and (3,3), respectively.
+On the main generated-pressure data, the full 34-feature bidirectional LSTM reports accuracy 0.8713, F1 0.8752, precision 0.9171, sensitivity 0.8369, and specificity 0.9115; the vanilla dense model reports accuracy 0.8638 and the SVC 0.81. Feature filtration reduces 34 inputs to 15 while remaining within about one percentage point of the full model in the reported experiment. In a Ciena pressure evaluation, root-cause accuracy rises from 0.42 for the OOM killer to 0.56, 0.73, 0.78, 0.82, and 0.83 with three through seven burst snapshots. A Firefox Bug 1609631 reproduction reports early-warning accuracy 0.83 for the n=4,k=3 setting.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The method can miss gradual memory buildup when only three timestamps (1.5 seconds) are observed. Fixed-rate monitoring creates overhead, and the evaluation centers on generated pressure scenarios plus a Firefox case rather than broad production-device coverage.
+**Limitations:** Pressure data are generated with sysbench and stress, and the browser case is a single Firefox reproduction; a live production deployment was not evaluated. A fixed observation/prediction window can miss gradual memory growth, and the root-cause stage only ranks the top m memory-consuming processes. The LSTM has a larger deployment footprint than the dense model, and the paper does not implement the operational action taken after a diagnosis.
 
-**Future work:** Evaluate adaptive sampling of rates, metrics, and metric groups, and implement actions such as controlling or adjusting the responsible process, terminating it, or restarting the system.
+**Future work:** The authors propose action policies such as limiting memory, terminating the responsible process, or restarting the system, together with adaptive sampling of frequency, metrics, and process groups. Longer observation windows and production validation are natural requirements before treating the reported ranking accuracy as an operational guarantee.
 
 ## Abstract
 
@@ -48,11 +48,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when studying proactive memory-pressure forecasting or process-level out-of-memory root-cause identification.
+Cite this paper when your work predicts Linux memory pressure and then ranks the process responsible for an impending OOM event.
 
-- Perf/sar-based collection of VM statistics, memory-related system calls, and kernel events for memory-pressure prediction.
-- Burst-based process profiling and moving-average ranking for identifying the responsible process.
-- Comparison with the Linux OOM killer and reported forecasting and process-identification accuracy in simulated and Firefox cases.
+- For combining system-level early warning with burst-based process root-cause ranking.
+- For using VM statistics, memory system calls, and kernel allocation/paging events as predictive features.
+- For the 34-to-15 feature-filtration experiment and the SVC/DNN/BiLSTM comparison.
+- For the burst-count trade-off in the Ciena pressure and Firefox reproduction cases.
 
 ## Citation
 
@@ -82,6 +83,6 @@ P. Chakraborty, N. Ezzati-Jivan, V. Azhari, and F. Tetreault, "AltOOM: A Data-dr
 ## Record provenance
 
 - Metadata verified: 2026-08-09
-- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: DBLP/DOI bibliographic record for 10.1109/bigdata59044.2023.10386937; author identity matched to Naser Ezzati-Jivan in the local research catalog; AltOOM PDF pp. 1, 4-10: perf/sar collection, 34 metrics, 85% threshold, prediction models, burst ranking, evaluation tables, limitations, and future work; local AltOOM PDF hash verified in pdf-evidence/extraction-manifest.json
+- Summary status: full-text-grounded catalog review; author approval pending
+- Metadata sources: Exact full paper PDF reviewed: ALTOOM, IEEE BigData 2023, DOI 10.1109/BigData59044.2023.10386937.; Metrics, sampling interval, model results, feature filtration, pressure-generation protocol, Firefox reproduction, root-cause burst results, and limitations were checked against the paper's tables and evaluation text.
 - Machine-readable record: [paper.json](./paper.json)

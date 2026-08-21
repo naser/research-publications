@@ -85,5 +85,5 @@ A. K. Tabrizi, N. Ezzati-Jivan, and F. Tetreault, "An Adaptive Logging System (A
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: ICPE ALS PDF: Python AST, GitHub/PyGithub/git, 12 static features, bug classes, Stable-Baselines, and DQN/A2C/PPO selection; ICPE ALS PDF: 17 Apache/Django projects, 93,484 functions, 4,235 files, eight-episode evaluation, and reward stability findings; ICPE ALS PDF: Python/dynamic-feature/agent-scope limitations and stated future work; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: ICPE ALS PDF: Python AST, GitHub/PyGithub/git, 12 static features, bug classes, Stable-Baselines, and DQN/A2C/PPO selection; ICPE ALS PDF: 17 Apache/Django projects, 93,484 functions, 4,235 files, eight-episode evaluation, and reward stability findings; ICPE ALS PDF: Python/dynamic-feature/agent-scope limitations and stated future work; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

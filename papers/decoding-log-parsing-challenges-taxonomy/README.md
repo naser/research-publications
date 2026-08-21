@@ -84,5 +84,5 @@ I. Sedki, A. Hamou-Lhadj, O. Ait-Mohamed, N. Ezzati-Jivan, and M. A. Shehab, "De
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: ACM free-access eReader, pp. 392-393: complete paper, abstract, approach, taxonomy tables, results, limitations, and conclusion; ACM page verified 2026-08-09: free access, DOI 10.1145/3639478.3643523, pp. 392-393, published 23 May 2024; Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions; DOI: https://doi.org/10.1145/3639478.3643523; Private batch report: reports/parallel-batch-02.md
+- Metadata sources: ACM free-access eReader, pp. 392-393: complete paper, abstract, approach, taxonomy tables, results, limitations, and conclusion; ACM page verified 2026-08-09: free access, DOI 10.1145/3639478.3643523, pp. 392-393, published 23 May 2024; Official ICSE poster page: https://conf.researchr.org/details/icse-2024/icse-2024-posters/68/Decoding-Log-Parsing-Challenges-A-Comprehensive-Taxonomy-for-Actionable-Solutions; DOI: https://doi.org/10.1145/3639478.3643523; Additional review evidence was used; working files are not distributed
 - Machine-readable record: [paper.json](./paper.json)

@@ -50,7 +50,7 @@
     "doi": "10.1109/SYSCON48628.2021.9447121"
   },
   "abstract": "The related public chapter describes low-intrusion execution-path profiling that forwards hardware performance-counter overflows from the kernel to user space, where a CPython profiler records interpreted-code call stacks and LTTng-UST stores the samples.",
-  "abstract_source": "Exact Overleaf-generated author-manuscript candidate cross-checked with public thesis Chapter 6 and the official SysCon program; the thesis is the public full-text route and is not the SysCon Version of Record.",
+  "abstract_source": "Author-manuscript candidate cross-checked with public thesis Chapter 6 and the official SysCon program; the thesis is the public full-text route and is not the SysCon Version of Record.",
   "abstract_available": true,
   "scholar_eligibility": {
     "eligible": false,
@@ -88,19 +88,19 @@
         "note": "Public thesis pp. 109--110: Trace Compass integration, user-level interrupt direction, signal limitations, and conclusion"
       },
       {
-        "note": "Overleaf project: https://www.overleaf.com/project/5e01a488862790000145cf86"
+        "note": "Author-manuscript source was reviewed; project link is not distributed"
       },
       {
-        "note": "Original Overleaf PDF: 8 pages; exact title/authors/abstract matched, but an extraneous compile-log fragment was embedded in the body"
+        "note": "Author-manuscript PDF: 8 pages; exact title/authors/abstract matched, with a compile-log fragment identified in the inspected copy"
       },
       {
-        "note": "Separate cleanup Overleaf copy: source fragment replaced, IEEE author-manuscript notice added, recompiled successfully, and cleaned 8-page PDF inspected on first and final pages"
+        "note": "Cleaned author-manuscript copy: source fragment removed, author-manuscript notice added, recompiled successfully, and first/final pages inspected"
       },
       {
-        "note": "Rights gate: agreement-specific SysCon self-archiving terms still require confirmation before arXiv submission; do not use the IEEE Version of Record"
+        "note": "Rights boundary: agreement-specific SysCon self-archiving terms still require confirmation; do not use the IEEE Version of Record"
       },
       {
-        "note": "Private batch report: reports/parallel-batch-03.md"
+        "note": "Additional review evidence was used; working files are not distributed"
       }
     ]
   },
@@ -109,7 +109,7 @@
     "problem": "Kernel execution paths expose where distributed or heterogeneous tasks wait, but hardware-counter samples normally identify native instructions and lose the connection to interpreted-language statements; profiling inside the kernel also risks violating runtime isolation and NMI-time constraints.",
     "method": "The related public chapter uses Linux perf to receive PMU overflow notifications in the kernel NMI handler, forwards an event to user space with a signal, and implements PyPMU for CPython. User-space code records interpreter/call-stack state; LTTng-UST writes the samples to a ring buffer, while online and offline libunwind-based stack recovery are compared. The chapter also relates the profiler to kernel-trace execution paths and reports an evaluation on an Intel i7-4770 system with 16 GB RAM, Ubuntu 14.04, and Linux 3.13.",
     "findings": "The related chapter reports 0.1% RMS profile error on its calibrated function benchmark, 2.93 microseconds average event-forwarding cost over 10^6 samples, and 4.15 microseconds for counter management and signal setup. It reports online unwinding as preferable under the tested depth limit, LTTng-UST as at least 25 times faster than built-in Python traceback recording, and approximately 25% lower trace storage in that comparison. These measurements come from the public thesis chapter and are not claimed as independently rechecked against the IEEE SysCon PDF.",
-    "limitations": "The original Overleaf project contained an extraneous compile-log fragment; a separate cleanup copy removed it, recompiled successfully, and added the IEEE author-manuscript notice. The signed SysCon publication agreement and any venue-specific self-archiving wording were not independently inspected. The public full-text route remains a related 2015 thesis chapter rather than the standalone IEEE SysCon manuscript. The evaluation is centered on CPython, one Linux environment, synthetic/calibrated profiling workloads, and the reported monitoring comparisons; broader runtimes, hardware generations, and production distributed workloads remain unverified.",
+    "limitations": "The public full-text route is a related 2015 thesis chapter rather than the standalone IEEE SysCon manuscript, and the signed SysCon self-archiving terms were not independently inspected. The evaluation is centered on CPython, one Linux environment, synthetic/calibrated profiling workloads, and the reported monitoring comparisons; broader runtimes, hardware generations, and production distributed workloads remain unverified.",
     "future_work": "The chapter identifies integration with task-execution-path extraction and Trace Compass, support for additional runtimes, replacing signals with user-level interrupts, handling signal-blocking limitations, and reducing redundant call-stack trace data as future directions."
   },
   "tags": [
@@ -143,8 +143,8 @@
       "canonical_for_citation": true
     },
     {
-      "id": "related-public-thesis-chapter-plus-cleaned-local-overleaf-manuscript-candidate-with-ieee-rights-notice",
-      "label": "Related public thesis chapter plus cleaned local Overleaf manuscript candidate with IEEE rights notice",
+      "id": "related-public-thesis-chapter-and-author-manuscript-evidence",
+      "label": "Related public thesis chapter and author-manuscript evidence",
       "relation": "source-record",
       "title": "System Execution Path Profiling Using Hardware Performance Counters",
       "url": "https://core.ac.uk/download/pdf/213619806.pdf",
@@ -155,7 +155,7 @@
   ],
   "access": {
     "status": "published_with_related_public_full_text",
-    "note": "The SysCon DOI is the canonical citation target. A public 2015 Polytechnique thesis mirror contains Chapter 6, pp. 93--110, with the exact title and related PMU-to-user-space/CPython/LTTng-UST method. The exact Overleaf source was copied to a separate cleanup project, the compile-log fragment was removed, an IEEE personal-use/author-manuscript notice was added, and an 8-page PDF was recompiled and page-inspected; the final copy contains the DOI and notice without a publisher production footer. It remains an arXiv candidate pending confirmation of the signed SysCon self-archiving terms. The public thesis chapter is not the IEEE Version of Record or a standalone SysCon preprint, and no publisher PDF is redistributed.",
+    "note": "The SysCon DOI is the canonical citation target. A public 2015 Polytechnique thesis mirror contains Chapter 6, pp. 93--110, with the exact title and related PMU-to-user-space/CPython/LTTng-UST method. An author-manuscript source was inspected separately, but the public thesis chapter is not the IEEE Version of Record or a standalone SysCon preprint. Publisher self-archiving rights were not assumed, and no publisher PDF is redistributed.",
     "license": null
   },
   "resources": {
@@ -165,10 +165,12 @@
     "demo": null
   },
   "citation_guidance": {
-    "when_to_cite": "Cite this paper when its specific method, evidence, or benchmark is directly relevant.",
+    "when_to_cite": "Cite this paper when connecting hardware performance-counter samples and kernel execution paths to interpreted-language call stacks.",
     "points": [
-      "The paper's method is directly relevant.",
-      "The paper's evidence or benchmark is directly relevant."
+      "For forwarding PMU overflow events from a kernel NMI path to user space without instrumenting every interpreted statement.",
+      "For the PyPMU/CPython design that records interpreter state and uses LTTng-UST for sample storage.",
+      "For comparing online and offline libunwind stack recovery and the reported event-forwarding cost.",
+      "For the explicit boundary between the related public thesis chapter and the IEEE SysCon version of record."
     ],
     "canonical_version_id": "published-version"
   },
@@ -182,11 +184,11 @@
       "Public thesis pp. 93--96: problem, PMU/perf-NMI architecture, PyPMU contributions, and interpreter boundary",
       "Public thesis pp. 101--106: accuracy, event-forwarding cost, stack unwinding, LTTng-UST comparison, and profiling overhead",
       "Public thesis pp. 109--110: Trace Compass integration, user-level interrupt direction, signal limitations, and conclusion",
-      "Overleaf project: https://www.overleaf.com/project/5e01a488862790000145cf86",
-      "Original Overleaf PDF: 8 pages; exact title/authors/abstract matched, but an extraneous compile-log fragment was embedded in the body",
-      "Separate cleanup Overleaf copy: source fragment replaced, IEEE author-manuscript notice added, recompiled successfully, and cleaned 8-page PDF inspected on first and final pages",
-      "Rights gate: agreement-specific SysCon self-archiving terms still require confirmation before arXiv submission; do not use the IEEE Version of Record",
-      "Private batch report: reports/parallel-batch-03.md"
+      "Author-manuscript source was reviewed; project link is not distributed",
+      "Author-manuscript PDF: 8 pages; exact title/authors/abstract matched, with a compile-log fragment identified in the inspected copy",
+      "Cleaned author-manuscript copy: source fragment removed, author-manuscript notice added, recompiled successfully, and first/final pages inspected",
+      "Rights boundary: agreement-specific SysCon self-archiving terms still require confirmation; do not use the IEEE Version of Record",
+      "Additional review evidence was used; working files are not distributed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

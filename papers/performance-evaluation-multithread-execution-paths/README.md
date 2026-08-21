@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Concurrency creates many execution paths whose interactions can obscure the causes of performance variation.
+Rare latency problems in complex multithreaded applications are difficult to reproduce and often depend on interactions among application tasks, threads, scheduling, locks, interrupts, and memory or I/O. Chromium's built-in tracer provides user-level visibility but has millisecond timing, finite-buffer limitations, and little kernel scheduling context.
 
 ### 2. Method and contribution
 
-The paper analyzes application execution paths to characterize performance in complex multi-threaded software.
+The paper presents a Chromium-focused multilevel tracing and analysis pipeline. Chromium user events are redirected into LTTng's Common Trace Format, while LTTng collects synchronized kernel events with nanosecond timestamps; the implementation adds an LTTng exporter and converts begin/end events into analyzable durations. Trace Compass supplies the state-system and kernel critical-path infrastructure. The Chromium Execution Graph Construction algorithm extends the graph with user-level task events such as TakeTask, RunTask, OnTaskStarted/Completed, navigation, mouse, and keyboard events, and combines them with scheduler, timer, interrupt, softirq, and network events. An XML analysis fills user-level detail into the kernel critical path for root-cause inspection.
 
 ### 3. Findings and evidence
 
-The study contributes an execution-path perspective for performance evaluation; algorithms, workloads, and quantitative findings require full-text review.
+Three Chromium jank cases are reproduced. A GPU-related case exposes 100–400 ms membarrier calls on the main thread and traces the cause to the slow RCU/liburcu path fixed in later versions. A second view shows long UI-thread futex waits caused by lock contention with Chrome_IO. A close-tab case reports a 911 ms stall, approximately 2,700 queued tasks, and numerous page faults; the combined view links the latency to renderer-process swapping and slow disk reads, which user-level Chromium traces alone could not explain. The evaluation uses an Intel Core i7-7820X/32 GB/Ubuntu 16.04.6/Kernel 4.15 system, LTTng 2.11, and Chromium 73.0.3672.0. Opening-tab averages for 50–200 executions rise from 46–110 ms without tracing to 62–147 ms for the heaviest multilevel configuration, with full-range error bars reported in the source.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The current catalog captures bibliographic evidence but not the full text; quantitative results, implementation details, and paper-specific validity threats require source review.
+**Limitations:** This is a methodology and case-study evaluation rather than a broad benchmark of Chromium versions or applications. The data collection and critical-path pipeline require application-specific Chromium adaptation and selected event sets; other applications may have different security, task, and synchronization mechanisms. The paper focuses on latency/jank and does not address non-performance functional failures. The inspected evidence is a complete author manuscript source rather than a publisher PDF, so exact version-specific implementation details should be cited with that boundary.
 
-**Future work:** Scale path analysis, handle path explosion, and connect path-level evidence to actionable optimization decisions.
+**Future work:** The authors propose machine-learning methods to group similar janks and compare their call stacks with normal executions. They also identify memory-leak detection as an unaddressed application of the framework.
 
 ## Abstract
 
@@ -48,10 +48,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when its specific method, evidence, or benchmark is directly relevant.
+Cite this paper when combining Chromium user-level events with LTTng kernel evidence to explain multithreaded browser latency and jank.
 
-- The paper's method is directly relevant.
-- The paper's evidence or benchmark is directly relevant.
+- For redirecting Chromium trace events into synchronized LTTng/CTF data and using Trace Compass for analysis.
+- For extending a kernel execution graph and critical path with Chromium task, navigation, input, and user-action states.
+- For the membarrier, UI/Chrome_IO futex contention, and close-tab page-fault case studies.
+- For the application-specific instrumentation and controlled Chromium/LTTng overhead boundary.
 
 ## Citation
 
@@ -84,6 +86,6 @@ M. Rezazadeh, N. Ezzati-Jivan, S. V. Azhari, and M. R. Dagenais, "Performance Ev
 ## Record provenance
 
 - Metadata verified: 2026-08-09
-- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1016/j.peva.2022.102289; author identity matched to Naser Ezzati-Jivan in the local research catalog; full-text summary pending source review
+- Summary status: full-text-grounded catalog review; author approval pending
+- Metadata sources: Complete author author-manuscript manuscript source reviewed for the published record: Performance Evaluation of Complex Multi-Thread Applications Through Execution Path Analysis, Performance Evaluation 2022, DOI 10.1016/j.peva.2022.102289.; The abstract, LTTng/LTTng-UST collection method, Chromium Execution Graph Construction algorithm, three jank cases, experimental environment, overhead figure values, limitations, and conclusion were checked against the source.
 - Machine-readable record: [paper.json](./paper.json)

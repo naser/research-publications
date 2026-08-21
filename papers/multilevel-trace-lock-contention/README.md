@@ -10,21 +10,21 @@
 
 ### 1. Problem and motivation
 
-Kernel-only analysis misses locks implemented in user space, while source-dependent tools are difficult to apply to large multi-threaded applications and cannot provide a unified view of cross-level dependencies.
+Source-level inspection and hardware counters do not reliably reveal which threads or locks cause waiting, while kernel-only tracing misses userspace mutexes, spinlocks, and semaphores. The paper targets a unified view of lock contention across userspace and kernel scheduling.
 
 ### 2. Method and contribution
 
-LTTng 2.10 and Trace Compass 4 collect kernel futex events and user-space Pthreads wrapper events injected with LD_PRELOAD. The method maps events to state intervals in a tree-based state system, constructs a sparse execution graph with horizontal running edges and vertical blocking edges, and recursively replaces waiting edges with waking-thread edges to extract a multi-level active path. Wait-block, flame-graph, critical-flow, and state views expose the result.
+The implementation uses LTTng 2.10 and Trace Compass 4. Kernel futex events are combined with userspace Pthreads wrappers injected through LD_PRELOAD, so supported applications need not be recompiled. The wrappers emit request, acquire, release, wait, and post events for mutexes, spinlocks, and semaphores. Events are mapped into a disk-backed State System/attribute tree and used to build a multilevel execution graph with horizontal thread-state edges and vertical wake/dependency edges. Wait-block timelines, flame graphs, and critical-flow views expose the blocking chain.
 
 ### 3. Findings and evidence
 
-A C++ Pthreads evaluation covers spinlock and semaphore contention. User-space lock-event tracing adds less than 0.7% execution-time overhead; enabling all kernel events can impose up to 25%, while the minimal event set for lock analysis is reported at about 7%. In Apache, the method isolates user-space file-lock waits and connects anomalous latency to OPcache shared-cache contention during concurrent script compilation.
+The userspace wrapper overhead is reported below 0.7% for the tested C++ Pthreads spinlock and semaphore examples. Full kernel tracing can reach about 25% overhead, while the minimal event set for lock analysis is reported at about 7%, including scheduling, futex, interrupt, and timer events. An Apache/OPcache file-lock case identifies cache-write contention as a latency source, and small C++ examples demonstrate cross-thread mutex, semaphore, and spinlock dependencies.
 
 ### 4. Limitations and future directions
 
-**Limitations:** The evidence covers C++ and Apache/PHP cases and shows that kernel overhead is highly event-set dependent; it does not establish broad language, workload, or distributed-deployment generalization. The reviewed conclusion does not specify a concrete author-stated future-work agenda.
+**Limitations:** The evaluation is based on supported Pthreads examples, Apache/PHP behavior, and controlled lock cases; overhead and analysis cost will depend on enabled events, trace volume, and application behavior. LD_PRELOAD wrapping covers supported Pthreads interfaces but is not a universal userspace synchronization solution. The paper does not report a broad detection-accuracy benchmark.
 
-**Future work:** No detailed future-work direction is stated in the reviewed conclusion; further extensions should be treated as proposed follow-up rather than as author claims.
+**Future work:** No distinct author-specified future-work agenda was verified in the inspected paper. Cite the demonstrated lock-contention workflow and reported overhead, not an invented roadmap.
 
 ## Abstract
 
@@ -48,11 +48,12 @@ Abstract not available in the captured sources.
 
 ## When to cite this paper
 
-Cite this paper when diagnosing lock contention across kernel and user-space synchronization mechanisms without recompiling the application.
+Cite this paper when analyzing userspace and kernel lock contention together in a Trace Compass state-system workflow.
 
-- LTTng 2.10, Trace Compass 4, futex events, and LD_PRELOAD Pthreads wrappers.
-- Multi-level execution graphs and active paths for mutex, spinlock, and semaphore dependencies.
-- C++ and Apache/OPcache cases with minimal-tracing overhead and full-kernel-event overhead bounds.
+- For LD_PRELOAD-based Pthreads wrappers that avoid application recompilation.
+- For combining futex, scheduling, and userspace mutex/spinlock/semaphore events.
+- For the multilevel execution graph, wait-block timeline, flame graph, and critical-flow views.
+- For the reported below-0.7% userspace-wrapper overhead and approximately 7% minimal kernel-event overhead.
 
 ## Citation
 
@@ -82,6 +83,6 @@ M. Rezazadeh, N. Ezzati-Jivan, E. Galea, and M. R. Dagenais, "Multi-Level Execut
 ## Record provenance
 
 - Metadata verified: 2026-08-09
-- Summary status: metadata/abstract-grounded catalog review; full-text review and author approval pending
-- Metadata sources: Crossref and local DBLP/venue metadata for 10.1109/issrew51248.2020.00068; author identity matched to Naser Ezzati-Jivan in the local research catalog; Lock-contention PDF pp. 1-4: LTTng 2.10, Trace Compass 4, LD_PRELOAD Pthreads wrappers, event sets, state system, graph, and active-path algorithm; Lock-contention PDF pp. 4-6: visualization views, C++/Pthreads overhead, Apache/OPcache case, and analysis boundary; local lock-contention PDF hash verified in pdf-evidence/notes/multilevel-trace-lock-contention.md and pdf-evidence/extraction-manifest.json
+- Summary status: full-text-grounded catalog review; author approval pending
+- Metadata sources: Exact full paper PDF reviewed: Multilevel Trace Analysis of Lock Contention, IEEE ISSREW 2020, DOI 10.1109/ISSREW51248.2020.00068.; LTTng/Trace Compass versions, LD_PRELOAD instrumentation, State System representation, views, overhead levels, and Apache/C++ cases were checked against the paper.
 - Machine-readable record: [paper.json](./paper.json)

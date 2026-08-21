@@ -74,7 +74,7 @@
         "note": "DBLP/Scholar record matched by title and authors"
       },
       {
-        "note": "local PDF hash verified in the working catalog"
+        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
       }
     ]
   },
@@ -139,7 +139,7 @@
     "metadata_source": [
       "official arXiv abstract and PDF page 2511.03809",
       "DBLP/Scholar record matched by title and authors",
-      "local PDF hash verified in the working catalog"
+      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

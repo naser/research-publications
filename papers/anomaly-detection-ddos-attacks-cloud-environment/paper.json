@@ -88,7 +88,7 @@
         "note": "DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21"
       },
       {
-        "note": "Official Springer preview read privately; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; private evidence report: reports/agent-batch-04.md"
+        "note": "Official Springer preview read during review; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; Additional review evidence was used; working files are not distributed"
       }
     ]
   },
@@ -161,7 +161,7 @@
     "metadata_source": [
       "DOI: https://doi.org/10.1007/s41635-021-00119-z",
       "DBLP record: https://dblp.org/rec/journals/jhss/AbbasiJBTD21",
-      "Official Springer preview read privately; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; private evidence report: reports/agent-batch-04.md"
+      "Official Springer preview read during review; SHA-256 912bc86c865ca297eaae75b03c8b6781369d504cb6eeb078bef2f138fce6db60; Additional review evidence was used; working files are not distributed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",

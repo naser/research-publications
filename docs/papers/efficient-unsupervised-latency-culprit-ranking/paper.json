@@ -73,7 +73,7 @@
     "verified_on": "2026-08-09",
     "sources": [
       {
-        "note": "Private full PDF read: pdf-evidence/notes/efficient-unsupervised-latency-culprit-ranking.md"
+        "note": "Full text was reviewed; working copy is not distributed"
       },
       {
         "note": "Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split"
@@ -82,7 +82,7 @@
         "note": "Efficient culprit-ranking PDF pp. 4-5: benchmark accuracy, Top-k results, training/test speed comparison, limitations, and artifact link"
       },
       {
-        "note": "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+        "note": "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
       }
     ]
   },
@@ -158,10 +158,10 @@
   "provenance": {
     "metadata_verified_on": "2026-08-09",
     "metadata_source": [
-      "Private full PDF read: pdf-evidence/notes/efficient-unsupervised-latency-culprit-ranking.md",
+      "Full text was reviewed; working copy is not distributed",
       "Efficient culprit-ranking PDF pp. 2-4: distributed-trace input boundary, GraphSAGE model, MSE threshold, critical-path profiles, FIRM dataset, and split",
       "Efficient culprit-ranking PDF pp. 4-5: benchmark accuracy, Top-k results, training/test speed comparison, limitations, and artifact link",
-      "Local PDF hash verified in pdf-evidence/extraction-manifest.json"
+      "Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "full-text-grounded catalog review; author approval pending",

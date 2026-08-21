@@ -88,5 +88,5 @@ M. Janecek, S. Patel, and N. Ezzati-Jivan, "Uncovering Steady State Executions i
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: ICPE Companion PDF: perf call-stack sampling, Graph2Vec, flame graphs, PELT, 50-of-1,000 labelling protocol, and five classifiers; ICPE Companion PDF: Java binary-search workload, 10,000 executions/10 forks, Ubuntu/kernel/Perf/Log4j environment, and accuracy/precision/recall table; Paper-linked code/results repository recorded as a public resource; Local PDF hash verified in pdf-evidence/extraction-manifest.json
+- Metadata sources: ICPE Companion PDF: perf call-stack sampling, Graph2Vec, flame graphs, PELT, 50-of-1,000 labelling protocol, and five classifiers; ICPE Companion PDF: Java binary-search workload, 10,000 executions/10 forks, Ubuntu/kernel/Perf/Log4j environment, and accuracy/precision/recall table; Paper-linked code/results repository recorded as a public resource; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

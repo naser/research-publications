@@ -85,5 +85,5 @@ Q. Fournier, N. Ezzati-Jivan, D. Aloise, and M. R. Dagenais, "Automatic Cause De
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2103.04954; local PDF hash verified in the working catalog
+- Metadata sources: DBLP and IEEE metadata for the published paper; official arXiv abstract and PDF page 2103.04954; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

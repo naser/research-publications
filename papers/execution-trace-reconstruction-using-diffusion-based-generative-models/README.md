@@ -89,5 +89,5 @@ M. Janecek, N. Ezzati-Jivan, and A. Hamou-Lhadj, "Execution Trace Reconstruction
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: ICSE published PDF: nine PTS workloads, PTS 6.2.2, LTTng 2.8, Debian kernel, Xeon/32 GB/SSD platform, and 32 runs per benchmark; ICSE published PDF: integer event encoding, DiffWave/SSSDS4/SSSDSA/CSDIS4 configurations, blackout protocol, accuracy, perfect rate, ROUGE-L, and LSTM baseline; ICSE published PDF: controlled-loss limitation, functional-plausibility example, and future work; Local thesis/manuscript and published-paper PDF are retained as distinct version evidence; local hashes are recorded in pdf-evidence/extraction-manifest.json
+- Metadata sources: ICSE published PDF: nine PTS workloads, PTS 6.2.2, LTTng 2.8, Debian kernel, Xeon/32 GB/SSD platform, and 32 runs per benchmark; ICSE published PDF: integer event encoding, DiffWave/SSSDS4/SSSDSA/CSDIS4 configurations, blackout protocol, accuracy, perfect rate, ROUGE-L, and LSTM baseline; ICSE published PDF: controlled-loss limitation, functional-plausibility example, and future work; Thesis/manuscript and published-paper versions were checked separately; working copies are not distributed
 - Machine-readable record: [paper.json](./paper.json)

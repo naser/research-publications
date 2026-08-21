@@ -85,5 +85,5 @@ G. Khodabandeh, A. Ezaz, M. Babaei, and N. Ezzati-Jivan, "Utilizing Graph Neural
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2501.15019; local PDF hash verified in the working catalog
+- Metadata sources: DBLP and ACM DOI metadata; official arXiv abstract and PDF page 2501.15019; Local full-text evidence was hash-verified during catalog review; verification manifests are not distributed
 - Machine-readable record: [paper.json](./paper.json)

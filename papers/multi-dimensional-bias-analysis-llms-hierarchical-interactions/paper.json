@@ -85,7 +85,7 @@
         "note": "DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25"
       },
       {
-        "note": "Private evidence note: papers/multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27/pdf-evidence/notes/parallel-batch-01-multi-dimensional-bias-llm.md"
+        "note": "Additional review evidence was used; working files are not distributed"
       }
     ]
   },
@@ -159,7 +159,7 @@
     "metadata_source": [
       "Official AIS paper and abstract page: https://aisel.aisnet.org/amcis2025/data_science/sig_dsa/15/",
       "DBLP identity record: https://dblp.org/rec/conf/amcis/SyedCETA25",
-      "Private evidence note: papers/multi-dimensional-bias-analysis-in-llms-using-hierarchical-and-interaction-models-aebdb1da27/pdf-evidence/notes/parallel-batch-01-multi-dimensional-bias-llm.md"
+      "Additional review evidence was used; working files are not distributed"
     ],
     "summary_written_by": "AI-assisted",
     "summary_verified_by": "metadata/abstract-grounded catalog review; full-text review and author approval pending",

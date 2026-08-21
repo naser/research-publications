@@ -82,5 +82,5 @@ A. Shameli-Sendi, N. Ezzati-Jivan, M. Jabbarifar, and M. Dagenais, "Intrusion Re
 
 - Metadata verified: 2026-08-09
 - Summary status: full-text-grounded catalog review; author approval pending
-- Metadata sources: Remote full text read: pdf-evidence/notes/parallel-batch-04-intrusion-response-systems-survey-and-taxonomy.md; Institutional record: https://publications.polymtl.ca/14629/; Remote article copy: https://www.researchgate.net/publication/267917501_Intrusion_Response_Systems_Survey_and_Taxonomy
+- Metadata sources: Remote full text read: additional review evidence; Institutional record: https://publications.polymtl.ca/14629/; Remote article copy: https://www.researchgate.net/publication/267917501_Intrusion_Response_Systems_Survey_and_Taxonomy
 - Machine-readable record: [paper.json](./paper.json)
