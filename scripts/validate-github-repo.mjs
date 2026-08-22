@@ -313,7 +313,11 @@ for (const paperId of paperIds) {
     if (paper.identifiers?.doi && !html.includes("citation_doi")) failures.push(paperId + ": HTML missing citation_doi");
     if (!html.includes("citation_publication_date")) failures.push(paperId + ": HTML missing citation_publication_date");
     if (!/preprint/i.test(paper.publication?.type ?? "") && !/citation_(conference|journal|book)_title/.test(html)) failures.push(paperId + ": HTML missing venue-specific citation metadata");
-    if (html.includes("citation_pdf_url")) failures.push(paperId + ": external citation_pdf_url must not be emitted without a lawful local PDF");
+    const publicPdfVersion = (paper.versions ?? []).find((version) => version.pdf_url && /(public|full[_ -]?text|cc[-_]?by)/i.test(String(version.status ?? "")));
+    const shouldHaveCitationPdf = Boolean(paper.scholar_eligibility?.eligible && publicPdfVersion?.pdf_url);
+    const hasCitationPdf = html.includes("citation_pdf_url");
+    if (shouldHaveCitationPdf && !hasCitationPdf) failures.push(paperId + ": eligible page with public PDF is missing citation_pdf_url");
+    if (!shouldHaveCitationPdf && hasCitationPdf) failures.push(paperId + ": citation_pdf_url requires a complete author abstract and a public PDF version");
     for (const keyword of paper.keywords ?? []) {
       const key = keywordSlug(keyword);
       const linked = html.includes("href=\"../../keywords/" + key + ".html\"");
